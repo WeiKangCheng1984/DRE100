@@ -94,11 +94,14 @@
             <!-- View toggles & Quick stats -->
             <div class="flex items-center gap-2 sm:gap-4 flex-wrap justify-end">
                 <div class="flex items-center bg-slate-100 dark:bg-slate-800 p-1 rounded-xl border border-slate-200 dark:border-slate-700 text-xs sm:text-sm">
-                    <button id="btnModuleGlossary" onclick="switchModule('glossary')" class="px-3 py-1.5 rounded-lg font-medium transition-all shadow-sm bg-white dark:bg-slate-700 text-blue-700 dark:text-blue-300">
+                    <button id="btnModuleGlossary" onclick="switchModule('glossary')" class="px-2.5 sm:px-3 py-1.5 rounded-lg font-medium transition-all shadow-sm bg-white dark:bg-slate-700 text-blue-700 dark:text-blue-300">
                         名詞手冊
                     </button>
-                    <button id="btnModuleQuiz" onclick="switchModule('quiz')" class="px-3 py-1.5 rounded-lg font-medium transition-all text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white">
+                    <button id="btnModuleQuiz" onclick="switchModule('quiz')" class="px-2.5 sm:px-3 py-1.5 rounded-lg font-medium transition-all text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white">
                         題庫練習
+                    </button>
+                    <button id="btnModuleQuiz2" onclick="switchModule('quiz2')" class="px-2.5 sm:px-3 py-1.5 rounded-lg font-medium transition-all text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white">
+                        題庫練習二
                     </button>
                 </div>
                 <!-- Mode Switcher -->
@@ -277,6 +280,7 @@
         <div id="quizApp" class="hidden flex flex-col gap-5">
             <div class="bg-white dark:bg-slate-900 rounded-2xl border border-slate-200 dark:border-slate-800 p-4 sm:p-5 shadow-sm flex flex-col sm:flex-row sm:items-center justify-between gap-3">
                 <div class="flex flex-wrap items-center gap-2 text-xs sm:text-sm">
+                    <span id="quizBankLabel" class="px-3 py-1.5 rounded-xl bg-indigo-50 dark:bg-indigo-950/40 border border-indigo-200 dark:border-indigo-800 text-indigo-700 dark:text-indigo-300 font-semibold">題庫練習</span>
                     <span class="px-3 py-1.5 rounded-xl bg-slate-100 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-slate-600 dark:text-slate-300">
                         共 <span id="quizTotalDisplay" class="font-semibold text-blue-600 dark:text-blue-400">0</span> 題
                     </span>
@@ -1251,7 +1255,7 @@
         ];
 
         let state = {
-            appModule: "glossary", // 'glossary' | 'quiz'
+            appModule: "glossary", // 'glossary' | 'quiz' | 'quiz2'
             currentDomain: "全部領域 (All)",
             searchQuery: "",
             viewMode: "list", // 'list' | 'card'
@@ -1268,7 +1272,7 @@
             renderList();
             updateCounters();
             setupTheme();
-            loadQuiz();
+            loadAllQuizzes();
         }
 
         function getFilteredData() {
@@ -1681,7 +1685,7 @@
         window.addEventListener('keydown', (e) => {
             const tag = (e.target && e.target.tagName) ? e.target.tagName.toLowerCase() : "";
             if (tag === "input" || tag === "textarea") return;
-            if (state.appModule === "quiz") {
+            if (state.appModule === "quiz" || state.appModule === "quiz2") {
                 if (e.key === "ArrowRight") quizNext();
                 if (e.key === "ArrowLeft") quizPrev();
                 if (["1", "2", "3", "4", "a", "b", "c", "d", "A", "B", "C", "D"].includes(e.key)) {
@@ -1700,12 +1704,37 @@
             }
         });
 
-        const QUIZ_STORAGE_KEY = "dre-quiz-progress-v1";
-        let quizQuestions = [];
-        let quizState = {
-            index: 0,
-            answers: {}
+        const QUIZ_BANKS = {
+            quiz: {
+                key: "quiz",
+                url: "data/questions.json",
+                storageKey: "dre-quiz-progress-v1",
+                label: "題庫練習",
+                subtitle: "題庫練習：順序刷題、跳題與解析",
+                resetToast: "已清除題庫作答紀錄",
+                questions: [],
+                loaded: false,
+                failed: false,
+                state: { index: 0, answers: {} }
+            },
+            quiz2: {
+                key: "quiz2",
+                url: "data/questions2.json",
+                storageKey: "dre-quiz2-progress-v1",
+                label: "題庫練習二",
+                subtitle: "題庫練習二：艱難考題、跳題與解析",
+                resetToast: "已清除題庫練習二作答紀錄",
+                questions: [],
+                loaded: false,
+                failed: false,
+                state: { index: 0, answers: {} }
+            }
         };
+        let activeQuizKey = "quiz";
+
+        function currentQuiz() {
+            return QUIZ_BANKS[activeQuizKey];
+        }
 
         function switchModule(mod) {
             state.appModule = mod;
@@ -1714,72 +1743,97 @@
             const glossarySwitch = document.getElementById("glossaryViewSwitch");
             const btnGlossary = document.getElementById("btnModuleGlossary");
             const btnQuiz = document.getElementById("btnModuleQuiz");
+            const btnQuiz2 = document.getElementById("btnModuleQuiz2");
             const subtitle = document.getElementById("headerSubtitle");
-            const active = "px-3 py-1.5 rounded-lg font-medium transition-all shadow-sm bg-white dark:bg-slate-700 text-blue-700 dark:text-blue-300";
-            const idle = "px-3 py-1.5 rounded-lg font-medium transition-all text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white";
+            const active = "px-2.5 sm:px-3 py-1.5 rounded-lg font-medium transition-all shadow-sm bg-white dark:bg-slate-700 text-blue-700 dark:text-blue-300";
+            const idle = "px-2.5 sm:px-3 py-1.5 rounded-lg font-medium transition-all text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white";
 
-            if (mod === "quiz") {
-                glossaryMain.style.display = "none";
-                quizMain.style.display = "flex";
-                glossarySwitch.style.display = "none";
-                btnQuiz.className = active;
-                btnGlossary.className = idle;
-                subtitle.textContent = "題庫練習：順序刷題、跳題與解析";
-                renderQuiz();
-            } else {
+            btnGlossary.className = idle;
+            btnQuiz.className = idle;
+            btnQuiz2.className = idle;
+
+            if (mod === "glossary") {
                 glossaryMain.style.display = "";
                 quizMain.style.display = "none";
                 glossarySwitch.style.display = "";
                 btnGlossary.className = active;
-                btnQuiz.className = idle;
                 subtitle.textContent = "核心 100 組易混淆名詞速成手冊";
+                return;
             }
+
+            glossaryMain.style.display = "none";
+            quizMain.style.display = "flex";
+            glossarySwitch.style.display = "none";
+            activeQuizKey = mod;
+            if (mod === "quiz2") btnQuiz2.className = active;
+            else btnQuiz.className = active;
+            subtitle.textContent = currentQuiz().subtitle;
+            showQuizBank();
         }
 
-        function loadQuizProgress() {
+        function loadQuizProgress(bank) {
             try {
-                const raw = localStorage.getItem(QUIZ_STORAGE_KEY);
+                const raw = localStorage.getItem(bank.storageKey);
                 if (!raw) return;
                 const saved = JSON.parse(raw);
-                if (typeof saved.index === "number") quizState.index = saved.index;
-                if (saved.answers && typeof saved.answers === "object") quizState.answers = saved.answers;
+                if (typeof saved.index === "number") bank.state.index = saved.index;
+                if (saved.answers && typeof saved.answers === "object") bank.state.answers = saved.answers;
             } catch (err) {
-                quizState = { index: 0, answers: {} };
+                bank.state = { index: 0, answers: {} };
             }
         }
 
         function saveQuizProgress() {
-            localStorage.setItem(QUIZ_STORAGE_KEY, JSON.stringify({
-                index: quizState.index,
-                answers: quizState.answers
+            const bank = currentQuiz();
+            localStorage.setItem(bank.storageKey, JSON.stringify({
+                index: bank.state.index,
+                answers: bank.state.answers
             }));
         }
 
-        async function loadQuiz() {
-            const errorBox = document.getElementById("quizLoadError");
-            const appBox = document.getElementById("quizApp");
+        async function loadQuizBank(key) {
+            const bank = QUIZ_BANKS[key];
             try {
-                const res = await fetch("data/questions.json");
+                const res = await fetch(bank.url);
                 if (!res.ok) throw new Error("fetch failed");
-                quizQuestions = await res.json();
-                loadQuizProgress();
-                if (quizState.index < 0 || quizState.index >= quizQuestions.length) {
-                    quizState.index = 0;
+                bank.questions = await res.json();
+                loadQuizProgress(bank);
+                if (bank.state.index < 0 || bank.state.index >= bank.questions.length) {
+                    bank.state.index = 0;
                 }
-                errorBox.classList.add("hidden");
-                appBox.classList.remove("hidden");
-                renderQuiz();
+                bank.loaded = true;
+                bank.failed = false;
             } catch (err) {
-                errorBox.classList.remove("hidden");
-                appBox.classList.add("hidden");
+                bank.loaded = false;
+                bank.failed = true;
             }
         }
 
+        async function loadAllQuizzes() {
+            await Promise.all([loadQuizBank("quiz"), loadQuizBank("quiz2")]);
+            if (state.appModule === "quiz" || state.appModule === "quiz2") showQuizBank();
+        }
+
+        function showQuizBank() {
+            const bank = currentQuiz();
+            const errorBox = document.getElementById("quizLoadError");
+            const appBox = document.getElementById("quizApp");
+            if (bank.failed || !bank.loaded) {
+                errorBox.classList.remove("hidden");
+                appBox.classList.add("hidden");
+                return;
+            }
+            errorBox.classList.add("hidden");
+            appBox.classList.remove("hidden");
+            renderQuiz();
+        }
+
         function quizStats() {
+            const bank = currentQuiz();
             let answered = 0;
             let correct = 0;
-            quizQuestions.forEach((q) => {
-                const picked = quizState.answers[q.id];
+            bank.questions.forEach((q) => {
+                const picked = bank.state.answers[q.id];
                 if (!picked) return;
                 answered += 1;
                 if (picked === q.answer) correct += 1;
@@ -1788,27 +1842,29 @@
         }
 
         function renderQuiz() {
-            if (!quizQuestions.length) return;
-            const q = quizQuestions[quizState.index];
-            const total = quizQuestions.length;
+            const bank = currentQuiz();
+            if (!bank.questions.length) return;
+            const q = bank.questions[bank.state.index];
+            const total = bank.questions.length;
             const { answered, correct } = quizStats();
+            document.getElementById("quizBankLabel").innerText = bank.label;
             document.getElementById("quizTotalDisplay").innerText = total;
             document.getElementById("quizTotalNav").innerText = total;
             document.getElementById("quizAnsweredCount").innerText = answered;
             document.getElementById("quizCorrectCount").innerText = correct;
             document.getElementById("quizAccuracy").innerText = answered ? ("正確率 " + Math.round(correct / answered * 100) + "%") : "正確率 —";
-            document.getElementById("quizJumpInput").value = quizState.index + 1;
+            document.getElementById("quizJumpInput").value = bank.state.index + 1;
             document.getElementById("quizJumpInput").max = total;
             document.getElementById("quizSourceTag").innerText = q.source || "題庫";
-            document.getElementById("quizIdTag").innerText = q.id + " · " + (quizState.index + 1) + "/" + total;
+            document.getElementById("quizIdTag").innerText = q.id + " · " + (bank.state.index + 1) + "/" + total;
             document.getElementById("quizStemEn").innerText = q.stemEn;
             document.getElementById("quizStemZh").innerText = q.stemZh || "";
-            document.getElementById("quizPrevBtn").disabled = quizState.index === 0;
-            document.getElementById("quizNextBtn").disabled = quizState.index === total - 1;
-            document.getElementById("quizPrevBtn").classList.toggle("opacity-40", quizState.index === 0);
-            document.getElementById("quizNextBtn").classList.toggle("opacity-40", quizState.index === total - 1);
+            document.getElementById("quizPrevBtn").disabled = bank.state.index === 0;
+            document.getElementById("quizNextBtn").disabled = bank.state.index === total - 1;
+            document.getElementById("quizPrevBtn").classList.toggle("opacity-40", bank.state.index === 0);
+            document.getElementById("quizNextBtn").classList.toggle("opacity-40", bank.state.index === total - 1);
 
-            const picked = quizState.answers[q.id];
+            const picked = bank.state.answers[q.id];
             const choiceBox = document.getElementById("quizChoices");
             choiceBox.innerHTML = q.choices.map((c) => {
                 let extra = "bg-white dark:bg-slate-800 border-slate-200 dark:border-slate-700 hover:border-blue-400 hover:bg-blue-50 dark:hover:bg-slate-700";
@@ -1848,23 +1904,26 @@
         }
 
         function selectQuizAnswer(key) {
-            const q = quizQuestions[quizState.index];
-            if (!q || quizState.answers[q.id]) return;
-            quizState.answers[q.id] = key;
+            const bank = currentQuiz();
+            const q = bank.questions[bank.state.index];
+            if (!q || bank.state.answers[q.id]) return;
+            bank.state.answers[q.id] = key;
             saveQuizProgress();
             renderQuiz();
         }
 
         function quizPrev() {
-            if (quizState.index <= 0) return;
-            quizState.index -= 1;
+            const bank = currentQuiz();
+            if (bank.state.index <= 0) return;
+            bank.state.index -= 1;
             saveQuizProgress();
             renderQuiz();
         }
 
         function quizNext() {
-            if (quizState.index >= quizQuestions.length - 1) return;
-            quizState.index += 1;
+            const bank = currentQuiz();
+            if (bank.state.index >= bank.questions.length - 1) return;
+            bank.state.index += 1;
             saveQuizProgress();
             renderQuiz();
         }
@@ -1875,19 +1934,21 @@
         }
 
         function quizJumpTo(raw) {
+            const bank = currentQuiz();
             const n = parseInt(raw, 10);
-            if (!quizQuestions.length || Number.isNaN(n)) return;
-            const idx = Math.min(Math.max(n, 1), quizQuestions.length) - 1;
-            quizState.index = idx;
+            if (!bank.questions.length || Number.isNaN(n)) return;
+            const idx = Math.min(Math.max(n, 1), bank.questions.length) - 1;
+            bank.state.index = idx;
             saveQuizProgress();
             renderQuiz();
         }
 
         function resetQuizProgress() {
-            quizState.answers = {};
+            const bank = currentQuiz();
+            bank.state.answers = {};
             saveQuizProgress();
             renderQuiz();
-            showToast("已清除題庫作答紀錄", "info");
+            showToast(bank.resetToast, "info");
         }
 
         // Initialize on load
