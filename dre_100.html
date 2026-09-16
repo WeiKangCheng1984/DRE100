@@ -1,0 +1,1629 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>加州 DRE 不動產經紀人執照考試：核心 100 組易混淆名詞</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Noto+Sans+TC:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'Noto Sans TC', 'sans-serif'],
+                    },
+                    colors: {
+                        navy: {
+                            800: '#1e293b',
+                            900: '#0f172a',
+                        },
+                        amber: {
+                            500: '#f59e0b',
+                            600: '#d97706',
+                        },
+                        cal: {
+                            blue: '#1e40af',
+                            gold: '#b45309'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .card-perspective {
+            perspective: 1200px;
+        }
+        .flip-inner {
+            transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+            transform-style: preserve-3d;
+        }
+        .is-flipped {
+            transform: rotateY(180deg);
+        }
+        .flip-front, .flip-back {
+            backface-visibility: hidden;
+            -webkit-backface-visibility: hidden;
+        }
+        .flip-back {
+            transform: rotateY(180deg);
+        }
+        /* Custom scrollbar */
+        ::-webkit-scrollbar {
+            width: 7px;
+            height: 7px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #f1f5f9;
+        }
+        .dark ::-webkit-scrollbar-track {
+            background: #1e293b;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #cbd5e1;
+            border-radius: 4px;
+        }
+        .dark ::-webkit-scrollbar-thumb {
+            background: #475569;
+        }
+        .badge-domain {
+            letter-spacing: 0.05em;
+        }
+    </style>
+</head>
+<body class="bg-slate-50 dark:bg-slate-950 text-slate-800 dark:text-slate-100 min-h-screen flex flex-col font-sans antialiased transition-colors duration-200">
+
+    <header class="sticky top-0 z-40 backdrop-blur-md bg-white/90 dark:bg-slate-900/90 border-b border-slate-200 dark:border-slate-800 shadow-sm transition-colors">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between gap-4">
+            <div class="flex items-center gap-3">
+                <div class="h-10 w-10 rounded-xl bg-gradient-to-tr from-blue-700 to-indigo-600 flex items-center justify-center text-white font-bold shadow-md shadow-blue-500/20 text-lg">
+                    DRE
+                </div>
+                <div>
+                    <h1 class="text-base sm:text-lg font-bold text-slate-900 dark:text-white leading-tight">
+                        加州經紀人執照考試
+                    </h1>
+                    <p class="text-xs text-slate-500 dark:text-slate-400 font-medium">核心 100 組易混淆名詞速成手冊</p>
+                </div>
+            </div>
+
+            <!-- View toggles & Quick stats -->
+            <div class="flex items-center gap-2 sm:gap-4">
+                <!-- Mode Switcher -->
+                <div class="flex items-center bg-slate-100 dark:bg-slate-800 p-1 rounded-xl border border-slate-200 dark:border-slate-700 text-xs sm:text-sm">
+                    <button id="btnListMode" onclick="switchView('list')" class="px-3 py-1.5 rounded-lg font-medium transition-all shadow-sm bg-white dark:bg-slate-700 text-blue-700 dark:text-blue-300">
+                        條列檢視
+                    </button>
+                    <button id="btnCardMode" onclick="switchView('card')" class="px-3 py-1.5 rounded-lg font-medium transition-all text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white">
+                        字卡翻閱
+                    </button>
+                </div>
+
+                <!-- Theme Toggle -->
+                <button onclick="toggleDarkMode()" title="切換深淺模式" class="p-2 rounded-xl text-slate-500 hover:bg-slate-100 dark:text-slate-400 dark:hover:bg-slate-800 border border-slate-200 dark:border-slate-700 transition-colors">
+                    <svg id="themeIconSun" class="w-5 h-5 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"></path></svg>
+                    <svg id="themeIconMoon" class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"></path></svg>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main class="flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-6 flex flex-col gap-6">
+        
+        <!-- Controls panel -->
+        <div class="bg-white dark:bg-slate-900 rounded-2xl border border-slate-200 dark:border-slate-800 p-4 sm:p-5 shadow-sm flex flex-col gap-4">
+            <!-- Search & Actions row -->
+            <div class="flex flex-col md:flex-row gap-3 items-center justify-between">
+                <!-- Search input -->
+                <div class="relative w-full md:w-96">
+                    <svg class="absolute left-3.5 top-1/2 -translate-y-1/2 w-4 h-4 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+                    </svg>
+                    <input 
+                        type="text" 
+                        id="searchInput" 
+                        placeholder="搜尋名詞、編號、考點（如：Void, TTIP, 拍賣）..." 
+                        oninput="handleSearch()"
+                        class="w-full pl-10 pr-10 py-2.5 bg-slate-50 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 dark:focus:ring-blue-400 dark:text-white transition-colors"
+                    >
+                    <button id="clearSearchBtn" onclick="clearSearch()" class="hidden absolute right-3 top-1/2 -translate-y-1/2 text-slate-400 hover:text-slate-600 dark:hover:text-slate-200 text-sm">✕</button>
+                </div>
+
+                <!-- Status Counters & Random Test -->
+                <div class="flex flex-wrap items-center gap-2 sm:gap-3 w-full md:w-auto justify-end text-xs sm:text-sm">
+                    <div class="flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-slate-100 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-slate-600 dark:text-slate-300">
+                        <span class="font-semibold text-blue-600 dark:text-blue-400" id="totalCountDisplay">100</span> 個知識點
+                    </div>
+                    <button onclick="toggleMasterFilter('starred')" id="starredFilterBtn" class="flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-amber-50 dark:bg-amber-950/40 border border-amber-200 dark:border-amber-800 text-amber-700 dark:text-amber-400 hover:bg-amber-100 transition-colors">
+                        ⭐ 收藏重點 (<span id="starredCount">0</span>)
+                    </button>
+                    <button onclick="toggleMasterFilter('mastered')" id="masteredFilterBtn" class="flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-emerald-50 dark:bg-emerald-950/40 border border-emerald-200 dark:border-emerald-800 text-emerald-700 dark:text-emerald-400 hover:bg-emerald-100 transition-colors">
+                        ✅ 已掌握 (<span id="masteredCount">0</span>)
+                    </button>
+                    <button onclick="pickRandom()" class="px-3 py-1.5 rounded-xl bg-indigo-600 hover:bg-indigo-700 text-white font-medium shadow-sm transition-colors flex items-center gap-1">
+                        🎲 抽查複習
+                    </button>
+                </div>
+            </div>
+
+            <!-- Domain filter badges -->
+            <div class="flex flex-col gap-1.5">
+                <span class="text-xs font-semibold text-slate-400 uppercase tracking-wider">領域切換 (Domains)</span>
+                <div class="flex flex-wrap gap-1.5" id="domainFilterContainer">
+                    <!-- Populated dynamically -->
+                </div>
+            </div>
+        </div>
+
+        <!-- LIST VIEW -->
+        <div id="listViewContainer" class="grid grid-cols-1 gap-4">
+            <!-- Items rendered via JS -->
+        </div>
+
+        <!-- CARD / FLASHCARD VIEW -->
+        <div id="cardViewContainer" class="hidden flex flex-col items-center justify-center py-4">
+            <div class="w-full max-w-2xl">
+                <!-- Card Navigator -->
+                <div class="flex items-center justify-between mb-4 px-2">
+                    <span class="text-sm font-medium text-slate-500 dark:text-slate-400">
+                        卡片進度：<span id="currentCardIndex" class="font-bold text-blue-600 dark:text-blue-400">1</span> / <span id="totalCardCount">100</span>
+                    </span>
+                    <div class="flex items-center gap-2">
+                        <button onclick="prevCard()" class="p-2 rounded-xl bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 hover:bg-slate-100 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-200">
+                            ← 上一題
+                        </button>
+                        <button onclick="flipCurrentCard()" class="px-4 py-2 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-medium shadow-sm">
+                            🔄 翻轉卡片
+                        </button>
+                        <button onclick="nextCard()" class="p-2 rounded-xl bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 hover:bg-slate-100 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-200">
+                            下一題 →
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Flashcard Single Entity -->
+                <div id="flashcardElement" class="w-full min-h-[380px] card-perspective cursor-pointer" onclick="flipCurrentCard()">
+                    <div id="flashcardInner" class="flip-inner relative w-full h-full min-h-[380px] bg-white dark:bg-slate-900 rounded-3xl border border-slate-200 dark:border-slate-800 shadow-xl p-6 sm:p-8 flex flex-col justify-between">
+                        <!-- Front Face -->
+                        <div id="cardFront" class="flip-front flex flex-col justify-between h-full">
+                            <div>
+                                <div class="flex items-center justify-between gap-2 mb-4">
+                                    <span id="cardDomainTag" class="text-xs font-semibold px-2.5 py-1 rounded-full bg-blue-100 dark:bg-blue-950/60 text-blue-800 dark:text-blue-300"></span>
+                                    <span id="cardIdTag" class="text-sm font-mono font-bold text-slate-400">#001</span>
+                                </div>
+                                <h2 id="cardTitle" class="text-xl sm:text-2xl font-extrabold text-slate-900 dark:text-white mb-6"></h2>
+                                <div class="p-4 rounded-2xl bg-amber-50 dark:bg-amber-950/30 border border-amber-200/70 dark:border-amber-800/40 text-amber-900 dark:text-amber-200 mb-4">
+                                    <div class="text-xs font-bold uppercase tracking-wider text-amber-700 dark:text-amber-400 mb-1">🔍 思考題：核心區分與考點準則</div>
+                                    <p class="text-sm text-slate-700 dark:text-slate-300">請先回想兩者本質差異，點擊卡片查看答案與詳細解析。</p>
+                                </div>
+                            </div>
+                            <div class="text-center text-xs text-slate-400 flex items-center justify-center gap-1 pt-4 border-t border-slate-100 dark:border-slate-800">
+                                <span>👆 點擊卡片翻閱詳細解析與中英文對照</span>
+                            </div>
+                        </div>
+
+                        <!-- Back Face (Detailed) -->
+                        <div id="cardBack" class="flip-back absolute inset-0 p-6 sm:p-8 overflow-y-auto flex flex-col justify-between bg-white dark:bg-slate-900 rounded-3xl">
+                            <div class="flex flex-col gap-4">
+                                <div class="flex items-center justify-between border-b pb-3 border-slate-100 dark:border-slate-800">
+                                    <h3 id="cardBackTitle" class="font-bold text-base text-slate-900 dark:text-white"></h3>
+                                    <span class="text-xs text-blue-600 dark:text-blue-400 font-semibold">解析面板</span>
+                                </div>
+                                
+                                <!-- Core Diff -->
+                                <div class="text-sm">
+                                    <span class="font-semibold text-blue-700 dark:text-blue-400">【區分核心】</span>
+                                    <span id="cardCore" class="text-slate-700 dark:text-slate-200"></span>
+                                </div>
+
+                                <!-- Exam rule -->
+                                <div class="p-3 bg-red-50 dark:bg-red-950/30 border-l-4 border-red-500 rounded-r-xl text-xs sm:text-sm text-red-900 dark:text-red-200">
+                                    <span class="font-bold">【考點準則】</span>
+                                    <span id="cardExamRule"></span>
+                                </div>
+
+                                <!-- Bilingual Section -->
+                                <div class="space-y-2 text-xs sm:text-sm pt-2">
+                                    <div class="p-3 bg-slate-50 dark:bg-slate-800/70 rounded-xl border border-slate-200 dark:border-slate-700/60 font-mono text-slate-800 dark:text-slate-200 leading-relaxed">
+                                        <span class="font-bold text-indigo-600 dark:text-indigo-400">EN: </span>
+                                        <span id="cardEnText"></span>
+                                    </div>
+                                    <div class="p-3 bg-slate-50 dark:bg-slate-800/70 rounded-xl border border-slate-200 dark:border-slate-700/60 text-slate-700 dark:text-slate-300 leading-relaxed">
+                                        <span class="font-bold text-emerald-600 dark:text-emerald-400">ZH: </span>
+                                        <span id="cardZhText"></span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="pt-4 mt-2 border-t border-slate-100 dark:border-slate-800 flex items-center justify-between text-xs text-slate-400">
+                                <span>再次點擊可返回正面</span>
+                                <div class="flex gap-2" onclick="event.stopPropagation()">
+                                    <button id="cardStarBtn" onclick="toggleCardStar()" class="px-3 py-1 rounded-lg border border-slate-200 dark:border-slate-700">⭐ 收藏</button>
+                                    <button id="cardMasterBtn" onclick="toggleCardMaster()" class="px-3 py-1 rounded-lg bg-emerald-600 text-white">✅ 標記已熟練</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Empty State Message -->
+        <div id="emptyState" class="hidden text-center py-16">
+            <div class="text-4xl mb-2">🔍</div>
+            <p class="text-slate-500 dark:text-slate-400 font-medium">查無符合條件的名詞，請放寬關鍵字或領域篩選。</p>
+            <button onclick="resetFilters()" class="mt-4 px-4 py-2 bg-blue-600 text-white text-sm rounded-xl hover:bg-blue-700 transition">重設所有篩選</button>
+        </div>
+
+    </main>
+
+    <div id="toastMessage" class="fixed bottom-6 right-6 px-4 py-2.5 rounded-xl shadow-lg bg-slate-900 text-white dark:bg-white dark:text-slate-900 text-sm font-medium z-50 transform transition-all duration-300 translate-y-20 opacity-0 pointer-events-none flex items-center gap-2">
+        <span id="toastIcon">✨</span>
+        <span id="toastText">訊息已更新</span>
+    </div>
+
+    <script>
+        const domains = [
+            "全部領域 (All)",
+            "一：契約法與法律效力",
+            "二：代理法規與受託義務",
+            "三：物權、地產權益與共有產權",
+            "四：物權負擔、地役權與相鄰關係",
+            "五：融資、抵押貸款與信託契據",
+            "六：產權轉讓、契據與產權保險",
+            "七：不動產估價與原則",
+            "八：租賃物業管理與商業租約",
+            "九：政府公權力、土地管制與公平住房"
+        ];
+
+        const rawData = [
+            {
+                id: "001",
+                domain: "一：契約法與法律效力",
+                title: "Void vs. Voidable｜自始無效 vs. 得撤銷",
+                core: "Void 自始欠缺法定要件，法律上從未生效；Voidable 表面具備效力，但受害方享有撤銷權。",
+                examRule: "買賣條件（Contingency）未達成使合約轉為 Voidable，並非自動變為 Void。",
+                en: "A void contract has no legal force or binding effect from its inception (such as an illegal contract), whereas a voidable contract is valid on its face but may be rejected or rescinded at the option of the injured or protected party (such as a contract entered under duress or by a minor).",
+                zh: "自始無效（Void）契約從一開始就不具備任何法律拘束力（例如違法標的）；得撤銷（Voidable）契約表面有效，但受害方或受法律保護的一方（如受脅迫或未成年人）享有選擇撤銷或維持合約的權利。"
+            },
+            {
+                id: "002",
+                domain: "一：契約法與法律效力",
+                title: "Assignment vs. Novation｜合約轉讓 vs. 契約更新",
+                core: "Assignment 僅移轉權利，原讓與人（Assignor）仍負次要責任；Novation 則徹底免除原當事人責任。",
+                examRule: "題幹出現 \"relieve of all liability\" 或 \"release original party\" 時，唯一正確答案為 Novation。",
+                en: "Assignment transfers the rights and duties of a contract to a third party while retaining secondary liability on the assignor; novation completely substitutes a new party or a new obligation for an old one, fully releasing the original party from any future liability.",
+                zh: "轉讓（Assignment）是將合約權益轉給第三方，但原轉讓人仍須負擔次要連帶責任；契約更新（Novation）則是以新合約或新當事人完全取代舊合約，徹底免除原當事人的所有法律責任。"
+            },
+            {
+                id: "003",
+                domain: "一：契約法與法律效力",
+                title: "Executed vs. Executory｜已履行合約 vs. 待履行合約",
+                core: "Executed 代表合約義務已全部結清履行（交易 Close）；Executory 代表過戶期間尚有義務待完成。",
+                examRule: "託管（Escrow）期間尚未過戶交屋的買賣合約，法律上屬於 Executory Contract。",
+                en: "An executed contract is one where all parties have fully performed and completed all contractual promises, whereas an executory contract is an ongoing agreement where one or more terms remain to be fulfilled by the contracting parties.",
+                zh: "已履行（Executed）合約是指雙方當事人已將合約約定之所有承諾完全履行完畢；待履行（Executory）合約則是合約已成立，但雙方或一方尚有未完成之合約義務（如過戶交屋前）。"
+            },
+            {
+                id: "004",
+                domain: "一：契約法與法律效力",
+                title: "Bilateral vs. Unilateral｜雙務契約 vs. 單務契約",
+                core: "Bilateral 是雙方互負對價承諾（Promise for a promise）；Unilateral 是單方承諾換取行動（Promise for an act）。",
+                examRule: "未被買方正式行使前的選擇權合約（Option Contract）屬於單務契約（Unilateral）。",
+                en: "A bilateral contract is formed through a mutual exchange of promises binding both parties to performance, while a unilateral contract binds only one party (the promisor) unless the other party chooses to perform the requested act.",
+                zh: "雙務契約（Bilateral）由雙方互換承諾成立，雙方皆受履約約束；單務契約（Unilateral）僅有一方做出承諾，唯有相對人實際付諸行動時合約才產生拘束力。"
+            },
+            {
+                id: "005",
+                domain: "一：契約法與法律效力",
+                title: "Specific Performance vs. Liquidated Damages｜強制履行之訴 vs. 預定違約金",
+                core: "Specific Performance 是請求法院命違約方依約履行；Liquidated Damages 是沒收合約預定的損害賠償金。",
+                examRule: "經紀人（Broker）不可向法庭提起 Specific Performance 來追討佣金。",
+                en: "Specific performance is an equitable court remedy compelling the defaulting party to execute the precise terms of a contract, whereas liquidated damages refer to a pre-agreed financial sum specified in the contract to be forfeited if a party breaches.",
+                zh: "強制履行（Specific Performance）是由衡平法院命違約方精確履行合約約定事項的訴訟救濟；預定違約金（Liquidated Damages）則是合約中預先約定好，違約時直接沒收的定額金錢賠償（如買方違約時沒收訂金）。"
+            },
+            {
+                id: "006",
+                domain: "一：契約法與法律效力",
+                title: "Rescission vs. Cancellation / Release｜合約解除（返還原狀） vs. 合約終止（免除後續）",
+                core: "Rescission 徹底恢復締約前的原始狀態（退還給付）；Cancellation 僅免除後續義務，不必然退回既有對價。",
+                examRule: "題目提及 \"restore both parties to original positions\" 必選 Rescission。",
+                en: "Rescission annuls the contract ab initio and restores all parties to the exact financial and legal positions they occupied before entering the agreement, whereas cancellation terminates the ongoing executory duties of the contract without retroactively unwinding completed acts.",
+                zh: "解除合約（Rescission）是自始作廢合約，並將雙方恢復至簽約前的原始法律與財務狀態（退還保證金）；終止合約（Cancellation）則是合意免除後續履行義務，但並不溯及既往撤銷已履行的行為。"
+            },
+            {
+                id: "007",
+                domain: "一：契約法與法律效力",
+                title: "Express Contract vs. Implied Contract｜明示合約 vs. 默示合約",
+                core: "Express 以書面或口頭明確言明條款；Implied 則由客觀行為及常理推定成立。",
+                examRule: "依據防止欺詐條例（Statute of Frauds），不動產買賣契約必須為書面明示（Express & Written）。",
+                en: "An express contract is created through explicitly stated words, whether written down or spoken orally, while an implied contract is inferred by law from the conduct, actions, or circumstances of the parties.",
+                zh: "明示合約（Express）透過明確的文字書面或口頭言語訂立；默示合約（Implied）則未經明言，是由當事人的實際舉止、行為或客觀情境在法律上推定成立。"
+            },
+            {
+                id: "008",
+                domain: "一：契約法與法律效力",
+                title: "Actual Fraud vs. Constructive Fraud｜實質蓄意詐欺 vs. 推定過失詐欺",
+                core: "Actual Fraud 具備主觀欺騙之惡意；Constructive Fraud 無惡意，但因過失未查證或違反受託義務造成損害。",
+                examRule: "經紀人明知地下室滲水卻故意隱瞞，構成 Actual Fraud。",
+                en: "Actual fraud involves a deliberate, intentional misrepresentation or concealment of a material fact designed to deceive, while constructive fraud is a breach of duty or negligent misstatement made without fraudulent intent, but which misleads another to their detriment.",
+                zh: "實質詐欺（Actual Fraud）指明知事實真相卻蓄意做出虛偽陳述或刻意隱瞞重大事實以誘使他人受騙；推定詐欺（Constructive Fraud）雖無惡意欺瞞企圖，但因疏忽過失或未盡查證職責而致使他人遭受損害。"
+            },
+            {
+                id: "009",
+                domain: "一：契約法與法律效力",
+                title: "Fraud vs. Puffing｜違法詐欺 vs. 商業誇大吹捧",
+                core: "Fraud 針對客觀重大事實造假；Puffing 屬於主觀個人意見的合理誇飾。",
+                examRule: "宣稱「本屋擁有全縣最棒夕陽」屬合法吹捧（Puffing）；謊稱「地界包含後方小溪」屬違法詐欺（Fraud）。",
+                en: "Fraud is an actionable legal violation based on false statements of material facts, whereas puffing consists of non-factual sales talk and subjective opinions that a reasonable buyer would not rely on as factual reality.",
+                zh: "詐欺（Fraud）是針對客觀重大事實進行虛偽陳述的違法行為；吹捧（Puffing）則是行銷時主觀的主觀意見表達與誇飾口吻，理性買方不得將其視為客觀事實保證。"
+            },
+            {
+                id: "010",
+                domain: "一：契約法與法律效力",
+                title: "Statute of Frauds vs. Statute of Limitations｜反詐欺法 vs. 消滅時效法",
+                core: "Statute of Frauds 管制「合約是否必須為書面」；Statute of Limitations 管制「起訴的法定有效期限」。",
+                examRule: "不動產買賣合約若為口頭形式，因違反 Statute of Frauds 而不具強制執行力。",
+                en: "The Statute of Frauds requires certain contracts, including real estate purchase agreements and leases exceeding one year, to be in writing to be legally enforceable; the Statute of Limitations establishes the strict statutory timeframe within which legal lawsuits must be filed.",
+                zh: "反詐欺法（Statute of Frauds）明定特定合約（如不動產買賣及超過一年的租約）必須採取書面形式才具法律強制執行力；消滅時效法（Statute of Limitations）則是規範原告向法院提起訴訟的法定有效時效期限。"
+            },
+            {
+                id: "011",
+                domain: "一：契約法與法律效力",
+                title: "Offeror vs. Offeree｜要約人 vs. 受要約人",
+                core: "Offeror 為提出出價/條件之一方；Offeree 為接收該要約並有權決定接受或拒絕之一方。",
+                examRule: "賣方提出反要約（Counteroffer）時，賣方身分立即轉變為 Offeror。",
+                en: "The offeror is the party proposing the contract terms (traditionally the buyer submitting a purchase offer), and the offeree is the party who receives the offer and possesses the legal power of acceptance (traditionally the seller).",
+                zh: "要約人（Offeror）是提出合約條件的一方（通常為出價的買方）；受要約人（Offeree）則是接收該提議並享有接受權力的一方（通常為賣方）。"
+            },
+            {
+                id: "012",
+                domain: "一：契約法與法律效力",
+                title: "Time is of the Essence vs. Reasonable Time｜時間實質要素條款 vs. 合理時間原則",
+                core: "載有 Time is of the Essence 時，遲延履約一日即構成實質違約；未約定時，法律推定給予合理寬限時間。",
+                examRule: "加州住宅買賣標準合約通常載明 Time is of the essence，買方遲延過戶構成實質違約。",
+                en: "A \"time is of the essence\" clause dictates that performance by the specified date is a vital condition of the contract, making any delay a material breach, whereas absence of this clause implies performance within a reasonable time.",
+                zh: "「時間為實質要素（Time is of the essence）」條款規定於約定期限內履行是合約的必要條件，任何遲延均構成重大違約；若無此條款，法律則推定雙方得以在常理之合理時間內履行義務。"
+            },
+            {
+                id: "013",
+                domain: "二：代理法規與受託義務",
+                title: "Client vs. Customer｜委託客戶 vs. 第三人顧客",
+                core: "Client 簽有書面代理契約，經紀人對其負有忠誠（Loyalty）等全套信託責任；Customer 未簽約，經紀人僅負誠實與實質揭露責任。",
+                examRule: "保密義務（Confidentiality）僅對 Client 承擔，經紀人不可將 Client 的底價底線洩漏給 Customer。",
+                en: "A client (principal) has signed an agency agreement, creating a fiduciary relationship of trust and absolute loyalty; a customer is an unrepresented third party entitled only to fair dealing, honesty, and disclosure of material physical defects.",
+                zh: "客戶（Client）已簽署代理協議，與經紀公司具有信託責任關係（享有絕對忠誠保護）；顧客（Customer）則是未聘請該經紀人的第三方，經紀人對其僅負有公平交易、誠實與揭露已知重大瑕疵之義務。"
+            },
+            {
+                id: "014",
+                domain: "二：代理法規與受託義務",
+                title: "Special Agent vs. General Agent vs. Universal Agent｜特別代理人 vs. 一般代理人 vs. 全權代理人",
+                core: "Special 僅限特定單一交易；General 具備持續性日常營運權限；Universal 具備本人得為之一切法律權限。",
+                examRule: "房屋買賣仲介是 Special Agent；物業經理（Property Manager）是 General Agent。",
+                en: "A special agent is authorized to perform a single specific act (such as a listing broker marketing a home); a general agent handles ongoing operations within a defined scope (such as a property manager); a universal agent holds legal authority to handle all affairs on behalf of the principal.",
+                zh: "特別代理人（Special Agent）僅獲授權執行特定單一任務（如房屋受託經紀人）；一般代理人（General Agent）獲授權持續性處理特定範疇內的所有常規營運（如物業經理）；全權代理人（Universal Agent）則被賦予代為處理委託人一切事務之最高法定權力。"
+            },
+            {
+                id: "015",
+                domain: "二：代理法規與受託義務",
+                title: "Single Agency vs. Dual Agency｜單一代理 vs. 雙重代理",
+                core: "Single Agency 僅代表買賣其中一方；Dual Agency 同時代表買賣雙方，加州法規要求事前雙方書面揭露與同意。",
+                examRule: "同一經紀公司（Broker）旗下的兩名不同業務員分別代表買方與賣方，法律上視為 Dual Agency。",
+                en: "Single agency occurs when a brokerage represents only one principal in a transaction; dual agency occurs when a single broker represents both buyer and seller in the same transaction, requiring written disclosure and informed written consent from both parties.",
+                zh: "單一代理（Single Agency）指經紀機構在交易中僅代表買方或賣方之一方；雙重代理（Dual Agency）指同一經紀機構在同一筆交易中同時代表買賣雙方，依法必須取得雙方的事前書面揭露與書面同意。"
+            },
+            {
+                id: "016",
+                domain: "二：代理法規與受託義務",
+                title: "Attorney-in-Fact vs. Power of Attorney (POA)｜代理簽署人 vs. 委任授權書",
+                core: "Power of Attorney 是一份書面法律授權文件；Attorney-in-Fact 則是獲得該授權代為簽署文件的具體個人。",
+                examRule: "簽署買賣契約時，代簽者必須在簽名欄標明為委任人的 Attorney-in-Fact。",
+                en: "A Power of Attorney is the formal legal document executed by a principal granting authority to another, while the attorney-in-fact is the actual designated individual authorized to sign and execute contracts on the principal's behalf under that document.",
+                zh: "委任授權書（Power of Attorney）是委託人出具的正式書面授權契約文件；代理簽署人（Attorney-in-Fact）則是依據該文件實際獲授權代表委託人簽署合約的被授權人。"
+            },
+            {
+                id: "017",
+                domain: "二：代理法規與受託義務",
+                title: "Exclusive Right to Sell vs. Exclusive Agency｜獨家授權銷售權 vs. 獨家代理委託",
+                core: "Exclusive Right to Sell 不論由誰（包含屋主自售）成交，經紀人皆享全額佣金；Exclusive Agency 若屋主自售免付佣金。",
+                examRule: "對上市經紀公司保障最全面的委託契約是 Exclusive Authorization and Right to Sell。",
+                en: "Under an Exclusive Right to Sell, the broker earns a commission regardless of who sells the real estate, even if the seller finds the buyer independently; under an Exclusive Agency, the seller reserves the legal right to sell the property personally without paying a commission.",
+                zh: "在獨家授權銷售（Exclusive Right to Sell）下，不論誰促成銷售（即便屋主自售），經紀人皆享有佣金；在獨家代理（Exclusive Agency）下，經紀人享有獨家代理，但若屋主自行找到買方，屋主免付佣金。"
+            },
+            {
+                id: "018",
+                domain: "二：代理法規與受託義務",
+                title: "Open Listing vs. Net Listing｜開放式委託 vs. 淨價委託",
+                core: "Open Listing 是非獨家，唯有促成簽約之經紀人（Procuring Cause）享佣金；Net Listing 是以約定底價超額部分作為佣金。",
+                examRule: "Open Listing 若屋主自行售出，無須支付佣金給任何經紀人。",
+                en: "An open listing is a non-exclusive contract allowing multiple brokers to compete, where only the procuring broker is paid; a net listing sets an agreed minimum net proceeds to the seller, with all surplus funds above that price retained by the broker as compensation.",
+                zh: "開放式委託（Open Listing）為非專屬委託，屋主可委託多名經紀人，僅真正促成簽約的經紀人享有佣金；淨價委託（Net Listing）是約定賣方實拿淨底價，超額售出的所有差價全歸經紀人作為佣金。"
+            },
+            {
+                id: "019",
+                domain: "二：代理法規與受託義務",
+                title: "Listing Broker vs. Selling Broker｜賣方委託經紀人 vs. 買方代表經紀人",
+                core: "Listing Broker 代表賣方將物業掛牌上市；Selling Broker 是實際帶進買方並促成買賣成立的經紀人（通常代表買方）。",
+                examRule: "在 DRE 試題中看到 \"Selling Agent\" 或 \"Selling Broker\"，常指代表買方的經紀人。",
+                en: "The listing broker represents the seller and lists the property on the market; the selling broker (also known as the cooperating or buyer's broker) represents or procures the buyer who successfully purchases the property.",
+                zh: "賣方委託經紀人（Listing Broker）代表屋主將房地產刊登於市場公開求售；銷售經紀人（Selling Broker / Cooperating Broker）則是實際引進買方並促成交易的買方代表經紀機構。"
+            },
+            {
+                id: "020",
+                domain: "二：代理法規與受託義務",
+                title: "Safety Clause vs. Listing Expiration｜保護期條款（安全條款） vs. 委託約期滿",
+                core: "Listing Expiration 指委託合約期限屆滿；Safety Clause 規定期滿後一定期間內，若賣給經紀人曾引薦的買方，仍享佣金。",
+                examRule: "經紀人主張 Safety Clause 前提是必須在合約期滿前將帶看之買方名單書面報備予賣方。",
+                en: "Listing expiration terminates the active marketing term; a safety clause (protection clause) preserves the broker's right to compensation for a specified period after expiration if the property is sold to a prospective buyer registered by the broker during the listing.",
+                zh: "委託期滿（Listing Expiration）使主動委託銷售約終止；保護期條款（Safety Clause）則保護經紀人在合約期滿後特定天數內，若房屋出售給經紀人合約期內曾帶看並書面報備的買方，經紀人仍有權索取佣金。"
+            },
+            {
+                id: "021",
+                domain: "二：代理法規與受託義務",
+                title: "Employee vs. Independent Contractor｜僱員（W-2） vs. 獨立承攬人（1099）",
+                core: "Employee 受工時與作業過程的嚴格管理；Independent Contractor 自主支配作業時間並自負稅額（1099）。",
+                examRule: "加州多數業務員在稅法上是獨立承攬人，但在加州不動產執照法上被視為 Broker 的受僱監督對象。",
+                en: "An employee is subject to strict managerial control over working hours, physical location, and methods, receiving a W-2; an independent contractor controls their own schedule, pays self-employment taxes (Form 1099), but remains under the broker's statutory regulatory supervision.",
+                zh: "僱員（Employee）受主管對工作時間、地點與作業程序的嚴密管束，領取 W-2 薪資單；獨立承攬人（Independent Contractor）自主掌握工作節奏自負稅賦（1099 稅表），但在房地產執照法上仍受 Broker 法定監管。"
+            },
+            {
+                id: "022",
+                domain: "二：代理法規與受託義務",
+                title: "Commingling vs. Conversion｜混淆資金 vs. 侵占挪用信託資金",
+                core: "Commingling 指將客戶的信託資金與經紀人個人的營運帳戶款項混在一起；Conversion 是挪用信託金作私用。",
+                examRule: "將客戶的訂金支票存入經紀公司的一般營運帳戶即構成 Commingling；拿去付辦公室租金則構成 Conversion（侵占罪）。",
+                en: "Commingling is the illegal practice of mixing client trust funds with a broker's personal or business operational accounts; conversion occurs when trust funds are actually misappropriated or spent unlawfully for personal or unauthorized purposes.",
+                zh: "資金混淆（Commingling）是指非法將客戶的信託帳戶資金與經紀人個人或公司的營運帳戶資金混雜存放；侵占挪用（Conversion）則是進一步擅自花費或動用該筆信託資金作未經授權之私用（構成刑事侵占）。"
+            },
+            {
+                id: "023",
+                domain: "三：物權、地產權益與共有產權",
+                title: "Real Property vs. Personal Property｜不動產 vs. 動產（Chattels）",
+                core: "Real Property 指土地、定著於土地之物及固有的權利束（Immovable）；Personal Property 指可隨人移動之物（Movable）。",
+                examRule: "土地上生長的天然樹木為 Real Property，被鋸下成為木材後轉變為 Personal Property。",
+                en: "Real property consists of land, everything permanently affixed to the land, and the appurtenant legal bundle of rights (Real = Immovable); personal property (chattels or personalty) includes all movable goods not permanently attached to real estate.",
+                zh: "不動產（Real Property）包含土地實體、永久附著於土地之改良物及其固有的權利束（不動產＝不可移動）；動產（Personal Property / Chattels）則包含所有未永久附著於土地的可移動物品。"
+            },
+            {
+                id: "024",
+                domain: "三：物權、地產權益與共有產權",
+                title: "Fixture vs. Trade Fixture｜定著物 vs. 營業用定著物",
+                core: "Fixture 附著於房地產後成為不動產一部分（隨屋移轉）；Trade Fixture 為商業租客營業用設備，仍屬動產。",
+                examRule: "商業租客在租期結束前可拆除移走 Trade Fixture，但必須修復因拆卸所造成的物理損壞。",
+                en: "A fixture is personal property physically attached to real estate in a manner that integrates it permanently into the realty (tested by MARIA); a trade fixture is commercial equipment installed by a business tenant, remaining personal property removable before the lease expires.",
+                zh: "定著物（Fixture）是原本為動產但因安裝固定而轉化為不動產一部分的物品（依 MARIA 原則判定）；營業用定著物（Trade Fixture）是商業租戶為經營生意而安裝的專用設備，法律上仍屬租戶的動產，租期結束前可拆走。"
+            },
+            {
+                id: "025",
+                domain: "三：物權、地產權益與共有產權",
+                title: "Severance vs. Annexation｜分離轉換（不動產轉動產） vs. 附著轉換（動產轉不動產）",
+                core: "Severance 是自土地脫離使其變為動產；Annexation 是將動產安裝於不動產使其成為定著物。",
+                examRule: "將水槽或吊燈安裝於房屋管線屬於 Annexation；拆卸水槽或砍倒樹木屬於 Severance。",
+                en: "Severance is the legal process of converting real property into personal property by detaching it from the land; annexation is the process of attaching personal property to realty, legally converting it into a fixture.",
+                zh: "分離（Severance）是透過將物品從土地上分離下來，使其由不動產轉化為動產的法律過程；附著（Annexation）則是將動產固定安裝至不動產上，使其法律屬性轉化為定著物的過程。"
+            },
+            {
+                id: "026",
+                domain: "三：物權、地產權益與共有產權",
+                title: "Freehold Estate vs. Less-Than-Freehold Estate｜自由產權（所有權） vs. 租賃產權（租賃權）",
+                core: "Freehold 具備無確定結束日期的實質所有權（Indefinite）；Less-Than-Freehold 具備特定期限之租賃佔有使用權。",
+                examRule: "Freehold 等同於所有權（Ownership）；Less-Than-Freehold 等同於租用權（Rental / Leasehold）。",
+                en: "A freehold estate represents real property ownership of an unpredictable or indefinite duration, whereas a less-than-freehold estate (leasehold) gives a tenant temporary, defined possession without transferring underlying ownership.",
+                zh: "自由繼承地產（Freehold Estate）代表持有時間無固定結束期限的實質不動產所有權；非自由產權（Less-Than-Freehold / 租賃產權）則是賦予承租人在特定期限內佔有與使用物業的權利，不具產權所有權。"
+            },
+            {
+                id: "027",
+                domain: "三：物權、地產權益與共有產權",
+                title: "Fee Simple Absolute vs. Fee Simple Defeasible｜完全所有權 vs. 附條件可廢止產權",
+                core: "Fee Simple Absolute 是法律上最高且無條件的產權；Fee Simple Defeasible 附帶特定限制，違反可能導致產權喪失。",
+                examRule: "契據中載有 \"so long as used for school purposes\" 屬於 Fee Simple Defeasible。",
+                en: "Fee simple absolute is the highest, most unconditional, and complete form of ownership recognized in law; fee simple defeasible conveys ownership subject to a condition or restriction, where a breach can cause forfeiture of title.",
+                zh: "完全所有權（Fee Simple Absolute）是法律所承認最高級、最完整且無附加任何條件的土地產權；附條件可廢止產權（Fee Simple Defeasible）則附帶了特定約束條件，一旦違反該約定，產權可能被撤銷沒收。"
+            },
+            {
+                id: "028",
+                domain: "三：物權、地產權益與共有產權",
+                title: "Fee Simple Determinable vs. Condition Subsequent｜限定決定產權 vs. 解除條件產權",
+                core: "Determinable 違規時產權自動回歸原讓與人（Auto-reverts）；Condition Subsequent 需由讓與人主動採取法律行動收回。",
+                examRule: "看到 \"automatically terminates\" 選 Determinable；看到 \"right of re-entry\" 選 Condition Subsequent。",
+                en: "Fee simple determinable automatically ends and reverts title to the grantor immediately upon the occurrence of a stated event; fee simple subject to a condition subsequent does not terminate automatically, requiring the grantor to take affirmative legal action to re-enter and reclaim the estate.",
+                zh: "限定決定產權（Fee Simple Determinable）在特定禁止事件發生時，產權立即自動回歸給原讓與人；解除條件產權（Condition Subsequent）在違約時不自動終止，讓與人必須主動行使重新進入權並透過法律程序收回產權。"
+            },
+            {
+                id: "029",
+                domain: "三：物權、地產權益與共有產權",
+                title: "Life Estate vs. Estate Pur Autre Vie｜終身地產（本人壽命） vs. 依他人壽命之終身地產",
+                core: "Life Estate 存續期以受領人本人生命為衡量標準；Pur Autre Vie 存續期以指定之第三人生命長短為衡量標準。",
+                examRule: "Life Tenant 死亡時其終身地產自動消滅，終身權人不得立遺囑處分該物業（Cannot will）。",
+                en: "A life estate grants ownership measured strictly by the lifetime of the tenant; an estate pur autre vie is a life estate whose duration is measured by the lifetime of a designated third party rather than the measuring life of the tenant.",
+                zh: "終身地產（Life Estate）之存續期間完全受限於受領人本人的生命長短；依他人壽命終身地產（Pur Autre Vie）的存續期間則是以指定之某位第三人的壽命長短作為計量標準。"
+            },
+            {
+                id: "030",
+                domain: "三：物權、地產權益與共有產權",
+                title: "Estate in Reversion vs. Estate in Remainder｜回復權 vs. 剩餘權",
+                core: "Reversion 是終身權人身故後產權歸還原讓與人；Remainder 是身故後產權轉移給指定的第三人（Remainderman）。",
+                examRule: "身故後產權移轉給第三方必為 Remainder。",
+                en: "Estate in reversion dictates that upon the life tenant's death, full title reverts back to the original grantor or their legal heirs; estate in remainder directs that title conveys forward to a named third party known as the remainderman.",
+                zh: "回復權（Estate in Reversion）規定終身權人過世時，完整產權回歸給原讓與人或其繼承人；剩餘權（Estate in Remainder）則指示終身權人身故時，產權移轉給指定的第三方（剩餘權人 Remainderman）。"
+            },
+            {
+                id: "031",
+                domain: "三：物權、地產權益與共有產權",
+                title: "Severalty vs. Concurrent Ownership｜單獨所有權 vs. 共有產權",
+                core: "Severalty 指單一自然人或法人獨立持有產權；Concurrent 指兩人以上共同持有產權。",
+                examRule: "公司（Corporation）以單一法律主體形式購買房產，產權型態屬於 Ownership in Severalty。",
+                en: "Ownership in severalty exists when title is held exclusively by a single individual or a single legal entity (sole ownership severed from all others); concurrent ownership occurs when two or more persons or entities hold title simultaneously.",
+                zh: "單獨所有（Severalty）是指產權完全由單一自然人或單一法人獨立持有（與其他人分離）；共有產權（Concurrent Ownership）則是指由兩人或兩人以上同時共同持有該不動產產權。"
+            },
+            {
+                id: "032",
+                domain: "三：物權、地產權益與共有產權",
+                title: "Joint Tenancy vs. Tenancy in Common (TIC)｜聯合共有 vs. 分別共有",
+                core: "Joint Tenancy 具備 TTIP 四大要素且享生存者取得權（Survivorship）；TIC 持份可不均且可自由立遺囑繼承。",
+                examRule: "Joint Tenancy 不得透過遺囑繼承處分（Cannot will）；TIC 可立遺囑轉移給繼承人。",
+                en: "Joint tenancy requires unity of time, title, interest, and possession (TTIP) and carries the right of survivorship (cannot be willed); tenancy in common allows unequal ownership interests, requires only unity of possession, and passes to heirs via a will.",
+                zh: "聯合共有（Joint Tenancy）必須同時具備時間、契據、持份、佔有均等之四大一體性（TTIP），享有生存者取得權（不可立遺囑繼承）；分別共有（TIC）允許持份比例不均，僅需佔有一體性，持份可自由立遺囑由繼承人繼承。"
+            },
+            {
+                id: "033",
+                domain: "三：物權、地產權益與共有產權",
+                title: "Right of Survivorship vs. Right of Inheritance｜生存者取得權 vs. 遺囑繼承權",
+                core: "Survivorship 使已故共有人的持份直接歸屬其他生存共有人（免認證）；Inheritance 則依遺囑由繼承人受領。",
+                examRule: "生存者取得權效力凌駕於遺囑之上，即便 Joint Tenant 立遺囑，該遺囑對共有持份無效。",
+                en: "The right of survivorship automatically vests the deceased owner's share into surviving co-owners immediately by operation of law without probate; the right of inheritance directs that property interest transfers according to the decedent's will or state intestacy laws.",
+                zh: "生存者取得權（Right of Survivorship）在共有人身故時，依法律規定自動將其持份歸併予其他生存之共有人（免經遺產認證法院）；遺囑繼承權（Right of Inheritance）則是依據死者遺囑或法定繼承順位移轉持份。"
+            },
+            {
+                id: "034",
+                domain: "三：物權、地產權益與共有產權",
+                title: "Community Property vs. CPWROS｜夫妻共有財產 vs. 具生存者權之夫妻共有財產",
+                core: "Community Property 各自可立遺囑處分其 50% 持份；CPWROS 兼具夫妻共有與生存者取得權（免遺產認證）。",
+                examRule: "CPWROS 是加州特有產權，結合了避開 Probate 的便利性與 Community Property 的全面稅務階梯重置優勢。",
+                en: "Standard community property allows each spouse to devise their 50% interest to whoever they choose via a will; Community Property with Right of Survivorship (CPWROS) transfers the deceased spouse's interest automatically to the surviving spouse without probate, while retaining full stepped-up tax basis benefits.",
+                zh: "標準夫妻共有財產（Community Property）允許夫妻各自以遺囑處分其 50% 的份額；具生存者權之夫妻共有財產（CPWROS）則在一方過世時自動將產權過戶給生存配偶且免經認證，同時享有加稅基完全重置（Stepped-up basis）的稅務優勢。"
+            },
+            {
+                id: "035",
+                domain: "三：物權、地產權益與共有產權",
+                title: "Separate Property vs. Community Property｜婚前特有財產 vs. 婚後共有財產",
+                core: "Separate Property 屬於婚前取得或婚後受贈之個人財產；Community Property 是婚姻期間勞力所得購置之財產。",
+                examRule: "婚後個人單獨繼承或受贈（Gift / Inheritance）的房產，在加州仍屬於個人的 Separate Property。",
+                en: "Separate property includes all assets acquired prior to marriage, or acquired during marriage by individual gift, bequest, or inheritance; community property includes all property acquired through labor or efforts by either spouse during the marriage.",
+                zh: "婚前特有財產（Separate Property）是指婚前已取得，或婚後由個人單獨受贈、遺贈或繼承所得之財產；婚後共有財產（Community Property）則是指在婚姻關係存續期間任一方透過勞力或收入所購置之所有財產。"
+            },
+            {
+                id: "036",
+                domain: "四：物權負擔、地役權與相鄰關係",
+                title: "Easement vs. Encroachment｜地役權（合法物權） vs. 越界侵占（非法越界）",
+                core: "Easement 是合法使用他人土地的物權權利；Encroachment 是建物或結構實體越界侵入他人土地（侵占）。",
+                examRule: "發現鄰居圍籬越界侵占（Encroachment）的最可靠方法是進行土地測量（Survey）。",
+                en: "An easement is a legal, non-possessory right to use another person's land for a specified purpose; an encroachment is an unauthorized physical intrusion of a structure, fence, or improvement across a property line, legally constituting a trespass.",
+                zh: "地役權（Easement）是為了特定目的合法使用他人土地的非佔有性物權；越界侵占（Encroachment）則是建築改良物、圍籬等實體結構未經授權越過地界侵入他人土地，法律上構成侵入住居/非法侵入（Trespass）。"
+            },
+            {
+                id: "037",
+                domain: "四：物權負擔、地役權與相鄰關係",
+                title: "Easement vs. License｜地役權（物權負擔） vs. 許可使用權（個人特權）",
+                core: "Easement 具備物權屬性且隨土地移轉（Runs with land）；License 是個人特權，可隨時撤銷，不隨地移轉。",
+                examRule: "電影票、球賽門票或鄰居口頭准許至其湖邊釣魚，皆屬於許可權（License）。",
+                en: "An easement is an irrevocable interest in real property that runs with the land and must generally be in writing; a license is a personal, revocable, and non-assignable privilege to enter land for a specific purpose that does not convey an interest in the land.",
+                zh: "地役權（Easement）是附隨土地移轉的不動產物權利益，不可任意撤銷且必須為書面；許可權（License）則是進入他人土地的個人特權，可由土地所有人隨時撤銷，不具物權性質亦不隨土地移轉。"
+            },
+            {
+                id: "038",
+                domain: "四：物權負擔、地役權與相鄰關係",
+                title: "Appurtenant Easement vs. Easement in Gross｜附屬地役權 vs. 個人/公用事業地役權",
+                core: "Appurtenant 牽涉需役地與供役地兩筆土地，隨地移轉；In Gross 僅有供役地，屬於特定法人或個人。",
+                examRule: "電力、水利瓦斯公司跨越私人土地鋪設管線的權利屬於 Easement in Gross。",
+                en: "An appurtenant easement burdens one parcel (servient tenement) to benefit an adjacent parcel (dominant tenement) and runs with the land; an easement in gross benefits a specific individual or commercial entity personally (such as utility lines) with no dominant parcel.",
+                zh: "附屬地役權（Appurtenant Easement）使供役地承受負擔以造福相鄰的需役地，並附隨土地移轉；個人/公用事業地役權（Easement in Gross）則是直接賦予特定個人或公用事業機構（如自來水管線），本身並無相對應的需役地地塊。"
+            },
+            {
+                id: "039",
+                domain: "四：物權負擔、地役權與相鄰關係",
+                title: "Dominant Tenement vs. Servient Tenement｜需役地（受惠地） vs. 供役地（負擔地）",
+                core: "Dominant 是享受通行便利、獲得利益的地塊；Servient 是承受他人通行負擔的地塊。",
+                examRule: "供役地（Servient Tenement）產權受到物權負擔的拘束（Encumbered）。",
+                en: "The dominant tenement is the tract of land that benefits from an appurtenant easement; the servient tenement is the underlying tract of land that is burdened by, and subjected to, the easement.",
+                zh: "需役地（Dominant Tenement）是指從附屬地役權中獲得通行便利或利益的地塊；供役地（Servient Tenement）則是指土地被他人跨越、承受該地役權負擔的地塊。"
+            },
+            {
+                id: "040",
+                domain: "四：物權負擔、地役權與相鄰關係",
+                title: "Express Grant vs. Express Reservation｜明示授與地役權 vs. 明示保留地役權",
+                core: "Express Grant 是供役地業主主動授權他人通行；Express Reservation 是地主賣地時為自己保留通行權。",
+                examRule: "屋主分割土地並出售臨路部分，在契據中載明保留通行權利，屬於 Express Reservation。",
+                en: "An easement by express grant is explicitly granted in writing by the servient owner to the dominant owner; an easement by express reservation is created when an owner conveys property but explicitly reserves an easement over it for their own retained land.",
+                zh: "明示授與（Express Grant）是由供役地地主在書面契據中主動將通行權利授予需役地所有人；明示保留（Express Reservation）則是地主在割讓土地過戶時，於契據中為自己保留通過該出讓土地的通行地役權。"
+            },
+            {
+                id: "041",
+                domain: "四：物權負擔、地役權與相鄰關係",
+                title: "Easement by Necessity vs. Prescriptive Easement｜必要地役權（袋地） vs. 時效地役權（長期侵權）",
+                core: "Necessity 因土地閉鎖由法院裁定，通道開通即消滅；Prescriptive 是未獲准公開敵對使用達法定年限而取得。",
+                examRule: "加州取得 Prescriptive Easement 需連續公開敵對使用滿 5 年，且無須繳納地產稅。",
+                en: "An easement by necessity is created by court operation when a parcel is landlocked with no access to a public road; a prescriptive easement is acquired through open, notorious, hostile, continuous, and adverse use of another's land for the statutory period (5 years in California).",
+                zh: "必要地役權（Easement by Necessity）是由法院基於公共政策裁定產生，專供土地完全閉鎖之袋地通行至公用道路；時效地役權（Prescriptive Easement）則是未經許可、公開、敵對且連續使用他人土地達到法定年限（加州為 5 年）而取得之物權。"
+            },
+            {
+                id: "042",
+                domain: "四：物權負擔、地役權與相鄰關係",
+                title: "Prescriptive Easement vs. Adverse Possession｜時效地役權 vs. 逆權侵占（取得產權）",
+                core: "Prescriptive Easement 僅取得「使用權」，不需付稅；Adverse Possession 取得「所有權」，必須繳稅。",
+                examRule: "加州主張 Adverse Possession 必須連續 5 年繳納全部地產稅並取得 Title；時效地役權僅獲 Use。",
+                en: "A prescriptive easement grants only a legal right of use without acquiring title, requiring 5 years of adverse use without paying taxes; adverse possession grants legal ownership (title), mandating 5 years of continuous adverse possession PLUS paying all property taxes assessed during that period.",
+                zh: "時效地役權（Prescriptive Easement）僅取得對土地的「合法使用權（Use）」，連續使用 5 年且不需繳稅；逆權侵占（Adverse Possession）則是直接取得「所有權（Title）」，除連續佔有 5 年外，加州法律強制要求其必須繳納該期間的所有地產稅。"
+            },
+            {
+                id: "043",
+                domain: "四：物權負擔、地役權與相鄰關係",
+                title: "Voluntary Lien vs. Involuntary Lien｜自願留置權 vs. 非自願法定留置權",
+                core: "Voluntary 由業主主動合意設立（如房貸）；Involuntary 未經業主同意，由法律程序強制設立。",
+                examRule: "房屋抵押貸款（Mortgage / Trust Deed）是實務上最常見的自願性留置權（Voluntary Lien）。",
+                en: "A voluntary lien is created intentionally by the contractual consent of the property owner (such as a mortgage or trust deed); an involuntary lien is placed against property without owner consent by operation of law (such as property tax liens or mechanics' liens).",
+                zh: "自願留置權（Voluntary Lien）是由屋主透過合約主動合意設定之物權負擔（如房屋信託契據或抵押貸款）；非自願留置權（Involuntary Lien）則是未經屋主同意，依據法律規定直接強制附著於房產之上的負擔（如地產稅或技工留置權）。"
+            },
+            {
+                id: "044",
+                domain: "四：物權負擔、地役權與相鄰關係",
+                title: "Specific Lien vs. General Lien｜特定留置權 vs. 一般總括留置權",
+                core: "Specific 僅附著於特定單一標的物；General 附著於債務人名下所有動產與不動產。",
+                examRule: "聯邦國稅局（IRS）欠稅留置權及民事判決留置權屬於 General Lien；房屋抵押貸款屬於 Specific Lien。",
+                en: "A specific lien attaches only to one identified property parcel (such as a mortgage, property tax, or mechanic's lien); a general lien attaches to all real and personal assets owned by the debtor within the county (such as federal income tax liens or court judgments).",
+                zh: "特定留置權（Specific Lien）僅鎖定附著於某一特定指定不動產（如房貸、地產稅或技工留置權）；一般留置權（General Lien）則全面附著於債務人在該轄區內所持有的所有動產與不動產（如欠稅或民事判決留置權）。"
+            },
+            {
+                id: "045",
+                domain: "四：物權負擔、地役權與相鄰關係",
+                title: "Mechanic’s Lien vs. Judgment Lien｜技工留置權 vs. 裁判留置權",
+                core: "Mechanic’s Lien 順位溯及開工日；Judgment Lien 順位以縣登記處登記之日期為準。",
+                examRule: "裝修工人完成工程未獲給付，其設定之技工留置權順位回溯至整個專案最初開工之日。",
+                en: "A mechanic's lien is a specific, involuntary lien securing payment for labor or materials, whose statutory priority retroactively relates back to the date work commenced; a judgment lien is a general, involuntary lien established by a court award whose priority runs from the recording date.",
+                zh: "技工留置權（Mechanic’s Lien）是擔保工人工資或建材款項之特定非自願留置權，其受償順位依法回溯至最初工程開工之日；裁判留置權（Judgment Lien）則是法院民事判決成立之一般非自願留置權，受償順位以向縣登記處登記之日為準。"
+            },
+            {
+                id: "046",
+                domain: "四：物權負擔、地役權與相鄰關係",
+                title: "Ingress vs. Egress｜進入權 vs. 離開權",
+                core: "Ingress 代表進入土地之通行權（Enter）；Egress 代表離開該土地之通行權（Exit）。",
+                examRule: "地役權條款標準用語為 \"Right of Ingress and Egress\"。",
+                en: "Ingress denotes the legal right or ability to enter onto a property; egress denotes the legal right or ability to exit or leave a property.",
+                zh: "進入權（Ingress）指進入某處物業土地的法定通行權利；離開權（Egress）指離開或走出該物業土地的法定通行權利。"
+            },
+            {
+                id: "047",
+                domain: "四：物權負擔、地役權與相鄰關係",
+                title: "Private Restriction (CC&Rs) vs. Public Restriction (Zoning)｜私人契約限制 vs. 公共分區管制",
+                core: "CC&Rs 是建商或管委會設定之私人規範；Zoning 是政府警察權執行之法定規劃。",
+                examRule: "當私人限制 CC&Rs 與公共分區法規發生衝突時，以較嚴格者為準（The more restrictive prevails）。",
+                en: "CC&Rs are private, deed-based contractual covenants recorded by developers or HOAs; zoning ordinances are public land-use laws enacted under police power. When they conflict, the more restrictive standard always legally governs.",
+                zh: "CC&Rs 是建商或管委會於契據中設立之私人約束條款；分區法規（Zoning）則是政府本於警察權所訂立之公共土地使用法規。兩者規範若有牴觸時，永遠以標準較嚴格者為準。"
+            },
+            {
+                id: "048",
+                domain: "五：融資、抵押貸款與信託契據",
+                title: "Trustor vs. Trustee vs. Beneficiary｜信託人（借款人） vs. 受託人（第三方） vs. 受益人（貸款銀行）",
+                core: "Trustor 是簽署借據之借款人；Trustee 持有 Bare Legal Title 與拍賣權；Beneficiary 為貸方銀行。",
+                examRule: "加州房屋融資採 Deed of Trust，借款人為 Trustor，放款銀行為 Beneficiary。",
+                en: "In a deed of trust, the trustor is the borrower conveying naked legal title; the trustee is the neutral third party holding power of sale; the beneficiary is the lending institution holding the promissory note and receiving loan payments.",
+                zh: "在信託契據中，信託人（Trustor）為轉移名義法定產權的借款人；受託人（Trustee）為持有拍賣權的中立第三方；受益人（Beneficiary）則是持有借據本票並定期收受還款之貸款銀行。"
+            },
+            {
+                id: "049",
+                domain: "五：融資、抵押貸款與信託契據",
+                title: "Mortgagor vs. Mortgagee｜抵押人（借款人） vs. 抵押權人（貸款銀行）",
+                core: "Mortgagor 是提供房屋做抵押擔保的借款人；Mortgagee 是接受抵押擔保並提供資金的銀行。",
+                examRule: "-OR 法則中，借款人是抵押品的提供者（Giver of pledge），故借款人為 Mortgagor。",
+                en: "The mortgagor is the borrower who executes and gives a mortgage on their real property as collateral security for the debt; the mortgagee is the lender who receives that pledge and holds the mortgage instrument.",
+                zh: "抵押人（Mortgagor）是提供其不動產作為債務擔保抵押品的借款人；抵押權人（Mortgagee）則是收受該抵押擔保並持有該抵押文件的放貸機構。"
+            },
+            {
+                id: "050",
+                domain: "五：融資、抵押貸款與信託契據",
+                title: "Promissory Note vs. Deed of Trust / Mortgage｜本票借據 vs. 信託契據/抵押設定",
+                core: "Promissory Note 是債權本體（載明金額、利率與還款條件）；Deed of Trust 是擔保該債權的從屬擔保物權。",
+                examRule: "借據是個人債務的法律憑據；抵押設定僅為擔保工具，無法脫離本票單獨存在。",
+                en: "A promissory note is the primary legal evidence of personal indebtedness detailing repayment terms; a deed of trust or mortgage is the collateral security vehicle that pledges the real property to secure repayment of that note.",
+                zh: "借款本票（Promissory Note）是證明個人債務存在的主契約，明訂借款金額與還款條件；信託契據或抵押權則是將房產抵押作為該本票債權清償保證的從屬擔保工具。"
+            },
+            {
+                id: "051",
+                domain: "五：融資、抵押貸款與信託契據",
+                title: "Judicial Foreclosure vs. Non-Judicial Foreclosure｜司法判決拍賣 vs. 庭外受託人行政拍賣",
+                core: "Judicial Foreclosure 經法院訴訟程序發動，耗時長且有贖回權；Non-Judicial Foreclosure 依拍賣權快速行政拍賣。",
+                examRule: "加州多數抵押貸款走 Trustee's Sale（Non-Judicial Foreclosure），拍賣後借款人無回贖權（No redemption）。",
+                en: "Judicial foreclosure is conducted through a formal court lawsuit and order of sale, preserving statutory redemption rights; non-judicial foreclosure is conducted out-of-court by a trustee under the power-of-sale clause, which is faster and eliminates redemption rights.",
+                zh: "司法拍賣（Judicial Foreclosure）經由法院正式訴訟程序與拍賣令進行，耗時漫長且保留借款人的法定回贖權；非司法拍賣（Non-Judicial Foreclosure）則由受託人依信託契據中之拍賣權條款於庭外進行行政拍賣，程序迅速且消滅拍賣後之回贖權。"
+            },
+            {
+                id: "052",
+                domain: "五：融資、抵押貸款與信託契據",
+                title: "Deed in Lieu of Foreclosure vs. Foreclosure｜以房抵債契據 vs. 法律強制拍賣",
+                core: "Deed in Lieu 是借款人自願移轉產權以抵免拍賣，銀行須承擔所有次級留置權；拍賣則會強制清除次級留置權。",
+                examRule: "若房屋存在第二順位或技工留置權，銀行通常拒絕 Deed in Lieu，而堅持走拍賣程序以清除 Junior Liens。",
+                en: "A deed in lieu of foreclosure is a voluntary conveyance of title from a defaulting borrower directly to the lender, but the lender takes title subject to any existing junior liens; foreclosure is an auction process that formally wipes out junior liens.",
+                zh: "代償抵債契據（Deed in Lieu）是違約借款人自願將房產過戶給銀行以換取免受拍賣，但銀行必須一併承接物業上所有的既有次順位留置權；法律拍賣程序（Foreclosure）則能依法清除並消滅所有的次級留置權。"
+            },
+            {
+                id: "053",
+                domain: "五：融資、抵押貸款與信託契據",
+                title: "Deed of Reconveyance vs. Satisfaction of Mortgage｜產權返還契據 vs. 抵押清償證明書",
+                core: "Deed of Reconveyance 在信託契據貸款結清時由 Trustee 簽發；Satisfaction 在抵押權結清時由銀行出具。",
+                examRule: "加州信託契據（Trust Deed）完全還清後，Trustee 向借款人核發 Deed of Reconveyance 以註銷留置權。",
+                en: "A deed of reconveyance is issued by a trustee to a trustor clearing the lien when a deed of trust loan is paid in full; a satisfaction of mortgage is executed by a mortgagee certifying that a regular mortgage has been fully discharged.",
+                zh: "產權返還契據（Deed of Reconveyance）是在信託契據貸款結清時，由受託人發給借款人以解除抵押負擔的文件；抵押清償證明（Satisfaction of Mortgage）則是在一般抵押權結清時，由貸款銀行出具以證實債務已清償的文件。"
+            },
+            {
+                id: "054",
+                domain: "五：融資、抵押貸款與信託契據",
+                title: "Loan Assumption vs. Subject To｜承擔貸款 vs. 附帶既有貸款購屋",
+                core: "Assumption 買方承擔個人還款責任（買方負主責，賣方負次責）；Subject To 買方接手繳款但不承擔個人債務責任。",
+                examRule: "在 \"Subject to\" 買賣中，若斷供遭法拍且產生差額（Deficiency），銀行僅能向原賣方追索個人責任。",
+                en: "In a loan assumption, the buyer agrees to assume personal liability for the debt, making the buyer primarily liable and the seller secondarily liable; in a \"subject to\" purchase, the buyer makes payments without personal liability, leaving the original seller liable for any loan deficiency.",
+                zh: "在承擔貸款（Assumption）中，買方書面承諾承擔該債務的個人清償責任，使買方成為第一責任人、原賣方退為次要責任人；在「附帶既有貸款（Subject To）」中，買方接手繳款但不承擔個人債務責任，若產生差額追索，原賣方仍須承擔主要法律責任。"
+            },
+            {
+                id: "055",
+                domain: "五：融資、抵押貸款與信託契據",
+                title: "Acceleration Clause vs. Alienation Clause｜加速到期條款 vs. 讓與到期條款（Due-on-Sale）",
+                core: "Acceleration 因借款人違約（如斷供）觸發全額到期；Alienation 因產權轉讓或過戶觸發全額到期。",
+                examRule: "屋主未經銀行同意擅自賣屋過戶，銀行發動 Due-on-Sale（Alienation Clause）要求全額結清。",
+                en: "An acceleration clause allows the lender to demand the entire remaining loan balance immediately due upon borrower default (such as non-payment); an alienation clause (due-on-sale clause) triggers full repayment immediately if the property is sold or transferred.",
+                zh: "加速到期條款（Acceleration Clause）賦予貸方在借款人發生違約（如斷供）時，要求立即全額清償剩餘本金之權利；讓與到期條款（Alienation / Due-on-sale Clause）則規定房產一旦發生出售、過戶或轉讓，未結清之本金必須立即全額償還。"
+            },
+            {
+                id: "056",
+                domain: "五：融資、抵押貸款與信託契據",
+                title: "Subordination Clause vs. Defeasance Clause｜順位次級化條款 vs. 債務消滅廢止條款",
+                core: "Subordination 讓先設定之留置權人自願讓位給後續貸款；Defeasance 規定貸款全額清償時留置權自動消滅。",
+                examRule: "建商買地後申請建築融資，土地貸款合約中必須包含 Subordination Clause 讓建築貸款取得第一順位。",
+                en: "A subordination clause allows an existing mortgage holder to voluntarily yield priority to a subsequent loan; a defeasance clause states that once the debt is paid in full, the lender's legal interest in the property is entirely voided and extinguished.",
+                zh: "順位次級化條款（Subordination Clause）允許先設定抵押權的貸方自願將受償順位降至後續貸款之後；債務消滅條款（Defeasance Clause）則規定一旦貸款本息全數清償，貸方針對該房產所持有的擔保物權立即失效作廢。"
+            },
+            {
+                id: "057",
+                domain: "五：融資、抵押貸款與信託契據",
+                title: "Purchase Money Mortgage vs. Hard Money Loan｜賣方融資（購屋借貸） vs. 硬資產抵押借款（私人過渡融資）",
+                core: "Purchase Money 是賣方直接向買方提供貸款促成交易；Hard Money 是私人機構基於房產殘值放貸的高利短期融資。",
+                examRule: "賣方承接抵押貸款（Seller Carry-Back）在加州住宅買賣中通常受反追索權保護（Non-recourse）。",
+                en: "A purchase money mortgage refers to seller financing where the seller carries back a note and trust deed for part of the purchase price; a hard money loan is a short-term, asset-based, high-interest loan issued by private lenders based on real estate equity rather than borrower creditworthiness.",
+                zh: "購屋賣方融資（Purchase Money Mortgage）指賣方自行向買方提供貸款以促成交易，賣方收回借據與抵押設定；硬資產抵押借款（Hard Money Loan）則是由私人非銀行機構基於房地產殘值與資產淨值所發放的短期、高利率過渡融資。"
+            },
+            {
+                id: "058",
+                domain: "五：融資、抵押貸款與信託契據",
+                title: "Blanket Mortgage vs. Package Mortgage｜包裹抵押貸款（多筆地塊） vs. 組合抵押貸款（房產+動產）",
+                core: "Blanket Mortgage 以多筆土地做擔保，內含部分清償釋出條款；Package Mortgage 同時以不動產與室內動產作擔保。",
+                examRule: "建商開發大型住宅分割社區使用 Blanket Mortgage；購買附帶整套家具的渡假木屋貸款使用 Package Mortgage。",
+                en: "A blanket mortgage secures debt across more than one parcel of land and features a partial release clause; a package mortgage secures debt using both real property and personal property (such as appliances and furnishings) as collateral.",
+                zh: "包裹抵押貸款（Blanket Mortgage）以多筆獨立地塊作為單一融資擔保，並附帶分筆清償釋出條款；組合抵押貸款（Package Mortgage）則是同時以不動產物業及室內的動產設備（如家電、家具）共同作為擔保物。"
+            },
+            {
+                id: "059",
+                domain: "五：融資、抵押貸款與信託契據",
+                title: "Open-End Mortgage vs. Wraparound Mortgage｜開放式增貸抵押 vs. 包裹式/包袱式融資",
+                core: "Open-End 允許借款人在一定額度內隨借隨還；Wraparound 是次順位融資將第一順位房貸包覆在內統一繳付。",
+                examRule: "房屋淨值信貸額度（HELOC）屬於典型的 Open-End Mortgage。",
+                en: "An open-end mortgage allows the borrower to re-borrow funds against an established credit ceiling (similar to a line of credit); a wraparound loan combines an existing unpaid first loan balance with new secondary financing into one combined debt without paying off the underlying first loan.",
+                zh: "開放式增貸抵押（Open-End Mortgage）允許借款人在核定之最高信用額度內隨時循環提取借款；包裹式融資（Wraparound Mortgage）則是將既有未結清的第一順位貸款與新增貸款包裹為單一整體，借款人統一向新貸方還款。"
+            },
+            {
+                id: "060",
+                domain: "五：融資、抵押貸款與信託契據",
+                title: "Primary Mortgage Market vs. Secondary Mortgage Market｜一級房貸發放市場 vs. 二級房貸流通市場",
+                core: "Primary 是銀行直接面對借款人放款的市場；Secondary 是打包收購既有房貸並證券化的市場。",
+                examRule: "借款人申請房屋貸款在 Primary Market；房利美（Fannie Mae）收購貸款在 Secondary Market。",
+                en: "The primary mortgage market is where loans are directly originated between borrowers and lending institutions; the secondary mortgage market is where existing promissory notes are bought, sold, and packaged into mortgage-backed securities by entities like Fannie Mae and Freddie Mac.",
+                zh: "一級房貸市場（Primary Mortgage Market）是借款人直接向放貸機構申請並審批放款的原生市場；二級房貸市場（Secondary Mortgage Market）則是房利美、房地美等機構向一級銀行收購既有貸款包裝為證券流通套現的市場。"
+            },
+            {
+                id: "061",
+                domain: "五：融資、抵押貸款與信託契據",
+                title: "Conforming Loan vs. Jumbo Loan｜符合機構標準貸款 vs. 巨額/超額貸款",
+                core: "Conforming 額度符合房利美與房地美收購上限；Jumbo 額度超出二級市場常規收購上限。",
+                examRule: "超過聯邦住房金融局（FHFA）收購限額的豪宅貸款為 Jumbo Loan，無法直接由房利美打包收購。",
+                en: "A conforming loan adheres to established underwriting guidelines and loan limits set by Fannie Mae and Freddie Mac; a jumbo loan exceeds those statutory secondary market loan limits, carrying stricter qualification criteria and specialized interest terms.",
+                zh: "常規標準貸款（Conforming Loan）符合房利美與房地美設定之融資限額與審核標準；巨額貸款（Jumbo Loan）金額則超出二級收購上限，審核標準與利率條件相對更為嚴苛。"
+            },
+            {
+                id: "062",
+                domain: "五：融資、抵押貸款與信託契據",
+                title: "Lien Theory vs. Title Theory｜留置權理論州 vs. 產權理論州",
+                core: "Lien Theory 借款人持有 Legal Title，銀行僅持有留置權；Title Theory 產權移轉給貸方或受託人。",
+                examRule: "加州實務上使用信託契據（Deed of Trust），具有 Title Theory 的庭外拍賣特性，借款人持有 Equitable Title。",
+                en: "In a lien theory state, the borrower holds both legal and equitable title while the lender holds only a lien against the property; in a title theory state, legal title is conveyed to the lender or trustee until the debt is satisfied, with the borrower retaining equitable title.",
+                zh: "留置權理論（Lien Theory）州中，借款人保有法定與衡平產權，銀行僅持有擔保留置權；產權理論（Title Theory）州中，法定產權暫時移轉給貸方或受託人保管，借款人僅持有衡平法產權直到貸款結清。"
+            },
+            {
+                id: "063",
+                domain: "六：產權轉讓、契據與產權保險",
+                title: "Grantor vs. Grantee｜讓與人（賣方） vs. 受讓人（買方）",
+                core: "Grantor 為出讓產權之一方，地契上唯一必須簽字之人；Grantee 為接受產權之一方，契據無須其簽名。",
+                examRule: "地契要成立生效，必須由 Grantor 簽名，並完成交付與接受（Delivery and Acceptance）。",
+                en: "The grantor is the property owner conveying title and is the only party required to sign the deed; the grantee is the party receiving title, who does not sign the deed, but must accept legal delivery.",
+                zh: "讓與人（Grantor）是轉移產權的出讓方，也是地契上唯一依法必須簽字之當事人；受讓人（Grantee）是接受產權的買方，地契上不需其簽字，但必須依法完成交付與收受程序。"
+            },
+            {
+                id: "064",
+                domain: "六：產權轉讓、契據與產權保險",
+                title: "Grant Deed vs. Quitclaim Deed｜授與契據（默示保證契據） vs. 放棄權利契據",
+                core: "Grant Deed 附帶兩項法定默示保證；Quitclaim Deed 無任何產權保證，僅轉讓簽字人當下可能擁有的權利。",
+                examRule: "加州常規買賣使用 Grant Deed；夫妻離婚過戶或清除產權瑕疵（Cloud on title）使用 Quitclaim Deed。",
+                en: "A grant deed contains two implied statutory covenants (that the grantor hasn't conveyed to another and the property is free of encumbrances not disclosed); a quitclaim deed conveys whatever interest the grantor may hold without any covenants or warranties of title.",
+                zh: "授與契據（Grant Deed）包含加州法律明定的兩項默示保證（未將該物業賣給他人、無未揭露之物權負擔）；放棄權利契據（Quitclaim Deed）則不含任何產權保證，僅將簽署人當下持有的權利全數放棄移轉（常用於清除產權瑕疵）。"
+            },
+            {
+                id: "065",
+                domain: "六：產權轉讓、契據與產權保險",
+                title: "General Warranty Deed vs. Special Warranty Deed｜完全保證契據 vs. 特殊/限定保證契據",
+                core: "General Warranty 保證該物業自始至今整個歷史無瑕疵；Special Warranty 僅保證讓與人持有期間無瑕疵。",
+                examRule: "能給予買方最全面、保護力最高（涵蓋所有前手歷史）的契據為 General Warranty Deed。",
+                en: "A general warranty deed warrants against title defects occurring across the entire historical chain of ownership; a special warranty deed warrants only that the grantor has not impaired the title during their individual period of ownership.",
+                zh: "完全保證契據（General Warranty Deed）擔保該物業自最初專利讓與起至今歷史鏈條上的所有產權瑕疵；特殊保證契據（Special Warranty Deed）則僅擔保出讓人個人持有該物業的期間內未產生未披露之產權瑕疵。"
+            },
+            {
+                id: "066",
+                domain: "六：產權轉讓、契據與產權保險",
+                title: "Legal Title vs. Equitable Title｜法定產權 vs. 衡平法產權（實質權益）",
+                core: "Legal Title 是名義上的法律所有權；Equitable Title 是實質佔有使用權並享有履約後取得法定產權的權利。",
+                examRule: "在土地買賣合約（Land Contract）中，買方持有 Equitable Title，賣方保留 Legal Title 作為擔保。",
+                en: "Legal title represents the official, paper ownership of real estate; equitable title gives the buyer the right of physical possession and the beneficial interest to demand absolute legal title upon fulfilling contract terms.",
+                zh: "法定產權（Legal Title）代表法律名義上的地契所有權憑據；衡平法產權（Equitable Title）則賦予買方實質佔有使用物業的權利，以及在履行完全部付款條件後要求取得正式法定產權的權利。"
+            },
+            {
+                id: "067",
+                domain: "六：產權轉讓、契據與產權保險",
+                title: "Marketable Title vs. Insurable Title｜可市場交易產權（無瑕疵產權） vs. 可承保產權",
+                core: "Marketable Title 產權完全乾淨無任何爭議瑕疵；Insurable Title 存在已知輕微瑕疵，但保險公司願意承保。",
+                examRule: "標準買賣合約要求賣方過戶時必須交付 Marketable Title。",
+                en: "Marketable title is clear of serious defects or material clouds, completely ready to be accepted by a prudent buyer; insurable title is subject to known defects that a title insurance company is nevertheless willing to insure over at standard or risk rates.",
+                zh: "可市場交易產權（Marketable Title）是指產權完全乾淨、無未決訴訟或重大權利瑕疵，理性買方無須擔憂產權糾紛；可承保產權（Insurable Title）則是產權存在已知瑕疵，但產權保險公司評估後仍願意出單承保。"
+            },
+            {
+                id: "068",
+                domain: "六：產權轉讓、契據與產權保險",
+                title: "Actual Notice vs. Constructive Notice｜實質知悉（實際通知） vs. 推定知悉（公示登記）",
+                core: "Actual Notice 是親自看見或被直接通知；Constructive Notice 是透過縣登記處正式登記產生的法律推定知悉。",
+                examRule: "將 Grant Deed 向縣登記處（County Recorder）完成 Recording，對全世界構成 Constructive Notice。",
+                en: "Actual notice is direct knowledge acquired through personal observation or direct communication; constructive notice is legal notice imputed by law to the public whenever a document is properly recorded in public county land records.",
+                zh: "實質知悉（Actual Notice）是指透過個人親自查勘、親眼所見或他人直接口頭書面傳達而獲得的事實知悉；推定知悉（Constructive Notice）則是指文件只要依法向縣登記處完成公證登記，法律即推定全體公眾已全盤知曉。"
+            },
+            {
+                id: "069",
+                domain: "六：產權轉讓、契據與產權保險",
+                title: "CLTA Policy vs. ALTA Policy｜加州標準產權保險 vs. 美洲擴展產權保險",
+                core: "CLTA 僅保障登記記錄內的事項（如偽造簽名）；ALTA 加保實地測量（Survey）、越界侵占及未登記留置權。",
+                examRule: "提供房屋貸款的機構通常強制要求借款人購買 ALTA Policy 以保護貸方權益。",
+                en: "A CLTA (standard) policy protects primarily against recorded title defects, forgeries, and incompetent grantors; an ALTA (extended) policy also covers unrecorded mechanics' liens, off-record boundary encroachments, and unrecorded prescriptive rights revealed by a survey.",
+                zh: "加州標準保單（CLTA）主要承保登記簿記載範圍內的產權瑕疵、偽造文書或無行為能力之簽署；美洲擴展保單（ALTA）則額外加保未登記的技工留置權、實地測量（Survey）才可發現之越界侵占等實質現場瑕疵。"
+            },
+            {
+                id: "070",
+                domain: "六：產權轉讓、契據與產權保險",
+                title: "Chain of Title vs. Abstract of Title｜產權鏈（歷史鏈條） vs. 產權摘要報告",
+                core: "Chain of Title 是產權歷任所有人的連續傳承歷史鏈；Abstract of Title 是所有登記負擔與交易記錄的濃縮摘要。",
+                examRule: "產權鏈斷裂（Gap in chain）會形成 Cloud on Title，需提起 Quiet Title 訴訟排除。",
+                en: "The chain of title is the chronological historical pedigree of all deed transfers linking the current owner back to the original sovereign grant; an abstract of title is a condensed written summary of all recorded instruments and encumbrances affecting title.",
+                zh: "產權鏈（Chain of Title）是記錄該物業從最初政府出讓至今歷任所有人連續移轉的地契歷史鏈條；產權摘要（Abstract of Title）則是將登記簿上有關該物業的所有交易、物權負擔及訴訟紀錄進行濃縮編製的書面摘要報告。"
+            },
+            {
+                id: "071",
+                domain: "六：產權轉讓、契據與產權保險",
+                title: "Patent vs. Dedication｜土地專利契據 vs. 土地捐獻",
+                core: "Patent 是政府將公有土地產權移轉給私人；Dedication 是私人地主將土地無償捐給政府作公共使用。",
+                examRule: "建商在分割建案時將社區道路交給市政府管轄，此法律行為稱為 Dedication。",
+                en: "A patent is the official conveyance deed used by the sovereign government to transfer public land into private ownership; dedication is the voluntary transfer of private land to a public entity for public use (such as donating streets or parklands).",
+                zh: "土地專利（Patent）是政府最初將公共公有土地過戶讓與給私人所有時所簽發之法定契據；土地捐獻（Dedication）則是私人地主或建商將其私有土地（如道路、公園）無償捐贈給地方政府作為公共用途的法律行為。"
+            },
+            {
+                id: "072",
+                domain: "六：產權轉讓、契據與產權保險",
+                title: "Testate vs. Intestate｜有遺囑身故 vs. 無遺囑身故",
+                core: "Testate 身故時立有合法有效遺囑；Intestate 身故時未立遺囑，按州法定繼承順位分配。",
+                examRule: "無遺囑（Intestate）且無任何法定繼承人時，物業透過充公歸公權（Escheat）收歸加州政府。",
+                en: "A person who dies testate leaves a valid written will directing asset distribution to named beneficiaries; a person who dies intestate leaves no valid will, requiring their real estate to be distributed according to the state law of intestate succession.",
+                zh: "有遺囑身故（Testate）是指死者身故時立有合法有效遺囑，財產依其意願移轉給指定受領人；無遺囑身故（Intestate）是指死者未立有效遺囑，遺產必須依照州法明訂之法定繼承順位進行分配。"
+            },
+            {
+                id: "073",
+                domain: "七：不動產估價與原則",
+                title: "Market Value vs. Market Price vs. Cost｜市場價值 vs. 市場成交價格 vs. 成本",
+                core: "Value 是正常市場條件下估算的合理價值；Price 是實際成交金額；Cost 是建造該標的物所耗費的支出。",
+                examRule: "花費 $30,000 加蓋泳池（Cost），可能僅為房屋帶來 $10,000 的增值（Value），成本不等於價值。",
+                en: "Market value is an appraiser's objective estimate of what a property should bring in an open, competitive market; market price is the actual dollar sum agreed upon and paid in a specific transaction; cost is the total capital expenditure required to produce or construct the improvement.",
+                zh: "市場價值（Market Value）是估價師在正常公開市場條件下所評估出的合理客觀價值；市場價格（Market Price）是特定交易中買賣雙方實際達成協議成交的金額；成本（Cost）則是建造或獲取該項地上改良物所投入的實際金錢支出。"
+            },
+            {
+                id: "074",
+                domain: "七：不動產估價與原則",
+                title: "Functional Obsolescence vs. Economic Obsolescence｜功能性折舊（內部） vs. 經濟性外部折舊（界外）",
+                core: "Functional 源自地界線內部的格局落伍或設計不良；Economic 源自地界線外部的環境、法規或交通損害。",
+                examRule: "4 房配 1 衛屬於 Functional Obsolescence；物業緊鄰機場航線或高架橋噪音屬於 Economic Obsolescence。",
+                en: "Functional obsolescence is a loss in value caused by internal structural flaws, outdated design, or poor architectural layout within the property lines; economic (external) obsolescence is value loss caused by negative external factors outside property boundaries.",
+                zh: "功能性折舊（Functional Obsolescence）是指因地界線內部的結構缺陷、設備落伍或動線規劃不佳（如四房僅有一衛）所造成的價值減損；經濟性外部折舊（Economic Obsolescence）則是由物業地界線外的外部不利因素（如臨近高速公路噪音）所導致的價值貶損。"
+            },
+            {
+                id: "075",
+                domain: "七：不動產估價與原則",
+                title: "Curable vs. Incurable Depreciation｜可修復折舊 vs. 不可修復折舊",
+                core: "Curable 是修復成本小於或等於修復後帶來的增值；Incurable 是修繕費用遠高於所能恢復的市場價值。",
+                examRule: "外部折舊（Economic Obsolescence）在估價實務上幾乎完全屬於 Incurable。",
+                en: "Curable depreciation occurs when the cost of remedying a physical or functional defect is economically justified because it adds equal or greater market value; incurable depreciation occurs when correcting the defect costs significantly more than the incremental value it recovers.",
+                zh: "可修復折舊（Curable）是指修繕物理磨損或功能缺陷的花費，在經濟效益上低於或等於修復後帶來的物業增值；不可修復折舊（Incurable）則是指修復該缺陷的支出遠超過其能收回的市場價值，在財務上不具修復可行性。"
+            },
+            {
+                id: "076",
+                domain: "七：不動產估價與原則",
+                title: "Replacement Cost vs. Reproduction Cost｜替代重置成本 vs. 複製重造成本",
+                core: "Replacement 使用現代工法建造具備同等機能的建物；Reproduction 以原始工法精確複製原建物。",
+                examRule: "估價歷史古蹟使用 Reproduction Cost；估價一般常規住宅使用 Replacement Cost。",
+                en: "Replacement cost is the current expenditure required to construct an improvement of equivalent utility and modern materials; reproduction cost is the current cost to construct an exact, identical replica of the building using original materials and historical craftsmanship.",
+                zh: "替代重置成本（Replacement Cost）是指使用現代建材與標準工法，建造一棟具有同等使用效能之改良物所需的花費；複製重造成本（Reproduction Cost）則是指使用原建築完全相同的工法與建材，精確打造一模一樣複製品的花費（歷史古蹟適用）。"
+            },
+            {
+                id: "077",
+                domain: "七：不動產估價與原則",
+                title: "Sales Comparison vs. Cost Approach vs. Income Approach｜市場比較法 vs. 成本法 vs. 收益還原法",
+                core: "Sales Comparison 比對周邊成交物件；Cost 評估土地加重置成本減折舊；Income 評估淨營運收益除以資本化率。",
+                examRule: "評估住宅首選 Sales Comparison；評估特殊建物（學校、教堂）首選 Cost Approach；評估大型商場大樓首選 Income Approach。",
+                en: "The Sales Comparison Approach estimates value by comparing the subject to recently sold comparable properties; the Cost Approach calculates land value plus replacement cost of improvements minus accumulated depreciation; the Income Approach capitalizes net operating income into an indicated present value.",
+                zh: "市場比較法（Sales Comparison）藉由比對近期已成交的可比物業推算價值；成本法（Cost Approach）是將土地價值加上建物重置成本並扣除累積折舊；收益法（Income Approach）則是將物業的淨營運收入（NOI）透過資本化率還原為物業當前價值。"
+            },
+            {
+                id: "078",
+                domain: "七：不動產估價與原則",
+                title: "Gross Rent Multiplier (GRM) vs. Capitalization Rate (Cap Rate)｜總租金乘數 vs. 資本化率",
+                core: "GRM 是售價除以毛租金，不扣營運開銷；Cap Rate 是淨營運收入（NOI）除以售價，精確反映回報率。",
+                examRule: "小型單戶或雙拼住宅多用 GRM；商業辦公樓或大型公寓收租投資必須使用 Cap Rate。",
+                en: "The Gross Rent Multiplier (GRM) is a rough valuation metric calculated by dividing sales price by raw gross rental income; the Capitalization Rate (Cap Rate) is a precise rate of return determined by dividing net operating income (NOI) by the property's purchase value.",
+                zh: "總租金乘數（GRM）是將售價直接除以未扣除營運費用的毛租金收入粗估倍數；資本化率（Cap Rate）則是將物業淨營運收入（NOI）除以物業總值所得之精確年化投資回報率。"
+            },
+            {
+                id: "079",
+                domain: "七：不動產估價與原則",
+                title: "Progression vs. Regression｜增值拉抬原則 vs. 減值拖累原則",
+                core: "Progression 是平價房屋因周遭皆為豪宅而價值提升；Regression 是豪宅因周圍皆為破舊平房而價值受壓制。",
+                examRule: "估價調整時，「破屋置於頂級富人區增值」符合 Principle of Progression。",
+                en: "Under the principle of progression, the value of a lower-end, modest home is pulled upward when situated among superior, luxury properties; under regression, the market value of a high-end luxury property is depressed when surrounded by inferior, lower-priced properties.",
+                zh: "漸進/拉抬原則（Progression）是指條件較差的房屋，若座落於高級豪宅聚落中，其價值會被周遭環境向上拉抬帶動；漸退/減值原則（Regression）是指高級豪宅若置於平價劣質社區中，其價值會被周遭低價房屋向下拖累打壓。"
+            },
+            {
+                id: "080",
+                domain: "七：不動產估價與原則",
+                title: "Substitution vs. Highest and Best Use｜替代原則 vs. 最高最佳使用原則",
+                core: "Substitution 指理性買方不會為同等效用的替代品支付更高價；Highest and Best Use 指創造最高淨利的合法用途。",
+                examRule: "市場比較法三大估價法的最根本底層基石是 Principle of Substitution。",
+                en: "The principle of substitution states that a rational buyer will not pay more for a property than the cost of acquiring an equally desirable substitute; highest and best use is the legally permitted, physically possible, financially feasible use that yields the maximum net return to the land.",
+                zh: "替代原則（Substitution）指出任何理性買方不會為某物業支付超過在市場上購得同等效用之替代物業所需之花費；最高最佳使用原則（Highest and Best Use）是指在法律允許、物理可能與財務可行的前提下，能為土地帶來最高淨回報之用途。"
+            },
+            {
+                id: "081",
+                domain: "七：不動產估價與原則",
+                title: "Assemblage vs. Plottage｜地塊合併（行動） vs. 合併增值效益（價值增值）",
+                core: "Assemblage 是將多筆相鄰小地塊收購合併的「實體與法律過程」；Plottage 是合併後產生的「額外超額增值」。",
+                examRule: "題目問及「合併的行為動作」選 Assemblage；問及「合併後產生的經濟增值」選 Plottage。",
+                en: "Assemblage is the procedural act of acquiring and consolidating two or more contiguous parcels into a single unified tract; plottage (plottage value) is the resulting increase in total economic utility and value achieved by creating that larger combined parcel.",
+                zh: "地塊合併（Assemblage）是指將兩筆或多筆相鄰地塊併入為單一大型地塊的實體與法律操作行為；合併增值（Plottage）則是土地合併後，因使用效益擴大而產生超過各筆地塊單獨價值總和的額外經濟增值。"
+            },
+            {
+                id: "082",
+                domain: "七：不動產估價與原則",
+                title: "Unearned Increment vs. Appreciation｜自然增值（非勞力增值） vs. 資本增值",
+                core: "Unearned Increment 因人口增長、政府建設等外部因素自然上漲，非業主勞力投入；Appreciation 是資產價格上升的現象。",
+                examRule: "因捷運開通或城市人口暴增導致地價飆漲，屬於 Unearned Increment。",
+                en: "An unearned increment is an increase in land value caused by external societal forces, population shifts, or public infrastructure without any capital investment or physical labor expended by the owner; appreciation is the general monetary rise in asset value over time.",
+                zh: "自然增值（Unearned Increment）是指因外部社會環境進步、人口流入或政府公共建設，使土地價值在業主未投入任何勞力或資本的情況下自然暴漲；資本增值（Appreciation）則是資產市場價格隨時間推移普遍上升的經濟現象。"
+            },
+            {
+                id: "083",
+                domain: "八：租賃物業管理與商業租約",
+                title: "Lessor vs. Lessee｜出租人（房東） vs. 承租人（房客）",
+                core: "Lessor 為讓與租賃權並收取租金之房東；Lessee 為承租佔有房屋並給付租金之房客。",
+                examRule: "房東保有 Reversionary Right（租期屆滿後收回佔有權的權利）。",
+                en: "The lessor is the landlord who conveys temporary possession via a lease while retaining an underlying reversionary interest; the lessee is the tenant who accepts legal possession and covenants to pay rent.",
+                zh: "出租人（Lessor）是透過簽署租約出讓物業佔有使用權的房東，其保有期滿收回物業的回復權（Reversionary Right）；承租人（Lessee）則是接受租約、享有實質佔有並依約繳納租金的房客。"
+            },
+            {
+                id: "084",
+                domain: "八：租賃物業管理與商業租約",
+                title: "Estate for Years vs. Periodic Tenancy｜定期租賃權 vs. 週期性租賃權",
+                core: "Estate for Years 具明確起訖日，期滿自動終止，不需發通知；Periodic 按期連續遞延，終止必須提前發通知。",
+                examRule: "具備起迄日的 6 個月短期租賃屬於 Estate for Years，租期屆滿自動消滅。",
+                en: "An estate for years has a predetermined, fixed calendar beginning and ending date, automatically terminating at expiration without requiring notice; a periodic tenancy continues for successive periods (month-to-month) until proper statutory notice is served by either party.",
+                zh: "定期租賃（Estate for Years）具備明確的特定開始與結束日期，到期自動終止，無須事前給予終止通知；週期性租賃（Periodic Tenancy）按週期（如按月）連續滾動續約，任一方欲終止皆必須依法提前給予書面解約通知。"
+            },
+            {
+                id: "085",
+                domain: "八：租賃物業管理與商業租約",
+                title: "Estate at Will vs. Estate at Sufferance｜隨意租賃權 vs. 容忍超期滯留租賃",
+                core: "Estate at Will 存續期不固定，任一方可隨時終止；Sufferance 租約到期後房客拒不搬遷且拒付租金（Holdover）。",
+                examRule: "Sufferance 最初進駐合法，非單純擅闖，房東驅逐必須透過法院訴訟程序（Unlawful Detainer）。",
+                en: "An estate at will exists for an indefinite duration and may be terminated by either landlord or tenant at any time; an estate at sufferance occurs when a tenant originally entered lawfully but wrongfully holds over after lease expiration without landlord consent.",
+                zh: "隨意租賃（Estate at Will）存續期限未定，雙方任一方皆可隨時通知終止；容忍租賃（Estate at Sufferance）是指承租人最初合法遷入，但在租約合法屆滿後未獲房東同意仍拒絕遷出並賴著不走（超期滯留 Holdover）。"
+            },
+            {
+                id: "086",
+                domain: "八：租賃物業管理與商業租約",
+                title: "Gross Lease vs. Net Lease (Triple Net / NNN)｜毛租約（總額租約） vs. 三淨租約",
+                core: "Gross 房客付固定租金，房東自理稅險與維修；Net 房客除底租外，需承擔地產稅、火險與維護營運費。",
+                examRule: "住宅租賃普遍採 Gross Lease；商業辦公樓或工業廠房租賃最常使用 Net Lease (NNN)。",
+                en: "Under a gross lease, the tenant pays a flat, fixed monthly rental sum while the landlord pays property taxes, insurance, and maintenance; under a triple net lease (NNN), the tenant pays base rent plus their prorated share of taxes, insurance, and structural/operating maintenance.",
+                zh: "毛租約（Gross Lease）由承租人支付固定總額租金，房東負責清償物業的地產稅、保險費與維護營運支出（住宅常見）；三淨租約（Triple Net / NNN）由承租人支付底租外，還必須自負該物業的地產稅、保險費與維護費（商業物業首選）。"
+            },
+            {
+                id: "087",
+                domain: "八：租賃物業管理與商業租約",
+                title: "Percentage Lease vs. Graduated Lease｜抽成租約（營業額抽成） vs. 階梯漸進租約",
+                core: "Percentage 租金按租客在該場所之營業額抽成；Graduated 合約明載在不同年份按既定階梯調漲租金。",
+                examRule: "大型購物商場（Shopping Mall）及零售連鎖店首選 Percentage Lease。",
+                en: "A percentage lease bases rent partially or entirely on a percentage of the gross business sales generated on the leased premises; a graduated lease specifies agreed-upon periodic rent increases occurring at scheduled intervals throughout the lease term.",
+                zh: "抽成租約（Percentage Lease）將租金部分或全部按承租人在該商業場所產生之總營業額（Gross Receipts）依約定比例抽成計收（商場專用）；階梯式租約（Graduated Lease）則是在租約中明文約定隨時間推移按固定時程調升租金金額。"
+            },
+            {
+                id: "088",
+                domain: "八：租賃物業管理與商業租約",
+                title: "Ground Lease vs. Sale-Leaseback｜土地長期租賃 vs. 售後回租",
+                core: "Ground Lease 承租空地由租客出資興建建物（租期 50–99 年）；Sale-Leaseback 業主賣房後隨即回租變現資金。",
+                examRule: "企業欲套現沉澱資產但維持不中斷經營，採用商業售後回租（Sale-Leaseback）。",
+                en: "A ground lease involves leasing unimproved land for a long term (typically 50–99 years) where the tenant constructs a commercial building; a sale-leaseback is where an owner-occupant sells their real property to an investor and immediately leases it back to liberate equity while maintaining continuous operations.",
+                zh: "土地長期租賃（Ground Lease）指承租人向地主長期承租空地（通常為 50 至 99 年），由承租人自行投資建造商用建物；售後回租（Sale-Leaseback）指業主將名下自用房產出售給投資人並立即以租客身分回租，以此套現資金且不中斷日常營運。"
+            },
+            {
+                id: "089",
+                domain: "八：租賃物業管理與商業租約",
+                title: "Sublease vs. Lease Assignment｜次租/分租（三明治租約） vs. 租約全額轉讓",
+                core: "Sublease 原租客轉讓部分租期或空間，原租客負首要責任；Assignment 轉移全部租約權益，新租客直接對房東負責。",
+                examRule: "Sublease 中原租客介於大房東與次租客之間，形成 Sandwich Lease 架構。",
+                en: "A sublease conveys only a fraction of the remaining lease term or physical space, retaining primary liability with the original tenant (creating a sandwich lease); an assignment transfers the entire unexpired leasehold interest, making the new assignee directly liable to the landlord.",
+                zh: "分租/次租（Sublease）僅將部分剩餘租期或部分空間轉讓給次租客，原承租人對大房東仍負首要付款責任（形成三明治租約）；租約轉讓（Lease Assignment）則是將全部剩餘租期權利全額轉交給新租客，新租客直接對大房東負履約責任。"
+            },
+            {
+                id: "090",
+                domain: "八：租賃物業管理與商業租約",
+                title: "Actual Eviction vs. Constructive Eviction｜實質法定驅逐 vs. 推定驅逐（逼迫搬遷）",
+                core: "Actual Eviction 房東經由法院判決由執法人員合法驅逐；Constructive Eviction 房東惡意怠於修繕逼使房客搬離。",
+                examRule: "房東在寒冬切斷暖氣或水電，構成 Constructive Eviction，房客有權退租且免除後續租金責任。",
+                en: "Actual eviction is the legal process where a landlord obtains a court judgment of unlawful detainer and physically removes a defaulting tenant via law enforcement; constructive eviction occurs when a landlord breaches the lease by failing to maintain basic habitability (e.g., terminating heat), compelling the tenant to vacate and terminate the lease.",
+                zh: "實質驅逐（Actual Eviction）是房東透過向法院提起非法佔有訴訟（Unlawful Detainer）獲判勝訴後，由執法人員合法強制將租客驅離；推定驅逐（Constructive Eviction）則是房東嚴重違約怠於維修（如蓄意切斷暖氣供水）破壞居住適格性，逼使租客不得不搬遷並依法解除租約義務。"
+            },
+            {
+                id: "091",
+                domain: "八：租賃物業管理與商業租約",
+                title: "Quiet Enjoyment vs. Warranty of Habitability｜安寧享有權 vs. 居住適格性保證",
+                core: "Quiet Enjoyment 保障不受上位產權者干擾佔有；Warranty of Habitability 保證物業符合基本人類居住衛生標準。",
+                examRule: "房東未經許可無故擅闖出租住宅違反 Quiet Enjoyment；房屋缺乏熱水供應違反 Warranty of Habitability。",
+                en: "The covenant of quiet enjoyment guarantees the tenant peaceful possession of the premises free from unlawful disturbance by the landlord or hostile claimants; the implied warranty of habitability mandates that a residential landlord must keep premises structurally sound, safe, and fit for human habitation.",
+                zh: "安寧享有權（Quiet Enjoyment）保證承租人享有不受房東或上位產權者非法干預、平靜佔有與使用物業的權益；居住適格性保證（Warranty of Habitability）則是加州法律明令房東必須維持物業符合結構安全、水電衛生及適宜人類居住的法定基本標準。"
+            },
+            {
+                id: "092",
+                domain: "九：政府公權力、土地管制與公平住房",
+                title: "Police Power vs. Eminent Domain｜警察權（公共管制） vs. 徵收權（公用徵收）",
+                core: "Police Power 為公共利益進行行政管制，政府不予補償；Eminent Domain 強制徵收私產，必須給予公平市價補償。",
+                examRule: "政府執行分區降級管制（Down-zoning）屬於 Police Power，地主無權索賠。",
+                en: "Police power is the government's inherent constitutional right to regulate private property for public health, safety, and general welfare (such as zoning) without financial compensation; eminent domain is the power to take private land for public use, constitutionally mandating the payment of just compensation.",
+                zh: "警察權（Police Power）是政府為維護公共安全、衛生及整體福祉對私有物業進行管制（如分區規範）的權力，政府無須給予補償；徵收權（Eminent Domain）則是政府為公共用途強制徵收私有土地的法定權力，憲法明定必須給予公平市價補償（Just Compensation）。"
+            },
+            {
+                id: "093",
+                domain: "九：政府公權力、土地管制與公平住房",
+                title: "Condemnation vs. Inverse Condemnation｜法定徵收程序 vs. 反向倒求徵收訴訟",
+                core: "Condemnation 是政府主動啟動法定徵收程序；Inverse Condemnation 是地主主動提告政府索取補償。",
+                examRule: "政府工程拓寬馬路實質損毀店家停車場卻未主動徵收，地主向法院提起 Inverse Condemnation 訴訟。",
+                en: "Condemnation is the official administrative and judicial legal proceeding initiated by the government to acquire private property under eminent domain; inverse condemnation is a lawsuit brought by a private property owner against the government seeking just compensation for an uncompensated taking or physical damage to their property.",
+                zh: "法定徵收程序（Condemnation）是政府為執行其徵收權，主動透過法律程序轉移產權並核定補償金的程序；反向徵收（Inverse Condemnation）則是政府公共工程實質侵害或毀損私產價值卻未主動徵收時，由受害地主主動向法院起訴政府要求賠償的訴訟。"
+            },
+            {
+                id: "094",
+                domain: "九：政府公權力、土地管制與公平住房",
+                title: "Escheat vs. Taxation｜充公歸公權 vs. 政府課稅權",
+                core: "Escheat 是業主身故無遺囑且無繼承人時產權收歸州政府；Taxation 是地方政府徵收從價稅充實財政。",
+                examRule: "政府對私產的四大基本公權力記法為 PETE：Police Power, Eminent Domain, Taxation, Escheat。",
+                en: "Escheat is the reversion of real property to the state government when an owner dies intestate without leaving any identifiable legal heirs; taxation is the sovereign government's legal authority to levy ad valorem real property taxes to fund public services and municipal infrastructure.",
+                zh: "財產充公歸公（Escheat）是指當房產所有人於無遺囑狀態身故且查無法定繼承人時，該不動產依法收歸州政府所有的公權力；課稅權（Taxation）則是地方政府依法對不動產徵收從價稅（Ad Valorem Tax）以支應公共市政服務的法定權力。"
+            },
+            {
+                id: "095",
+                domain: "九：政府公權力、土地管制與公平住房",
+                title: "Variance vs. Conditional Use Permit (CUP)｜分區特許（變異許可） vs. 附條件特別用途許可",
+                core: "Variance 因地形畸零申請免除退縮線等物理限制；CUP 申請在特定分區中經營符合公益的特殊設施。",
+                examRule: "因地塊狹長申請放寬建築退縮線選 Variance；在純住宅區申請設立教堂或醫院選 CUP。",
+                en: "A variance is an administrative permission allowing an owner to deviate from strict dimensional zoning requirements (setbacks, height limits) due to unique topographical hardship; a conditional use permit (CUP) allows a special land use that benefits the community (schools, churches, hospitals) within a zoning district where it is not normally permitted.",
+                zh: "分區特許（Variance）是由於地塊地形特殊或面臨實際施工困難，向分區委員會申請放寬建築退縮線或高度等物理限制的行政豁免；附條件特別用途許可（CUP）則是申請在原本不允許的特定分區中，經營具備公共利益價值的特殊機構（如在住宅區建學校、教堂或醫療所）。"
+            },
+            {
+                id: "096",
+                domain: "九：政府公權力、土地管制與公平住房",
+                title: "Legal Non-conforming Use vs. Illegal Use｜既存合法非重合用途（祖父條款） vs. 違法使用",
+                core: "Non-conforming 在法規修訂前已合法存在，受祖父條款保護；Illegal Use 自始即屬違法營運。",
+                examRule: "分區由商業改為住宅後，既有的雜貨店受祖父條款（Grandfathered）保護，可作為 Legal Non-conforming Use 繼續營運。",
+                en: "A legal non-conforming use is a preexisting lawful use of land that is permitted to continue operating (\"grandfathered\") despite subsequent changes to local zoning ordinances; an illegal use operates in open violation of applicable zoning codes from its establishment without any legal protection.",
+                zh: "既存合法非重合用途（Legal Non-conforming Use）是指物業在分區法規修訂前就已合法設立，受「祖父條款（Grandfathered）」保護而得以繼續合法營運；違法使用（Illegal Use）則是自始即違反分區規範的非法行為，隨時面臨取締。"
+            },
+            {
+                id: "097",
+                domain: "九：政府公權力、土地管制與公平住房",
+                title: "Riparian Rights vs. Littoral Rights｜河流動態水權 vs. 湖泊/海洋靜態水權",
+                core: "Riparian 屬於緊鄰河流溪流等流動水體的地主權利；Littoral 屬於緊鄰湖泊海洋等靜止大水體的地主權利。",
+                examRule: "記憶口訣：Riparian = River（流動）；Littoral = Lake（靜止）。",
+                en: "Riparian rights govern the reasonable water-use rights of landowners whose properties border flowing bodies of water, such as rivers and streams (Riparian = River); littoral rights govern the shoreline rights of landowners bordering stationary or tidal navigable waters, such as lakes and oceans (Littoral = Lake).",
+                zh: "河岸水權（Riparian Rights）專指土地緊鄰流動水體（河流、溪流）的地主所享有的合理用水權利；湖泊海洋水權（Littoral Rights）則是土地緊鄰靜止大水體或潮汐水域（湖泊、海洋）的地主所享有至高潮線之水岸權益。"
+            },
+            {
+                id: "098",
+                domain: "九：政府公權力、土地管制與公平住房",
+                title: "Accretion & Reliction vs. Erosion & Avulsion｜沖積與退灘（自然增加） vs. 侵蝕與崩蝕（自然流失）",
+                core: "Accretion/Reliction 為水流沉積或退灘使土地面積增加；Erosion/Avulsion 為水流沖刷或天災使土地流失。",
+                examRule: "地震或水壩潰堤造成的大規模土地突發性撕裂撕脫，屬於 Avulsion。",
+                en: "Accretion is the gradual addition of land by alluvial soil deposits, and reliction is the exposure of dry land by receding waters; erosion is the slow, gradual loss of soil from wind or water, while avulsion is the sudden, violent tearing away of land by a rapid natural event.",
+                zh: "沖積（Accretion）是水流將泥沙逐漸堆積使土地面積擴大，退灘（Reliction）是水位退縮露出的新土地；侵蝕（Erosion）是風化水流長期緩慢磨損土地，崩蝕（Avulsion）則是因地震、水壩潰堤等突發劇烈天災造成的土地撕裂流失。"
+            },
+            {
+                id: "099",
+                domain: "九：政府公權力、土地管制與公平住房",
+                title: "Steering vs. Blockbusting vs. Redlining｜引導操縱 vs. 恐慌拋售誘騙 vs. 金融區域歧視",
+                core: "Steering 針對買方引導至特定族裔社區；Blockbusting 向屋主恐慌造謠誘騙低價賣房；Redlining 為銀行拒貸特定區域。",
+                examRule: "經紀人依客戶族裔刻意只帶看特定社區構成 Steering；銀行對特定少數族裔郵遞區號拒絕發放房貸構成 Redlining。",
+                en: "Steering is directing buyers toward or away from neighborhoods based on race or religion; blockbusting (panic selling) is inducing homeowners to sell cheaply by generating fear that minorities are moving into the area; redlining is an institutional lender's refusal to issue loans in designated geographical areas.",
+                zh: "引導操縱（Steering）是指經紀人依據尋屋者的族裔或宗教背景，暗中引導或避開特定人口結構的社區；恐慌性拋售（Blockbusting / Panic Selling）是指向既有屋主散布少數族裔遷入之謠言恐嚇屋主賤價賣房；金融區域歧視（Redlining）則是放貸或保險機構對特定少數族裔社區劃紅線拒絕放貸的違法行為。"
+            },
+            {
+                id: "100",
+                domain: "九：政府公權力、土地管制與公平住房",
+                title: "Latent Defect vs. Patent Defect｜潛在隱蔽瑕疵 vs. 明顯外觀瑕疵",
+                core: "Latent 是肉眼無法看見之結構或隱蔽重大瑕疵；Patent 是肉眼巡檢顯而易見的表面瑕疵。",
+                examRule: "合約中的 \"As Is\"（現況交屋）條款絕對無法免除賣方揭露已知 Latent Defect（潛在重大瑕疵）的法定責任。",
+                en: "A latent defect is a hidden structural or mechanical defect that cannot be discovered through ordinary visual inspection (e.g., foundation cracks hidden behind drywall), which must be legally disclosed; a patent defect is an obvious, visible defect readily observable by an inspector or buyer (e.g., broken window glass).",
+                zh: "潛在隱蔽瑕疵（Latent Defect）是指無法透過一般肉眼視覺查勘發現的結構或管線缺陷（如封在石膏板內的漏水或地基下陷），賣方依法負有主動揭露之強制義務；明顯瑕疵（Patent Defect）則是顯而易見、肉眼巡視即能辨識的表面缺陷（如破損的玻璃窗）。"
+            }
+        ];
+
+        let state = {
+            currentDomain: "全部領域 (All)",
+            searchQuery: "",
+            viewMode: "list", // 'list' | 'card'
+            filterMode: "all", // 'all' | 'starred' | 'mastered'
+            starredIds: new Set(),
+            masteredIds: new Set(),
+            currentCardFilteredIndex: 0,
+            isCardFlipped: false
+        };
+
+        // Initialize state from memory / cookies
+        function initApp() {
+            renderDomainButtons();
+            renderList();
+            updateCounters();
+            setupTheme();
+        }
+
+        function getFilteredData() {
+            return rawData.filter(item => {
+                // Domain match
+                if (state.currentDomain !== "全部領域 (All)" && !item.domain.includes(state.currentDomain.replace(/^[一二三四五六七八九]：/, ''))) {
+                    return false;
+                }
+                // Starred / Mastered match
+                if (state.filterMode === 'starred' && !state.starredIds.has(item.id)) return false;
+                if (state.filterMode === 'mastered' && !state.masteredIds.has(item.id)) return false;
+
+                // Search query match
+                if (state.searchQuery.trim() !== "") {
+                    const q = state.searchQuery.toLowerCase();
+                    const textContent = `${item.id} ${item.title} ${item.core} ${item.examRule} ${item.en} ${item.zh}`.toLowerCase();
+                    return textContent.includes(q);
+                }
+                return true;
+            });
+        }
+
+        function renderDomainButtons() {
+            const container = document.getElementById('domainFilterContainer');
+            container.innerHTML = domains.map(d => {
+                const isActive = state.currentDomain === d;
+                const activeClass = isActive 
+                    ? 'bg-blue-600 text-white font-semibold shadow-sm' 
+                    : 'bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-700';
+                return `<button onclick="setDomain('${d}')" class="px-2.5 py-1 text-xs rounded-lg transition-colors badge-domain whitespace-nowrap ${activeClass}">${d}</button>`;
+            }).join('');
+        }
+
+        function setDomain(domain) {
+            state.currentDomain = domain;
+            state.currentCardFilteredIndex = 0;
+            renderDomainButtons();
+            renderView();
+        }
+
+        function renderList() {
+            const container = document.getElementById('listViewContainer');
+            const emptyState = document.getElementById('emptyState');
+            const filtered = getFilteredData();
+
+            document.getElementById('totalCountDisplay').innerText = filtered.length;
+
+            if (filtered.length === 0) {
+                container.innerHTML = '';
+                emptyState.classList.remove('hidden');
+                return;
+            }
+            emptyState.classList.add('hidden');
+
+            container.innerHTML = filtered.map(item => {
+                const isStarred = state.starredIds.has(item.id);
+                const isMastered = state.masteredIds.has(item.id);
+
+                return `
+                    <div id="card-item-${item.id}" class="bg-white dark:bg-slate-900 rounded-2xl border ${isMastered ? 'border-emerald-300 dark:border-emerald-800/80 bg-emerald-50/20 dark:bg-emerald-950/10' : 'border-slate-200 dark:border-slate-800'} p-5 sm:p-6 shadow-sm hover:shadow-md transition-all">
+                        <!-- Top header -->
+                        <div class="flex items-start justify-between gap-3 mb-3">
+                            <div class="flex flex-wrap items-center gap-2">
+                                <span class="text-xs font-mono font-bold px-2 py-0.5 rounded-md bg-blue-50 dark:bg-blue-950/80 text-blue-700 dark:text-blue-300 border border-blue-200 dark:border-blue-900">
+                                    #${item.id}
+                                </span>
+                                <span class="text-xs font-medium px-2 py-0.5 rounded-md bg-slate-100 dark:bg-slate-800 text-slate-500 dark:text-slate-400">
+                                    ${item.domain}
+                                </span>
+                            </div>
+                            <div class="flex items-center gap-1">
+                                <button onclick="toggleStar('${item.id}')" title="標記重點" class="p-1.5 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-800 text-base transition-transform active:scale-95">
+                                    ${isStarred ? '⭐' : '☆'}
+                                </button>
+                                <button onclick="toggleMaster('${item.id}')" title="標記已熟練" class="px-2.5 py-1 text-xs font-medium rounded-lg transition-all ${isMastered ? 'bg-emerald-600 text-white' : 'bg-slate-100 dark:bg-slate-800 text-slate-500 hover:text-slate-700 dark:hover:text-slate-200'}">
+                                    ${isMastered ? '已掌握' : '記住了'}
+                                </button>
+                                <button onclick="copyEntry('${item.id}')" title="複製此知識點" class="p-1.5 rounded-lg text-slate-400 hover:text-slate-600 dark:hover:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-800 text-xs">
+                                    📋
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Title -->
+                        <h2 class="text-lg sm:text-xl font-bold text-slate-900 dark:text-white mb-3 flex items-center gap-2">
+                            ${highlightSearch(item.title)}
+                        </h2>
+
+                        <!-- Core distinction -->
+                        <div class="mb-3 text-sm leading-relaxed">
+                            <span class="inline-flex items-center text-xs font-bold px-2 py-0.5 rounded bg-blue-100 dark:bg-blue-950 text-blue-800 dark:text-blue-300 mr-2">
+                                區分核心
+                            </span>
+                            <span class="text-slate-700 dark:text-slate-200">${highlightSearch(item.core)}</span>
+                        </div>
+
+                        <!-- Exam rule -->
+                        <div class="mb-4 p-3 rounded-xl bg-amber-50 dark:bg-amber-950/40 border border-amber-200/80 dark:border-amber-800/50 text-xs sm:text-sm text-amber-900 dark:text-amber-200 flex items-start gap-2">
+                            <span class="font-bold text-amber-700 dark:text-amber-400 whitespace-nowrap">⚡ 考點準則：</span>
+                            <span>${highlightSearch(item.examRule)}</span>
+                        </div>
+
+                        <!-- Bilingual collapsible toggle -->
+                        <details class="group rounded-xl border border-slate-100 dark:border-slate-800/80 bg-slate-50/50 dark:bg-slate-800/40 overflow-hidden">
+                            <summary class="cursor-pointer px-4 py-2.5 text-xs font-medium text-slate-500 dark:text-slate-400 flex items-center justify-between hover:text-slate-800 dark:hover:text-slate-200">
+                                <span>📖 展開英文考題解析與官方中譯 (Bilingual text)</span>
+                                <span class="group-open:rotate-180 transition-transform">▼</span>
+                            </summary>
+                            <div class="p-4 border-t border-slate-200 dark:border-slate-700/60 flex flex-col gap-3 text-xs sm:text-sm">
+                                <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-800 font-mono text-slate-800 dark:text-slate-200 leading-relaxed">
+                                    <strong class="text-indigo-600 dark:text-indigo-400">EN: </strong>${highlightSearch(item.en)}
+                                </div>
+                                <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-800 text-slate-700 dark:text-slate-300 leading-relaxed">
+                                    <strong class="text-emerald-600 dark:text-emerald-400">ZH: </strong>${highlightSearch(item.zh)}
+                                </div>
+                            </div>
+                        </details>
+                    </div>
+                `;
+            }).join('');
+        }
+
+        function renderCard() {
+            const filtered = getFilteredData();
+            const emptyState = document.getElementById('emptyState');
+            const totalCount = filtered.length;
+
+            document.getElementById('totalCountDisplay').innerText = totalCount;
+            document.getElementById('totalCardCount').innerText = totalCount;
+
+            if (totalCount === 0) {
+                document.getElementById('cardViewContainer').classList.add('hidden');
+                emptyState.classList.remove('hidden');
+                return;
+            }
+            emptyState.classList.add('hidden');
+
+            if (state.currentCardFilteredIndex >= totalCount) {
+                state.currentCardFilteredIndex = 0;
+            }
+
+            const item = filtered[state.currentCardFilteredIndex];
+            document.getElementById('currentCardIndex').innerText = state.currentCardFilteredIndex + 1;
+
+            // Reset flip state
+            state.isCardFlipped = false;
+            document.getElementById('flashcardInner').classList.remove('is-flipped');
+
+            // Front
+            document.getElementById('cardDomainTag').innerText = item.domain;
+            document.getElementById('cardIdTag').innerText = `#${item.id}`;
+            document.getElementById('cardTitle').innerText = item.title;
+
+            // Back
+            document.getElementById('cardBackTitle').innerText = item.title;
+            document.getElementById('cardCore').innerText = item.core;
+            document.getElementById('cardExamRule').innerText = item.examRule;
+            document.getElementById('cardEnText').innerText = item.en;
+            document.getElementById('cardZhText').innerText = item.zh;
+
+            const isStarred = state.starredIds.has(item.id);
+            const isMastered = state.masteredIds.has(item.id);
+
+            const starBtn = document.getElementById('cardStarBtn');
+            starBtn.innerText = isStarred ? '⭐ 已收藏' : '☆ 收藏';
+            starBtn.className = isStarred ? 'px-3 py-1 rounded-lg bg-amber-100 text-amber-800 dark:bg-amber-950 dark:text-amber-300' : 'px-3 py-1 rounded-lg border border-slate-200 dark:border-slate-700';
+
+            const masterBtn = document.getElementById('cardMasterBtn');
+            masterBtn.innerText = isMastered ? '✅ 已掌握' : '標記已掌握';
+            masterBtn.className = isMastered ? 'px-3 py-1 rounded-lg bg-emerald-600 text-white font-medium' : 'px-3 py-1 rounded-lg bg-slate-200 dark:bg-slate-700 text-slate-700 dark:text-slate-200';
+        }
+
+        function flipCurrentCard() {
+            state.isCardFlipped = !state.isCardFlipped;
+            const card = document.getElementById('flashcardInner');
+            if (state.isCardFlipped) {
+                card.classList.add('is-flipped');
+            } else {
+                card.classList.remove('is-flipped');
+            }
+        }
+
+        function nextCard() {
+            const filtered = getFilteredData();
+            if (state.currentCardFilteredIndex < filtered.length - 1) {
+                state.currentCardFilteredIndex++;
+            } else {
+                state.currentCardFilteredIndex = 0; // Loop back
+            }
+            renderCard();
+        }
+
+        function prevCard() {
+            const filtered = getFilteredData();
+            if (state.currentCardFilteredIndex > 0) {
+                state.currentCardFilteredIndex--;
+            } else {
+                state.currentCardFilteredIndex = filtered.length - 1;
+            }
+            renderCard();
+        }
+
+        function toggleCardStar() {
+            const filtered = getFilteredData();
+            const item = filtered[state.currentCardFilteredIndex];
+            toggleStar(item.id);
+            renderCard();
+        }
+
+        function toggleCardMaster() {
+            const filtered = getFilteredData();
+            const item = filtered[state.currentCardFilteredIndex];
+            toggleMaster(item.id);
+            renderCard();
+        }
+
+        function switchView(mode) {
+            state.viewMode = mode;
+            const listBtn = document.getElementById('btnListMode');
+            const cardBtn = document.getElementById('btnCardMode');
+            const listCont = document.getElementById('listViewContainer');
+            const cardCont = document.getElementById('cardViewContainer');
+
+            if (mode === 'list') {
+                listBtn.className = 'px-3 py-1.5 rounded-lg font-medium transition-all shadow-sm bg-white dark:bg-slate-700 text-blue-700 dark:text-blue-300';
+                cardBtn.className = 'px-3 py-1.5 rounded-lg font-medium transition-all text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white';
+                listCont.classList.remove('hidden');
+                cardCont.classList.add('hidden');
+                renderList();
+            } else {
+                cardBtn.className = 'px-3 py-1.5 rounded-lg font-medium transition-all shadow-sm bg-white dark:bg-slate-700 text-blue-700 dark:text-blue-300';
+                listBtn.className = 'px-3 py-1.5 rounded-lg font-medium transition-all text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white';
+                cardCont.classList.remove('hidden');
+                listCont.classList.add('hidden');
+                renderCard();
+            }
+        }
+
+        function renderView() {
+            if (state.viewMode === 'list') {
+                renderList();
+            } else {
+                renderCard();
+            }
+        }
+
+        function handleSearch() {
+            const val = document.getElementById('searchInput').value;
+            state.searchQuery = val;
+            const clearBtn = document.getElementById('clearSearchBtn');
+            if (val.length > 0) {
+                clearBtn.classList.remove('hidden');
+            } else {
+                clearBtn.classList.add('hidden');
+            }
+            state.currentCardFilteredIndex = 0;
+            renderView();
+        }
+
+        function clearSearch() {
+            document.getElementById('searchInput').value = '';
+            handleSearch();
+        }
+
+        function highlightSearch(text) {
+            if (!state.searchQuery || state.searchQuery.trim() === '') return text;
+            const query = state.searchQuery.trim();
+            const regex = new RegExp(`(${query})`, 'gi');
+            return text.replace(regex, '<mark class="bg-amber-200 dark:bg-amber-800 text-slate-900 dark:text-white rounded px-0.5">$1</mark>');
+        }
+
+        function toggleStar(id) {
+            if (state.starredIds.has(id)) {
+                state.starredIds.delete(id);
+                showToast("已移除重點收藏 ⭐", "info");
+            } else {
+                state.starredIds.add(id);
+                showToast("已加入重點收藏 ⭐", "star");
+            }
+            updateCounters();
+            renderView();
+        }
+
+        function toggleMaster(id) {
+            if (state.masteredIds.has(id)) {
+                state.masteredIds.delete(id);
+                showToast("已移出掌握列表", "info");
+            } else {
+                state.masteredIds.add(id);
+                showToast("太棒了！又掌握了一個考點 ✅", "success");
+            }
+            updateCounters();
+            renderView();
+        }
+
+        function toggleMasterFilter(mode) {
+            if (state.filterMode === mode) {
+                state.filterMode = 'all';
+            } else {
+                state.filterMode = mode;
+            }
+            updateCounters();
+            renderView();
+        }
+
+        function updateCounters() {
+            document.getElementById('starredCount').innerText = state.starredIds.size;
+            document.getElementById('masteredCount').innerText = state.masteredIds.size;
+
+            const starBtn = document.getElementById('starredFilterBtn');
+            const masterBtn = document.getElementById('masteredFilterBtn');
+
+            if (state.filterMode === 'starred') {
+                starBtn.classList.add('ring-2', 'ring-amber-500');
+            } else {
+                starBtn.classList.remove('ring-2', 'ring-amber-500');
+            }
+
+            if (state.filterMode === 'mastered') {
+                masterBtn.classList.add('ring-2', 'ring-emerald-500');
+            } else {
+                masterBtn.classList.remove('ring-2', 'ring-emerald-500');
+            }
+        }
+
+        function resetFilters() {
+            state.currentDomain = "全部領域 (All)";
+            state.searchQuery = "";
+            state.filterMode = "all";
+            document.getElementById('searchInput').value = "";
+            document.getElementById('clearSearchBtn').classList.add('hidden');
+            renderDomainButtons();
+            updateCounters();
+            renderView();
+            showToast("已重設全部篩選條件", "info");
+        }
+
+        function pickRandom() {
+            const filtered = getFilteredData();
+            if (filtered.length === 0) return;
+            const randIdx = Math.floor(Math.random() * filtered.length);
+            const target = filtered[randIdx];
+
+            if (state.viewMode === 'card') {
+                state.currentCardFilteredIndex = randIdx;
+                renderCard();
+            } else {
+                // Scroll to card in list view
+                const el = document.getElementById(`card-item-${target.id}`);
+                if (el) {
+                    el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                    el.classList.add('ring-2', 'ring-blue-500');
+                    setTimeout(() => el.classList.remove('ring-2', 'ring-blue-500'), 1800);
+                }
+            }
+            showToast(`抽中考點 #${target.id}：${target.title.split('｜')[0]}`, "dice");
+        }
+
+        function copyEntry(id) {
+            const item = rawData.find(d => d.id === id);
+            if (!item) return;
+            const textToCopy = `${item.id}. ${item.title}\n區分核心：${item.core}\n考點準則：${item.examRule}\nEN: ${item.en}\nZH: ${item.zh}`;
+            
+            // Clipboard fallback as specified
+            const textarea = document.createElement("textarea");
+            textarea.value = textToCopy;
+            document.body.appendChild(textarea);
+            textarea.select();
+            try {
+                document.execCommand('copy');
+                showToast("已將考點複製至剪貼簿 📋", "success");
+            } catch (err) {
+                showToast("複製失敗，請手動選取", "error");
+            }
+            document.body.removeChild(textarea);
+        }
+
+        function showToast(text, type = "info") {
+            const toast = document.getElementById('toastMessage');
+            const toastText = document.getElementById('toastText');
+            const toastIcon = document.getElementById('toastIcon');
+
+            toastText.innerText = text;
+            if (type === 'success') toastIcon.innerText = "🎉";
+            else if (type === 'star') toastIcon.innerText = "⭐";
+            else if (type === 'dice') toastIcon.innerText = "🎲";
+            else toastIcon.innerText = "ℹ️";
+
+            toast.classList.remove('translate-y-20', 'opacity-0', 'pointer-events-none');
+            setTimeout(() => {
+                toast.classList.add('translate-y-20', 'opacity-0', 'pointer-events-none');
+            }, 2400);
+        }
+
+        function toggleDarkMode() {
+            const isDark = document.documentElement.classList.toggle('dark');
+            document.getElementById('themeIconSun').classList.toggle('hidden', !isDark);
+            document.getElementById('themeIconMoon').classList.toggle('hidden', isDark);
+        }
+
+        function setupTheme() {
+            if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+                document.documentElement.classList.add('dark');
+                document.getElementById('themeIconSun').classList.remove('hidden');
+                document.getElementById('themeIconMoon').classList.add('hidden');
+            }
+        }
+
+        // Keyboard navigation for flashcards
+        window.addEventListener('keydown', (e) => {
+            if (state.viewMode === 'card') {
+                if (e.key === 'ArrowRight' || e.key === 'KeyD') nextCard();
+                if (e.key === 'ArrowLeft' || e.key === 'KeyA') prevCard();
+                if (e.key === ' ' || e.key === 'Enter') {
+                    e.preventDefault();
+                    flipCurrentCard();
+                }
+            }
+        });
+
+        // Initialize on load
+        window.onload = function() {
+            initApp();
+        };
+    </script>
+</body>
+</html>
