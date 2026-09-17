@@ -119,15 +119,16 @@ def parse_block(block: str, source: str):
     stem_en, stem_zh = split_stem(" ".join(stem_lines))
     choices = []
     for key in ("A", "B", "C", "D"):
-        en = choice_map.get(key, "").strip()
-        if not en:
+        raw_choice = choice_map.get(key, "").strip()
+        if not raw_choice:
             return {
                 "_error": True,
                 "source": source,
                 "stemEn": stem_en,
                 "missing": key,
             }
-        choices.append({"key": key, "en": en, "zh": ""})
+        en, zh = split_stem(raw_choice)
+        choices.append({"key": key, "en": en, "zh": zh})
     explanation = "\n".join(expl_lines).strip()
     if not stem_en or not answer:
         return {
@@ -202,6 +203,10 @@ def main():
     print("sources:", Counter(q["source"] for q in out))
     no_zh = [q["id"] for q in out if not q["stemZh"]]
     print("missing stemZh:", no_zh)
+    no_choice_zh = [
+        q["id"] for q in out if any(not (c.get("zh") or "").strip() for c in q["choices"])
+    ]
+    print("missing choiceZh:", no_choice_zh)
     if errors:
         for e in errors[:20]:
             print("---", e)

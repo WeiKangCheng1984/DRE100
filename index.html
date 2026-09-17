@@ -73,6 +73,59 @@
         .badge-domain {
             letter-spacing: 0.05em;
         }
+        .speak-btn {
+            flex-shrink: 0;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 1.5rem;
+            height: 1.5rem;
+            border-radius: 9999px;
+            border: 1px solid transparent;
+            color: #2563eb;
+            background: transparent;
+            cursor: pointer;
+            vertical-align: middle;
+            transition: background-color .15s, color .15s, border-color .15s, transform .1s;
+        }
+        .dark .speak-btn {
+            color: #93c5fd;
+        }
+        .speak-btn:hover,
+        .speak-btn:focus-visible {
+            background: #dbeafe;
+            border-color: #bfdbfe;
+            outline: none;
+        }
+        .dark .speak-btn:hover,
+        .dark .speak-btn:focus-visible {
+            background: rgba(30, 58, 138, 0.45);
+            border-color: rgba(59, 130, 246, 0.45);
+        }
+        .speak-btn:active {
+            transform: scale(0.92);
+        }
+        .speak-btn.is-speaking {
+            color: #fff;
+            background: #2563eb;
+            border-color: #2563eb;
+        }
+        .speak-btn svg {
+            width: 0.9rem;
+            height: 0.9rem;
+        }
+        .speak-btn-lg {
+            width: 1.85rem;
+            height: 1.85rem;
+        }
+        .speak-btn-lg svg {
+            width: 1.05rem;
+            height: 1.05rem;
+        }
+        .speak-btn:disabled {
+            opacity: 0.45;
+            cursor: not-allowed;
+        }
     </style>
 </head>
 <body class="bg-slate-50 dark:bg-slate-950 text-slate-800 dark:text-slate-100 min-h-screen flex flex-col font-sans antialiased transition-colors duration-200">
@@ -206,7 +259,7 @@
                                     <span id="cardDomainTag" class="text-xs font-semibold px-2.5 py-1 rounded-full bg-blue-100 dark:bg-blue-950/60 text-blue-800 dark:text-blue-300"></span>
                                     <span id="cardIdTag" class="text-sm font-mono font-bold text-slate-400">#001</span>
                                 </div>
-                                <h2 id="cardTitle" class="text-xl sm:text-2xl font-extrabold text-slate-900 dark:text-white mb-6"></h2>
+                                <h2 id="cardTitle" onclick="event.stopPropagation()" class="text-xl sm:text-2xl font-extrabold text-slate-900 dark:text-white mb-6 leading-snug"></h2>
                                 <div class="p-4 rounded-2xl bg-amber-50 dark:bg-amber-950/30 border border-amber-200/70 dark:border-amber-800/40 text-amber-900 dark:text-amber-200 mb-4">
                                     <div class="text-xs font-bold uppercase tracking-wider text-amber-700 dark:text-amber-400 mb-1">🔍 思考題：核心區分與考點準則</div>
                                     <p class="text-sm text-slate-700 dark:text-slate-300">請先回想兩者本質差異，點擊卡片查看答案與詳細解析。</p>
@@ -221,7 +274,7 @@
                         <div id="cardBack" class="flip-back absolute inset-0 p-6 sm:p-8 overflow-y-auto flex flex-col justify-between bg-white dark:bg-slate-900 rounded-3xl">
                             <div class="flex flex-col gap-4">
                                 <div class="flex items-center justify-between border-b pb-3 border-slate-100 dark:border-slate-800">
-                                    <h3 id="cardBackTitle" class="font-bold text-base text-slate-900 dark:text-white"></h3>
+                                    <h3 id="cardBackTitle" onclick="event.stopPropagation()" class="font-bold text-base text-slate-900 dark:text-white leading-snug min-w-0 flex-1 pr-2"></h3>
                                     <span class="text-xs text-blue-600 dark:text-blue-400 font-semibold">解析面板</span>
                                 </div>
                                 
@@ -1272,7 +1325,132 @@
             renderList();
             updateCounters();
             setupTheme();
+            setupSpeech();
             loadAllQuizzes();
+        }
+
+        const SPEAK_AS = {
+            "CC&Rs": "C C and Rs",
+            "CC&R": "C C and R",
+            "CPWROS": "C P W R O S",
+            "POA": "P O A",
+            "TIC": "T I C",
+            "GRM": "G R M",
+            "NNN": "N N N",
+            "CUP": "C U P",
+            "CLTA": "C L T A",
+            "ALTA": "A L T A",
+            "TTIP": "T T I P",
+            "MLS": "M L S",
+            "HOA": "H O A",
+            "PMI": "P M I",
+            "APR": "A P R",
+            "RESPA": "RESPA",
+            "TILA": "T I L A",
+            "ADA": "A D A",
+            "Estate Pur Autre Vie": "estate poor oh-truh vee"
+        };
+
+        let preferredEnglishVoice = null;
+
+        function setupSpeech() {
+            if (typeof window.speechSynthesis === "undefined") return;
+            const refreshVoices = () => {
+                const voices = speechSynthesis.getVoices() || [];
+                preferredEnglishVoice =
+                    voices.find((v) => /en-US/i.test(v.lang) && /google|microsoft|samantha|aria|jenny|zira|david/i.test(v.name)) ||
+                    voices.find((v) => /en-US/i.test(v.lang)) ||
+                    voices.find((v) => /^en(-|$)/i.test(v.lang)) ||
+                    null;
+            };
+            refreshVoices();
+            speechSynthesis.addEventListener("voiceschanged", refreshVoices);
+        }
+
+        function canSpeakEnglish() {
+            return typeof window.speechSynthesis !== "undefined";
+        }
+
+        function stopSpeech() {
+            if (typeof window.speechSynthesis !== "undefined") {
+                speechSynthesis.cancel();
+            }
+            document.querySelectorAll(".speak-btn.is-speaking").forEach((btn) => btn.classList.remove("is-speaking"));
+        }
+
+        function applySpeakAs(text) {
+            let out = String(text || "").replace(/[’‘]/g, "'").replace(/\s*\/\s*/g, " or ");
+            const keys = Object.keys(SPEAK_AS).sort((a, b) => b.length - a.length);
+            keys.forEach((key) => {
+                const escaped = key.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+                out = out.replace(new RegExp(escaped, "gi"), SPEAK_AS[key]);
+            });
+            return out.replace(/\s+/g, " ").trim();
+        }
+
+        function speakEnglish(text, btn) {
+            const spoken = applySpeakAs(text);
+            if (!spoken) return;
+            if (!canSpeakEnglish()) {
+                showToast("此裝置或瀏覽器不支援語音朗讀", "error");
+                return;
+            }
+            stopSpeech();
+            const utter = new SpeechSynthesisUtterance(spoken);
+            utter.lang = "en-US";
+            utter.rate = 0.9;
+            utter.pitch = 1;
+            if (preferredEnglishVoice) utter.voice = preferredEnglishVoice;
+            if (btn) btn.classList.add("is-speaking");
+            utter.onend = () => {
+                if (btn) btn.classList.remove("is-speaking");
+            };
+            utter.onerror = () => {
+                if (btn) btn.classList.remove("is-speaking");
+                showToast("朗讀失敗，請再試一次", "error");
+            };
+            speechSynthesis.speak(utter);
+        }
+
+        function titleEnglishParts(title) {
+            const raw = String(title || "");
+            const idx = raw.indexOf("｜");
+            return {
+                en: (idx >= 0 ? raw.slice(0, idx) : raw).trim(),
+                zh: (idx >= 0 ? raw.slice(idx + 1) : "").trim()
+            };
+        }
+
+        function englishTermsFromTitle(title) {
+            const { en } = titleEnglishParts(title);
+            return en.split(/\s+vs\.\s+/i).map((t) => t.trim()).filter(Boolean);
+        }
+
+        function speakButtonHtml(term, size) {
+            const payload = encodeURIComponent(term);
+            const sizeClass = size === "lg" ? " speak-btn-lg" : "";
+            const label = escapeHtml("播放英文發音：" + term);
+            return (
+                '<button type="button" class="speak-btn' + sizeClass + '" title="' + label + '" aria-label="' + label + '"' +
+                ' onclick="event.preventDefault(); event.stopPropagation(); speakEnglish(decodeURIComponent(\'' + payload + '\'), this)">' +
+                '<svg fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">' +
+                '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5L6 9H3v6h3l5 4V5z"></path>' +
+                '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.54 8.46a5 5 0 010 7.07M18.07 5.93a9 9 0 010 12.73"></path>' +
+                "</svg></button>"
+            );
+        }
+
+        function renderSpeakTitleHtml(title, size) {
+            const { zh } = titleEnglishParts(title);
+            const terms = englishTermsFromTitle(title);
+            const enHtml = terms.map((term) => {
+                const label = highlightSearch(escapeHtml(term));
+                return '<span class="inline-flex items-center gap-1 max-w-full">' + label + speakButtonHtml(term, size) + "</span>";
+            }).join('<span class="text-slate-400 dark:text-slate-500 font-semibold mx-1"> vs. </span>');
+            const zhHtml = zh
+                ? '<span class="block mt-1.5 text-sm sm:text-base font-semibold text-slate-500 dark:text-slate-400 leading-snug">' + highlightSearch(escapeHtml(zh)) + "</span>"
+                : "";
+            return enHtml + zhHtml;
         }
 
         function getFilteredData() {
@@ -1314,6 +1492,7 @@
         }
 
         function renderList() {
+            stopSpeech();
             const container = document.getElementById('listViewContainer');
             const emptyState = document.getElementById('emptyState');
             const filtered = getFilteredData();
@@ -1357,8 +1536,8 @@
                         </div>
 
                         <!-- Title -->
-                        <h2 class="text-lg sm:text-xl font-bold text-slate-900 dark:text-white mb-3 flex items-center gap-2">
-                            ${highlightSearch(item.title)}
+                        <h2 class="text-lg sm:text-xl font-bold text-slate-900 dark:text-white mb-3 leading-snug">
+                            ${renderSpeakTitleHtml(item.title)}
                         </h2>
 
                         <!-- Core distinction -->
@@ -1424,10 +1603,11 @@
             // Front
             document.getElementById('cardDomainTag').innerText = item.domain;
             document.getElementById('cardIdTag').innerText = `#${item.id}`;
-            document.getElementById('cardTitle').innerText = item.title;
+            stopSpeech();
+            document.getElementById('cardTitle').innerHTML = renderSpeakTitleHtml(item.title, "lg");
 
             // Back
-            document.getElementById('cardBackTitle').innerText = item.title;
+            document.getElementById('cardBackTitle').innerHTML = renderSpeakTitleHtml(item.title);
             document.getElementById('cardCore').innerText = item.core;
             document.getElementById('cardExamRule').innerText = item.examRule;
             document.getElementById('cardEnText').innerText = item.en;
@@ -1659,6 +1839,7 @@
             if (type === 'success') toastIcon.innerText = "🎉";
             else if (type === 'star') toastIcon.innerText = "⭐";
             else if (type === 'dice') toastIcon.innerText = "🎲";
+            else if (type === 'error') toastIcon.innerText = "⚠️";
             else toastIcon.innerText = "ℹ️";
 
             toast.classList.remove('translate-y-20', 'opacity-0', 'pointer-events-none');
@@ -1684,7 +1865,7 @@
         // Keyboard navigation for flashcards and quiz
         window.addEventListener('keydown', (e) => {
             const tag = (e.target && e.target.tagName) ? e.target.tagName.toLowerCase() : "";
-            if (tag === "input" || tag === "textarea") return;
+            if (tag === "input" || tag === "textarea" || tag === "button" || (e.target && e.target.closest && e.target.closest("button"))) return;
             if (state.appModule === "quiz" || state.appModule === "quiz2") {
                 if (e.key === "ArrowRight") quizNext();
                 if (e.key === "ArrowLeft") quizPrev();
@@ -1737,6 +1918,7 @@
         }
 
         function switchModule(mod) {
+            stopSpeech();
             state.appModule = mod;
             const glossaryMain = document.getElementById("glossaryMain");
             const quizMain = document.getElementById("quizMain");
