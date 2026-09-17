@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>加州 DRE 不動產複習：名詞手冊與題庫練習</title>
+    <title>加州 DRE 不動產複習：名詞手冊、精讀講義與題庫練習</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -126,6 +126,13 @@
             opacity: 0.45;
             cursor: not-allowed;
         }
+        .notes-pre {
+            white-space: pre-wrap;
+            word-break: break-word;
+        }
+        .notes-grammar summary::-webkit-details-marker {
+            display: none;
+        }
     </style>
 </head>
 <body class="bg-slate-50 dark:bg-slate-950 text-slate-800 dark:text-slate-100 min-h-screen flex flex-col font-sans antialiased transition-colors duration-200">
@@ -150,6 +157,9 @@
                     <button id="btnModuleGlossary" onclick="switchModule('glossary')" class="px-2.5 sm:px-3 py-1.5 rounded-lg font-medium transition-all shadow-sm bg-white dark:bg-slate-700 text-blue-700 dark:text-blue-300">
                         名詞手冊
                     </button>
+                    <button id="btnModuleNotes" onclick="switchModule('notes')" class="px-2.5 sm:px-3 py-1.5 rounded-lg font-medium transition-all text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white">
+                        精讀講義
+                    </button>
                     <button id="btnModuleQuiz" onclick="switchModule('quiz')" class="px-2.5 sm:px-3 py-1.5 rounded-lg font-medium transition-all text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white">
                         題庫練習
                     </button>
@@ -164,6 +174,14 @@
                     </button>
                     <button id="btnCardMode" onclick="switchView('card')" class="px-3 py-1.5 rounded-lg font-medium transition-all text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white">
                         字卡翻閱
+                    </button>
+                </div>
+                <div id="notesViewSwitch" class="flex items-center bg-slate-100 dark:bg-slate-800 p-1 rounded-xl border border-slate-200 dark:border-slate-700 text-xs sm:text-sm" style="display:none">
+                    <button id="btnNotesListMode" onclick="switchNotesView('list')" class="px-3 py-1.5 rounded-lg font-medium transition-all shadow-sm bg-white dark:bg-slate-700 text-blue-700 dark:text-blue-300">
+                        條列精讀
+                    </button>
+                    <button id="btnNotesTrainerMode" onclick="switchNotesView('trainer')" class="px-3 py-1.5 rounded-lg font-medium transition-all text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white">
+                        長句練習
                     </button>
                 </div>
 
@@ -323,6 +341,70 @@
             <button onclick="resetFilters()" class="mt-4 px-4 py-2 bg-blue-600 text-white text-sm rounded-xl hover:bg-blue-700 transition">重設所有篩選</button>
         </div>
 
+    </main>
+
+    <main id="notesMain" class="hidden flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-6 flex-col gap-5">
+        <div id="notesLoadError" class="hidden bg-red-50 dark:bg-red-950/40 border border-red-200 dark:border-red-800 rounded-2xl p-6 text-sm text-red-800 dark:text-red-200">
+            無法載入精讀講義。若你是直接開啟 HTML 檔，請改用本機伺服器（例如 <code class="font-mono">python -m http.server 8765</code>）再開一次。
+        </div>
+        <div id="notesApp" class="hidden flex flex-col gap-5">
+            <div class="bg-white dark:bg-slate-900 rounded-2xl border border-slate-200 dark:border-slate-800 p-4 sm:p-5 shadow-sm flex flex-col gap-4">
+                <div class="flex flex-col md:flex-row gap-3 items-center justify-between">
+                    <div class="relative w-full md:w-96">
+                        <svg class="absolute left-3.5 top-1/2 -translate-y-1/2 w-4 h-4 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+                        </svg>
+                        <input
+                            type="text"
+                            id="notesSearchInput"
+                            placeholder="搜尋知識點、長難句、考點（如：easement, 權利束）..."
+                            oninput="handleNotesSearch()"
+                            class="w-full pl-10 pr-10 py-2.5 bg-slate-50 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 dark:focus:ring-blue-400 dark:text-white transition-colors"
+                        >
+                        <button id="notesClearSearchBtn" onclick="clearNotesSearch()" class="hidden absolute right-3 top-1/2 -translate-y-1/2 text-slate-400 hover:text-slate-600 dark:hover:text-slate-200 text-sm">✕</button>
+                    </div>
+                    <div class="flex flex-wrap items-center gap-2 sm:gap-3 w-full md:w-auto justify-end text-xs sm:text-sm">
+                        <div class="flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-slate-100 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-slate-600 dark:text-slate-300">
+                            <span class="font-semibold text-blue-600 dark:text-blue-400" id="notesCountDisplay">0</span>
+                            <span id="notesCountLabel">則知識點</span>
+                        </div>
+                        <button type="button" onclick="notesPickRandom()" class="px-3 py-1.5 rounded-xl bg-indigo-600 hover:bg-indigo-700 text-white font-medium shadow-sm transition-colors">
+                            🎲 抽一則複習
+                        </button>
+                    </div>
+                </div>
+                <div class="flex flex-col gap-1.5">
+                    <span class="text-xs font-semibold text-slate-400 uppercase tracking-wider">章節切換</span>
+                    <div class="flex flex-wrap gap-1.5" id="notesChapterFilter"></div>
+                </div>
+            </div>
+
+            <div id="notesListView" class="grid grid-cols-1 gap-4"></div>
+
+            <div id="notesTrainerView" class="hidden flex flex-col gap-4">
+                <div class="flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-3">
+                    <button type="button" id="notesPrevBtn" onclick="notesTrainerPrev()" class="px-4 py-2 rounded-xl bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 hover:bg-slate-100 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-200">
+                        ← 上一句
+                    </button>
+                    <form onsubmit="notesTrainerJumpSubmit(event)" class="flex items-center justify-center gap-2">
+                        <label for="notesJumpInput" class="text-sm text-slate-500 dark:text-slate-400 whitespace-nowrap">跳到第</label>
+                        <input id="notesJumpInput" type="number" min="1" class="w-20 px-3 py-2 rounded-xl bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-center text-sm font-semibold focus:outline-none focus:ring-2 focus:ring-blue-500" />
+                        <span class="text-sm text-slate-500 dark:text-slate-400">／ <span id="notesTrainerTotal">0</span> 句</span>
+                        <button type="submit" class="px-3 py-2 rounded-xl bg-blue-600 hover:bg-blue-700 text-white text-sm font-medium">跳句</button>
+                    </form>
+                    <button type="button" id="notesNextBtn" onclick="notesTrainerNext()" class="px-4 py-2 rounded-xl bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 hover:bg-slate-100 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-200">
+                        下一句 →
+                    </button>
+                </div>
+                <article id="notesTrainerCard" class="bg-white dark:bg-slate-900 rounded-3xl border border-slate-200 dark:border-slate-800 shadow-sm p-5 sm:p-8 flex flex-col gap-5"></article>
+            </div>
+
+            <div id="notesEmptyState" class="hidden text-center py-16">
+                <div class="text-4xl mb-2">🔍</div>
+                <p class="text-slate-500 dark:text-slate-400 font-medium">查無符合條件的講義，請放寬關鍵字或章節篩選。</p>
+                <button onclick="resetNotesFilters()" class="mt-4 px-4 py-2 bg-blue-600 text-white text-sm rounded-xl hover:bg-blue-700 transition">重設篩選</button>
+            </div>
+        </div>
     </main>
 
 <!-- QUIZ_MAIN_START -->
@@ -1308,7 +1390,7 @@
         ];
 
         let state = {
-            appModule: "glossary", // 'glossary' | 'quiz' | 'quiz2'
+            appModule: "glossary", // 'glossary' | 'notes' | 'quiz' | 'quiz2'
             currentDomain: "全部領域 (All)",
             searchQuery: "",
             viewMode: "list", // 'list' | 'card'
@@ -1326,6 +1408,7 @@
             updateCounters();
             setupTheme();
             setupSpeech();
+            loadNotes();
             loadAllQuizzes();
         }
 
@@ -1348,6 +1431,10 @@
             "RESPA": "RESPA",
             "TILA": "T I L A",
             "ADA": "A D A",
+            "HUD": "HUD",
+            "FHA": "F H A",
+            "VA": "V A",
+            "ACOLD": "A C O L D",
             "Estate Pur Autre Vie": "estate poor oh-truh vee"
         };
 
@@ -1717,10 +1804,11 @@
             handleSearch();
         }
 
-        function highlightSearch(text) {
-            if (!state.searchQuery || state.searchQuery.trim() === '') return text;
-            const query = state.searchQuery.trim();
-            const regex = new RegExp(`(${query})`, 'gi');
+        function highlightSearch(text, query) {
+            const q = (query !== undefined ? query : state.searchQuery) || "";
+            if (!q.trim()) return text;
+            const escaped = q.trim().replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+            const regex = new RegExp(`(${escaped})`, 'gi');
             return text.replace(regex, '<mark class="bg-amber-200 dark:bg-amber-800 text-slate-900 dark:text-white rounded px-0.5">$1</mark>');
         }
 
@@ -1866,6 +1954,17 @@
         window.addEventListener('keydown', (e) => {
             const tag = (e.target && e.target.tagName) ? e.target.tagName.toLowerCase() : "";
             if (tag === "input" || tag === "textarea" || tag === "button" || (e.target && e.target.closest && e.target.closest("button"))) return;
+            if (state.appModule === "notes") {
+                if (notesState.viewMode === "trainer") {
+                    if (e.key === "ArrowRight") notesTrainerNext();
+                    if (e.key === "ArrowLeft") notesTrainerPrev();
+                    if (e.key === " " || e.key === "Enter") {
+                        e.preventDefault();
+                        notesTrainerReveal();
+                    }
+                }
+                return;
+            }
             if (state.appModule === "quiz" || state.appModule === "quiz2") {
                 if (e.key === "ArrowRight") quizNext();
                 if (e.key === "ArrowLeft") quizPrev();
@@ -1885,18 +1984,422 @@
             }
         });
 
+        const NOTES_STORAGE_KEY = "dre-notes-progress-v1";
+        const notesState = {
+            loaded: false,
+            failed: false,
+            chapters: [],
+            notes: [],
+            sentences: [],
+            chapterId: "all",
+            searchQuery: "",
+            viewMode: "list",
+            trainerIndex: 0,
+            revealedIds: new Set()
+        };
+
+        function loadNotesProgress() {
+            try {
+                const raw = localStorage.getItem(NOTES_STORAGE_KEY);
+                if (!raw) return;
+                const saved = JSON.parse(raw);
+                if (saved.chapterId) notesState.chapterId = saved.chapterId;
+                if (saved.viewMode === "list" || saved.viewMode === "trainer") notesState.viewMode = saved.viewMode;
+                if (typeof saved.trainerIndex === "number") notesState.trainerIndex = saved.trainerIndex;
+                if (Array.isArray(saved.revealedIds)) notesState.revealedIds = new Set(saved.revealedIds);
+            } catch (err) {
+                notesState.revealedIds = new Set();
+            }
+        }
+
+        function saveNotesProgress() {
+            localStorage.setItem(NOTES_STORAGE_KEY, JSON.stringify({
+                chapterId: notesState.chapterId,
+                viewMode: notesState.viewMode,
+                trainerIndex: notesState.trainerIndex,
+                revealedIds: Array.from(notesState.revealedIds)
+            }));
+        }
+
+        async function loadNotes() {
+            loadNotesProgress();
+            try {
+                const res = await fetch("data/notes.json");
+                if (!res.ok) throw new Error("fetch failed");
+                const payload = await res.json();
+                notesState.chapters = payload.chapters || [];
+                notesState.notes = payload.notes || [];
+                notesState.sentences = payload.sentences || [];
+                notesState.loaded = true;
+                notesState.failed = false;
+            } catch (err) {
+                notesState.loaded = false;
+                notesState.failed = true;
+            }
+            if (state.appModule === "notes") renderNotes();
+        }
+
+        function notesSpeakTerm(titleEn) {
+            return String(titleEn || "")
+                .replace(/^[一二三四五六七八九十]+、\s*/, "")
+                .replace(/^\d+\.\s*/, "")
+                .replace(/[（(][^)）]*[)）]/g, "")
+                .replace(/[\u4e00-\u9fff].*$/g, "")
+                .replace(/[-–—:：]\s*$/g, "")
+                .trim();
+        }
+
+        function notesHighlight(text) {
+            return highlightSearch(escapeHtml(text), notesState.searchQuery);
+        }
+
+        function renderNotesTitleHtml(note) {
+            const en = note.titleEn || note.title;
+            const zh = note.titleZh || "";
+            const speakSrc = notesSpeakTerm(en);
+            const terms = speakSrc.split(/\s+vs\.\s+/i).map((t) => t.trim()).filter(Boolean);
+            const enHtml = terms.map((term) => {
+                return '<span class="inline-flex items-center gap-1 max-w-full">' + notesHighlight(term) + speakButtonHtml(term, "") + "</span>";
+            }).join('<span class="text-slate-400 dark:text-slate-500 font-semibold mx-1"> vs. </span>');
+            const zhHtml = zh
+                ? '<span class="block mt-1.5 text-sm sm:text-base font-semibold text-slate-500 dark:text-slate-400 leading-snug">' + notesHighlight(zh) + "</span>"
+                : "";
+            return enHtml + zhHtml;
+        }
+
+        function noteMatchesQuery(note, q) {
+            if (!q) return true;
+            const chunks = [
+                note.id, note.chapter, note.title, note.titleEn, note.titleZh,
+                note.body, note.sentenceEn, note.grammar, note.examFocus
+            ];
+            (note.points || []).forEach((p) => chunks.push(p.en, p.zh));
+            return chunks.join(" ").toLowerCase().includes(q);
+        }
+
+        function sentenceMatchesQuery(item, q) {
+            if (!q) return true;
+            const chunks = [item.id, item.chapter, item.title, item.titleEn, item.titleZh, item.en, item.grammar, item.examFocus, item.hintZh];
+            return chunks.join(" ").toLowerCase().includes(q);
+        }
+
+        function getFilteredNotes() {
+            const q = notesState.searchQuery.trim().toLowerCase();
+            return notesState.notes.filter((note) => {
+                if (notesState.chapterId !== "all" && note.chapterId !== notesState.chapterId) return false;
+                return noteMatchesQuery(note, q);
+            });
+        }
+
+        function getFilteredSentences() {
+            const q = notesState.searchQuery.trim().toLowerCase();
+            return notesState.sentences.filter((item) => {
+                if (notesState.chapterId !== "all" && item.chapterId !== notesState.chapterId) return false;
+                return sentenceMatchesQuery(item, q);
+            });
+        }
+
+        function switchNotesView(mode) {
+            notesState.viewMode = mode;
+            saveNotesProgress();
+            renderNotes();
+        }
+
+        function setNotesChapter(chapterId) {
+            notesState.chapterId = chapterId;
+            notesState.trainerIndex = 0;
+            saveNotesProgress();
+            renderNotes();
+        }
+
+        function handleNotesSearch() {
+            const input = document.getElementById("notesSearchInput");
+            notesState.searchQuery = input ? input.value : "";
+            document.getElementById("notesClearSearchBtn").classList.toggle("hidden", !notesState.searchQuery);
+            notesState.trainerIndex = 0;
+            renderNotes();
+        }
+
+        function clearNotesSearch() {
+            notesState.searchQuery = "";
+            const input = document.getElementById("notesSearchInput");
+            if (input) input.value = "";
+            document.getElementById("notesClearSearchBtn").classList.add("hidden");
+            renderNotes();
+        }
+
+        function resetNotesFilters() {
+            notesState.chapterId = "all";
+            notesState.searchQuery = "";
+            notesState.trainerIndex = 0;
+            const input = document.getElementById("notesSearchInput");
+            if (input) input.value = "";
+            document.getElementById("notesClearSearchBtn").classList.add("hidden");
+            saveNotesProgress();
+            renderNotes();
+            showToast("已重設講義篩選條件", "info");
+        }
+
+        function renderNotesChapterButtons() {
+            const container = document.getElementById("notesChapterFilter");
+            const items = [{ id: "all", title: "全部章節", titleEn: "All" }].concat(notesState.chapters);
+            container.innerHTML = items.map((ch) => {
+                const isActive = notesState.chapterId === ch.id;
+                const activeClass = isActive
+                    ? "bg-blue-600 text-white font-semibold shadow-sm"
+                    : "bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-700";
+                const label = ch.id === "all" ? ch.title : (ch.title + " · " + ch.titleEn);
+                return '<button type="button" onclick="setNotesChapter(\'' + ch.id + '\')" class="px-2.5 py-1 text-xs rounded-lg transition-colors badge-domain whitespace-nowrap ' + activeClass + '">' + escapeHtml(label) + "</button>";
+            }).join("");
+        }
+
+        function renderNotesPoints(note) {
+            const points = note.points || [];
+            if (!points.length) return "";
+            return '<div class="space-y-2">' + points.map((p) => {
+                const enBtn = p.en ? speakButtonHtml(p.en, "") : "";
+                return (
+                    '<div class="rounded-xl border border-slate-200 dark:border-slate-700/60 overflow-hidden">' +
+                        (p.en ? '<div class="p-3 bg-slate-50 dark:bg-slate-800/70 text-sm leading-relaxed text-slate-800 dark:text-slate-200"><span class="font-bold text-indigo-600 dark:text-indigo-400">EN </span>' + enBtn + '<span class="align-middle"> ' + notesHighlight(p.en) + "</span></div>" : "") +
+                        (p.zh ? '<div class="p-3 bg-white dark:bg-slate-900 text-sm leading-relaxed text-slate-700 dark:text-slate-300"><span class="font-bold text-emerald-600 dark:text-emerald-400">ZH </span>' + notesHighlight(p.zh) + "</div>" : "") +
+                    "</div>"
+                );
+            }).join("") + "</div>";
+        }
+
+        function renderNotesList() {
+            stopSpeech();
+            const filtered = getFilteredNotes();
+            const container = document.getElementById("notesListView");
+            const emptyState = document.getElementById("notesEmptyState");
+            document.getElementById("notesCountDisplay").innerText = String(filtered.length);
+            document.getElementById("notesCountLabel").innerText = "則知識點";
+
+            if (!filtered.length) {
+                container.innerHTML = "";
+                emptyState.classList.remove("hidden");
+                return;
+            }
+            emptyState.classList.add("hidden");
+
+            container.innerHTML = filtered.map((note) => {
+                const examHtml = note.examFocus
+                    ? '<div class="p-3 bg-red-50 dark:bg-red-950/30 border-l-4 border-red-500 rounded-r-xl text-xs sm:text-sm text-red-900 dark:text-red-200"><span class="font-bold">【考點】</span> ' + notesHighlight(note.examFocus) + "</div>"
+                    : "";
+                const bodyHtml = note.body
+                    ? '<div class="notes-pre text-sm text-slate-600 dark:text-slate-300 leading-relaxed">' + notesHighlight(note.body) + "</div>"
+                    : "";
+                const sentenceHtml = note.sentenceEn
+                    ? (
+                        '<details class="notes-grammar rounded-xl border border-indigo-200 dark:border-indigo-900/60 bg-indigo-50/50 dark:bg-indigo-950/20 p-4">' +
+                            '<summary class="cursor-pointer list-none flex items-start justify-between gap-3">' +
+                                '<span class="text-xs font-bold uppercase tracking-wider text-indigo-700 dark:text-indigo-300">考試長難句 · 點開文法拆解</span>' +
+                                speakButtonHtml(note.sentenceEn, "") +
+                            "</summary>" +
+                            '<p class="mt-3 text-sm sm:text-base font-medium text-slate-800 dark:text-slate-100 leading-relaxed">' + notesHighlight(note.sentenceEn) + "</p>" +
+                            (note.grammar ? '<div class="mt-3 notes-pre text-xs sm:text-sm text-slate-600 dark:text-slate-300 leading-relaxed">' + notesHighlight(note.grammar) + "</div>" : "") +
+                            (note.sentenceEn ? '<button type="button" class="mt-3 text-xs text-blue-600 dark:text-blue-400 hover:underline" onclick="openNotesTrainerForNote(\'' + note.id + '\')">改用長句練習此句 →</button>' : "") +
+                        "</details>"
+                    )
+                    : "";
+                return (
+                    '<article id="note-item-' + note.id + '" class="bg-white dark:bg-slate-900 rounded-2xl border border-slate-200 dark:border-slate-800 p-5 sm:p-6 shadow-sm hover:shadow-md transition-all flex flex-col gap-4">' +
+                        '<div class="flex items-start justify-between gap-3">' +
+                            '<div class="flex flex-wrap items-center gap-2">' +
+                                '<span class="text-xs font-mono font-bold px-2 py-0.5 rounded-md bg-blue-50 dark:bg-blue-950/80 text-blue-700 dark:text-blue-300 border border-blue-200 dark:border-blue-900">' + note.id + "</span>" +
+                                '<span class="text-xs font-medium px-2 py-0.5 rounded-md bg-slate-100 dark:bg-slate-800 text-slate-500 dark:text-slate-400">' + escapeHtml(note.chapter) + "</span>" +
+                            "</div>" +
+                        "</div>" +
+                        '<h2 class="text-lg sm:text-xl font-extrabold text-slate-900 dark:text-white leading-snug">' + renderNotesTitleHtml(note) + "</h2>" +
+                        renderNotesPoints(note) +
+                        bodyHtml +
+                        examHtml +
+                        sentenceHtml +
+                    "</article>"
+                );
+            }).join("");
+        }
+
+        function renderNotesTrainer() {
+            stopSpeech();
+            const filtered = getFilteredSentences();
+            const emptyState = document.getElementById("notesEmptyState");
+            const card = document.getElementById("notesTrainerCard");
+            document.getElementById("notesCountDisplay").innerText = String(filtered.length);
+            document.getElementById("notesCountLabel").innerText = "句長難句";
+            document.getElementById("notesTrainerTotal").innerText = String(filtered.length);
+
+            if (!filtered.length) {
+                card.innerHTML = "";
+                emptyState.classList.remove("hidden");
+                return;
+            }
+            emptyState.classList.add("hidden");
+
+            if (notesState.trainerIndex >= filtered.length) notesState.trainerIndex = 0;
+            if (notesState.trainerIndex < 0) notesState.trainerIndex = 0;
+            const item = filtered[notesState.trainerIndex];
+            document.getElementById("notesJumpInput").value = String(notesState.trainerIndex + 1);
+            document.getElementById("notesPrevBtn").disabled = notesState.trainerIndex <= 0;
+            document.getElementById("notesNextBtn").disabled = notesState.trainerIndex >= filtered.length - 1;
+
+            const revealed = notesState.revealedIds.has(item.id);
+            const grammarHtml = item.grammar
+                ? '<div class="notes-pre text-xs sm:text-sm text-slate-600 dark:text-slate-300 leading-relaxed">' + notesHighlight(item.grammar) + "</div>"
+                : "";
+            const examHtml = item.examFocus
+                ? '<div class="p-3 bg-red-50 dark:bg-red-950/30 border-l-4 border-red-500 rounded-r-xl text-xs sm:text-sm text-red-900 dark:text-red-200"><span class="font-bold">【考點】</span> ' + notesHighlight(item.examFocus) + "</div>"
+                : "";
+            const hintHtml = item.hintZh
+                ? '<div class="p-3 rounded-xl bg-emerald-50 dark:bg-emerald-950/30 border border-emerald-200 dark:border-emerald-800 text-sm text-emerald-900 dark:text-emerald-200"><span class="font-bold">相關知識點：</span>' + notesHighlight(item.hintZh) + "</div>"
+                : "";
+
+            card.innerHTML =
+                '<div class="flex items-center justify-between gap-3">' +
+                    '<span class="text-xs font-semibold px-2.5 py-1 rounded-full bg-blue-100 dark:bg-blue-950/60 text-blue-800 dark:text-blue-300">' + escapeHtml(item.chapter) + "</span>" +
+                    '<span class="text-sm font-mono font-bold text-slate-400">' + item.id + " · " + (notesState.trainerIndex + 1) + " / " + filtered.length + "</span>" +
+                "</div>" +
+                '<div>' +
+                    '<h2 class="text-base sm:text-lg font-bold text-slate-900 dark:text-white leading-snug">' + renderNotesTitleHtml(item) + "</h2>" +
+                "</div>" +
+                '<div class="p-4 sm:p-5 rounded-2xl bg-slate-50 dark:bg-slate-800/70 border border-slate-200 dark:border-slate-700">' +
+                    '<div class="flex items-start justify-between gap-3 mb-2">' +
+                        '<div class="text-xs font-bold uppercase tracking-wider text-indigo-600 dark:text-indigo-400">先讀英文長句</div>' +
+                        speakButtonHtml(item.en, "lg") +
+                    "</div>" +
+                    '<p class="text-base sm:text-lg font-medium text-slate-900 dark:text-white leading-relaxed">' + notesHighlight(item.en) + "</p>" +
+                "</div>" +
+                (revealed
+                    ? ('<div class="flex flex-col gap-3">' + hintHtml + examHtml + grammarHtml +
+                        '<button type="button" onclick="openNotesListForNote(\'' + item.noteId + '\')" class="self-start text-xs text-blue-600 dark:text-blue-400 hover:underline">查看完整講義卡片 →</button></div>')
+                    : '<div class="p-4 rounded-2xl bg-amber-50 dark:bg-amber-950/30 border border-amber-200/70 dark:border-amber-800/40 text-sm text-amber-900 dark:text-amber-200">請先自己拆主句與從句，再揭曉文法解析與相關知識點。</div>') +
+                '<div class="flex flex-wrap items-center justify-between gap-3">' +
+                    '<button type="button" onclick="notesTrainerReveal()" class="px-4 py-2 rounded-xl ' + (revealed ? "bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300" : "bg-blue-600 hover:bg-blue-700 text-white") + ' font-medium">' +
+                        (revealed ? "已顯示解析" : "顯示文法與考點") +
+                    "</button>" +
+                    '<span class="text-xs text-slate-400">鍵盤：← → 換句，空白鍵揭曉</span>' +
+                "</div>";
+        }
+
+        function renderNotes() {
+            const err = document.getElementById("notesLoadError");
+            const app = document.getElementById("notesApp");
+            if (notesState.failed) {
+                err.classList.remove("hidden");
+                app.classList.add("hidden");
+                return;
+            }
+            if (!notesState.loaded) {
+                err.classList.add("hidden");
+                app.classList.add("hidden");
+                return;
+            }
+            err.classList.add("hidden");
+            app.classList.remove("hidden");
+
+            const listActive = "px-3 py-1.5 rounded-lg font-medium transition-all shadow-sm bg-white dark:bg-slate-700 text-blue-700 dark:text-blue-300";
+            const listIdle = "px-3 py-1.5 rounded-lg font-medium transition-all text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white";
+            document.getElementById("btnNotesListMode").className = notesState.viewMode === "list" ? listActive : listIdle;
+            document.getElementById("btnNotesTrainerMode").className = notesState.viewMode === "trainer" ? listActive : listIdle;
+
+            renderNotesChapterButtons();
+            const listView = document.getElementById("notesListView");
+            const trainerView = document.getElementById("notesTrainerView");
+            if (notesState.viewMode === "trainer") {
+                listView.classList.add("hidden");
+                trainerView.classList.remove("hidden");
+                trainerView.classList.add("flex");
+                renderNotesTrainer();
+            } else {
+                trainerView.classList.add("hidden");
+                trainerView.classList.remove("flex");
+                listView.classList.remove("hidden");
+                renderNotesList();
+            }
+        }
+
+        function notesTrainerReveal() {
+            const filtered = getFilteredSentences();
+            const item = filtered[notesState.trainerIndex];
+            if (!item) return;
+            notesState.revealedIds.add(item.id);
+            saveNotesProgress();
+            renderNotesTrainer();
+        }
+
+        function notesTrainerPrev() {
+            if (notesState.trainerIndex <= 0) return;
+            notesState.trainerIndex -= 1;
+            saveNotesProgress();
+            renderNotesTrainer();
+        }
+
+        function notesTrainerNext() {
+            const filtered = getFilteredSentences();
+            if (notesState.trainerIndex >= filtered.length - 1) return;
+            notesState.trainerIndex += 1;
+            saveNotesProgress();
+            renderNotesTrainer();
+        }
+
+        function notesTrainerJumpSubmit(event) {
+            event.preventDefault();
+            const filtered = getFilteredSentences();
+            const n = parseInt(document.getElementById("notesJumpInput").value, 10);
+            if (!filtered.length || Number.isNaN(n)) return;
+            notesState.trainerIndex = Math.min(Math.max(n, 1), filtered.length) - 1;
+            saveNotesProgress();
+            renderNotesTrainer();
+        }
+
+        function openNotesTrainerForNote(noteId) {
+            const idx = getFilteredSentences().findIndex((s) => s.noteId === noteId);
+            notesState.viewMode = "trainer";
+            if (idx >= 0) notesState.trainerIndex = idx;
+            saveNotesProgress();
+            renderNotes();
+        }
+
+        function openNotesListForNote(noteId) {
+            notesState.viewMode = "list";
+            saveNotesProgress();
+            renderNotes();
+            const el = document.getElementById("note-item-" + noteId);
+            if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
+        }
+
+        function notesPickRandom() {
+            if (notesState.viewMode === "trainer") {
+                const filtered = getFilteredSentences();
+                if (!filtered.length) return;
+                notesState.trainerIndex = Math.floor(Math.random() * filtered.length);
+                saveNotesProgress();
+                renderNotesTrainer();
+                showToast("抽中長句 " + filtered[notesState.trainerIndex].id, "dice");
+                return;
+            }
+            const filtered = getFilteredNotes();
+            if (!filtered.length) return;
+            const target = filtered[Math.floor(Math.random() * filtered.length)];
+            const el = document.getElementById("note-item-" + target.id);
+            if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
+            showToast("抽中知識點 " + target.id, "dice");
+        }
+
         const QUIZ_BANKS = {
             quiz: {
                 key: "quiz",
                 url: "data/questions.json",
-                storageKey: "dre-quiz-progress-v1",
+                storageKey: "dre-quiz-progress-v2",
                 label: "題庫練習",
                 subtitle: "題庫練習：順序刷題、跳題與解析",
-                resetToast: "已清除題庫作答紀錄",
+                resetToast: "已清除題庫作答紀錄（選項順序已重新打亂）",
+                shuffleChoices: true,
                 questions: [],
+                originalQuestions: [],
                 loaded: false,
                 failed: false,
-                state: { index: 0, answers: {} }
+                state: { index: 0, answers: {}, choiceOrders: {} }
             },
             quiz2: {
                 key: "quiz2",
@@ -1906,9 +2409,10 @@
                 subtitle: "題庫練習二：艱難考題、跳題與解析",
                 resetToast: "已清除題庫練習二作答紀錄",
                 questions: [],
+                originalQuestions: [],
                 loaded: false,
                 failed: false,
-                state: { index: 0, answers: {} }
+                state: { index: 0, answers: {}, choiceOrders: {} }
             }
         };
         let activeQuizKey = "quiz";
@@ -1921,9 +2425,12 @@
             stopSpeech();
             state.appModule = mod;
             const glossaryMain = document.getElementById("glossaryMain");
+            const notesMain = document.getElementById("notesMain");
             const quizMain = document.getElementById("quizMain");
             const glossarySwitch = document.getElementById("glossaryViewSwitch");
+            const notesSwitch = document.getElementById("notesViewSwitch");
             const btnGlossary = document.getElementById("btnModuleGlossary");
+            const btnNotes = document.getElementById("btnModuleNotes");
             const btnQuiz = document.getElementById("btnModuleQuiz");
             const btnQuiz2 = document.getElementById("btnModuleQuiz2");
             const subtitle = document.getElementById("headerSubtitle");
@@ -1931,21 +2438,33 @@
             const idle = "px-2.5 sm:px-3 py-1.5 rounded-lg font-medium transition-all text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white";
 
             btnGlossary.className = idle;
+            btnNotes.className = idle;
             btnQuiz.className = idle;
             btnQuiz2.className = idle;
+            glossaryMain.style.display = "none";
+            notesMain.style.display = "none";
+            quizMain.style.display = "none";
+            glossarySwitch.style.display = "none";
+            notesSwitch.style.display = "none";
 
             if (mod === "glossary") {
                 glossaryMain.style.display = "";
-                quizMain.style.display = "none";
                 glossarySwitch.style.display = "";
                 btnGlossary.className = active;
                 subtitle.textContent = "核心 100 組易混淆名詞速成手冊";
                 return;
             }
 
-            glossaryMain.style.display = "none";
+            if (mod === "notes") {
+                notesMain.style.display = "flex";
+                notesSwitch.style.display = "";
+                btnNotes.className = active;
+                subtitle.textContent = "精讀講義：章節知識點與考試長難句";
+                renderNotes();
+                return;
+            }
+
             quizMain.style.display = "flex";
-            glossarySwitch.style.display = "none";
             activeQuizKey = mod;
             if (mod === "quiz2") btnQuiz2.className = active;
             else btnQuiz.className = active;
@@ -1960,17 +2479,69 @@
                 const saved = JSON.parse(raw);
                 if (typeof saved.index === "number") bank.state.index = saved.index;
                 if (saved.answers && typeof saved.answers === "object") bank.state.answers = saved.answers;
+                if (saved.choiceOrders && typeof saved.choiceOrders === "object") bank.state.choiceOrders = saved.choiceOrders;
             } catch (err) {
-                bank.state = { index: 0, answers: {} };
+                bank.state = { index: 0, answers: {}, choiceOrders: {} };
             }
         }
 
-        function saveQuizProgress() {
-            const bank = currentQuiz();
-            localStorage.setItem(bank.storageKey, JSON.stringify({
-                index: bank.state.index,
-                answers: bank.state.answers
+        function saveQuizProgress(bank) {
+            const target = bank || currentQuiz();
+            localStorage.setItem(target.storageKey, JSON.stringify({
+                index: target.state.index,
+                answers: target.state.answers,
+                choiceOrders: target.state.choiceOrders || {}
             }));
+        }
+
+        function shuffleArray(items) {
+            const arr = items.slice();
+            for (let i = arr.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                const tmp = arr[i];
+                arr[i] = arr[j];
+                arr[j] = tmp;
+            }
+            return arr;
+        }
+
+        function choiceOrderIsValid(question, order) {
+            if (!question || !Array.isArray(order) || order.length !== question.choices.length) return false;
+            const keys = question.choices.map((c) => c.key);
+            return keys.every((k) => order.includes(k)) && order.every((k) => keys.includes(k));
+        }
+
+        function remapQuestionChoices(question, order) {
+            const byKey = {};
+            question.choices.forEach((c) => { byKey[c.key] = c; });
+            const letters = ["A", "B", "C", "D", "E", "F"];
+            const choices = order.map((oldKey, i) => ({
+                key: letters[i],
+                en: byKey[oldKey].en,
+                zh: byKey[oldKey].zh
+            }));
+            const answerIndex = order.indexOf(question.answer);
+            return Object.assign({}, question, {
+                choices: choices,
+                answer: answerIndex >= 0 ? letters[answerIndex] : question.answer
+            });
+        }
+
+        function ensureQuizChoiceOrders(bank) {
+            if (!bank.shuffleChoices) {
+                bank.questions = bank.originalQuestions;
+                return;
+            }
+            if (!bank.state.choiceOrders) bank.state.choiceOrders = {};
+            let needSave = false;
+            bank.originalQuestions.forEach((q) => {
+                if (!choiceOrderIsValid(q, bank.state.choiceOrders[q.id])) {
+                    bank.state.choiceOrders[q.id] = shuffleArray(q.choices.map((c) => c.key));
+                    needSave = true;
+                }
+            });
+            bank.questions = bank.originalQuestions.map((q) => remapQuestionChoices(q, bank.state.choiceOrders[q.id]));
+            if (needSave) saveQuizProgress(bank);
         }
 
         async function loadQuizBank(key) {
@@ -1978,11 +2549,12 @@
             try {
                 const res = await fetch(bank.url);
                 if (!res.ok) throw new Error("fetch failed");
-                bank.questions = await res.json();
+                bank.originalQuestions = await res.json();
                 loadQuizProgress(bank);
-                if (bank.state.index < 0 || bank.state.index >= bank.questions.length) {
+                if (bank.state.index < 0 || bank.state.index >= bank.originalQuestions.length) {
                     bank.state.index = 0;
                 }
+                ensureQuizChoiceOrders(bank);
                 bank.loaded = true;
                 bank.failed = false;
             } catch (err) {
@@ -2128,7 +2700,9 @@
         function resetQuizProgress() {
             const bank = currentQuiz();
             bank.state.answers = {};
-            saveQuizProgress();
+            bank.state.choiceOrders = {};
+            ensureQuizChoiceOrders(bank);
+            saveQuizProgress(bank);
             renderQuiz();
             showToast(bank.resetToast, "info");
         }

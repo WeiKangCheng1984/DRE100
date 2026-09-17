@@ -158,6 +158,10 @@ def match_answer(choices, answer_raw: str) -> str:
     if re.match(r"^[a-dA-D]([\.\):：]|$)", raw):
         return raw[0].upper()
     norm = normalize_match(raw)
+    for ch in choices:
+        for c in [normalize_match(ch["en"]), normalize_match(ch["zh"]), normalize_match(ch["en"] + " " + ch["zh"])]:
+            if c and norm == c:
+                return ch["key"]
     best, best_score = "", 0
     for ch in choices:
         for c in [normalize_match(ch["en"]), normalize_match(ch["zh"]), normalize_match(ch["en"] + " " + ch["zh"])]:
