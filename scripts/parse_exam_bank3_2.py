@@ -98,23 +98,24 @@ def infer_answer(choice_lines: list[str], explanation: str) -> str:
     if len(marked) == 1:
         return marked[0]
 
-    explicit = ANSWER_LETTER_RE.search(joined)
-    if explicit:
-        return explicit.group(1).upper()
-
     exp = tidy(explanation)
     exp_norm = normalized(exp)
     if not exp_norm:
         return ""
 
-    # Common edited forms: "選項 C（正確）" or "Gretta (Correct): ...".
+    # Prefer Chinese "選項 C（正確）" BEFORE bare "正確答案：A" (which often
+    # belongs to a neighboring question pasted into the same buffer).
     correct_letter = re.search(
-        r"(?:選項\s*)?[\(\[]?([A-D])[\)\]]?\s*[\(（]?\s*正確",
+        r"選項\s*([A-D])\s*[（(]\s*正確",
         exp,
         re.I,
     )
     if correct_letter:
         return correct_letter.group(1).upper()
+
+    explicit = ANSWER_LETTER_RE.search(joined)
+    if explicit:
+        return explicit.group(1).upper()
     named_correct: list[str] = []
     for key, raw in zip(KEYS, choice_lines):
         en, _ = split_en_zh(raw)
@@ -147,8 +148,24 @@ def infer_answer(choice_lines: list[str], explanation: str) -> str:
         choice = normalized(en or raw)
         if len(choice) >= 4 and re.search(rf"\b{re.escape(choice)}\b", early_norm):
             exact_mentions.append(key)
-    if len(set(exact_mentions)) > 1:
+    uniq = set(exact_mentions)
+    if len(uniq) == 1:
+        return next(iter(uniq))
+    if len(uniq) > 1:
         return ""
+
+    # 「答案就是 real estate brokerage」
+    ans_is = re.search(r"答案就是\s*([A-Za-z][A-Za-z0-9\s\-/']{2,80})", exp)
+    if ans_is:
+        phrase = normalized(ans_is.group(1))
+        hits = []
+        for key, raw in zip(KEYS, choice_lines):
+            en, _ = split_en_zh(raw)
+            choice = normalized(en or raw)
+            if choice and (choice == phrase or phrase in choice or choice in phrase):
+                hits.append(key)
+        if len(set(hits)) == 1:
+            return hits[0]
 
     scores: list[tuple[float, str]] = []
     for key, raw in zip(KEYS, choice_lines):
@@ -188,6 +205,15 @@ def looks_like_choice(text: str) -> bool:
         return False
     if s.endswith(("?", "？")) or re.match(
         r"^(?:What|Which|Why|How|When|Can|Do)\b", s, re.I
+    ):
+        return False
+    # Prompt / lead-in lines that introduce the actual options.
+    if s.endswith(":") and len(re.findall(r"[A-Za-z]+", s)) >= 3:
+        return False
+    if re.match(
+        r"^(?:All of these factors|Ebony'?s business likely|Product [A-Z] is)\b",
+        s,
+        re.I,
     ):
         return False
     return True
@@ -337,14 +363,14 @@ def parse_unnumbered(level: int, lines: list[str]) -> list[dict]:
         choices = [clean[p + offset][1] for offset in range(1, 5)]
         if not all(looks_like_choice(choice) for choice in choices):
             continue
-        # Feedback is normally one line, but allow a few lines for calculations.
-        explanation_lines = [row[1] for row in clean[p + 5 : p + 9]]
+        # Keep a longer feedback window so「選項 C（正確）」survives inference.
+        explanation_lines = [row[1] for row in clean[p + 5 : p + 25]]
         explanation = "\n".join(explanation_lines)
         answer = infer_answer(choices, explanation)
         if not answer:
             continue
 
-        question = make_question(level, [line], choices, answer, explanation_lines[:1])
+        question = make_question(level, [line], choices, answer, explanation_lines[:12])
         if question:
             found.append(question)
     return found
@@ -379,6 +405,24 @@ def main() -> None:
     for question in ordered:
         fp = fingerprint(question["stemEn"])
         if not fp or fp in seen:
+            continue
+        choice_a = question["choices"][0]["en"]
+        # Drop rows where choice A is clearly a leaked stem / prompt fragment.
+        if (
+            len(choice_a) > 50
+            and normalized(choice_a)[:40] in normalized(question["stemEn"])
+        ) or choice_a.lower().startswith("all of these factors contribute"):
+            continue
+        if choice_a.endswith(":") or any(c["en"].endswith(":") for c in question["choices"]):
+            continue
+        # Prefer lettered bilingual records: if we already kept a close stem,
+        # skip weaker near-duplicates (handled by fingerprint). Extra: skip
+        # stems that are only the lead-in sentence of a longer question.
+        if re.match(
+            r"^(?:All of these factors contribute|Ebony'?s business likely engages)\b",
+            question["stemEn"],
+            re.I,
+        ):
             continue
         seen.add(fp)
         unique.append(question)

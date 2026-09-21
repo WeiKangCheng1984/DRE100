@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>加州 DRE 不動產複習：名詞手冊、精讀講義與題庫練習</title>
+    <title>加州 DRE 不動產複習：名詞手冊、衝刺280、精讀講義與題庫練習</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -160,6 +160,9 @@
                     <button id="btnModuleNotes" onclick="switchModule('notes')" class="px-2.5 sm:px-3 py-1.5 rounded-lg font-medium transition-all text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white">
                         精讀講義
                     </button>
+                    <button id="btnModuleCram" onclick="switchModule('cram')" class="px-2.5 sm:px-3 py-1.5 rounded-lg font-medium transition-all text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white">
+                        衝刺280
+                    </button>
                     <button id="btnModuleQuiz" onclick="switchModule('quiz')" class="px-2.5 sm:px-3 py-1.5 rounded-lg font-medium transition-all text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white">
                         題庫練習
                     </button>
@@ -185,6 +188,14 @@
                     </button>
                     <button id="btnNotesTrainerMode" onclick="switchNotesView('trainer')" class="px-3 py-1.5 rounded-lg font-medium transition-all text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white">
                         長句練習
+                    </button>
+                </div>
+                <div id="cramViewSwitch" class="flex items-center bg-slate-100 dark:bg-slate-800 p-1 rounded-xl border border-slate-200 dark:border-slate-700 text-xs sm:text-sm" style="display:none">
+                    <button id="btnCramListMode" onclick="switchCramView('list')" class="px-3 py-1.5 rounded-lg font-medium transition-all shadow-sm bg-white dark:bg-slate-700 text-blue-700 dark:text-blue-300">
+                        條列速記
+                    </button>
+                    <button id="btnCramCardMode" onclick="switchCramView('card')" class="px-3 py-1.5 rounded-lg font-medium transition-all text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white">
+                        英文字卡
                     </button>
                 </div>
 
@@ -406,6 +417,90 @@
                 <div class="text-4xl mb-2">🔍</div>
                 <p class="text-slate-500 dark:text-slate-400 font-medium">查無符合條件的講義，請放寬關鍵字或章節篩選。</p>
                 <button onclick="resetNotesFilters()" class="mt-4 px-4 py-2 bg-blue-600 text-white text-sm rounded-xl hover:bg-blue-700 transition">重設篩選</button>
+            </div>
+        </div>
+    </main>
+
+    <!-- CRAM 280 -->
+    <main id="cramMain" class="hidden flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-6 flex-col gap-5">
+        <div id="cramLoadError" class="hidden bg-red-50 dark:bg-red-950/40 border border-red-200 dark:border-red-800 rounded-2xl p-6 text-sm text-red-800 dark:text-red-200">
+            無法載入考前衝刺資料。請用本機伺服器開啟（例如 <code class="font-mono">python -m http.server 8765</code>）。
+        </div>
+        <div id="cramApp" class="hidden flex flex-col gap-5">
+            <div class="bg-white dark:bg-slate-900 rounded-2xl border border-slate-200 dark:border-slate-800 p-4 sm:p-5 shadow-sm flex flex-col gap-4">
+                <div class="flex flex-col gap-1">
+                    <h2 id="cramTitleEn" class="text-lg sm:text-xl font-bold text-slate-900 dark:text-white">CA DRE Cram Sheet — 280 Key Associations</h2>
+                    <p id="cramSubtitleEn" class="text-sm text-slate-500 dark:text-slate-400">See the keyword → pick the linked answer. Exam stems are in English.</p>
+                    <p id="cramSubtitleZh" class="text-xs text-slate-400 dark:text-slate-500">看到英文題幹關鍵詞 → 立刻聯想正確答案</p>
+                </div>
+                <div class="flex flex-col md:flex-row gap-3 items-center justify-between">
+                    <div class="relative w-full md:w-[28rem]">
+                        <svg class="absolute left-3.5 top-1/2 -translate-y-1/2 w-4 h-4 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+                        </svg>
+                        <input
+                            type="text"
+                            id="cramSearchInput"
+                            placeholder="Search English cues (e.g. plottage, TDS, quitclaim)…"
+                            oninput="handleCramSearch()"
+                            class="w-full pl-10 pr-10 py-2.5 bg-slate-50 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 dark:focus:ring-blue-400 dark:text-white transition-colors"
+                        >
+                        <button id="cramClearSearchBtn" onclick="clearCramSearch()" class="hidden absolute right-3 top-1/2 -translate-y-1/2 text-slate-400 hover:text-slate-600 dark:hover:text-slate-200 text-sm">✕</button>
+                    </div>
+                    <div class="flex flex-wrap items-center gap-2 sm:gap-3 w-full md:w-auto justify-end text-xs sm:text-sm">
+                        <div class="flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-slate-100 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-slate-600 dark:text-slate-300">
+                            <span class="font-semibold text-blue-600 dark:text-blue-400" id="cramCountDisplay">0</span> / 280 points
+                        </div>
+                        <button type="button" onclick="cramPickRandom()" class="px-3 py-1.5 rounded-xl bg-indigo-600 hover:bg-indigo-700 text-white font-medium shadow-sm transition-colors">
+                            🎲 Random drill
+                        </button>
+                    </div>
+                </div>
+                <div class="flex flex-col gap-1.5">
+                    <span class="text-xs font-semibold text-slate-400 uppercase tracking-wider">Section / 章節</span>
+                    <div class="flex flex-wrap gap-1.5" id="cramSectionFilter"></div>
+                </div>
+            </div>
+
+            <div id="cramListView" class="grid grid-cols-1 gap-3"></div>
+
+            <div id="cramCardView" class="hidden flex flex-col items-center gap-4 py-2">
+                <div class="w-full max-w-2xl flex items-center justify-between px-1">
+                    <button type="button" onclick="cramCardPrev()" class="px-4 py-2 rounded-xl bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-200">← Prev</button>
+                    <span class="text-sm text-slate-500 dark:text-slate-400">
+                        <span id="cramCardIndex" class="font-bold text-blue-600 dark:text-blue-400">1</span> / <span id="cramCardTotal">0</span>
+                    </span>
+                    <button type="button" onclick="cramCardNext()" class="px-4 py-2 rounded-xl bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-200">Next →</button>
+                </div>
+                <div class="w-full max-w-2xl card-perspective" style="min-height: 280px;">
+                    <div id="cramFlipInner" class="flip-inner relative w-full h-full min-h-[280px] cursor-pointer" onclick="cramFlipCard()">
+                        <div class="flip-front absolute inset-0 bg-white dark:bg-slate-900 rounded-3xl border border-slate-200 dark:border-slate-800 shadow-sm p-6 sm:p-8 flex flex-col justify-center gap-3">
+                            <span id="cramCardSection" class="text-xs font-semibold uppercase tracking-wider text-indigo-600 dark:text-indigo-400"></span>
+                            <p class="text-xs text-slate-400">SEE ON EXAM</p>
+                            <h3 id="cramCardCueEn" class="text-2xl sm:text-3xl font-bold text-slate-900 dark:text-white leading-snug"></h3>
+                            <p id="cramCardCueZh" class="text-sm text-slate-500 dark:text-slate-400"></p>
+                            <p class="mt-4 text-xs text-slate-400">Tap to reveal answer →</p>
+                        </div>
+                        <div class="flip-back absolute inset-0 bg-indigo-50 dark:bg-indigo-950/40 rounded-3xl border border-indigo-200 dark:border-indigo-800 shadow-sm p-6 sm:p-8 flex flex-col justify-center gap-3">
+                            <p class="text-xs font-semibold text-indigo-600 dark:text-indigo-300 uppercase tracking-wider">CHOOSE / REMEMBER</p>
+                            <h3 id="cramCardAnswerEn" class="text-xl sm:text-2xl font-bold text-slate-900 dark:text-white leading-snug"></h3>
+                            <p id="cramCardAnswerZh" class="text-sm text-slate-600 dark:text-slate-300"></p>
+                            <div id="cramCardTrapBox" class="mt-3 p-3 rounded-xl bg-amber-50 dark:bg-amber-950/30 border border-amber-200/70 dark:border-amber-800/40">
+                                <p class="text-xs font-semibold text-amber-700 dark:text-amber-300 mb-1">Trap / contrast</p>
+                                <p id="cramCardTrapEn" class="text-sm text-slate-700 dark:text-slate-200"></p>
+                                <p id="cramCardTrapZh" class="text-xs text-slate-500 dark:text-slate-400 mt-1"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="cramQuickCards" class="bg-white dark:bg-slate-900 rounded-2xl border border-slate-200 dark:border-slate-800 p-4 sm:p-5 shadow-sm"></div>
+
+            <div id="cramEmptyState" class="hidden text-center py-16">
+                <div class="text-4xl mb-2">🔍</div>
+                <p class="text-slate-500 dark:text-slate-400 font-medium">No matching cram points. Try another English keyword or section.</p>
+                <button onclick="resetCramFilters()" class="mt-4 px-4 py-2 bg-blue-600 text-white text-sm rounded-xl hover:bg-blue-700 transition">Reset filters</button>
             </div>
         </div>
     </main>
@@ -1393,7 +1488,7 @@
         ];
 
         let state = {
-            appModule: "glossary", // 'glossary' | 'notes' | 'quiz' | 'quiz2' | 'quiz3'
+            appModule: "glossary", // 'glossary' | 'notes' | 'cram' | 'quiz' | 'quiz2' | 'quiz3'
             currentDomain: "全部領域 (All)",
             searchQuery: "",
             viewMode: "list", // 'list' | 'card'
@@ -1412,6 +1507,7 @@
             setupTheme();
             setupSpeech();
             loadNotes();
+            loadCram();
             loadAllQuizzes();
         }
 
@@ -1968,6 +2064,17 @@
                 }
                 return;
             }
+            if (state.appModule === "cram") {
+                if (cramState.viewMode === "card") {
+                    if (e.key === "ArrowRight") cramCardNext();
+                    if (e.key === "ArrowLeft") cramCardPrev();
+                    if (e.key === " " || e.key === "Enter") {
+                        e.preventDefault();
+                        cramFlipCard();
+                    }
+                }
+                return;
+            }
             if (state.appModule === "quiz" || state.appModule === "quiz2" || state.appModule === "quiz3") {
                 if (e.key === "ArrowRight") quizNext();
                 if (e.key === "ArrowLeft") quizPrev();
@@ -2420,9 +2527,9 @@
             quiz3: {
                 key: "quiz3",
                 url: "data/questions3.json",
-                storageKey: "dre-quiz3-progress-v1",
+                storageKey: "dre-quiz3-progress-v2",
                 label: "題庫練習三",
-                subtitle: "題庫練習三：LV17＋Level 延伸（約 300 題）、中英對照解析",
+                subtitle: "題庫練習三：LV17＋Level 延伸、中英對照解析（答案已依原文校正）",
                 resetToast: "已清除題庫練習三作答紀錄（選項順序已重新打亂）",
                 shuffleChoices: true,
                 questions: [],
@@ -2443,11 +2550,14 @@
             state.appModule = mod;
             const glossaryMain = document.getElementById("glossaryMain");
             const notesMain = document.getElementById("notesMain");
+            const cramMain = document.getElementById("cramMain");
             const quizMain = document.getElementById("quizMain");
             const glossarySwitch = document.getElementById("glossaryViewSwitch");
             const notesSwitch = document.getElementById("notesViewSwitch");
+            const cramSwitch = document.getElementById("cramViewSwitch");
             const btnGlossary = document.getElementById("btnModuleGlossary");
             const btnNotes = document.getElementById("btnModuleNotes");
+            const btnCram = document.getElementById("btnModuleCram");
             const btnQuiz = document.getElementById("btnModuleQuiz");
             const btnQuiz2 = document.getElementById("btnModuleQuiz2");
             const btnQuiz3 = document.getElementById("btnModuleQuiz3");
@@ -2457,14 +2567,17 @@
 
             btnGlossary.className = idle;
             btnNotes.className = idle;
+            btnCram.className = idle;
             btnQuiz.className = idle;
             btnQuiz2.className = idle;
             btnQuiz3.className = idle;
             glossaryMain.style.display = "none";
             notesMain.style.display = "none";
+            cramMain.style.display = "none";
             quizMain.style.display = "none";
             glossarySwitch.style.display = "none";
             notesSwitch.style.display = "none";
+            cramSwitch.style.display = "none";
 
             if (mod === "glossary") {
                 glossaryMain.style.display = "";
@@ -2480,6 +2593,15 @@
                 btnNotes.className = active;
                 subtitle.textContent = "精讀講義：章節知識點與考試長難句";
                 renderNotes();
+                return;
+            }
+
+            if (mod === "cram") {
+                cramMain.style.display = "flex";
+                cramSwitch.style.display = "";
+                btnCram.className = active;
+                subtitle.textContent = "衝刺 280：See English cue → Choose answer";
+                renderCram();
                 return;
             }
 
@@ -2725,6 +2847,281 @@
             saveQuizProgress(bank);
             renderQuiz();
             showToast(bank.resetToast, "info");
+        }
+
+        // ========== CRAM 280 ==========
+        const cramState = {
+            loaded: false,
+            failed: false,
+            sections: [],
+            items: [],
+            quickCards: [],
+            titleEn: "",
+            titleZh: "",
+            subtitleEn: "",
+            subtitleZh: "",
+            searchQuery: "",
+            sectionId: "all",
+            viewMode: "list", // list | card
+            cardIndex: 0,
+            cardFlipped: false
+        };
+
+        async function loadCram() {
+            try {
+                const res = await fetch("data/cram280.json");
+                if (!res.ok) throw new Error("fetch failed");
+                const payload = await res.json();
+                cramState.sections = payload.sections || [];
+                cramState.items = payload.items || [];
+                cramState.quickCards = payload.quickCards || [];
+                cramState.titleEn = payload.titleEn || "";
+                cramState.titleZh = payload.titleZh || "";
+                cramState.subtitleEn = payload.subtitleEn || "";
+                cramState.subtitleZh = payload.subtitleZh || "";
+                cramState.loaded = true;
+                cramState.failed = false;
+            } catch (err) {
+                cramState.loaded = false;
+                cramState.failed = true;
+            }
+            if (state.appModule === "cram") renderCram();
+        }
+
+        function cramHighlight(text) {
+            return highlightSearch(escapeHtml(text || ""), cramState.searchQuery);
+        }
+
+        function cramMatches(item, q) {
+            if (!q) return true;
+            const chunks = [
+                item.id, item.sectionId, item.sectionEn, item.sectionZh,
+                item.cueEn, item.cueZh, item.answerEn, item.answerZh,
+                item.trapEn, item.trapZh
+            ];
+            return chunks.join(" ").toLowerCase().includes(q);
+        }
+
+        function getFilteredCram() {
+            const q = cramState.searchQuery.trim().toLowerCase();
+            return cramState.items.filter((item) => {
+                if (cramState.sectionId !== "all" && item.sectionId !== cramState.sectionId) return false;
+                return cramMatches(item, q);
+            });
+        }
+
+        function handleCramSearch() {
+            const input = document.getElementById("cramSearchInput");
+            cramState.searchQuery = input ? input.value : "";
+            const clearBtn = document.getElementById("cramClearSearchBtn");
+            if (clearBtn) clearBtn.classList.toggle("hidden", !cramState.searchQuery);
+            cramState.cardIndex = 0;
+            cramState.cardFlipped = false;
+            renderCram();
+        }
+
+        function clearCramSearch() {
+            const input = document.getElementById("cramSearchInput");
+            if (input) input.value = "";
+            cramState.searchQuery = "";
+            document.getElementById("cramClearSearchBtn").classList.add("hidden");
+            cramState.cardIndex = 0;
+            cramState.cardFlipped = false;
+            renderCram();
+        }
+
+        function resetCramFilters() {
+            cramState.sectionId = "all";
+            clearCramSearch();
+        }
+
+        function setCramSection(id) {
+            cramState.sectionId = id;
+            cramState.cardIndex = 0;
+            cramState.cardFlipped = false;
+            renderCram();
+        }
+
+        function switchCramView(mode) {
+            cramState.viewMode = mode;
+            cramState.cardFlipped = false;
+            const listBtn = document.getElementById("btnCramListMode");
+            const cardBtn = document.getElementById("btnCramCardMode");
+            const active = "px-3 py-1.5 rounded-lg font-medium transition-all shadow-sm bg-white dark:bg-slate-700 text-blue-700 dark:text-blue-300";
+            const idle = "px-3 py-1.5 rounded-lg font-medium transition-all text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white";
+            listBtn.className = mode === "list" ? active : idle;
+            cardBtn.className = mode === "card" ? active : idle;
+            renderCram();
+        }
+
+        function renderCramSectionButtons() {
+            const box = document.getElementById("cramSectionFilter");
+            if (!box) return;
+            const activeCls = "px-2.5 py-1 rounded-lg text-xs font-semibold bg-blue-600 text-white";
+            const idleCls = "px-2.5 py-1 rounded-lg text-xs font-medium bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 border border-slate-200 dark:border-slate-700 hover:bg-slate-200 dark:hover:bg-slate-700";
+            let html = '<button type="button" class="' + (cramState.sectionId === "all" ? activeCls : idleCls) + '" onclick="setCramSection(\'all\')">All / 全部</button>';
+            cramState.sections.forEach((sec) => {
+                const cls = cramState.sectionId === sec.id ? activeCls : idleCls;
+                html += '<button type="button" class="' + cls + '" onclick="setCramSection(\'' + sec.id + '\')" title="' + escapeHtml(sec.zh) + '">' +
+                    escapeHtml(sec.id + " " + sec.en) + "</button>";
+            });
+            box.innerHTML = html;
+        }
+
+        function renderCramList(items) {
+            const box = document.getElementById("cramListView");
+            box.innerHTML = items.map((item) => {
+                const trapBlock = (item.trapEn || item.trapZh)
+                    ? '<div class="mt-3 pt-3 border-t border-slate-100 dark:border-slate-800">' +
+                        '<p class="text-xs font-semibold text-amber-700 dark:text-amber-300 mb-0.5">Trap / 陷阱</p>' +
+                        (item.trapEn ? '<p class="text-sm text-slate-700 dark:text-slate-200">' + cramHighlight(item.trapEn) + "</p>" : "") +
+                        (item.trapZh ? '<p class="text-xs text-slate-500 dark:text-slate-400 mt-0.5">' + cramHighlight(item.trapZh) + "</p>" : "") +
+                      "</div>"
+                    : "";
+                return (
+                    '<article class="bg-white dark:bg-slate-900 rounded-2xl border border-slate-200 dark:border-slate-800 p-4 sm:p-5 shadow-sm">' +
+                    '<div class="flex flex-wrap items-center gap-2 mb-2">' +
+                    '<span class="text-xs font-mono font-bold text-slate-400">#' + item.id + "</span>" +
+                    '<span class="text-xs font-semibold px-2 py-0.5 rounded-full bg-indigo-50 dark:bg-indigo-950/50 text-indigo-700 dark:text-indigo-300">' +
+                    escapeHtml(item.sectionId + " · " + item.sectionEn) + "</span>" +
+                    "</div>" +
+                    '<p class="text-[11px] uppercase tracking-wider text-slate-400 mb-1">See on exam</p>' +
+                    '<div class="flex items-start gap-2">' +
+                    '<h3 class="text-lg sm:text-xl font-bold text-slate-900 dark:text-white leading-snug flex-1">' + cramHighlight(item.cueEn) + "</h3>" +
+                    speakButtonHtml(item.cueEn, "") +
+                    "</div>" +
+                    (item.cueZh ? '<p class="text-sm text-slate-500 dark:text-slate-400 mt-1">' + cramHighlight(item.cueZh) + "</p>" : "") +
+                    '<div class="mt-3 p-3 rounded-xl bg-emerald-50/80 dark:bg-emerald-950/30 border border-emerald-200/60 dark:border-emerald-800/40">' +
+                    '<p class="text-[11px] uppercase tracking-wider text-emerald-700 dark:text-emerald-400 mb-1">Choose / Remember</p>' +
+                    '<p class="text-base sm:text-lg font-semibold text-slate-900 dark:text-white leading-snug">' + cramHighlight(item.answerEn) + speakButtonHtml(item.answerEn, "") + "</p>" +
+                    (item.answerZh ? '<p class="text-sm text-slate-600 dark:text-slate-300 mt-1">' + cramHighlight(item.answerZh) + "</p>" : "") +
+                    "</div>" +
+                    trapBlock +
+                    "</article>"
+                );
+            }).join("");
+        }
+
+        function renderCramCard(items) {
+            if (!items.length) return;
+            if (cramState.cardIndex >= items.length) cramState.cardIndex = 0;
+            const item = items[cramState.cardIndex];
+            document.getElementById("cramCardIndex").textContent = String(cramState.cardIndex + 1);
+            document.getElementById("cramCardTotal").textContent = String(items.length);
+            document.getElementById("cramCardSection").textContent = item.sectionId + " · " + item.sectionEn;
+            document.getElementById("cramCardCueEn").innerHTML = cramHighlight(item.cueEn) + " " + speakButtonHtml(item.cueEn, "");
+            document.getElementById("cramCardCueZh").textContent = item.cueZh || "";
+            document.getElementById("cramCardAnswerEn").innerHTML = cramHighlight(item.answerEn) + " " + speakButtonHtml(item.answerEn, "");
+            document.getElementById("cramCardAnswerZh").textContent = item.answerZh || "";
+            const trapBox = document.getElementById("cramCardTrapBox");
+            const hasTrap = !!(item.trapEn || item.trapZh);
+            trapBox.classList.toggle("hidden", !hasTrap);
+            document.getElementById("cramCardTrapEn").textContent = item.trapEn || "";
+            document.getElementById("cramCardTrapZh").textContent = item.trapZh || "";
+            const inner = document.getElementById("cramFlipInner");
+            inner.classList.toggle("is-flipped", cramState.cardFlipped);
+        }
+
+        function renderCramQuickCards() {
+            const box = document.getElementById("cramQuickCards");
+            if (!box) return;
+            if (!cramState.quickCards.length) {
+                box.classList.add("hidden");
+                return;
+            }
+            box.classList.remove("hidden");
+            box.innerHTML =
+                '<h3 class="text-sm font-bold text-slate-900 dark:text-white mb-3">30-second quick cards / 考前速記卡</h3>' +
+                '<ol class="space-y-2 list-decimal list-inside text-sm">' +
+                cramState.quickCards.map((c) => {
+                    const en = c.en || c;
+                    const zh = c.zh || "";
+                    return '<li class="text-slate-800 dark:text-slate-200 leading-relaxed"><span class="font-medium">' +
+                        escapeHtml(en) + "</span>" +
+                        (zh ? '<span class="block ml-5 text-xs text-slate-500 dark:text-slate-400 mt-0.5">' + escapeHtml(zh) + "</span>" : "") +
+                        "</li>";
+                }).join("") +
+                "</ol>";
+        }
+
+        function renderCram() {
+            const err = document.getElementById("cramLoadError");
+            const app = document.getElementById("cramApp");
+            if (cramState.failed) {
+                err.classList.remove("hidden");
+                app.classList.add("hidden");
+                return;
+            }
+            if (!cramState.loaded) return;
+            err.classList.add("hidden");
+            app.classList.remove("hidden");
+
+            if (cramState.titleEn) document.getElementById("cramTitleEn").textContent = cramState.titleEn;
+            if (cramState.subtitleEn) document.getElementById("cramSubtitleEn").textContent = cramState.subtitleEn;
+            if (cramState.subtitleZh) document.getElementById("cramSubtitleZh").textContent = cramState.subtitleZh;
+
+            renderCramSectionButtons();
+            const items = getFilteredCram();
+            document.getElementById("cramCountDisplay").textContent = String(items.length);
+
+            const listView = document.getElementById("cramListView");
+            const cardView = document.getElementById("cramCardView");
+            const empty = document.getElementById("cramEmptyState");
+            const quick = document.getElementById("cramQuickCards");
+
+            if (!items.length) {
+                listView.classList.add("hidden");
+                cardView.classList.add("hidden");
+                empty.classList.remove("hidden");
+                if (quick) quick.classList.add("hidden");
+                return;
+            }
+            empty.classList.add("hidden");
+
+            if (cramState.viewMode === "card") {
+                listView.classList.add("hidden");
+                cardView.classList.remove("hidden");
+                cardView.classList.add("flex");
+                renderCramCard(items);
+            } else {
+                cardView.classList.add("hidden");
+                cardView.classList.remove("flex");
+                listView.classList.remove("hidden");
+                renderCramList(items);
+            }
+            renderCramQuickCards();
+        }
+
+        function cramFlipCard() {
+            cramState.cardFlipped = !cramState.cardFlipped;
+            document.getElementById("cramFlipInner").classList.toggle("is-flipped", cramState.cardFlipped);
+        }
+
+        function cramCardPrev() {
+            const items = getFilteredCram();
+            if (!items.length) return;
+            cramState.cardIndex = (cramState.cardIndex - 1 + items.length) % items.length;
+            cramState.cardFlipped = false;
+            renderCramCard(items);
+        }
+
+        function cramCardNext() {
+            const items = getFilteredCram();
+            if (!items.length) return;
+            cramState.cardIndex = (cramState.cardIndex + 1) % items.length;
+            cramState.cardFlipped = false;
+            renderCramCard(items);
+        }
+
+        function cramPickRandom() {
+            const items = getFilteredCram();
+            if (!items.length) return;
+            cramState.viewMode = "card";
+            switchCramView("card");
+            cramState.cardIndex = Math.floor(Math.random() * items.length);
+            cramState.cardFlipped = false;
+            renderCram();
+            showToast("Random drill #" + items[cramState.cardIndex].id, "info");
         }
 
         // Initialize on load
