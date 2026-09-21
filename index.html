@@ -529,9 +529,14 @@
                     </span>
                     <span id="quizAccuracy" class="px-3 py-1.5 rounded-xl bg-indigo-50 dark:bg-indigo-950/40 border border-indigo-200 dark:border-indigo-800 text-indigo-700 dark:text-indigo-300">正確率 —</span>
                 </div>
-                <button type="button" onclick="resetQuizProgress()" class="px-3 py-1.5 rounded-xl text-xs sm:text-sm border border-slate-200 dark:border-slate-700 text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800">
-                    清除作答紀錄
-                </button>
+                <div class="flex flex-wrap items-center gap-2">
+                    <button type="button" id="quizZhToggleBtn" onclick="toggleQuizChinese()" class="px-3 py-1.5 rounded-xl text-xs sm:text-sm border font-medium transition-colors" title="切換題目與選項的中文翻譯顯示">
+                        中文：開
+                    </button>
+                    <button type="button" onclick="resetQuizProgress()" class="px-3 py-1.5 rounded-xl text-xs sm:text-sm border border-slate-200 dark:border-slate-700 text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800">
+                        清除作答紀錄
+                    </button>
+                </div>
             </div>
 
             <div class="flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-3">
@@ -2544,6 +2549,43 @@
             }
         };
         let activeQuizKey = "quiz";
+        const QUIZ_ZH_PREF_KEY = "dre-quiz-show-zh";
+
+        function loadQuizZhPref() {
+            try {
+                const v = localStorage.getItem(QUIZ_ZH_PREF_KEY);
+                if (v === "0" || v === "false") return false;
+                return true;
+            } catch (err) {
+                return true;
+            }
+        }
+
+        let quizShowZh = loadQuizZhPref();
+
+        function updateQuizZhToggleButton() {
+            const btn = document.getElementById("quizZhToggleBtn");
+            if (!btn) return;
+            if (quizShowZh) {
+                btn.textContent = "中文：開";
+                btn.title = "目前顯示題目與選項中文；點擊關閉";
+                btn.className = "px-3 py-1.5 rounded-xl text-xs sm:text-sm border font-medium transition-colors border-emerald-300 dark:border-emerald-700 bg-emerald-50 dark:bg-emerald-950/40 text-emerald-800 dark:text-emerald-200 hover:bg-emerald-100 dark:hover:bg-emerald-900/50";
+            } else {
+                btn.textContent = "中文：關";
+                btn.title = "目前隱藏題目與選項中文；點擊開啟";
+                btn.className = "px-3 py-1.5 rounded-xl text-xs sm:text-sm border font-medium transition-colors border-slate-200 dark:border-slate-700 text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800";
+            }
+        }
+
+        function toggleQuizChinese() {
+            quizShowZh = !quizShowZh;
+            try {
+                localStorage.setItem(QUIZ_ZH_PREF_KEY, quizShowZh ? "1" : "0");
+            } catch (err) { /* ignore */ }
+            updateQuizZhToggleButton();
+            renderQuiz();
+            showToast(quizShowZh ? "已開啟題目與選項中文" : "已關閉題目與選項中文", quizShowZh ? "success" : "info");
+        }
 
         function currentQuiz() {
             return QUIZ_BANKS[activeQuizKey];
@@ -2725,6 +2767,7 @@
             }
             errorBox.classList.add("hidden");
             appBox.classList.remove("hidden");
+            updateQuizZhToggleButton();
             renderQuiz();
         }
 
@@ -2758,7 +2801,10 @@
             document.getElementById("quizSourceTag").innerText = q.source || "題庫";
             document.getElementById("quizIdTag").innerText = q.id + " · " + (bank.state.index + 1) + "/" + total;
             document.getElementById("quizStemEn").innerText = q.stemEn;
-            document.getElementById("quizStemZh").innerText = q.stemZh || "";
+            const stemZhEl = document.getElementById("quizStemZh");
+            const stemZh = (q.stemZh || "").trim();
+            stemZhEl.innerText = quizShowZh ? stemZh : "";
+            stemZhEl.classList.toggle("hidden", !quizShowZh || !stemZh);
             document.getElementById("quizPrevBtn").disabled = bank.state.index === 0;
             document.getElementById("quizNextBtn").disabled = bank.state.index === total - 1;
             document.getElementById("quizPrevBtn").classList.toggle("opacity-40", bank.state.index === 0);
@@ -2777,7 +2823,7 @@
                     '<div class="flex gap-3 items-start">' +
                     '<span class="font-mono font-bold text-sm mt-0.5">' + c.key + '</span>' +
                     '<span><span class="block text-sm sm:text-base font-medium">' + escapeHtml(c.en) + '</span>' +
-                    (c.zh ? '<span class="block text-xs sm:text-sm text-slate-500 dark:text-slate-400 mt-1">' + escapeHtml(c.zh) + '</span>' : '') +
+                    (quizShowZh && c.zh ? '<span class="block text-xs sm:text-sm text-slate-500 dark:text-slate-400 mt-1">' + escapeHtml(c.zh) + '</span>' : '') +
                     '</span></div></button>';
             }).join("");
             choiceBox.querySelectorAll(".quiz-choice").forEach((btn) => {
