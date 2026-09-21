@@ -2066,8 +2066,8 @@
         "zh": ""
       }
     ],
-    "answer": "A",
-    "explanation": "正確選項 (A)：shield a property from liabilty\n這是一道關於土地信託(Land Trusts)功能界限的觀念題。了解土地信託能做什麼,才能精準判斷什麼是它「不能」做的。\n正確答案:\navoid paying property taxes(避免支付房地產稅)\n題目翻譯 (Question Translation)\n題目: 下列哪一項不是土地信託(Land trusts)可以用來達成的事情?\n選項:\n保護財產免受法律責任 (shield a property from liability)\n(正解)避免支付房地產稅 (avoid paying property taxes)\n隱匿房產的真實所有權人 (conceal the true owner of a property)\n避免遺產認證 (avoid probate)\n🔍 核心考點解析 (Detailed Analysis)\n土地信託通常用於隱私保護與資產管理,但它絕非合法的避稅工具:\n為什麼「避免繳稅」是錯的?\n在稅務法規中,房產產生的稅負(Property Taxes)義務是跟隨「土地」本身的,而非依據持有的架構。不論你是個人持有、公司持有,還是放在信託裡,政府的徵稅權是不會因為你成立了信託就消失的。試圖利用信託來逃稅是違法的。\n為什麼其他選項是土地信託常見的功能?\nShield a property from liability: 透過將房產轉移至信託(尤其是如果信託是由 LLC 擁有),可以創造一道法律防火牆,使房產本身的債務或意外責任與個人資產分開。\nConceal the true owner: 這是土地信託最常見的用途。當房產登記在信託名下,公開的紀錄(Public Records)通常只顯示信託名稱(如 \"123 Main Street Trust\"),而不顯示實際受益人的姓名,提供了隱私保護。\nAvoid probate: 只要資產在生前成功放入信託,過世時該資產便無需經過法院的遺產認證程序,可以快速移轉給受益人。\n💡 考試直覺反射金句:\n\"Trusts are for privacy, liability protection, and estate planning, but they are never for tax evasion.\" (信託是用來提供隱私、責任保護與遺產規劃的,但它永遠不是用來逃稅的。)\n稅務義務是房地產中不可逾越的底線。對於信託的其他合法用途,你還有哪部分覺得比較模糊嗎?"
+    "answer": "B",
+    "explanation": "正確選項 (B)：avoid paying property taxes\n這是一道關於土地信託(Land Trusts)功能界限的觀念題。了解土地信託能做什麼,才能精準判斷什麼是它「不能」做的。\n正確答案:\navoid paying property taxes(避免支付房地產稅)\n題目翻譯 (Question Translation)\n題目: 下列哪一項不是土地信託(Land trusts)可以用來達成的事情?\n選項:\n保護財產免受法律責任 (shield a property from liability)\n(正解)避免支付房地產稅 (avoid paying property taxes)\n隱匿房產的真實所有權人 (conceal the true owner of a property)\n避免遺產認證 (avoid probate)\n🔍 核心考點解析 (Detailed Analysis)\n土地信託通常用於隱私保護與資產管理,但它絕非合法的避稅工具:\n為什麼「避免繳稅」是錯的?\n在稅務法規中,房產產生的稅負(Property Taxes)義務是跟隨「土地」本身的,而非依據持有的架構。不論你是個人持有、公司持有,還是放在信託裡,政府的徵稅權是不會因為你成立了信託就消失的。試圖利用信託來逃稅是違法的。\n為什麼其他選項是土地信託常見的功能?\nShield a property from liability: 透過將房產轉移至信託(尤其是如果信託是由 LLC 擁有),可以創造一道法律防火牆,使房產本身的債務或意外責任與個人資產分開。\nConceal the true owner: 這是土地信託最常見的用途。當房產登記在信託名下,公開的紀錄(Public Records)通常只顯示信託名稱(如 \"123 Main Street Trust\"),而不顯示實際受益人的姓名,提供了隱私保護。\nAvoid probate: 只要資產在生前成功放入信託,過世時該資產便無需經過法院的遺產認證程序,可以快速移轉給受益人。\n💡 考試直覺反射金句:\n\"Trusts are for privacy, liability protection, and estate planning, but they are never for tax evasion.\" (信託是用來提供隱私、責任保護與遺產規劃的,但它永遠不是用來逃稅的。)\n稅務義務是房地產中不可逾越的底線。對於信託的其他合法用途,你還有哪部分覺得比較模糊嗎?"
   },
   {
     "id": "P070",
@@ -2096,8 +2096,8 @@
         "zh": ""
       }
     ],
-    "answer": "C",
-    "explanation": "正確選項 (C)：S corp\n這題的線索非常明確,只要抓出「雙重徵稅」與「公開交易」這兩個關鍵特徵,答案就呼之欲出了。\n正確答案:\nC corp(C 型公司)\n題目翻譯 (Question Translation)\n題目: 哈莉特(Harriet)是一家公司的股東。該公司有數百名股東,屬於公開交易(Publicly traded),以獨資(Severalty)形式持有財產,且面臨雙重徵稅。請問哈莉特最有可能是哪種企業的股東?\n選項:\nLLP(有限責任合夥)\n(正解)C corp(C 型公司)\nS corp(S 型公司)\nLLC(有限責任公司)\n🔍 核心考點解析 (Detailed Analysis)\n這題可以透過排除法與定義法快速解出:\n「雙重徵稅 (Double taxation)」: 這是 C corp 最具代表性的標籤。\n「公開交易 (Publicly traded)」: 大多數在證券交易所(如紐約證交所、納斯達克)上市的公司都是 C corp。S corp、LLC 和 LLP 都是私人公司,不能在證券市場公開募股。\n「數百名股東」: 再次排除了 S corp,因為 S corp 的股東人數有限制(通常上限為 100 名)。\n「獨資持有 (Ownership in severalty)」: 這表示該「公司」作為一個獨立的法律實體,單獨持有其房產,這與公司的法律定義吻合。\n為什麼其他選項是錯的?\nLLP & LLC: 這些是合夥制或有限責任公司,成員通常被稱為「合夥人(Partners)」或「會員(Members)」,且它們不適用雙重徵稅,也不會公開交易。\nS corp: 稅務上採取「流動課稅(Pass-through)」,無雙重徵稅,且股東人數有限制。\n💡 考試直覺反射金句:\n\"Publicly traded + Double taxed = C Corp every single time.\" (公開交易 + 雙重徵稅 = 絕對是 C Corp。)\n這類關於企業組織型態的題目,透過特徵勾勒(關鍵字連結)是非常高效的解法。對於這些企業類型的特徵,你目前還有覺得容易混淆的組合嗎?"
+    "answer": "B",
+    "explanation": "正確選項 (B)：C corp\n這題的線索非常明確,只要抓出「雙重徵稅」與「公開交易」這兩個關鍵特徵,答案就呼之欲出了。\n正確答案:\nC corp(C 型公司)\n題目翻譯 (Question Translation)\n題目: 哈莉特(Harriet)是一家公司的股東。該公司有數百名股東,屬於公開交易(Publicly traded),以獨資(Severalty)形式持有財產,且面臨雙重徵稅。請問哈莉特最有可能是哪種企業的股東?\n選項:\nLLP(有限責任合夥)\n(正解)C corp(C 型公司)\nS corp(S 型公司)\nLLC(有限責任公司)\n🔍 核心考點解析 (Detailed Analysis)\n這題可以透過排除法與定義法快速解出:\n「雙重徵稅 (Double taxation)」: 這是 C corp 最具代表性的標籤。\n「公開交易 (Publicly traded)」: 大多數在證券交易所(如紐約證交所、納斯達克)上市的公司都是 C corp。S corp、LLC 和 LLP 都是私人公司,不能在證券市場公開募股。\n「數百名股東」: 再次排除了 S corp,因為 S corp 的股東人數有限制(通常上限為 100 名)。\n「獨資持有 (Ownership in severalty)」: 這表示該「公司」作為一個獨立的法律實體,單獨持有其房產,這與公司的法律定義吻合。\n為什麼其他選項是錯的?\nLLP & LLC: 這些是合夥制或有限責任公司,成員通常被稱為「合夥人(Partners)」或「會員(Members)」,且它們不適用雙重徵稅,也不會公開交易。\nS corp: 稅務上採取「流動課稅(Pass-through)」,無雙重徵稅,且股東人數有限制。\n💡 考試直覺反射金句:\n\"Publicly traded + Double taxed = C Corp every single time.\" (公開交易 + 雙重徵稅 = 絕對是 C Corp。)\n這類關於企業組織型態的題目,透過特徵勾勒(關鍵字連結)是非常高效的解法。對於這些企業類型的特徵,你目前還有覺得容易混淆的組合嗎?"
   },
   {
     "id": "P071",
@@ -3390,36 +3390,6 @@
     "explanation": "正確選項 (A)：cloud on title\nCorrect. A cloud on the title is considered any claim to or encumbrance on the title to a property that affects transferability.\n8.Which of these statements most accurately reflects how lien priority works (after tax liens are settled)?\nFirst in time is first in line.\nThe one with the most cost is the biggest boss.\nLast made, first paid.\nMechanic's liens trump everything.\nAfter tax liens, \"first in time is first in line\" most accurately describes how lien priority works (liens are paid in the order they are created).\n9.In order to preserve their lien rights, a contractor must provide a preliminary notice to the customer within how many days of providing materials or starting work?\n20\n30\n60\n90"
   },
   {
-    "id": "P114",
-    "source": "LV 練習延伸：Level 4",
-    "stemEn": "B、C、D",
-    "stemZh": "具備資格):",
-    "choices": [
-      {
-        "key": "A",
-        "en": "Architect",
-        "zh": "建築師) 與 Licensed Land Surveyor(測量師): 法律明確將提供設計、規劃、測量等專業服務的設計專業人員(Design Professionals)納入保護對象。"
-      },
-      {
-        "key": "B",
-        "en": "Trucker",
-        "zh": "運輸司機): 在工程中負責將建材運抵工地或將開挖廢土運離工地的卡車司機/運輸商,屬於提供工程直接必要勞務/設備的一環,依法具備申請資格。"
-      },
-      {
-        "key": "C",
-        "en": "💡",
-        "zh": "觀念金句:"
-      },
-      {
-        "key": "D",
-        "en": "Mechanic's Lien",
-        "zh": "只保護對物業有「實體改善或工程設計貢獻」的人(建築師、工人、測量師、建材商);房產仲介(Broker/Locator)絕不能申請!"
-      }
-    ],
-    "answer": "D",
-    "explanation": "正確選項 (D)：只保護對物業有「實體改善或工程設計貢獻」的人(建築師、工人、測量師、建材商);房產仲介(Broker/Locator)絕不能申請!\n29.題目與翻譯\n原題:According to typical lien priority, which of the following liens would be paid first?\n(譯:根據標準的留置權清償順位,下列哪一項留置權會最先獲得清償?)\nA. first mortgage recorded in April 2020 (2020 年 4 月登記的第一抵押貸款)\nB. second mortgage lien recorded in June 2021 (2021 年 6 月登記的第二抵押貸款)\nC. mechanic's lien recorded in August 2020 (2020 年 8 月登記的施工留置權)\nD. property tax lien recorded in November 2021 (2021 年 11 月登記的不動產稅留置權) [正確答案]\n解析\n這題是考驗留置權清償順位(Lien Priority)的核心原則與「超級優先權」:\n超級優先權(Super Priority):\nProperty Tax Lien(不動產稅留置權) 擁有法律賦予的最高清償順位(Senior Lien)。不論該稅務留置權是在何時登記(即使是最新登記的 2021 年 11 月),政府的稅款永遠優先於所有私人留置權獲得清償。\n一般私人留置權(First in time, first in right):"
-  },
-  {
     "id": "P115",
     "source": "LV 練習延伸：Level 6",
     "stemEn": "因法律規定/客觀環境變更而自動終止代理(Operation of Law) 題目:What term refers to circumstances or changes affecting the contract or the subject property that automatically result in agency termination?",
@@ -3446,8 +3416,8 @@
         "zh": "錯誤:單方撤銷"
       }
     ],
-    "answer": "A",
-    "explanation": "正確選項 (A)：法律施行 / 依法律規定\n💡 詳細解析\n代理關係終止(Agency Termination)分為兩大途徑:\nActs of the Parties(當事人行為): 雙方合意解約(Mutual Agreement)、完成交易(Performance)、經紀人放棄或委託人撤銷(Revocation)。\nOperation of Law(法律施行/客觀法定事件): 無需當事人同意,出現客觀法定事由時自動終止。常見原因包括:\n房屋滅失(Destruction of Property): 如火災燒毀房屋。\n破產(Bankruptcy): 任何一方破產。\n死亡或喪失行為能力(Death or Incapacity): 任何一方死亡。\n徵收(Eminent Domain): 政府強制徵收土地。\n🧠 記憶口訣:\n房燒、人亡、債破產(Destruction, Death, Bankruptcy)➔ 法律自動強制終止(Operation of Law)!\n16.題目與翻譯\n原題:All of the following are causes of agency termination. Which of these is the only one that would be considered termination due to an operation of law?\n(譯:以下皆為代理關係終止(Agency Termination)的原因。下列哪一個是唯一被視為「因法律運作/法律規定(Operation of Law)」而自動終止的?)\nA. condemnation (政府徵收 / 法院判決危樓) [正確答案]\nB. mutual agreement (雙方合意解約)\nC. revocation (委託人單方撤銷)\nD. breach of agreement (單方違約)\n解析\n代理關係的終止(Agency Termination)在考試中必然劃分為兩大分類:\nActs of the Parties(當事人行為): 由人的主觀意願或行為引發。\nB. Mutual Agreement: 雙方坐下來同意解約。\nC. Revocation: 委託人(Client)單方面取消授權。\nD. Breach of Agreement: 其中一方違約導致另一方終止合約。\nRenunciation: 經紀人(Agent)單方面放棄代理。\nOperation of Law(法律運作 / 法定自動終止): 由外部客觀法律事實引發,不論當事人願不願意,法律直接強制終止。\nA. Condemnation: 政府行使徵收權(Eminent Domain)將土地轉為公有,或法院判定該建築為危樓,標的物喪失合法交易資格,代理關係自動終止。\n其他常見同類例子: 房屋毀損(Destruction of Property)、任何一方死亡/喪失行為能力(Death/Incapacity)、任何一方破產(Bankruptcy)、合約到期(Expiration of Time)。\n💡 觀念金句:\n當事人行為(Acts of the Parties)= 人想解約/違約;\n法律運作(Operation of Law)= 房沒了、人死了、政府徵收(Condemnation)!\n17.題目與翻譯\n原題:What are the duties owed to a customer?\n(譯:經紀人對「顧客(Customer)」負有哪些法律義務?)\nA. honesty, fair dealing, reasonable care, diligence, and loyalty (誠實、公平交易、合理審慎、勤勉,以及忠誠)\nB. helpfulness, confidentiality, responsiveness, diligence, and availability (熱心、保密、即時回應、勤勉,以及隨時服務)\nC. honesty, fair dealing, reasonable care, disclosure, and accounting (誠實、公平交易、合理審慎、揭露重大事實,以及帳務管理) [正確答案]\nD. obedience, fair dealing, responsiveness, disclosure, and accounting (服從、公平交易、即時回應、揭露,以及帳務管理)\n解析\n這題是區分 Client(客戶 - 有簽代理合約) 與 Customer(顧客 - 未簽代理合約/交易相對人) 的最經典考題!\nC(正確): 經紀人對未簽約的 Customer 不需要承擔最高等級的忠誠或服從義務,但法律規定至少必須遵守基本的「商業道德與誠信原則」,主要包含 HDRA:\nHonesty(誠實): 不得故意欺騙或隱瞞。\nFair Dealing(公平交易): 公平對待交易相對人。\nReasonable Care / Skill(合理審慎與專業技能): 展現基本的專業水準。\nDisclosure of Material Facts(揭露重大事實): 必須告知房屋的重大瑕疵(如漏水、海砂屋、結構受損等)。\nAccounting(帳務管理): 妥善保管與經手的定金或交易款項。\nA、B、D(錯誤): 選項中包含了專屬於 Client 的受託義務(Fiduciary Duties / OLD CAR),例如:\nLoyalty(忠誠): 只對 Client 忠誠,絕不對 Customer 忠誠(選項 A 錯)。\nConfidentiality(保密): 必須幫 Client 保密底線,但對 Customer 無保密義務(選項 B 錯)。\nObedience(服從): 只服從 Client 的合法指示,不服從 Customer(選項 D 錯)。\n💡 觀念金句:\n對 Client(客戶):OLD CAR(Obedience, Loyalty, Disclosure, Confidentiality, Accounting, Reasonable Care)\n對 Customer(顧客):基本誠信(Honesty, Fair Dealing, Reasonable Care, Disclosure, Accounting),絕無 Loyalty(忠誠) 與 Confidentiality(保密)!"
+    "answer": "C",
+    "explanation": "正確選項 (C)：錯誤:雙方合意\n💡 詳細解析\n代理關係終止(Agency Termination)分為兩大途徑:\nActs of the Parties(當事人行為): 雙方合意解約(Mutual Agreement)、完成交易(Performance)、經紀人放棄或委託人撤銷(Revocation)。\nOperation of Law(法律施行/客觀法定事件): 無需當事人同意,出現客觀法定事由時自動終止。常見原因包括:\n房屋滅失(Destruction of Property): 如火災燒毀房屋。\n破產(Bankruptcy): 任何一方破產。\n死亡或喪失行為能力(Death or Incapacity): 任何一方死亡。\n徵收(Eminent Domain): 政府強制徵收土地。\n🧠 記憶口訣:\n房燒、人亡、債破產(Destruction, Death, Bankruptcy)➔ 法律自動強制終止(Operation of Law)!\n16.題目與翻譯\n原題:All of the following are causes of agency termination. Which of these is the only one that would be considered termination due to an operation of law?\n(譯:以下皆為代理關係終止(Agency Termination)的原因。下列哪一個是唯一被視為「因法律運作/法律規定(Operation of Law)」而自動終止的?)\nA. condemnation (政府徵收 / 法院判決危樓) [正確答案]\nB. mutual agreement (雙方合意解約)\nC. revocation (委託人單方撤銷)\nD. breach of agreement (單方違約)\n解析\n代理關係的終止(Agency Termination)在考試中必然劃分為兩大分類:\nActs of the Parties(當事人行為): 由人的主觀意願或行為引發。\nB. Mutual Agreement: 雙方坐下來同意解約。\nC. Revocation: 委託人(Client)單方面取消授權。\nD. Breach of Agreement: 其中一方違約導致另一方終止合約。\nRenunciation: 經紀人(Agent)單方面放棄代理。\nOperation of Law(法律運作 / 法定自動終止): 由外部客觀法律事實引發,不論當事人願不願意,法律直接強制終止。\nA. Condemnation: 政府行使徵收權(Eminent Domain)將土地轉為公有,或法院判定該建築為危樓,標的物喪失合法交易資格,代理關係自動終止。\n其他常見同類例子: 房屋毀損(Destruction of Property)、任何一方死亡/喪失行為能力(Death/Incapacity)、任何一方破產(Bankruptcy)、合約到期(Expiration of Time)。\n💡 觀念金句:\n當事人行為(Acts of the Parties)= 人想解約/違約;\n法律運作(Operation of Law)= 房沒了、人死了、政府徵收(Condemnation)!\n17.題目與翻譯\n原題:What are the duties owed to a customer?\n(譯:經紀人對「顧客(Customer)」負有哪些法律義務?)\nA. honesty, fair dealing, reasonable care, diligence, and loyalty (誠實、公平交易、合理審慎、勤勉,以及忠誠)\nB. helpfulness, confidentiality, responsiveness, diligence, and availability (熱心、保密、即時回應、勤勉,以及隨時服務)\nC. honesty, fair dealing, reasonable care, disclosure, and accounting (誠實、公平交易、合理審慎、揭露重大事實,以及帳務管理) [正確答案]\nD. obedience, fair dealing, responsiveness, disclosure, and accounting (服從、公平交易、即時回應、揭露,以及帳務管理)\n解析\n這題是區分 Client(客戶 - 有簽代理合約) 與 Customer(顧客 - 未簽代理合約/交易相對人) 的最經典考題!\nC(正確): 經紀人對未簽約的 Customer 不需要承擔最高等級的忠誠或服從義務,但法律規定至少必須遵守基本的「商業道德與誠信原則」,主要包含 HDRA:\nHonesty(誠實): 不得故意欺騙或隱瞞。\nFair Dealing(公平交易): 公平對待交易相對人。\nReasonable Care / Skill(合理審慎與專業技能): 展現基本的專業水準。\nDisclosure of Material Facts(揭露重大事實): 必須告知房屋的重大瑕疵(如漏水、海砂屋、結構受損等)。\nAccounting(帳務管理): 妥善保管與經手的定金或交易款項。\nA、B、D(錯誤): 選項中包含了專屬於 Client 的受託義務(Fiduciary Duties / OLD CAR),例如:\nLoyalty(忠誠): 只對 Client 忠誠,絕不對 Customer 忠誠(選項 A 錯)。\nConfidentiality(保密): 必須幫 Client 保密底線,但對 Customer 無保密義務(選項 B 錯)。\nObedience(服從): 只服從 Client 的合法指示,不服從 Customer(選項 D 錯)。\n💡 觀念金句:\n對 Client(客戶):OLD CAR(Obedience, Loyalty, Disclosure, Confidentiality, Accounting, Reasonable Care)\n對 Customer(顧客):基本誠信(Honesty, Fair Dealing, Reasonable Care, Disclosure, Accounting),絕無 Loyalty(忠誠) 與 Confidentiality(保密)!"
   },
   {
     "id": "P116",
@@ -3596,8 +3566,8 @@
         "zh": "未能揭露其「已知情(Known to them)」的物業瑕疵"
       }
     ],
-    "answer": "D",
-    "explanation": "正確選項 (D)：未能揭露其「已知情(Known to them)」的物業瑕疵\n解析\n這題考驗的是不動產交易中賣方對「物業狀況揭露聲明書(Seller's Property Disclosure Form)」的法律責任界線:\nD(正確): 賣方最核心的法律責任在於誠實揭露「其已知(Known defects)」的重大瑕疵(例如:賣方知道地下室每逢大雨必漏水、牆壁內有黑黴菌或白蟻損害等)。如果賣方明明知情卻故意隱瞞(Knowing concealment),在法律上構成欺詐或違約,必須承擔法律責任(Liable)。\nA(錯誤): 法律不要求賣方對「完全不知情(Unknown defects)」的隱藏瑕疵承擔無過失責任。\nB(錯誤): 賣方不需要對「完全無法觸及/無法檢查(Inaccessible)」且賣方本身也不知情的隱藏問題負責(這通常屬於買方自費專業房屋檢查 Inspection 的範疇)。\nC(錯誤): 賣方若誠實引用並提供來自政府機構或第三方持牌專家(如結構技師、白蟻檢查員)的報告,通常免於直接責任。\n24.題目與翻譯\n原題:Who has the fiduciary duty to try to get the highest sales price for a property?\n(譯:誰負有受託責任(Fiduciary Duty)必須努力為物業爭取到「最高銷售價格」?)\nA. selling agent (賣方/成交經紀人 — 注意:在許多州實務上 Selling Agent 常指帶買家的 Agent,但若是代表賣方則爭取最高價;不過此選項非最佳解)\nB. buyer's agent (買方經紀人)\nC. listing agent (委託銷售經紀人 / 賣方經紀人) [正確答案]\nD. dual agent (雙重代理人)\n解析\nC(正確): Listing Agent(賣方/委託銷售經紀人) 與賣方(Seller)簽署了委託銷售合約(Listing Agreement),因此對賣方負有完整的受託責任(Fiduciary Duties),包括 Loyalty(忠誠) 與利益最大化。其核心職責之一就是站在賣方的立場,努力爭取到最高的銷售價格與最佳的成交條件。\nB(錯誤): Buyer's Agent(買方經紀人) 只忠誠於買方,其受託責任是幫買方爭取到「最低的價格(Lowest price)」與最有利的買方條件。\nD(錯誤): Dual Agent(雙重代理人) 同時代表買賣雙方,法律規定必須保持中立(Neutral),嚴禁偏袒任何一方,因此不能幫賣方爭取最高價,也不能幫買方殺到最低價。\nA(說明): 在傳統不動產術語中,\"Selling Agent\" 有時指促成交易的經紀人(常是代表買方),概念較為混淆;而 Listing Agent 代表簽約的賣方代理人,必定以爭取最高售價為法定義務。\n💡 觀念金句:\nListing Agent(賣方經紀人)➔ 幫賣方爭取「最高價(Highest price)」\nBuyer Agent(買方經紀人)➔ 幫買方爭取「最低價(Lowest price)」\nDual Agent(雙重代理人)➔ 保持中立,兩邊都不幫!"
+    "answer": "C",
+    "explanation": "正確選項 (C)：由政府機構或合格專家所提供的資訊\n解析\n這題考驗的是不動產交易中賣方對「物業狀況揭露聲明書(Seller's Property Disclosure Form)」的法律責任界線:\nD(正確): 賣方最核心的法律責任在於誠實揭露「其已知(Known defects)」的重大瑕疵(例如:賣方知道地下室每逢大雨必漏水、牆壁內有黑黴菌或白蟻損害等)。如果賣方明明知情卻故意隱瞞(Knowing concealment),在法律上構成欺詐或違約,必須承擔法律責任(Liable)。\nA(錯誤): 法律不要求賣方對「完全不知情(Unknown defects)」的隱藏瑕疵承擔無過失責任。\nB(錯誤): 賣方不需要對「完全無法觸及/無法檢查(Inaccessible)」且賣方本身也不知情的隱藏問題負責(這通常屬於買方自費專業房屋檢查 Inspection 的範疇)。\nC(錯誤): 賣方若誠實引用並提供來自政府機構或第三方持牌專家(如結構技師、白蟻檢查員)的報告,通常免於直接責任。\n24.題目與翻譯\n原題:Who has the fiduciary duty to try to get the highest sales price for a property?\n(譯:誰負有受託責任(Fiduciary Duty)必須努力為物業爭取到「最高銷售價格」?)\nA. selling agent (賣方/成交經紀人 — 注意:在許多州實務上 Selling Agent 常指帶買家的 Agent,但若是代表賣方則爭取最高價;不過此選項非最佳解)\nB. buyer's agent (買方經紀人)\nC. listing agent (委託銷售經紀人 / 賣方經紀人) [正確答案]\nD. dual agent (雙重代理人)\n解析\nC(正確): Listing Agent(賣方/委託銷售經紀人) 與賣方(Seller)簽署了委託銷售合約(Listing Agreement),因此對賣方負有完整的受託責任(Fiduciary Duties),包括 Loyalty(忠誠) 與利益最大化。其核心職責之一就是站在賣方的立場,努力爭取到最高的銷售價格與最佳的成交條件。\nB(錯誤): Buyer's Agent(買方經紀人) 只忠誠於買方,其受託責任是幫買方爭取到「最低的價格(Lowest price)」與最有利的買方條件。\nD(錯誤): Dual Agent(雙重代理人) 同時代表買賣雙方,法律規定必須保持中立(Neutral),嚴禁偏袒任何一方,因此不能幫賣方爭取最高價,也不能幫買方殺到最低價。\nA(說明): 在傳統不動產術語中,\"Selling Agent\" 有時指促成交易的經紀人(常是代表買方),概念較為混淆;而 Listing Agent 代表簽約的賣方代理人,必定以爭取最高售價為法定義務。\n💡 觀念金句:\nListing Agent(賣方經紀人)➔ 幫賣方爭取「最高價(Highest price)」\nBuyer Agent(買方經紀人)➔ 幫買方爭取「最低價(Lowest price)」\nDual Agent(雙重代理人)➔ 保持中立,兩邊都不幫!"
   },
   {
     "id": "P121",

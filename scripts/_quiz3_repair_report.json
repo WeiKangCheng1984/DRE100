@@ -1,0 +1,41 @@
+{
+  "answer_fixed": [
+    {
+      "id": "P069",
+      "old": "A",
+      "new": "B",
+      "method": "expl_正確答案_line",
+      "stem": "Which of these is NOT something land trusts can be used to do?"
+    },
+    {
+      "id": "P070",
+      "old": "C",
+      "new": "B",
+      "method": "expl_正確答案_line",
+      "stem": "Harriet is a shareholder in a company. This company has hundreds of sh"
+    },
+    {
+      "id": "P115",
+      "old": "A",
+      "new": "C",
+      "method": "expl_C_正確",
+      "stem": "因法律規定/客觀環境變更而自動終止代理(Operation of Law) 題目:What term refers to circumsta"
+    },
+    {
+      "id": "P120",
+      "old": "D",
+      "new": "C",
+      "method": "expl_C_正確",
+      "stem": "For which of the following would a seller be found liable?"
+    }
+  ],
+  "rebuilt": [],
+  "removed": [
+    {
+      "id": "P114",
+      "reason": "malformed_dup",
+      "stem": "B、C、D"
+    }
+  ],
+  "count": 232
+}

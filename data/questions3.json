@@ -5066,8 +5066,8 @@
         "zh": ""
       }
     ],
-    "answer": "A",
-    "explanation": "正確選項 (A)：shield a property from liabilty\n這是一道關於土地信託(Land Trusts)功能界限的觀念題。了解土地信託能做什麼,才能精準判斷什麼是它「不能」做的。\n正確答案:\navoid paying property taxes(避免支付房地產稅)\n題目翻譯 (Question Translation)\n題目: 下列哪一項不是土地信託(Land trusts)可以用來達成的事情?\n選項:\n保護財產免受法律責任 (shield a property from liability)\n(正解)避免支付房地產稅 (avoid paying property taxes)\n隱匿房產的真實所有權人 (conceal the true owner of a property)\n避免遺產認證 (avoid probate)\n🔍 核心考點解析 (Detailed Analysis)\n土地信託通常用於隱私保護與資產管理,但它絕非合法的避稅工具:\n為什麼「避免繳稅」是錯的?\n在稅務法規中,房產產生的稅負(Property Taxes)義務是跟隨「土地」本身的,而非依據持有的架構。不論你是個人持有、公司持有,還是放在信託裡,政府的徵稅權是不會因為你成立了信託就消失的。試圖利用信託來逃稅是違法的。\n為什麼其他選項是土地信託常見的功能?\nShield a property from liability: 透過將房產轉移至信託(尤其是如果信託是由 LLC 擁有),可以創造一道法律防火牆,使房產本身的債務或意外責任與個人資產分開。\nConceal the true owner: 這是土地信託最常見的用途。當房產登記在信託名下,公開的紀錄(Public Records)通常只顯示信託名稱(如 \"123 Main Street Trust\"),而不顯示實際受益人的姓名,提供了隱私保護。\nAvoid probate: 只要資產在生前成功放入信託,過世時該資產便無需經過法院的遺產認證程序,可以快速移轉給受益人。\n💡 考試直覺反射金句:\n\"Trusts are for privacy, liability protection, and estate planning, but they are never for tax evasion.\" (信託是用來提供隱私、責任保護與遺產規劃的,但它永遠不是用來逃稅的。)\n稅務義務是房地產中不可逾越的底線。對於信託的其他合法用途,你還有哪部分覺得比較模糊嗎?"
+    "answer": "B",
+    "explanation": "正確選項 (B)：avoid paying property taxes\n這是一道關於土地信託(Land Trusts)功能界限的觀念題。了解土地信託能做什麼,才能精準判斷什麼是它「不能」做的。\n正確答案:\navoid paying property taxes(避免支付房地產稅)\n題目翻譯 (Question Translation)\n題目: 下列哪一項不是土地信託(Land trusts)可以用來達成的事情?\n選項:\n保護財產免受法律責任 (shield a property from liability)\n(正解)避免支付房地產稅 (avoid paying property taxes)\n隱匿房產的真實所有權人 (conceal the true owner of a property)\n避免遺產認證 (avoid probate)\n🔍 核心考點解析 (Detailed Analysis)\n土地信託通常用於隱私保護與資產管理,但它絕非合法的避稅工具:\n為什麼「避免繳稅」是錯的?\n在稅務法規中,房產產生的稅負(Property Taxes)義務是跟隨「土地」本身的,而非依據持有的架構。不論你是個人持有、公司持有,還是放在信託裡,政府的徵稅權是不會因為你成立了信託就消失的。試圖利用信託來逃稅是違法的。\n為什麼其他選項是土地信託常見的功能?\nShield a property from liability: 透過將房產轉移至信託(尤其是如果信託是由 LLC 擁有),可以創造一道法律防火牆,使房產本身的債務或意外責任與個人資產分開。\nConceal the true owner: 這是土地信託最常見的用途。當房產登記在信託名下,公開的紀錄(Public Records)通常只顯示信託名稱(如 \"123 Main Street Trust\"),而不顯示實際受益人的姓名,提供了隱私保護。\nAvoid probate: 只要資產在生前成功放入信託,過世時該資產便無需經過法院的遺產認證程序,可以快速移轉給受益人。\n💡 考試直覺反射金句:\n\"Trusts are for privacy, liability protection, and estate planning, but they are never for tax evasion.\" (信託是用來提供隱私、責任保護與遺產規劃的,但它永遠不是用來逃稅的。)\n稅務義務是房地產中不可逾越的底線。對於信託的其他合法用途,你還有哪部分覺得比較模糊嗎?"
   },
   {
     "id": "L170",
@@ -5096,8 +5096,8 @@
         "zh": ""
       }
     ],
-    "answer": "C",
-    "explanation": "正確選項 (C)：S corp\n這題的線索非常明確,只要抓出「雙重徵稅」與「公開交易」這兩個關鍵特徵,答案就呼之欲出了。\n正確答案:\nC corp(C 型公司)\n題目翻譯 (Question Translation)\n題目: 哈莉特(Harriet)是一家公司的股東。該公司有數百名股東,屬於公開交易(Publicly traded),以獨資(Severalty)形式持有財產,且面臨雙重徵稅。請問哈莉特最有可能是哪種企業的股東?\n選項:\nLLP(有限責任合夥)\n(正解)C corp(C 型公司)\nS corp(S 型公司)\nLLC(有限責任公司)\n🔍 核心考點解析 (Detailed Analysis)\n這題可以透過排除法與定義法快速解出:\n「雙重徵稅 (Double taxation)」: 這是 C corp 最具代表性的標籤。\n「公開交易 (Publicly traded)」: 大多數在證券交易所(如紐約證交所、納斯達克)上市的公司都是 C corp。S corp、LLC 和 LLP 都是私人公司,不能在證券市場公開募股。\n「數百名股東」: 再次排除了 S corp,因為 S corp 的股東人數有限制(通常上限為 100 名)。\n「獨資持有 (Ownership in severalty)」: 這表示該「公司」作為一個獨立的法律實體,單獨持有其房產,這與公司的法律定義吻合。\n為什麼其他選項是錯的?\nLLP & LLC: 這些是合夥制或有限責任公司,成員通常被稱為「合夥人(Partners)」或「會員(Members)」,且它們不適用雙重徵稅,也不會公開交易。\nS corp: 稅務上採取「流動課稅(Pass-through)」,無雙重徵稅,且股東人數有限制。\n💡 考試直覺反射金句:\n\"Publicly traded + Double taxed = C Corp every single time.\" (公開交易 + 雙重徵稅 = 絕對是 C Corp。)\n這類關於企業組織型態的題目,透過特徵勾勒(關鍵字連結)是非常高效的解法。對於這些企業類型的特徵,你目前還有覺得容易混淆的組合嗎?"
+    "answer": "B",
+    "explanation": "正確選項 (B)：C corp\n這題的線索非常明確,只要抓出「雙重徵稅」與「公開交易」這兩個關鍵特徵,答案就呼之欲出了。\n正確答案:\nC corp(C 型公司)\n題目翻譯 (Question Translation)\n題目: 哈莉特(Harriet)是一家公司的股東。該公司有數百名股東,屬於公開交易(Publicly traded),以獨資(Severalty)形式持有財產,且面臨雙重徵稅。請問哈莉特最有可能是哪種企業的股東?\n選項:\nLLP(有限責任合夥)\n(正解)C corp(C 型公司)\nS corp(S 型公司)\nLLC(有限責任公司)\n🔍 核心考點解析 (Detailed Analysis)\n這題可以透過排除法與定義法快速解出:\n「雙重徵稅 (Double taxation)」: 這是 C corp 最具代表性的標籤。\n「公開交易 (Publicly traded)」: 大多數在證券交易所(如紐約證交所、納斯達克)上市的公司都是 C corp。S corp、LLC 和 LLP 都是私人公司,不能在證券市場公開募股。\n「數百名股東」: 再次排除了 S corp,因為 S corp 的股東人數有限制(通常上限為 100 名)。\n「獨資持有 (Ownership in severalty)」: 這表示該「公司」作為一個獨立的法律實體,單獨持有其房產,這與公司的法律定義吻合。\n為什麼其他選項是錯的?\nLLP & LLC: 這些是合夥制或有限責任公司,成員通常被稱為「合夥人(Partners)」或「會員(Members)」,且它們不適用雙重徵稅,也不會公開交易。\nS corp: 稅務上採取「流動課稅(Pass-through)」,無雙重徵稅,且股東人數有限制。\n💡 考試直覺反射金句:\n\"Publicly traded + Double taxed = C Corp every single time.\" (公開交易 + 雙重徵稅 = 絕對是 C Corp。)\n這類關於企業組織型態的題目,透過特徵勾勒(關鍵字連結)是非常高效的解法。對於這些企業類型的特徵,你目前還有覺得容易混淆的組合嗎?"
   },
   {
     "id": "L171",
@@ -6391,36 +6391,6 @@
   },
   {
     "id": "L214",
-    "source": "LV 練習延伸：Level 4",
-    "stemEn": "B、C、D",
-    "stemZh": "具備資格):",
-    "choices": [
-      {
-        "key": "A",
-        "en": "Architect",
-        "zh": "建築師) 與 Licensed Land Surveyor(測量師): 法律明確將提供設計、規劃、測量等專業服務的設計專業人員(Design Professionals)納入保護對象。"
-      },
-      {
-        "key": "B",
-        "en": "Trucker",
-        "zh": "運輸司機): 在工程中負責將建材運抵工地或將開挖廢土運離工地的卡車司機/運輸商,屬於提供工程直接必要勞務/設備的一環,依法具備申請資格。"
-      },
-      {
-        "key": "C",
-        "en": "💡",
-        "zh": "觀念金句:"
-      },
-      {
-        "key": "D",
-        "en": "Mechanic's Lien",
-        "zh": "只保護對物業有「實體改善或工程設計貢獻」的人(建築師、工人、測量師、建材商);房產仲介(Broker/Locator)絕不能申請!"
-      }
-    ],
-    "answer": "D",
-    "explanation": "正確選項 (D)：只保護對物業有「實體改善或工程設計貢獻」的人(建築師、工人、測量師、建材商);房產仲介(Broker/Locator)絕不能申請!\n29.題目與翻譯\n原題:According to typical lien priority, which of the following liens would be paid first?\n(譯:根據標準的留置權清償順位,下列哪一項留置權會最先獲得清償?)\nA. first mortgage recorded in April 2020 (2020 年 4 月登記的第一抵押貸款)\nB. second mortgage lien recorded in June 2021 (2021 年 6 月登記的第二抵押貸款)\nC. mechanic's lien recorded in August 2020 (2020 年 8 月登記的施工留置權)\nD. property tax lien recorded in November 2021 (2021 年 11 月登記的不動產稅留置權) [正確答案]\n解析\n這題是考驗留置權清償順位(Lien Priority)的核心原則與「超級優先權」:\n超級優先權(Super Priority):\nProperty Tax Lien(不動產稅留置權) 擁有法律賦予的最高清償順位(Senior Lien)。不論該稅務留置權是在何時登記(即使是最新登記的 2021 年 11 月),政府的稅款永遠優先於所有私人留置權獲得清償。\n一般私人留置權(First in time, first in right):"
-  },
-  {
-    "id": "L215",
     "source": "LV 練習延伸：Level 6",
     "stemEn": "因法律規定/客觀環境變更而自動終止代理(Operation of Law) 題目:What term refers to circumstances or changes affecting the contract or the subject property that automatically result in agency termination?",
     "stemZh": "什麼術語是指影響合約或標的不動產的客觀環境變化,從而「自動導致」代理關係終止?",
@@ -6446,11 +6416,11 @@
         "zh": "錯誤:單方撤銷"
       }
     ],
-    "answer": "A",
-    "explanation": "正確選項 (A)：法律施行 / 依法律規定\n💡 詳細解析\n代理關係終止(Agency Termination)分為兩大途徑:\nActs of the Parties(當事人行為): 雙方合意解約(Mutual Agreement)、完成交易(Performance)、經紀人放棄或委託人撤銷(Revocation)。\nOperation of Law(法律施行/客觀法定事件): 無需當事人同意,出現客觀法定事由時自動終止。常見原因包括:\n房屋滅失(Destruction of Property): 如火災燒毀房屋。\n破產(Bankruptcy): 任何一方破產。\n死亡或喪失行為能力(Death or Incapacity): 任何一方死亡。\n徵收(Eminent Domain): 政府強制徵收土地。\n🧠 記憶口訣:\n房燒、人亡、債破產(Destruction, Death, Bankruptcy)➔ 法律自動強制終止(Operation of Law)!\n16.題目與翻譯\n原題:All of the following are causes of agency termination. Which of these is the only one that would be considered termination due to an operation of law?\n(譯:以下皆為代理關係終止(Agency Termination)的原因。下列哪一個是唯一被視為「因法律運作/法律規定(Operation of Law)」而自動終止的?)\nA. condemnation (政府徵收 / 法院判決危樓) [正確答案]\nB. mutual agreement (雙方合意解約)\nC. revocation (委託人單方撤銷)\nD. breach of agreement (單方違約)\n解析\n代理關係的終止(Agency Termination)在考試中必然劃分為兩大分類:\nActs of the Parties(當事人行為): 由人的主觀意願或行為引發。\nB. Mutual Agreement: 雙方坐下來同意解約。\nC. Revocation: 委託人(Client)單方面取消授權。\nD. Breach of Agreement: 其中一方違約導致另一方終止合約。\nRenunciation: 經紀人(Agent)單方面放棄代理。\nOperation of Law(法律運作 / 法定自動終止): 由外部客觀法律事實引發,不論當事人願不願意,法律直接強制終止。\nA. Condemnation: 政府行使徵收權(Eminent Domain)將土地轉為公有,或法院判定該建築為危樓,標的物喪失合法交易資格,代理關係自動終止。\n其他常見同類例子: 房屋毀損(Destruction of Property)、任何一方死亡/喪失行為能力(Death/Incapacity)、任何一方破產(Bankruptcy)、合約到期(Expiration of Time)。\n💡 觀念金句:\n當事人行為(Acts of the Parties)= 人想解約/違約;\n法律運作(Operation of Law)= 房沒了、人死了、政府徵收(Condemnation)!\n17.題目與翻譯\n原題:What are the duties owed to a customer?\n(譯:經紀人對「顧客(Customer)」負有哪些法律義務?)\nA. honesty, fair dealing, reasonable care, diligence, and loyalty (誠實、公平交易、合理審慎、勤勉,以及忠誠)\nB. helpfulness, confidentiality, responsiveness, diligence, and availability (熱心、保密、即時回應、勤勉,以及隨時服務)\nC. honesty, fair dealing, reasonable care, disclosure, and accounting (誠實、公平交易、合理審慎、揭露重大事實,以及帳務管理) [正確答案]\nD. obedience, fair dealing, responsiveness, disclosure, and accounting (服從、公平交易、即時回應、揭露,以及帳務管理)\n解析\n這題是區分 Client(客戶 - 有簽代理合約) 與 Customer(顧客 - 未簽代理合約/交易相對人) 的最經典考題!\nC(正確): 經紀人對未簽約的 Customer 不需要承擔最高等級的忠誠或服從義務,但法律規定至少必須遵守基本的「商業道德與誠信原則」,主要包含 HDRA:\nHonesty(誠實): 不得故意欺騙或隱瞞。\nFair Dealing(公平交易): 公平對待交易相對人。\nReasonable Care / Skill(合理審慎與專業技能): 展現基本的專業水準。\nDisclosure of Material Facts(揭露重大事實): 必須告知房屋的重大瑕疵(如漏水、海砂屋、結構受損等)。\nAccounting(帳務管理): 妥善保管與經手的定金或交易款項。\nA、B、D(錯誤): 選項中包含了專屬於 Client 的受託義務(Fiduciary Duties / OLD CAR),例如:\nLoyalty(忠誠): 只對 Client 忠誠,絕不對 Customer 忠誠(選項 A 錯)。\nConfidentiality(保密): 必須幫 Client 保密底線,但對 Customer 無保密義務(選項 B 錯)。\nObedience(服從): 只服從 Client 的合法指示,不服從 Customer(選項 D 錯)。\n💡 觀念金句:\n對 Client(客戶):OLD CAR(Obedience, Loyalty, Disclosure, Confidentiality, Accounting, Reasonable Care)\n對 Customer(顧客):基本誠信(Honesty, Fair Dealing, Reasonable Care, Disclosure, Accounting),絕無 Loyalty(忠誠) 與 Confidentiality(保密)!"
+    "answer": "C",
+    "explanation": "正確選項 (C)：錯誤:雙方合意\n💡 詳細解析\n代理關係終止(Agency Termination)分為兩大途徑:\nActs of the Parties(當事人行為): 雙方合意解約(Mutual Agreement)、完成交易(Performance)、經紀人放棄或委託人撤銷(Revocation)。\nOperation of Law(法律施行/客觀法定事件): 無需當事人同意,出現客觀法定事由時自動終止。常見原因包括:\n房屋滅失(Destruction of Property): 如火災燒毀房屋。\n破產(Bankruptcy): 任何一方破產。\n死亡或喪失行為能力(Death or Incapacity): 任何一方死亡。\n徵收(Eminent Domain): 政府強制徵收土地。\n🧠 記憶口訣:\n房燒、人亡、債破產(Destruction, Death, Bankruptcy)➔ 法律自動強制終止(Operation of Law)!\n16.題目與翻譯\n原題:All of the following are causes of agency termination. Which of these is the only one that would be considered termination due to an operation of law?\n(譯:以下皆為代理關係終止(Agency Termination)的原因。下列哪一個是唯一被視為「因法律運作/法律規定(Operation of Law)」而自動終止的?)\nA. condemnation (政府徵收 / 法院判決危樓) [正確答案]\nB. mutual agreement (雙方合意解約)\nC. revocation (委託人單方撤銷)\nD. breach of agreement (單方違約)\n解析\n代理關係的終止(Agency Termination)在考試中必然劃分為兩大分類:\nActs of the Parties(當事人行為): 由人的主觀意願或行為引發。\nB. Mutual Agreement: 雙方坐下來同意解約。\nC. Revocation: 委託人(Client)單方面取消授權。\nD. Breach of Agreement: 其中一方違約導致另一方終止合約。\nRenunciation: 經紀人(Agent)單方面放棄代理。\nOperation of Law(法律運作 / 法定自動終止): 由外部客觀法律事實引發,不論當事人願不願意,法律直接強制終止。\nA. Condemnation: 政府行使徵收權(Eminent Domain)將土地轉為公有,或法院判定該建築為危樓,標的物喪失合法交易資格,代理關係自動終止。\n其他常見同類例子: 房屋毀損(Destruction of Property)、任何一方死亡/喪失行為能力(Death/Incapacity)、任何一方破產(Bankruptcy)、合約到期(Expiration of Time)。\n💡 觀念金句:\n當事人行為(Acts of the Parties)= 人想解約/違約;\n法律運作(Operation of Law)= 房沒了、人死了、政府徵收(Condemnation)!\n17.題目與翻譯\n原題:What are the duties owed to a customer?\n(譯:經紀人對「顧客(Customer)」負有哪些法律義務?)\nA. honesty, fair dealing, reasonable care, diligence, and loyalty (誠實、公平交易、合理審慎、勤勉,以及忠誠)\nB. helpfulness, confidentiality, responsiveness, diligence, and availability (熱心、保密、即時回應、勤勉,以及隨時服務)\nC. honesty, fair dealing, reasonable care, disclosure, and accounting (誠實、公平交易、合理審慎、揭露重大事實,以及帳務管理) [正確答案]\nD. obedience, fair dealing, responsiveness, disclosure, and accounting (服從、公平交易、即時回應、揭露,以及帳務管理)\n解析\n這題是區分 Client(客戶 - 有簽代理合約) 與 Customer(顧客 - 未簽代理合約/交易相對人) 的最經典考題!\nC(正確): 經紀人對未簽約的 Customer 不需要承擔最高等級的忠誠或服從義務,但法律規定至少必須遵守基本的「商業道德與誠信原則」,主要包含 HDRA:\nHonesty(誠實): 不得故意欺騙或隱瞞。\nFair Dealing(公平交易): 公平對待交易相對人。\nReasonable Care / Skill(合理審慎與專業技能): 展現基本的專業水準。\nDisclosure of Material Facts(揭露重大事實): 必須告知房屋的重大瑕疵(如漏水、海砂屋、結構受損等)。\nAccounting(帳務管理): 妥善保管與經手的定金或交易款項。\nA、B、D(錯誤): 選項中包含了專屬於 Client 的受託義務(Fiduciary Duties / OLD CAR),例如:\nLoyalty(忠誠): 只對 Client 忠誠,絕不對 Customer 忠誠(選項 A 錯)。\nConfidentiality(保密): 必須幫 Client 保密底線,但對 Customer 無保密義務(選項 B 錯)。\nObedience(服從): 只服從 Client 的合法指示,不服從 Customer(選項 D 錯)。\n💡 觀念金句:\n對 Client(客戶):OLD CAR(Obedience, Loyalty, Disclosure, Confidentiality, Accounting, Reasonable Care)\n對 Customer(顧客):基本誠信(Honesty, Fair Dealing, Reasonable Care, Disclosure, Accounting),絕無 Loyalty(忠誠) 與 Confidentiality(保密)!"
   },
   {
-    "id": "L216",
+    "id": "L215",
     "source": "LV 練習延伸：Level 6",
     "stemEn": "A buyer says to their agent: “The seller must answer my offer first because it came in first!\" How should the agent respond?",
     "stemZh": "買家對他們的經紀人說:「賣方必須先回覆我的出價(Offer),因為我的出價是第一個送達的!」經紀人應該如何回應?",
@@ -6480,7 +6450,7 @@
     "explanation": "正確選項 (B)：抱歉,朋友。賣方經紀人在呈現或處理出價時,並不一定要按照收到的先後順序進行。」"
   },
   {
-    "id": "L217",
+    "id": "L216",
     "source": "LV 練習延伸：Level 6",
     "stemEn": "Which two of the three classifications of agency come with authority to bind?",
     "stemZh": "在三種代理分類中,哪兩種代理擁有代表委託人簽署合約並產生法律約束力(Authority to Bind)的權力?",
@@ -6510,7 +6480,7 @@
     "explanation": "正確選項 (A)：一般代理 與 全權代理\n解析\n代理人是否具備「代表委託人簽字並使其承受法律約束力(Authority to Bind)」,是區分代理分類的最核心關鍵:\nUniversal Agency(全權代理 - 有權 Bind):\n擁有最廣泛的授權(通常透過全權授權書 Power of Attorney / Attorney-in-Fact),可以代表委託人處置所有個人、財務與法律事項(All matters),具備完全的簽約約束力。\nGeneral Agency(一般代理 - 有權 Bind):\n在特定領域/業務範圍內執行持續性的任務(如 Property Manager 物業管理經理、Salesperson 代表其 Broker),被授權可以代表委託人簽署租約或維修合約,具備該領域內的簽約約束力。\nSpecial Agency(特別代理 - 無權 Bind):\n僅獲授權執行「單一特定任務」(如 Listing Agent 委託銷售經紀人 或 Buyer Agent)。Special Agent 完全沒有簽約約束力(NO Authority to Bind),不能替買家或賣家在房屋買賣合約上簽字。\n因此,具備 Authority to Bind 的兩種代理是 General 與 Universal。\n💡 觀念金句:\n有權代替簽約(Authority to Bind):General & Universal(可以);Special(絕對不行)!"
   },
   {
-    "id": "L218",
+    "id": "L217",
     "source": "LV 練習延伸：Level 6",
     "stemEn": "Which of the following duties does an agent owe to both clients and customers?",
     "stemZh": "下列哪一項義務是經紀人對「Client(客戶)」與「Customer(顧客)」兩者皆必須承擔的?",
@@ -6540,7 +6510,7 @@
     "explanation": "正確選項 (B)：誠實義務\n解析\n這題是區分對 Client(簽約客戶) 與 Customer(未簽約顧客 / 交易相對人) 義務重疊處的核心觀念題:\nB(正確): 經紀人對任何人在交易中都必須保持 Honesty(誠實) 與 Fair Dealing(公平交易)。不論對方是委託自己的 Client 還是交易對手的 Customer,經紀人都絕對不能有欺騙、隱瞞或故意提供虛假資訊的行為。\nA、C、D(錯誤): 這三項皆屬於專屬 Client 的最高級受託義務(Fiduciary Duties / OLD CAR):\nConfidentiality(保密): 只幫 Client 保密(如財務狀況、急賣理由、底價);對 Customer 無保密義務。\nObedience(服從): 只服從 Client 的合法指示;不服從 Customer。\nLoyalty(忠誠): 只忠誠於 Client;絕對不能忠誠於 Customer。"
   },
   {
-    "id": "L219",
+    "id": "L218",
     "source": "LV 練習延伸：Level 6",
     "stemEn": "The principle that liability trickles through the chain of command, from the agent and up the ladder to the broker, can be summarized by the term",
     "stemZh": "法律責任沿著指揮鏈從代理人/業務員(Agent)向上傳導至經紀人/經紀公司(Broker)的原則,可以總括為以下哪一個術語?",
@@ -6570,7 +6540,7 @@
     "explanation": "正確選項 (C)：轉嫁責任 / 雇主替代責任\n解析\nC(正確): Vicarious Liability(轉嫁責任 / 替代責任) 是一種法律原則,指在僱傭或代理關係中,授權者/雇主(如 Broker)需要為其下屬或代理人(如 Agent / Salesperson)在執行業務過程中的過失或違規行為承擔法律責任。責任會沿著指揮鏈(Chain of command)由下往上傳遞。\nA(錯誤): Cooperating Broker 指在交易中配合 Listing Broker 帶看買方並促成交易的合作經紀公司。\nB(錯誤): Subagency 指代理人的代理人(例如 Listing Broker 授權配合經紀人作為賣方的副代理人)。\nD(錯誤): Intermediation 指經紀人在買賣雙方之間擔任中介或居間角色。\n💡 觀念金句:\nVicarious Liability = 下屬(Agent)犯錯,老闆(Broker)連帶擔責!"
   },
   {
-    "id": "L220",
+    "id": "L219",
     "source": "LV 練習延伸：Level 6",
     "stemEn": "For which of the following would a seller be found liable?",
     "stemZh": "賣方(Seller)會因為下列哪一種情況而被追究法律責任(Liable)?",
@@ -6596,11 +6566,11 @@
         "zh": "未能揭露其「已知情(Known to them)」的物業瑕疵"
       }
     ],
-    "answer": "D",
-    "explanation": "正確選項 (D)：未能揭露其「已知情(Known to them)」的物業瑕疵\n解析\n這題考驗的是不動產交易中賣方對「物業狀況揭露聲明書(Seller's Property Disclosure Form)」的法律責任界線:\nD(正確): 賣方最核心的法律責任在於誠實揭露「其已知(Known defects)」的重大瑕疵(例如:賣方知道地下室每逢大雨必漏水、牆壁內有黑黴菌或白蟻損害等)。如果賣方明明知情卻故意隱瞞(Knowing concealment),在法律上構成欺詐或違約,必須承擔法律責任(Liable)。\nA(錯誤): 法律不要求賣方對「完全不知情(Unknown defects)」的隱藏瑕疵承擔無過失責任。\nB(錯誤): 賣方不需要對「完全無法觸及/無法檢查(Inaccessible)」且賣方本身也不知情的隱藏問題負責(這通常屬於買方自費專業房屋檢查 Inspection 的範疇)。\nC(錯誤): 賣方若誠實引用並提供來自政府機構或第三方持牌專家(如結構技師、白蟻檢查員)的報告,通常免於直接責任。\n24.題目與翻譯\n原題:Who has the fiduciary duty to try to get the highest sales price for a property?\n(譯:誰負有受託責任(Fiduciary Duty)必須努力為物業爭取到「最高銷售價格」?)\nA. selling agent (賣方/成交經紀人 — 注意:在許多州實務上 Selling Agent 常指帶買家的 Agent,但若是代表賣方則爭取最高價;不過此選項非最佳解)\nB. buyer's agent (買方經紀人)\nC. listing agent (委託銷售經紀人 / 賣方經紀人) [正確答案]\nD. dual agent (雙重代理人)\n解析\nC(正確): Listing Agent(賣方/委託銷售經紀人) 與賣方(Seller)簽署了委託銷售合約(Listing Agreement),因此對賣方負有完整的受託責任(Fiduciary Duties),包括 Loyalty(忠誠) 與利益最大化。其核心職責之一就是站在賣方的立場,努力爭取到最高的銷售價格與最佳的成交條件。\nB(錯誤): Buyer's Agent(買方經紀人) 只忠誠於買方,其受託責任是幫買方爭取到「最低的價格(Lowest price)」與最有利的買方條件。\nD(錯誤): Dual Agent(雙重代理人) 同時代表買賣雙方,法律規定必須保持中立(Neutral),嚴禁偏袒任何一方,因此不能幫賣方爭取最高價,也不能幫買方殺到最低價。\nA(說明): 在傳統不動產術語中,\"Selling Agent\" 有時指促成交易的經紀人(常是代表買方),概念較為混淆;而 Listing Agent 代表簽約的賣方代理人,必定以爭取最高售價為法定義務。\n💡 觀念金句:\nListing Agent(賣方經紀人)➔ 幫賣方爭取「最高價(Highest price)」\nBuyer Agent(買方經紀人)➔ 幫買方爭取「最低價(Lowest price)」\nDual Agent(雙重代理人)➔ 保持中立,兩邊都不幫!"
+    "answer": "C",
+    "explanation": "正確選項 (C)：由政府機構或合格專家所提供的資訊\n解析\n這題考驗的是不動產交易中賣方對「物業狀況揭露聲明書(Seller's Property Disclosure Form)」的法律責任界線:\nD(正確): 賣方最核心的法律責任在於誠實揭露「其已知(Known defects)」的重大瑕疵(例如:賣方知道地下室每逢大雨必漏水、牆壁內有黑黴菌或白蟻損害等)。如果賣方明明知情卻故意隱瞞(Knowing concealment),在法律上構成欺詐或違約,必須承擔法律責任(Liable)。\nA(錯誤): 法律不要求賣方對「完全不知情(Unknown defects)」的隱藏瑕疵承擔無過失責任。\nB(錯誤): 賣方不需要對「完全無法觸及/無法檢查(Inaccessible)」且賣方本身也不知情的隱藏問題負責(這通常屬於買方自費專業房屋檢查 Inspection 的範疇)。\nC(錯誤): 賣方若誠實引用並提供來自政府機構或第三方持牌專家(如結構技師、白蟻檢查員)的報告,通常免於直接責任。\n24.題目與翻譯\n原題:Who has the fiduciary duty to try to get the highest sales price for a property?\n(譯:誰負有受託責任(Fiduciary Duty)必須努力為物業爭取到「最高銷售價格」?)\nA. selling agent (賣方/成交經紀人 — 注意:在許多州實務上 Selling Agent 常指帶買家的 Agent,但若是代表賣方則爭取最高價;不過此選項非最佳解)\nB. buyer's agent (買方經紀人)\nC. listing agent (委託銷售經紀人 / 賣方經紀人) [正確答案]\nD. dual agent (雙重代理人)\n解析\nC(正確): Listing Agent(賣方/委託銷售經紀人) 與賣方(Seller)簽署了委託銷售合約(Listing Agreement),因此對賣方負有完整的受託責任(Fiduciary Duties),包括 Loyalty(忠誠) 與利益最大化。其核心職責之一就是站在賣方的立場,努力爭取到最高的銷售價格與最佳的成交條件。\nB(錯誤): Buyer's Agent(買方經紀人) 只忠誠於買方,其受託責任是幫買方爭取到「最低的價格(Lowest price)」與最有利的買方條件。\nD(錯誤): Dual Agent(雙重代理人) 同時代表買賣雙方,法律規定必須保持中立(Neutral),嚴禁偏袒任何一方,因此不能幫賣方爭取最高價,也不能幫買方殺到最低價。\nA(說明): 在傳統不動產術語中,\"Selling Agent\" 有時指促成交易的經紀人(常是代表買方),概念較為混淆;而 Listing Agent 代表簽約的賣方代理人,必定以爭取最高售價為法定義務。\n💡 觀念金句:\nListing Agent(賣方經紀人)➔ 幫賣方爭取「最高價(Highest price)」\nBuyer Agent(買方經紀人)➔ 幫買方爭取「最低價(Lowest price)」\nDual Agent(雙重代理人)➔ 保持中立,兩邊都不幫!"
   },
   {
-    "id": "L221",
+    "id": "L220",
     "source": "LV 練習延伸：Level 6",
     "stemEn": "Which of the following statements BEST describes agency by ratification?",
     "stemZh": "下列哪一項敘述最能描述「追認代理(Agency by Ratification)」?",
@@ -6630,7 +6600,7 @@
     "explanation": "正確選項 (B)：當代理人採取了未經事先授權的行動,但該行動在「事後」獲得委託人的接受/認可\n解析\n這題考驗的是代理關係建立(Creation of Agency)的四大途徑之一:Ratification(追認)。\nB(正確): Agency by Ratification(追認代理) 指代理人最初在沒有獲得事先授權(Unauthorized action)的情況下,擅自代表委託人(Client)做出某項行為,但委託人在事後了解狀況後,選擇接受或批准(Accept / Approve / Ratify)該行為。一旦事後追認,該代理關係及該行為的法律效力即追溯自始生效。\nA & C(錯誤): 若未獲授權且事後委託人拒絕(NOT accepted)認可,則代理關係不成立,該行為對委託人不具約束力,後果由該未授權人員自行承擔。\nD(錯誤): 採取明確獲得事前授權的行動,屬於 Express Agency(明示代理),而非 Ratification(追認)。\n💡 觀念金句:\nAgency by Ratification(追認代理)= 先斬後奏(Unauthorized action),事後認可(Accepted after the fact)!"
   },
   {
-    "id": "L222",
+    "id": "L221",
     "source": "LV 練習延伸：Level 6",
     "stemEn": "California Associate Licensee Agueda recently changed brokerages. She is now sponsored by Broker Afonso. In spite of the fact that she has five years of experience practicing dual agency, Agueda no longer has the authority to do so. Which of the following best explains why that might be so?",
     "stemZh": "加州副執照持有人(Associate Licensee)Agueda 最近換了經紀公司,目前由經紀人 Afonso 贊助(Sponsor)。儘管她擁有 5 年從事雙重代理(Dual Agency)的經驗,但她現在卻不再擁有執行雙重代理的權限。下列哪一個選項最能解釋為什麼會這樣?",
@@ -6660,7 +6630,7 @@
     "explanation": "正確選項 (C)：她的新經紀公司本身不從事/不允許雙重代理業務。\n解析\n這題考驗的是 Agent(執照業務員/Associate Licensee)與 Broker/Brokerage(經紀人/經紀公司)之間的代理權限關係:\n業務員的權限源自於經紀公司(Brokerage Policy):\n執照業務員(Associate Licensee / Salesperson)在法律上是經紀人(Broker)的代理人(General Agent)。業務員能執行哪些代理業務,完全取決於其所屬經紀公司(Brokerage)的內部政策與授權範圍。\n經紀公司有權限制業務範圍:\n雖然加州法律允許雙重代理(Dual Agency),且 Agueda 個人擁有豐富經驗,但如果她的新經紀公司(Her new brokerage)訂立政策完全禁止/不實施雙重代理(Does not practice dual agency),那麼身為該公司旗下的業務員,Agueda 就絕對無權代表該公司執行雙重代理。\nA 錯誤: 加州(California)法律是允許在買賣雙方簽署書面同意(Informed Written Consent)的前提下執行雙重代理的,並未全州禁止。\nB & D 錯誤: 主觀信任度或對客戶的熟悉度屬於個人與人際因素,並非法律上決定代理權限(Authority)有無的核心依據。\n💡 觀念金句:\n業務員的權限(Authority)不能超越經紀公司(Brokerage)!公司不做的業務(如禁止 Dual Agency),業務員經驗再多也不能做!"
   },
   {
-    "id": "L223",
+    "id": "L222",
     "source": "LV 練習延伸：Level 6",
     "stemEn": "Using the OLDCAR framework, which of the following contains the list of fiduciary duties owed to a principal?",
     "stemZh": "使用 OLDCAR 框架,下列哪一個選項包含對委託人(Principal / Client)負有的受託義務(Fiduciary Duties)完整清單?",
@@ -6690,7 +6660,7 @@
     "explanation": "正確選項 (A)：服從、忠誠、揭露、保密、帳務管理、合理審慎"
   },
   {
-    "id": "L224",
+    "id": "L223",
     "source": "LV 練習延伸：Level 6",
     "stemEn": "As soon as your single agency relationship begins to morph into a dual agency transaction, you should",
     "stemZh": "一旦你的「單一代理關係(Single Agency)」開始轉變為「雙重代理交易(Dual Agency)」,你應該:",
@@ -6720,7 +6690,7 @@
     "explanation": "正確選項 (D)：即使先前已經進行過代理揭露,也「必須再次揭露」並取得雙方書面同意\n解析\n這題考驗的是 Dual Agency(雙重代理)的動態揭露與同意機制:\nD(正確): 代理關係的成立是動態變化的。即使交易剛開始時你已經遞交過單一代理(Single Agency)的揭露聲明,一旦情況發生改變(例如:你帶看的買家看中了你自己名下代理銷售的物件),代理性質就轉變為 Dual Agency(雙重代理)。此時必須立即向買賣雙方重新進行揭露(Re-disclosure),並取得雙方明確的「知情書面同意(Informed Written Consent)」 後,方可繼續執行交易。\nA(錯誤): 雙重代理的揭露是強制性法律義務,與經紀人主觀認為是否會偏向某一方無關。\nB(錯誤): 隱瞞雙重代理(Undisclosed Dual Agency)在不動產法規中屬於嚴重違法行為,可能導致執照被吊銷、佣金被沒收及面臨損害賠償。\nC(錯誤): 先前的揭露是針對「單一代理」,無法取代當前轉變為「雙重代理」時所需的專屬揭露與書面同意。"
   },
   {
-    "id": "L225",
+    "id": "L224",
     "source": "LV 練習延伸：Level 6",
     "stemEn": "Which of the following would NOT typically be prorated at closing?",
     "stemZh": "在房產交易過戶結算(Closing)時,下列哪一項費用通常「不需要」進行按比例分攤(Prorated)?",
@@ -6750,7 +6720,7 @@
     "explanation": "正確選項 (B)：房屋估價費\n解析\n區分 Prorated Items(需按比例分攤項目) 與 One-time Non-prorated Fees(一次性不分攤費用) 的核心標準在於:該費用是跨越過戶日期的「持續性費用」,還是在過戶前已完成的「一次性服務費」?\nB(正確 - 不需分攤): Appraisal Fees(估價費) 是一次性的專業服務費用(Flat one-time fee),通常在貸款申請初期或過戶前就由買方(或申請人)全額支付給估價師,不屬於跨越買賣雙方持有期間的日常營運費用,因此完全不需要在過戶時按天數比例計算分攤。\nA、C、D(皆為常見的 Prorated 按比例分攤項目):\nA(Prepaid Taxes): 賣方若已預繳整年的房產稅,過戶日之後的天數屬於買方享用,買方須在 Closing 時將多繳的稅款按比例退還(Credit)給賣方。\nC(Rents Collected in Advance): 若為帶租約過戶,賣方月初已收取整月租金,過戶日之後天數的租金須按比例劃轉給新業主(買方)。\nD(Utility Bills): 水電費通常是按月結算,買賣雙方須根據過戶日(Closing Date)切分各自持有期間的實際使用金額。\n💡 觀念金句:\nClosing 分攤鐵律:跨越過戶日期的「持續性營運/持有費用」(稅、租金、水電)要 Prorate;過戶前的「一次性服務費」(估價費 Appraisal、房屋檢查費 Inspection)直接一次結清不分攤!"
   },
   {
-    "id": "L226",
+    "id": "L225",
     "source": "LV 練習延伸：Level 6",
     "stemEn": "How much is one discount point?",
     "stemZh": "在房貸中,一個折扣點(Discount Point)的費用是多少?",
@@ -6780,7 +6750,7 @@
     "explanation": "正確選項 (C)：貸款總額的 1%\n解析\n這題是金融與房貸結算(Mortgage & Financing)章節中最經典的計算與定義題:\nC(正確): 1 Discount Point(折扣點)= 貸款總額的 1%(1% of the loan amount)。這是買方在過戶結算(Closing)時預先支付給貸款機構的前置費用(Prepaid Interest),目的是為了換取整個貸款期限內更低的年利率(Interest Rate)。\nA(錯誤 - 概念混淆): 購買 1 個 Discount Point 通常只能降低 0.25%(即 1/4%) 的利率,而不是直接降低 1% 的利率。\nD(錯誤 - 常考陷阱): 折扣點是基於「貸款金額(Loan Amount)」計算,而不是房屋的「銷售價格(Sale Price)」。例如:房價 $500,000,首付 20%(貸款額 $400,000),則 1 個 Discount Point 費用為 $400,000 × 1% = $4,000(而非 $500,000 × 1% = $5,000)。\n💡 觀念金句:\nDiscount Point 永遠算「貸款額(Loan Amount)」,1 Point = 貸款額的 1%!"
   },
   {
-    "id": "L227",
+    "id": "L226",
     "source": "LV 練習延伸：Level 6",
     "stemEn": "How much will Bill the borrower's down payment need to be if he wants to buy a condo valued at the purchase price of $200,000 and the lender allows a maximum LTV of 80%?",
     "stemZh": "借款人 Bill 想購買一套購買價格為 $200,000 的公寓,若貸款機構允許的最大貸款成數(LTV)為 80%,那麼 Bill 需要準備多少首付款(Down Payment)?",
@@ -6810,7 +6780,7 @@
     "explanation": "正確選項 (C)：$40,000\nLTV 是貸款金額相較於房屋價值的比例。 首付款即為購買價格減去貸款金額(也就是剩下需由買家自行出資的比率 $100\\% - 80\\% = 20\\%$):"
   },
   {
-    "id": "L228",
+    "id": "L227",
     "source": "LV 練習延伸：Level 6",
     "stemEn": "Dream Home mortgage lender requires $80,000 down on a $300,000 property. What is the LTV on this loan?",
     "stemZh": "Dream Home 貸款機構要求對價值 $300,000 的物業支付 $80,000 的首付款(Down Payment)。請問該筆貸款的貸款成數(LTV)是多少?",
@@ -6840,7 +6810,7 @@
     "explanation": "正確選項 (B)：73%\nLTV 算的是「借多少錢(Loan)」,不是「出多少自備款(Down Payment)」"
   },
   {
-    "id": "L229",
+    "id": "L228",
     "source": "LV 練習延伸：Level 6",
     "stemEn": "Which of these is a CFPB program designed to simplify forms for borrowers?",
     "stemZh": "下列哪一個是 CFPB(美國消費者金融保護局)旨在為借款人簡化表格的計畫/方案?",
@@ -6870,7 +6840,7 @@
     "explanation": "正確選項 (D)：Know Before You Owe\n🔍 核心考點解析 (TRID / Know Before You Owe)\n什麼是 Know Before You Owe (KBYO)?\n背景: 美國國會透過《多德-弗蘭克法案(Dodd-Frank Act)》授權 CFPB,將傳統複雜且重複的聯邦房貸揭露文件進行整合與簡化。\n簡化成果: CFPB 將原本舊有的 4 份複雜文件(TILA 披露書、Good Faith Estimate、HUD-1 結算表等)簡化並合併為 2 份核心表格:\nLoan Estimate (LE,貸款估算書): 申請貸款後 3 個工作天內提供。\nClosing Disclosure (CD,過戶揭露書): 房貸過戶前至少 3 個工作天提供。\n這套規則在業界也常被統稱為 TRID Rule (TILA-RESPA Integrated Disclosure)。\n💡 考試直覺反射金句:\nCFPB 簡化房貸表格計畫 = Know Before You Owe(先懂再借 / 先知後債)!"
   },
   {
-    "id": "L230",
+    "id": "L229",
     "source": "LV 練習延伸：Level 6",
     "stemEn": "Which two disclosure forms would a borrower getting a loan today receive?",
     "stemZh": "今日申請房貸的借款人會收到哪兩份揭露表格?",
@@ -6900,7 +6870,7 @@
     "explanation": "正確選項 (D)：the Loan Estimate and the Closing Disclosure\n房貸揭露現行兩大標準表格:申請看 LE (Loan Estimate),過戶看 CD (Closing Disclosure)!"
   },
   {
-    "id": "L231",
+    "id": "L230",
     "source": "LV 練習延伸：Level 7",
     "stemEn": "A brokerage agreement establishes a relationship between which parties?",
     "stemZh": "經紀協議(Brokerage Agreement)是在哪些當事人之間建立法律關係?",
@@ -6930,7 +6900,7 @@
     "explanation": "正確選項 (B)：經紀公司/經紀人 與 買方或賣方\n🔍 深度解析與盲點澄清\n⚠️ 題目自帶解析的重大澄清:\n原題下方隨附的文字「A brokerage agreement establishes a relationship between a broker and an associate licensee...」描述的是獨立承攬合約(Independent Contractor Agreement)或雇傭協議,這在不動產法規中是常見的干擾概念。\n在標準不動產法規(Real Estate Law)中,Brokerage Agreement(經紀服務合約,如 Listing Agreement 或 Buyer Representation Agreement)是專指「經紀公司(Broker/Brokerage)」與「客戶(Client / Buyer or Seller)」之間簽訂的合約。旗下業務員(Associate Licensee)雖然代表公司出面簽字,但法律上的合約主體永遠是 Broker 與 Client。"
   },
   {
-    "id": "L232",
+    "id": "L231",
     "source": "LV 練習延伸：Level 7",
     "stemEn": "Which of the following might ensue if Kayla fails to clarify her agency relationships with the buyer and the seller?",
     "stemZh": "如果經紀人 Kayla 未能向買方及賣方澄清其代理關係,可能會導致下列哪種後果?",
@@ -6960,7 +6930,7 @@
     "explanation": "正確選項 (A)：未揭露的雙重代理\n🔍 深度解析\nA(正確): 賣方已經是 Kayla 的 Client。當買方 Anastasios 聯絡 Kayla 睇樓時,若 Kayla 未先澄清自己代表賣方(Seller's Agent),買方可能會因為 Kayla 帶看與諮詢的行為,誤以為 Kayla 也代表自己(產生默示代理 Implied Agency)。這會使 Kayla 無意間陷人未揭露雙重代理(Undisclosed Dual Agency)的違法狀態。\n考點提示: 未揭露的雙重代理(Undisclosed Dual Agency)是嚴重違法行為,會導致執照被吊銷、合約被撤銷(Voidable)以及沒收佣金。"
   },
   {
-    "id": "L233",
+    "id": "L232",
     "source": "LV 練習延伸：Level 7",
     "stemEn": "Which of the following provides the best GENERAL definition of brokerage?",
     "stemZh": "下列哪一項最能提供「仲介/居間(Brokerage)」的通用定義?",
@@ -6990,7 +6960,7 @@
     "explanation": "正確選項 (A)：將兩人/雙方連結在一起以交換產品或服務\n🔍 深度解析\nA(正確): 廣義的 Brokerage(仲介/居間) 核心概念就是「搭建橋樑(Bringing parties together)」—將買賣雙方(或租賃雙方)連結在一起,協助促成產品或服務的交易。\nD 辨析: 代表某一方最大利益是「Agency(代理)」的定義,而非廣義「Brokerage(居間仲介)」的定義。"
   },
   {
-    "id": "L234",
+    "id": "L233",
     "source": "LV 練習延伸：Level 7",
     "stemEn": "Under what legal concept is a broker held responsible for the actions of an agent under their supervision?",
     "stemZh": "根據哪一個法律概念,經紀人(Broker)需要對其監督下的業務員(Agent)之行為承擔法律責任?",
@@ -7020,7 +6990,7 @@
     "explanation": "正確選項 (A)：轉嫁責任 / 替代責任\n🔍 深度解析\nA(正確): Vicarious Liability(轉嫁責任 / 替代責任) 指雇主或主要授權人(Broker)必須對下屬或受託代理人(Salesperson / Associate Licensee)在執行業務範圍內的過失、疏忽或違規行為承擔連帶責任。\n考試記憶卡: 業務員(Salesperson)犯錯 ➔ 經紀人(Broker)連帶擔責(Vicarious Liability)。"
   },
   {
-    "id": "L235",
+    "id": "L234",
     "source": "LV 練習延伸：Level 7",
     "stemEn": "Which of these parties would NOT enter into agency agreements through written buyer/tenant agreements?",
     "stemZh": "下列哪一類當事人「不會」透過書面的買方/租客代理協議(Buyer/Tenant Agreements)來建立代理關係?",
@@ -7050,7 +7020,7 @@
     "explanation": "正確選項 (A)：委託銷售經紀人 / 賣方經紀人\n🔍 深度解析\nA(正確): Listing Agents(賣方經紀人) 與賣方(Seller)建立代理關係使用的是 Listing Agreement(委託銷售合約),而不是 Buyer/Tenant Representation Agreement。\nB、C、D: 買方(Buyers)、租客(Tenants)以及買方經紀人(Buyer's Agents)都是使用 Buyer/Tenant Representation Agreement 來規範彼此的權利義務。"
   },
   {
-    "id": "L236",
+    "id": "L235",
     "source": "LV 練習延伸：Level 7",
     "stemEn": "Under what circumstance, if any, can a dual agent disclose to the other party that the seller will accept a price or terms other than stated in the listing, or that the buyer will accept a price or terms other than offered?",
     "stemZh": "在什麼情況下(如果有的話),雙重代理人(Dual Agent)可以向另一方透露賣方願意接受低於掛牌價的價格/條件,或者買方願意支付高於出價的價格/條件?",
@@ -7080,7 +7050,7 @@
     "explanation": "正確選項 (A)：只有在獲得「書面授權」的情況下\n🔍 深度解析\nA(正確): 雙重代理的鐵律是必須保持完全中立,預設情況下絕對嚴禁向買方洩漏賣方底價,或向賣方洩漏買方頂價。但法律留有一個唯一例外:除非該委託人給予了明確的「書面授權(Written Authorization)」許可透露。\n陷阱提示: 很多人會誤選 D(Under no circumstance),但忽視了「只要有 Client 的專屬書面許可(Written Authorization),授權即可解除保密限制」這一法律原則。"
   },
   {
-    "id": "L237",
+    "id": "L236",
     "source": "LV 練習延伸：Level 7",
     "stemEn": "Seller Jenny and buyer Kelsey are both represented by broker Whitney in the same transaction, but neither is aware that they share the same agent. What is the term for this?",
     "stemZh": "賣方 Jenny 與買方 Kelsey 在同一筆交易中均由經紀人 Whitney 代表,但雙方都不知道他們共享同一位經紀人。這稱為什麼?",
@@ -7110,7 +7080,7 @@
     "explanation": "正確選項 (A)：未揭露的雙重代理\n🔍 深度解析\nA(正確): 當同一個 Broker(或同家公司)同時代表買賣雙方,卻沒有事先取得雙方知情並簽署書面同意(Informed Written Consent),即稱為 Undisclosed Dual Agency。這屬於嚴重的非法行為與違約(Violation of Agency Law)。"
   },
   {
-    "id": "L238",
+    "id": "L237",
     "source": "LV 練習延伸：Level 7",
     "stemEn": "Seller agency is a single agency relationship between",
     "stemZh": "賣方代理(Seller Agency)是指哪兩方之間的單一代理關係?",
@@ -7140,7 +7110,7 @@
     "explanation": "正確選項 (A)：委託銷售經紀人與賣方\n🔍 深度解析\nA(正確): Seller Agency(賣方代理) 屬於單一代理(Single Agency)的一種,專指經紀人/經紀公司(Listing Agent)與賣方(Seller)簽訂委託銷售合約(Listing Agreement),僅對賣方承擔最高受託義務(Fiduciary Duties)。\nD 辨析: 買方經紀人與買方之間的關係則稱為 Buyer Agency(買方代理)。"
   },
   {
-    "id": "L239",
+    "id": "L238",
     "source": "LV 練習延伸：Level 7",
     "stemEn": "What is the term for a for-profit business specifically formed to complete real estate transactions?",
     "stemZh": "專為完成不動產交易而成立的營利性企業,稱為什麼?",
@@ -7170,7 +7140,7 @@
     "explanation": "正確選項 (A)：不動產經紀公司 / 仲介機構\n🔍 深度解析\nA(正確): Brokerage(經紀公司/仲介機構) 是依法設立、持有經紀執照,以促成不動產買賣、租賃等交易為核心業務的營利企業。\nC 辨析: REIT(Real Estate Investment Trust)是投資信託基金,主要進行不動產投資與資產管理,非以「仲介撮合交易」為主要營運型態。\nD 辨析: HOA(Homeowners Association)是社區管理委員會,屬於非營利或管理性質組織。"
   },
   {
-    "id": "L240",
+    "id": "L239",
     "source": "LV 練習延伸：Level 7",
     "stemEn": "What is the difference between a selling agent and a buyer's agent?",
     "stemZh": "Selling Agent(成交/帶買方經紀人)與 Buyer's Agent(買方經紀人)有何不同?",
@@ -7200,7 +7170,7 @@
     "explanation": "正確選項 (A)：兩者沒有不同:它們是同一個經紀人的不同稱呼。\n🔍 深度解析\nA(正確): 這是不動產考試中極易混淆的術語陷阱!\nSeller's Agent / Listing Agent: 專指代表「賣方」的經紀人。\nSelling Agent: 指「促成房屋售出(Sell)」的經紀人。因為是代表買方把房子買下並促成交易,所以在法律術語中,Selling Agent 就是代表買方的經紀人(同等於 Buyer's Agent)。"
   },
   {
-    "id": "L241",
+    "id": "L240",
     "source": "LV 練習延伸：Level 7",
     "stemEn": "Which of these four individuals associated with the Get Realty brokerage firm is liable for the activities of everyone there?",
     "stemZh": "在 Get Realty 經紀公司的下列四個人員中,誰需要對公司內所有人的業務活動承擔法律責任?",
@@ -7230,7 +7200,7 @@
     "explanation": "正確選項 (A)：經紀人 Zaid\n🔍 深度解析\nA(正確): 每一家不動產經紀公司都必須有一位主事/贊助經紀人(Designated / Principal / Sponsoring Broker)。根據 Vicarious Liability(轉嫁責任) 原則,主事經紀人(Broker Zaid)需要對旗下所有授權業務員(Salespersons)、副經紀人(Broker-associates)及行政人員在執業過程中的行為負最終的法律監管責任。"
   },
   {
-    "id": "L242",
+    "id": "L241",
     "source": "LV 練習延伸：Level 7",
     "stemEn": "Broker Charu markets herself as a real estate professional who always gives undivided loyalty to her clients so much so that she refuses to allow her brokerage to represent or work for both sides of the same transaction. Which of the following brokerage relationships most accurately applies to Charu?",
     "stemZh": "經紀人 Charu 將自己定位為始終給予客戶「完全且專一忠誠(Undivided Loyalty)」的專業人士,甚至因此拒絕讓自己的經紀公司在同一筆交易中同時代表買賣雙方。下列哪一種代理關係最適合形容 Charu?",
@@ -7260,7 +7230,7 @@
     "explanation": "正確選項 (A)：單一代理人\n🔍 深度解析\nA(正確): Single Agent(單一代理人) 的核心特徵就是只代表交易中的其中一方(僅代表買方或僅代表賣方),從而能夠提供 100% 不受削弱的專一忠誠(Undivided Loyalty)。\nB 辨析: 雙重代理(Dual Agency)會削弱專一忠誠度,無法幫單一方爭取極致利益。"
   },
   {
-    "id": "L243",
+    "id": "L242",
     "source": "LV 練習延伸：Level 7",
     "stemEn": "What is the term for a broker who is NOT affiliated with the brokerage representing a principal in a real estate transaction?",
     "stemZh": "在不動產交易中,不隸屬於代表委託人之經紀公司、但參與配合交易的經紀人,稱為什麼?",
@@ -7290,7 +7260,7 @@
     "explanation": "正確選項 (A)：配合經紀人 / 合作經紀人\n🔍 深度解析\nA(正確): Cooperating Broker(合作經紀人) 指來自另一家獨立經紀公司的經紀人,透過 MLS(多重上市服務系統)等管道,帶領買方前來參與並促成 Listing Broker 所掛牌物業的交易。"
   },
   {
-    "id": "L244",
+    "id": "L243",
     "source": "LV 練習延伸：Level 7",
     "stemEn": "A brokerage allows its sponsored licensees to represent buyers or sellers, but never both in the same transaction. What type of agents are this brokerage's sponsored licensees authorized to operate as?",
     "stemZh": "一家經紀公司允許旗下業務員代表買方或賣方,但「絕不允許在同一筆交易中同時代表雙方」。該公司授權其業務員以何種代理人型態執業?",
@@ -7320,7 +7290,7 @@
     "explanation": "正確選項 (A)：單一代理人\n🔍 深度解析\nA(正確): 經紀公司明確規定旗下業務員只能代表單一方面(買方 OR 賣方),禁止同行雙重代表,這就是標準的 Single Agency Policy(單一代理政策),業務員即作為 Single Agents 執業。"
   },
   {
-    "id": "L245",
+    "id": "L244",
     "source": "LV 練習延伸：Level 8",
     "stemEn": "One week, Broker Chad takes on a seller as a client in a single agency relationship while Chad's sponsored broker-associate signs a buyer to a single agency agreement. The following week, that buyer decides to make an offer on the seller's property. So both parties in the transaction are represented by Chad's brokerage. How many times does agency need to be disclosed and to whom should it be disclosed?",
     "stemZh": "某週,經紀人 Chad 以「單一代理(Single Agency)」關係簽下了賣方客戶;同時,Chad 旗下的副經紀人也與一位買方簽署了「單一代理」協議。下週,該買方決定對該賣方的物件出價,因此該筆交易中的買賣雙方均由 Chad 的經紀公司代表。請問代理關係總共需要進行幾次揭露?應該向誰揭露?",
@@ -7350,7 +7320,7 @@
     "explanation": "正確選項 (A)：總共 4 次:向買賣雙方各揭露 2 次,因為代理關係從單一代理轉變為雙重代理\n【詳細解析】\n正確答案:A\n揭露時機拆解(4 次揭露):\n第 1 次: 經紀人 Chad 剛簽下賣方時,向賣方揭露為「單一代理(Single Agency)」。\n第 2 次: 旗下業務員剛簽下買方時,向買方揭露為「單一代理(Single Agency)」。\n第 3 次: 買方決定購買公司內部的賣方物件(In-house Transaction),代理關係轉變為雙重代理(Dual Agency),必須向賣方再次揭露並取得同意。\n第 4 次: 同理,必須向買方再次揭露代理關係已轉變為雙重代理並取得同意。\n核心觀念: 代理關係變更(Single ➔ Dual)屬於重大事實異動,買賣雙方各需經歷「建立時 1 次 + 轉變時 1 次」= 總共 4 次揭露。"
   },
   {
-    "id": "L246",
+    "id": "L245",
     "source": "LV 練習延伸：Level 8",
     "stemEn": "What type of real estate do most salespersons specialize in when they first begin their careers?",
     "stemZh": "大多數業務員在職涯剛起步時,通常專精於哪一種類型的不動產?",
@@ -7380,7 +7350,7 @@
     "explanation": "正確選項 (A)：住宅不動產\n【詳細解析】\n正確答案:A (residential)\n概念拆解: Residential Real Estate(住宅不動產) 是絕大多數新人進入不動產行業的起點。相比於商業不動產(Commercial)需要複雜的財務分析、租約結構與較長的成交週期,住宅不動產具備入場門檻較低、市場需求廣泛、交易頻率高等特點,適合初學者積累經驗與建立客戶群。"
   },
   {
-    "id": "L247",
+    "id": "L246",
     "source": "LV 練習延伸：Level 8",
     "stemEn": "John has an easement appurtenant that allows him to cross Sally's land. Sally is selling her property. When Sally's property sells, John will:John",
     "stemZh": "擁有一個「附隨地役權(Easement Appurtenant)」,允許他穿越 Sally 的土地。Sally 目前正在出售她的房產。當 Sally 的房產賣出後,John 將會",
@@ -7410,7 +7380,7 @@
     "explanation": "正確選項 (A)：不會遇到問題,因為地役權是「隨土地移轉(Runs with the land)」的\n【詳細解析】\n正確答案:A\n核心觀念:\nEasement Appurtenant(附隨地役權): 是附著於土地本身的權利(Bind to the land),主要用於解決袋地通行問題。包含需役地(Dominant Tenement,John 的土地,享有權利) 與 供役地(Servient Tenement,Sally 的土地,承受負擔)。\nRuns with the Land(隨土地移轉/隨地走): 無論 Sally 將土地賣給誰,供役地上的這項地役權自動跟隨土地轉移給新買家,John 的通行權完全不受土地所有權人更換的影響。"
   },
   {
-    "id": "L248",
+    "id": "L247",
     "source": "LV 練習延伸：Level 8",
     "stemEn": "The six fiduciary duties of OLDCAR stand for",
     "stemZh": "受託義務縮寫 OLDCAR 所代表的六項職責分別為:",
@@ -7440,7 +7410,7 @@
     "explanation": "正確選項 (A)：服從、忠誠、揭露、保密、帳務管理、合理審慎與專業技能\n【詳細解析】\n正確答案:A\n記憶背誦卡(OLDCAR 6大受託義務):\nObedience(服從合法指示)\nLoyalty(絕對忠誠,利益置於首位)\nDisclosure(主動充分揭露重大事實)\nConfidentiality(永久保密)\nAccounting(妥善託管款項與帳務)\nReasonable skill and care(展現專業合理審慎)"
   },
   {
-    "id": "L249",
+    "id": "L248",
     "source": "LV 練習延伸：Level 8",
     "stemEn": "Ranches, orchards, and pastures are examples of",
     "stemZh": "大農場/大牧場(Ranches)、果園(Orchards)與牧草地(Pastures)屬於下列哪一類不動產的範例?",
@@ -7470,7 +7440,7 @@
     "explanation": "正確選項 (A)：農業不動產\n【詳細解析】\n正確答案:A (agricultural real estate)\n概念拆解: Agricultural Real Estate(農業不動產) 指專門用於商業化耕作、作物栽培、果樹種植(Orchards)、畜牧養殖(Ranches & Pastures)及林業採伐等生產日常飲食與自然資源的土地及設施。"
   },
   {
-    "id": "L250",
+    "id": "L249",
     "source": "LV 練習延伸：Level 8",
     "stemEn": "Haseena grants a life estate to John. John owns the estate until he dies. Haseena designated that after John's death, the estate would pass to Hila (a third party). What can Hila be described as? Haseena",
     "stemZh": "將一份終身物權(Life Estate)授予 John。John 擁有該物權直到去世。Haseena 指定在 John 去世後,該物權將轉移給第三方 Hila。請問 Hila 可以被稱為什麼?",
@@ -7500,7 +7470,7 @@
     "explanation": "正確選項 (A)：剩餘權人 / 剩餘權利繼承人\n【詳細解析】\n正確答案:A (the remainderman)\n核心概念拆解:\nLife Estate(終身物權): 以某人(如 John,稱為 Life Tenant)的生命終點為期限的土地權利。\n當 Life Tenant 去世時,產權的流向分為兩種型態(極高頻考點):\nReversionary Interest(復歸權): 契約規定去世後產權回到原授權人(Grantor,如 Haseena) 或其家族手中。\nRemainder Interest(剩餘權): 契約指定去世後產權轉移給第三方(Third Party,如 Hila)。取得此未來權利的第三方即稱為 Remainderman(剩餘權人)。"
   },
   {
-    "id": "L251",
+    "id": "L250",
     "source": "LV 練習延伸：Level 8",
     "stemEn": "Which of the following is TRUE about single agency but NOT TRUE about dual agency?",
     "stemZh": "關於「單一代理(Single Agency)」何者為真,但對「雙重代理(Dual Agency)」而言為假?",
@@ -7530,7 +7500,7 @@
     "explanation": "正確選項 (A)：客戶能獲得完全揭露與專一忠誠\n【詳細解析】正確答案:A\n核心概念拆解:\nSingle Agency(單一代理): 經紀人僅代表買方或賣方單一方,因此能夠無衝突地提供 100% 專一忠誠(Undivided Loyalty) 與 完全揭露(Full Disclosure),全力爭取單一方的最大利益。\nDual Agency(雙重代理): 經紀人同時代表買賣雙方,法律規定必須保持完全中立,絕對無法提供專一忠誠(無法幫賣方喊最高價,也無法幫買方殺最低價),因此被稱為一種「妥協的代理模式(Compromised Agency)」。"
   },
   {
-    "id": "L252",
+    "id": "L251",
     "source": "LV 練習延伸：Level 8",
     "stemEn": "How are deed restrictions enforced?",
     "stemZh": "契據限制(Deed Restrictions)是如何強制執行的?",
@@ -7560,7 +7530,7 @@
     "explanation": "正確選項 (A)：透過法院程序/申請禁制令\n正確答案:A (through the courts)\n核心概念拆解:\nDeed Restrictions(契據限制,如社區 CC&Rs): 屬於私法上的土地使用限制(Private Land Use Controls),例如規定房屋外牆顏色、禁止停放大型 RV 車等。\n執行管道: 警察或政府部門(Law Enforcement)不會管轄私人間的契據條款。若住戶違規,制定該限制的人、鄰居或 社區管委會(HOA) 必須向法院提起訴訟(Through the courts),申請法院禁制令(Injunction)強制違規者改正。"
   },
   {
-    "id": "L253",
+    "id": "L252",
     "source": "LV 練習延伸：Level 8",
     "stemEn": "Martha has her property in a trust. Her heir is the beneficiary, and she has named a non-family trustee. She cannot access the property or remove it, and when she dies, her heirs won't pay estate tax on it, and it won't be probated. What kind of trust is this? Martha",
     "stemZh": "將她的物業放入信託中。她的繼承人是受益人(Beneficiary),且她指定了一位非家族成員擔任受託人(Trustee)。她無法隨意存取或撤回該物業;當她去世時,繼承人無需為該物業繳納遺產稅,且該物業不會經過遺囑認證(Probate)。這是哪種信託?",
@@ -7590,7 +7560,7 @@
     "explanation": "正確選項 (A)：不可撤銷信託\n正確答案:A (irrevocable trust)\n核心概念拆解:Irrevocable Trust(不可撤銷信託): 信託一旦成立,委託人(Trustor)即完全放棄對該財產的所有權與控制權(Cannot remove/change)。由於物業在法律上已不屬於 Martha 的個人資產,因此在她過世時可以完美避開遺囑認證(Probate)與遺產稅(Estate Tax)。\n對比 Revocable Trust(可撤銷信託): 委託人在世時可隨時更改或撤銷,能避開 Probate,但因為仍保有控制權,死後該財產仍會被計入遺產課稅。"
   },
   {
-    "id": "L254",
+    "id": "L253",
     "source": "LV 練習延伸：Level 8",
     "stemEn": "Broker Maris has a team of eight people working for her brokerage. Which of the following individuals would be her sponsored associate licensees?",
     "stemZh": "經紀人 Maris 的經紀公司團隊中有 8 名員工。下列哪些人員屬於她贊助的「持照從業人員(Sponsored Associate Licensees)」?",
@@ -7620,7 +7590,7 @@
     "explanation": "正確選項 (A)：不動產業務員與副經紀人\n正確答案:A (salespersons and broker-associates)\n核心概念拆解:\nSponsored Associate Licensees: 指已經考取不動產執照(License Holders),並選擇掛牌在雇主經紀人(Employing/Sponsoring Broker)名下的專業人員。\n人員構成: 包括 Salespersons(銷售業務員) 以及 Broker-Associates(已考取經紀人執照,但選擇在別人的公司擔任副手的經紀人)。\n無照助手(Unlicensed Assistants)沒有執照,合作經紀人(Cooperating Brokers)隸屬其他經紀公司,均非本公司的 Sponsored Licensees。"
   },
   {
-    "id": "L255",
+    "id": "L254",
     "source": "LV 練習延伸：Level 9",
     "stemEn": "Which of these deeds guarantees all six covenants but only during the time that the present owner held title?",
     "stemZh": "下列哪一種契據保證了全部六項誓約,但僅限於現任業主持有產權的期間?",
@@ -7650,7 +7620,7 @@
     "explanation": "正確選項 (A)：轉讓契據\n【詳細解析】\n正確答案:A (grant deed)\n概念拆解: Grant Deed(轉讓契據) 是加州(California)最常用的契據。它包含兩項法定默示誓約(Implied Covenants):(1) 轉讓人尚未將產權轉讓給他人;(2) 在現任業主(轉讓人)持有產權期間(During the time the present owner held title),物業沒有未揭露的負擔(Encumbrances)。其保護範圍僅限於現任業主自己持有的這一段時間。\n選項錯誤原因:\nB (warranty deed / General Warranty Deed): 擔保範圍追溯至歷史上所有前任業主(All past owners),而非僅限於現任業主。\nC (bargain and sale deed): 默示擁有產權,但完全不提供任何無負擔擔保(No warranty against encumbrances)。\nD (quitclaim deed): 最差的契據,完全不提供任何擔保與保證,僅轉讓轉讓人當下可能擁有的權益。"
   },
   {
-    "id": "L256",
+    "id": "L255",
     "source": "LV 練習延伸：Level 9",
     "stemEn": "Which of these lists contains three types of deeds used in California?",
     "stemZh": "下列哪一個清單包含了加州所使用的三種契據類型?",
@@ -7680,7 +7650,7 @@
     "explanation": "正確選項 (A)：擔保契據、轉讓契據與放棄權利契據\n【詳細解析】\n正確答案:A (warranty deeds, grant deeds, and quitclaim deeds)\n概念拆解: 在加州不動產法規中,官方認可並使用的主要契據包含 Grant Deed(最常用)、Warranty Deed 以及 Quitclaim Deed。\n選項錯誤原因(關鍵秒殺技巧):\n加州(California)完全不採用 Bargain and Sale Deed(買賣契據)!因此凡是包含 Bargain and Sale Deed 的選項 B、C、D 均可直接排除。"
   },
   {
-    "id": "L257",
+    "id": "L256",
     "source": "LV 練習延伸：Level 9",
     "stemEn": "Out of the following options, which option is considered the BEST evidence of title?",
     "stemZh": "在下列選項中,哪一個被認為是最佳的產權證明?",
@@ -7710,7 +7680,7 @@
     "explanation": "正確選項 (A)：產權保險\n【詳細解析】\n正確答案:A (title insurance)\n概念拆解: 在不動產交易中,買方需要「產權證明(Evidence of Title)」來確保買到的是可銷售產權(Marketable Title)。若選項中沒有出現最高等級的 Torrens Certificate(托倫斯登記證書),則 Title Insurance(產權保險) 在實際市場與考試體系中均被公認為最佳(BEST)的產權證明,因為它由專業產權保險公司提供實質的財務理賠保障。\n選項錯誤原因:\nB (opinion of title): 僅為律師的個人法律觀點,若未來出現隱藏瑕疵,律師通常不承擔財務賠償。\nC (certificate of title): 僅聲明產權現狀,缺乏財務保險理賠機制。\nD (chain of title): 僅為歷代業主的轉手歷史紀錄清單(歷史紀錄不等於沒有瑕疵的證明)。"
   },
   {
-    "id": "L258",
+    "id": "L257",
     "source": "LV 練習延伸：Level 9",
     "stemEn": "A person selling his home has looked everywhere and cannot find his original deed. How will the title company solve this problem?",
     "stemZh": "一位正在賣房的人翻遍各處都找不到當初買房的正本契據。產權公司會如何解決這個問題?",
@@ -7740,7 +7710,7 @@
     "explanation": "正確選項 (A)：他們會向縣政府紀錄處申請調閱已登錄契據的副本\n【詳細解析】\n正確答案:A (They will order a copy of the recorded deed from the county records.)\n概念拆解: 正本契據(Original Deed)紙張遺失並不會喪失房屋所有權。因為當初房屋過戶時,契據已經送交 County Recorder(縣政府登記處) 完成登錄(Recording)。登錄後的契據屬於公共紀錄(Public Records),產權公司只需向縣政府調閱官方蓋印的副本即可核實所有權。"
   },
   {
-    "id": "L259",
+    "id": "L258",
     "source": "LV 練習延伸：Level 9",
     "stemEn": "What is a deed without any warranty against encumbrances that only implies that the grantor holds the right to convey title?",
     "stemZh": "完全不提供任何無負擔擔保,僅「默示」轉讓人擁有轉讓產權權力的契據是什麼?",
@@ -7770,7 +7740,7 @@
     "explanation": "正確選項 (A)：買賣契據\n【詳細解析】\n正確答案:A (bargain and sale deed)\n概念拆解: Bargain and Sale Deed 的核心特徵是:它默示(Implies) 轉讓人對該房產擁有所有權或控制權,但完全不提供任何無負擔的法律擔保(No warranties against encumbrances)。若日後發現房屋帶有未知的債務或留置權,買方無法憑此契據向賣方索賠。\n選項錯誤原因:\nC (quitclaim deed): 連「轉讓人擁有所有權」的默示都不提供(只轉讓當下可能有的權益)。\nD (warranty deed): 提供完整且強大的無瑕疵與無負擔擔保。"
   },
   {
-    "id": "L260",
+    "id": "L259",
     "source": "LV 練習延伸：Level 9",
     "stemEn": "Which instrument of conveyance provides the grantee with the greatest protection?",
     "stemZh": "哪一種轉讓工具能給予受讓者(買方)最大/最高等級的保護?",
@@ -7800,7 +7770,7 @@
     "explanation": "正確選項 (A)：一般)擔保契據\n【詳細解析】\n正確答案:A (warranty deed / General Warranty Deed)\n概念拆解: General Warranty Deed 是法律上保護力最強的契據。它包含了完整的六大法定誓約(Six Covenants),承諾產權毫無瑕疵,且擔保範圍追溯至該物業歷史上所有的前手業主(All previous owners)。\n保護力強弱排序(考試必背):\nGeneral Warranty Deed (最高) ➔ Special Warranty Deed / Grant Deed ➔ Bargain & Sale Deed ➔ Quitclaim Deed (最低)。"
   },
   {
-    "id": "L261",
+    "id": "L260",
     "source": "LV 練習延伸：Level 9",
     "stemEn": "The covenant that assures that the grantor holds the title being conveyed in the deed is the",
     "stemZh": "契據中向買方保證「轉讓人確實合法擁有該轉讓產權」的誓約是:",
@@ -7830,7 +7800,7 @@
     "explanation": "正確選項 (A)：所有權誓約 / 占有誓約\n【詳細解析】\n正確答案:A (covenant of seisin)\n概念拆解: Covenant of Seisin 是 General Warranty Deed 中的第一大誓約,轉讓人聲明並保證自己合法占有(Seised) 該產權,並擁有合法的權力將其出售轉讓。\n其他選項誓約對比:\nB (against encumbrances): 保證除契據中載明的項目外,房屋沒有其他未揭露的留置權或負擔。\nC (quiet enjoyment): 保證買方購入後不會被擁有更高產權優先權的第三方驅逐或干擾。\nD (further assurances): 保證轉讓人未來願意簽署任何必要的法律文件來補正產權瑕疵。"
   },
   {
-    "id": "L262",
+    "id": "L261",
     "source": "LV 練習延伸：Level 9",
     "stemEn": "What is a legal process by which a court determines the validity of a will and establishes the assets of a decedent and who will inherit those assets?",
     "stemZh": "由法院確認遺囑效力、釐清逝者資產並確定誰將繼承該資產的法定程序稱為什麼?",
@@ -7860,7 +7830,7 @@
     "explanation": "正確選項 (A)：遺囑認證 / 遺產法庭程序\n【詳細解析】\n正確答案:A (probate)\n概念拆解: Probate(遺產法庭審理/遺囑認證程序) 是專門的司法程序。法院在程序中審查遺囑的合法性、指定清算執行人、結清逝者債務,並監督不動產與財產合法過戶給法定繼承人。\n選項錯誤原因:\nB (testate): 形容人去世時「留有合法遺囑」的法律狀態(名詞/形容詞)。\nC (intestate): 形容人去世時「未留遺囑」的法律狀態。\nD (adverse possession): 指未經許可長期公開佔用他人土地而依法取得所有權的法律機制。"
   },
   {
-    "id": "L263",
+    "id": "L262",
     "source": "LV 練習延伸：Level 9",
     "stemEn": "A deed specifies that the property being transferred comes with an easement (and describes the easement). What is an example of?",
     "stemZh": "契據中特別說明並描述轉讓的物業附帶一項地役權,這属于下列哪一個範例?",
@@ -7890,7 +7860,7 @@
     "explanation": "正確選項 (A)：保留或例外條款\n【詳細解析】\n正確答案:A (reservation or exception)\n概念拆解: Reservations and Exceptions(保留與例外條款) 用於契據中排除某些產權權利,或載明物業上已存在、會影響買方完全使用權的限制(例如:地役權 Easements、礦業權保留或土地使用限制)。\n選項錯誤原因:\nB (granting clause): 契據中表達轉讓意圖的核心句子(如 \"I hereby grant and convey...\")。\nC (consideration): 契約成立的金錢或價值對價。\nD (habendum clause): 標誌詞為 \"To have and to hold\",定義買方取得的權利種類(如 Fee Simple)。"
   },
   {
-    "id": "L264",
+    "id": "L263",
     "source": "LV 練習延伸：Level 9",
     "stemEn": "What is delivery and acceptance?",
     "stemZh": "什麼是「交付與接受(Delivery and Acceptance)」?",
@@ -7920,7 +7890,7 @@
     "explanation": "正確選項 (A)：契據正式生效的法定必要動作,包含轉讓人交付契據與受讓人接受物業\n【詳細解析】\n正確答案:A\n概念拆解: 契據單純簽字(Signed)還不夠!必須經過轉讓人意圖將產權移轉的「Delivery(交付)」以及受讓人的「Acceptance(接受)」,產權移轉(Title Transfer)才在法律上正式完成與生效。"
   },
   {
-    "id": "L265",
+    "id": "L264",
     "source": "LV 練習延伸：Level 9",
     "stemEn": "What is a description of a property that is distinct and precise enough to distinguish it from all other properties?",
     "stemZh": "對物業進行極為精準且獨一無二的描述,足以將其與世界上所有其他物業區分開來,稱為什麼?",
@@ -7950,7 +7920,7 @@
     "explanation": "正確選項 (A)：不動產法定描述\n【詳細解析】\n正確答案:A (legal description)\n概念拆解: Legal Description(法定描述) 是法律文件上唯一的官方標準界定方式(如 Metes & Bounds、Lot & Block、Government Survey)。一般的街道地址(Street Address)可能重複或隨政府規劃更換,唯有 Legal Description 能精準且唯一地標示地表上的特定界線。"
   },
   {
-    "id": "L266",
+    "id": "L265",
     "source": "LV 練習延伸：Level 9",
     "stemEn": "An agent's client is concerned about the marketability of their title. The agent advises that if they want their title to be marketable, they need to focus on clearing up all",
     "stemZh": "經紀人的客戶擔心其產權的可銷售性。經紀人建議若要確保產權為可銷售產權,必須重點清理所有的:",
@@ -7980,7 +7950,7 @@
     "explanation": "正確選項 (A)：重大負擔與留置權\n【詳細解析】\n正確答案:A (significant encumbrances and liens)\n概念拆解: Marketable Title(可銷售產權) 的法定定義是:產權清晰、沒有嚴重瑕疵,且不存在未解決的重大負擔(Encumbrances)與留置權(Liens,如欠稅、法院扣押等),讓理性買家可以在未來安心持有或再次出售。\n選項錯誤原因:\nB (mortgages): Mortgages 屬於 Liens 的一種,但選項 A 包含了更廣泛的所有重大 Lien 與 Encumbrance,故 A 為最佳且最完整的答案。"
   },
   {
-    "id": "L267",
+    "id": "L266",
     "source": "LV 練習延伸：Level 9",
     "stemEn": "What does recording a deed create in the public record?",
     "stemZh": "將契據登錄於公共紀錄中會產生什麼?",
@@ -8010,7 +7980,7 @@
     "explanation": "正確選項 (A)：擬制告知 / 推定告知\n【詳細解析】\n正確答案:A (constructive notice)\n概念拆解: 將契據送至 County Recorder 辦理登錄(Recording),即在法律上建立了 Constructive Notice(擬制告知)。法律直接假設社會大眾(包括潛在買家)均有管道查詢並知悉該產權的異動情況。"
   },
   {
-    "id": "L268",
+    "id": "L267",
     "source": "LV 練習延伸：Level 9",
     "stemEn": "You are an attorney who works for a title company. You perform a title search for a client, analyzing the chain of title, clouds on the title, and looking for any title issues. You label this search a(n)",
     "stemZh": "你是產權公司的律師,為客戶進行產權檢索,分析產權連鎖、產權瑕疵並尋找潛在問題。你會將這份檢索成果標註為:",
@@ -8040,7 +8010,7 @@
     "explanation": "正確選項 (A)：產權摘要\n【詳細解析】\n正確答案:A (abstract of title)\n概念拆解: 將產權檢索(Title Search)所查到的歷史演變(Chain of title)、未決留置權與瑕疵(Clouds on title)等所有檔案資料,按時間順序整理成一份綜合歷史報告,這份報告即稱為 Abstract of Title(產權摘要)。\n選項錯誤原因:\nB (title plant): 產權公司內部儲存歷史紀錄的資料庫機房/設施。\nC (equitable title): 買賣合約簽署後、正式過戶拿 Deed 前,買方獲得的法律權益。"
   },
   {
-    "id": "L269",
+    "id": "L268",
     "source": "LV 練習延伸：Level 9",
     "stemEn": "A grandfather conveys his property to his granddaughter. The deed contains: (1) the granddaughter's name; (2) a statement that he has received $10 and the granddaughter's love and affection; and (3) a statement that the property is conveyed to the granddaughter “to have and to hold.” Identify, in order, these elements of the deed?",
     "stemZh": "祖父將房產轉讓給孫女。契據包含:(1) 孫女的名字;(2) 收到 $10 元以及孫女的愛與關懷之聲明;(3) 房產轉讓給孫女「以擁有並持有」之聲明。請依序識別這三個契據要素?",
@@ -8070,7 +8040,7 @@
     "explanation": "正確選項 (A)：受讓人;對價;產權處分/權能條款\n【詳細解析】\n正確答案:A (grantee; consideration; habendum clause)\n元素 (1) 孫女的名字 ➔ Grantee(受讓人): 接受房產轉讓的人。\n元素 (2) $10 + Love and affection ➔ Consideration(對價): 契約成立的法定對價(親情贈與常用 Good Consideration,即愛與關懷)。\n元素 (3) \"To have and to hold\" ➔ Habendum Clause(權能條款): 契據中明確定義受讓人獲得何種權利範圍(如 Fee Simple 或 Life Estate)的專屬標誌性條款。"
   },
   {
-    "id": "L270",
+    "id": "L269",
     "source": "LV 練習延伸：Level 9",
     "stemEn": "What is the difference between actual and constructive notice?",
     "stemZh": "實際告知(Actual Notice)與擬制告知/推定告知(Constructive Notice)有何不同?",
@@ -8100,7 +8070,7 @@
     "explanation": "正確選項 (B)：擬制告知是假設勤勉的個人可透過檢索公共紀錄獲取知識;實際告知則是直接或第一手的親身知悉\n🔍 核心考點解析:Actual Notice vs. Constructive Notice\n不動產產權(Title)與登錄(Recording)章節中,區分這兩種「告知/知悉」方式是極高頻的考題:\nConstructive Notice(擬制告知 / 推定告知 / 法律推定知悉):\n定義: 法律上假設/推定大眾「應該要知曉」的事實。\n實現方式: 將房屋產權契據(Deed)、抵押權(Mortgage)或留置權(Lien)依法登錄於縣政府公共紀錄(Public Records),或是買家對房屋進行實際佔有/入住(Physical Possession)。\n法理: 只要文件已公開登錄,法律即視為全世界的人(包含潛在買家)都已收到通知。若買家沒去查紀錄而受損,不能以「我不知道」為由抗辯。\nActual Notice(實際告知 / 親身知悉):\n定義: 當事人實際、直接親眼看見、親耳聽到或親身接觸到的第一手資訊與事實(Direct or First-hand knowledge)。\n例子: 買家親自讀了產權報告(Title Report)、賣方當面告訴買家「這房子有抵押權」、或是買家親眼看到屋後有一條未登錄的通行巷道(Easement)。\n💡 考試直覺反射金句:\nConstructive Notice = 登錄公共紀錄(Public Records)或實際佔有,法律推定你知情!\nActual Notice = 親眼看見、親耳聽聞(First-hand Knowledge),你真的知道!"
   },
   {
-    "id": "L271",
+    "id": "L270",
     "source": "LV 練習延伸：Level 9",
     "stemEn": "When applicable, what is the best form of title evidence?",
     "stemZh": "在適用/採行的情況下,哪一種是最佳的產權證明(Evidence of Title)形式?",
@@ -8130,7 +8100,7 @@
     "explanation": "正確選項 (A)：托倫斯產權登記證書\n🔍 核心考點解析:四種 Evidence of Title 的排位與差異\n不動產交易中需要提供「產權證明(Evidence of Title)」來證明賣方擁有可銷售的合法產權(Marketable Title)。在考試體系中,這幾種證明的優先級與權限如下:\nTorrens Certificate(第一名 / 最高等級):\n在採用托倫斯登記制(Torrens System)的州/地區,土地產權由政府機關直接審查、登記並頒發證書。\n優勢: 政府登記冊上的紀錄具有不可爭議的最高法律效力(Unassailable evidence),只要適用,它就是法律上「絕對最佳(Absolute Best)」的產權證明。\nTitle Insurance(第二名 / 最常見):\n如果該地區未使用 Torrens System,產權保險(Title Insurance) 是實際市場交易中最常用且次佳(Second Best)的證明方式,因為它提供實質的財務理賠保障。\nAbstract of Title & Attorney's Opinion of Title(摘要與律師意見書):\nAbstract of Title(產權摘要): 僅為歷代產權移轉與紀錄的歷史摘要清單,本身不保證產權沒有瑕疵。\nAttorney's Opinion of Title(律師產權意見書): 由律師閱讀摘要後出具的法律意見,雖具參考價值,但若未來出現未發現的隱藏瑕疵,律師通常不承擔保險理賠責任。\n💡 考試直覺反射金句:\n產權證明(Evidence of Title)排行榜:Torrens Certificate 第一(Best) ➔ Title Insurance 第二!"
   },
   {
-    "id": "L272",
+    "id": "L271",
     "source": "LV 練習延伸：Level 9",
     "stemEn": "A seller sells their home to a buyer. At a basic level, what roles are the buyer and the seller playing in a real estate transaction?",
     "stemZh": "賣方將房屋出售給買方。在基礎層面上,買方與賣方在不動產交易中分別扮演什麼法律角色?",
@@ -8160,7 +8130,7 @@
     "explanation": "正確選項 (C)：賣方是轉讓人/授權人,買方是受讓人/受權人\n【詳細解析】\n🔍 核心概念:不動產交易中的角色術語(-OR vs. -EE)\n不動產法律英語中有一個非常重要的「字尾記憶法則」:\n字尾 -OR = 給予/讓出權利的人(The Giver)\n字尾 -EE = 接收/獲得權利的人(The Receiver)\n在房屋買賣過戶時,轉讓契據(Deed)是由賣方簽署並將房屋產權(Title)移轉給買方:\nGrantor(轉讓人 / 授權人 / 賣方):\n出售房產、簽署契據並將產權轉讓出去(Grants/Conveys the property)的一方 ➔ Seller(賣方)。\nGrantee(受讓人 / 受權人 / 買方):\n支付對價並接收產權(Receives the property)的一方 ➔ Buyer(買方)。\n❌ 其他選項的干擾術語(遺囑與遺產法律用語):\nTestator(立遺囑人): 撰寫並立下遺囑的人。\nLegatee(受遺贈人): 透過遺囑獲得動產/個人財產(Personal Property / Legacy)的人。\n💡 考試直覺反射金句:\n賣方轉讓給買方 = Seller is the Grantor (-OR),Buyer is the Grantee (-EE)!"
   },
   {
-    "id": "L273",
+    "id": "L272",
     "source": "LV 練習延伸：Level 9",
     "stemEn": "A buyer purchases a property and then records the deed in the public record. What is this an example of?",
     "stemZh": "買方購買了一處物業,隨後將契據登錄於公共紀錄中。這是下列哪一項的範例?",
@@ -8190,7 +8160,7 @@
     "explanation": "正確選項 (B)：擬制告知 / 推定告知 / 公開登錄告知\n【詳細解析】\n核心概念:Constructive Notice(擬制告知 / 推定告知)\n在不動產法規與產權過戶(Title & Recording)章節中,「告知通知(Notice)」 的法律效力是極高頻的考點:\nConstructive Notice(擬制告知 / 推定告知):\n定義: 當買方或產權人將與房產相關的法律文件(如 Deed、Mortgage、Lien)依法送交縣政府登記處(County Recorder)完成公開登錄(Recording in the public record)時,法律即自動推定(Legal Fiction / Assumption)全世界每個人都「應該知道」這項產權異動。\n核心邏輯: 只要文件進了公家檔案庫,法律就認為你「有管道去查,沒去查是你家的事」,直接賦予全社會法律上的通知效力。\n其他選項的辨析:\nA (Actual Notice): 指當事人實際、親眼看見或親耳聽到的第一手確切消息(例如:賣方親口告訴買方房屋有抵押權,或親眼看到有人住在那裡)。\nC (Abstract of Title): 是一份按時間順序整理物業歷史產權變動與留置權的彙整報告(History Summary Report),本身不是告知形式。\nD (Inquiry Notice): 指基於現狀(例如看到房子有在施工的痕跡或有人居住),一個理性的正常人會產生懷疑並進一步主動調查(Inquiry)所獲得的法律推論。\n考試直覺反射金句:\n只要動作是「Recording in public records(登錄公共紀錄)」➔ 答案必定是 Constructive Notice(擬制告知)!"
   },
   {
-    "id": "L274",
+    "id": "L273",
     "source": "LV 練習延伸：Level 9",
     "stemEn": "A borrower defaulted on their loan to National ABC Bank. In response, National ABC Bank foreclosed on their house. What is this an example of?",
     "stemZh": "一位借款人違約未償還 National ABC 銀行貸款。作為回應,National ABC 銀行對該房屋實施了法拍(Foreclosure)。這是下列哪一項的範例?",
@@ -8220,7 +8190,7 @@
     "explanation": "正確選項 (A)：非自願讓與 / 非自願轉讓\n【詳細解析】\n🔍 核心概念:Alienation(產權讓與/轉讓的分類)\n在不動產法規中,Alienation 指的是「產權/所有權從一人移轉給另一人」的法律過程,主要分為兩大類:\nInvoluntary Alienation(非自願讓與):\n定義: 指業主在非出自本意/未經其自由意思表示(Without owner's consent)的情況下,因法律程序、債務追討、自然災害或政府權力而失去房屋產權。\n常見範例:\nForeclosure(法拍): 借款人欠債違約,銀行強制法拍(本題情境)。\nAdverse Possession(逆向占有/時效取得): 他人長期非法佔用土地而取得產權。\nEminent Domain(政府徵收): 政府因公共用途強制徵收民房。\nEscheat(無主財產歸公): 過世無遺囑且無合法繼承人時產權歸州政府。\nAvulsion(沖蝕/地裂): 自然災害導致土地流失。\nVoluntary Alienation(自願讓與):\n定義: 業主自願(With owner's consent)將產權讓與他人。\n常見範例: 出售房產(Sale / Deed)、贈與房產(Gift)、立遺囑贈與(Will / Devise)。"
   },
   {
-    "id": "L275",
+    "id": "L274",
     "source": "LV 練習延伸：Level 9",
     "stemEn": "What deed provides the grantee with the least protection of any deed, while putting the least liability on the grantor?",
     "stemZh": "哪一種契據給予受讓人(Grantee / 買方)最低的保護,同時給予轉讓人(Grantor / 賣方)最少的法律責任?",
@@ -8250,7 +8220,7 @@
     "explanation": "正確選項 (A)：放棄權利契據\n【詳細解析】\n核心概念:契據(Deeds)的法律責任與保護力對比\n不動產交易中,不同類型的契據代表了轉讓人(Grantor)願意承擔多少法律保證與責任:\nQuitclaim Deed(放棄權利契據):\n對買方(Grantee):保護力最低(Least protection)。 它完全不提供任何產權擔保(No warranties/covenants),甚至不保證轉讓人真的擁有該房屋的所有權。買方拿到的只是轉讓人「當下可能擁有的所有權益(如有)」。\n對賣方(Grantor):法律責任最少(Least liability)。 賣方簽署後不承擔任何未來的法律追訴責任,若日後發現產權存在重大瑕疵或債務,買方完全無法向賣方索賠。\n常用情境: 常用於離婚夫妻間產權轉移、修正姓名拼錯等產權清理(Clearing clouds on title)或親友間的無擔保過戶。\n其他契據的保護力與責任排序:\nWarranty Deed(General Warranty Deed): 保護力最高(Greatest protection),賣方承擔最大責任(Greatest liability),包含追溯歷代前手的完整六大誓約。\nGrant Deed / Special Warranty Deed: 保護力次之,僅擔保賣方自己持有期間無瑕疵。\nBargain and Sale Deed: 默示賣方擁有所有權,但不提供無負擔擔保。\n考試直覺反射金句:\n保護力最高、賣方責任最大 ➔ General Warranty Deed\n保護力最低(Least protection)、賣方責任最少(Least liability) ➔ Quitclaim Deed"
   },
   {
-    "id": "L276",
+    "id": "L275",
     "source": "LV 練習延伸：Level 9",
     "stemEn": "What purpose does the habendum clause serve in a deed?",
     "stemZh": "契據中的權能條款/產權處分條款(Habendum Clause)的作用是什麼?",
@@ -8280,7 +8250,7 @@
     "explanation": "正確選項 (B)：定義或限制受讓人(Grantee/買方)所獲得的所有權權益範圍)\n【詳細解析】\n核心概念:Habendum Clause(權能條款 / 產權處分條款)\n標誌性關鍵字: \"To Have and to Hold\"\n在契據的法律文本中,Habendum Clause 通常緊接在轉讓條款(Granting Clause)之後,並以 \"To have and to hold\" 開頭。\n核心功能:\n它的主要作用是明確定義或限制受讓人(Grantee)所取得的產權類型與權限範圍(Quantity/Extent of interest)。\n例如:說明買方取得的是完全自由繼承權(Fee Simple Absolute)、附條件繼承權(Fee Simple Defeasible),還是僅為終身物權(Life Estate,如 \"to have and to hold for the duration of his life\")。\n其他選項對應的契據要素(Deed Elements):\nA 說明: Consideration Clause(對價條款) — 說明買賣金額或感情對價(如 $10, or love and affection)。\nC 說明: Granting Clause / Words of Conveyance(轉讓條款) — 契據中表達正式轉讓意圖的核心句子(如 \"I hereby grant and convey...\")。\nD 說明: Acknowledgment(公證認可) — 由公證人(Notary Public)確認轉讓人是出於自願(Willingly / Voluntary act)簽署契據。\n考試直覺反射金句:\nHabendum Clause = 看到 \"To Have and to Hold\",作用是「定義/限制權利範圍(Define or limit ownership interest)」!"
   },
   {
-    "id": "L277",
+    "id": "L276",
     "source": "LV 練習延伸：Level 9",
     "stemEn": "What must happen to a deed for title to be transferred?",
     "stemZh": "契據必須經過什麼程序,產權(Title)才能正式發生移轉?",
@@ -8310,7 +8280,7 @@
     "explanation": "正確選項 (B)：交付與接受\n【詳細解析】核心概念:契據生效與產權移轉(Title Transfer / Conveyance)\n不動產測驗中關於契據(Deed)何時正式讓產權生效移轉,有一個絕對高頻的法律鐵律:\nDelivery and Acceptance(交付與接受):\n法律生效時點: 轉讓人(Grantor)單純在契據上簽名(Signed)或進行公證(Acknowledged),產權尚未移轉。必須由轉讓人出於轉讓產權的意圖將契據「交付(Delivery)」給受讓人,且受讓人明確「接受(Acceptance)」,產權移轉(Title Transfer)才在法律上正式完成與生效。\n常見考點陷阱辨析:\nRecording(登錄)不是必要條件: 將契據送至縣政府登錄(Recording)的目的在於向全社會發出擬制告知(Constructive Notice)並保護買方對抗第三人主張,但登錄並非契據在買賣雙方之間生效移轉產權的必要法定步驟(即便一份有效的契據從未登錄,只要完成 Delivery & Acceptance,產權也已經合法移轉給買方)。\nSigning(簽名)只是前提: 簽署是契據執行的步驟之一,但若轉讓人簽完字後將契據鎖在自己的保險箱未給買方,產權並未轉移。\n考試直覺反射金句:\n產權何時正式移轉(Title Transferred)? ➔ 答案必定是 Delivery and Acceptance(交付與接受)!"
   },
   {
-    "id": "L278",
+    "id": "L277",
     "source": "LV 練習延伸：Level 9",
     "stemEn": "If a property owner does not utilize their land, and if another party makes or has a claim to that land, what could potentially make the owner lose their property rights?",
     "stemZh": "如果土地業主不使用其土地,而另一方對該土地提出或擁有權利主張,什麼原因可能導致業主喪失其土地所有權?",
@@ -8340,7 +8310,7 @@
     "explanation": "正確選項 (D)：逆向占有 / 時效取得\n【詳細解析】🔍 核心概念:Adverse Possession(逆向占有 / 時效取得)\nAdverse Possession(逆向占有) 是法律上一種透過「長期佔用他人未經管護之土地」而依法取得該土地合法所有權的非自願轉讓(Involuntary Alienation)機制。\n法律邏輯與立法目的:\n法律鼓勵土地的有效開發與利用。如果地主長時間閒置、忽略或不使用其土地(does not utilize their land),而第三方侵占該土地並滿足法定條件,經法定年限後,原業主可能因此喪失產權(Lose property rights)。\n逆向占有的法定構成要件(記憶口訣:ONCHA):\nOpen and notorious(公開且顯而易見的佔用)\nNotorious/Hostile(未經地主同意且對抗地主權益)\nContinuous and uninterrupted(連續不間斷的佔用,依各州規定約 5~20 年不等)\nHostile to the owner's title(敵意佔有)\nActual possession(實際占有與使用)\n其他選項辨析:\nA (Easement by necessity): 僅給予袋地業主「通行使用權(Right of access)」,完全不會轉移土地的所有權(Title)。\nB (Encroachment): 越界侵占(例如鄰居的籬笆或屋簷蓋過界),屬於一種瑕疵實體狀況,若長期未處理,最終可能導致 Adverse Possession,但「導致地主失去產權」的法律機制名稱是 Adverse Possession。\nC (Dominant tenement): 指在地役權關係中,享有通行或使用權利的「需役地」土地本身。"
   },
   {
-    "id": "L279",
+    "id": "L278",
     "source": "LV 練習延伸：Level 9",
     "stemEn": "Sally and Jorge are a married couple who own a house together. The couple has one adult daughter, Emilia. When Jorge dies intestate, who receives the house?Sally",
     "stemZh": "與 Jorge 是一對夫妻,兩人共同擁有的一棟房屋。這對夫妻有一個成年女兒 Emilia。當 Jorge 未留遺囑過世(dies intestate)時,誰會取得這棟房屋? A. Sally receives one-third; Emilia receives the rest. (Sally 取得三分之一,Emilia 取得其餘部分)",
@@ -8370,7 +8340,7 @@
     "explanation": "正確選項 (D)：取得整棟房屋\nD. Emilia receives the house.\n(Emilia 取得整棟房屋)\n【詳細解析】\n🔍 核心概念:夫妻共同所有財產與無遺囑繼承(Married Couple & Community Property / Joint Tenancy)\n這是一道在美國不動產測驗(特別是 California 或採用 Community Property 夫妻共同財產制 的州)中極為常見的法律原則考題:\n預設所有權型態(Title Ownership):\n在不動產測驗中,當題目敘述為「夫妻共同擁有房屋(a married couple who own a house together)」時,法律上預設的產權型態通常包含 Right of Survivorship(生存者取得權)(如 Joint Tenancy,或在加州等地區為帶生存權的 Community Property)。\n只要帶有生存者取得權,當其中一位配偶過世時,死者的產權會自動歸屬於存活的配偶(Surviving Spouse),完全不進入法院遺囑認證(Probate),也不受無遺囑繼承法分配給子女。\n無遺囑繼承法(Intestate Succession)下的夫妻共同財產規則:\n退一步而言,即使依據採用夫妻共同財產制(Community Property)州的無遺囑繼承法,當已婚者無遺囑過世(Intestate),其夫妻共同財產(Community Property)中的 100% 份額將全數自動歸屬於存活的配偶(Sally)。\n只有當遺產屬於逝者的個人獨立財產(Separate Property)時,才會在配偶與子女(Emilia)之間進行拆分(如拆分為配偶與子女各 1/2,或配偶 1/3 子女 2/3)。但本題明確說明是夫妻共同擁有(own together)的房屋,屬於共同財產,因此 Sally 取得 100% 的房屋所有權。\n考試直覺反射金句:夫妻共同擁有的房屋(Owned together),配偶過世無遺囑 ➔ 存活配偶(Sally)取得整棟房屋!"
   },
   {
-    "id": "L280",
+    "id": "L279",
     "source": "LV 練習延伸：Level 10",
     "stemEn": "Costs that have been incurred but have not been paid for yet are:",
     "stemZh": "",
@@ -8400,7 +8370,7 @@
     "explanation": "正確選項 (A)：accrued items\nCosts that have been incurred but have not been paid for yet are accrued items, such as some recurring special assessments and mortgage interest. These expenses have been (or are being) incurred at the time of sale, but need not be paid at the time the sale closes. Accrued items are generally debited to the seller and credited to the buyer."
   },
   {
-    "id": "L281",
+    "id": "L280",
     "source": "LV 練習延伸：Level 10",
     "stemEn": "What's the difference between the Closing Disclosure and the Loan Estimate?",
     "stemZh": "",
@@ -8430,7 +8400,7 @@
     "explanation": "正確選項 (A)：The Loan Estimate is a preliminary estimate of loan costs; the Closing Disclosure is a final itemization of all services and fees.\nYes, the Loan Estimate is a preliminary estimate of loan costs; the Closing Disclosure is a final itemization of all services and fees."
   },
   {
-    "id": "L282",
+    "id": "L281",
     "source": "LV 練習延伸：Level 10",
     "stemEn": "How will the closing agent determine how to allocate various closing costs between the parties?",
     "stemZh": "",
@@ -8460,7 +8430,7 @@
     "explanation": "正確選項 (A)：They will follow what is in the escrow instructions.\nYes, to determine how to allocate closing costs, the escrow agent will follow what is in the escrow instructions."
   },
   {
-    "id": "L283",
+    "id": "L282",
     "source": "LV 練習延伸：Level 10",
     "stemEn": "A seller's credits minus the seller's debits would equal the:",
     "stemZh": "",
@@ -8490,7 +8460,7 @@
     "explanation": "正確選項 (A)：net to seller\nYes, the net to seller is calculated by subtracting a seller's debits from their credits.\nThe buyer and the seller closed on a property on April 20th. The fees for a special assessment for the current year were paid by the seller at the beginning of the year."
   },
   {
-    "id": "L284",
+    "id": "L283",
     "source": "LV 練習延伸：Level 10",
     "stemEn": "The seller pays for the day of closing. The escrow holder will debit the buyer for the prorated amount in fees for which period of time?",
     "stemZh": "",
@@ -8520,7 +8490,7 @@
     "explanation": "正確選項 (A)：April 21st through December 31st\nYes, the escrow holder will credit the seller (since they already paid for the whole year) and debit the buyer for fees accrued from April 21st through December 31st."
   },
   {
-    "id": "L285",
+    "id": "L284",
     "source": "LV 練習延伸：Level 10",
     "stemEn": "Which of these is the act of dividing or allocating expenses between buyers and sellers based on the actual period of usage of the item or service?",
     "stemZh": "",
@@ -8550,7 +8520,7 @@
     "explanation": "正確選項 (A)：proration\nYes, proration is the act of dividing or allocating expenses between buyers and sellers based on the actual period of usage of the item or service."
   },
   {
-    "id": "L286",
+    "id": "L285",
     "source": "LV 練習延伸：Level 10",
     "stemEn": "What would be considered the Consumer Finance Protection Bureau's greatest contribution toward the simplification of the mortgage lending process?",
     "stemZh": "",
@@ -8580,7 +8550,7 @@
     "explanation": "正確選項 (A)：the creation of the Loan Estimate form and the Closing Disclosure form\nYes, one of the CFPB's most noteworthy contributions is the simplification and transparency it brought to the mortgage lending process with the creation of the Loan Estimate form and its companion document, the Closing Disclosure form. These forms integrate the multiple disclosure requirements (and forms) that previously existed separately in TILA and RESPA.\nJoe's lender uses an automated underwriting system. The lender approved Joe's application for a mortgage loan, but it was reviewed by a human underwriter during the process."
   },
   {
-    "id": "L287",
+    "id": "L286",
     "source": "LV 練習延伸：Level 10",
     "stemEn": "An appraisal is:",
     "stemZh": "",
@@ -8610,7 +8580,7 @@
     "explanation": "正確選項 (A)：an appraiser’s opinion of a property’s market value as of a specified date\nYes, an appraisal is an appraiser’s opinion of a property’s market value as of a specified date."
   },
   {
-    "id": "L288",
+    "id": "L287",
     "source": "LV 練習延伸：Level 10",
     "stemEn": "A tax bill cost $10,092. For proration purposes, what is the monthly tax expense?",
     "stemZh": "一份房產稅帳單總金額為 $10,092 美元。為了進行過戶比例分攤(Proration)計算,每月的稅費支出是多少?",
@@ -8640,7 +8610,7 @@
     "explanation": "正確選項 (C)：$841\nThe tax bill needs to be divided by 12, giving you a monthly expense of $841.\n中文摘要：一份房產稅帳單總金額為 $10,092 美元。為了進行過戶比例分攤(Proration)計算,每月的稅費支出是多少?"
   },
   {
-    "id": "L289",
+    "id": "L288",
     "source": "LV 練習延伸：Level 10",
     "stemEn": "A property is transferred from a seller to a buyer on April 4th. At the end of the year, the buyer pays the annual tax amount of $11,160. Using the 360-day calendar, how much should be credited to the buyer for prorated property taxes? In this situation, the buyer owns the property on closing day.",
     "stemZh": "",
@@ -8670,7 +8640,7 @@
     "explanation": "正確選項 (D)：$2,883\n$$93 \\text{ 天} \\times \\$31.00 = \\$2,883.00$$"
   },
   {
-    "id": "L290",
+    "id": "L289",
     "source": "LV 練習延伸：Level 10",
     "stemEn": "Which of these people can act as an escrow holder without an escrow license?",
     "stemZh": "",
@@ -8700,7 +8670,7 @@
     "explanation": "正確選項 (D)：a buyer\nYes, a broker can act as an escrow holder without a license, so long as they are representing one of the parties in the transaction.\n2.A property is transferred from a seller to a buyer on April 4th. At the end of the year, the buyer pays the annual tax amount of $11,160. Using the 360-day calendar, how much should be credited to the buyer for prorated property taxes? In this situation, the buyer owns closing day.\n$2,883\n$2,789\n$3,320\n$3,331\nTo find the monthly rate, divide the annual total by 12, which in this case equals $930. To find the daily rate, divide the taxes total by 360, which gives you 31. Remember, the day of closing is billed to the buyer. So, we have 3 months and 3 days to calculate. 930 x 3 + 31 x 3 = $2,883.\n3.Costs that have been incurred but have not been paid for yet are:\naccrued items\nprepaid items\na debit to the buyer\nnon-realty items"
   },
   {
-    "id": "L291",
+    "id": "L290",
     "source": "LV 練習延伸：Level 11",
     "stemEn": "According to conventional loans' qualifying guidelines, the monthly housing expenses, plus all other monthly obligations, cannot exceed what percent of the borrower's total gross monthly income?",
     "stemZh": "",
@@ -8730,7 +8700,7 @@
     "explanation": "正確選項 (A)：36%\nYes, for manually underwritten loans, Fannie Mae will limit the debt-to-income ratio to 36%. That is, the total PITI plus the other debts cannot exceed 36% of the borrower's monthly income.\nIf a conventional borrower's down payment equals more than 20% of the sales price, they can avoid paying:\na private mortgage insurance premium\nan earnest money deposit\na broker's commission\ndiscount points\nYes, PMI (private mortgage insurance) is required for conventional loan types as long as the borrower has less than 20% equity.\nLoan approval consists of two different approvals. What are they?\napproval of the buyer and approval of the property\napproval of the appraisal and approval of the seller\napproval of the survey and approval of the buyer\napproval of the inspection and approval of the buyer"
   },
   {
-    "id": "L292",
+    "id": "L291",
     "source": "LV 練習延伸：Level 11",
     "stemEn": "Loan approval consists of two different approvals. What are they?",
     "stemZh": "",
@@ -8760,7 +8730,7 @@
     "explanation": "正確選項 (A)：approval of the buyer and approval of the property\nLoan approval consists of two approvals: (1) Property approval and (2) approval of the buyer’s assets, income, and credit history. When both of the approvals are complete, the loan is approved.\nLeo is buying a house for $200,000 and is making a 20% down payment. He is paying for 1 discount point, $450 for a new survey, and $900 for an environmental report. Based on this, how much cash will Leo have to bring to the closing?\n$42,950\n$42,300\n$45,300\n$43,500\nBy adding together the costs of Leo's down payment ($40,000 – calculated using the down payment percentage and sales price), discount point (1% of the loan amount, which is the sales price minus the down payment or 0.01 x $160,000 = $1,600), the survey, and environmental report, we find that he would have to bring $42,950 to closing. $40,000 + $1,600 + $450 + $900 = $42,950.\nAfter doing an underwriting review of Mookie's credit rating and history, the lender pre-approved him for a mortgage loan. The property value was also in line with the lender's requirements. Then, in the week before the loan was to close, Mookie bought a $40,000 motorhome that he financed over 20 years. When his lender found out about this, they decided not to extend Mookie a loan in their final approval stage.\nWhat is the MOST LIKELY reason Mookie's lender chose not to give final approval to his mortgage loan?\nThe motorhome debt changed Mookie's credit profile and desirability as a loan risk.\nThe lender now had to view the mortgage application as a second-home loan.\nThe inherent danger of driving a motorhome hurt Mookie's likelihood of repaying the mortgage loan."
   },
   {
-    "id": "L293",
+    "id": "L292",
     "source": "LV 練習延伸：Level 11",
     "stemEn": "Leo is buying a house for $200,000 and is making a 20% down payment. He is paying for 1 discount point, $450 for a new survey, and $900 for an environmental report. Based on this, how much cash will Leo have to bring to the closing?",
     "stemZh": "",
@@ -8790,7 +8760,7 @@
     "explanation": "正確選項 (A)：$42,950\nBy adding together the costs of Leo's down payment ($40,000 – calculated using the down payment percentage and sales price), discount point (1% of the loan amount, which is the sales price minus the down payment or 0.01 x $160,000 = $1,600), the survey, and environmental report, we find that he would have to bring $42,950 to closing. $40,000 + $1,600 + $450 + $900 = $42,950.\nAfter doing an underwriting review of Mookie's credit rating and history, the lender pre-approved him for a mortgage loan. The property value was also in line with the lender's requirements. Then, in the week before the loan was to close, Mookie bought a $40,000 motorhome that he financed over 20 years. When his lender found out about this, they decided not to extend Mookie a loan in their final approval stage.\nWhat is the MOST LIKELY reason Mookie's lender chose not to give final approval to his mortgage loan?\nThe motorhome debt changed Mookie's credit profile and desirability as a loan risk.\nThe lender now had to view the mortgage application as a second-home loan.\nThe inherent danger of driving a motorhome hurt Mookie's likelihood of repaying the mortgage loan.\nThe lender wasn't given the chance to finance the motorhome loan as well.\nIn the final approval stage of a mortgage loan, a lender will take another look at the borrower's financial profile to make sure nothing significant has changed. In Mookie's case, the addition of a $40,000 debt to his financial profile was significant enough to make the lender no longer view him as a desirable loan risk.\nTrevor is taking on a 30-year mortgage loan that he only plans on staying in for a few years. Would it make sense for him to pay more at closing to lower his interest rate?\nIt wouldn't because it would likely take several years to break even on the upfront money he spent to buy the points.\nIt would because the discount points paid upfront on a loan represent a greater tax advantage than a higher monthly payment would.\nIt would because the discount points would serve to shorten the term of his loan."
   },
   {
-    "id": "L294",
+    "id": "L293",
     "source": "LV 練習延伸：Level 11",
     "stemEn": "Why would a lender be interested in the loan-to-value ratio of a property?",
     "stemZh": "",
@@ -8820,7 +8790,7 @@
     "explanation": "正確選項 (A)：because it represents the ratio of the value of the property and the amount of the loan financing the property and is an indicator of a loan's risk\nYes, a lender would be interested in the loan-to-value ratio of a property because it represents the ratio of the value of the property and the actual amount (or value) of the loan financing the property expressed as a percentage. The higher the percentage of the property value the lender is loaning, the riskier the loan.\nCamille and Jody both made offers on a house for sale. Their offers are identical in terms of the purchase price and conditions. Camille's offer had a pre-approval letter attached to it.\nWhich of the following is the MOST LIKELY reason why the seller would prefer Camille's offer?\nA pre-approval letter can give the seller greater assurance that the buyer will be able to finance the purchase.\nSellers prefer a personal touch that a letter brings.\nThe pre-approval letter gave a complimentary description of the property.\nThe pre-approval letter contained a loan commitment to the buyer.\nYes, an offer accompanied by a pre-approval letter can give the seller greater assurance that the buyer will be able to finance the purchase than an offer without a pre-approval letter.\nFrank applies for a loan on his pending home purchase. He has a gross annual income of $65,000. What is the maximum monthly mortgage payment (PITI) he can afford while conforming to a payment-to-income ratio of 35%?\nRound to the nearest dollar.\n$1,896\n$22,750"
   },
   {
-    "id": "L295",
+    "id": "L294",
     "source": "LV 練習延伸：Level 11",
     "stemEn": "Which of the following is the MOST LIKELY reason why the seller would prefer Camille's offer?",
     "stemZh": "",
@@ -8850,7 +8820,7 @@
     "explanation": "正確選項 (A)：A pre-approval letter can give the seller greater assurance that the buyer will be able to finance the purchase.\nYes, an offer accompanied by a pre-approval letter can give the seller greater assurance that the buyer will be able to finance the purchase than an offer without a pre-approval letter.\nFrank applies for a loan on his pending home purchase. He has a gross annual income of $65,000. What is the maximum monthly mortgage payment (PITI) he can afford while conforming to a payment-to-income ratio of 35%?\nRound to the nearest dollar.\n$1,896\n$22,750\n$3,521\n$1,795\nIf you know the monthly income and the desired payment-to-income ratio, this would be the formula to use to solve for monthly payment: Monthly income x Payment-to-income ratio = Monthly payment. So, in Frank's case, you divide $65,000 by 12 to get his monthly income. Then, multiply that figure by 0.35 to get the maximum monthly mortgage payment (PITI) of $1,895.83 (which rounds to $1,896).\n11.A borrower was told that she could pay $5,760 in discount points to lower her monthly mortgage payment by $120.\nHow long would this borrower need to stay in her loan in order for her to break even on that upfront payment of discount points?\n36 months\n48 months"
   },
   {
-    "id": "L296",
+    "id": "L295",
     "source": "LV 練習延伸：Level 12",
     "stemEn": "What is the maximum LTV for conventional loans WITH paying PMI?",
     "stemZh": "",
@@ -8880,7 +8850,7 @@
     "explanation": "正確選項 (A)：95%\nYes, the maximum LTV for conventional loans if paying PMI is 95%.\nMarissa and Erik, who live in San Francisco, own community property together. This means that they are:\neither registered domestic partners OR married spouses\nmarried spouses only\nregistered domestic partners only\nsiblings only\nCalifornia is a community property state. That means that property acquired during a marriage is acquired due to the shared effort of both partners. Therefore, it's equally owned by the two of them. In California, community property applies to both married spouses AND registered domestic partners.\nThe buyer and seller closed on a property on June 17th. The year's HOA fees were paid by the seller at the beginning of the year. How might the seller receive credit for the time the buyer occupies the home?\nAt closing, the buyer credits the seller with prorated HOA dues.\nThe seller cannot receive a credit, as the fee has already been paid without the buyer's consent.\nThe escrow company pays for the prorated expense.\nThe HOA reimburses the seller for the fee."
   },
   {
-    "id": "L297",
+    "id": "L296",
     "source": "LV 練習延伸：Level 12",
     "stemEn": "What type of real estate involves both tangible and intangible property?",
     "stemZh": "",
@@ -8910,7 +8880,7 @@
     "explanation": "正確選項 (A)：business\nBusiness real estate focuses on the buying and selling of a business, including both tangible property, such as a parking lot or an office building, and intangible property, such as a business model or restaurant with award-winning recipes.\nWhat is conveyance?\nan instrument that transfers a grantor’s interest in real property\nthe soil that gets deposited in the process of accretion\nthe transfer of title to property without the owner’s consent\na formal declaration that the person signing a document is doing so by choice\nA conveyance is an instrument that transfers a grantor’s interest in real property.\nIn 2015, the CFPB consolidated the Settlement Statement and the Final Truth in Lending disclosure into one form known as the:\nClosing Disclosure\nHUD-1\nGFE\nLoan Estimate"
   },
   {
-    "id": "L298",
+    "id": "L297",
     "source": "LV 練習延伸：Level 12",
     "stemEn": "What is conveyance?",
     "stemZh": "",
@@ -8940,7 +8910,7 @@
     "explanation": "正確選項 (A)：an instrument that transfers a grantor’s interest in real property\nA conveyance is an instrument that transfers a grantor’s interest in real property.\nIn 2015, the CFPB consolidated the Settlement Statement and the Final Truth in Lending disclosure into one form known as the:\nClosing Disclosure\nHUD-1\nGFE\nLoan Estimate\nIn 2015, the CFPB consolidated the Settlement Statement and the Final Truth in Lending disclosure into one form known as the Closing Disclosure.\nJessica and Sam are getting a divorce. It's an amicable separation, and it's decided that Jessica will keep their apartment while Sam will keep both cars. What kind of deed will Jessica ask Sam to sign to clarify that she has sole title to the apartment?\nquitclaim deed\njudicial deed\nbargain and sale deed\ndeed of trust"
   },
   {
-    "id": "L299",
+    "id": "L298",
     "source": "LV 練習延伸：Level 12",
     "stemEn": "In 2015, the CFPB consolidated the Settlement Statement and the Final Truth in Lending disclosure into one form known as the:",
     "stemZh": "",
@@ -8970,7 +8940,7 @@
     "explanation": "正確選項 (A)：Closing Disclosure\nIn 2015, the CFPB consolidated the Settlement Statement and the Final Truth in Lending disclosure into one form known as the Closing Disclosure.\nJessica and Sam are getting a divorce. It's an amicable separation, and it's decided that Jessica will keep their apartment while Sam will keep both cars. What kind of deed will Jessica ask Sam to sign to clarify that she has sole title to the apartment?\nquitclaim deed\njudicial deed\nbargain and sale deed\ndeed of trust\nA quitclaim deed will ensure Sam no longer has any claim to their formerly-shared home.\nAn underwriter's primary objective is to determine:\nthe level of risk a borrower presents to a lender\nthe profit potential of a loan\nthe desirability of a property in the event of default\na borrower's credit score"
   },
   {
-    "id": "L300",
+    "id": "L299",
     "source": "LV 練習延伸：Level 12",
     "stemEn": "Jessica and Sam are getting a divorce. It's an amicable separation, and it's decided that Jessica will keep their apartment while Sam will keep both cars. What kind of deed will Jessica ask Sam to sign to clarify that she has sole title to the apartment?",
     "stemZh": "",
@@ -9000,7 +8970,7 @@
     "explanation": "正確選項 (A)：quitclaim deed\nA quitclaim deed will ensure Sam no longer has any claim to their formerly-shared home.\nAn underwriter's primary objective is to determine:\nthe level of risk a borrower presents to a lender\nthe profit potential of a loan\nthe desirability of a property in the event of default\na borrower's credit score\nYes, underwriting is the process of determining the level of risk a borrower presents to a lender.\nWhat is the term for an individual who is licensed as a real estate broker but who works in the capacity of an associate licensee for the employing broker of a brokerage?\nbroker-associate\nassociate employing broker\nsalesperson\nsales broker"
   },
   {
-    "id": "L301",
+    "id": "L300",
     "source": "LV 練習延伸：Level 12",
     "stemEn": "An underwriter's primary objective is to determine:",
     "stemZh": "",
@@ -9030,7 +9000,7 @@
     "explanation": "正確選項 (A)：the level of risk a borrower presents to a lender\nYes, underwriting is the process of determining the level of risk a borrower presents to a lender.\nWhat is the term for an individual who is licensed as a real estate broker but who works in the capacity of an associate licensee for the employing broker of a brokerage?\nbroker-associate\nassociate employing broker\nsalesperson\nsales broker\nA broker-associate is an individual licensed as a real estate broker but who works in the capacity of an associate licensee for the employing broker of a brokerage.\nResidential property is used for:\nsome sort of habitation\nproducing a profit\nlong-term investments\ncrop cultivation"
   },
   {
-    "id": "L302",
+    "id": "L301",
     "source": "LV 練習延伸：Level 12",
     "stemEn": "What is the term for an individual who is licensed as a real estate broker but who works in the capacity of an associate licensee for the employing broker of a brokerage?",
     "stemZh": "",
@@ -9060,7 +9030,7 @@
     "explanation": "正確選項 (A)：broker-associate\nA broker-associate is an individual licensed as a real estate broker but who works in the capacity of an associate licensee for the employing broker of a brokerage.\nResidential property is used for:\nsome sort of habitation\nproducing a profit\nlong-term investments\ncrop cultivation\nAll residential properties are used for some sort of habitation, whether they're single-family homes, condos, or vacation homes.\n–"
   },
   {
-    "id": "L303",
+    "id": "L302",
     "source": "LV 練習延伸：Level 12",
     "stemEn": "Residential property is used for:",
     "stemZh": "",
@@ -9090,7 +9060,7 @@
     "explanation": "正確選項 (A)：some sort of habitation\nAll residential properties are used for some sort of habitation, whether they're single-family homes, condos, or vacation homes.\n–"
   },
   {
-    "id": "L304",
+    "id": "L303",
     "source": "LV 練習延伸：Level 13",
     "stemEn": "In an amortized loan, the monthly interest payment is always based on:",
     "stemZh": "",
@@ -9120,7 +9090,7 @@
     "explanation": "正確選項 (A)：the remaining balance\nFor each monthly payment, the bank calculates the interest a borrower owes on their remaining balance.\nWhat is underwriting?\nthe process of deciding the level of risk a lender would take on by offering a loan to a certain borrower for a specific property\na credit given by the lender to the borrower that may be used to pay third-party settlement charges or to fund the escrow account\nan agreement between a lender and a borrower that allows the borrower to secure the interest rate on a mortgage for a designated time period\nan extra fee paid upfront when getting a loan that lowers a borrower's interest rate\nYes, underwriting is the process of deciding the level of risk a lender would take on by offering a loan to a certain borrower for a specific property.\nTrevor has applied for a mortgage loan with his friendly neighborhood banker. The banker will have her underwriting department make sure that Trevor is a reasonable risk for a loan.\nWhich of the following lists reflects the areas of focus for the bank's underwriter when evaluating Trevor?\nincome, credit, assets, debts, and net worth\nsex, credit, assets, debts, and net worth\nincome, credit, assets, sex, and marital status"
   },
   {
-    "id": "L305",
+    "id": "L304",
     "source": "LV 練習延伸：Level 13",
     "stemEn": "What is underwriting?",
     "stemZh": "",
@@ -9150,7 +9120,7 @@
     "explanation": "正確選項 (A)：the process of deciding the level of risk a lender would take on by offering a loan to a certain borrower for a specific property\nYes, underwriting is the process of deciding the level of risk a lender would take on by offering a loan to a certain borrower for a specific property.\nTrevor has applied for a mortgage loan with his friendly neighborhood banker. The banker will have her underwriting department make sure that Trevor is a reasonable risk for a loan.\nWhich of the following lists reflects the areas of focus for the bank's underwriter when evaluating Trevor?\nincome, credit, assets, debts, and net worth\nsex, credit, assets, debts, and net worth\nincome, credit, assets, sex, and marital status\ncredit, assets, debts, marital status, and age\nIn order to determine a borrower's financial qualifications, an underwriter will typically look at five aspects of the applicant's financial profile: income, credit, assets, debts, and net worth.\nJames took out a loan of $20,000 to fix some foundation issues on his house at a 7.5% interest rate. How much will James pay in annual interest?\n$1,500\n$7,500\n$375"
   },
   {
-    "id": "L306",
+    "id": "L305",
     "source": "LV 練習延伸：Level 13",
     "stemEn": "Which of the following lists reflects the areas of focus for the bank's underwriter when evaluating Trevor?",
     "stemZh": "",
@@ -9180,7 +9150,7 @@
     "explanation": "正確選項 (A)：income, credit, assets, debts, and net worth\nIn order to determine a borrower's financial qualifications, an underwriter will typically look at five aspects of the applicant's financial profile: income, credit, assets, debts, and net worth.\nJames took out a loan of $20,000 to fix some foundation issues on his house at a 7.5% interest rate. How much will James pay in annual interest?\n$1,500\n$7,500\n$375\n$125\nPrincipal x Interest rate = Annual interest. So, $20,000 x 0.075 = $1,500 in annual interest.\nJeremy has a monthly income of $2,000. His payment-to-income ratio is 25%. How much is his monthly payment?\n$500\n$50,000\n$5,000\n$80"
   },
   {
-    "id": "L307",
+    "id": "L306",
     "source": "LV 練習延伸：Level 13",
     "stemEn": "What is a loan-to-value ratio?",
     "stemZh": "",
@@ -9210,7 +9180,7 @@
     "explanation": "正確選項 (A)：the amount of money being loaned compared to the value of the property\nA loan-to-value ratio is the amount of money being loaned compared to the value of the property.\nLucia has a monthly PITI payment of $650 and other long-term liabilities totaling $250 per month. If she makes $3,300 a month, what is her total debt-to-income ratio?\n27%\n12%\n19%\n30%\nLucia's debt-to-income ratio is 27%. You get this by using this formula: (Monthly payment + Other debt) ÷ Monthly income = Debt-to-income ratio. In Lucia's scenario, it would look like this: ($650 + $250) ÷ $3,300 = 0.27 or 27%.\nWhat form do most lenders use to collect mortgage loan applicant information for underwriting purposes?\nUniform Residential Loan Application (URLA)\nStandard Mortgage Underwriting Residential Form (SMURF)\nUniversal Mortgage Loan Application (UMLA)\nLender Underwriting Mortgage Loan Application (LUMLA)"
   },
   {
-    "id": "L308",
+    "id": "L307",
     "source": "LV 練習延伸：Level 13",
     "stemEn": "Lucia has a monthly PITI payment of $650 and other long-term liabilities totaling $250 per month. If she makes $3,300 a month, what is her total debt-to-income ratio?",
     "stemZh": "",
@@ -9240,7 +9210,7 @@
     "explanation": "正確選項 (A)：27%\nLucia's debt-to-income ratio is 27%. You get this by using this formula: (Monthly payment + Other debt) ÷ Monthly income = Debt-to-income ratio. In Lucia's scenario, it would look like this: ($650 + $250) ÷ $3,300 = 0.27 or 27%.\nWhat form do most lenders use to collect mortgage loan applicant information for underwriting purposes?\nUniform Residential Loan Application (URLA)\nStandard Mortgage Underwriting Residential Form (SMURF)\nUniversal Mortgage Loan Application (UMLA)\nLender Underwriting Mortgage Loan Application (LUMLA)\nWhen a borrower meets with a lender to apply for a mortgage loan, the underwriting form used will likely be Fannie Mae's Uniform Residential Loan Application (URLA). It's the standard form most lenders use to collect the information necessary to evaluate the loan risk their applicants represent.\nJackie took out an amortized loan of $300,000 with a 5% interest rate. Her monthly payment is $1,800. How much of her first payment will go towards the principal?\n$550\n$600\n$1,250\n$650"
   },
   {
-    "id": "L309",
+    "id": "L308",
     "source": "LV 練習延伸：Level 13",
     "stemEn": "What form do most lenders use to collect mortgage loan applicant information for underwriting purposes?",
     "stemZh": "",
@@ -9270,7 +9240,7 @@
     "explanation": "正確選項 (A)：Uniform Residential Loan Application (URLA)\nWhen a borrower meets with a lender to apply for a mortgage loan, the underwriting form used will likely be Fannie Mae's Uniform Residential Loan Application (URLA). It's the standard form most lenders use to collect the information necessary to evaluate the loan risk their applicants represent.\nJackie took out an amortized loan of $300,000 with a 5% interest rate. Her monthly payment is $1,800. How much of her first payment will go towards the principal?\n$550\n$600\n$1,250\n$650\nFirst, you need to calculate the amount Jackie will pay in interest by multiplying $300,000 by 0.05 and then dividing by 12, which equals $1,250. Then you subtract $1,250 from the monthly payment of $1,800, leaving $550 as the amount going towards the principal."
   },
   {
-    "id": "L310",
+    "id": "L309",
     "source": "LV 練習延伸：Level 13",
     "stemEn": "Jackie took out an amortized loan of $300,000 with a 5% interest rate. Her monthly payment is $1,800. How much of her first payment will go towards the principal?",
     "stemZh": "",
@@ -9300,7 +9270,7 @@
     "explanation": "正確選項 (C)：$1,250\nFirst, you need to calculate the amount Jackie will pay in interest by multiplying $300,000 by 0.05 and then dividing by 12, which equals $1,250. Then you subtract $1,250 from the monthly payment of $1,800, leaving $550 as the amount going towards the principal."
   },
   {
-    "id": "L311",
+    "id": "L310",
     "source": "LV 練習延伸：Level 14",
     "stemEn": "With which type of land description does a surveyor indicate direction in degrees, minutes, and seconds?",
     "stemZh": "",
@@ -9330,7 +9300,7 @@
     "explanation": "正確選項 (A)：metes and bounds\nCorrect. The metes and bounds method of land description uses descriptions like degrees, minutes, and seconds to outline the boundaries of a property.\nThe NE 1/4 of a section would measure how many acres?\n160\n640\n320\n80\nCorrect. The NE 1/4 of a section would measure 160 acres.\nA surveyor references an object when reporting the elevation of a property. If you wanted to go see that object for yourself, what would you look for?\na permanent, metal benchmark\na natural monument, such as a tree\na wooden stake in the ground\na building or similar human-made structure"
   },
   {
-    "id": "L312",
+    "id": "L311",
     "source": "LV 練習延伸：Level 14",
     "stemEn": "The NE 1/4 of a section would measure how many acres?",
     "stemZh": "",
@@ -9360,7 +9330,7 @@
     "explanation": "正確選項 (A)：160\nCorrect. The NE 1/4 of a section would measure 160 acres.\nA surveyor references an object when reporting the elevation of a property. If you wanted to go see that object for yourself, what would you look for?\na permanent, metal benchmark\na natural monument, such as a tree\na wooden stake in the ground\na building or similar human-made structure\nSurveyors report elevation by referencing benchmarks. These are permanent, metal objects placed by the U.S. Geological Survey or the U.S. Coast and Geodetic Survey.\nCourtney just purchased an 8.5-acre vacant lot of land for $500,000. What was the price Courtney paid per square yard?\n$12.15\n$1.35\n$58.82\n$36.46"
   },
   {
-    "id": "L313",
+    "id": "L312",
     "source": "LV 練習延伸：Level 14",
     "stemEn": "Charlie purchased a lot that measures 800 ft. wide by 500 ft. long. The purchase price was $850,000. What was the price Charlie paid per ACRE?",
     "stemZh": "",
@@ -9390,7 +9360,7 @@
     "explanation": "正確選項 (A)：$92,592.59\nCorrect. Charlie paid $92,592.59 per acre. 800 ft. x 500 ft. = 400,000 sq. ft. Since there are 43,560 sq. ft. in an acre, we'll divide the total square footage by 43,560. 400,000 sq. ft. ÷ 43,560 sq. ft./acre = 9.18 acres, so the lot is 9.18 acres. We'll then divide the total price by the acreage. $850,000 ÷ 9.18 acres = $92,592.59/acre. Charlie paid $92,592.59 per acre.\nWhat is a survey?\nthe process and physical product of finding and measuring the boundaries of a piece of real estate, including the location of improvements\nthe required actions for the proper execution of a deed, involving delivery of the deed by the grantor and acceptance by the grantee\nthe involuntary transfer of title from an owner who doesn't use or inspect their land to another person who has some claim and takes possession\na deed without any warranty against encumbrances; only implies that the grantor holds the right to convey title\nA survey is the process and physical product of finding and measuring the boundaries of a piece of real estate, including the location of improvements, encroachments, and easements.\nJim buys a 400 sq. yd. lot of land. What is the size of Jim's lot in square feet?\n3,600 sq. ft.\n3,200 sq. ft.\n1,600 sq. ft.\n1,200 sq. ft."
   },
   {
-    "id": "L314",
+    "id": "L313",
     "source": "LV 練習延伸：Level 14",
     "stemEn": "What is a survey?",
     "stemZh": "",
@@ -9420,7 +9390,7 @@
     "explanation": "正確選項 (A)：the process and physical product of finding and measuring the boundaries of a piece of real estate, including the location of improvements\nA survey is the process and physical product of finding and measuring the boundaries of a piece of real estate, including the location of improvements, encroachments, and easements.\nJim buys a 400 sq. yd. lot of land. What is the size of Jim's lot in square feet?\n3,600 sq. ft.\n3,200 sq. ft.\n1,600 sq. ft.\n1,200 sq. ft.\nCorrect. One square yard is equal to 9 sq. ft. So, 400 sq. yards x 9 = 3,600 sq. ft.\nWhich legal description will likely include the phrase “point of beginning”?\nmetes and bounds\nrecorded plat\nrectangular survey\nvertical land"
   },
   {
-    "id": "L315",
+    "id": "L314",
     "source": "LV 練習延伸：Level 14",
     "stemEn": "Jim buys a 400 sq. yd. lot of land. What is the size of Jim's lot in square feet?",
     "stemZh": "",
@@ -9450,7 +9420,7 @@
     "explanation": "正確選項 (A)：3,600 sq. ft.\nCorrect. One square yard is equal to 9 sq. ft. So, 400 sq. yards x 9 = 3,600 sq. ft.\nWhich legal description will likely include the phrase “point of beginning”?\nmetes and bounds\nrecorded plat\nrectangular survey\nvertical land\nThe metes and bound system describes the perimeter boundaries of the parcel using measurements, directions, and distances. A metes and bounds legal description always returns to the Point of the Beginning (POB).\nWhich survey system uses longitude and latitude lines to map property boundaries?\ngovernment survey system\nmetes and bounds system\nlot and block system\nrecorded plat system"
   },
   {
-    "id": "L316",
+    "id": "L315",
     "source": "LV 練習延伸：Level 14",
     "stemEn": "Which survey system uses longitude and latitude lines to map property boundaries?",
     "stemZh": "",
@@ -9480,7 +9450,7 @@
     "explanation": "正確選項 (A)：government survey system\nThe government survey system uses longitude and latitude lines to map property boundaries.\nRentable square footage includes a tenant's usable square footage and:\ncommon areas\noutdoor areas\na break room only accessible on one floor\nthe length of the air vents within the building\nThis is incorrect because all outdoor areas would not be included in an area's rentable square footage. Rentable square footage is the measurement of the total area that a tenant can access which includes a tenant's usable square footage and common areas.\nRange columns run parallel to:\nmeridians\ntownship lines\nbaselines\ncorrection lines"
   },
   {
-    "id": "L317",
+    "id": "L316",
     "source": "LV 練習延伸：Level 14",
     "stemEn": "Range columns run parallel to:",
     "stemZh": "",
@@ -9510,7 +9480,7 @@
     "explanation": "正確選項 (A)：meridians\nRange columns run parallel to meridians and create six-mile ranges.\nWhat is the legal description of a property?\na detailed description of a property that is distinct and precise enough to distinguish it from all other properties\nthe U.S. Postal Service’s mailing address for the property\nthe 911 emergency address of the property\nan appraiser’s description of the identity of the property\nA legal description is a detailed description of a property that is distinct and precise enough to distinguish it from all other properties.\nWhich of the following is a portion of a legal description?\nlot number\nstreet address\napartment number\nP.O. box"
   },
   {
-    "id": "L318",
+    "id": "L317",
     "source": "LV 練習延伸：Level 14",
     "stemEn": "What is the legal description of a property?",
     "stemZh": "",
@@ -9540,7 +9510,7 @@
     "explanation": "正確選項 (A)：a detailed description of a property that is distinct and precise enough to distinguish it from all other properties\nA legal description is a detailed description of a property that is distinct and precise enough to distinguish it from all other properties.\nWhich of the following is a portion of a legal description?\nlot number\nstreet address\napartment number\nP.O. box\nA lot number is a portion of a legal description."
   },
   {
-    "id": "L319",
+    "id": "L318",
     "source": "LV 練習延伸：Level 14",
     "stemEn": "Which of the following is a portion of a legal description?",
     "stemZh": "",
@@ -9570,7 +9540,7 @@
     "explanation": "正確選項 (A)：lot number\nA lot number is a portion of a legal description."
   },
   {
-    "id": "L320",
+    "id": "L319",
     "source": "LV 練習延伸：Level 15",
     "stemEn": "What is quiet enjoyment?",
     "stemZh": "",
@@ -9600,7 +9570,7 @@
     "explanation": "正確選項 (A)：a lessee's right to possess a property without interference from the lessor\nQuiet enjoyment is a lessee's right to possess a property without interference from the lessor, previous owner, or anyone else about the claim to the title.\nA landlord frequently enters one of his tenant's apartments without notice just to see how the tenant is doing. This action:\nviolates the tenant's right to quiet enjoyment of the property\nviolates the tenant's right to control how the property is used\nis okay as long as the landlord wrote in the lease that he would retain the right to do this\nis okay since the landlord owns the property and has a right to be there\nFrequent, non-essential visits to a tenant's apartment violate the tenant's right to quiet enjoyment of the property.\nWhat is the difference between a sublease and an assignment?\nIn a sublease, the original tenant is still responsible for the rent. In an assignment, the new tenant takes over responsibility.\nIn a sublease, the landlord can terminate the contract at any time. In an assignment, they cannot.\nIn a sublease, the new tenant is responsible for all costs. In an assignment, the new tenant pays the old tenant, and they pay the landlord.\nIn a sublease, the original space is reconfigured to fit two tenants. In an assignment, the tenants share the original space as is."
   },
   {
-    "id": "L321",
+    "id": "L320",
     "source": "LV 練習延伸：Level 15",
     "stemEn": "A landlord frequently enters one of his tenant's apartments without notice just to see how the tenant is doing. This action:",
     "stemZh": "",
@@ -9630,7 +9600,7 @@
     "explanation": "正確選項 (A)：violates the tenant's right to quiet enjoyment of the property\nFrequent, non-essential visits to a tenant's apartment violate the tenant's right to quiet enjoyment of the property.\nWhat is the difference between a sublease and an assignment?\nIn a sublease, the original tenant is still responsible for the rent. In an assignment, the new tenant takes over responsibility.\nIn a sublease, the landlord can terminate the contract at any time. In an assignment, they cannot.\nIn a sublease, the new tenant is responsible for all costs. In an assignment, the new tenant pays the old tenant, and they pay the landlord.\nIn a sublease, the original space is reconfigured to fit two tenants. In an assignment, the tenants share the original space as is.\nIn a sublease, the original tenant is still responsible for the rent. In an assignment, the new tenant takes over responsibility. In other words, a sublease does not release the original tenant from responsibility, while an assignment does.\nWhich of the following individuals is exempt from FEHA?\nCathy, who owns and occupies her home and rents to one person at a time\nNichole, who rents out units in an apartment complex\nSierra, who is selling her condo\nHollie, who is selling her single-family home"
   },
   {
-    "id": "L322",
+    "id": "L321",
     "source": "LV 練習延伸：Level 15",
     "stemEn": "What is the difference between a sublease and an assignment?",
     "stemZh": "",
@@ -9660,7 +9630,7 @@
     "explanation": "正確選項 (A)：In a sublease, the original tenant is still responsible for the rent. In an assignment, the new tenant takes over responsibility.\nIn a sublease, the original tenant is still responsible for the rent. In an assignment, the new tenant takes over responsibility. In other words, a sublease does not release the original tenant from responsibility, while an assignment does.\nWhich of the following individuals is exempt from FEHA?\nCathy, who owns and occupies her home and rents to one person at a time\nNichole, who rents out units in an apartment complex\nSierra, who is selling her condo\nHollie, who is selling her single-family home\nThe main type of person who is exempt from FEHA is an owner who rents their single-family, owner-occupied home to one individual, though they must still follow FEHA's rules on not making discriminatory statements, notices, or advertisements.\nIn California, an automatic renewal clause in a lease must:\nbe in bold font\nbe in a separate addendum\nnot be included; automatic renewal clauses are illegal in California\ngive the tenant the first right to purchase the property"
   },
   {
-    "id": "L323",
+    "id": "L322",
     "source": "LV 練習延伸：Level 15",
     "stemEn": "In California, an automatic renewal clause in a lease must:",
     "stemZh": "",
@@ -9690,7 +9660,7 @@
     "explanation": "正確選項 (A)：be in bold font\nWhen an automatic renewal clause is in a lease, it means the lease will be renewed (either on a month-to-month basis or on some other specified terms) without action taken by the tenant or landlord. In California, this type of automatic renewal clause in a lease must be in bold font.\nIn California, an urban property can't be rented for more than:\n99 years\n99 months\n51 years\n51 months\nIn California, an urban property cannot be rented for more than 99 years and a rural property cannot be rented for more than 51 years.\nWhich California law protects tenants and employees from both employment and housing discrimination based on their belonging to select groups?\nFair Employment and Housing Act\nFree Establishments and Homes Act\nFree and Equal Housing Act\nEqual Opportunity Employment and Homes Act"
   },
   {
-    "id": "L324",
+    "id": "L323",
     "source": "LV 練習延伸：Level 15",
     "stemEn": "Which California law protects tenants and employees from both employment and housing discrimination based on their belonging to select groups?",
     "stemZh": "",
@@ -9720,7 +9690,7 @@
     "explanation": "正確選項 (A)：Fair Employment and Housing Act\nCalifornia's Fair Employment and Housing Act (FEHA) protects tenants and employees from both employment and housing discrimination based on race or color, ancestry or national origin, age, disability, gender, sexual orientation, gender identity or expression, medical condition, marital status, and being in the military or a veteran.\nWhen do tenants have the option of purchasing a property under a lease-option agreement?\non the date agreed upon in the contract\nonce the owner decides to sell\nat the beginning of the lease period\nonce their monthly lease payments add up to the purchase price of the property\nA lease with option to buy is a contract in which the buyer can lease a property for a period of time (usually a year) and then have an option to buy the property at a time designated in the contract.\nRandy is renting his basement apartment to Josh, his son, who is a full-time college student. There is no formal lease involved, no specified termination date or rental period established, and Josh even skips payments now and then. What type of leasehold estate best describes this arrangement?\nestate at will\nestate for years\nestate from period to period\nestate at sufferance"
   },
   {
-    "id": "L325",
+    "id": "L324",
     "source": "LV 練習延伸：Level 15",
     "stemEn": "Randy is renting his basement apartment to Josh, his son, who is a full-time college student. There is no formal lease involved, no specified termination date or rental period established, and Josh even skips payments now and then. What type of leasehold estate best describes this arrangement?",
     "stemZh": "",
@@ -9750,7 +9720,7 @@
     "explanation": "正確選項 (A)：estate at will\nThe lack of a formal lease, specified rental period, or termination date, along with the occasional lapse in rental payment, would indicate that Randy has provided an estate at will to Josh.\nThe landlord of an apartment complex refuses to rent an apartment to a couple because they are not married. The landlord's actions are:\nunacceptable because they are violating the Fair Employment and Housing Act\nacceptable because landlords have the authority to choose suitable tenants for their properties\nunacceptable because they are violating the Code of Ethics\nacceptable as long as the landlord denies leases to all unmarried couples\nThe landlord's actions are unacceptable because they violate California's Fair Employment and Housing Act (FEHA) by discriminating against the couple based on their marital status. FEHA protects tenants and employees from both employment and housing discrimination based on race or color, ancestry or national origin, age, disability, gender, sexual orientation, gender identity, medical condition, marital status, and military status (being an active member or a veteran).\nSally has been leasing a property for the past three years. Sally's landlord has decided to use the property for something else when her lease is up. What type of estate will be created if Sally refuses to leave after her lease is terminated?\ntenancy at sufferance\ntenant's estate\nestate from period to period\ntension estate"
   },
   {
-    "id": "L326",
+    "id": "L325",
     "source": "LV 練習延伸：Level 15",
     "stemEn": "The landlord of an apartment complex refuses to rent an apartment to a couple because they are not married. The landlord's actions are:",
     "stemZh": "",
@@ -9780,7 +9750,7 @@
     "explanation": "正確選項 (A)：unacceptable because they are violating the Fair Employment and Housing Act\nThe landlord's actions are unacceptable because they violate California's Fair Employment and Housing Act (FEHA) by discriminating against the couple based on their marital status. FEHA protects tenants and employees from both employment and housing discrimination based on race or color, ancestry or national origin, age, disability, gender, sexual orientation, gender identity, medical condition, marital status, and military status (being an active member or a veteran).\nSally has been leasing a property for the past three years. Sally's landlord has decided to use the property for something else when her lease is up. What type of estate will be created if Sally refuses to leave after her lease is terminated?\ntenancy at sufferance\ntenant's estate\nestate from period to period\ntension estate\nYes, Sally's landlord would create a tenancy at sufferance, also known as an estate at sufferance. A tenancy at sufferance occurs when a tenant remains in possession of or continues to occupy a property beyond their lease term, without consent from the landlord.\nLandlord Hubert uses his tenant's security deposit to repair damages to the apartment they rented for a year. Because Landlord Hubert used the security deposit funds, he must give the tenant a detailed document that shows all the charges within:\n21 days after the tenant moves out\n51 days after the tenant moves out\nseven days after he spends the funds\none year after he spends the funds"
   },
   {
-    "id": "L327",
+    "id": "L326",
     "source": "LV 練習延伸：Level 15",
     "stemEn": "Sally has been leasing a property for the past three years. Sally's landlord has decided to use the property for something else when her lease is up. What type of estate will be created if Sally refuses to leave after her lease is terminated?",
     "stemZh": "",
@@ -9810,7 +9780,7 @@
     "explanation": "正確選項 (A)：tenancy at sufferance\nYes, Sally's landlord would create a tenancy at sufferance, also known as an estate at sufferance. A tenancy at sufferance occurs when a tenant remains in possession of or continues to occupy a property beyond their lease term, without consent from the landlord.\nLandlord Hubert uses his tenant's security deposit to repair damages to the apartment they rented for a year. Because Landlord Hubert used the security deposit funds, he must give the tenant a detailed document that shows all the charges within:\n21 days after the tenant moves out\n51 days after the tenant moves out\nseven days after he spends the funds\none year after he spends the funds\nIf a landlord uses part or all of the security deposit to cover expenses, they must give the tenant a detailed document that shows all the charges at least 21 days after the tenant moves out. This is also the timeframe for which they must return the security deposit funds to the tenant.\nWhich of these is not something that would be included in a typical residential lease?\nthe option to buy at a future, specified date\nthe length of the lease\ndescription of the premises\nsignature of the lessor"
   },
   {
-    "id": "L328",
+    "id": "L327",
     "source": "LV 練習延伸：Level 15",
     "stemEn": "Landlord Hubert uses his tenant's security deposit to repair damages to the apartment they rented for a year. Because Landlord Hubert used the security deposit funds, he must give the tenant a detailed document that shows all the charges within:",
     "stemZh": "",
@@ -9840,7 +9810,7 @@
     "explanation": "正確選項 (A)：21 days after the tenant moves out\nIf a landlord uses part or all of the security deposit to cover expenses, they must give the tenant a detailed document that shows all the charges at least 21 days after the tenant moves out. This is also the timeframe for which they must return the security deposit funds to the tenant.\nWhich of these is not something that would be included in a typical residential lease?\nthe option to buy at a future, specified date\nthe length of the lease\ndescription of the premises\nsignature of the lessor\nOnly a lease with an option to buy will include the option to buy at a future, specified date. The length of the lease, description of the premises, and signature of the lessor are all required elements that every lease must include.\nTayshia is the landlord of a small apartment complex. When she gets a new tenant, she must:\nnotify the tenant that pesticides are used every month for pest control purposes\nremove any lead-based paint from the unit the tenant will rent\nprovide the tenant with information about utility providers in the area\napply for a permit to demolish the apartment complex"
   },
   {
-    "id": "L329",
+    "id": "L328",
     "source": "LV 練習延伸：Level 16",
     "stemEn": "What is a quitclaim deed?",
     "stemZh": "",
@@ -9870,7 +9840,7 @@
     "explanation": "正確選項 (A)：a type of deed that conveys any interest, title, or right to a parcel of land the grantor has at the time the deed is executed\nA quitclaim deed is a deed that conveys any interest, title, or right to a parcel of land the grantor has at the time the deed is executed.\n\"T2S R2W of Meridian 24\" is a way to identify a section of property using which method of land surveying?\ngovernment survey system\nmetes and bounds\nrecorded plat method\nlot and block\nThe government survey system uses the global lines of longitude and latitude to create a surveyed grid of meridians, base lines, townships, and ranges to describe a piece of land. \"T2S R2W of Meridian 24\" is a way to identify a section of property using the government survey system.\nGussie Fink-Nottle is renting Lady Edith's Shoreditch condo month-to-month. What kind of estate does Gussie have?\nestate from period to period\nlife estate\nestate for years\ntenancy at sufferance"
   },
   {
-    "id": "L330",
+    "id": "L329",
     "source": "LV 練習延伸：Level 16",
     "stemEn": "\"T2S R2W of Meridian 24\" is a way to identify a section of property using which method of land surveying?",
     "stemZh": "",
@@ -9900,7 +9870,7 @@
     "explanation": "正確選項 (A)：government survey system\nThe government survey system uses the global lines of longitude and latitude to create a surveyed grid of meridians, base lines, townships, and ranges to describe a piece of land. \"T2S R2W of Meridian 24\" is a way to identify a section of property using the government survey system.\nGussie Fink-Nottle is renting Lady Edith's Shoreditch condo month-to-month. What kind of estate does Gussie have?\nestate from period to period\nlife estate\nestate for years\ntenancy at sufferance\nGussie's month-to-month lease is an example of an estate from period to period.\nFiona's lender will be evaluating her for a mortgage loan. To do this, the lender will consider things like her long-term debt, the anticipated monthly mortgage payment, and her income. They have two formulas or measures they will look at.\nWhat are those formulas and how are they collectively known?\nPayment-to-income ratio and debt-to-income ratio are the two formulas or measures collectively known as the qualifying ratios.\nDebt-to-income ratio and asset-to-debt ratio are the two formulas or measures collectively known as the qualifying ratios.\nPayment-to-income ratio and debt-to-income ratio are the two formulas or measures collectively known as loan-to-value ratios."
   },
   {
-    "id": "L331",
+    "id": "L330",
     "source": "LV 練習延伸：Level 16",
     "stemEn": "Gussie Fink-Nottle is renting Lady Edith's Shoreditch condo month-to-month. What kind of estate does Gussie have?",
     "stemZh": "",
@@ -9930,7 +9900,7 @@
     "explanation": "正確選項 (A)：estate from period to period\nGussie's month-to-month lease is an example of an estate from period to period.\nFiona's lender will be evaluating her for a mortgage loan. To do this, the lender will consider things like her long-term debt, the anticipated monthly mortgage payment, and her income. They have two formulas or measures they will look at.\nWhat are those formulas and how are they collectively known?\nPayment-to-income ratio and debt-to-income ratio are the two formulas or measures collectively known as the qualifying ratios.\nDebt-to-income ratio and asset-to-debt ratio are the two formulas or measures collectively known as the qualifying ratios.\nPayment-to-income ratio and debt-to-income ratio are the two formulas or measures collectively known as loan-to-value ratios.\nLoan-to-asset ratio and asset-to-debt ratio are the two formulas or measures collectively known as the mortgage ratios.\nThe payment-to-income ratio and debt-to-income ratio are the two formulas or measures collectively known as the qualifying ratios. They provide lenders with a way to evaluate a borrower's ability to take on the monthly mortgage payments of the loan being considered for approval.\nHannah took out an interest-only loan for $140,000 with an interest rate of 4.9%. How much will her monthly interest payment be?\n$571.67\n$6,860\n$140,000"
   },
   {
-    "id": "L332",
+    "id": "L331",
     "source": "LV 練習延伸：Level 16",
     "stemEn": "What are those formulas and how are they collectively known?",
     "stemZh": "",
@@ -9960,7 +9930,7 @@
     "explanation": "正確選項 (A)：Payment-to-income ratio and debt-to-income ratio are the two formulas or measures collectively known as the qualifying ratios.\nThe payment-to-income ratio and debt-to-income ratio are the two formulas or measures collectively known as the qualifying ratios. They provide lenders with a way to evaluate a borrower's ability to take on the monthly mortgage payments of the loan being considered for approval.\nHannah took out an interest-only loan for $140,000 with an interest rate of 4.9%. How much will her monthly interest payment be?\n$571.67\n$6,860\n$140,000\n$1,245.47\nAnnual interest ÷ 12 months = Monthly interest. To find annual interest, we multiply the principal by the interest rate: $140,000 x 0.049 = $6,860. $6,860 ÷ 12 months = $571.67.\nChoose the survey method that could result in this legal description:\n\"Beginning at the intersection of the north boundary of Ace Dr. and the east boundary of Robot Rd.; proceed due north along the east line of Robot Rd. 120 ft. to its intersection with the center line of Blue Creek; then proceeding northeasterly 72 degrees along the center line of Blue Creek 408 ft. to the oak tree; then due south 200 ft. to the benchmark; then proceeding due west along the northern boundary of Ace Dr. 400 ft., returning to the point of beginning.\"\nmetes and bounds\nrectangular survey system\nlot and block"
   },
   {
-    "id": "L333",
+    "id": "L332",
     "source": "LV 練習延伸：Level 16",
     "stemEn": "In California, what is the maximum amount a landlord can charge for a security deposit?",
     "stemZh": "",

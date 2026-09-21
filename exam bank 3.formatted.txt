@@ -4545,9 +4545,9 @@ Which of these is NOT something land trusts can be used to do?
 (B) avoid paying property taxes
 (C) conceal the true owner of a property
 (D) avoid probate
-【正確答案】 (A)
+【正確答案】 (B)
 【詳細深度解析】
-正確選項 (A)：shield a property from liabilty
+正確選項 (B)：avoid paying property taxes
 這是一道關於土地信託(Land Trusts)功能界限的觀念題。了解土地信託能做什麼,才能精準判斷什麼是它「不能」做的。
 正確答案:
 avoid paying property taxes(避免支付房地產稅)
@@ -4576,9 +4576,9 @@ Harriet is a shareholder in a company. This company has hundreds of shareholders
 (B) C corp
 (C) S corp
 (D) LLC
-【正確答案】 (C)
+【正確答案】 (B)
 【詳細深度解析】
-正確選項 (C)：S corp
+正確選項 (B)：C corp
 這題的線索非常明確,只要抓出「雙重徵稅」與「公開交易」這兩個關鍵特徵,答案就呼之欲出了。
 正確答案:
 C corp(C 型公司)
@@ -5341,36 +5341,14 @@ After tax liens, "first in time is first in line" most accurately describes how 
 90
 
 Question 214
-B、C、D 具備資格):
-(A) Architect 建築師) 與 Licensed Land Surveyor(測量師): 法律明確將提供設計、規劃、測量等專業服務的設計專業人員(Design Professionals)納入保護對象。
-(B) Trucker 運輸司機): 在工程中負責將建材運抵工地或將開挖廢土運離工地的卡車司機/運輸商,屬於提供工程直接必要勞務/設備的一環,依法具備申請資格。
-(C) 💡 觀念金句:
-(D) Mechanic's Lien 只保護對物業有「實體改善或工程設計貢獻」的人(建築師、工人、測量師、建材商);房產仲介(Broker/Locator)絕不能申請!
-【正確答案】 (D)
-【詳細深度解析】
-正確選項 (D)：只保護對物業有「實體改善或工程設計貢獻」的人(建築師、工人、測量師、建材商);房產仲介(Broker/Locator)絕不能申請!
-29.題目與翻譯
-原題:According to typical lien priority, which of the following liens would be paid first?
-(譯:根據標準的留置權清償順位,下列哪一項留置權會最先獲得清償?)
-A. first mortgage recorded in April 2020 (2020 年 4 月登記的第一抵押貸款)
-B. second mortgage lien recorded in June 2021 (2021 年 6 月登記的第二抵押貸款)
-C. mechanic's lien recorded in August 2020 (2020 年 8 月登記的施工留置權)
-D. property tax lien recorded in November 2021 (2021 年 11 月登記的不動產稅留置權) [正確答案]
-解析
-這題是考驗留置權清償順位(Lien Priority)的核心原則與「超級優先權」:
-超級優先權(Super Priority):
-Property Tax Lien(不動產稅留置權) 擁有法律賦予的最高清償順位(Senior Lien)。不論該稅務留置權是在何時登記(即使是最新登記的 2021 年 11 月),政府的稅款永遠優先於所有私人留置權獲得清償。
-一般私人留置權(First in time, first in right):
-
-Question 215
 因法律規定/客觀環境變更而自動終止代理(Operation of Law) 題目:What term refers to circumstances or changes affecting the contract or the subject property that automatically result in agency termination? 什麼術語是指影響合約或標的不動產的客觀環境變化,從而「自動導致」代理關係終止?
 (A) operation of law 法律施行 / 依法律規定
 (B) acts of the parties 錯誤:雙方行為,如合意解約或單方撤銷
 (C) mutual agreement 錯誤:雙方合意
 (D) revocation 錯誤:單方撤銷
-【正確答案】 (A)
+【正確答案】 (C)
 【詳細深度解析】
-正確選項 (A)：法律施行 / 依法律規定
+正確選項 (C)：錯誤:雙方合意
 💡 詳細解析
 代理關係終止(Agency Termination)分為兩大途徑:
 Acts of the Parties(當事人行為): 雙方合意解約(Mutual Agreement)、完成交易(Performance)、經紀人放棄或委託人撤銷(Revocation)。
@@ -5424,7 +5402,7 @@ Obedience(服從): 只服從 Client 的合法指示,不服從 Customer(選項 D 
 對 Client(客戶):OLD CAR(Obedience, Loyalty, Disclosure, Confidentiality, Accounting, Reasonable Care)
 對 Customer(顧客):基本誠信(Honesty, Fair Dealing, Reasonable Care, Disclosure, Accounting),絕無 Loyalty(忠誠) 與 Confidentiality(保密)!
 
-Question 216
+Question 215
 A buyer says to their agent: “The seller must answer my offer first because it came in first!" How should the agent respond? 買家對他們的經紀人說:「賣方必須先回覆我的出價(Offer),因為我的出價是第一個送達的!」經紀人應該如何回應?
 (A) "You are absolutely right, buddy! I'll call the listing agent and remind them of that." (「 你完全正確,兄弟!我這就打給賣方經紀人提醒他這點。」
 (B) "Sorry, pal. Offers don't need to be presented in the same order in which they are received." (「 抱歉,朋友。賣方經紀人在呈現或處理出價時,並不一定要按照收到的先後順序進行。」
@@ -5434,7 +5412,7 @@ A buyer says to their agent: “The seller must answer my offer first because it
 【詳細深度解析】
 正確選項 (B)：抱歉,朋友。賣方經紀人在呈現或處理出價時,並不一定要按照收到的先後順序進行。」
 
-Question 217
+Question 216
 Which two of the three classifications of agency come with authority to bind? 在三種代理分類中,哪兩種代理擁有代表委託人簽署合約並產生法律約束力(Authority to Bind)的權力?
 (A) general and universal 一般代理 與 全權代理
 (B) special and universal 特別代理 與 全權代理
@@ -5455,7 +5433,7 @@ Special Agency(特別代理 - 無權 Bind):
 💡 觀念金句:
 有權代替簽約(Authority to Bind):General & Universal(可以);Special(絕對不行)!
 
-Question 218
+Question 217
 Which of the following duties does an agent owe to both clients and customers? 下列哪一項義務是經紀人對「Client(客戶)」與「Customer(顧客)」兩者皆必須承擔的?
 (A) confidentiality 保密義務
 (B) honesty 誠實義務
@@ -5472,7 +5450,7 @@ Confidentiality(保密): 只幫 Client 保密(如財務狀況、急賣理由、�
 Obedience(服從): 只服從 Client 的合法指示;不服從 Customer。
 Loyalty(忠誠): 只忠誠於 Client;絕對不能忠誠於 Customer。
 
-Question 219
+Question 218
 The principle that liability trickles through the chain of command, from the agent and up the ladder to the broker, can be summarized by the term 法律責任沿著指揮鏈從代理人/業務員(Agent)向上傳導至經紀人/經紀公司(Broker)的原則,可以總括為以下哪一個術語?
 (A) cooperating broker 配合經紀人 / 合作經紀公司
 (B) subagency 副代理 / 轉代理
@@ -5489,15 +5467,15 @@ D(錯誤): Intermediation 指經紀人在買賣雙方之間擔任中介或居間
 💡 觀念金句:
 Vicarious Liability = 下屬(Agent)犯錯,老闆(Broker)連帶擔責!
 
-Question 220
+Question 219
 For which of the following would a seller be found liable? 賣方(Seller)會因為下列哪一種情況而被追究法律責任(Liable)?
 (A) failure to disclose any defect in the condition of the property, regardless of whether or not it is known to them 未能揭露物業狀況中的任何瑕疵,無論該瑕疵是否為賣方所知情
 (B) failure to disclose material facts that could only be uncovered by an inspection of portions of the property that are inaccessible 未能揭露只有透過檢查無法進入/無法觸及的隱蔽區域才能發現的重大事實
 (C) information provided by public agencies or qualified experts 由政府機構或合格專家所提供的資訊
 (D) failure to disclose a defect in the condition of the property that is known to them 未能揭露其「已知情(Known to them)」的物業瑕疵
-【正確答案】 (D)
+【正確答案】 (C)
 【詳細深度解析】
-正確選項 (D)：未能揭露其「已知情(Known to them)」的物業瑕疵
+正確選項 (C)：由政府機構或合格專家所提供的資訊
 解析
 這題考驗的是不動產交易中賣方對「物業狀況揭露聲明書(Seller's Property Disclosure Form)」的法律責任界線:
 D(正確): 賣方最核心的法律責任在於誠實揭露「其已知(Known defects)」的重大瑕疵(例如:賣方知道地下室每逢大雨必漏水、牆壁內有黑黴菌或白蟻損害等)。如果賣方明明知情卻故意隱瞞(Knowing concealment),在法律上構成欺詐或違約,必須承擔法律責任(Liable)。
@@ -5521,7 +5499,7 @@ Listing Agent(賣方經紀人)➔ 幫賣方爭取「最高價(Highest price)」
 Buyer Agent(買方經紀人)➔ 幫買方爭取「最低價(Lowest price)」
 Dual Agent(雙重代理人)➔ 保持中立,兩邊都不幫!
 
-Question 221
+Question 220
 Which of the following statements BEST describes agency by ratification? 下列哪一項敘述最能描述「追認代理(Agency by Ratification)」?
 (A) when an agent takes an action unauthorized action 當代理人採取未經授權的行動時
 (B) when an agent takes an unauthorized action that is accepted after the fact by the client 當代理人採取了未經事先授權的行動,但該行動在「事後」獲得委託人的接受/認可
@@ -5538,7 +5516,7 @@ D(錯誤): 採取明確獲得事前授權的行動,屬於 Express Agency(明示�
 💡 觀念金句:
 Agency by Ratification(追認代理)= 先斬後奏(Unauthorized action),事後認可(Accepted after the fact)!
 
-Question 222
+Question 221
 California Associate Licensee Agueda recently changed brokerages. She is now sponsored by Broker Afonso. In spite of the fact that she has five years of experience practicing dual agency, Agueda no longer has the authority to do so. Which of the following best explains why that might be so? 加州副執照持有人(Associate Licensee)Agueda 最近換了經紀公司,目前由經紀人 Afonso 贊助(Sponsor)。儘管她擁有 5 年從事雙重代理(Dual Agency)的經驗,但她現在卻不再擁有執行雙重代理的權限。下列哪一個選項最能解釋為什麼會這樣?
 (A) The state prohibits dual agency. 加州法律禁止雙重代理。
 (B) Agueda's new designated broker doesn't trust her. (Agueda 的新指定經紀人不信任她。
@@ -5558,7 +5536,7 @@ B & D 錯誤: 主觀信任度或對客戶的熟悉度屬於個人與人際因素
 💡 觀念金句:
 業務員的權限(Authority)不能超越經紀公司(Brokerage)!公司不做的業務(如禁止 Dual Agency),業務員經驗再多也不能做!
 
-Question 223
+Question 222
 Using the OLDCAR framework, which of the following contains the list of fiduciary duties owed to a principal? 使用 OLDCAR 框架,下列哪一個選項包含對委託人(Principal / Client)負有的受託義務(Fiduciary Duties)完整清單?
 (A) obedience, loyalty, disclosure, confidentiality, accounting, and reasonable care 服從、忠誠、揭露、保密、帳務管理、合理審慎
 (B) obedience, liability, disclosure, confidentiality, accounting, and representation 錯誤:包含了 Liability 責任與 Representation
@@ -5568,7 +5546,7 @@ Using the OLDCAR framework, which of the following contains the list of fiduciar
 【詳細深度解析】
 正確選項 (A)：服從、忠誠、揭露、保密、帳務管理、合理審慎
 
-Question 224
+Question 223
 As soon as your single agency relationship begins to morph into a dual agency transaction, you should 一旦你的「單一代理關係(Single Agency)」開始轉變為「雙重代理交易(Dual Agency)」,你應該:
 (A) disclose it if you think dual agency might favor one party over the other 如果你認為雙重代理可能會偏向其中一方,才需要揭露
 (B) not disclose it but treat both parties fairly and equally 不揭露,但公平且平等地對待雙方
@@ -5584,7 +5562,7 @@ A(錯誤): 雙重代理的揭露是強制性法律義務,與經紀人主觀認�
 B(錯誤): 隱瞞雙重代理(Undisclosed Dual Agency)在不動產法規中屬於嚴重違法行為,可能導致執照被吊銷、佣金被沒收及面臨損害賠償。
 C(錯誤): 先前的揭露是針對「單一代理」,無法取代當前轉變為「雙重代理」時所需的專屬揭露與書面同意。
 
-Question 225
+Question 224
 Which of the following would NOT typically be prorated at closing? 在房產交易過戶結算(Closing)時,下列哪一項費用通常「不需要」進行按比例分攤(Prorated)?
 (A) prepaid taxes 預繳的房產稅
 (B) appraisal fees 房屋估價費
@@ -5603,7 +5581,7 @@ D(Utility Bills): 水電費通常是按月結算,買賣雙方須根據過戶日(
 💡 觀念金句:
 Closing 分攤鐵律:跨越過戶日期的「持續性營運/持有費用」(稅、租金、水電)要 Prorate;過戶前的「一次性服務費」(估價費 Appraisal、房屋檢查費 Inspection)直接一次結清不分攤!
 
-Question 226
+Question 225
 How much is one discount point? 在房貸中,一個折扣點(Discount Point)的費用是多少?
 (A) 1% decrease in the interest rate 利率降低 1%
 (B) 1% of the closing costs 過戶費用的 1%
@@ -5620,7 +5598,7 @@ D(錯誤 - 常考陷阱): 折扣點是基於「貸款金額(Loan Amount)」計�
 💡 觀念金句:
 Discount Point 永遠算「貸款額(Loan Amount)」,1 Point = 貸款額的 1%!
 
-Question 227
+Question 226
 How much will Bill the borrower's down payment need to be if he wants to buy a condo valued at the purchase price of $200,000 and the lender allows a maximum LTV of 80%? 借款人 Bill 想購買一套購買價格為 $200,000 的公寓,若貸款機構允許的最大貸款成數(LTV)為 80%,那麼 Bill 需要準備多少首付款(Down Payment)?
 (A) $50,000
 (B) $30,000
@@ -5631,7 +5609,7 @@ How much will Bill the borrower's down payment need to be if he wants to buy a c
 正確選項 (C)：$40,000
 LTV 是貸款金額相較於房屋價值的比例。 首付款即為購買價格減去貸款金額(也就是剩下需由買家自行出資的比率 $100\% - 80\% = 20\%$):
 
-Question 228
+Question 227
 Dream Home mortgage lender requires $80,000 down on a $300,000 property. What is the LTV on this loan? Dream Home 貸款機構要求對價值 $300,000 的物業支付 $80,000 的首付款(Down Payment)。請問該筆貸款的貸款成數(LTV)是多少?
 (A) 80%
 (B) 73%
@@ -5642,7 +5620,7 @@ Dream Home mortgage lender requires $80,000 down on a $300,000 property. What is
 正確選項 (B)：73%
 LTV 算的是「借多少錢(Loan)」,不是「出多少自備款(Down Payment)」
 
-Question 229
+Question 228
 Which of these is a CFPB program designed to simplify forms for borrowers? 下列哪一個是 CFPB(美國消費者金融保護局)旨在為借款人簡化表格的計畫/方案?
 (A) Try Before You Buy 干擾選項,常見於消費試用
 (B) Neither Borrower Nor Lender Be 干擾選項,引用自莎士比亞名言
@@ -5661,7 +5639,7 @@ Closing Disclosure (CD,過戶揭露書): 房貸過戶前至少 3 個工作天提
 💡 考試直覺反射金句:
 CFPB 簡化房貸表格計畫 = Know Before You Owe(先懂再借 / 先知後債)!
 
-Question 230
+Question 229
 Which two disclosure forms would a borrower getting a loan today receive? 今日申請房貸的借款人會收到哪兩份揭露表格?
 (A) the Estimated Cost to Close the Final Cost to Close 過戶預估費用表與過戶最終費用表 — 非法定標準表格名稱
 (B) the HUD-1 and the TILA disclosure (HUD-1 結算表與 TILA 揭露書 — 2015 年前採用的舊版舊制表格
@@ -5672,7 +5650,7 @@ Which two disclosure forms would a borrower getting a loan today receive? 今日
 正確選項 (D)：the Loan Estimate and the Closing Disclosure
 房貸揭露現行兩大標準表格:申請看 LE (Loan Estimate),過戶看 CD (Closing Disclosure)!
 
-Question 231
+Question 230
 A brokerage agreement establishes a relationship between which parties? 經紀協議(Brokerage Agreement)是在哪些當事人之間建立法律關係?
 (A) a broker and an associate licensee 經紀人與旗下執照業務員
 (B) a broker and a buyer or seller 經紀公司/經紀人 與 買方或賣方
@@ -5686,7 +5664,7 @@ A brokerage agreement establishes a relationship between which parties? 經紀�
 原題下方隨附的文字「A brokerage agreement establishes a relationship between a broker and an associate licensee...」描述的是獨立承攬合約(Independent Contractor Agreement)或雇傭協議,這在不動產法規中是常見的干擾概念。
 在標準不動產法規(Real Estate Law)中,Brokerage Agreement(經紀服務合約,如 Listing Agreement 或 Buyer Representation Agreement)是專指「經紀公司(Broker/Brokerage)」與「客戶(Client / Buyer or Seller)」之間簽訂的合約。旗下業務員(Associate Licensee)雖然代表公司出面簽字,但法律上的合約主體永遠是 Broker 與 Client。
 
-Question 232
+Question 231
 Which of the following might ensue if Kayla fails to clarify her agency relationships with the buyer and the seller? 如果經紀人 Kayla 未能向買方及賣方澄清其代理關係,可能會導致下列哪種後果?
 (A) undisclosed dual agency 未揭露的雙重代理
 (B) informed consent 知情同意
@@ -5699,7 +5677,7 @@ Which of the following might ensue if Kayla fails to clarify her agency relation
 A(正確): 賣方已經是 Kayla 的 Client。當買方 Anastasios 聯絡 Kayla 睇樓時,若 Kayla 未先澄清自己代表賣方(Seller's Agent),買方可能會因為 Kayla 帶看與諮詢的行為,誤以為 Kayla 也代表自己(產生默示代理 Implied Agency)。這會使 Kayla 無意間陷人未揭露雙重代理(Undisclosed Dual Agency)的違法狀態。
 考點提示: 未揭露的雙重代理(Undisclosed Dual Agency)是嚴重違法行為,會導致執照被吊銷、合約被撤銷(Voidable)以及沒收佣金。
 
-Question 233
+Question 232
 Which of the following provides the best GENERAL definition of brokerage? 下列哪一項最能提供「仲介/居間(Brokerage)」的通用定義?
 (A) the joining of two people to exchange products or services 將兩人/雙方連結在一起以交換產品或服務
 (B) repairing that which is broken 修復損壞的事物
@@ -5712,7 +5690,7 @@ Which of the following provides the best GENERAL definition of brokerage? 下列
 A(正確): 廣義的 Brokerage(仲介/居間) 核心概念就是「搭建橋樑(Bringing parties together)」—將買賣雙方(或租賃雙方)連結在一起,協助促成產品或服務的交易。
 D 辨析: 代表某一方最大利益是「Agency(代理)」的定義,而非廣義「Brokerage(居間仲介)」的定義。
 
-Question 234
+Question 233
 Under what legal concept is a broker held responsible for the actions of an agent under their supervision? 根據哪一個法律概念,經紀人(Broker)需要對其監督下的業務員(Agent)之行為承擔法律責任?
 (A) vicarious liability 轉嫁責任 / 替代責任
 (B) tort liability 侵權責任
@@ -5725,7 +5703,7 @@ Under what legal concept is a broker held responsible for the actions of an agen
 A(正確): Vicarious Liability(轉嫁責任 / 替代責任) 指雇主或主要授權人(Broker)必須對下屬或受託代理人(Salesperson / Associate Licensee)在執行業務範圍內的過失、疏忽或違規行為承擔連帶責任。
 考試記憶卡: 業務員(Salesperson)犯錯 ➔ 經紀人(Broker)連帶擔責(Vicarious Liability)。
 
-Question 235
+Question 234
 Which of these parties would NOT enter into agency agreements through written buyer/tenant agreements? 下列哪一類當事人「不會」透過書面的買方/租客代理協議(Buyer/Tenant Agreements)來建立代理關係?
 (A) listing agents 委託銷售經紀人 / 賣方經紀人
 (B) buyers 買方
@@ -5738,7 +5716,7 @@ Which of these parties would NOT enter into agency agreements through written bu
 A(正確): Listing Agents(賣方經紀人) 與賣方(Seller)建立代理關係使用的是 Listing Agreement(委託銷售合約),而不是 Buyer/Tenant Representation Agreement。
 B、C、D: 買方(Buyers)、租客(Tenants)以及買方經紀人(Buyer's Agents)都是使用 Buyer/Tenant Representation Agreement 來規範彼此的權利義務。
 
-Question 236
+Question 235
 Under what circumstance, if any, can a dual agent disclose to the other party that the seller will accept a price or terms other than stated in the listing, or that the buyer will accept a price or terms other than offered? 在什麼情況下(如果有的話),雙重代理人(Dual Agent)可以向另一方透露賣方願意接受低於掛牌價的價格/條件,或者買方願意支付高於出價的價格/條件?
 (A) only with written authorization 只有在獲得「書面授權」的情況下
 (B) if it will help both parties 如果這有助於雙方
@@ -5751,7 +5729,7 @@ Under what circumstance, if any, can a dual agent disclose to the other party th
 A(正確): 雙重代理的鐵律是必須保持完全中立,預設情況下絕對嚴禁向買方洩漏賣方底價,或向賣方洩漏買方頂價。但法律留有一個唯一例外:除非該委託人給予了明確的「書面授權(Written Authorization)」許可透露。
 陷阱提示: 很多人會誤選 D(Under no circumstance),但忽視了「只要有 Client 的專屬書面許可(Written Authorization),授權即可解除保密限制」這一法律原則。
 
-Question 237
+Question 236
 Seller Jenny and buyer Kelsey are both represented by broker Whitney in the same transaction, but neither is aware that they share the same agent. What is the term for this? 賣方 Jenny 與買方 Kelsey 在同一筆交易中均由經紀人 Whitney 代表,但雙方都不知道他們共享同一位經紀人。這稱為什麼?
 (A) undisclosed dual agency 未揭露的雙重代理
 (B) undisclosed subagency 未揭露的副代理
@@ -5763,7 +5741,7 @@ Seller Jenny and buyer Kelsey are both represented by broker Whitney in the same
 🔍 深度解析
 A(正確): 當同一個 Broker(或同家公司)同時代表買賣雙方,卻沒有事先取得雙方知情並簽署書面同意(Informed Written Consent),即稱為 Undisclosed Dual Agency。這屬於嚴重的非法行為與違約(Violation of Agency Law)。
 
-Question 238
+Question 237
 Seller agency is a single agency relationship between 賣方代理(Seller Agency)是指哪兩方之間的單一代理關係?
 (A) the listing agent and the seller 委託銷售經紀人與賣方
 (B) the listing agent and the buyer 委託銷售經紀人與買方
@@ -5776,7 +5754,7 @@ Seller agency is a single agency relationship between 賣方代理(Seller Agency
 A(正確): Seller Agency(賣方代理) 屬於單一代理(Single Agency)的一種,專指經紀人/經紀公司(Listing Agent)與賣方(Seller)簽訂委託銷售合約(Listing Agreement),僅對賣方承擔最高受託義務(Fiduciary Duties)。
 D 辨析: 買方經紀人與買方之間的關係則稱為 Buyer Agency(買方代理)。
 
-Question 239
+Question 238
 What is the term for a for-profit business specifically formed to complete real estate transactions? 專為完成不動產交易而成立的營利性企業,稱為什麼?
 (A) brokerage 不動產經紀公司 / 仲介機構
 (B) partnership 合夥企業
@@ -5790,7 +5768,7 @@ A(正確): Brokerage(經紀公司/仲介機構) 是依法設立、持有經紀�
 C 辨析: REIT(Real Estate Investment Trust)是投資信託基金,主要進行不動產投資與資產管理,非以「仲介撮合交易」為主要營運型態。
 D 辨析: HOA(Homeowners Association)是社區管理委員會,屬於非營利或管理性質組織。
 
-Question 240
+Question 239
 What is the difference between a selling agent and a buyer's agent? Selling Agent(成交/帶買方經紀人)與 Buyer's Agent(買方經紀人)有何不同?
 (A) There isn't any: They are different names for the same agent. 兩者沒有不同:它們是同一個經紀人的不同稱呼。
 (B) Selling agents serve sellers, but buyer's agents serve buyers. (Selling agents 服務賣方,而 buyer's agents 服務買方。
@@ -5804,7 +5782,7 @@ A(正確): 這是不動產考試中極易混淆的術語陷阱!
 Seller's Agent / Listing Agent: 專指代表「賣方」的經紀人。
 Selling Agent: 指「促成房屋售出(Sell)」的經紀人。因為是代表買方把房子買下並促成交易,所以在法律術語中,Selling Agent 就是代表買方的經紀人(同等於 Buyer's Agent)。
 
-Question 241
+Question 240
 Which of these four individuals associated with the Get Realty brokerage firm is liable for the activities of everyone there? 在 Get Realty 經紀公司的下列四個人員中,誰需要對公司內所有人的業務活動承擔法律責任?
 (A) Broker Zaid 經紀人 Zaid
 (B) Office Manager Marsha 辦公室經理 Marsha
@@ -5816,7 +5794,7 @@ Which of these four individuals associated with the Get Realty brokerage firm is
 🔍 深度解析
 A(正確): 每一家不動產經紀公司都必須有一位主事/贊助經紀人(Designated / Principal / Sponsoring Broker)。根據 Vicarious Liability(轉嫁責任) 原則,主事經紀人(Broker Zaid)需要對旗下所有授權業務員(Salespersons)、副經紀人(Broker-associates)及行政人員在執業過程中的行為負最終的法律監管責任。
 
-Question 242
+Question 241
 Broker Charu markets herself as a real estate professional who always gives undivided loyalty to her clients so much so that she refuses to allow her brokerage to represent or work for both sides of the same transaction. Which of the following brokerage relationships most accurately applies to Charu? 經紀人 Charu 將自己定位為始終給予客戶「完全且專一忠誠(Undivided Loyalty)」的專業人士,甚至因此拒絕讓自己的經紀公司在同一筆交易中同時代表買賣雙方。下列哪一種代理關係最適合形容 Charu?
 (A) single agent 單一代理人
 (B) dual agent 雙重代理人
@@ -5829,7 +5807,7 @@ Broker Charu markets herself as a real estate professional who always gives undi
 A(正確): Single Agent(單一代理人) 的核心特徵就是只代表交易中的其中一方(僅代表買方或僅代表賣方),從而能夠提供 100% 不受削弱的專一忠誠(Undivided Loyalty)。
 B 辨析: 雙重代理(Dual Agency)會削弱專一忠誠度,無法幫單一方爭取極致利益。
 
-Question 243
+Question 242
 What is the term for a broker who is NOT affiliated with the brokerage representing a principal in a real estate transaction? 在不動產交易中,不隸屬於代表委託人之經紀公司、但參與配合交易的經紀人,稱為什麼?
 (A) cooperating broker 配合經紀人 / 合作經紀人
 (B) listing broker 委託銷售經紀人
@@ -5841,7 +5819,7 @@ What is the term for a broker who is NOT affiliated with the brokerage represent
 🔍 深度解析
 A(正確): Cooperating Broker(合作經紀人) 指來自另一家獨立經紀公司的經紀人,透過 MLS(多重上市服務系統)等管道,帶領買方前來參與並促成 Listing Broker 所掛牌物業的交易。
 
-Question 244
+Question 243
 A brokerage allows its sponsored licensees to represent buyers or sellers, but never both in the same transaction. What type of agents are this brokerage's sponsored licensees authorized to operate as? 一家經紀公司允許旗下業務員代表買方或賣方,但「絕不允許在同一筆交易中同時代表雙方」。該公司授權其業務員以何種代理人型態執業?
 (A) single agents 單一代理人
 (B) dual agents 雙重代理人
@@ -5853,7 +5831,7 @@ A brokerage allows its sponsored licensees to represent buyers or sellers, but n
 🔍 深度解析
 A(正確): 經紀公司明確規定旗下業務員只能代表單一方面(買方 OR 賣方),禁止同行雙重代表,這就是標準的 Single Agency Policy(單一代理政策),業務員即作為 Single Agents 執業。
 
-Question 245
+Question 244
 One week, Broker Chad takes on a seller as a client in a single agency relationship while Chad's sponsored broker-associate signs a buyer to a single agency agreement. The following week, that buyer decides to make an offer on the seller's property. So both parties in the transaction are represented by Chad's brokerage. How many times does agency need to be disclosed and to whom should it be disclosed? 某週,經紀人 Chad 以「單一代理(Single Agency)」關係簽下了賣方客戶;同時,Chad 旗下的副經紀人也與一位買方簽署了「單一代理」協議。下週,該買方決定對該賣方的物件出價,因此該筆交易中的買賣雙方均由 Chad 的經紀公司代表。請問代理關係總共需要進行幾次揭露?應該向誰揭露?
 (A) four times total: twice to both parties as the relationships changed from single agency to dual agency 總共 4 次:向買賣雙方各揭露 2 次,因為代理關係從單一代理轉變為雙重代理
 (B) two times total: one time for both parties when they first entered into an agency relationship 總共 2 次:雙方最初建立代理關係時各揭露 1 次
@@ -5871,7 +5849,7 @@ One week, Broker Chad takes on a seller as a client in a single agency relations
 第 4 次: 同理,必須向買方再次揭露代理關係已轉變為雙重代理並取得同意。
 核心觀念: 代理關係變更(Single ➔ Dual)屬於重大事實異動,買賣雙方各需經歷「建立時 1 次 + 轉變時 1 次」= 總共 4 次揭露。
 
-Question 246
+Question 245
 What type of real estate do most salespersons specialize in when they first begin their careers? 大多數業務員在職涯剛起步時,通常專精於哪一種類型的不動產?
 (A) residential 住宅不動產
 (B) commercial 商業不動產
@@ -5884,7 +5862,7 @@ What type of real estate do most salespersons specialize in when they first begi
 正確答案:A (residential)
 概念拆解: Residential Real Estate(住宅不動產) 是絕大多數新人進入不動產行業的起點。相比於商業不動產(Commercial)需要複雜的財務分析、租約結構與較長的成交週期,住宅不動產具備入場門檻較低、市場需求廣泛、交易頻率高等特點,適合初學者積累經驗與建立客戶群。
 
-Question 247
+Question 246
 John has an easement appurtenant that allows him to cross Sally's land. Sally is selling her property. When Sally's property sells, John will:John 擁有一個「附隨地役權(Easement Appurtenant)」,允許他穿越 Sally 的土地。Sally 目前正在出售她的房產。當 Sally 的房產賣出後,John 將會
 (A) not have a problem as easements run with the land 不會遇到問題,因為地役權是「隨土地移轉(Runs with the land)」的
 (B) lose his right to use Sally’s property 失去使用 Sally 房產的權利
@@ -5899,7 +5877,7 @@ John has an easement appurtenant that allows him to cross Sally's land. Sally is
 Easement Appurtenant(附隨地役權): 是附著於土地本身的權利(Bind to the land),主要用於解決袋地通行問題。包含需役地(Dominant Tenement,John 的土地,享有權利) 與 供役地(Servient Tenement,Sally 的土地,承受負擔)。
 Runs with the Land(隨土地移轉/隨地走): 無論 Sally 將土地賣給誰,供役地上的這項地役權自動跟隨土地轉移給新買家,John 的通行權完全不受土地所有權人更換的影響。
 
-Question 248
+Question 247
 The six fiduciary duties of OLDCAR stand for 受託義務縮寫 OLDCAR 所代表的六項職責分別為:
 (A) Obedience, Loyalty, Disclosure, Confidentiality, Accounting, and Reasonable skill and care 服從、忠誠、揭露、保密、帳務管理、合理審慎與專業技能
 (B) Obedience, Lifetime service, Disclosure, Confidence, Accounting, and Reasonable skill and care 錯誤:包含了 Lifetime service 終身服務與 Confidence
@@ -5918,7 +5896,7 @@ Confidentiality(永久保密)
 Accounting(妥善託管款項與帳務)
 Reasonable skill and care(展現專業合理審慎)
 
-Question 249
+Question 248
 Ranches, orchards, and pastures are examples of 大農場/大牧場(Ranches)、果園(Orchards)與牧草地(Pastures)屬於下列哪一類不動產的範例?
 (A) agricultural real estate 農業不動產
 (B) industrial real estate 工業不動產
@@ -5931,7 +5909,7 @@ Ranches, orchards, and pastures are examples of 大農場/大牧場(Ranches)、�
 正確答案:A (agricultural real estate)
 概念拆解: Agricultural Real Estate(農業不動產) 指專門用於商業化耕作、作物栽培、果樹種植(Orchards)、畜牧養殖(Ranches & Pastures)及林業採伐等生產日常飲食與自然資源的土地及設施。
 
-Question 250
+Question 249
 Haseena grants a life estate to John. John owns the estate until he dies. Haseena designated that after John's death, the estate would pass to Hila (a third party). What can Hila be described as? Haseena 將一份終身物權(Life Estate)授予 John。John 擁有該物權直到去世。Haseena 指定在 John 去世後,該物權將轉移給第三方 Hila。請問 Hila 可以被稱為什麼?
 (A) the remainderman 剩餘權人 / 剩餘權利繼承人
 (B) the reversionary interest 復歸權 / 復歸權益持有者
@@ -5948,7 +5926,7 @@ Life Estate(終身物權): 以某人(如 John,稱為 Life Tenant)的生命終點
 Reversionary Interest(復歸權): 契約規定去世後產權回到原授權人(Grantor,如 Haseena) 或其家族手中。
 Remainder Interest(剩餘權): 契約指定去世後產權轉移給第三方(Third Party,如 Hila)。取得此未來權利的第三方即稱為 Remainderman(剩餘權人)。
 
-Question 251
+Question 250
 Which of the following is TRUE about single agency but NOT TRUE about dual agency? 關於「單一代理(Single Agency)」何者為真,但對「雙重代理(Dual Agency)」而言為假?
 (A) Clients receive full disclosure and undivided loyalty. 客戶能獲得完全揭露與專一忠誠
 (B) It is used only with in-house transactions. 僅用於公司內部交易 — 這是雙重代理的特點
@@ -5962,7 +5940,7 @@ Which of the following is TRUE about single agency but NOT TRUE about dual agenc
 Single Agency(單一代理): 經紀人僅代表買方或賣方單一方,因此能夠無衝突地提供 100% 專一忠誠(Undivided Loyalty) 與 完全揭露(Full Disclosure),全力爭取單一方的最大利益。
 Dual Agency(雙重代理): 經紀人同時代表買賣雙方,法律規定必須保持完全中立,絕對無法提供專一忠誠(無法幫賣方喊最高價,也無法幫買方殺最低價),因此被稱為一種「妥協的代理模式(Compromised Agency)」。
 
-Question 252
+Question 251
 How are deed restrictions enforced? 契據限制(Deed Restrictions)是如何強制執行的?
 (A) through the courts 透過法院程序/申請禁制令
 (B) by local law enforcement officers 由當地執法人員/警察執行
@@ -5976,7 +5954,7 @@ How are deed restrictions enforced? 契據限制(Deed Restrictions)是如何強�
 Deed Restrictions(契據限制,如社區 CC&Rs): 屬於私法上的土地使用限制(Private Land Use Controls),例如規定房屋外牆顏色、禁止停放大型 RV 車等。
 執行管道: 警察或政府部門(Law Enforcement)不會管轄私人間的契據條款。若住戶違規,制定該限制的人、鄰居或 社區管委會(HOA) 必須向法院提起訴訟(Through the courts),申請法院禁制令(Injunction)強制違規者改正。
 
-Question 253
+Question 252
 Martha has her property in a trust. Her heir is the beneficiary, and she has named a non-family trustee. She cannot access the property or remove it, and when she dies, her heirs won't pay estate tax on it, and it won't be probated. What kind of trust is this? Martha 將她的物業放入信託中。她的繼承人是受益人(Beneficiary),且她指定了一位非家族成員擔任受託人(Trustee)。她無法隨意存取或撤回該物業;當她去世時,繼承人無需為該物業繳納遺產稅,且該物業不會經過遺囑認證(Probate)。這是哪種信託?
 (A) irrevocable trust 不可撤銷信託
 (B) revocable trust 可撤銷信託
@@ -5989,7 +5967,7 @@ Martha has her property in a trust. Her heir is the beneficiary, and she has nam
 核心概念拆解:Irrevocable Trust(不可撤銷信託): 信託一旦成立,委託人(Trustor)即完全放棄對該財產的所有權與控制權(Cannot remove/change)。由於物業在法律上已不屬於 Martha 的個人資產,因此在她過世時可以完美避開遺囑認證(Probate)與遺產稅(Estate Tax)。
 對比 Revocable Trust(可撤銷信託): 委託人在世時可隨時更改或撤銷,能避開 Probate,但因為仍保有控制權,死後該財產仍會被計入遺產課稅。
 
-Question 254
+Question 253
 Broker Maris has a team of eight people working for her brokerage. Which of the following individuals would be her sponsored associate licensees? 經紀人 Maris 的經紀公司團隊中有 8 名員工。下列哪些人員屬於她贊助的「持照從業人員(Sponsored Associate Licensees)」?
 (A) salespersons and broker-associates 不動產業務員與副經紀人
 (B) office managers and unlicensed assistants 辦公室經理與無照助手
@@ -6004,7 +5982,7 @@ Sponsored Associate Licensees: 指已經考取不動產執照(License Holders),�
 人員構成: 包括 Salespersons(銷售業務員) 以及 Broker-Associates(已考取經紀人執照,但選擇在別人的公司擔任副手的經紀人)。
 無照助手(Unlicensed Assistants)沒有執照,合作經紀人(Cooperating Brokers)隸屬其他經紀公司,均非本公司的 Sponsored Licensees。
 
-Question 255
+Question 254
 Which of these deeds guarantees all six covenants but only during the time that the present owner held title? 下列哪一種契據保證了全部六項誓約,但僅限於現任業主持有產權的期間?
 (A) grant deed 轉讓契據
 (B) warranty deed 一般擔保契據
@@ -6021,7 +5999,7 @@ B (warranty deed / General Warranty Deed): 擔保範圍追溯至歷史上所有�
 C (bargain and sale deed): 默示擁有產權,但完全不提供任何無負擔擔保(No warranty against encumbrances)。
 D (quitclaim deed): 最差的契據,完全不提供任何擔保與保證,僅轉讓轉讓人當下可能擁有的權益。
 
-Question 256
+Question 255
 Which of these lists contains three types of deeds used in California? 下列哪一個清單包含了加州所使用的三種契據類型?
 (A) warranty deeds, grant deeds, and quitclaim deeds 擔保契據、轉讓契據與放棄權利契據
 (B) judicial deeds, corrective deeds, and bargain and sale deeds 司法契據、更正契據與買賣契據
@@ -6036,7 +6014,7 @@ Which of these lists contains three types of deeds used in California? 下列哪
 選項錯誤原因(關鍵秒殺技巧):
 加州(California)完全不採用 Bargain and Sale Deed(買賣契據)!因此凡是包含 Bargain and Sale Deed 的選項 B、C、D 均可直接排除。
 
-Question 257
+Question 256
 Out of the following options, which option is considered the BEST evidence of title? 在下列選項中,哪一個被認為是最佳的產權證明?
 (A) title insurance 產權保險
 (B) opinion of title 律師產權意見書
@@ -6053,7 +6031,7 @@ B (opinion of title): 僅為律師的個人法律觀點,若未來出現隱藏瑕
 C (certificate of title): 僅聲明產權現狀,缺乏財務保險理賠機制。
 D (chain of title): 僅為歷代業主的轉手歷史紀錄清單(歷史紀錄不等於沒有瑕疵的證明)。
 
-Question 258
+Question 257
 A person selling his home has looked everywhere and cannot find his original deed. How will the title company solve this problem? 一位正在賣房的人翻遍各處都找不到當初買房的正本契據。產權公司會如何解決這個問題?
 (A) They will order a copy of the recorded deed from the county records. 他們會向縣政府紀錄處申請調閱已登錄契據的副本
 (B) It cannot be solved. Tom has no proof of ownership. 無法解決,Tom 將沒有所有權證明
@@ -6066,7 +6044,7 @@ A person selling his home has looked everywhere and cannot find his original dee
 正確答案:A (They will order a copy of the recorded deed from the county records.)
 概念拆解: 正本契據(Original Deed)紙張遺失並不會喪失房屋所有權。因為當初房屋過戶時,契據已經送交 County Recorder(縣政府登記處) 完成登錄(Recording)。登錄後的契據屬於公共紀錄(Public Records),產權公司只需向縣政府調閱官方蓋印的副本即可核實所有權。
 
-Question 259
+Question 258
 What is a deed without any warranty against encumbrances that only implies that the grantor holds the right to convey title? 完全不提供任何無負擔擔保,僅「默示」轉讓人擁有轉讓產權權力的契據是什麼?
 (A) bargain and sale deed 買賣契據
 (B) land patent 土地專利證書/政府原始授權書
@@ -6082,7 +6060,7 @@ What is a deed without any warranty against encumbrances that only implies that 
 C (quitclaim deed): 連「轉讓人擁有所有權」的默示都不提供(只轉讓當下可能有的權益)。
 D (warranty deed): 提供完整且強大的無瑕疵與無負擔擔保。
 
-Question 260
+Question 259
 Which instrument of conveyance provides the grantee with the greatest protection? 哪一種轉讓工具能給予受讓者(買方)最大/最高等級的保護?
 (A) warranty deed 一般)擔保契據
 (B) bargain and sale deed 買賣契據
@@ -6097,7 +6075,7 @@ Which instrument of conveyance provides the grantee with the greatest protection
 保護力強弱排序(考試必背):
 General Warranty Deed (最高) ➔ Special Warranty Deed / Grant Deed ➔ Bargain & Sale Deed ➔ Quitclaim Deed (最低)。
 
-Question 261
+Question 260
 The covenant that assures that the grantor holds the title being conveyed in the deed is the 契據中向買方保證「轉讓人確實合法擁有該轉讓產權」的誓約是:
 (A) covenant of seisin 所有權誓約 / 占有誓約
 (B) covenant against encumbrances 無負擔誓約
@@ -6114,7 +6092,7 @@ B (against encumbrances): 保證除契據中載明的項目外,房屋沒有其�
 C (quiet enjoyment): 保證買方購入後不會被擁有更高產權優先權的第三方驅逐或干擾。
 D (further assurances): 保證轉讓人未來願意簽署任何必要的法律文件來補正產權瑕疵。
 
-Question 262
+Question 261
 What is a legal process by which a court determines the validity of a will and establishes the assets of a decedent and who will inherit those assets? 由法院確認遺囑效力、釐清逝者資產並確定誰將繼承該資產的法定程序稱為什麼?
 (A) probate 遺囑認證 / 遺產法庭程序
 (B) testate 有遺囑的狀態
@@ -6131,7 +6109,7 @@ B (testate): 形容人去世時「留有合法遺囑」的法律狀態(名詞/�
 C (intestate): 形容人去世時「未留遺囑」的法律狀態。
 D (adverse possession): 指未經許可長期公開佔用他人土地而依法取得所有權的法律機制。
 
-Question 263
+Question 262
 A deed specifies that the property being transferred comes with an easement (and describes the easement). What is an example of? 契據中特別說明並描述轉讓的物業附帶一項地役權,這属于下列哪一個範例?
 (A) reservation or exception 保留或例外條款
 (B) granting clause 轉讓條款
@@ -6148,7 +6126,7 @@ B (granting clause): 契據中表達轉讓意圖的核心句子(如 "I hereby gr
 C (consideration): 契約成立的金錢或價值對價。
 D (habendum clause): 標誌詞為 "To have and to hold",定義買方取得的權利種類(如 Fee Simple)。
 
-Question 264
+Question 263
 What is delivery and acceptance? 什麼是「交付與接受(Delivery and Acceptance)」?
 (A) required actions for the proper execution of a deed, involving delivery of the deed by the grantor and acceptance by the grantee 契據正式生效的法定必要動作,包含轉讓人交付契據與受讓人接受物業
 (B) an instrument that conveys public land to an individual 將公有土地轉讓給個人的法律工具 — 應為 Land Patent
@@ -6161,7 +6139,7 @@ What is delivery and acceptance? 什麼是「交付與接受(Delivery and Accept
 正確答案:A
 概念拆解: 契據單純簽字(Signed)還不夠!必須經過轉讓人意圖將產權移轉的「Delivery(交付)」以及受讓人的「Acceptance(接受)」,產權移轉(Title Transfer)才在法律上正式完成與生效。
 
-Question 265
+Question 264
 What is a description of a property that is distinct and precise enough to distinguish it from all other properties? 對物業進行極為精準且獨一無二的描述,足以將其與世界上所有其他物業區分開來,稱為什麼?
 (A) legal description 不動產法定描述
 (B) bargain and sale deed 買賣契據
@@ -6174,7 +6152,7 @@ What is a description of a property that is distinct and precise enough to disti
 正確答案:A (legal description)
 概念拆解: Legal Description(法定描述) 是法律文件上唯一的官方標準界定方式(如 Metes & Bounds、Lot & Block、Government Survey)。一般的街道地址(Street Address)可能重複或隨政府規劃更換,唯有 Legal Description 能精準且唯一地標示地表上的特定界線。
 
-Question 266
+Question 265
 An agent's client is concerned about the marketability of their title. The agent advises that if they want their title to be marketable, they need to focus on clearing up all 經紀人的客戶擔心其產權的可銷售性。經紀人建議若要確保產權為可銷售產權,必須重點清理所有的:
 (A) significant encumbrances and liens 重大負擔與留置權
 (B) mortgages 抵押權
@@ -6189,7 +6167,7 @@ An agent's client is concerned about the marketability of their title. The agent
 選項錯誤原因:
 B (mortgages): Mortgages 屬於 Liens 的一種,但選項 A 包含了更廣泛的所有重大 Lien 與 Encumbrance,故 A 為最佳且最完整的答案。
 
-Question 267
+Question 266
 What does recording a deed create in the public record? 將契據登錄於公共紀錄中會產生什麼?
 (A) constructive notice 擬制告知 / 推定告知
 (B) actual notice 實際告知
@@ -6202,7 +6180,7 @@ What does recording a deed create in the public record? 將契據登錄於公共
 正確答案:A (constructive notice)
 概念拆解: 將契據送至 County Recorder 辦理登錄(Recording),即在法律上建立了 Constructive Notice(擬制告知)。法律直接假設社會大眾(包括潛在買家)均有管道查詢並知悉該產權的異動情況。
 
-Question 268
+Question 267
 You are an attorney who works for a title company. You perform a title search for a client, analyzing the chain of title, clouds on the title, and looking for any title issues. You label this search a(n) 你是產權公司的律師,為客戶進行產權檢索,分析產權連鎖、產權瑕疵並尋找潛在問題。你會將這份檢索成果標註為:
 (A) abstract of title 產權摘要
 (B) title plant 產權資料庫
@@ -6218,7 +6196,7 @@ You are an attorney who works for a title company. You perform a title search fo
 B (title plant): 產權公司內部儲存歷史紀錄的資料庫機房/設施。
 C (equitable title): 買賣合約簽署後、正式過戶拿 Deed 前,買方獲得的法律權益。
 
-Question 269
+Question 268
 A grandfather conveys his property to his granddaughter. The deed contains: (1) the granddaughter's name; (2) a statement that he has received $10 and the granddaughter's love and affection; and (3) a statement that the property is conveyed to the granddaughter “to have and to hold.” Identify, in order, these elements of the deed? 祖父將房產轉讓給孫女。契據包含:(1) 孫女的名字;(2) 收到 $10 元以及孫女的愛與關懷之聲明;(3) 房產轉讓給孫女「以擁有並持有」之聲明。請依序識別這三個契據要素?
 (A) grantee; consideration; habendum clause 受讓人;對價;產權處分/權能條款
 (B) grantee; consideration; grantor 受讓人;對價;轉讓人
@@ -6233,7 +6211,7 @@ A grandfather conveys his property to his granddaughter. The deed contains: (1) 
 元素 (2) $10 + Love and affection ➔ Consideration(對價): 契約成立的法定對價(親情贈與常用 Good Consideration,即愛與關懷)。
 元素 (3) "To have and to hold" ➔ Habendum Clause(權能條款): 契據中明確定義受讓人獲得何種權利範圍(如 Fee Simple 或 Life Estate)的專屬標誌性條款。
 
-Question 270
+Question 269
 What is the difference between actual and constructive notice? 實際告知(Actual Notice)與擬制告知/推定告知(Constructive Notice)有何不同?
 (A) Constructive notice is direct or first-hand knowledge... 敘述顛倒,誤將 Constructive notice 說成第一手知識
 (B) Constructive notice is the assumption that a diligent individual can search the public record to gain knowledge; actual notice is direct or first-hand knowledge. 擬制告知是假設勤勉的個人可透過檢索公共紀錄獲取知識;實際告知則是直接或第一手的親身知悉
@@ -6255,7 +6233,7 @@ Actual Notice(實際告知 / 親身知悉):
 Constructive Notice = 登錄公共紀錄(Public Records)或實際佔有,法律推定你知情!
 Actual Notice = 親眼看見、親耳聽聞(First-hand Knowledge),你真的知道!
 
-Question 271
+Question 270
 When applicable, what is the best form of title evidence? 在適用/採行的情況下,哪一種是最佳的產權證明(Evidence of Title)形式?
 (A) Torrens certificate 托倫斯產權登記證書
 (B) abstract of title 產權摘要
@@ -6277,7 +6255,7 @@ Attorney's Opinion of Title(律師產權意見書): 由律師閱讀摘要後出�
 💡 考試直覺反射金句:
 產權證明(Evidence of Title)排行榜:Torrens Certificate 第一(Best) ➔ Title Insurance 第二!
 
-Question 272
+Question 271
 A seller sells their home to a buyer. At a basic level, what roles are the buyer and the seller playing in a real estate transaction? 賣方將房屋出售給買方。在基礎層面上,買方與賣方在不動產交易中分別扮演什麼法律角色?
 (A) The buyer is the testator, the seller is the legatee. 買方是立遺囑人,賣方是受遺贈人
 (B) The seller is the legatee, the buyer is the testator. 賣方是受遺贈人,買方是立遺囑人
@@ -6302,7 +6280,7 @@ Legatee(受遺贈人): 透過遺囑獲得動產/個人財產(Personal Property /
 💡 考試直覺反射金句:
 賣方轉讓給買方 = Seller is the Grantor (-OR),Buyer is the Grantee (-EE)!
 
-Question 273
+Question 272
 A buyer purchases a property and then records the deed in the public record. What is this an example of? 買方購買了一處物業,隨後將契據登錄於公共紀錄中。這是下列哪一項的範例?
 (A) actual notice 實際告知 / 親自知悉
 (B) constructive notice 擬制告知 / 推定告知 / 公開登錄告知
@@ -6324,7 +6302,7 @@ D (Inquiry Notice): 指基於現狀(例如看到房子有在施工的痕跡或�
 考試直覺反射金句:
 只要動作是「Recording in public records(登錄公共紀錄)」➔ 答案必定是 Constructive Notice(擬制告知)!
 
-Question 274
+Question 273
 A borrower defaulted on their loan to National ABC Bank. In response, National ABC Bank foreclosed on their house. What is this an example of? 一位借款人違約未償還 National ABC 銀行貸款。作為回應,National ABC 銀行對該房屋實施了法拍(Foreclosure)。這是下列哪一項的範例?
 (A) involuntary alienation 非自願讓與 / 非自願轉讓
 (B) voluntary alienation 自願讓與 / 自願轉讓
@@ -6348,7 +6326,7 @@ Voluntary Alienation(自願讓與):
 定義: 業主自願(With owner's consent)將產權讓與他人。
 常見範例: 出售房產(Sale / Deed)、贈與房產(Gift)、立遺囑贈與(Will / Devise)。
 
-Question 275
+Question 274
 What deed provides the grantee with the least protection of any deed, while putting the least liability on the grantor? 哪一種契據給予受讓人(Grantee / 買方)最低的保護,同時給予轉讓人(Grantor / 賣方)最少的法律責任?
 (A) quitclaim deed 放棄權利契據
 (B) grant deed 轉讓契據
@@ -6372,7 +6350,7 @@ Bargain and Sale Deed: 默示賣方擁有所有權,但不提供無負擔擔保�
 保護力最高、賣方責任最大 ➔ General Warranty Deed
 保護力最低(Least protection)、賣方責任最少(Least liability) ➔ Quitclaim Deed
 
-Question 276
+Question 275
 What purpose does the habendum clause serve in a deed? 契據中的權能條款/產權處分條款(Habendum Clause)的作用是什麼?
 (A) It specifies what is being exchanged for the property. 說明用來交換該物業的對價/條件 — 這是 Consideraton Clause
 (B) It defines or limits the ownership interest of the grantee. 定義或限制受讓人(Grantee/買方)所獲得的所有權權益範圍)
@@ -6395,7 +6373,7 @@ D 說明: Acknowledgment(公證認可) — 由公證人(Notary Public)確認轉�
 考試直覺反射金句:
 Habendum Clause = 看到 "To Have and to Hold",作用是「定義/限制權利範圍(Define or limit ownership interest)」!
 
-Question 277
+Question 276
 What must happen to a deed for title to be transferred? 契據必須經過什麼程序,產權(Title)才能正式發生移轉?
 (A) recording the deed 登錄契據 — 這是為了建立擬制告知 Constructive Notice,非產權移轉的絕對法定必要條件
 (B) delivery and acceptance 交付與接受
@@ -6414,7 +6392,7 @@ Signing(簽名)只是前提: 簽署是契據執行的步驟之一,但若轉讓�
 考試直覺反射金句:
 產權何時正式移轉(Title Transferred)? ➔ 答案必定是 Delivery and Acceptance(交付與接受)!
 
-Question 278
+Question 277
 If a property owner does not utilize their land, and if another party makes or has a claim to that land, what could potentially make the owner lose their property rights? 如果土地業主不使用其土地,而另一方對該土地提出或擁有權利主張,什麼原因可能導致業主喪失其土地所有權?
 (A) easement by necessity 必要地役權 — 專指袋地通行權,不包含取得土地所有權
 (B) encroachment 越界建築/侵占 — 一種違規事實,非取得產權的法律機制名稱
@@ -6438,7 +6416,7 @@ A (Easement by necessity): 僅給予袋地業主「通行使用權(Right of acce
 B (Encroachment): 越界侵占(例如鄰居的籬笆或屋簷蓋過界),屬於一種瑕疵實體狀況,若長期未處理,最終可能導致 Adverse Possession,但「導致地主失去產權」的法律機制名稱是 Adverse Possession。
 C (Dominant tenement): 指在地役權關係中,享有通行或使用權利的「需役地」土地本身。
 
-Question 279
+Question 278
 Sally and Jorge are a married couple who own a house together. The couple has one adult daughter, Emilia. When Jorge dies intestate, who receives the house?Sally 與 Jorge 是一對夫妻,兩人共同擁有的一棟房屋。這對夫妻有一個成年女兒 Emilia。當 Jorge 未留遺囑過世(dies intestate)時,誰會取得這棟房屋? A. Sally receives one-third; Emilia receives the rest. (Sally 取得三分之一,Emilia 取得其餘部分)
 (A) Both Sally and Emilia receive one-half.
 (B) (Sally 與 Emilia 各取得二分之一
@@ -6460,7 +6438,7 @@ D. Emilia receives the house.
 只有當遺產屬於逝者的個人獨立財產(Separate Property)時,才會在配偶與子女(Emilia)之間進行拆分(如拆分為配偶與子女各 1/2,或配偶 1/3 子女 2/3)。但本題明確說明是夫妻共同擁有(own together)的房屋,屬於共同財產,因此 Sally 取得 100% 的房屋所有權。
 考試直覺反射金句:夫妻共同擁有的房屋(Owned together),配偶過世無遺囑 ➔ 存活配偶(Sally)取得整棟房屋!
 
-Question 280
+Question 279
 Costs that have been incurred but have not been paid for yet are:
 (A) accrued items
 (B) prepaid items
@@ -6471,7 +6449,7 @@ Costs that have been incurred but have not been paid for yet are:
 正確選項 (A)：accrued items
 Costs that have been incurred but have not been paid for yet are accrued items, such as some recurring special assessments and mortgage interest. These expenses have been (or are being) incurred at the time of sale, but need not be paid at the time the sale closes. Accrued items are generally debited to the seller and credited to the buyer.
 
-Question 281
+Question 280
 What's the difference between the Closing Disclosure and the Loan Estimate?
 (A) The Loan Estimate is a preliminary estimate of loan costs; the Closing Disclosure is a final itemization of all services and fees.
 (B) Borrowers are given the Loan Estimate at closing and the Closing Disclosure three days after they apply for the loan.
@@ -6482,7 +6460,7 @@ What's the difference between the Closing Disclosure and the Loan Estimate?
 正確選項 (A)：The Loan Estimate is a preliminary estimate of loan costs; the Closing Disclosure is a final itemization of all services and fees.
 Yes, the Loan Estimate is a preliminary estimate of loan costs; the Closing Disclosure is a final itemization of all services and fees.
 
-Question 282
+Question 281
 How will the closing agent determine how to allocate various closing costs between the parties?
 (A) They will follow what is in the escrow instructions.
 (B) They will use RESPA guidelines.
@@ -6493,7 +6471,7 @@ How will the closing agent determine how to allocate various closing costs betwe
 正確選項 (A)：They will follow what is in the escrow instructions.
 Yes, to determine how to allocate closing costs, the escrow agent will follow what is in the escrow instructions.
 
-Question 283
+Question 282
 A seller's credits minus the seller's debits would equal the:
 (A) net to seller
 (B) purchase price
@@ -6505,7 +6483,7 @@ A seller's credits minus the seller's debits would equal the:
 Yes, the net to seller is calculated by subtracting a seller's debits from their credits.
 The buyer and the seller closed on a property on April 20th. The fees for a special assessment for the current year were paid by the seller at the beginning of the year.
 
-Question 284
+Question 283
 The seller pays for the day of closing. The escrow holder will debit the buyer for the prorated amount in fees for which period of time?
 (A) April 21st through December 31st
 (B) January 1st through April 18th
@@ -6516,7 +6494,7 @@ The seller pays for the day of closing. The escrow holder will debit the buyer f
 正確選項 (A)：April 21st through December 31st
 Yes, the escrow holder will credit the seller (since they already paid for the whole year) and debit the buyer for fees accrued from April 21st through December 31st.
 
-Question 285
+Question 284
 Which of these is the act of dividing or allocating expenses between buyers and sellers based on the actual period of usage of the item or service?
 (A) proration
 (B) title allocation
@@ -6527,7 +6505,7 @@ Which of these is the act of dividing or allocating expenses between buyers and 
 正確選項 (A)：proration
 Yes, proration is the act of dividing or allocating expenses between buyers and sellers based on the actual period of usage of the item or service.
 
-Question 286
+Question 285
 What would be considered the Consumer Finance Protection Bureau's greatest contribution toward the simplification of the mortgage lending process?
 (A) the creation of the Loan Estimate form and the Closing Disclosure form
 (B) the introduction of the Uniform Residential Loan Application
@@ -6539,7 +6517,7 @@ What would be considered the Consumer Finance Protection Bureau's greatest contr
 Yes, one of the CFPB's most noteworthy contributions is the simplification and transparency it brought to the mortgage lending process with the creation of the Loan Estimate form and its companion document, the Closing Disclosure form. These forms integrate the multiple disclosure requirements (and forms) that previously existed separately in TILA and RESPA.
 Joe's lender uses an automated underwriting system. The lender approved Joe's application for a mortgage loan, but it was reviewed by a human underwriter during the process.
 
-Question 287
+Question 286
 An appraisal is:
 (A) an appraiser’s opinion of a property’s market value as of a specified date
 (B) the broker’s opinion of what the property will sell for
@@ -6550,7 +6528,7 @@ An appraisal is:
 正確選項 (A)：an appraiser’s opinion of a property’s market value as of a specified date
 Yes, an appraisal is an appraiser’s opinion of a property’s market value as of a specified date.
 
-Question 288
+Question 287
 A tax bill cost $10,092. For proration purposes, what is the monthly tax expense? 一份房產稅帳單總金額為 $10,092 美元。為了進行過戶比例分攤(Proration)計算,每月的稅費支出是多少?
 (A) $950
 (B) $27.65
@@ -6562,7 +6540,7 @@ A tax bill cost $10,092. For proration purposes, what is the monthly tax expense
 The tax bill needs to be divided by 12, giving you a monthly expense of $841.
 中文摘要：一份房產稅帳單總金額為 $10,092 美元。為了進行過戶比例分攤(Proration)計算,每月的稅費支出是多少?
 
-Question 289
+Question 288
 A property is transferred from a seller to a buyer on April 4th. At the end of the year, the buyer pays the annual tax amount of $11,160. Using the 360-day calendar, how much should be credited to the buyer for prorated property taxes? In this situation, the buyer owns the property on closing day.
 (A) $2,853
 (B) $3,331
@@ -6573,7 +6551,7 @@ A property is transferred from a seller to a buyer on April 4th. At the end of t
 正確選項 (D)：$2,883
 $$93 \text{ 天} \times \$31.00 = \$2,883.00$$
 
-Question 290
+Question 289
 Which of these people can act as an escrow holder without an escrow license?
 (A) a broker representing one of the parties in a transaction
 (B) a salesperson representing one of the parties in a transaction
@@ -6595,7 +6573,7 @@ prepaid items
 a debit to the buyer
 non-realty items
 
-Question 291
+Question 290
 According to conventional loans' qualifying guidelines, the monthly housing expenses, plus all other monthly obligations, cannot exceed what percent of the borrower's total gross monthly income?
 (A) 36%
 (B) 28%
@@ -6617,7 +6595,7 @@ approval of the appraisal and approval of the seller
 approval of the survey and approval of the buyer
 approval of the inspection and approval of the buyer
 
-Question 292
+Question 291
 Loan approval consists of two different approvals. What are they?
 (A) approval of the buyer and approval of the property
 (B) approval of the appraisal and approval of the seller
@@ -6639,7 +6617,7 @@ The motorhome debt changed Mookie's credit profile and desirability as a loan ri
 The lender now had to view the mortgage application as a second-home loan.
 The inherent danger of driving a motorhome hurt Mookie's likelihood of repaying the mortgage loan.
 
-Question 293
+Question 292
 Leo is buying a house for $200,000 and is making a 20% down payment. He is paying for 1 discount point, $450 for a new survey, and $900 for an environmental report. Based on this, how much cash will Leo have to bring to the closing?
 (A) $42,950
 (B) $42,300
@@ -6661,7 +6639,7 @@ It wouldn't because it would likely take several years to break even on the upfr
 It would because the discount points paid upfront on a loan represent a greater tax advantage than a higher monthly payment would.
 It would because the discount points would serve to shorten the term of his loan.
 
-Question 294
+Question 293
 Why would a lender be interested in the loan-to-value ratio of a property?
 (A) because it represents the ratio of the value of the property and the amount of the loan financing the property and is an indicator of a loan's risk
 (B) because it is a measure of the total profit on the interest to be paid over the life of the loan
@@ -6683,7 +6661,7 @@ Round to the nearest dollar.
 $1,896
 $22,750
 
-Question 295
+Question 294
 Which of the following is the MOST LIKELY reason why the seller would prefer Camille's offer?
 (A) A pre-approval letter can give the seller greater assurance that the buyer will be able to finance the purchase.
 (B) Sellers prefer a personal touch that a letter brings.
@@ -6705,7 +6683,7 @@ How long would this borrower need to stay in her loan in order for her to break 
 36 months
 48 months
 
-Question 296
+Question 295
 What is the maximum LTV for conventional loans WITH paying PMI?
 (A) 95%
 (B) 80%
@@ -6727,7 +6705,7 @@ The seller cannot receive a credit, as the fee has already been paid without the
 The escrow company pays for the prorated expense.
 The HOA reimburses the seller for the fee.
 
-Question 297
+Question 296
 What type of real estate involves both tangible and intangible property?
 (A) business
 (B) commercial
@@ -6749,7 +6727,7 @@ HUD-1
 GFE
 Loan Estimate
 
-Question 298
+Question 297
 What is conveyance?
 (A) an instrument that transfers a grantor’s interest in real property
 (B) the soil that gets deposited in the process of accretion
@@ -6771,7 +6749,7 @@ judicial deed
 bargain and sale deed
 deed of trust
 
-Question 299
+Question 298
 In 2015, the CFPB consolidated the Settlement Statement and the Final Truth in Lending disclosure into one form known as the:
 (A) Closing Disclosure
 (B) HUD-1
@@ -6793,7 +6771,7 @@ the profit potential of a loan
 the desirability of a property in the event of default
 a borrower's credit score
 
-Question 300
+Question 299
 Jessica and Sam are getting a divorce. It's an amicable separation, and it's decided that Jessica will keep their apartment while Sam will keep both cars. What kind of deed will Jessica ask Sam to sign to clarify that she has sole title to the apartment?
 (A) quitclaim deed
 (B) judicial deed
@@ -6815,7 +6793,7 @@ associate employing broker
 salesperson
 sales broker
 
-Question 301
+Question 300
 An underwriter's primary objective is to determine:
 (A) the level of risk a borrower presents to a lender
 (B) the profit potential of a loan
@@ -6837,7 +6815,7 @@ producing a profit
 long-term investments
 crop cultivation
 
-Question 302
+Question 301
 What is the term for an individual who is licensed as a real estate broker but who works in the capacity of an associate licensee for the employing broker of a brokerage?
 (A) broker-associate
 (B) associate employing broker
@@ -6855,7 +6833,7 @@ crop cultivation
 All residential properties are used for some sort of habitation, whether they're single-family homes, condos, or vacation homes.
 –
 
-Question 303
+Question 302
 Residential property is used for:
 (A) some sort of habitation
 (B) producing a profit
@@ -6867,7 +6845,7 @@ Residential property is used for:
 All residential properties are used for some sort of habitation, whether they're single-family homes, condos, or vacation homes.
 –
 
-Question 304
+Question 303
 In an amortized loan, the monthly interest payment is always based on:
 (A) the remaining balance
 (B) the original principal
@@ -6889,7 +6867,7 @@ income, credit, assets, debts, and net worth
 sex, credit, assets, debts, and net worth
 income, credit, assets, sex, and marital status
 
-Question 305
+Question 304
 What is underwriting?
 (A) the process of deciding the level of risk a lender would take on by offering a loan to a certain borrower for a specific property
 (B) a credit given by the lender to the borrower that may be used to pay third-party settlement charges or to fund the escrow account
@@ -6911,7 +6889,7 @@ $1,500
 $7,500
 $375
 
-Question 306
+Question 305
 Which of the following lists reflects the areas of focus for the bank's underwriter when evaluating Trevor?
 (A) income, credit, assets, debts, and net worth
 (B) sex, credit, assets, debts, and net worth
@@ -6933,7 +6911,7 @@ $50,000
 $5,000
 $80
 
-Question 307
+Question 306
 What is a loan-to-value ratio?
 (A) the amount of money being loaned compared to the value of the property
 (B) the difference between the interest rate of an ARM loan and the index value
@@ -6955,7 +6933,7 @@ Standard Mortgage Underwriting Residential Form (SMURF)
 Universal Mortgage Loan Application (UMLA)
 Lender Underwriting Mortgage Loan Application (LUMLA)
 
-Question 308
+Question 307
 Lucia has a monthly PITI payment of $650 and other long-term liabilities totaling $250 per month. If she makes $3,300 a month, what is her total debt-to-income ratio?
 (A) 27%
 (B) 12%
@@ -6977,7 +6955,7 @@ $600
 $1,250
 $650
 
-Question 309
+Question 308
 What form do most lenders use to collect mortgage loan applicant information for underwriting purposes?
 (A) Uniform Residential Loan Application (URLA)
 (B) Standard Mortgage Underwriting Residential Form (SMURF)
@@ -6994,7 +6972,7 @@ $1,250
 $650
 First, you need to calculate the amount Jackie will pay in interest by multiplying $300,000 by 0.05 and then dividing by 12, which equals $1,250. Then you subtract $1,250 from the monthly payment of $1,800, leaving $550 as the amount going towards the principal.
 
-Question 310
+Question 309
 Jackie took out an amortized loan of $300,000 with a 5% interest rate. Her monthly payment is $1,800. How much of her first payment will go towards the principal?
 (A) $550
 (B) $600
@@ -7005,7 +6983,7 @@ Jackie took out an amortized loan of $300,000 with a 5% interest rate. Her month
 正確選項 (C)：$1,250
 First, you need to calculate the amount Jackie will pay in interest by multiplying $300,000 by 0.05 and then dividing by 12, which equals $1,250. Then you subtract $1,250 from the monthly payment of $1,800, leaving $550 as the amount going towards the principal.
 
-Question 311
+Question 310
 With which type of land description does a surveyor indicate direction in degrees, minutes, and seconds?
 (A) metes and bounds
 (B) rectangular survey system
@@ -7027,7 +7005,7 @@ a natural monument, such as a tree
 a wooden stake in the ground
 a building or similar human-made structure
 
-Question 312
+Question 311
 The NE 1/4 of a section would measure how many acres?
 (A) 160
 (B) 640
@@ -7049,7 +7027,7 @@ $1.35
 $58.82
 $36.46
 
-Question 313
+Question 312
 Charlie purchased a lot that measures 800 ft. wide by 500 ft. long. The purchase price was $850,000. What was the price Charlie paid per ACRE?
 (A) $92,592.59
 (B) $0.47
@@ -7071,7 +7049,7 @@ Jim buys a 400 sq. yd. lot of land. What is the size of Jim's lot in square feet
 1,600 sq. ft.
 1,200 sq. ft.
 
-Question 314
+Question 313
 What is a survey?
 (A) the process and physical product of finding and measuring the boundaries of a piece of real estate, including the location of improvements
 (B) the required actions for the proper execution of a deed, involving delivery of the deed by the grantor and acceptance by the grantee
@@ -7093,7 +7071,7 @@ recorded plat
 rectangular survey
 vertical land
 
-Question 315
+Question 314
 Jim buys a 400 sq. yd. lot of land. What is the size of Jim's lot in square feet?
 (A) 3,600 sq. ft.
 (B) 3,200 sq. ft.
@@ -7115,7 +7093,7 @@ metes and bounds system
 lot and block system
 recorded plat system
 
-Question 316
+Question 315
 Which survey system uses longitude and latitude lines to map property boundaries?
 (A) government survey system
 (B) metes and bounds system
@@ -7137,7 +7115,7 @@ township lines
 baselines
 correction lines
 
-Question 317
+Question 316
 Range columns run parallel to:
 (A) meridians
 (B) township lines
@@ -7159,7 +7137,7 @@ street address
 apartment number
 P.O. box
 
-Question 318
+Question 317
 What is the legal description of a property?
 (A) a detailed description of a property that is distinct and precise enough to distinguish it from all other properties
 (B) the U.S. Postal Service’s mailing address for the property
@@ -7176,7 +7154,7 @@ apartment number
 P.O. box
 A lot number is a portion of a legal description.
 
-Question 319
+Question 318
 Which of the following is a portion of a legal description?
 (A) lot number
 (B) street address
@@ -7187,7 +7165,7 @@ Which of the following is a portion of a legal description?
 正確選項 (A)：lot number
 A lot number is a portion of a legal description.
 
-Question 320
+Question 319
 What is quiet enjoyment?
 (A) a lessee's right to possess a property without interference from the lessor
 (B) the process by which a tenant is expelled from a property
@@ -7209,7 +7187,7 @@ In a sublease, the landlord can terminate the contract at any time. In an assign
 In a sublease, the new tenant is responsible for all costs. In an assignment, the new tenant pays the old tenant, and they pay the landlord.
 In a sublease, the original space is reconfigured to fit two tenants. In an assignment, the tenants share the original space as is.
 
-Question 321
+Question 320
 A landlord frequently enters one of his tenant's apartments without notice just to see how the tenant is doing. This action:
 (A) violates the tenant's right to quiet enjoyment of the property
 (B) violates the tenant's right to control how the property is used
@@ -7231,7 +7209,7 @@ Nichole, who rents out units in an apartment complex
 Sierra, who is selling her condo
 Hollie, who is selling her single-family home
 
-Question 322
+Question 321
 What is the difference between a sublease and an assignment?
 (A) In a sublease, the original tenant is still responsible for the rent. In an assignment, the new tenant takes over responsibility.
 (B) In a sublease, the landlord can terminate the contract at any time. In an assignment, they cannot.
@@ -7253,7 +7231,7 @@ be in a separate addendum
 not be included; automatic renewal clauses are illegal in California
 give the tenant the first right to purchase the property
 
-Question 323
+Question 322
 In California, an automatic renewal clause in a lease must:
 (A) be in bold font
 (B) be in a separate addendum
@@ -7275,7 +7253,7 @@ Free Establishments and Homes Act
 Free and Equal Housing Act
 Equal Opportunity Employment and Homes Act
 
-Question 324
+Question 323
 Which California law protects tenants and employees from both employment and housing discrimination based on their belonging to select groups?
 (A) Fair Employment and Housing Act
 (B) Free Establishments and Homes Act
@@ -7297,7 +7275,7 @@ estate for years
 estate from period to period
 estate at sufferance
 
-Question 325
+Question 324
 Randy is renting his basement apartment to Josh, his son, who is a full-time college student. There is no formal lease involved, no specified termination date or rental period established, and Josh even skips payments now and then. What type of leasehold estate best describes this arrangement?
 (A) estate at will
 (B) estate for years
@@ -7319,7 +7297,7 @@ tenant's estate
 estate from period to period
 tension estate
 
-Question 326
+Question 325
 The landlord of an apartment complex refuses to rent an apartment to a couple because they are not married. The landlord's actions are:
 (A) unacceptable because they are violating the Fair Employment and Housing Act
 (B) acceptable because landlords have the authority to choose suitable tenants for their properties
@@ -7341,7 +7319,7 @@ Landlord Hubert uses his tenant's security deposit to repair damages to the apar
 seven days after he spends the funds
 one year after he spends the funds
 
-Question 327
+Question 326
 Sally has been leasing a property for the past three years. Sally's landlord has decided to use the property for something else when her lease is up. What type of estate will be created if Sally refuses to leave after her lease is terminated?
 (A) tenancy at sufferance
 (B) tenant's estate
@@ -7363,7 +7341,7 @@ the length of the lease
 description of the premises
 signature of the lessor
 
-Question 328
+Question 327
 Landlord Hubert uses his tenant's security deposit to repair damages to the apartment they rented for a year. Because Landlord Hubert used the security deposit funds, he must give the tenant a detailed document that shows all the charges within:
 (A) 21 days after the tenant moves out
 (B) 51 days after the tenant moves out
@@ -7385,7 +7363,7 @@ remove any lead-based paint from the unit the tenant will rent
 provide the tenant with information about utility providers in the area
 apply for a permit to demolish the apartment complex
 
-Question 329
+Question 328
 What is a quitclaim deed?
 (A) a type of deed that conveys any interest, title, or right to a parcel of land the grantor has at the time the deed is executed
 (B) a deed without any warranty against encumbrances; only implies that the grantor holds the right to convey title
@@ -7407,7 +7385,7 @@ life estate
 estate for years
 tenancy at sufferance
 
-Question 330
+Question 329
 "T2S R2W of Meridian 24" is a way to identify a section of property using which method of land surveying?
 (A) government survey system
 (B) metes and bounds
@@ -7429,7 +7407,7 @@ Payment-to-income ratio and debt-to-income ratio are the two formulas or measure
 Debt-to-income ratio and asset-to-debt ratio are the two formulas or measures collectively known as the qualifying ratios.
 Payment-to-income ratio and debt-to-income ratio are the two formulas or measures collectively known as loan-to-value ratios.
 
-Question 331
+Question 330
 Gussie Fink-Nottle is renting Lady Edith's Shoreditch condo month-to-month. What kind of estate does Gussie have?
 (A) estate from period to period
 (B) life estate
@@ -7451,7 +7429,7 @@ $571.67
 $6,860
 $140,000
 
-Question 332
+Question 331
 What are those formulas and how are they collectively known?
 (A) Payment-to-income ratio and debt-to-income ratio are the two formulas or measures collectively known as the qualifying ratios.
 (B) Debt-to-income ratio and asset-to-debt ratio are the two formulas or measures collectively known as the qualifying ratios.
@@ -7473,7 +7451,7 @@ metes and bounds
 rectangular survey system
 lot and block
 
-Question 333
+Question 332
 In California, what is the maximum amount a landlord can charge for a security deposit?
 (A) the equivalent of one month's rent
 (B) the equivalent of one-and-a-half months' rent
