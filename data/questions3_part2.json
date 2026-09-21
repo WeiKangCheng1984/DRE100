@@ -5312,1651 +5312,1651 @@
   {
     "id": "P179",
     "source": "LV 練習延伸：Level 9",
-    "stemEn": "Sally and Jorge are a married couple who own a house together. The couple has one adult daughter, Emilia. When Jorge dies intestate, who receives the house?Sally",
-    "stemZh": "與 Jorge 是一對夫妻,兩人共同擁有的一棟房屋。這對夫妻有一個成年女兒 Emilia。當 Jorge 未留遺囑過世(dies intestate)時,誰會取得這棟房屋? A. Sally receives one-third; Emilia receives the rest. (Sally 取得三分之一,Emilia 取得其餘部分)",
+    "stemEn": "Sally and Jorge are a married couple who own a house together. The couple has one adult daughter, Emilia. When Jorge dies intestate, who receives the house?",
+    "stemZh": "Sally 與 Jorge 是一對夫妻，兩人共同擁有一棟房屋。這對夫妻有一個成年女兒 Emilia。當 Jorge 未留遺囑過世（dies intestate）時，誰會取得這棟房屋？",
     "choices": [
       {
         "key": "A",
-        "en": "Both Sally and Emilia receive one-half.",
-        "zh": ""
+        "en": "Sally receives one-third; Emilia receives the rest.",
+        "zh": "Sally 取得三分之一，Emilia 取得其餘部分"
       },
       {
         "key": "B",
-        "en": "(Sally",
-        "zh": "與 Emilia 各取得二分之一"
+        "en": "Both Sally and Emilia receive one-half.",
+        "zh": "Sally 與 Emilia 各取得二分之一"
       },
       {
         "key": "C",
         "en": "Sally receives the house.",
-        "zh": ""
+        "zh": "Sally 取得整棟房屋"
       },
       {
         "key": "D",
-        "en": "(Sally",
-        "zh": "取得整棟房屋"
+        "en": "Emilia receives the house.",
+        "zh": "Emilia 取得整棟房屋"
       }
     ],
-    "answer": "D",
-    "explanation": "正確選項 (D)：取得整棟房屋\nD. Emilia receives the house.\n(Emilia 取得整棟房屋)\n【詳細解析】\n🔍 核心概念:夫妻共同所有財產與無遺囑繼承(Married Couple & Community Property / Joint Tenancy)\n這是一道在美國不動產測驗(特別是 California 或採用 Community Property 夫妻共同財產制 的州)中極為常見的法律原則考題:\n預設所有權型態(Title Ownership):\n在不動產測驗中,當題目敘述為「夫妻共同擁有房屋(a married couple who own a house together)」時,法律上預設的產權型態通常包含 Right of Survivorship(生存者取得權)(如 Joint Tenancy,或在加州等地區為帶生存權的 Community Property)。\n只要帶有生存者取得權,當其中一位配偶過世時,死者的產權會自動歸屬於存活的配偶(Surviving Spouse),完全不進入法院遺囑認證(Probate),也不受無遺囑繼承法分配給子女。\n無遺囑繼承法(Intestate Succession)下的夫妻共同財產規則:\n退一步而言,即使依據採用夫妻共同財產制(Community Property)州的無遺囑繼承法,當已婚者無遺囑過世(Intestate),其夫妻共同財產(Community Property)中的 100% 份額將全數自動歸屬於存活的配偶(Sally)。\n只有當遺產屬於逝者的個人獨立財產(Separate Property)時,才會在配偶與子女(Emilia)之間進行拆分(如拆分為配偶與子女各 1/2,或配偶 1/3 子女 2/3)。但本題明確說明是夫妻共同擁有(own together)的房屋,屬於共同財產,因此 Sally 取得 100% 的房屋所有權。\n考試直覺反射金句:夫妻共同擁有的房屋(Owned together),配偶過世無遺囑 ➔ 存活配偶(Sally)取得整棟房屋!"
+    "answer": "C",
+    "explanation": "正確選項 (C)：Sally 取得整棟房屋。當題目敘述為「夫妻共同擁有房屋」時，法律上通常預設為帶有生存者取得權（Right of Survivorship）的共有形式（如 Joint Tenancy 或帶生存權的 Community Property）。配偶一方無遺囑過世時，其份額自動歸屬存活配偶，不進入遺產分配給子女。即使依夫妻共同財產制（Community Property）的無遺囑繼承規則，共同財產也全數歸存活配偶所有。"
   },
   {
     "id": "P180",
     "source": "LV 練習延伸：Level 10",
     "stemEn": "Costs that have been incurred but have not been paid for yet are:",
-    "stemZh": "",
+    "stemZh": "已發生但尚未支付的費用稱為什麼？",
     "choices": [
       {
         "key": "A",
         "en": "accrued items",
-        "zh": ""
+        "zh": "應計項目（accrued items）"
       },
       {
         "key": "B",
         "en": "prepaid items",
-        "zh": ""
+        "zh": "預付項目（prepaid items）"
       },
       {
         "key": "C",
         "en": "a debit to the buyer",
-        "zh": ""
+        "zh": "買方借方項目"
       },
       {
         "key": "D",
         "en": "non-realty items",
-        "zh": ""
+        "zh": "非不動產項目"
       }
     ],
     "answer": "A",
-    "explanation": "正確選項 (A)：accrued items\nCosts that have been incurred but have not been paid for yet are accrued items, such as some recurring special assessments and mortgage interest. These expenses have been (or are being) incurred at the time of sale, but need not be paid at the time the sale closes. Accrued items are generally debited to the seller and credited to the buyer."
+    "explanation": "正確選項 (A)：應計項目（accrued items）。此類費用在過戶結算（closing）時已發生或正在發生，但尚未支付，例如部分定期特別評估費及房貸利息。應計項目通常記為賣方借方、買方貸方。"
   },
   {
     "id": "P181",
     "source": "LV 練習延伸：Level 10",
     "stemEn": "What's the difference between the Closing Disclosure and the Loan Estimate?",
-    "stemZh": "",
+    "stemZh": "Closing Disclosure（過戶揭露書）與 Loan Estimate（貸款估價表）有何不同？",
     "choices": [
       {
         "key": "A",
         "en": "The Loan Estimate is a preliminary estimate of loan costs; the Closing Disclosure is a final itemization of all services and fees.",
-        "zh": ""
+        "zh": "Loan Estimate 是貸款成本的初步估計；Closing Disclosure 是所有服務與費用的最終明細"
       },
       {
         "key": "B",
         "en": "Borrowers are given the Loan Estimate at closing and the Closing Disclosure three days after they apply for the loan.",
-        "zh": ""
+        "zh": "借款人在過戶時收到 Loan Estimate，申請貸款三天後收到 Closing Disclosure"
       },
       {
         "key": "C",
         "en": "The Loan Estimate is prepared by the seller's broker, while the Closing Disclosure is prepared by the buyer's broker.",
-        "zh": ""
+        "zh": "Loan Estimate 由賣方經紀人準備，Closing Disclosure 由買方經紀人準備"
       },
       {
         "key": "D",
         "en": "The Closing Disclosure is a abbreviated version of the Loan Estimate.",
-        "zh": ""
+        "zh": "Closing Disclosure 是 Loan Estimate 的精簡版"
       }
     ],
     "answer": "A",
-    "explanation": "正確選項 (A)：The Loan Estimate is a preliminary estimate of loan costs; the Closing Disclosure is a final itemization of all services and fees.\nYes, the Loan Estimate is a preliminary estimate of loan costs; the Closing Disclosure is a final itemization of all services and fees."
+    "explanation": "正確選項 (A)：Loan Estimate 是貸款成本的初步估計；Closing Disclosure 是所有服務與費用的最終明細。Loan Estimate 在申請初期提供，Closing Disclosure 則在過戶前至少三個工作天提供，列出最終費用明細。"
   },
   {
     "id": "P182",
     "source": "LV 練習延伸：Level 10",
     "stemEn": "How will the closing agent determine how to allocate various closing costs between the parties?",
-    "stemZh": "",
+    "stemZh": "過戶結算代理人（closing agent）如何決定各項過戶費用在買賣雙方之間的分攤方式？",
     "choices": [
       {
         "key": "A",
         "en": "They will follow what is in the escrow instructions.",
-        "zh": ""
+        "zh": "依據託管指示（escrow instructions）的內容"
       },
       {
         "key": "B",
         "en": "They will use RESPA guidelines.",
-        "zh": ""
+        "zh": "依據 RESPA 指引"
       },
       {
         "key": "C",
         "en": "The attorneys present at closing will allocate all closing costs.",
-        "zh": ""
+        "zh": "由過戶現場的律師分配所有費用"
       },
       {
         "key": "D",
         "en": "They will check the parties' credit scores and assign closing costs based on creditworthiness.",
-        "zh": ""
+        "zh": "依雙方信用評分分配費用"
       }
     ],
     "answer": "A",
-    "explanation": "正確選項 (A)：They will follow what is in the escrow instructions.\nYes, to determine how to allocate closing costs, the escrow agent will follow what is in the escrow instructions."
+    "explanation": "正確選項 (A)：依據託管指示（escrow instructions）的內容。託管代理人（escrow agent）在分配過戶費用時，必須遵循買賣雙方提交的託管指示所載明的分攤方式。"
   },
   {
     "id": "P183",
     "source": "LV 練習延伸：Level 10",
     "stemEn": "A seller's credits minus the seller's debits would equal the:",
-    "stemZh": "",
+    "stemZh": "賣方貸方（credits）減去賣方借方（debits）等於什麼？",
     "choices": [
       {
         "key": "A",
         "en": "net to seller",
-        "zh": ""
+        "zh": "賣方淨收金額（net to seller）"
       },
       {
         "key": "B",
         "en": "purchase price",
-        "zh": ""
+        "zh": "購買價格"
       },
       {
         "key": "C",
         "en": "loan amount",
-        "zh": ""
+        "zh": "貸款金額"
       },
       {
         "key": "D",
         "en": "closing costs",
-        "zh": ""
+        "zh": "過戶費用"
       }
     ],
     "answer": "A",
-    "explanation": "正確選項 (A)：net to seller\nYes, the net to seller is calculated by subtracting a seller's debits from their credits.\nThe buyer and the seller closed on a property on April 20th. The fees for a special assessment for the current year were paid by the seller at the beginning of the year."
+    "explanation": "正確選項 (A)：賣方淨收金額（net to seller）。賣方淨收金額的計算方式為：賣方貸方減去賣方借方，代表賣方在過戶結算後實際收到的淨額。"
   },
   {
     "id": "P184",
     "source": "LV 練習延伸：Level 10",
     "stemEn": "The seller pays for the day of closing. The escrow holder will debit the buyer for the prorated amount in fees for which period of time?",
-    "stemZh": "",
+    "stemZh": "賣方負擔過戶當日費用。賣方已在年初支付當年度特別評估費，買賣雙方於 4 月 20 日過戶。託管人應向買方借記（debit）哪段期間的比例分攤費用？",
     "choices": [
       {
         "key": "A",
         "en": "April 21st through December 31st",
-        "zh": ""
+        "zh": "4 月 21 日至 12 月 31 日"
       },
       {
         "key": "B",
         "en": "January 1st through April 18th",
-        "zh": ""
+        "zh": "1 月 1 日至 4 月 18 日"
       },
       {
         "key": "C",
         "en": "May 1st through December 31st",
-        "zh": ""
+        "zh": "5 月 1 日至 12 月 31 日"
       },
       {
         "key": "D",
         "en": "January 1st through April 20th",
-        "zh": ""
+        "zh": "1 月 1 日至 4 月 20 日"
       }
     ],
     "answer": "A",
-    "explanation": "正確選項 (A)：April 21st through December 31st\nYes, the escrow holder will credit the seller (since they already paid for the whole year) and debit the buyer for fees accrued from April 21st through December 31st."
+    "explanation": "正確選項 (A)：4 月 21 日至 12 月 31 日。賣方已預付全年費用，託管人應貸記（credit）賣方，並向買方借記過戶後至年底（4 月 21 日起）的比例分攤金額。"
   },
   {
     "id": "P185",
     "source": "LV 練習延伸：Level 10",
     "stemEn": "Which of these is the act of dividing or allocating expenses between buyers and sellers based on the actual period of usage of the item or service?",
-    "stemZh": "",
+    "stemZh": "下列哪一項是指依實際使用期間，在買賣雙方之間分攤或分配費用的行為？",
     "choices": [
       {
         "key": "A",
         "en": "proration",
-        "zh": ""
+        "zh": "比例分攤（proration）"
       },
       {
         "key": "B",
         "en": "title allocation",
-        "zh": ""
+        "zh": "產權分配（title allocation）"
       },
       {
         "key": "C",
         "en": "amoritization",
-        "zh": ""
+        "zh": "攤還（amortization）"
       },
       {
         "key": "D",
         "en": "reconciliation",
-        "zh": ""
+        "zh": "對帳調節（reconciliation）"
       }
     ],
     "answer": "A",
-    "explanation": "正確選項 (A)：proration\nYes, proration is the act of dividing or allocating expenses between buyers and sellers based on the actual period of usage of the item or service."
+    "explanation": "正確選項 (A)：比例分攤（proration）。Proration 是依買賣雙方實際占有或使用期間，將費用（如稅金、HOA 費）在雙方之間公平分配的做法。"
   },
   {
     "id": "P186",
     "source": "LV 練習延伸：Level 10",
     "stemEn": "What would be considered the Consumer Finance Protection Bureau's greatest contribution toward the simplification of the mortgage lending process?",
-    "stemZh": "",
+    "stemZh": "下列哪一項被視為消費者金融保護局（CFPB）對簡化房貸流程的最大貢獻？",
     "choices": [
       {
         "key": "A",
         "en": "the creation of the Loan Estimate form and the Closing Disclosure form",
-        "zh": ""
+        "zh": "創立 Loan Estimate 與 Closing Disclosure 表單"
       },
       {
         "key": "B",
         "en": "the introduction of the Uniform Residential Loan Application",
-        "zh": ""
+        "zh": "引進 Uniform Residential Loan Application（URLA）"
       },
       {
         "key": "C",
         "en": "mandating the use of a pre-qualification form",
-        "zh": ""
+        "zh": "強制使用預先資格審查表"
       },
       {
         "key": "D",
         "en": "the regulations surrounding the use of discount points and lender credits",
-        "zh": ""
+        "zh": "規範折扣點（discount points）與貸方點數（lender credits）的使用"
       }
     ],
     "answer": "A",
-    "explanation": "正確選項 (A)：the creation of the Loan Estimate form and the Closing Disclosure form\nYes, one of the CFPB's most noteworthy contributions is the simplification and transparency it brought to the mortgage lending process with the creation of the Loan Estimate form and its companion document, the Closing Disclosure form. These forms integrate the multiple disclosure requirements (and forms) that previously existed separately in TILA and RESPA.\nJoe's lender uses an automated underwriting system. The lender approved Joe's application for a mortgage loan, but it was reviewed by a human underwriter during the process."
+    "explanation": "正確選項 (A)：創立 Loan Estimate 與 Closing Disclosure 表單。CFPB 整合 TILA 與 RESPA 原本分散的多份揭露文件，以這兩份表單大幅提升房貸流程的透明度與簡便性。"
   },
   {
     "id": "P187",
     "source": "LV 練習延伸：Level 10",
     "stemEn": "An appraisal is:",
-    "stemZh": "",
+    "stemZh": "鑑價（appraisal）是什麼？",
     "choices": [
       {
         "key": "A",
-        "en": "an appraiser’s opinion of a property’s market value as of a specified date",
-        "zh": ""
+        "en": "an appraiser's opinion of a property's market value as of a specified date",
+        "zh": "鑑價師對特定日期物業市場價值的專業意見"
       },
       {
         "key": "B",
-        "en": "the broker’s opinion of what the property will sell for",
-        "zh": ""
+        "en": "the broker's opinion of what the property will sell for",
+        "zh": "經紀人對物業售價的意見"
       },
       {
         "key": "C",
-        "en": "the lender’s opinion of the maximum loan amount",
-        "zh": ""
+        "en": "the lender's opinion of the maximum loan amount",
+        "zh": "貸方對最高貸款額的意見"
       },
       {
         "key": "D",
-        "en": "the tax assessor’s opinion of the assessed value",
-        "zh": ""
+        "en": "the tax assessor's opinion of the assessed value",
+        "zh": "稅務評估員對評估價值的意見"
       }
     ],
     "answer": "A",
-    "explanation": "正確選項 (A)：an appraiser’s opinion of a property’s market value as of a specified date\nYes, an appraisal is an appraiser’s opinion of a property’s market value as of a specified date."
+    "explanation": "正確選項 (A)：鑑價師對特定日期物業市場價值的專業意見。Appraisal 是由合格鑑價師依標準方法，對不動產在特定時點的市場價值（market value）所提出的專業判斷。"
   },
   {
     "id": "P188",
     "source": "LV 練習延伸：Level 10",
     "stemEn": "A tax bill cost $10,092. For proration purposes, what is the monthly tax expense?",
-    "stemZh": "一份房產稅帳單總金額為 $10,092 美元。為了進行過戶比例分攤(Proration)計算,每月的稅費支出是多少?",
+    "stemZh": "一份房產稅帳單總金額為 $10,092 美元。為了進行過戶比例分攤（proration）計算，每月的稅費支出是多少？",
     "choices": [
       {
         "key": "A",
         "en": "$950",
-        "zh": ""
+        "zh": "$950"
       },
       {
         "key": "B",
         "en": "$27.65",
-        "zh": ""
+        "zh": "$27.65"
       },
       {
         "key": "C",
         "en": "$841",
-        "zh": ""
+        "zh": "$841"
       },
       {
         "key": "D",
         "en": "$28",
-        "zh": ""
+        "zh": "$28"
       }
     ],
     "answer": "C",
-    "explanation": "正確選項 (C)：$841\nThe tax bill needs to be divided by 12, giving you a monthly expense of $841.\n中文摘要：一份房產稅帳單總金額為 $10,092 美元。為了進行過戶比例分攤(Proration)計算,每月的稅費支出是多少?"
+    "explanation": "正確選項 (C)：$841。將年度稅單 $10,092 除以 12 個月，得出每月稅費 $841，此數字用於過戶結算時的比例分攤計算。"
   },
   {
     "id": "P189",
     "source": "LV 練習延伸：Level 10",
     "stemEn": "A property is transferred from a seller to a buyer on April 4th. At the end of the year, the buyer pays the annual tax amount of $11,160. Using the 360-day calendar, how much should be credited to the buyer for prorated property taxes? In this situation, the buyer owns the property on closing day.",
-    "stemZh": "",
+    "stemZh": "一處物業於 4 月 4 日由賣方過戶給買方。年底時買方支付年度稅金 $11,160。使用 360 天曆，買方應獲得多少比例分攤房產稅的貸記（credit）？本題中，買方擁有過戶當日。",
     "choices": [
       {
         "key": "A",
         "en": "$2,853",
-        "zh": ""
+        "zh": "$2,853"
       },
       {
         "key": "B",
         "en": "$3,331",
-        "zh": ""
+        "zh": "$3,331"
       },
       {
         "key": "C",
         "en": "$2,790",
-        "zh": ""
+        "zh": "$2,790"
       },
       {
         "key": "D",
         "en": "$2,883",
-        "zh": ""
+        "zh": "$2,883"
       }
     ],
     "answer": "D",
-    "explanation": "正確選項 (D)：$2,883\n$$93 \\text{ 天} \\times \\$31.00 = \\$2,883.00$$"
+    "explanation": "正確選項 (D)：$2,883。年稅 $11,160 ÷ 360 天 = 每日 $31。買方擁有過戶當日，自 1 月 1 日至 4 月 4 日共 93 天：93 × $31 = $2,883。"
   },
   {
     "id": "P190",
     "source": "LV 練習延伸：Level 10",
     "stemEn": "Which of these people can act as an escrow holder without an escrow license?",
-    "stemZh": "",
+    "stemZh": "下列哪些人可以在沒有託管執照（escrow license）的情況下擔任託管人（escrow holder）？",
     "choices": [
       {
         "key": "A",
         "en": "a broker representing one of the parties in a transaction",
-        "zh": ""
+        "zh": "代表交易中其中一方的經紀人（broker）"
       },
       {
         "key": "B",
         "en": "a salesperson representing one of the parties in a transaction",
-        "zh": ""
+        "zh": "代表交易中其中一方的業務員（salesperson）"
       },
       {
         "key": "C",
         "en": "a mortgage broker",
-        "zh": ""
+        "zh": "房貸經紀人（mortgage broker）"
       },
       {
         "key": "D",
         "en": "a buyer",
-        "zh": ""
+        "zh": "買方"
       }
     ],
-    "answer": "D",
-    "explanation": "正確選項 (D)：a buyer\nYes, a broker can act as an escrow holder without a license, so long as they are representing one of the parties in the transaction.\n2.A property is transferred from a seller to a buyer on April 4th. At the end of the year, the buyer pays the annual tax amount of $11,160. Using the 360-day calendar, how much should be credited to the buyer for prorated property taxes? In this situation, the buyer owns closing day.\n$2,883\n$2,789\n$3,320\n$3,331\nTo find the monthly rate, divide the annual total by 12, which in this case equals $930. To find the daily rate, divide the taxes total by 360, which gives you 31. Remember, the day of closing is billed to the buyer. So, we have 3 months and 3 days to calculate. 930 x 3 + 31 x 3 = $2,883.\n3.Costs that have been incurred but have not been paid for yet are:\naccrued items\nprepaid items\na debit to the buyer\nnon-realty items"
+    "answer": "A",
+    "explanation": "正確選項 (A)：代表交易中其中一方的經紀人（broker）。經紀人在代表交易一方時，可以無需託管執照即擔任託管人。業務員、房貸經紀人及買方則不在此豁免範圍內。"
   },
   {
     "id": "P191",
     "source": "LV 練習延伸：Level 11",
     "stemEn": "According to conventional loans' qualifying guidelines, the monthly housing expenses, plus all other monthly obligations, cannot exceed what percent of the borrower's total gross monthly income?",
-    "stemZh": "",
+    "stemZh": "依循環貸款（conventional loan）的資格審核指引，每月住房費用加上所有其他每月債務，不得超過借款人稅前月總收入的百分之幾？",
     "choices": [
       {
         "key": "A",
         "en": "36%",
-        "zh": ""
+        "zh": "36%"
       },
       {
         "key": "B",
         "en": "28%",
-        "zh": ""
+        "zh": "28%"
       },
       {
         "key": "C",
         "en": "41%",
-        "zh": ""
+        "zh": "41%"
       },
       {
         "key": "D",
         "en": "45%",
-        "zh": ""
+        "zh": "45%"
       }
     ],
     "answer": "A",
-    "explanation": "正確選項 (A)：36%\nYes, for manually underwritten loans, Fannie Mae will limit the debt-to-income ratio to 36%. That is, the total PITI plus the other debts cannot exceed 36% of the borrower's monthly income.\nIf a conventional borrower's down payment equals more than 20% of the sales price, they can avoid paying:\na private mortgage insurance premium\nan earnest money deposit\na broker's commission\ndiscount points\nYes, PMI (private mortgage insurance) is required for conventional loan types as long as the borrower has less than 20% equity.\nLoan approval consists of two different approvals. What are they?\napproval of the buyer and approval of the property\napproval of the appraisal and approval of the seller\napproval of the survey and approval of the buyer\napproval of the inspection and approval of the buyer"
+    "explanation": "正確選項 (A)：36%。對於人工核貸的循環貸款，Fannie Mae 將總債務收入比（debt-to-income ratio）上限訂為 36%，即 PITI 加上其他債務不得超過月收入的 36%。"
   },
   {
     "id": "P192",
     "source": "LV 練習延伸：Level 11",
     "stemEn": "Loan approval consists of two different approvals. What are they?",
-    "stemZh": "",
+    "stemZh": "貸款核准包含兩種不同的審核，分別是什麼？",
     "choices": [
       {
         "key": "A",
         "en": "approval of the buyer and approval of the property",
-        "zh": ""
+        "zh": "買方資格核准與物業核准"
       },
       {
         "key": "B",
         "en": "approval of the appraisal and approval of the seller",
-        "zh": ""
+        "zh": "鑑價核准與賣方核准"
       },
       {
         "key": "C",
         "en": "approval of the survey and approval of the buyer",
-        "zh": ""
+        "zh": "測量核准與買方核准"
       },
       {
         "key": "D",
         "en": "approval of the inspection and approval of the buyer",
-        "zh": ""
+        "zh": "檢查核准與買方核准"
       }
     ],
     "answer": "A",
-    "explanation": "正確選項 (A)：approval of the buyer and approval of the property\nLoan approval consists of two approvals: (1) Property approval and (2) approval of the buyer’s assets, income, and credit history. When both of the approvals are complete, the loan is approved.\nLeo is buying a house for $200,000 and is making a 20% down payment. He is paying for 1 discount point, $450 for a new survey, and $900 for an environmental report. Based on this, how much cash will Leo have to bring to the closing?\n$42,950\n$42,300\n$45,300\n$43,500\nBy adding together the costs of Leo's down payment ($40,000 – calculated using the down payment percentage and sales price), discount point (1% of the loan amount, which is the sales price minus the down payment or 0.01 x $160,000 = $1,600), the survey, and environmental report, we find that he would have to bring $42,950 to closing. $40,000 + $1,600 + $450 + $900 = $42,950.\nAfter doing an underwriting review of Mookie's credit rating and history, the lender pre-approved him for a mortgage loan. The property value was also in line with the lender's requirements. Then, in the week before the loan was to close, Mookie bought a $40,000 motorhome that he financed over 20 years. When his lender found out about this, they decided not to extend Mookie a loan in their final approval stage.\nWhat is the MOST LIKELY reason Mookie's lender chose not to give final approval to his mortgage loan?\nThe motorhome debt changed Mookie's credit profile and desirability as a loan risk.\nThe lender now had to view the mortgage application as a second-home loan.\nThe inherent danger of driving a motorhome hurt Mookie's likelihood of repaying the mortgage loan."
+    "explanation": "正確選項 (A)：買方資格核准與物業核准。貸款核准需同時完成：(1) 物業核准，及 (2) 買方資產、收入與信用紀錄的核准，兩者皆通過後貸款才算核准。"
   },
   {
     "id": "P193",
     "source": "LV 練習延伸：Level 11",
     "stemEn": "Leo is buying a house for $200,000 and is making a 20% down payment. He is paying for 1 discount point, $450 for a new survey, and $900 for an environmental report. Based on this, how much cash will Leo have to bring to the closing?",
-    "stemZh": "",
+    "stemZh": "Leo 以 $200,000 購屋，頭期款 20%，並支付 1 個折扣點（discount point）、$450 測量費及 $900 環境報告費。他過戶時需帶多少現金？",
     "choices": [
       {
         "key": "A",
         "en": "$42,950",
-        "zh": ""
+        "zh": "$42,950"
       },
       {
         "key": "B",
         "en": "$42,300",
-        "zh": ""
+        "zh": "$42,300"
       },
       {
         "key": "C",
         "en": "$45,300",
-        "zh": ""
+        "zh": "$45,300"
       },
       {
         "key": "D",
         "en": "$43,500",
-        "zh": ""
+        "zh": "$43,500"
       }
     ],
     "answer": "A",
-    "explanation": "正確選項 (A)：$42,950\nBy adding together the costs of Leo's down payment ($40,000 – calculated using the down payment percentage and sales price), discount point (1% of the loan amount, which is the sales price minus the down payment or 0.01 x $160,000 = $1,600), the survey, and environmental report, we find that he would have to bring $42,950 to closing. $40,000 + $1,600 + $450 + $900 = $42,950.\nAfter doing an underwriting review of Mookie's credit rating and history, the lender pre-approved him for a mortgage loan. The property value was also in line with the lender's requirements. Then, in the week before the loan was to close, Mookie bought a $40,000 motorhome that he financed over 20 years. When his lender found out about this, they decided not to extend Mookie a loan in their final approval stage.\nWhat is the MOST LIKELY reason Mookie's lender chose not to give final approval to his mortgage loan?\nThe motorhome debt changed Mookie's credit profile and desirability as a loan risk.\nThe lender now had to view the mortgage application as a second-home loan.\nThe inherent danger of driving a motorhome hurt Mookie's likelihood of repaying the mortgage loan.\nThe lender wasn't given the chance to finance the motorhome loan as well.\nIn the final approval stage of a mortgage loan, a lender will take another look at the borrower's financial profile to make sure nothing significant has changed. In Mookie's case, the addition of a $40,000 debt to his financial profile was significant enough to make the lender no longer view him as a desirable loan risk.\nTrevor is taking on a 30-year mortgage loan that he only plans on staying in for a few years. Would it make sense for him to pay more at closing to lower his interest rate?\nIt wouldn't because it would likely take several years to break even on the upfront money he spent to buy the points.\nIt would because the discount points paid upfront on a loan represent a greater tax advantage than a higher monthly payment would.\nIt would because the discount points would serve to shorten the term of his loan."
+    "explanation": "正確選項 (A)：$42,950。頭期款 $40,000 + 折扣點 1% × $160,000 = $1,600 + 測量 $450 + 環境報告 $900 = $42,950。"
   },
   {
     "id": "P194",
     "source": "LV 練習延伸：Level 11",
     "stemEn": "Why would a lender be interested in the loan-to-value ratio of a property?",
-    "stemZh": "",
+    "stemZh": "貸方為何關注物業的貸款價值比（loan-to-value ratio, LTV）？",
     "choices": [
       {
         "key": "A",
         "en": "because it represents the ratio of the value of the property and the amount of the loan financing the property and is an indicator of a loan's risk",
-        "zh": ""
+        "zh": "因為它代表物業價值與貸款金額的比率，是衡量貸款風險的指標"
       },
       {
         "key": "B",
         "en": "because it is a measure of the total profit on the interest to be paid over the life of the loan",
-        "zh": ""
+        "zh": "因為它是衡量貸款全期利息總利潤的指標"
       },
       {
         "key": "C",
         "en": "because their interests may shift from loan origination to real estate acquisition if the LTV ratio comes in high enough",
-        "zh": ""
+        "zh": "因為 LTV 夠高時，貸方可能從放貸轉向收購不動產"
       },
       {
         "key": "D",
         "en": "because they need to make sure they are aligned with RESPA guidelines on LTV ratios",
-        "zh": ""
+        "zh": "因為貸方需確保符合 RESPA 對 LTV 的規定"
       }
     ],
     "answer": "A",
-    "explanation": "正確選項 (A)：because it represents the ratio of the value of the property and the amount of the loan financing the property and is an indicator of a loan's risk\nYes, a lender would be interested in the loan-to-value ratio of a property because it represents the ratio of the value of the property and the actual amount (or value) of the loan financing the property expressed as a percentage. The higher the percentage of the property value the lender is loaning, the riskier the loan.\nCamille and Jody both made offers on a house for sale. Their offers are identical in terms of the purchase price and conditions. Camille's offer had a pre-approval letter attached to it.\nWhich of the following is the MOST LIKELY reason why the seller would prefer Camille's offer?\nA pre-approval letter can give the seller greater assurance that the buyer will be able to finance the purchase.\nSellers prefer a personal touch that a letter brings.\nThe pre-approval letter gave a complimentary description of the property.\nThe pre-approval letter contained a loan commitment to the buyer.\nYes, an offer accompanied by a pre-approval letter can give the seller greater assurance that the buyer will be able to finance the purchase than an offer without a pre-approval letter.\nFrank applies for a loan on his pending home purchase. He has a gross annual income of $65,000. What is the maximum monthly mortgage payment (PITI) he can afford while conforming to a payment-to-income ratio of 35%?\nRound to the nearest dollar.\n$1,896\n$22,750"
+    "explanation": "正確選項 (A)：因為它代表物業價值與貸款金額的比率，是衡量貸款風險的指標。LTV 越高，表示貸方承擔的風險越大，違約時較難透過出售物業完全回收貸款。"
   },
   {
     "id": "P195",
     "source": "LV 練習延伸：Level 11",
     "stemEn": "Which of the following is the MOST LIKELY reason why the seller would prefer Camille's offer?",
-    "stemZh": "",
+    "stemZh": "Camille 與 Jody 對同一房屋提出條件相同的出價，Camille 的出價附有預先核准函（pre-approval letter）。賣方最可能偏好 Camille 出價的原因是什麼？",
     "choices": [
       {
         "key": "A",
         "en": "A pre-approval letter can give the seller greater assurance that the buyer will be able to finance the purchase.",
-        "zh": ""
+        "zh": "預先核准函能讓賣方更有信心買方有能力完成融資"
       },
       {
         "key": "B",
         "en": "Sellers prefer a personal touch that a letter brings.",
-        "zh": ""
+        "zh": "賣方偏好信件帶來的個人化感受"
       },
       {
         "key": "C",
         "en": "The pre-approval letter gave a complimentary description of the property.",
-        "zh": ""
+        "zh": "預先核准函對物業給予了讚美描述"
       },
       {
         "key": "D",
         "en": "The pre-approval letter contained a loan commitment to the buyer.",
-        "zh": ""
+        "zh": "預先核准函包含對買方的貸款承諾"
       }
     ],
     "answer": "A",
-    "explanation": "正確選項 (A)：A pre-approval letter can give the seller greater assurance that the buyer will be able to finance the purchase.\nYes, an offer accompanied by a pre-approval letter can give the seller greater assurance that the buyer will be able to finance the purchase than an offer without a pre-approval letter.\nFrank applies for a loan on his pending home purchase. He has a gross annual income of $65,000. What is the maximum monthly mortgage payment (PITI) he can afford while conforming to a payment-to-income ratio of 35%?\nRound to the nearest dollar.\n$1,896\n$22,750\n$3,521\n$1,795\nIf you know the monthly income and the desired payment-to-income ratio, this would be the formula to use to solve for monthly payment: Monthly income x Payment-to-income ratio = Monthly payment. So, in Frank's case, you divide $65,000 by 12 to get his monthly income. Then, multiply that figure by 0.35 to get the maximum monthly mortgage payment (PITI) of $1,895.83 (which rounds to $1,896).\n11.A borrower was told that she could pay $5,760 in discount points to lower her monthly mortgage payment by $120.\nHow long would this borrower need to stay in her loan in order for her to break even on that upfront payment of discount points?\n36 months\n48 months"
+    "explanation": "正確選項 (A)：預先核准函能讓賣方更有信心買方有能力完成融資。附有 pre-approval letter 的出價，比沒有附件的出價更能向賣方證明買方的融資能力，降低交易失敗風險。"
   },
   {
     "id": "P196",
     "source": "LV 練習延伸：Level 12",
     "stemEn": "What is the maximum LTV for conventional loans WITH paying PMI?",
-    "stemZh": "",
+    "stemZh": "循環貸款在支付 PMI（私人房貸保險）的情況下，最高 LTV 是多少？",
     "choices": [
       {
         "key": "A",
         "en": "95%",
-        "zh": ""
+        "zh": "95%"
       },
       {
         "key": "B",
         "en": "80%",
-        "zh": ""
+        "zh": "80%"
       },
       {
         "key": "C",
         "en": "90%",
-        "zh": ""
+        "zh": "90%"
       },
       {
         "key": "D",
         "en": "70%",
-        "zh": ""
+        "zh": "70%"
       }
     ],
     "answer": "A",
-    "explanation": "正確選項 (A)：95%\nYes, the maximum LTV for conventional loans if paying PMI is 95%.\nMarissa and Erik, who live in San Francisco, own community property together. This means that they are:\neither registered domestic partners OR married spouses\nmarried spouses only\nregistered domestic partners only\nsiblings only\nCalifornia is a community property state. That means that property acquired during a marriage is acquired due to the shared effort of both partners. Therefore, it's equally owned by the two of them. In California, community property applies to both married spouses AND registered domestic partners.\nThe buyer and seller closed on a property on June 17th. The year's HOA fees were paid by the seller at the beginning of the year. How might the seller receive credit for the time the buyer occupies the home?\nAt closing, the buyer credits the seller with prorated HOA dues.\nThe seller cannot receive a credit, as the fee has already been paid without the buyer's consent.\nThe escrow company pays for the prorated expense.\nThe HOA reimburses the seller for the fee."
+    "explanation": "正確選項 (A)：95%。循環貸款若借款人支付 PMI，最高可貸至物業價值的 95%。若頭期款達 20% 以上（LTV 80% 以下），則通常無需 PMI。"
   },
   {
     "id": "P197",
     "source": "LV 練習延伸：Level 12",
     "stemEn": "What type of real estate involves both tangible and intangible property?",
-    "stemZh": "",
+    "stemZh": "哪種類型的不動產同時涉及有形資產與無形資產？",
     "choices": [
       {
         "key": "A",
         "en": "business",
-        "zh": ""
+        "zh": "商業不動產（business）"
       },
       {
         "key": "B",
         "en": "commercial",
-        "zh": ""
+        "zh": "商用不動產（commercial）"
       },
       {
         "key": "C",
         "en": "residential",
-        "zh": ""
+        "zh": "住宅不動產（residential）"
       },
       {
         "key": "D",
         "en": "industrial",
-        "zh": ""
+        "zh": "工業不動產（industrial）"
       }
     ],
     "answer": "A",
-    "explanation": "正確選項 (A)：business\nBusiness real estate focuses on the buying and selling of a business, including both tangible property, such as a parking lot or an office building, and intangible property, such as a business model or restaurant with award-winning recipes.\nWhat is conveyance?\nan instrument that transfers a grantor’s interest in real property\nthe soil that gets deposited in the process of accretion\nthe transfer of title to property without the owner’s consent\na formal declaration that the person signing a document is doing so by choice\nA conveyance is an instrument that transfers a grantor’s interest in real property.\nIn 2015, the CFPB consolidated the Settlement Statement and the Final Truth in Lending disclosure into one form known as the:\nClosing Disclosure\nHUD-1\nGFE\nLoan Estimate"
+    "explanation": "正確選項 (A)：商業不動產（business）。Business real estate 的交易包含有形資產（如停車場、辦公大樓）及無形資產（如商業模式、獲獎食譜等）。"
   },
   {
     "id": "P198",
     "source": "LV 練習延伸：Level 12",
     "stemEn": "What is conveyance?",
-    "stemZh": "",
+    "stemZh": "什麼是讓與（conveyance）？",
     "choices": [
       {
         "key": "A",
-        "en": "an instrument that transfers a grantor’s interest in real property",
-        "zh": ""
+        "en": "an instrument that transfers a grantor's interest in real property",
+        "zh": "移轉轉讓人（grantor）在不動產中權益的文件"
       },
       {
         "key": "B",
         "en": "the soil that gets deposited in the process of accretion",
-        "zh": ""
+        "zh": "沖積（accretion）過程中沉積的土壤"
       },
       {
         "key": "C",
-        "en": "the transfer of title to property without the owner’s consent",
-        "zh": ""
+        "en": "the transfer of title to property without the owner's consent",
+        "zh": "未經業主同意移轉產權"
       },
       {
         "key": "D",
         "en": "a formal declaration that the person signing a document is doing so by choice",
-        "zh": ""
+        "zh": "簽署人自願簽名的正式聲明"
       }
     ],
     "answer": "A",
-    "explanation": "正確選項 (A)：an instrument that transfers a grantor’s interest in real property\nA conveyance is an instrument that transfers a grantor’s interest in real property.\nIn 2015, the CFPB consolidated the Settlement Statement and the Final Truth in Lending disclosure into one form known as the:\nClosing Disclosure\nHUD-1\nGFE\nLoan Estimate\nIn 2015, the CFPB consolidated the Settlement Statement and the Final Truth in Lending disclosure into one form known as the Closing Disclosure.\nJessica and Sam are getting a divorce. It's an amicable separation, and it's decided that Jessica will keep their apartment while Sam will keep both cars. What kind of deed will Jessica ask Sam to sign to clarify that she has sole title to the apartment?\nquitclaim deed\njudicial deed\nbargain and sale deed\ndeed of trust"
+    "explanation": "正確選項 (A)：移轉轉讓人（grantor）在不動產中權益的文件。Conveyance 是指用以移轉不動產產權或權益的法律文書，例如契據（deed）。"
   },
   {
     "id": "P199",
     "source": "LV 練習延伸：Level 12",
     "stemEn": "In 2015, the CFPB consolidated the Settlement Statement and the Final Truth in Lending disclosure into one form known as the:",
-    "stemZh": "",
+    "stemZh": "2015 年，CFPB 將 Settlement Statement 與 Final Truth in Lending 揭露文件合併為哪一份表單？",
     "choices": [
       {
         "key": "A",
         "en": "Closing Disclosure",
-        "zh": ""
+        "zh": "Closing Disclosure（過戶揭露書）"
       },
       {
         "key": "B",
         "en": "HUD-1",
-        "zh": ""
+        "zh": "HUD-1"
       },
       {
         "key": "C",
         "en": "GFE",
-        "zh": ""
+        "zh": "GFE（Good Faith Estimate）"
       },
       {
         "key": "D",
         "en": "Loan Estimate",
-        "zh": ""
+        "zh": "Loan Estimate（貸款估價表）"
       }
     ],
     "answer": "A",
-    "explanation": "正確選項 (A)：Closing Disclosure\nIn 2015, the CFPB consolidated the Settlement Statement and the Final Truth in Lending disclosure into one form known as the Closing Disclosure.\nJessica and Sam are getting a divorce. It's an amicable separation, and it's decided that Jessica will keep their apartment while Sam will keep both cars. What kind of deed will Jessica ask Sam to sign to clarify that she has sole title to the apartment?\nquitclaim deed\njudicial deed\nbargain and sale deed\ndeed of trust\nA quitclaim deed will ensure Sam no longer has any claim to their formerly-shared home.\nAn underwriter's primary objective is to determine:\nthe level of risk a borrower presents to a lender\nthe profit potential of a loan\nthe desirability of a property in the event of default\na borrower's credit score"
+    "explanation": "正確選項 (A)：Closing Disclosure（過戶揭露書）。2015 年 CFPB 將 HUD-1、GFE 及 TILA 揭露整合為 Closing Disclosure，作為過戶結算的最終費用明細表。"
   },
   {
     "id": "P200",
     "source": "LV 練習延伸：Level 12",
     "stemEn": "Jessica and Sam are getting a divorce. It's an amicable separation, and it's decided that Jessica will keep their apartment while Sam will keep both cars. What kind of deed will Jessica ask Sam to sign to clarify that she has sole title to the apartment?",
-    "stemZh": "",
+    "stemZh": "Jessica 與 Sam 和平離婚，Jessica 保留公寓，Sam 保留兩輛車。Jessica 會要求 Sam 簽署哪種契據，以確認她對公寓擁有唯一產權？",
     "choices": [
       {
         "key": "A",
         "en": "quitclaim deed",
-        "zh": ""
+        "zh": "放棄權利契據（quitclaim deed）"
       },
       {
         "key": "B",
         "en": "judicial deed",
-        "zh": ""
+        "zh": "司法契據（judicial deed）"
       },
       {
         "key": "C",
         "en": "bargain and sale deed",
-        "zh": ""
+        "zh": "買賣契據（bargain and sale deed）"
       },
       {
         "key": "D",
         "en": "deed of trust",
-        "zh": ""
+        "zh": "信託契據（deed of trust）"
       }
     ],
     "answer": "A",
-    "explanation": "正確選項 (A)：quitclaim deed\nA quitclaim deed will ensure Sam no longer has any claim to their formerly-shared home.\nAn underwriter's primary objective is to determine:\nthe level of risk a borrower presents to a lender\nthe profit potential of a loan\nthe desirability of a property in the event of default\na borrower's credit score\nYes, underwriting is the process of determining the level of risk a borrower presents to a lender.\nWhat is the term for an individual who is licensed as a real estate broker but who works in the capacity of an associate licensee for the employing broker of a brokerage?\nbroker-associate\nassociate employing broker\nsalesperson\nsales broker"
+    "explanation": "正確選項 (A)：放棄權利契據（quitclaim deed）。Quitclaim deed 讓 Sam 放棄對共同公寓的任何權利主張，使 Jessica 取得完整且清晰的單獨產權，常用於離婚財產分割。"
   },
   {
     "id": "P201",
     "source": "LV 練習延伸：Level 12",
     "stemEn": "An underwriter's primary objective is to determine:",
-    "stemZh": "",
+    "stemZh": "核貸人員（underwriter）的主要目標是判定什麼？",
     "choices": [
       {
         "key": "A",
         "en": "the level of risk a borrower presents to a lender",
-        "zh": ""
+        "zh": "借款人對貸方所代表的風險程度"
       },
       {
         "key": "B",
         "en": "the profit potential of a loan",
-        "zh": ""
+        "zh": "貸款的獲利潛力"
       },
       {
         "key": "C",
         "en": "the desirability of a property in the event of default",
-        "zh": ""
+        "zh": "違約時物業的變現價值"
       },
       {
         "key": "D",
         "en": "a borrower's credit score",
-        "zh": ""
+        "zh": "借款人的信用評分"
       }
     ],
     "answer": "A",
-    "explanation": "正確選項 (A)：the level of risk a borrower presents to a lender\nYes, underwriting is the process of determining the level of risk a borrower presents to a lender.\nWhat is the term for an individual who is licensed as a real estate broker but who works in the capacity of an associate licensee for the employing broker of a brokerage?\nbroker-associate\nassociate employing broker\nsalesperson\nsales broker\nA broker-associate is an individual licensed as a real estate broker but who works in the capacity of an associate licensee for the employing broker of a brokerage.\nResidential property is used for:\nsome sort of habitation\nproducing a profit\nlong-term investments\ncrop cultivation"
+    "explanation": "正確選項 (A)：借款人對貸方所代表的風險程度。Underwriting（核貸）是評估借款人信用、收入、資產及物業價值，以判斷貸方承擔的風險是否可接受。"
   },
   {
     "id": "P202",
     "source": "LV 練習延伸：Level 12",
     "stemEn": "What is the term for an individual who is licensed as a real estate broker but who works in the capacity of an associate licensee for the employing broker of a brokerage?",
-    "stemZh": "",
+    "stemZh": "已持有不動產經紀人執照、但以所屬經紀公司 employing broker 之附屬持照人（associate licensee）身分工作者，稱為什麼？",
     "choices": [
       {
         "key": "A",
         "en": "broker-associate",
-        "zh": ""
+        "zh": "經紀人-附屬人員（broker-associate）"
       },
       {
         "key": "B",
         "en": "associate employing broker",
-        "zh": ""
+        "zh": "附屬 employing broker"
       },
       {
         "key": "C",
         "en": "salesperson",
-        "zh": ""
+        "zh": "業務員（salesperson）"
       },
       {
         "key": "D",
         "en": "sales broker",
-        "zh": ""
+        "zh": "銷售經紀人（sales broker）"
       }
     ],
     "answer": "A",
-    "explanation": "正確選項 (A)：broker-associate\nA broker-associate is an individual licensed as a real estate broker but who works in the capacity of an associate licensee for the employing broker of a brokerage.\nResidential property is used for:\nsome sort of habitation\nproducing a profit\nlong-term investments\ncrop cultivation\nAll residential properties are used for some sort of habitation, whether they're single-family homes, condos, or vacation homes.\n–"
+    "explanation": "正確選項 (A)：經紀人-附屬人員（broker-associate）。Broker-associate 雖持有 broker 執照，但在經紀公司內以 associate licensee 身分受 employing broker 督導執業。"
   },
   {
     "id": "P203",
     "source": "LV 練習延伸：Level 12",
     "stemEn": "Residential property is used for:",
-    "stemZh": "",
+    "stemZh": "住宅不動產（residential property）的用途是什麼？",
     "choices": [
       {
         "key": "A",
         "en": "some sort of habitation",
-        "zh": ""
+        "zh": "某種形式的居住"
       },
       {
         "key": "B",
         "en": "producing a profit",
-        "zh": ""
+        "zh": "創造利潤"
       },
       {
         "key": "C",
         "en": "long-term investments",
-        "zh": ""
+        "zh": "長期投資"
       },
       {
         "key": "D",
         "en": "crop cultivation",
-        "zh": ""
+        "zh": "農作物種植"
       }
     ],
     "answer": "A",
-    "explanation": "正確選項 (A)：some sort of habitation\nAll residential properties are used for some sort of habitation, whether they're single-family homes, condos, or vacation homes.\n–"
+    "explanation": "正確選項 (A)：某種形式的居住。所有住宅不動產均供居住使用，無論是獨棟住宅、共管公寓或度假屋。"
   },
   {
     "id": "P204",
     "source": "LV 練習延伸：Level 13",
     "stemEn": "In an amortized loan, the monthly interest payment is always based on:",
-    "stemZh": "",
+    "stemZh": "在攤還貸款（amortized loan）中，每月利息的計算基礎永遠是什麼？",
     "choices": [
       {
         "key": "A",
         "en": "the remaining balance",
-        "zh": ""
+        "zh": "剩餘本金餘額"
       },
       {
         "key": "B",
         "en": "the original principal",
-        "zh": ""
+        "zh": "原始本金"
       },
       {
         "key": "C",
         "en": "the cost of discount points",
-        "zh": ""
+        "zh": "折扣點成本"
       },
       {
         "key": "D",
         "en": "the last interest payment",
-        "zh": ""
+        "zh": "上一期利息"
       }
     ],
     "answer": "A",
-    "explanation": "正確選項 (A)：the remaining balance\nFor each monthly payment, the bank calculates the interest a borrower owes on their remaining balance.\nWhat is underwriting?\nthe process of deciding the level of risk a lender would take on by offering a loan to a certain borrower for a specific property\na credit given by the lender to the borrower that may be used to pay third-party settlement charges or to fund the escrow account\nan agreement between a lender and a borrower that allows the borrower to secure the interest rate on a mortgage for a designated time period\nan extra fee paid upfront when getting a loan that lowers a borrower's interest rate\nYes, underwriting is the process of deciding the level of risk a lender would take on by offering a loan to a certain borrower for a specific property.\nTrevor has applied for a mortgage loan with his friendly neighborhood banker. The banker will have her underwriting department make sure that Trevor is a reasonable risk for a loan.\nWhich of the following lists reflects the areas of focus for the bank's underwriter when evaluating Trevor?\nincome, credit, assets, debts, and net worth\nsex, credit, assets, debts, and net worth\nincome, credit, assets, sex, and marital status"
+    "explanation": "正確選項 (A)：剩餘本金餘額。銀行在每期計算利息時，均以借款人當時的剩餘貸款餘額為基礎，因此隨本金逐漸償還，利息也逐月遞減。"
   },
   {
     "id": "P205",
     "source": "LV 練習延伸：Level 13",
     "stemEn": "What is underwriting?",
-    "stemZh": "",
+    "stemZh": "什麼是核貸（underwriting）？",
     "choices": [
       {
         "key": "A",
         "en": "the process of deciding the level of risk a lender would take on by offering a loan to a certain borrower for a specific property",
-        "zh": ""
+        "zh": "評估貸方對特定借款人及物業放貸所承擔風險程度的流程"
       },
       {
         "key": "B",
         "en": "a credit given by the lender to the borrower that may be used to pay third-party settlement charges or to fund the escrow account",
-        "zh": ""
+        "zh": "貸方給予借款人、可用於支付第三方結算費用或託管帳戶的點數"
       },
       {
         "key": "C",
         "en": "an agreement between a lender and a borrower that allows the borrower to secure the interest rate on a mortgage for a designated time period",
-        "zh": ""
+        "zh": "允許借款人在指定期間鎖定利率的協議"
       },
       {
         "key": "D",
         "en": "an extra fee paid upfront when getting a loan that lowers a borrower's interest rate",
-        "zh": ""
+        "zh": "過戶前支付以降低利率的額外費用"
       }
     ],
     "answer": "A",
-    "explanation": "正確選項 (A)：the process of deciding the level of risk a lender would take on by offering a loan to a certain borrower for a specific property\nYes, underwriting is the process of deciding the level of risk a lender would take on by offering a loan to a certain borrower for a specific property.\nTrevor has applied for a mortgage loan with his friendly neighborhood banker. The banker will have her underwriting department make sure that Trevor is a reasonable risk for a loan.\nWhich of the following lists reflects the areas of focus for the bank's underwriter when evaluating Trevor?\nincome, credit, assets, debts, and net worth\nsex, credit, assets, debts, and net worth\nincome, credit, assets, sex, and marital status\ncredit, assets, debts, marital status, and age\nIn order to determine a borrower's financial qualifications, an underwriter will typically look at five aspects of the applicant's financial profile: income, credit, assets, debts, and net worth.\nJames took out a loan of $20,000 to fix some foundation issues on his house at a 7.5% interest rate. How much will James pay in annual interest?\n$1,500\n$7,500\n$375"
+    "explanation": "正確選項 (A)：評估貸方對特定借款人及物業放貸所承擔風險程度的流程。Underwriting 是貸方審查借款人財務狀況與物業價值，以決定是否核准貸款及條件的核心程序。"
   },
   {
     "id": "P206",
     "source": "LV 練習延伸：Level 13",
     "stemEn": "Which of the following lists reflects the areas of focus for the bank's underwriter when evaluating Trevor?",
-    "stemZh": "",
+    "stemZh": "銀行核貸人員評估 Trevor 的房貸申請時，會聚焦於下列哪個面向清單？",
     "choices": [
       {
         "key": "A",
         "en": "income, credit, assets, debts, and net worth",
-        "zh": ""
+        "zh": "收入、信用、資產、負債及淨值"
       },
       {
         "key": "B",
         "en": "sex, credit, assets, debts, and net worth",
-        "zh": ""
+        "zh": "性別、信用、資產、負債及淨值"
       },
       {
         "key": "C",
         "en": "income, credit, assets, sex, and marital status",
-        "zh": ""
+        "zh": "收入、信用、資產、性別及婚姻狀況"
       },
       {
         "key": "D",
         "en": "credit, assets, debts, marital status, and age",
-        "zh": ""
+        "zh": "信用、資產、負債、婚姻狀況及年齡"
       }
     ],
     "answer": "A",
-    "explanation": "正確選項 (A)：income, credit, assets, debts, and net worth\nIn order to determine a borrower's financial qualifications, an underwriter will typically look at five aspects of the applicant's financial profile: income, credit, assets, debts, and net worth.\nJames took out a loan of $20,000 to fix some foundation issues on his house at a 7.5% interest rate. How much will James pay in annual interest?\n$1,500\n$7,500\n$375\n$125\nPrincipal x Interest rate = Annual interest. So, $20,000 x 0.075 = $1,500 in annual interest.\nJeremy has a monthly income of $2,000. His payment-to-income ratio is 25%. How much is his monthly payment?\n$500\n$50,000\n$5,000\n$80"
+    "explanation": "正確選項 (A)：收入、信用、資產、負債及淨值。核貸人員通常審查申請人這五項財務概況，以評估其償還能力。性別、婚姻狀況及年齡並非合法核貸考量因素。"
   },
   {
     "id": "P207",
     "source": "LV 練習延伸：Level 13",
     "stemEn": "What is a loan-to-value ratio?",
-    "stemZh": "",
+    "stemZh": "什麼是貸款價值比（loan-to-value ratio, LTV）？",
     "choices": [
       {
         "key": "A",
         "en": "the amount of money being loaned compared to the value of the property",
-        "zh": ""
+        "zh": "貸款金額與物業價值的比較"
       },
       {
         "key": "B",
         "en": "the difference between the interest rate of an ARM loan and the index value",
-        "zh": ""
+        "zh": "可調利率房貸（ARM）利率與指數值的差額"
       },
       {
         "key": "C",
         "en": "the process of paying off a debt/mortgage in regular installments based on a fixed payment schedule",
-        "zh": ""
+        "zh": "依固定排程分期償還債務/房貸的過程"
       },
       {
         "key": "D",
         "en": "a financing method in which an owner sells their property to an investor, who then leases the property back to the original owner",
-        "zh": ""
+        "zh": "業主將物業賣給投資人再租回的融資方式"
       }
     ],
     "answer": "A",
-    "explanation": "正確選項 (A)：the amount of money being loaned compared to the value of the property\nA loan-to-value ratio is the amount of money being loaned compared to the value of the property.\nLucia has a monthly PITI payment of $650 and other long-term liabilities totaling $250 per month. If she makes $3,300 a month, what is her total debt-to-income ratio?\n27%\n12%\n19%\n30%\nLucia's debt-to-income ratio is 27%. You get this by using this formula: (Monthly payment + Other debt) ÷ Monthly income = Debt-to-income ratio. In Lucia's scenario, it would look like this: ($650 + $250) ÷ $3,300 = 0.27 or 27%.\nWhat form do most lenders use to collect mortgage loan applicant information for underwriting purposes?\nUniform Residential Loan Application (URLA)\nStandard Mortgage Underwriting Residential Form (SMURF)\nUniversal Mortgage Loan Application (UMLA)\nLender Underwriting Mortgage Loan Application (LUMLA)"
+    "explanation": "正確選項 (A)：貸款金額與物業價值的比較。LTV = 貸款金額 ÷ 物業價值，以百分比表示，是衡量貸款風險的重要指標。"
   },
   {
     "id": "P208",
     "source": "LV 練習延伸：Level 13",
     "stemEn": "Lucia has a monthly PITI payment of $650 and other long-term liabilities totaling $250 per month. If she makes $3,300 a month, what is her total debt-to-income ratio?",
-    "stemZh": "",
+    "stemZh": "Lucia 每月 PITI 為 $650，其他長期負債每月 $250，月收入 $3,300。她的總債務收入比（debt-to-income ratio）是多少？",
     "choices": [
       {
         "key": "A",
         "en": "27%",
-        "zh": ""
+        "zh": "27%"
       },
       {
         "key": "B",
         "en": "12%",
-        "zh": ""
+        "zh": "12%"
       },
       {
         "key": "C",
         "en": "19%",
-        "zh": ""
+        "zh": "19%"
       },
       {
         "key": "D",
         "en": "30%",
-        "zh": ""
+        "zh": "30%"
       }
     ],
     "answer": "A",
-    "explanation": "正確選項 (A)：27%\nLucia's debt-to-income ratio is 27%. You get this by using this formula: (Monthly payment + Other debt) ÷ Monthly income = Debt-to-income ratio. In Lucia's scenario, it would look like this: ($650 + $250) ÷ $3,300 = 0.27 or 27%.\nWhat form do most lenders use to collect mortgage loan applicant information for underwriting purposes?\nUniform Residential Loan Application (URLA)\nStandard Mortgage Underwriting Residential Form (SMURF)\nUniversal Mortgage Loan Application (UMLA)\nLender Underwriting Mortgage Loan Application (LUMLA)\nWhen a borrower meets with a lender to apply for a mortgage loan, the underwriting form used will likely be Fannie Mae's Uniform Residential Loan Application (URLA). It's the standard form most lenders use to collect the information necessary to evaluate the loan risk their applicants represent.\nJackie took out an amortized loan of $300,000 with a 5% interest rate. Her monthly payment is $1,800. How much of her first payment will go towards the principal?\n$550\n$600\n$1,250\n$650"
+    "explanation": "正確選項 (A)：27%。公式：(PITI + 其他債務) ÷ 月收入 = DTI。($650 + $250) ÷ $3,300 = 0.27，即 27%。"
   },
   {
     "id": "P209",
     "source": "LV 練習延伸：Level 13",
     "stemEn": "What form do most lenders use to collect mortgage loan applicant information for underwriting purposes?",
-    "stemZh": "",
+    "stemZh": "多數貸方用哪份表單收集房貸申請人的核貸資訊？",
     "choices": [
       {
         "key": "A",
         "en": "Uniform Residential Loan Application (URLA)",
-        "zh": ""
+        "zh": "Uniform Residential Loan Application（URLA，統一住宅貸款申請表）"
       },
       {
         "key": "B",
         "en": "Standard Mortgage Underwriting Residential Form (SMURF)",
-        "zh": ""
+        "zh": "Standard Mortgage Underwriting Residential Form（SMURF）"
       },
       {
         "key": "C",
         "en": "Universal Mortgage Loan Application (UMLA)",
-        "zh": ""
+        "zh": "Universal Mortgage Loan Application（UMLA）"
       },
       {
         "key": "D",
         "en": "Lender Underwriting Mortgage Loan Application (LUMLA)",
-        "zh": ""
+        "zh": "Lender Underwriting Mortgage Loan Application（LUMLA）"
       }
     ],
     "answer": "A",
-    "explanation": "正確選項 (A)：Uniform Residential Loan Application (URLA)\nWhen a borrower meets with a lender to apply for a mortgage loan, the underwriting form used will likely be Fannie Mae's Uniform Residential Loan Application (URLA). It's the standard form most lenders use to collect the information necessary to evaluate the loan risk their applicants represent.\nJackie took out an amortized loan of $300,000 with a 5% interest rate. Her monthly payment is $1,800. How much of her first payment will go towards the principal?\n$550\n$600\n$1,250\n$650\nFirst, you need to calculate the amount Jackie will pay in interest by multiplying $300,000 by 0.05 and then dividing by 12, which equals $1,250. Then you subtract $1,250 from the monthly payment of $1,800, leaving $550 as the amount going towards the principal."
+    "explanation": "正確選項 (A)：Uniform Residential Loan Application（URLA）。URLA 是 Fannie Mae 制定的標準房貸申請表，多數貸方以此收集核貸所需的借款人財務資訊。"
   },
   {
     "id": "P210",
     "source": "LV 練習延伸：Level 13",
     "stemEn": "Jackie took out an amortized loan of $300,000 with a 5% interest rate. Her monthly payment is $1,800. How much of her first payment will go towards the principal?",
-    "stemZh": "",
+    "stemZh": "Jackie 取得 $300,000 攤還貸款，利率 5%，月付 $1,800。她第一期付款中有多少會用於償還本金（principal）？",
     "choices": [
       {
         "key": "A",
         "en": "$550",
-        "zh": ""
+        "zh": "$550"
       },
       {
         "key": "B",
         "en": "$600",
-        "zh": ""
+        "zh": "$600"
       },
       {
         "key": "C",
         "en": "$1,250",
-        "zh": ""
+        "zh": "$1,250"
       },
       {
         "key": "D",
         "en": "$650",
-        "zh": ""
+        "zh": "$650"
       }
     ],
     "answer": "C",
-    "explanation": "正確選項 (C)：$1,250\nFirst, you need to calculate the amount Jackie will pay in interest by multiplying $300,000 by 0.05 and then dividing by 12, which equals $1,250. Then you subtract $1,250 from the monthly payment of $1,800, leaving $550 as the amount going towards the principal."
+    "explanation": "正確選項 (C)：$1,250。先計算第一期利息：$300,000 × 5% ÷ 12 = $1,250。月付 $1,800 減去利息 $1,250 後，$550 用於本金。"
   },
   {
     "id": "P211",
     "source": "LV 練習延伸：Level 14",
     "stemEn": "With which type of land description does a surveyor indicate direction in degrees, minutes, and seconds?",
-    "stemZh": "",
+    "stemZh": "測量師以度、分、秒表示方向時，使用的是哪種土地描述方式？",
     "choices": [
       {
         "key": "A",
         "en": "metes and bounds",
-        "zh": ""
+        "zh": "界線丈量法（metes and bounds）"
       },
       {
         "key": "B",
         "en": "rectangular survey system",
-        "zh": ""
+        "zh": "矩形測量系統（rectangular survey system）"
       },
       {
         "key": "C",
         "en": "lot and block system",
-        "zh": ""
+        "zh": "地號街區系統（lot and block system）"
       },
       {
         "key": "D",
         "en": "government survey system",
-        "zh": ""
+        "zh": "政府測量系統（government survey system）"
       }
     ],
     "answer": "A",
-    "explanation": "正確選項 (A)：metes and bounds\nCorrect. The metes and bounds method of land description uses descriptions like degrees, minutes, and seconds to outline the boundaries of a property.\nThe NE 1/4 of a section would measure how many acres?\n160\n640\n320\n80\nCorrect. The NE 1/4 of a section would measure 160 acres.\nA surveyor references an object when reporting the elevation of a property. If you wanted to go see that object for yourself, what would you look for?\na permanent, metal benchmark\na natural monument, such as a tree\na wooden stake in the ground\na building or similar human-made structure"
+    "explanation": "正確選項 (A)：界線丈量法（metes and bounds）。Metes and bounds 以方位角（度、分、秒）及距離描述土地邊界，並回到起點（point of beginning）。"
   },
   {
     "id": "P212",
     "source": "LV 練習延伸：Level 14",
     "stemEn": "The NE 1/4 of a section would measure how many acres?",
-    "stemZh": "",
+    "stemZh": "一個 section 的東北 1/4（NE 1/4）面積是多少英畝（acres）？",
     "choices": [
       {
         "key": "A",
         "en": "160",
-        "zh": ""
+        "zh": "160 英畝"
       },
       {
         "key": "B",
         "en": "640",
-        "zh": ""
+        "zh": "640 英畝"
       },
       {
         "key": "C",
         "en": "320",
-        "zh": ""
+        "zh": "320 英畝"
       },
       {
         "key": "D",
         "en": "80",
-        "zh": ""
+        "zh": "80 英畝"
       }
     ],
     "answer": "A",
-    "explanation": "正確選項 (A)：160\nCorrect. The NE 1/4 of a section would measure 160 acres.\nA surveyor references an object when reporting the elevation of a property. If you wanted to go see that object for yourself, what would you look for?\na permanent, metal benchmark\na natural monument, such as a tree\na wooden stake in the ground\na building or similar human-made structure\nSurveyors report elevation by referencing benchmarks. These are permanent, metal objects placed by the U.S. Geological Survey or the U.S. Coast and Geodetic Survey.\nCourtney just purchased an 8.5-acre vacant lot of land for $500,000. What was the price Courtney paid per square yard?\n$12.15\n$1.35\n$58.82\n$36.46"
+    "explanation": "正確選項 (A)：160 英畝。一個 section 為 640 英畝，取其 1/4 即 160 英畝。"
   },
   {
     "id": "P213",
     "source": "LV 練習延伸：Level 14",
     "stemEn": "Charlie purchased a lot that measures 800 ft. wide by 500 ft. long. The purchase price was $850,000. What was the price Charlie paid per ACRE?",
-    "stemZh": "",
+    "stemZh": "Charlie 購買一塊 800 英尺寬、500 英尺長的地，成交價 $850,000。他每英畝（acre）支付多少？",
     "choices": [
       {
         "key": "A",
         "en": "$92,592.59",
-        "zh": ""
+        "zh": "$92,592.59"
       },
       {
         "key": "B",
         "en": "$0.47",
-        "zh": ""
+        "zh": "$0.47"
       },
       {
         "key": "C",
         "en": "$1,062.50",
-        "zh": ""
+        "zh": "$1,062.50"
       },
       {
         "key": "D",
         "en": "$1,360",
-        "zh": ""
+        "zh": "$1,360"
       }
     ],
     "answer": "A",
-    "explanation": "正確選項 (A)：$92,592.59\nCorrect. Charlie paid $92,592.59 per acre. 800 ft. x 500 ft. = 400,000 sq. ft. Since there are 43,560 sq. ft. in an acre, we'll divide the total square footage by 43,560. 400,000 sq. ft. ÷ 43,560 sq. ft./acre = 9.18 acres, so the lot is 9.18 acres. We'll then divide the total price by the acreage. $850,000 ÷ 9.18 acres = $92,592.59/acre. Charlie paid $92,592.59 per acre.\nWhat is a survey?\nthe process and physical product of finding and measuring the boundaries of a piece of real estate, including the location of improvements\nthe required actions for the proper execution of a deed, involving delivery of the deed by the grantor and acceptance by the grantee\nthe involuntary transfer of title from an owner who doesn't use or inspect their land to another person who has some claim and takes possession\na deed without any warranty against encumbrances; only implies that the grantor holds the right to convey title\nA survey is the process and physical product of finding and measuring the boundaries of a piece of real estate, including the location of improvements, encroachments, and easements.\nJim buys a 400 sq. yd. lot of land. What is the size of Jim's lot in square feet?\n3,600 sq. ft.\n3,200 sq. ft.\n1,600 sq. ft.\n1,200 sq. ft."
+    "explanation": "正確選項 (A)：$92,592.59。面積 800 × 500 = 400,000 平方英尺，÷ 43,560 = 9.18 英畝。$850,000 ÷ 9.18 = $92,592.59/英畝。"
   },
   {
     "id": "P214",
     "source": "LV 練習延伸：Level 14",
     "stemEn": "What is a survey?",
-    "stemZh": "",
+    "stemZh": "什麼是測量（survey）？",
     "choices": [
       {
         "key": "A",
         "en": "the process and physical product of finding and measuring the boundaries of a piece of real estate, including the location of improvements",
-        "zh": ""
+        "zh": "查找並丈量不動產邊界（含改良物位置）的過程及實體成果"
       },
       {
         "key": "B",
         "en": "the required actions for the proper execution of a deed, involving delivery of the deed by the grantor and acceptance by the grantee",
-        "zh": ""
+        "zh": "契據正式生效所需的交付與接受程序"
       },
       {
         "key": "C",
         "en": "the involuntary transfer of title from an owner who doesn't use or inspect their land to another person who has some claim and takes possession",
-        "zh": ""
+        "zh": "業主未使用土地而由他人時效取得產權的非自願移轉"
       },
       {
         "key": "D",
         "en": "a deed without any warranty against encumbrances; only implies that the grantor holds the right to convey title",
-        "zh": ""
+        "zh": "不擔保產權負擔、僅默示轉讓人有權移轉產權的契據"
       }
     ],
     "answer": "A",
-    "explanation": "正確選項 (A)：the process and physical product of finding and measuring the boundaries of a piece of real estate, including the location of improvements\nA survey is the process and physical product of finding and measuring the boundaries of a piece of real estate, including the location of improvements, encroachments, and easements.\nJim buys a 400 sq. yd. lot of land. What is the size of Jim's lot in square feet?\n3,600 sq. ft.\n3,200 sq. ft.\n1,600 sq. ft.\n1,200 sq. ft.\nCorrect. One square yard is equal to 9 sq. ft. So, 400 sq. yards x 9 = 3,600 sq. ft.\nWhich legal description will likely include the phrase “point of beginning”?\nmetes and bounds\nrecorded plat\nrectangular survey\nvertical land"
+    "explanation": "正確選項 (A)：查找並丈量不動產邊界（含改良物位置）的過程及實體成果。Survey 確定土地邊界、建物位置、越界（encroachment）及地役權等，是產權交易的重要文件。"
   },
   {
     "id": "P215",
     "source": "LV 練習延伸：Level 14",
     "stemEn": "Jim buys a 400 sq. yd. lot of land. What is the size of Jim's lot in square feet?",
-    "stemZh": "",
+    "stemZh": "Jim 購買一塊 400 平方碼（sq. yd.）的土地。換算成平方英尺（sq. ft.）是多少？",
     "choices": [
       {
         "key": "A",
         "en": "3,600 sq. ft.",
-        "zh": ""
+        "zh": "3,600 平方英尺"
       },
       {
         "key": "B",
         "en": "3,200 sq. ft.",
-        "zh": ""
+        "zh": "3,200 平方英尺"
       },
       {
         "key": "C",
         "en": "1,600 sq. ft.",
-        "zh": ""
+        "zh": "1,600 平方英尺"
       },
       {
         "key": "D",
         "en": "1,200 sq. ft.",
-        "zh": ""
+        "zh": "1,200 平方英尺"
       }
     ],
     "answer": "A",
-    "explanation": "正確選項 (A)：3,600 sq. ft.\nCorrect. One square yard is equal to 9 sq. ft. So, 400 sq. yards x 9 = 3,600 sq. ft.\nWhich legal description will likely include the phrase “point of beginning”?\nmetes and bounds\nrecorded plat\nrectangular survey\nvertical land\nThe metes and bound system describes the perimeter boundaries of the parcel using measurements, directions, and distances. A metes and bounds legal description always returns to the Point of the Beginning (POB).\nWhich survey system uses longitude and latitude lines to map property boundaries?\ngovernment survey system\nmetes and bounds system\nlot and block system\nrecorded plat system"
+    "explanation": "正確選項 (A)：3,600 平方英尺。1 平方碼 = 9 平方英尺，400 × 9 = 3,600 平方英尺。"
   },
   {
     "id": "P216",
     "source": "LV 練習延伸：Level 14",
     "stemEn": "Which survey system uses longitude and latitude lines to map property boundaries?",
-    "stemZh": "",
+    "stemZh": "哪種測量系統使用經緯線（longitude and latitude）來標定土地邊界？",
     "choices": [
       {
         "key": "A",
         "en": "government survey system",
-        "zh": ""
+        "zh": "政府測量系統（government survey system）"
       },
       {
         "key": "B",
         "en": "metes and bounds system",
-        "zh": ""
+        "zh": "界線丈量系統（metes and bounds system）"
       },
       {
         "key": "C",
         "en": "lot and block system",
-        "zh": ""
+        "zh": "地號街區系統（lot and block system）"
       },
       {
         "key": "D",
         "en": "recorded plat system",
-        "zh": ""
+        "zh": "登錄分區圖系統（recorded plat system）"
       }
     ],
     "answer": "A",
-    "explanation": "正確選項 (A)：government survey system\nThe government survey system uses longitude and latitude lines to map property boundaries.\nRentable square footage includes a tenant's usable square footage and:\ncommon areas\noutdoor areas\na break room only accessible on one floor\nthe length of the air vents within the building\nThis is incorrect because all outdoor areas would not be included in an area's rentable square footage. Rentable square footage is the measurement of the total area that a tenant can access which includes a tenant's usable square footage and common areas.\nRange columns run parallel to:\nmeridians\ntownship lines\nbaselines\ncorrection lines"
+    "explanation": "正確選項 (A)：政府測量系統（government survey system）。政府測量系統以子午線（meridians）及基線（baselines）建立網格，利用經緯概念劃分 township 與 range。"
   },
   {
     "id": "P217",
     "source": "LV 練習延伸：Level 14",
     "stemEn": "Range columns run parallel to:",
-    "stemZh": "",
+    "stemZh": "Range 欄（range columns）與什麼平行？",
     "choices": [
       {
         "key": "A",
         "en": "meridians",
-        "zh": ""
+        "zh": "子午線（meridians）"
       },
       {
         "key": "B",
         "en": "township lines",
-        "zh": ""
+        "zh": "township 線"
       },
       {
         "key": "C",
         "en": "baselines",
-        "zh": ""
+        "zh": "基線（baselines）"
       },
       {
         "key": "D",
         "en": "correction lines",
-        "zh": ""
+        "zh": "修正線（correction lines）"
       }
     ],
     "answer": "A",
-    "explanation": "正確選項 (A)：meridians\nRange columns run parallel to meridians and create six-mile ranges.\nWhat is the legal description of a property?\na detailed description of a property that is distinct and precise enough to distinguish it from all other properties\nthe U.S. Postal Service’s mailing address for the property\nthe 911 emergency address of the property\nan appraiser’s description of the identity of the property\nA legal description is a detailed description of a property that is distinct and precise enough to distinguish it from all other properties.\nWhich of the following is a portion of a legal description?\nlot number\nstreet address\napartment number\nP.O. box"
+    "explanation": "正確選項 (A)：子午線（meridians）。Range 欄與子午線平行，形成六英里寬的 range 區帶，是政府測量系統的基本組成。"
   },
   {
     "id": "P218",
     "source": "LV 練習延伸：Level 14",
     "stemEn": "What is the legal description of a property?",
-    "stemZh": "",
+    "stemZh": "什麼是不動產的法律描述（legal description）？",
     "choices": [
       {
         "key": "A",
         "en": "a detailed description of a property that is distinct and precise enough to distinguish it from all other properties",
-        "zh": ""
+        "zh": "足以與所有其他物業區分的詳細精確描述"
       },
       {
         "key": "B",
-        "en": "the U.S. Postal Service’s mailing address for the property",
-        "zh": ""
+        "en": "the U.S. Postal Service's mailing address for the property",
+        "zh": "美國郵政的郵寄地址"
       },
       {
         "key": "C",
         "en": "the 911 emergency address of the property",
-        "zh": ""
+        "zh": "911 緊急地址"
       },
       {
         "key": "D",
-        "en": "an appraiser’s description of the identity of the property",
-        "zh": ""
+        "en": "an appraiser's description of the identity of the property",
+        "zh": "鑑價師對物業身分的描述"
       }
     ],
     "answer": "A",
-    "explanation": "正確選項 (A)：a detailed description of a property that is distinct and precise enough to distinguish it from all other properties\nA legal description is a detailed description of a property that is distinct and precise enough to distinguish it from all other properties.\nWhich of the following is a portion of a legal description?\nlot number\nstreet address\napartment number\nP.O. box\nA lot number is a portion of a legal description."
+    "explanation": "正確選項 (A)：足以與所有其他物業區分的詳細精確描述。Legal description 是法律上唯一識別不動產的方式，郵寄地址或 911 地址不能替代。"
   },
   {
     "id": "P219",
     "source": "LV 練習延伸：Level 14",
     "stemEn": "Which of the following is a portion of a legal description?",
-    "stemZh": "",
+    "stemZh": "下列哪一項是法律描述的一部分？",
     "choices": [
       {
         "key": "A",
         "en": "lot number",
-        "zh": ""
+        "zh": "地號（lot number）"
       },
       {
         "key": "B",
         "en": "street address",
-        "zh": ""
+        "zh": "街道地址"
       },
       {
         "key": "C",
         "en": "apartment number",
-        "zh": ""
+        "zh": "公寓號碼"
       },
       {
         "key": "D",
         "en": "P.O. box",
-        "zh": ""
+        "zh": "郵政信箱"
       }
     ],
     "answer": "A",
-    "explanation": "正確選項 (A)：lot number\nA lot number is a portion of a legal description."
+    "explanation": "正確選項 (A)：地號（lot number）。Lot number 是 lot and block 法律描述系統的組成部分，與 block、subdivision 等共同構成完整描述。"
   },
   {
     "id": "P220",
     "source": "LV 練習延伸：Level 15",
     "stemEn": "What is quiet enjoyment?",
-    "stemZh": "",
+    "stemZh": "什麼是安寧享用權（quiet enjoyment）？",
     "choices": [
       {
         "key": "A",
         "en": "a lessee's right to possess a property without interference from the lessor",
-        "zh": ""
+        "zh": "承租人（lessee）不受出租人（lessor）干擾而占有使用物業的權利"
       },
       {
         "key": "B",
         "en": "the process by which a tenant is expelled from a property",
-        "zh": ""
+        "zh": "將承租人驅逐出物業的程序"
       },
       {
         "key": "C",
         "en": "a lease in which the tenant pays a base rent rate plus all or part of the operating expenses",
-        "zh": ""
+        "zh": "承租人支付基本租金加部分或全部營運費用的租約"
       },
       {
         "key": "D",
         "en": "a deposit made to a seller showing the buyer's good faith in regards to the future performance of a sales contract",
-        "zh": ""
+        "zh": "買方為證明履約誠意而付給賣方的訂金"
       }
     ],
     "answer": "A",
-    "explanation": "正確選項 (A)：a lessee's right to possess a property without interference from the lessor\nQuiet enjoyment is a lessee's right to possess a property without interference from the lessor, previous owner, or anyone else about the claim to the title.\nA landlord frequently enters one of his tenant's apartments without notice just to see how the tenant is doing. This action:\nviolates the tenant's right to quiet enjoyment of the property\nviolates the tenant's right to control how the property is used\nis okay as long as the landlord wrote in the lease that he would retain the right to do this\nis okay since the landlord owns the property and has a right to be there\nFrequent, non-essential visits to a tenant's apartment violate the tenant's right to quiet enjoyment of the property.\nWhat is the difference between a sublease and an assignment?\nIn a sublease, the original tenant is still responsible for the rent. In an assignment, the new tenant takes over responsibility.\nIn a sublease, the landlord can terminate the contract at any time. In an assignment, they cannot.\nIn a sublease, the new tenant is responsible for all costs. In an assignment, the new tenant pays the old tenant, and they pay the landlord.\nIn a sublease, the original space is reconfigured to fit two tenants. In an assignment, the tenants share the original space as is."
+    "explanation": "正確選項 (A)：承租人（lessee）不受出租人（lessor）干擾而占有使用物業的權利。Quiet enjoyment 保障承租人在租期內不受房東、前業主或第三人對產權的干擾。"
   },
   {
     "id": "P221",
     "source": "LV 練習延伸：Level 15",
     "stemEn": "A landlord frequently enters one of his tenant's apartments without notice just to see how the tenant is doing. This action:",
-    "stemZh": "",
+    "stemZh": "房東經常未事先通知就進入承租人公寓「關心」承租人。此行為：",
     "choices": [
       {
         "key": "A",
         "en": "violates the tenant's right to quiet enjoyment of the property",
-        "zh": ""
+        "zh": "侵犯承租人的安寧享用權"
       },
       {
         "key": "B",
         "en": "violates the tenant's right to control how the property is used",
-        "zh": ""
+        "zh": "侵犯承租人控制物業使用的權利"
       },
       {
         "key": "C",
         "en": "is okay as long as the landlord wrote in the lease that he would retain the right to do this",
-        "zh": ""
+        "zh": "只要租約載明房東保留此權利即可"
       },
       {
         "key": "D",
         "en": "is okay since the landlord owns the property and has a right to be there",
-        "zh": ""
+        "zh": "因房東擁有物業而有權進入，故可接受"
       }
     ],
     "answer": "A",
-    "explanation": "正確選項 (A)：violates the tenant's right to quiet enjoyment of the property\nFrequent, non-essential visits to a tenant's apartment violate the tenant's right to quiet enjoyment of the property.\nWhat is the difference between a sublease and an assignment?\nIn a sublease, the original tenant is still responsible for the rent. In an assignment, the new tenant takes over responsibility.\nIn a sublease, the landlord can terminate the contract at any time. In an assignment, they cannot.\nIn a sublease, the new tenant is responsible for all costs. In an assignment, the new tenant pays the old tenant, and they pay the landlord.\nIn a sublease, the original space is reconfigured to fit two tenants. In an assignment, the tenants share the original space as is.\nIn a sublease, the original tenant is still responsible for the rent. In an assignment, the new tenant takes over responsibility. In other words, a sublease does not release the original tenant from responsibility, while an assignment does.\nWhich of the following individuals is exempt from FEHA?\nCathy, who owns and occupies her home and rents to one person at a time\nNichole, who rents out units in an apartment complex\nSierra, who is selling her condo\nHollie, who is selling her single-family home"
+    "explanation": "正確選項 (A)：侵犯承租人的安寧享用權。房東頻繁、非必要的無通知進入，違反 quiet enjoyment，即使租約有相關條款也可能無效。"
   },
   {
     "id": "P222",
     "source": "LV 練習延伸：Level 15",
     "stemEn": "What is the difference between a sublease and an assignment?",
-    "stemZh": "",
+    "stemZh": "轉租（sublease）與轉讓（assignment）有何不同？",
     "choices": [
       {
         "key": "A",
         "en": "In a sublease, the original tenant is still responsible for the rent. In an assignment, the new tenant takes over responsibility.",
-        "zh": ""
+        "zh": "轉租時原承租人仍負租金責任；轉讓時新承租人承擔責任"
       },
       {
         "key": "B",
         "en": "In a sublease, the landlord can terminate the contract at any time. In an assignment, they cannot.",
-        "zh": ""
+        "zh": "轉租時房東可隨時終止合約；轉讓時不可"
       },
       {
         "key": "C",
         "en": "In a sublease, the new tenant is responsible for all costs. In an assignment, the new tenant pays the old tenant, and they pay the landlord.",
-        "zh": ""
+        "zh": "轉租時新承租人負擔全部費用；轉讓時新承租人付給原承租人，再由原承租人付給房東"
       },
       {
         "key": "D",
         "en": "In a sublease, the original space is reconfigured to fit two tenants. In an assignment, the tenants share the original space as is.",
-        "zh": ""
+        "zh": "轉租時重新配置空間容納兩位承租人；轉讓時兩人共用原空間"
       }
     ],
     "answer": "A",
-    "explanation": "正確選項 (A)：In a sublease, the original tenant is still responsible for the rent. In an assignment, the new tenant takes over responsibility.\nIn a sublease, the original tenant is still responsible for the rent. In an assignment, the new tenant takes over responsibility. In other words, a sublease does not release the original tenant from responsibility, while an assignment does.\nWhich of the following individuals is exempt from FEHA?\nCathy, who owns and occupies her home and rents to one person at a time\nNichole, who rents out units in an apartment complex\nSierra, who is selling her condo\nHollie, who is selling her single-family home\nThe main type of person who is exempt from FEHA is an owner who rents their single-family, owner-occupied home to one individual, though they must still follow FEHA's rules on not making discriminatory statements, notices, or advertisements.\nIn California, an automatic renewal clause in a lease must:\nbe in bold font\nbe in a separate addendum\nnot be included; automatic renewal clauses are illegal in California\ngive the tenant the first right to purchase the property"
+    "explanation": "正確選項 (A)：轉租時原承租人仍負租金責任；轉讓時新承租人承擔責任。Sublease 不解除原承租人對房東的義務；assignment 則讓新承租人直接取代原承租人的責任。"
   },
   {
     "id": "P223",
     "source": "LV 練習延伸：Level 15",
     "stemEn": "In California, an automatic renewal clause in a lease must:",
-    "stemZh": "",
+    "stemZh": "在加州，租約中的自動續約條款（automatic renewal clause）必須：",
     "choices": [
       {
         "key": "A",
         "en": "be in bold font",
-        "zh": ""
+        "zh": "以粗體字印出"
       },
       {
         "key": "B",
         "en": "be in a separate addendum",
-        "zh": ""
+        "zh": "載於獨立附錄中"
       },
       {
         "key": "C",
         "en": "not be included; automatic renewal clauses are illegal in California",
-        "zh": ""
+        "zh": "不得包含；加州禁止自動續約條款"
       },
       {
         "key": "D",
         "en": "give the tenant the first right to purchase the property",
-        "zh": ""
+        "zh": "給予承租人優先購買權"
       }
     ],
     "answer": "A",
-    "explanation": "正確選項 (A)：be in bold font\nWhen an automatic renewal clause is in a lease, it means the lease will be renewed (either on a month-to-month basis or on some other specified terms) without action taken by the tenant or landlord. In California, this type of automatic renewal clause in a lease must be in bold font.\nIn California, an urban property can't be rented for more than:\n99 years\n99 months\n51 years\n51 months\nIn California, an urban property cannot be rented for more than 99 years and a rural property cannot be rented for more than 51 years.\nWhich California law protects tenants and employees from both employment and housing discrimination based on their belonging to select groups?\nFair Employment and Housing Act\nFree Establishments and Homes Act\nFree and Equal Housing Act\nEqual Opportunity Employment and Homes Act"
+    "explanation": "正確選項 (A)：以粗體字印出。加州規定，租約中的自動續約條款必須以粗體字（bold font）標示，以確保承租人清楚知悉。"
   },
   {
     "id": "P224",
     "source": "LV 練習延伸：Level 15",
     "stemEn": "Which California law protects tenants and employees from both employment and housing discrimination based on their belonging to select groups?",
-    "stemZh": "",
+    "stemZh": "哪部加州法律保護承租人及員工，使其免於因所屬特定群體而遭受就業及住房歧視？",
     "choices": [
       {
         "key": "A",
         "en": "Fair Employment and Housing Act",
-        "zh": ""
+        "zh": "公平就業及住房法（Fair Employment and Housing Act, FEHA）"
       },
       {
         "key": "B",
         "en": "Free Establishments and Homes Act",
-        "zh": ""
+        "zh": "Free Establishments and Homes Act"
       },
       {
         "key": "C",
         "en": "Free and Equal Housing Act",
-        "zh": ""
+        "zh": "Free and Equal Housing Act"
       },
       {
         "key": "D",
         "en": "Equal Opportunity Employment and Homes Act",
-        "zh": ""
+        "zh": "Equal Opportunity Employment and Homes Act"
       }
     ],
     "answer": "A",
-    "explanation": "正確選項 (A)：Fair Employment and Housing Act\nCalifornia's Fair Employment and Housing Act (FEHA) protects tenants and employees from both employment and housing discrimination based on race or color, ancestry or national origin, age, disability, gender, sexual orientation, gender identity or expression, medical condition, marital status, and being in the military or a veteran.\nWhen do tenants have the option of purchasing a property under a lease-option agreement?\non the date agreed upon in the contract\nonce the owner decides to sell\nat the beginning of the lease period\nonce their monthly lease payments add up to the purchase price of the property\nA lease with option to buy is a contract in which the buyer can lease a property for a period of time (usually a year) and then have an option to buy the property at a time designated in the contract.\nRandy is renting his basement apartment to Josh, his son, who is a full-time college student. There is no formal lease involved, no specified termination date or rental period established, and Josh even skips payments now and then. What type of leasehold estate best describes this arrangement?\nestate at will\nestate for years\nestate from period to period\nestate at sufferance"
+    "explanation": "正確選項 (A)：公平就業及住房法（FEHA）。FEHA 禁止基於種族、年齡、殘疾、性別、性取向、婚姻狀況、軍人身份等理由的就業及住房歧視。"
   },
   {
     "id": "P225",
     "source": "LV 練習延伸：Level 15",
     "stemEn": "Randy is renting his basement apartment to Josh, his son, who is a full-time college student. There is no formal lease involved, no specified termination date or rental period established, and Josh even skips payments now and then. What type of leasehold estate best describes this arrangement?",
-    "stemZh": "",
+    "stemZh": "Randy 將地下室公寓租給全職大學生的兒子 Josh，沒有正式租約、未訂終止日期或租期，Josh 有時還延遲付租。此安排最符合哪種租賃權（leasehold estate）？",
     "choices": [
       {
         "key": "A",
         "en": "estate at will",
-        "zh": ""
+        "zh": "任意租賃（estate at will）"
       },
       {
         "key": "B",
         "en": "estate for years",
-        "zh": ""
+        "zh": "定期租賃（estate for years）"
       },
       {
         "key": "C",
         "en": "estate from period to period",
-        "zh": ""
+        "zh": "週期性租賃（estate from period to period）"
       },
       {
         "key": "D",
         "en": "estate at sufferance",
-        "zh": ""
+        "zh": "默許租賃/逾期占有（estate at sufferance）"
       }
     ],
     "answer": "A",
-    "explanation": "正確選項 (A)：estate at will\nThe lack of a formal lease, specified rental period, or termination date, along with the occasional lapse in rental payment, would indicate that Randy has provided an estate at will to Josh.\nThe landlord of an apartment complex refuses to rent an apartment to a couple because they are not married. The landlord's actions are:\nunacceptable because they are violating the Fair Employment and Housing Act\nacceptable because landlords have the authority to choose suitable tenants for their properties\nunacceptable because they are violating the Code of Ethics\nacceptable as long as the landlord denies leases to all unmarried couples\nThe landlord's actions are unacceptable because they violate California's Fair Employment and Housing Act (FEHA) by discriminating against the couple based on their marital status. FEHA protects tenants and employees from both employment and housing discrimination based on race or color, ancestry or national origin, age, disability, gender, sexual orientation, gender identity, medical condition, marital status, and military status (being an active member or a veteran).\nSally has been leasing a property for the past three years. Sally's landlord has decided to use the property for something else when her lease is up. What type of estate will be created if Sally refuses to leave after her lease is terminated?\ntenancy at sufferance\ntenant's estate\nestate from period to period\ntension estate"
+    "explanation": "正確選項 (A)：任意租賃（estate at will）。無正式租約、無固定租期或終止日，且租金支付不規律，符合 estate at will 的特徵。"
   },
   {
     "id": "P226",
     "source": "LV 練習延伸：Level 15",
     "stemEn": "The landlord of an apartment complex refuses to rent an apartment to a couple because they are not married. The landlord's actions are:",
-    "stemZh": "",
+    "stemZh": "某公寓大樓房東因一對情侶未結婚而拒絕出租。房東的行為：",
     "choices": [
       {
         "key": "A",
         "en": "unacceptable because they are violating the Fair Employment and Housing Act",
-        "zh": ""
+        "zh": "不可接受，因違反公平就業及住房法（FEHA）"
       },
       {
         "key": "B",
         "en": "acceptable because landlords have the authority to choose suitable tenants for their properties",
-        "zh": ""
+        "zh": "可接受，因房東有權選擇適合的承租人"
       },
       {
         "key": "C",
         "en": "unacceptable because they are violating the Code of Ethics",
-        "zh": ""
+        "zh": "不可接受，因違反道德準則（Code of Ethics）"
       },
       {
         "key": "D",
         "en": "acceptable as long as the landlord denies leases to all unmarried couples",
-        "zh": ""
+        "zh": "可接受，只要房東對所有未婚情侶一視同仁"
       }
     ],
     "answer": "A",
-    "explanation": "正確選項 (A)：unacceptable because they are violating the Fair Employment and Housing Act\nThe landlord's actions are unacceptable because they violate California's Fair Employment and Housing Act (FEHA) by discriminating against the couple based on their marital status. FEHA protects tenants and employees from both employment and housing discrimination based on race or color, ancestry or national origin, age, disability, gender, sexual orientation, gender identity, medical condition, marital status, and military status (being an active member or a veteran).\nSally has been leasing a property for the past three years. Sally's landlord has decided to use the property for something else when her lease is up. What type of estate will be created if Sally refuses to leave after her lease is terminated?\ntenancy at sufferance\ntenant's estate\nestate from period to period\ntension estate\nYes, Sally's landlord would create a tenancy at sufferance, also known as an estate at sufferance. A tenancy at sufferance occurs when a tenant remains in possession of or continues to occupy a property beyond their lease term, without consent from the landlord.\nLandlord Hubert uses his tenant's security deposit to repair damages to the apartment they rented for a year. Because Landlord Hubert used the security deposit funds, he must give the tenant a detailed document that shows all the charges within:\n21 days after the tenant moves out\n51 days after the tenant moves out\nseven days after he spends the funds\none year after he spends the funds"
+    "explanation": "正確選項 (A)：不可接受，因違反 FEHA。FEHA 禁止基於婚姻狀況（marital status）的住房歧視，房東不得因情侶未結婚而拒絕出租。"
   },
   {
     "id": "P227",
     "source": "LV 練習延伸：Level 15",
     "stemEn": "Sally has been leasing a property for the past three years. Sally's landlord has decided to use the property for something else when her lease is up. What type of estate will be created if Sally refuses to leave after her lease is terminated?",
-    "stemZh": "",
+    "stemZh": "Sally 已承租三年。租約到期後房東欲改作他用，若 Sally 拒絕搬離，將形成哪種租賃權？",
     "choices": [
       {
         "key": "A",
         "en": "tenancy at sufferance",
-        "zh": ""
+        "zh": "默許租賃/逾期占有（tenancy at sufferance）"
       },
       {
         "key": "B",
         "en": "tenant's estate",
-        "zh": ""
+        "zh": "承租人產權（tenant's estate）"
       },
       {
         "key": "C",
         "en": "estate from period to period",
-        "zh": ""
+        "zh": "週期性租賃（estate from period to period）"
       },
       {
         "key": "D",
         "en": "tension estate",
-        "zh": ""
+        "zh": "tension estate"
       }
     ],
     "answer": "A",
-    "explanation": "正確選項 (A)：tenancy at sufferance\nYes, Sally's landlord would create a tenancy at sufferance, also known as an estate at sufferance. A tenancy at sufferance occurs when a tenant remains in possession of or continues to occupy a property beyond their lease term, without consent from the landlord.\nLandlord Hubert uses his tenant's security deposit to repair damages to the apartment they rented for a year. Because Landlord Hubert used the security deposit funds, he must give the tenant a detailed document that shows all the charges within:\n21 days after the tenant moves out\n51 days after the tenant moves out\nseven days after he spends the funds\none year after he spends the funds\nIf a landlord uses part or all of the security deposit to cover expenses, they must give the tenant a detailed document that shows all the charges at least 21 days after the tenant moves out. This is also the timeframe for which they must return the security deposit funds to the tenant.\nWhich of these is not something that would be included in a typical residential lease?\nthe option to buy at a future, specified date\nthe length of the lease\ndescription of the premises\nsignature of the lessor"
+    "explanation": "正確選項 (A)：默許租賃/逾期占有（tenancy at sufferance）。租期屆滿後承租人未經房東同意繼續占有，即構成 tenancy at sufferance（又稱 estate at sufferance）。"
   },
   {
     "id": "P228",
     "source": "LV 練習延伸：Level 15",
     "stemEn": "Landlord Hubert uses his tenant's security deposit to repair damages to the apartment they rented for a year. Because Landlord Hubert used the security deposit funds, he must give the tenant a detailed document that shows all the charges within:",
-    "stemZh": "",
+    "stemZh": "房東 Hubert 用承租人押金修繕公寓損壞。因動用了押金，他必須在多久內提供列明所有扣款的詳細文件？",
     "choices": [
       {
         "key": "A",
         "en": "21 days after the tenant moves out",
-        "zh": ""
+        "zh": "承租人搬離後 21 天內"
       },
       {
         "key": "B",
         "en": "51 days after the tenant moves out",
-        "zh": ""
+        "zh": "承租人搬離後 51 天內"
       },
       {
         "key": "C",
         "en": "seven days after he spends the funds",
-        "zh": ""
+        "zh": "動用資金後 7 天內"
       },
       {
         "key": "D",
         "en": "one year after he spends the funds",
-        "zh": ""
+        "zh": "動用資金後一年內"
       }
     ],
     "answer": "A",
-    "explanation": "正確選項 (A)：21 days after the tenant moves out\nIf a landlord uses part or all of the security deposit to cover expenses, they must give the tenant a detailed document that shows all the charges at least 21 days after the tenant moves out. This is also the timeframe for which they must return the security deposit funds to the tenant.\nWhich of these is not something that would be included in a typical residential lease?\nthe option to buy at a future, specified date\nthe length of the lease\ndescription of the premises\nsignature of the lessor\nOnly a lease with an option to buy will include the option to buy at a future, specified date. The length of the lease, description of the premises, and signature of the lessor are all required elements that every lease must include.\nTayshia is the landlord of a small apartment complex. When she gets a new tenant, she must:\nnotify the tenant that pesticides are used every month for pest control purposes\nremove any lead-based paint from the unit the tenant will rent\nprovide the tenant with information about utility providers in the area\napply for a permit to demolish the apartment complex"
+    "explanation": "正確選項 (A)：承租人搬離後 21 天內。加州規定，房東動用押金後須在承租人搬離後 21 天內提供扣款明細，並退還餘額押金。"
   },
   {
     "id": "P229",
     "source": "LV 練習延伸：Level 16",
     "stemEn": "What is a quitclaim deed?",
-    "stemZh": "",
+    "stemZh": "什麼是放棄權利契據（quitclaim deed）？",
     "choices": [
       {
         "key": "A",
         "en": "a type of deed that conveys any interest, title, or right to a parcel of land the grantor has at the time the deed is executed",
-        "zh": ""
+        "zh": "移轉轉讓人簽署當下對該土地所擁有任何權益、產權或權利的契據"
       },
       {
         "key": "B",
         "en": "a deed without any warranty against encumbrances; only implies that the grantor holds the right to convey title",
-        "zh": ""
+        "zh": "不擔保產權負擔、僅默示轉讓人有權移轉產權的契據"
       },
       {
         "key": "C",
-        "en": "the voluntary gift of one’s land to the government; also known as dedication by deed",
-        "zh": ""
+        "en": "the voluntary gift of one's land to the government; also known as dedication by deed",
+        "zh": "自願將土地贈與政府，又稱 dedication by deed"
       },
       {
         "key": "D",
         "en": "the required actions for the proper execution of a deed, involving delivery of the deed by the grantor and acceptance by the grantee",
-        "zh": ""
+        "zh": "契據正式生效所需的交付與接受程序"
       }
     ],
     "answer": "A",
-    "explanation": "正確選項 (A)：a type of deed that conveys any interest, title, or right to a parcel of land the grantor has at the time the deed is executed\nA quitclaim deed is a deed that conveys any interest, title, or right to a parcel of land the grantor has at the time the deed is executed.\n\"T2S R2W of Meridian 24\" is a way to identify a section of property using which method of land surveying?\ngovernment survey system\nmetes and bounds\nrecorded plat method\nlot and block\nThe government survey system uses the global lines of longitude and latitude to create a surveyed grid of meridians, base lines, townships, and ranges to describe a piece of land. \"T2S R2W of Meridian 24\" is a way to identify a section of property using the government survey system.\nGussie Fink-Nottle is renting Lady Edith's Shoreditch condo month-to-month. What kind of estate does Gussie have?\nestate from period to period\nlife estate\nestate for years\ntenancy at sufferance"
+    "explanation": "正確選項 (A)：移轉轉讓人簽署當下對該土地所擁有任何權益、產權或權利的契據。Quitclaim deed 不提供任何產權擔保，僅移轉轉讓人「當下可能擁有」的權益。"
   },
   {
     "id": "P230",
     "source": "LV 練習延伸：Level 16",
     "stemEn": "\"T2S R2W of Meridian 24\" is a way to identify a section of property using which method of land surveying?",
-    "stemZh": "",
+    "stemZh": "「T2S R2W of Meridian 24」是使用哪種土地測量方法來標定一個 section 的物業？",
     "choices": [
       {
         "key": "A",
         "en": "government survey system",
-        "zh": ""
+        "zh": "政府測量系統（government survey system）"
       },
       {
         "key": "B",
         "en": "metes and bounds",
-        "zh": ""
+        "zh": "界線丈量法（metes and bounds）"
       },
       {
         "key": "C",
         "en": "recorded plat method",
-        "zh": ""
+        "zh": "登錄分區圖法（recorded plat method）"
       },
       {
         "key": "D",
         "en": "lot and block",
-        "zh": ""
+        "zh": "地號街區法（lot and block）"
       }
     ],
     "answer": "A",
-    "explanation": "正確選項 (A)：government survey system\nThe government survey system uses the global lines of longitude and latitude to create a surveyed grid of meridians, base lines, townships, and ranges to describe a piece of land. \"T2S R2W of Meridian 24\" is a way to identify a section of property using the government survey system.\nGussie Fink-Nottle is renting Lady Edith's Shoreditch condo month-to-month. What kind of estate does Gussie have?\nestate from period to period\nlife estate\nestate for years\ntenancy at sufferance\nGussie's month-to-month lease is an example of an estate from period to period.\nFiona's lender will be evaluating her for a mortgage loan. To do this, the lender will consider things like her long-term debt, the anticipated monthly mortgage payment, and her income. They have two formulas or measures they will look at.\nWhat are those formulas and how are they collectively known?\nPayment-to-income ratio and debt-to-income ratio are the two formulas or measures collectively known as the qualifying ratios.\nDebt-to-income ratio and asset-to-debt ratio are the two formulas or measures collectively known as the qualifying ratios.\nPayment-to-income ratio and debt-to-income ratio are the two formulas or measures collectively known as loan-to-value ratios."
+    "explanation": "正確選項 (A)：政府測量系統（government survey system）。T2S（Township 2 South）、R2W（Range 2 West）及 Meridian 編號是政府測量系統的標準描述格式。"
   },
   {
     "id": "P231",
     "source": "LV 練習延伸：Level 16",
     "stemEn": "Gussie Fink-Nottle is renting Lady Edith's Shoreditch condo month-to-month. What kind of estate does Gussie have?",
-    "stemZh": "",
+    "stemZh": "Gussie Fink-Nottle 按月租用 Lady Edith 在 Shoreditch 的共管公寓。Gussie 持有哪種租賃權？",
     "choices": [
       {
         "key": "A",
         "en": "estate from period to period",
-        "zh": ""
+        "zh": "週期性租賃（estate from period to period）"
       },
       {
         "key": "B",
         "en": "life estate",
-        "zh": ""
+        "zh": "終身產權（life estate）"
       },
       {
         "key": "C",
         "en": "estate for years",
-        "zh": ""
+        "zh": "定期租賃（estate for years）"
       },
       {
         "key": "D",
         "en": "tenancy at sufferance",
-        "zh": ""
+        "zh": "默許租賃/逾期占有（tenancy at sufferance）"
       }
     ],
     "answer": "A",
-    "explanation": "正確選項 (A)：estate from period to period\nGussie's month-to-month lease is an example of an estate from period to period.\nFiona's lender will be evaluating her for a mortgage loan. To do this, the lender will consider things like her long-term debt, the anticipated monthly mortgage payment, and her income. They have two formulas or measures they will look at.\nWhat are those formulas and how are they collectively known?\nPayment-to-income ratio and debt-to-income ratio are the two formulas or measures collectively known as the qualifying ratios.\nDebt-to-income ratio and asset-to-debt ratio are the two formulas or measures collectively known as the qualifying ratios.\nPayment-to-income ratio and debt-to-income ratio are the two formulas or measures collectively known as loan-to-value ratios.\nLoan-to-asset ratio and asset-to-debt ratio are the two formulas or measures collectively known as the mortgage ratios.\nThe payment-to-income ratio and debt-to-income ratio are the two formulas or measures collectively known as the qualifying ratios. They provide lenders with a way to evaluate a borrower's ability to take on the monthly mortgage payments of the loan being considered for approval.\nHannah took out an interest-only loan for $140,000 with an interest rate of 4.9%. How much will her monthly interest payment be?\n$571.67\n$6,860\n$140,000"
+    "explanation": "正確選項 (A)：週期性租賃（estate from period to period）。Month-to-month 租約是 estate from period to period 的典型例子，每期自動續約直至任一方依法終止。"
   },
   {
     "id": "P232",
     "source": "LV 練習延伸：Level 16",
     "stemEn": "What are those formulas and how are they collectively known?",
-    "stemZh": "",
+    "stemZh": "Fiona 的貸方將評估她的房貸申請，會考量長期債務、預期月付房貸及收入。貸方使用的兩項公式統稱為什麼？",
     "choices": [
       {
         "key": "A",
         "en": "Payment-to-income ratio and debt-to-income ratio are the two formulas or measures collectively known as the qualifying ratios.",
-        "zh": ""
+        "zh": "付息收入比（payment-to-income ratio）與債務收入比（debt-to-income ratio）合稱資格比率（qualifying ratios）"
       },
       {
         "key": "B",
         "en": "Debt-to-income ratio and asset-to-debt ratio are the two formulas or measures collectively known as the qualifying ratios.",
-        "zh": ""
+        "zh": "債務收入比與資產負債比合稱資格比率"
       },
       {
         "key": "C",
         "en": "Payment-to-income ratio and debt-to-income ratio are the two formulas or measures collectively known as loan-to-value ratios.",
-        "zh": ""
+        "zh": "付息收入比與債務收入比合稱 LTV 比率"
       },
       {
         "key": "D",
         "en": "Loan-to-asset ratio and asset-to-debt ratio are the two formulas or measures collectively known as the mortgage ratios.",
-        "zh": ""
+        "zh": "貸款資產比與資產負債比合稱房貸比率"
       }
     ],
     "answer": "A",
-    "explanation": "正確選項 (A)：Payment-to-income ratio and debt-to-income ratio are the two formulas or measures collectively known as the qualifying ratios.\nThe payment-to-income ratio and debt-to-income ratio are the two formulas or measures collectively known as the qualifying ratios. They provide lenders with a way to evaluate a borrower's ability to take on the monthly mortgage payments of the loan being considered for approval.\nHannah took out an interest-only loan for $140,000 with an interest rate of 4.9%. How much will her monthly interest payment be?\n$571.67\n$6,860\n$140,000\n$1,245.47\nAnnual interest ÷ 12 months = Monthly interest. To find annual interest, we multiply the principal by the interest rate: $140,000 x 0.049 = $6,860. $6,860 ÷ 12 months = $571.67.\nChoose the survey method that could result in this legal description:\n\"Beginning at the intersection of the north boundary of Ace Dr. and the east boundary of Robot Rd.; proceed due north along the east line of Robot Rd. 120 ft. to its intersection with the center line of Blue Creek; then proceeding northeasterly 72 degrees along the center line of Blue Creek 408 ft. to the oak tree; then due south 200 ft. to the benchmark; then proceeding due west along the northern boundary of Ace Dr. 400 ft., returning to the point of beginning.\"\nmetes and bounds\nrectangular survey system\nlot and block"
+    "explanation": "正確選項 (A)：付息收入比與債務收入比合稱資格比率（qualifying ratios）。這兩項比率幫助貸方評估借款人是否有能力負擔每月房貸及總體債務。"
   },
   {
     "id": "P233",
     "source": "LV 練習延伸：Level 16",
     "stemEn": "In California, what is the maximum amount a landlord can charge for a security deposit?",
-    "stemZh": "",
+    "stemZh": "在加州，房東收取的押金（security deposit）法定上限是多少？",
     "choices": [
       {
         "key": "A",
         "en": "the equivalent of one month's rent",
-        "zh": ""
+        "zh": "相當於一個月租金"
       },
       {
         "key": "B",
         "en": "the equivalent of one-and-a-half months' rent",
-        "zh": ""
+        "zh": "相當於一個半月租金"
       },
       {
         "key": "C",
         "en": "There is no legal maximum.",
-        "zh": ""
+        "zh": "沒有法定上限"
       },
       {
         "key": "D",
         "en": "the equivalent of three months' rent",
-        "zh": ""
+        "zh": "相當於三個月租金"
       }
     ],
     "answer": "A",
-    "explanation": "正確選項 (A)：the equivalent of one month's rent\nIn California, the maximum amount that a security deposit can be is the equivalent of one month's rent.\nWhich of the following statements is true regarding ostensible agency and agency by estoppel?\nThey both have to do with when a third party is given the mistaken impression that agency exists between two other individuals.\nAgency by estoppel never occurs in an environment of ostensible agency.\nThey are both forms of express agency.\nOstensible agency can only occur after an environment of agency by estoppel has been created.\nOstensible agency is created when the actions or words of one or two individuals lead a third party to believe that agency exists between those two individuals and the individuals responsible do nothing to correct that impression. Agency by estoppel is the legal concept that bars the responsible individuals from trying to claim after-the-fact that agency between them did not exist.\nWhat is NOT typically included in a property manager's property marketing plan?\nan appraisal of the property\na market analysis\na budget\nan outline of marketing tactics"
+    "explanation": "正確選項 (A)：相當於一個月租金。加州現行法規下，無家具住宅的押金上限為一個月租金。"
   }
 ]

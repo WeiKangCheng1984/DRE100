@@ -3,18 +3,21 @@
 """Generate 考前衝刺 280 關鍵知識點 markdown from curated CA DRE associations."""
 from __future__ import annotations
 
+import json
 from pathlib import Path
+
+from export_cram_web import gen_explain_zh
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "考前衝刺_280關鍵知識點.md"
 
-# (章節, 看到, 選／記, 一句陷阱或對照)
+# (章節, 看到, 選／記, 一句陷阱或對照, 中文解析)
 # Target: exactly 280 rows
-ITEMS: list[tuple[str, str, str, str]] = []
+ITEMS: list[tuple[str, str, str, str, str]] = []
 
 
-def add(section: str, see: str, choose: str, tip: str = "") -> None:
-    ITEMS.append((section, see, choose, tip))
+def add(section: str, see: str, choose: str, tip: str = "", explain: str = "") -> None:
+    ITEMS.append((section, see, choose, tip, explain or gen_explain_zh(see, choose, tip)))
 
 
 # ========== 1. 權利束／土地特性／價值 ==========
@@ -518,21 +521,27 @@ def main() -> None:
 
     current = None
     n = 0
-    for section, see, choose, tip in items:
+    cram_source = ROOT / "_cram_items.json"
+    source_rows: list[list[str]] = []
+
+    for section, see, choose, tip, explain in items:
         if section != current:
             current = section
             lines.append("")
             lines.append(f"## {section}")
             lines.append("")
-            lines.append("| # | 看到… | 選／記… | 陷阱／對照 |")
-            lines.append("|---:|:---|:---|:---|")
+            lines.append("| # | 看到… | 選／記… | 陷阱／對照 | 中文解析 |")
+            lines.append("|---:|:---|:---|:---|:---|")
         n += 1
         tip_cell = tip if tip else "—"
+        explain_cell = explain if explain else "—"
         # escape pipes
         see = see.replace("|", "／")
         choose = choose.replace("|", "／")
         tip_cell = tip_cell.replace("|", "／")
-        lines.append(f"| {n} | {see} | {choose} | {tip_cell} |")
+        explain_cell = explain_cell.replace("|", "／")
+        lines.append(f"| {n} | {see} | {choose} | {tip_cell} | {explain_cell} |")
+        source_rows.append([section, see, choose, tip, explain])
 
     lines.append("")
     lines.append("---")
@@ -552,7 +561,12 @@ def main() -> None:
     lines.append("")
 
     OUT.write_text("\n".join(lines) + "\n", encoding="utf-8")
+    cram_source.write_text(
+        json.dumps(source_rows, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+    )
     print(f"Wrote {len(items)} points -> {OUT}")
+    print(f"Wrote source rows -> {cram_source}")
 
     # Keep the website data export in sync with the curated markdown source.
     from export_cram_web import main as export_web

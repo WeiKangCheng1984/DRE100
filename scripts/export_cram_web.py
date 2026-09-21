@@ -10,6 +10,36 @@ ROOT = Path(__file__).resolve().parents[1]
 SOURCE = ROOT / "_cram_items.json"
 OUTPUT = ROOT / "data" / "cram280.json"
 
+
+def gen_explain_zh(see: str, choose: str, tip: str) -> str:
+    cue = see.split("／")[0].strip() if see else ""
+    tip = (tip or "").strip()
+    parts: list[str] = []
+
+    if cue.startswith("最後口訣"):
+        parts.append(f"考前口訣：{choose}。")
+    elif cue.startswith("看見"):
+        parts.append(f"題幹線索「{cue[2:].strip()}」→ 應選／記：{choose}。")
+    elif cue:
+        parts.append(f"題幹若出現「{cue}」，應立刻聯想：{choose}。")
+    else:
+        parts.append(f"應選／記：{choose}。")
+
+    if tip and tip != "—":
+        neg_markers = (
+            "不是", "≠", "勿", "不能", "錯", "排除", "無效", "禁止",
+            "不必", "不需要", "不會", "不可", "非", "沒有", "缺乏", "並非",
+        )
+        if any(marker in tip for marker in neg_markers):
+            parts.append(f"易錯提醒：{tip}。")
+        elif "相反" in tip:
+            parts.append(f"對照記憶：{tip}。")
+        elif tip.endswith("？"):
+            parts.append(f"自問自答：{tip}")
+        else:
+            parts.append(f"補充說明：{tip}。")
+    return "".join(parts)
+
 SECTION_TITLES = {
     "01": "Bundle of Rights, Land Traits & Value (DUST)",
     "02": "Real vs Personal Property, Fixtures & MARIA",
@@ -430,9 +460,13 @@ def build_payload() -> dict[str, object]:
     items: list[dict[str, object]] = []
 
     for item_id, raw in enumerate(source_items, start=1):
-        if not isinstance(raw, list) or len(raw) != 4:
-            raise ValueError(f"Source item {item_id} is not a four-element tuple")
-        raw_section, cue_zh, answer_zh, trap_zh = raw
+        if not isinstance(raw, list) or len(raw) not in (4, 5):
+            raise ValueError(f"Source item {item_id} must have 4 or 5 elements")
+        if len(raw) == 5:
+            raw_section, cue_zh, answer_zh, trap_zh, explain_zh = raw
+        else:
+            raw_section, cue_zh, answer_zh, trap_zh = raw
+            explain_zh = ""
         section_id, section_zh = split_section(raw_section)
         if section_id not in section_order:
             section_order.append(section_id)
@@ -449,6 +483,8 @@ def build_payload() -> dict[str, object]:
 
         if not cue_en.strip() or not answer_en.strip():
             raise ValueError(f"Empty English cue/answer at item {item_id}")
+        if not explain_zh.strip():
+            explain_zh = gen_explain_zh(cue_zh, answer_zh, trap_zh)
         items.append(
             {
                 "id": item_id,
@@ -461,6 +497,7 @@ def build_payload() -> dict[str, object]:
                 "answerZh": answer_zh,
                 "trapEn": trap_en,
                 "trapZh": trap_zh,
+                "explainZh": explain_zh,
             }
         )
 

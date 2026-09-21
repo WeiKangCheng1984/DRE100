@@ -111,7 +111,8 @@
       "answerEn": "Possession, use and enjoyment, exclusion, disposition, and control, subject to PETE",
       "answerZh": "佔有、使用收益、排除、處分、控制（受 PETE 限制）",
       "trapEn": "Ownership is not immune from government police power.",
-      "trapZh": "沒有絕對豁免政府警察權"
+      "trapZh": "沒有絕對豁免政府警察權",
+      "explainZh": "題幹若出現「Bundle of rights」，應立刻聯想：佔有、使用收益、排除、處分、控制（受 PETE 限制）。易錯提醒：沒有絕對豁免政府警察權。"
     },
     {
       "id": 2,
@@ -123,7 +124,8 @@
       "answerEn": "Police power, eminent domain, taxation, and escheat",
       "answerZh": "Police／Eminent Domain／Taxation／Escheat",
       "trapEn": "These are the four government powers over real property.",
-      "trapZh": "四大公權力"
+      "trapZh": "四大公權力",
+      "explainZh": "題幹若出現「PETE」，應立刻聯想：Police／Eminent Domain／Taxation／Escheat。補充說明：四大公權力。"
     },
     {
       "id": 3,
@@ -135,7 +137,8 @@
       "answerEn": "Demand, utility, scarcity, and transferability",
       "answerZh": "Demand＋Utility＋Scarcity＋Transferability",
       "trapEn": "Indestructibility is not an element of value.",
-      "trapZh": "不是 indestructibility"
+      "trapZh": "不是 indestructibility",
+      "explainZh": "題幹若出現「DUST（價值四要素）」，應立刻聯想：Demand＋Utility＋Scarcity＋Transferability。易錯提醒：不是 indestructibility。"
     },
     {
       "id": 4,
@@ -147,7 +150,8 @@
       "answerEn": "Impaired transferability",
       "answerZh": "缺 Transferability（可轉讓性）",
       "trapEn": "The missing element is not utility.",
-      "trapZh": "不是缺 utility"
+      "trapZh": "不是缺 utility",
+      "explainZh": "題幹若出現「Cloud on title」，應立刻聯想：缺 Transferability（可轉讓性）。易錯提醒：不是缺 utility。"
     },
     {
       "id": 5,
@@ -159,7 +163,8 @@
       "answerEn": "The three physical characteristics of land",
       "answerZh": "土地三大物理特性",
       "trapEn": "Malleability is not a physical characteristic of land.",
-      "trapZh": "malleability 不是"
+      "trapZh": "malleability 不是",
+      "explainZh": "題幹若出現「Immobility」，應立刻聯想：土地三大物理特性。易錯提醒：malleability 不是。"
     },
     {
       "id": 6,
@@ -171,7 +176,8 @@
       "answerEn": "Economic preference for location",
       "answerZh": "地利／理想區位偏好 → Location",
       "trapEn": "Do not confuse situs with illiquidity or inflation.",
-      "trapZh": "不是 illiquidity、通膨"
+      "trapZh": "不是 illiquidity、通膨",
+      "explainZh": "題幹若出現「Situs」，應立刻聯想：地利／理想區位偏好 → Location。易錯提醒：不是 illiquidity、通膨。"
     },
     {
       "id": 7,
@@ -183,7 +189,8 @@
       "answerEn": "The act or process of combining adjacent parcels",
       "answerZh": "合併相鄰地塊的「行為／過程」",
       "trapEn": "Plottage is the resulting increase in value.",
-      "trapZh": "Plottage 才是合併後增值"
+      "trapZh": "Plottage 才是合併後增值",
+      "explainZh": "題幹若出現「Assemblage」，應立刻聯想：合併相鄰地塊的「行為／過程」。補充說明：Plottage 才是合併後增值。"
     },
     {
       "id": 8,
@@ -195,7 +202,8 @@
       "answerEn": "The added value created when combined parcels are worth more together",
       "answerZh": "合併後整體價值 > 分開加總",
       "trapEn": "The combining process itself is assemblage.",
-      "trapZh": "過程叫 assemblage"
+      "trapZh": "過程叫 assemblage",
+      "explainZh": "題幹若出現「Plottage」，應立刻聯想：合併後整體價值 > 分開加總。補充說明：過程叫 assemblage。"
     },
     {
       "id": 9,
@@ -207,7 +215,8 @@
       "answerEn": "Added property, natural or artificial, becomes part of the real property",
       "answerZh": "自然或人為附加物歸土地所有人",
       "trapEn": "Accession includes processes such as accretion.",
-      "trapZh": "含 accretion 等"
+      "trapZh": "含 accretion 等",
+      "explainZh": "題幹若出現「Accession」，應立刻聯想：自然或人為附加物歸土地所有人。補充說明：含 accretion 等。"
     },
     {
       "id": 10,
@@ -219,7 +228,8 @@
       "answerEn": "Gradual addition of land by deposited soil",
       "answerZh": "淤積使土地增加",
       "trapEn": "Reliction is land exposed by receding water.",
-      "trapZh": "Reliction＝水面退卻露出新陸"
+      "trapZh": "Reliction＝水面退卻露出新陸",
+      "explainZh": "題幹若出現「Accretion」，應立刻聯想：淤積使土地增加。補充說明：Reliction＝水面退卻露出新陸。"
     },
     {
       "id": 11,
@@ -231,7 +241,8 @@
       "answerEn": "Erosion is gradual loss; avulsion is sudden removal by water",
       "answerZh": "侵蝕漸失／突發沖刷喪失",
       "trapEn": "Avulsion generally does not immediately change the boundary.",
-      "trapZh": "Avulsion 通常不立刻改地界"
+      "trapZh": "Avulsion 通常不立刻改地界",
+      "explainZh": "題幹若出現「Erosion」，應立刻聯想：侵蝕漸失／突發沖刷喪失。補充說明：Avulsion 通常不立刻改地界。"
     },
     {
       "id": 12,
@@ -243,7 +254,8 @@
       "answerEn": "A higher-value property is pulled down by lower-value neighboring properties",
       "answerZh": "高價屋被低價鄰房「往下拉」",
       "trapEn": "Progression is the opposite effect.",
-      "trapZh": "Progression 相反"
+      "trapZh": "Progression 相反",
+      "explainZh": "題幹若出現「Principle of regression」，應立刻聯想：高價屋被低價鄰房「往下拉」。對照記憶：Progression 相反。"
     },
     {
       "id": 13,
@@ -255,7 +267,8 @@
       "answerEn": "A lower-value property is enhanced by higher-value neighboring properties",
       "answerZh": "低價屋被高價鄰房「往上帶」",
       "trapEn": "Regression is the opposite effect.",
-      "trapZh": "Regression 相反"
+      "trapZh": "Regression 相反",
+      "explainZh": "題幹若出現「Principle of progression」，應立刻聯想：低價屋被高價鄰房「往上帶」。對照記憶：Regression 相反。"
     },
     {
       "id": 14,
@@ -267,7 +280,8 @@
       "answerEn": "The most probable price under typical market conditions",
       "answerZh": "典型條件下理論最可能成交價",
       "trapEn": "Market price is the actual amount paid.",
-      "trapZh": "Market price＝實際成交價"
+      "trapZh": "Market price＝實際成交價",
+      "explainZh": "題幹若出現「Market value」，應立刻聯想：典型條件下理論最可能成交價。補充說明：Market price＝實際成交價。"
     },
     {
       "id": 15,
@@ -279,7 +293,8 @@
       "answerEn": "Value set by the county assessor for property taxation",
       "answerZh": "課稅用評估價（County Assessor）",
       "trapEn": "California Proposition 13 limits increases in assessed value.",
-      "trapZh": "Prop 13 限制加州漲幅"
+      "trapZh": "Prop 13 限制加州漲幅",
+      "explainZh": "題幹若出現「Assessed value」，應立刻聯想：課稅用評估價（County Assessor）。補充說明：Prop 13 限制加州漲幅。"
     },
     {
       "id": 16,
@@ -291,7 +306,8 @@
       "answerEn": "Value impaired by psychological or social stigma rather than a physical defect",
       "answerZh": "心理／社會污名壓價（非物理瑕疵）",
       "trapEn": "A notorious event is not structural damage.",
-      "trapZh": "兇案傳聞≠結構損壞"
+      "trapZh": "兇案傳聞≠結構損壞",
+      "explainZh": "題幹若出現「Stigmatized property」，應立刻聯想：心理／社會污名壓價（非物理瑕疵）。易錯提醒：兇案傳聞≠結構損壞。"
     },
     {
       "id": 17,
@@ -303,7 +319,8 @@
       "answerEn": "Land, fixtures, and appurtenant rights",
       "answerZh": "土地＋定著物＋附屬權利",
       "trapEn": "Standing timber remains real property until severed.",
-      "trapZh": "未砍立木仍是不動產"
+      "trapZh": "未砍立木仍是不動產",
+      "explainZh": "題幹若出現「Real property」，應立刻聯想：土地＋定著物＋附屬權利。補充說明：未砍立木仍是不動產。"
     },
     {
       "id": 18,
@@ -315,7 +332,8 @@
       "answerEn": "Movable property and unattached materials",
       "answerZh": "可移動物、未固定建材",
       "trapEn": "Loose paving stones not installed are personal property.",
-      "trapZh": "鬆散鋪石未鋪＝動產"
+      "trapZh": "鬆散鋪石未鋪＝動產",
+      "explainZh": "題幹若出現「Personal property」，應立刻聯想：可移動物、未固定建材。補充說明：鬆散鋪石未鋪＝動產。"
     },
     {
       "id": 19,
@@ -327,7 +345,8 @@
       "answerEn": "Changing real property into personal property by detaching it",
       "answerZh": "不動產分離成動產（砍樹）",
       "trapEn": "Cutting a tree is severance, not annexation.",
-      "trapZh": "不是 annexation"
+      "trapZh": "不是 annexation",
+      "explainZh": "題幹若出現「Severance」，應立刻聯想：不動產分離成動產（砍樹）。易錯提醒：不是 annexation。"
     },
     {
       "id": 20,
@@ -339,7 +358,8 @@
       "answerEn": "Attaching personal property so it becomes a fixture",
       "answerZh": "動產附著成定著物",
       "trapEn": "Use the MARIA fixture test.",
-      "trapZh": "MARIA 測試"
+      "trapZh": "MARIA 測試",
+      "explainZh": "題幹若出現「Annexation」，應立刻聯想：動產附著成定著物。補充說明：MARIA 測試。"
     },
     {
       "id": 21,
@@ -351,7 +371,8 @@
       "answerEn": "Method, adaptability, relationship, intention, and agreement",
       "answerZh": "Method／Adaptability／Relationship／Intention／Agreement",
       "trapEn": "When the agreement is silent, intention is often the key factor.",
-      "trapZh": "契約沉默時 Intention 最關鍵"
+      "trapZh": "契約沉默時 Intention 最關鍵",
+      "explainZh": "題幹若出現「MARIA」，應立刻聯想：Method／Adaptability／Relationship／Intention／Agreement。補充說明：契約沉默時 Intention 最關鍵。"
     },
     {
       "id": 22,
@@ -363,7 +384,8 @@
       "answerEn": "A business tenant's removable equipment, treated as personal property",
       "answerZh": "商業租客營業設備＝動產，租期前可拆",
       "trapEn": "Remove it before the lease ends and repair any damage.",
-      "trapZh": "須修復損害"
+      "trapZh": "須修復損害",
+      "explainZh": "題幹若出現「Trade fixture」，應立刻聯想：商業租客營業設備＝動產，租期前可拆。補充說明：須修復損害。"
     },
     {
       "id": 23,
@@ -375,7 +397,8 @@
       "answerEn": "A right or improvement that runs with and transfers with the land",
       "answerZh": "附隨土地移轉（地役權、建物、礦權等）",
       "trapEn": "It commonly transfers even if not separately stated in the deed.",
-      "trapZh": "契據未寫也常隨移轉"
+      "trapZh": "契據未寫也常隨移轉",
+      "explainZh": "題幹若出現「Appurtenance」，應立刻聯想：附隨土地移轉（地役權、建物、礦權等）。補充說明：契據未寫也常隨移轉。"
     },
     {
       "id": 24,
@@ -387,7 +410,8 @@
       "answerEn": "Annual crops produced by a tenant's labor",
       "answerZh": "耕作農作物收益（勞動收益）",
       "trapEn": "Naturally growing plants are fructus naturales.",
-      "trapZh": "天然樹木＝fructus naturales"
+      "trapZh": "天然樹木＝fructus naturales",
+      "explainZh": "題幹若出現「Emblements」，應立刻聯想：耕作農作物收益（勞動收益）。補充說明：天然樹木＝fructus naturales。"
     },
     {
       "id": 25,
@@ -399,7 +423,8 @@
       "answerEn": "A physical intrusion across a property line and continuing trespass",
       "answerZh": "實體越界＝持續 trespass",
       "trapEn": "An encroachment is not an easement.",
-      "trapZh": "不是 easement"
+      "trapZh": "不是 easement",
+      "explainZh": "題幹若出現「Encroachment」，應立刻聯想：實體越界＝持續 trespass。易錯提醒：不是 easement。"
     },
     {
       "id": 26,
@@ -411,7 +436,8 @@
       "answerEn": "The greatest ownership estate, inheritable and devisable by will",
       "answerZh": "最高完整所有權，可立遺囑繼承",
       "trapEn": "A life estate ends at the measuring life and cannot be devised beyond it.",
-      "trapZh": "Life estate 不能 will 給子女"
+      "trapZh": "Life estate 不能 will 給子女",
+      "explainZh": "題幹若出現「Fee simple absolute」，應立刻聯想：最高完整所有權，可立遺囑繼承。易錯提醒：Life estate 不能 will 給子女。"
     },
     {
       "id": 27,
@@ -423,7 +449,8 @@
       "answerEn": "Title automatically reverts when the stated limitation is violated",
       "answerZh": "違條件→產權「自動」歸還",
       "trapEn": "Look for durational words such as “so long as” or “until.”",
-      "trapZh": "so long as／until"
+      "trapZh": "so long as／until",
+      "explainZh": "題幹若出現「Fee simple determinable」，應立刻聯想：違條件→產權「自動」歸還。補充說明：so long as／until。"
     },
     {
       "id": 28,
@@ -435,7 +462,8 @@
       "answerEn": "Grantor must exercise a right of re-entry to recover title after breach",
       "answerZh": "違條件→須「上法院」取回（Right of re-entry）",
       "trapEn": "Title does not revert automatically.",
-      "trapZh": "不會自動歸還"
+      "trapZh": "不會自動歸還",
+      "explainZh": "題幹若出現「Fee simple subject to condition subsequent」，應立刻聯想：違條件→須「上法院」取回（Right of re-entry）。易錯提醒：不會自動歸還。"
     },
     {
       "id": 29,
@@ -447,7 +475,8 @@
       "answerEn": "An estate limited to the life of a named person",
       "answerZh": "以權利人壽命為限，死亡終止",
       "trapEn": "It terminates at death and cannot be devised to children.",
-      "trapZh": "不可立遺囑傳子女"
+      "trapZh": "不可立遺囑傳子女",
+      "explainZh": "題幹若出現「Life estate」，應立刻聯想：以權利人壽命為限，死亡終止。易錯提醒：不可立遺囑傳子女。"
     },
     {
       "id": 30,
@@ -459,7 +488,8 @@
       "answerEn": "A life estate measured by the life of another person",
       "answerZh": "以「第三人」壽命衡量的終身產權",
       "trapEn": "The phrase means “for the life of another.”",
-      "trapZh": "for the life of another"
+      "trapZh": "for the life of another",
+      "explainZh": "題幹若出現「Pur autre vie」，應立刻聯想：以「第三人」壽命衡量的終身產權。補充說明：for the life of another。"
     },
     {
       "id": 31,
@@ -471,7 +501,8 @@
       "answerEn": "A leasehold with definite beginning and ending dates",
       "answerZh": "固定起迄日，到期自動結束",
       "trapEn": "It expires automatically without termination notice.",
-      "trapZh": "不必通知終止"
+      "trapZh": "不必通知終止",
+      "explainZh": "題幹若出現「Estate for years」，應立刻聯想：固定起迄日，到期自動結束。易錯提醒：不必通知終止。"
     },
     {
       "id": 32,
@@ -483,7 +514,8 @@
       "answerEn": "A tenancy that renews automatically until proper notice is given",
       "answerZh": "按月／按週自動續約，須通知才停",
       "trapEn": "Month-to-month is the common example.",
-      "trapZh": "Month-to-month"
+      "trapZh": "Month-to-month",
+      "explainZh": "題幹若出現「Periodic estate」，應立刻聯想：按月／按週自動續約，須通知才停。補充說明：Month-to-month。"
     },
     {
       "id": 33,
@@ -495,7 +527,8 @@
       "answerEn": "A tenancy that either party may terminate at will",
       "answerZh": "雙方可隨時終止的隨意租賃",
       "trapEn": "It has no fixed ending date.",
-      "trapZh": "較少書面固定期"
+      "trapZh": "較少書面固定期",
+      "explainZh": "題幹若出現「Estate at will」，應立刻聯想：雙方可隨時終止的隨意租賃。補充說明：較少書面固定期。"
     },
     {
       "id": 34,
@@ -507,7 +540,8 @@
       "answerEn": "A holdover tenant remains after the lawful tenancy expires",
       "answerZh": "租期滿仍佔用（holdover）",
       "trapEn": "The landlord has not agreed to a new tenancy.",
-      "trapZh": "房東尚未同意或驅離"
+      "trapZh": "房東尚未同意或驅離",
+      "explainZh": "題幹若出現「Estate」，應立刻聯想：租期滿仍佔用（holdover）。補充說明：房東尚未同意或驅離。"
     },
     {
       "id": 35,
@@ -519,7 +553,8 @@
       "answerEn": "Estate for years, periodic estate, estate at will, and estate at sufferance",
       "answerZh": "Years／Period／Will／Sufferance",
       "trapEn": "A freehold estate is not a leasehold.",
-      "trapZh": "Freehold 不是租賃"
+      "trapZh": "Freehold 不是租賃",
+      "explainZh": "題幹若出現「Leasehold 四類型」，應立刻聯想：Years／Period／Will／Sufferance。易錯提醒：Freehold 不是租賃。"
     },
     {
       "id": 36,
@@ -531,7 +566,8 @@
       "answerEn": "A personal, usually revocable privilege to use another's land",
       "answerZh": "個人特權、通常可撤銷、不跑隨土地",
       "trapEn": "A license does not run with the land; oral parking permission is a common example.",
-      "trapZh": "口頭停車常是 license"
+      "trapZh": "口頭停車常是 license",
+      "explainZh": "題幹若出現「License（許可）」，應立刻聯想：個人特權、通常可撤銷、不跑隨土地。補充說明：口頭停車常是 license。"
     },
     {
       "id": 37,
@@ -543,7 +579,8 @@
       "answerEn": "An easement that runs with the land and benefits a dominant tenement",
       "answerZh": "附屬地役權，跑隨土地，通常須書面",
       "trapEn": "It involves both a dominant and a servient tenement.",
-      "trapZh": "需役地＋供役地"
+      "trapZh": "需役地＋供役地",
+      "explainZh": "題幹若出現「Appurtenant easement」，應立刻聯想：附屬地役權，跑隨土地，通常須書面。補充說明：需役地＋供役地。"
     },
     {
       "id": 38,
@@ -555,7 +592,8 @@
       "answerEn": "An easement benefiting a person or company rather than a dominant parcel",
       "answerZh": "個人／公司地役權（如公用事業）",
       "trapEn": "Utility easements are common examples.",
-      "trapZh": "通常不附屬某需役地"
+      "trapZh": "通常不附屬某需役地",
+      "explainZh": "題幹若出現「Easement in gross」，應立刻聯想：個人／公司地役權（如公用事業）。補充說明：通常不附屬某需役地。"
     },
     {
       "id": 39,
@@ -567,7 +605,8 @@
       "answerEn": "An easement acquired through open, notorious, hostile, and continuous use for the statutory period",
       "answerZh": "公開、敵意、持續使用達法定年限",
       "trapEn": "It resembles adverse possession but creates use rights, not title.",
-      "trapZh": "類似時效"
+      "trapZh": "類似時效",
+      "explainZh": "題幹若出現「Easement by prescription」，應立刻聯想：公開、敵意、持續使用達法定年限。補充說明：類似時效。"
     },
     {
       "id": 40,
@@ -579,7 +618,8 @@
       "answerEn": "Access implied when a parcel would otherwise be landlocked",
       "answerZh": "土地封鎖時通行必要",
       "trapEn": "It commonly arises when one parcel is divided.",
-      "trapZh": "常因分割產生"
+      "trapZh": "常因分割產生",
+      "explainZh": "題幹若出現「Easement by necessity」，應立刻聯想：土地封鎖時通行必要。補充說明：常因分割產生。"
     },
     {
       "id": 41,
@@ -591,7 +631,8 @@
       "answerEn": "The dominant tenement benefits; the servient tenement bears the easement",
       "answerZh": "需役地／供役地",
       "trapEn": "The servient land carries the burden.",
-      "trapZh": "供役地負擔通行"
+      "trapZh": "供役地負擔通行",
+      "explainZh": "題幹若出現「Dominant」，應立刻聯想：需役地／供役地。補充說明：供役地負擔通行。"
     },
     {
       "id": 42,
@@ -603,7 +644,8 @@
       "answerEn": "A lien securing payment for labor or materials improving real property",
       "answerZh": "施工未付款之技工留置權",
       "trapEn": "It clouds title until paid or otherwise released.",
-      "trapZh": "限制處分直到清償"
+      "trapZh": "限制處分直到清償",
+      "explainZh": "題幹若出現「Mechanic's lien」，應立刻聯想：施工未付款之技工留置權。補充說明：限制處分直到清償。"
     },
     {
       "id": 43,
@@ -615,7 +657,8 @@
       "answerEn": "An owner-created burden such as a deed of trust or mortgage",
       "answerZh": "如 deed of trust／mortgage",
       "trapEn": "It reduces unencumbered equity.",
-      "trapZh": "減損未負擔淨值"
+      "trapZh": "減損未負擔淨值",
+      "explainZh": "題幹若出現「Voluntary encumbrance」，應立刻聯想：如 deed of trust／mortgage。補充說明：減損未負擔淨值。"
     },
     {
       "id": 44,
@@ -627,7 +670,8 @@
       "answerEn": "A private restriction on how land may be used",
       "answerZh": "私人限制「如何使用」土地",
       "trapEn": "It is imposed privately, often by a developer.",
-      "trapZh": "發起者是私人／開發商"
+      "trapZh": "發起者是私人／開發商",
+      "explainZh": "題幹若出現「Deed restriction」，應立刻聯想：私人限制「如何使用」土地。補充說明：發起者是私人／開發商。"
     },
     {
       "id": 45,
@@ -639,7 +683,8 @@
       "answerEn": "Comply with the more restrictive requirement",
       "answerZh": "兩者衝突→遵「最嚴格」",
       "trapEn": "Do not automatically choose public law or the least restrictive rule.",
-      "trapZh": "不是永遠公法勝／最寬鬆"
+      "trapZh": "不是永遠公法勝／最寬鬆",
+      "explainZh": "題幹若出現「Zoning vs deed restriction」，應立刻聯想：兩者衝突→遵「最嚴格」。易錯提醒：不是永遠公法勝／最寬鬆。"
     },
     {
       "id": 46,
@@ -651,7 +696,8 @@
       "answerEn": "Illegal, void, and unenforceable under fair housing law",
       "answerZh": "無法執行＋違法（Fair Housing）",
       "trapEn": "The invalid restriction generally does not invalidate the deed.",
-      "trapZh": "地契本身通常仍有效"
+      "trapZh": "地契本身通常仍有效",
+      "explainZh": "題幹若出現「種族」，應立刻聯想：無法執行＋違法（Fair Housing）。補充說明：地契本身通常仍有效。"
     },
     {
       "id": 47,
@@ -663,7 +709,8 @@
       "answerEn": "The restriction is void, but title and the deed remain valid",
       "answerZh": "條款無效，不影響所有權／deed",
       "trapEn": "The property does not automatically revert.",
-      "trapZh": "不會自動 revert"
+      "trapZh": "不會自動 revert",
+      "explainZh": "題幹若出現「Deed restriction 違法時」，應立刻聯想：條款無效，不影響所有權／deed。易錯提醒：不會自動 revert。"
     },
     {
       "id": 48,
@@ -675,7 +722,8 @@
       "answerEn": "Creates an agency relationship between the seller-client and listing broker",
       "answerZh": "Customer→Client，成立 listing agent",
       "trapEn": "A written agreement is the best practice.",
-      "trapZh": "最佳用書面"
+      "trapZh": "最佳用書面",
+      "explainZh": "題幹若出現「Listing agreement」，應立刻聯想：Customer→Client，成立 listing agent。補充說明：最佳用書面。"
     },
     {
       "id": 49,
@@ -687,7 +735,8 @@
       "answerEn": "Full commission regardless of who sells, including an owner-sale",
       "answerZh": "誰賣出都付全額佣金（含屋主自售）",
       "trapEn": "This listing gives the broker the greatest protection.",
-      "trapZh": "最保障經紀人"
+      "trapZh": "最保障經紀人",
+      "explainZh": "題幹若出現「Exclusive right-to-sell」，應立刻聯想：誰賣出都付全額佣金（含屋主自售）。補充說明：最保障經紀人。"
     },
     {
       "id": 50,
@@ -699,7 +748,8 @@
       "answerEn": "One broker is appointed, but the owner may sell without owing a commission",
       "answerZh": "只找一家，但屋主自售可免佣",
       "trapEn": "Do not confuse it with exclusive right-to-sell.",
-      "trapZh": "Audrey／Janelle 題型"
+      "trapZh": "Audrey／Janelle 題型",
+      "explainZh": "題幹若出現「Exclusive agency」，應立刻聯想：只找一家，但屋主自售可免佣。補充說明：Audrey／Janelle 題型。"
     },
     {
       "id": 51,
@@ -711,7 +761,8 @@
       "answerEn": "Multiple brokers may compete; only the procuring cause earns the commission",
       "answerZh": "多家競爭，須證明 Procuring cause",
       "trapEn": "An owner-sale usually produces no commission.",
-      "trapZh": "自售常免佣"
+      "trapZh": "自售常免佣",
+      "explainZh": "題幹若出現「Open listing」，應立刻聯想：多家競爭，須證明 Procuring cause。補充說明：自售常免佣。"
     },
     {
       "id": 52,
@@ -723,7 +774,8 @@
       "answerEn": "Seller states a required net amount; broker may keep the excess as compensation",
       "answerZh": "賣方定淨得，超額歸經紀人",
       "trapEn": "Legal in California but risky and requiring full disclosure.",
-      "trapZh": "加州合法但高風險須充分揭露"
+      "trapZh": "加州合法但高風險須充分揭露",
+      "explainZh": "題幹若出現「Net listing」，應立刻聯想：賣方定淨得，超額歸經紀人。補充說明：加州合法但高風險須充分揭露。"
     },
     {
       "id": 53,
@@ -735,7 +787,8 @@
       "answerEn": "The uninterrupted chain of events that produces a ready, willing, and able buyer",
       "answerZh": "不中斷促成鏈→拿佣金依據",
       "trapEn": "It is especially important in an open listing.",
-      "trapZh": "Open listing 關鍵"
+      "trapZh": "Open listing 關鍵",
+      "explainZh": "題幹若出現「Procuring cause」，應立刻聯想：不中斷促成鏈→拿佣金依據。補充說明：Open listing 關鍵。"
     },
     {
       "id": 54,
@@ -747,7 +800,8 @@
       "answerEn": "Commission protection for a later sale to a prospect introduced during the listing",
       "answerZh": "到期後一定期間內賣給曾帶看買家仍付佣",
       "trapEn": "It prevents avoiding commission by waiting for expiration.",
-      "trapZh": "防過河拆橋"
+      "trapZh": "防過河拆橋",
+      "explainZh": "題幹若出現「Protection」，應立刻聯想：到期後一定期間內賣給曾帶看買家仍付佣。補充說明：防過河拆橋。"
     },
     {
       "id": 55,
@@ -759,7 +813,8 @@
       "answerEn": "Destruction of the property terminates the listing",
       "answerZh": "房屋毀損→listing 終止",
       "trapEn": "Fire or similar destruction is the usual fact pattern.",
-      "trapZh": "龍捲風／火災"
+      "trapZh": "龍捲風／火災",
+      "explainZh": "題幹若出現「Extinction of subject matter」，應立刻聯想：房屋毀損→listing 終止。補充說明：龍捲風／火災。"
     },
     {
       "id": 56,
@@ -771,7 +826,8 @@
       "answerEn": "Completion of the transaction and the agency purpose",
       "answerZh": "最理想：成交履約完成",
       "trapEn": "Performance is preferable to revocation or expiration.",
-      "trapZh": "優於 revocation／expiration"
+      "trapZh": "優於 revocation／expiration",
+      "explainZh": "題幹若出現「Performance（終止代理）」，應立刻聯想：最理想：成交履約完成。補充說明：優於 revocation／expiration。"
     },
     {
       "id": 57,
@@ -783,7 +839,8 @@
       "answerEn": "One broker represents both buyer and seller in the same transaction",
       "answerZh": "同時代理買賣雙方",
       "trapEn": "Requires disclosure and informed consent.",
-      "trapZh": "須同意與揭露"
+      "trapZh": "須同意與揭露",
+      "explainZh": "題幹若出現「Dual agency」，應立刻聯想：同時代理買賣雙方。補充說明：須同意與揭露。"
     },
     {
       "id": 58,
@@ -795,7 +852,8 @@
       "answerEn": "Loyalty, lawful obedience, reasonable care, accounting, and disclosure",
       "answerZh": "忠誠、服從（合法）、注意、會計、揭露等",
       "trapEn": "An agent must not obey an illegal instruction.",
-      "trapZh": "不服從違法指示"
+      "trapZh": "不服從違法指示",
+      "explainZh": "題幹若出現「Fiduciary duties」，應立刻聯想：忠誠、服從（合法）、注意、會計、揭露等。補充說明：不服從違法指示。"
     },
     {
       "id": 59,
@@ -807,7 +865,8 @@
       "answerEn": "A principal's conduct causes a third party reasonably to believe an agency exists",
       "answerZh": "言行讓第三人誤信有代理＋未澄清",
       "trapEn": "The principal may be estopped from later denying the agency.",
-      "trapZh": "事後不得否認"
+      "trapZh": "事後不得否認",
+      "explainZh": "題幹若出現「Ostensible agency」，應立刻聯想：言行讓第三人誤信有代理＋未澄清。補充說明：事後不得否認。"
     },
     {
       "id": 60,
@@ -819,7 +878,8 @@
       "answerEn": "The C.A.R. form is nonexclusive by default",
       "answerZh": "預設非專屬買方代理",
       "trapEn": "It does not become nonexclusive only when a special box is checked.",
-      "trapZh": "不必勾選才變非專屬"
+      "trapZh": "不必勾選才變非專屬",
+      "explainZh": "題幹若出現「BRBC（C.A.R.）」，應立刻聯想：預設非專屬買方代理。易錯提醒：不必勾選才變非專屬。"
     },
     {
       "id": 61,
@@ -831,7 +891,8 @@
       "answerEn": "Arbitration is generally required when one party properly requests it",
       "answerZh": "一方要求→通常強制仲裁",
       "trapEn": "Waiver generally requires written agreement of all parties.",
-      "trapZh": "須全體書面才可放棄"
+      "trapZh": "須全體書面才可放棄",
+      "explainZh": "題幹若出現「NAR 會員佣金糾紛仲裁」，應立刻聯想：一方要求→通常強制仲裁。補充說明：須全體書面才可放棄。"
     },
     {
       "id": 62,
@@ -843,7 +904,8 @@
       "answerEn": "Agency law and contract law",
       "answerZh": "Agency law ＋ Contract law",
       "trapEn": "Agency principles generally control an agency-specific conflict.",
-      "trapZh": "衝突時代理法常優先"
+      "trapZh": "衝突時代理法常優先",
+      "explainZh": "題幹若出現「Agency 受何法管轄」，應立刻聯想：Agency law ＋ Contract law。補充說明：衝突時代理法常優先。"
     },
     {
       "id": 63,
@@ -855,7 +917,8 @@
       "answerEn": "A promise exchanged for another promise",
       "answerZh": "雙方互為承諾（買賣約典型）",
       "trapEn": "A purchase agreement is the standard example.",
-      "trapZh": "promise for promise"
+      "trapZh": "promise for promise",
+      "explainZh": "題幹若出現「Bilateral contract」，應立刻聯想：雙方互為承諾（買賣約典型）。補充說明：promise for promise。"
     },
     {
       "id": 64,
@@ -867,7 +930,8 @@
       "answerEn": "A promise exchanged for performance",
       "answerZh": "承諾換行為（懸賞）",
       "trapEn": "A reward is paid only when the requested act is completed.",
-      "trapZh": "找到才付錢"
+      "trapZh": "找到才付錢",
+      "explainZh": "題幹若出現「Unilateral contract」，應立刻聯想：承諾換行為（懸賞）。補充說明：找到才付錢。"
     },
     {
       "id": 65,
@@ -879,7 +943,8 @@
       "answerEn": "A contract inferred from conduct",
       "answerZh": "由行為成立（攔計程車）",
       "trapEn": "It is not an express written or oral agreement.",
-      "trapZh": "非 express／written"
+      "trapZh": "非 express／written",
+      "explainZh": "題幹若出現「Implied contract」，應立刻聯想：由行為成立（攔計程車）。易錯提醒：非 express／written。"
     },
     {
       "id": 66,
@@ -891,7 +956,8 @@
       "answerEn": "An agreement stated in words, either orally or in writing",
       "answerZh": "口頭或書面明確約定",
       "trapEn": "",
-      "trapZh": ""
+      "trapZh": "",
+      "explainZh": "題幹若出現「Express contract」，應立刻聯想：口頭或書面明確約定。"
     },
     {
       "id": 67,
@@ -903,7 +969,8 @@
       "answerEn": "A signed contract with obligations still unperformed",
       "answerZh": "已簽但尚未完全履約（簽約到 closing）",
       "trapEn": "Executed means all obligations have been completed.",
-      "trapZh": "Executed＝已全部完成"
+      "trapZh": "Executed＝已全部完成",
+      "explainZh": "題幹若出現「Executory」，應立刻聯想：已簽但尚未完全履約（簽約到 closing）。補充說明：Executed＝已全部完成。"
     },
     {
       "id": 68,
@@ -915,7 +982,8 @@
       "answerEn": "A contract in which both parties have fully performed",
       "answerZh": "雙方義務已全部履行",
       "trapEn": "A closed transaction is the usual example.",
-      "trapZh": "交屋過戶後"
+      "trapZh": "交屋過戶後",
+      "explainZh": "題幹若出現「Executed contract」，應立刻聯想：雙方義務已全部履行。補充說明：交屋過戶後。"
     },
     {
       "id": 69,
@@ -927,7 +995,8 @@
       "answerEn": "No legal effect from its inception",
       "answerZh": "自始無效",
       "trapEn": "Voidable means a protected party may elect to rescind.",
-      "trapZh": "Voidable＝可選擇撤銷"
+      "trapZh": "Voidable＝可選擇撤銷",
+      "explainZh": "題幹若出現「Void」，應立刻聯想：自始無效。補充說明：Voidable＝可選擇撤銷。"
     },
     {
       "id": 70,
@@ -939,7 +1008,8 @@
       "answerEn": "The offeree accepts and communicates acceptance to the offeror",
       "answerZh": "Offeree 接受＋通知送達 Offeror",
       "trapEn": "Signing without communicating acceptance is insufficient.",
-      "trapZh": "僅簽名未送達不夠"
+      "trapZh": "僅簽名未送達不夠",
+      "explainZh": "題幹若出現「Offer 何時變合約」，應立刻聯想：Offeree 接受＋通知送達 Offeror。補充說明：僅簽名未送達不夠。"
     },
     {
       "id": 71,
@@ -951,7 +1021,8 @@
       "answerEn": "The offeror may revoke before acceptance is communicated",
       "answerZh": "接受通知送達前可 rescind",
       "trapEn": "After effective acceptance, it is no longer merely an offer to revoke.",
-      "trapZh": "接受後不能當要約撤回"
+      "trapZh": "接受後不能當要約撤回",
+      "explainZh": "題幹若出現「撤回要約期限」，應立刻聯想：接受通知送達前可 rescind。易錯提醒：接受後不能當要約撤回。"
     },
     {
       "id": 72,
@@ -963,7 +1034,8 @@
       "answerEn": "Rejection of the original offer and creation of a new offer",
       "answerZh": "拒絕原要約＋提出新要約",
       "trapEn": "The original offer is terminated.",
-      "trapZh": "原要約死亡"
+      "trapZh": "原要約死亡",
+      "explainZh": "題幹若出現「Counteroffer」，應立刻聯想：拒絕原要約＋提出新要約。補充說明：原要約死亡。"
     },
     {
       "id": 73,
@@ -975,7 +1047,8 @@
       "answerEn": "Withdraw the prior counteroffer before accepting the new offer",
       "answerZh": "先撤回舊 counter 再回新 offer",
       "trapEn": "This avoids obligations to two buyers.",
-      "trapZh": "防一屋賣兩人"
+      "trapZh": "防一屋賣兩人",
+      "explainZh": "題幹若出現「多份報價時已發 counter」，應立刻聯想：先撤回舊 counter 再回新 offer。補充說明：防一屋賣兩人。"
     },
     {
       "id": 74,
@@ -987,7 +1060,8 @@
       "answerEn": "A good-faith deposit showing serious intent",
       "answerZh": "善意誠意金／定金",
       "trapEn": "It is not required consideration for contract formation.",
-      "trapZh": "非契約成立必要對價"
+      "trapZh": "非契約成立必要對價",
+      "explainZh": "題幹若出現「Earnest money」，應立刻聯想：善意誠意金／定金。易錯提醒：非契約成立必要對價。"
     },
     {
       "id": 75,
@@ -999,7 +1073,8 @@
       "answerEn": "Legally sufficient consideration exchanged for a promise",
       "answerZh": "足夠且適當的對價",
       "trapEn": "An empty or illusory promise may be insufficient.",
-      "trapZh": "空頭白話可能不足"
+      "trapZh": "空頭白話可能不足",
+      "explainZh": "題幹若出現「Valuable consideration」，應立刻聯想：足夠且適當的對價。補充說明：空頭白話可能不足。"
     },
     {
       "id": 76,
@@ -1011,7 +1086,8 @@
       "answerEn": "Court order requiring transfer of the particular real property",
       "answerZh": "強制交付特定不動產",
       "trapEn": "Real property is considered unique.",
-      "trapZh": "因土地唯一性"
+      "trapZh": "因土地唯一性",
+      "explainZh": "題幹若出現「Specific performance」，應立刻聯想：強制交付特定不動產。補充說明：因土地唯一性。"
     },
     {
       "id": 77,
@@ -1023,7 +1099,8 @@
       "answerEn": "An agreed amount the seller may retain after a buyer's unjustified breach",
       "answerZh": "常＝賣方可扣留誠意金",
       "trapEn": "Often tied to the earnest money deposit.",
-      "trapZh": "買方無故違約"
+      "trapZh": "買方無故違約",
+      "explainZh": "題幹若出現「Liquidated damages」，應立刻聯想：常＝賣方可扣留誠意金。補充說明：買方無故違約。"
     },
     {
       "id": 78,
@@ -1035,7 +1112,8 @@
       "answerEn": "Cancellation restoring the parties to their precontract positions",
       "answerZh": "解除契約、回復原狀",
       "trapEn": "It is not an order compelling closing.",
-      "trapZh": "不是強迫交屋"
+      "trapZh": "不是強迫交屋",
+      "explainZh": "題幹若出現「Rescission」，應立刻聯想：解除契約、回復原狀。易錯提醒：不是強迫交屋。"
     },
     {
       "id": 79,
@@ -1047,7 +1125,8 @@
       "answerEn": "Contract duties generally pass to the estate unless personal services are involved",
       "answerZh": "通常遺產承受；個人服務契約例外",
       "trapEn": "A listing is commonly treated as a personal-services agreement.",
-      "trapZh": "Listing 常屬個人服務"
+      "trapZh": "Listing 常屬個人服務",
+      "explainZh": "題幹若出現「死亡對契約」，應立刻聯想：通常遺產承受；個人服務契約例外。補充說明：Listing 常屬個人服務。"
     },
     {
       "id": 80,
@@ -1059,7 +1138,8 @@
       "answerEn": "Most contracts involving real property must be in writing",
       "answerZh": "多數不動產合約須書面",
       "trapEn": "A lease for one year or less may be enforceable orally.",
-      "trapZh": "≤1 年租約口頭可有效"
+      "trapZh": "≤1 年租約口頭可有效",
+      "explainZh": "題幹若出現「Statute of Frauds」，應立刻聯想：多數不動產合約須書面。補充說明：≤1 年租約口頭可有效。"
     },
     {
       "id": 81,
@@ -1071,7 +1151,8 @@
       "answerEn": "May be enforceable without a writing",
       "answerZh": "可不書面",
       "trapEn": "An eighteen-month lease must be in writing.",
-      "trapZh": "18-month 須書面"
+      "trapZh": "18-month 須書面",
+      "explainZh": "題幹若出現「9-month lease」，應立刻聯想：可不書面。補充說明：18-month 須書面。"
     },
     {
       "id": 82,
@@ -1083,7 +1164,8 @@
       "answerEn": "Valid for real estate contracts when the parties consent",
       "answerZh": "當事人同意即可用於 RE 合約",
       "trapEn": "E-SIGN and UETA support electronic transactions.",
-      "trapZh": "E-SIGN／UETA"
+      "trapZh": "E-SIGN／UETA",
+      "explainZh": "題幹若出現「電子簽名」，應立刻聯想：當事人同意即可用於 RE 合約。補充說明：E-SIGN／UETA。"
     },
     {
       "id": 83,
@@ -1095,7 +1177,8 @@
       "answerEn": "Unreasonable prejudicial delay can bar equitable relief",
       "answerZh": "拖延過久致對方受損→衡平救濟被拒",
       "trapEn": "Relief may be denied even before the statute of limitations expires.",
-      "trapZh": "即使訴訟時效未過"
+      "trapZh": "即使訴訟時效未過",
+      "explainZh": "題幹若出現「Doctrine of laches」，應立刻聯想：拖延過久致對方受損→衡平救濟被拒。補充說明：即使訴訟時效未過。"
     },
     {
       "id": 84,
@@ -1107,7 +1190,8 @@
       "answerEn": "Generally bars prior or contemporaneous oral terms that contradict an integrated writing",
       "answerZh": "原則限制用口頭改完整書面合約",
       "trapEn": "",
-      "trapZh": ""
+      "trapZh": "",
+      "explainZh": "題幹若出現「Parol evidence rule」，應立刻聯想：原則限制用口頭改完整書面合約。"
     },
     {
       "id": 85,
@@ -1119,7 +1203,8 @@
       "answerEn": "Allows cancellation or renegotiation based on unsatisfactory inspections",
       "answerZh": "檢查不合格可解約／談判",
       "trapEn": "A leaking roof is a typical fact pattern.",
-      "trapZh": "屋頂漏水題"
+      "trapZh": "屋頂漏水題",
+      "explainZh": "題幹若出現「Inspection contingency」，應立刻聯想：檢查不合格可解約／談判。補充說明：屋頂漏水題。"
     },
     {
       "id": 86,
@@ -1131,7 +1216,8 @@
       "answerEn": "Protects the buyer if the property appraises below the contract price",
       "answerZh": "估價不足可走",
       "trapEn": "It may weaken an offer in a strong seller's market.",
-      "trapZh": "賣方市場加此條款較不具競爭力"
+      "trapZh": "賣方市場加此條款較不具競爭力",
+      "explainZh": "題幹若出現「Appraisal contingency」，應立刻聯想：估價不足可走。補充說明：賣方市場加此條款較不具競爭力。"
     },
     {
       "id": 87,
@@ -1143,7 +1229,8 @@
       "answerEn": "Allows the buyer to cancel if specified financing cannot be obtained",
       "answerZh": "貸款不成可走",
       "trapEn": "",
-      "trapZh": ""
+      "trapZh": "",
+      "explainZh": "題幹若出現「Finance contingency」，應立刻聯想：貸款不成可走。"
     },
     {
       "id": 88,
@@ -1155,7 +1242,8 @@
       "answerEn": "A condition protecting a party's right to withdraw before satisfaction or removal",
       "answerZh": "條件成就前可保護一方退出",
       "trapEn": "An addendum is not itself a cancellation right.",
-      "trapZh": "Addendum≠退出權本身"
+      "trapZh": "Addendum≠退出權本身",
+      "explainZh": "題幹若出現「Contingency 本質」，應立刻聯想：條件成就前可保護一方退出。易錯提醒：Addendum≠退出權本身。"
     },
     {
       "id": 89,
@@ -1167,7 +1255,8 @@
       "answerEn": "A fact that could affect a buyer's decision or price and therefore must be disclosed",
       "answerZh": "會改變買賣決策／出價的事實→必須揭露",
       "trapEn": "An “as-is” clause does not excuse disclosure.",
-      "trapZh": "As-is 不能免"
+      "trapZh": "As-is 不能免",
+      "explainZh": "題幹若出現「Material fact」，應立刻聯想：會改變買賣決策／出價的事實→必須揭露。易錯提醒：As-is 不能免。"
     },
     {
       "id": 90,
@@ -1179,7 +1268,8 @@
       "answerEn": "Seller declines repairs but must still disclose known material defects and complete required disclosures",
       "answerZh": "不願修繕，但仍須填 TDS、揭露已知重大瑕疵",
       "trapEn": "As-is does not mean no disclosure.",
-      "trapZh": "常見迷思"
+      "trapZh": "常見迷思",
+      "explainZh": "題幹若出現「As-is（加州）」，應立刻聯想：不願修繕，但仍須填 TDS、揭露已知重大瑕疵。補充說明：常見迷思。"
     },
     {
       "id": 91,
@@ -1191,7 +1281,8 @@
       "answerEn": "Seller disclosure of known condition for one-to-four residential units",
       "answerZh": "1–4 住宅賣方已知屋況揭露",
       "trapEn": "School-district information is not part of the TDS.",
-      "trapZh": "不含學區資訊"
+      "trapZh": "不含學區資訊",
+      "explainZh": "題幹若出現「TDS」，應立刻聯想：1–4 住宅賣方已知屋況揭露。補充說明：不含學區資訊。"
     },
     {
       "id": 92,
@@ -1203,7 +1294,8 @@
       "answerEn": "Buyer generally has three days after personal delivery to cancel",
       "answerZh": "買方通常 3 天可取消",
       "trapEn": "Delivery by mail or electronic transmission generally allows five days.",
-      "trapZh": "郵寄／電子常 5 天"
+      "trapZh": "郵寄／電子常 5 天",
+      "explainZh": "題幹若出現「TDS 親送晚交」，應立刻聯想：買方通常 3 天可取消。補充說明：郵寄／電子常 5 天。"
     },
     {
       "id": 93,
@@ -1215,7 +1307,8 @@
       "answerEn": "Commonly exempt from the seller's TDS requirement",
       "answerZh": "常豁免填 TDS",
       "trapEn": "A lender-owner often lacks personal knowledge of condition.",
-      "trapZh": "銀行不知屋況"
+      "trapZh": "銀行不知屋況",
+      "explainZh": "題幹若出現「Foreclosure」，應立刻聯想：常豁免填 TDS。補充說明：銀行不知屋況。"
     },
     {
       "id": 94,
@@ -1227,7 +1320,8 @@
       "answerEn": "Discloses mapped flood, fire, earthquake, and other natural hazard zones",
       "answerZh": "揭露是否在洪患／火災／地震等災害區",
       "trapEn": "It is not the form specifically for asbestos or lead.",
-      "trapZh": "不是石棉／鉛的專用表"
+      "trapZh": "不是石棉／鉛的專用表",
+      "explainZh": "題幹若出現「NHD」，應立刻聯想：揭露是否在洪患／火災／地震等災害區。易錯提醒：不是石棉／鉛的專用表。"
     },
     {
       "id": 95,
@@ -1239,7 +1333,8 @@
       "answerEn": "Federal disclosure applies to most pre-1978 residential property",
       "answerZh": "Pre-1978 強制聯邦揭露",
       "trapEn": "A home built in 1964 is within the rule.",
-      "trapZh": "1964 建＝要揭露鉛"
+      "trapZh": "1964 建＝要揭露鉛",
+      "explainZh": "題幹若出現「Lead-based paint」，應立刻聯想：Pre-1978 強制聯邦揭露。補充說明：1964 建＝要揭露鉛。"
     },
     {
       "id": 96,
@@ -1251,7 +1346,8 @@
       "answerEn": "A hidden defect not discoverable by ordinary inspection",
       "answerZh": "常規看屋難發現的隱性瑕疵",
       "trapEn": "Asbestos behind drywall is a typical example.",
-      "trapZh": "乾壁後石棉"
+      "trapZh": "乾壁後石棉",
+      "explainZh": "題幹若出現「Latent defect」，應立刻聯想：常規看屋難發現的隱性瑕疵。補充說明：乾壁後石棉。"
     },
     {
       "id": 97,
@@ -1263,7 +1359,8 @@
       "answerEn": "A defect that is open and readily observable",
       "answerZh": "明顯可見瑕疵",
       "trapEn": "",
-      "trapZh": ""
+      "trapZh": "",
+      "explainZh": "題幹若出現「Patent defect」，應立刻聯想：明顯可見瑕疵。"
     },
     {
       "id": 98,
@@ -1275,7 +1372,8 @@
       "answerEn": "Do not disclose protected medical-status information",
       "answerZh": "禁止揭露（公平住房／隱私）",
       "trapEn": "Nondisclosure here complies with privacy and fair housing rules.",
-      "trapZh": "遵從不揭露＝合法"
+      "trapZh": "遵從不揭露＝合法",
+      "explainZh": "題幹若出現「HIV/AIDS 前住戶」，應立刻聯想：禁止揭露（公平住房／隱私）。補充說明：遵從不揭露＝合法。"
     },
     {
       "id": 99,
@@ -1287,7 +1385,8 @@
       "answerEn": "A death within the prior three years may require disclosure; an older natural death generally does not",
       "answerZh": "通常近 3 年內須考量；6 年前自然死亡常不必",
       "trapEn": "Apply the California Civil Code rule and answer direct questions truthfully as required.",
-      "trapZh": "Civil Code 相關"
+      "trapZh": "Civil Code 相關",
+      "explainZh": "題幹若出現「死亡揭露（加州）」，應立刻聯想：通常近 3 年內須考量；6 年前自然死亡常不必。補充說明：Civil Code 相關。"
     },
     {
       "id": 100,
@@ -1299,7 +1398,8 @@
       "answerEn": "Provide the standard statutory notice; a broker generally need not investigate independently",
       "answerZh": "合約標準提示即可；經紀人不必主動調查披露",
       "trapEn": "Do not treat it exactly like a physical defect of the property.",
-      "trapZh": "不是物業物理重大事實同等義務"
+      "trapZh": "不是物業物理重大事實同等義務",
+      "explainZh": "題幹若出現「Megan's Law」，應立刻聯想：合約標準提示即可；經紀人不必主動調查披露。易錯提醒：不是物業物理重大事實同等義務。"
     },
     {
       "id": 101,
@@ -1311,7 +1411,8 @@
       "answerEn": "Refuse the illegal instruction, disclose as required, and consider terminating the agency",
       "answerZh": "拒絕＋仍須向買方揭露／可終止委託",
       "trapEn": "Obedience does not extend to unlawful concealment.",
-      "trapZh": "服從不法指示會共同負責"
+      "trapZh": "服從不法指示會共同負責",
+      "explainZh": "題幹若出現「賣方要求隱瞞瑕疵」，應立刻聯想：拒絕＋仍須向買方揭露／可終止委託。補充說明：服從不法指示會共同負責。"
     },
     {
       "id": 102,
@@ -1323,7 +1424,8 @@
       "answerEn": "Disclose the concealed material defect or risk misrepresentation liability",
       "answerZh": "必須揭露，否則 misrepresentation",
       "trapEn": "Do not advise the seller merely to improve the concealment.",
-      "trapZh": "不是叫他漆更好"
+      "trapZh": "不是叫他漆更好",
+      "explainZh": "題幹若出現「油漆掩蓋地基裂縫」，應立刻聯想：必須揭露，否則 misrepresentation。易錯提醒：不是叫他漆更好。"
     },
     {
       "id": 103,
@@ -1335,7 +1437,8 @@
       "answerEn": "A widely used industry form, not a single state-promulgated mandatory contract",
       "answerZh": "常用住宅買賣約，但州政府未強制頒布唯一表",
       "trapEn": "California does not prescribe it as the only statewide form.",
-      "trapZh": "非 promulgated statewide"
+      "trapZh": "非 promulgated statewide",
+      "explainZh": "題幹若出現「RPA（C.A.R.）」，應立刻聯想：常用住宅買賣約，但州政府未強制頒布唯一表。易錯提醒：非 promulgated statewide。"
     },
     {
       "id": 104,
@@ -1347,7 +1450,8 @@
       "answerEn": "Buyer and seller",
       "answerZh": "Buyer ＋ Seller",
       "trapEn": "The broker is ordinarily an agent, not a party to the sale contract.",
-      "trapZh": "Broker 不是合約當事人"
+      "trapZh": "Broker 不是合約當事人",
+      "explainZh": "題幹若出現「買賣約當事人」，應立刻聯想：Buyer ＋ Seller。易錯提醒：Broker 不是合約當事人。"
     },
     {
       "id": 105,
@@ -1359,7 +1463,8 @@
       "answerEn": "Unconscious stereotypes that cause unequal service",
       "answerZh": "無意識刻板印象差別服務",
       "trapEn": "A person may sincerely claim fairness while acting on hidden assumptions.",
-      "trapZh": "自認公平卻假設有色人種買便宜房"
+      "trapZh": "自認公平卻假設有色人種買便宜房",
+      "explainZh": "題幹若出現「Implicit bias」，應立刻聯想：無意識刻板印象差別服務。補充說明：自認公平卻假設有色人種買便宜房。"
     },
     {
       "id": 106,
@@ -1371,7 +1476,8 @@
       "answerEn": "Conscious, intentional discrimination",
       "answerZh": "明知故犯歧視（拒服務同性伴侶）",
       "trapEn": "",
-      "trapZh": ""
+      "trapZh": "",
+      "explainZh": "題幹若出現「Explicit bias」，應立刻聯想：明知故犯歧視（拒服務同性伴侶）。"
     },
     {
       "id": 107,
@@ -1383,7 +1489,8 @@
       "answerEn": "Directing people toward or away from neighborhoods based on a protected characteristic",
       "answerZh": "依族群導向特定社區",
       "trapEn": "Steering violates fair housing law.",
-      "trapZh": "違法"
+      "trapZh": "違法",
+      "explainZh": "題幹若出現「Steering」，應立刻聯想：依族群導向特定社區。補充說明：違法。"
     },
     {
       "id": 108,
@@ -1395,7 +1502,8 @@
       "answerEn": "Inducing sales through fear that a protected group is entering the area",
       "answerZh": "恐嚇社區變動促拋售",
       "trapEn": "Blockbusting is illegal.",
-      "trapZh": "違法"
+      "trapZh": "違法",
+      "explainZh": "題幹若出現「Blockbusting」，應立刻聯想：恐嚇社區變動促拋售。補充說明：違法。"
     },
     {
       "id": 109,
@@ -1407,7 +1515,8 @@
       "answerEn": "Denying or restricting credit based on neighborhood or protected-group patterns",
       "answerZh": "依地區／族群拒貸",
       "trapEn": "Redlining is illegal.",
-      "trapZh": "違法"
+      "trapZh": "違法",
+      "explainZh": "題幹若出現「Redlining」，應立刻聯想：依地區／族群拒貸。補充說明：違法。"
     },
     {
       "id": 110,
@@ -1419,7 +1528,8 @@
       "answerEn": "Ethics are external professional standards; morals are personal convictions",
       "answerZh": "Ethics＝外部團體標準化；Morals＝個體內心",
       "trapEn": "The NAR Code of Ethics is an external standard.",
-      "trapZh": "NAR Code of Ethics"
+      "trapZh": "NAR Code of Ethics",
+      "explainZh": "題幹若出現「Ethics vs Morals」，應立刻聯想：Ethics＝外部團體標準化；Morals＝個體內心。補充說明：NAR Code of Ethics。"
     },
     {
       "id": 111,
@@ -1431,7 +1541,8 @@
       "answerEn": "Disclose the lack of expertise before providing the service",
       "answerZh": "提供服務「之前」須揭露",
       "trapEn": "NAR Article 11 addresses competence.",
-      "trapZh": "NAR Article 11"
+      "trapZh": "NAR Article 11",
+      "explainZh": "題幹若出現「缺專業領域能力」，應立刻聯想：提供服務「之前」須揭露。補充說明：NAR Article 11。"
     },
     {
       "id": 112,
@@ -1443,7 +1554,8 @@
       "answerEn": "Mixing client trust funds with a broker's personal or business funds",
       "answerZh": "個人資金與客戶信託金混合",
       "trapEn": "Conversion is actually taking or spending the client's money.",
-      "trapZh": "Conversion＝挪用花掉"
+      "trapZh": "Conversion＝挪用花掉",
+      "explainZh": "題幹若出現「Commingling」，應立刻聯想：個人資金與客戶信託金混合。補充說明：Conversion＝挪用花掉。"
     },
     {
       "id": 113,
@@ -1455,7 +1567,8 @@
       "answerEn": "Unethical and inconsistent with appraisal independence and USPAP",
       "answerZh": "不道德／違反 USPAP",
       "trapEn": "Compensation cannot depend on reaching a particular value.",
-      "trapZh": "費不能掛鉤估出來的價值"
+      "trapZh": "費不能掛鉤估出來的價值",
+      "explainZh": "題幹若出現「Appraisal fee 依估值加減」，應立刻聯想：不道德／違反 USPAP。易錯提醒：費不能掛鉤估出來的價值。"
     },
     {
       "id": 114,
@@ -1467,7 +1580,8 @@
       "answerEn": "State agency that regulates real estate licenses",
       "answerZh": "加州執照監管機關",
       "trapEn": "C.A.R. and NAR are trade associations, not licensing enforcement agencies.",
-      "trapZh": "C.A.R.／NAR 是協會非執法"
+      "trapZh": "C.A.R.／NAR 是協會非執法",
+      "explainZh": "題幹若出現「DRE」，應立刻聯想：加州執照監管機關。易錯提醒：C.A.R.／NAR 是協會非執法。"
     },
     {
       "id": 115,
@@ -1479,7 +1593,8 @@
       "answerEn": "Head of the California Department of Real Estate",
       "answerZh": "DRE 首長",
       "trapEn": "",
-      "trapZh": ""
+      "trapZh": "",
+      "explainZh": "題幹若出現「Real Estate Commissioner」，應立刻聯想：DRE 首長。"
     },
     {
       "id": 116,
@@ -1491,7 +1606,8 @@
       "answerEn": "Keep required transaction records for at least three years",
       "answerZh": "結案起至少 3 年",
       "trapEn": "Count from closing or the relevant statutory event.",
-      "trapZh": "2022/6/20 → 2025/6/20"
+      "trapZh": "2022/6/20 → 2025/6/20",
+      "explainZh": "題幹若出現「交易文件保存」，應立刻聯想：結案起至少 3 年。補充說明：2022/6/20 → 2025/6/20。"
     },
     {
       "id": 117,
@@ -1503,7 +1619,8 @@
       "answerEn": "A formal valuation performed by a properly licensed or certified appraiser",
       "answerZh": "僅持牌估價師可做正式估價",
       "trapEn": "The appraisal must comply with USPAP.",
-      "trapZh": "須符合 USPAP"
+      "trapZh": "須符合 USPAP",
+      "explainZh": "題幹若出現「Appraisal」，應立刻聯想：僅持牌估價師可做正式估價。補充說明：須符合 USPAP。"
     },
     {
       "id": 118,
@@ -1515,7 +1632,8 @@
       "answerEn": "A broker's informal pricing analysis; no appraiser license is required",
       "answerZh": "不需估價師執照",
       "trapEn": "A CMA is not a formal appraisal.",
-      "trapZh": "非正式意見"
+      "trapZh": "非正式意見",
+      "explainZh": "題幹若出現「CMA」，應立刻聯想：不需估價師執照。易錯提醒：非正式意見。"
     },
     {
       "id": 119,
@@ -1527,7 +1645,8 @@
       "answerEn": "A broker's opinion of property value or probable selling price",
       "answerZh": "經紀人價格意見，低於正式 appraisal",
       "trapEn": "It is less formal than an appraisal.",
-      "trapZh": ""
+      "trapZh": "",
+      "explainZh": "題幹若出現「BPO」，應立刻聯想：經紀人價格意見，低於正式 appraisal。"
     },
     {
       "id": 120,
@@ -1539,7 +1658,8 @@
       "answerEn": "Usually the best approach for existing owner-occupied homes",
       "answerZh": "中古屋最常用",
       "trapEn": "",
-      "trapZh": ""
+      "trapZh": "",
+      "explainZh": "題幹若出現「Sales comparison」，應立刻聯想：中古屋最常用。"
     },
     {
       "id": 121,
@@ -1551,7 +1671,8 @@
       "answerEn": "Best suited to new construction and special-purpose properties",
       "answerZh": "新成屋／特殊建築首選",
       "trapEn": "Land value plus replacement or reproduction cost minus depreciation.",
-      "trapZh": "土地＋重建成本－折舊"
+      "trapZh": "土地＋重建成本－折舊",
+      "explainZh": "題幹若出現「Cost approach」，應立刻聯想：新成屋／特殊建築首選。補充說明：土地＋重建成本－折舊。"
     },
     {
       "id": 122,
@@ -1563,7 +1684,8 @@
       "answerEn": "Used for income-producing property",
       "answerZh": "收益性物業",
       "trapEn": "Apply the IRV relationship.",
-      "trapZh": "IRV"
+      "trapZh": "IRV",
+      "explainZh": "題幹若出現「Income approach」，應立刻聯想：收益性物業。補充說明：IRV。"
     },
     {
       "id": 123,
@@ -1575,7 +1697,8 @@
       "answerEn": "Use nearby, similar sales, preferably from the last six to twelve months",
       "answerZh": "同社區＋近 6–12 月＋至少約 3 筆",
       "trapEn": "A comparable twenty-five miles away is usually too distant.",
-      "trapZh": "25 英里太遠"
+      "trapZh": "25 英里太遠",
+      "explainZh": "題幹若出現「CMA 選 comp」，應立刻聯想：同社區＋近 6–12 月＋至少約 3 筆。補充說明：25 英里太遠。"
     },
     {
       "id": 124,
@@ -1587,7 +1710,8 @@
       "answerEn": "Adjust the comparable, never the subject property",
       "answerZh": "永遠調 Comp，不調 Subject",
       "trapEn": "If the comparable lacks a bathroom, add its value to the comparable's price.",
-      "trapZh": "Comp 少衛浴→加價"
+      "trapZh": "Comp 少衛浴→加價",
+      "explainZh": "題幹若出現「調整方向」，應立刻聯想：永遠調 Comp，不調 Subject。補充說明：Comp 少衛浴→加價。"
     },
     {
       "id": 125,
@@ -1599,7 +1723,8 @@
       "answerEn": "Building specialized market knowledge and prospects in a defined geographic area",
       "answerZh": "深耕特定地理區域成專家",
       "trapEn": "It does not mean agriculture or indiscriminate citywide marketing.",
-      "trapZh": "不是真的務農；也非全市撒網"
+      "trapZh": "不是真的務農；也非全市撒網",
+      "explainZh": "題幹若出現「Farm area」，應立刻聯想：深耕特定地理區域成專家。易錯提醒：不是真的務農；也非全市撒網。"
     },
     {
       "id": 126,
@@ -1611,7 +1736,8 @@
       "answerEn": "The seller's initial asking price",
       "answerZh": "初始要價 Asking price",
       "trapEn": "It is not necessarily the final sale price.",
-      "trapZh": "≠最終成交價"
+      "trapZh": "≠最終成交價",
+      "explainZh": "題幹若出現「Listing price」，應立刻聯想：初始要價 Asking price。易錯提醒：≠最終成交價。"
     },
     {
       "id": 127,
@@ -1623,7 +1749,8 @@
       "answerEn": "Income at 100% occupancy before vacancy or collection loss",
       "answerZh": "100% 滿租理想總收入",
       "trapEn": "No vacancy allowance has yet been deducted.",
-      "trapZh": "未扣空置"
+      "trapZh": "未扣空置",
+      "explainZh": "題幹若出現「PGI」，應立刻聯想：100% 滿租理想總收入。補充說明：未扣空置。"
     },
     {
       "id": 128,
@@ -1635,7 +1762,8 @@
       "answerEn": "PGI minus vacancy and collection loss plus other income",
       "answerZh": "PGI－空置／呆帳＋其他收入（未扣營業費用）",
       "trapEn": "Operating expenses have not yet been deducted.",
-      "trapZh": ""
+      "trapZh": "",
+      "explainZh": "題幹若出現「EGI」，應立刻聯想：PGI－空置／呆帳＋其他收入（未扣營業費用）。"
     },
     {
       "id": 129,
@@ -1647,7 +1775,8 @@
       "answerEn": "EGI minus operating expenses",
       "answerZh": "EGI－營業費用＝營運淨利",
       "trapEn": "NOI normally excludes debt service and income taxes.",
-      "trapZh": "通常不含貸款本息與所得稅"
+      "trapZh": "通常不含貸款本息與所得稅",
+      "explainZh": "題幹若出現「NOI」，應立刻聯想：EGI－營業費用＝營運淨利。補充說明：通常不含貸款本息與所得稅。"
     },
     {
       "id": 130,
@@ -1659,7 +1788,8 @@
       "answerEn": "NOI divided by value",
       "answerZh": "NOI ÷ Value",
       "trapEn": "IRV states Income = Rate × Value.",
-      "trapZh": "IRV：I＝R×V"
+      "trapZh": "IRV：I＝R×V",
+      "explainZh": "題幹若出現「Cap rate」，應立刻聯想：NOI ÷ Value。補充說明：IRV：I＝R×V。"
     },
     {
       "id": 131,
@@ -1671,7 +1801,8 @@
       "answerEn": "NOI divided by the capitalization rate",
       "answerZh": "NOI ÷ Cap rate",
       "trapEn": "Annualize monthly NOI before dividing.",
-      "trapZh": "先年化月 NOI×12"
+      "trapZh": "先年化月 NOI×12",
+      "explainZh": "題幹若出現「Value（收益法）」，應立刻聯想：NOI ÷ Cap rate。補充說明：先年化月 NOI×12。"
     },
     {
       "id": 132,
@@ -1683,7 +1814,8 @@
       "answerEn": "Annual NOI is $120,000; value is $2,000,000",
       "answerZh": "年 NOI $120,000 → Value $2,000,000",
       "trapEn": "Do not divide monthly NOI directly by the annual cap rate.",
-      "trapZh": "別直接用月 NOI 去除"
+      "trapZh": "別直接用月 NOI 去除",
+      "explainZh": "題幹若出現「月 NOI $10,000、cap 6%」，應立刻聯想：年 NOI $120,000 → Value $2,000,000。補充說明：別直接用月 NOI 去除。"
     },
     {
       "id": 133,
@@ -1695,7 +1827,8 @@
       "answerEn": "Capitalization rate is 5%",
       "answerZh": "Cap＝5%",
       "trapEn": "Do not choose 10% or 20%.",
-      "trapZh": "不是 10%／20%"
+      "trapZh": "不是 10%／20%",
+      "explainZh": "題幹若出現「NOI $25,000」，應立刻聯想：Cap＝5%。易錯提醒：不是 10%／20%。"
     },
     {
       "id": 134,
@@ -1707,7 +1840,8 @@
       "answerEn": "Use Net Operating Income (NOI)",
       "answerZh": "看 NOI",
       "trapEn": "PGI and EGI are measured before operating expenses.",
-      "trapZh": "不是 PGI／EGI"
+      "trapZh": "不是 PGI／EGI",
+      "explainZh": "題幹若出現「投資人要扣日常費用後利潤」，應立刻聯想：看 NOI。易錯提醒：不是 PGI／EGI。"
     },
     {
       "id": 135,
@@ -1719,7 +1853,8 @@
       "answerEn": "Use Effective Gross Income (EGI)",
       "answerZh": "看 EGI",
       "trapEn": "",
-      "trapZh": ""
+      "trapZh": "",
+      "explainZh": "題幹若出現「只要收入扣空置、不問費用」，應立刻聯想：看 EGI。"
     },
     {
       "id": 136,
@@ -1731,7 +1866,8 @@
       "answerEn": "Generally indicates higher risk and a lower value relative to income",
       "answerZh": "通常風險較高／價值相對較低",
       "trapEn": "A lower cap rate generally indicates the reverse.",
-      "trapZh": "反之亦然"
+      "trapZh": "反之亦然",
+      "explainZh": "題幹若出現「Cap rate 高」，應立刻聯想：通常風險較高／價值相對較低。補充說明：反之亦然。"
     },
     {
       "id": 137,
@@ -1743,7 +1879,8 @@
       "answerEn": "Borrower who conveys bare legal title under a deed of trust",
       "answerZh": "借款人（設定信託）",
       "trapEn": "The -or is the party giving or creating the interest.",
-      "trapZh": "-OR 給出權利"
+      "trapZh": "-OR 給出權利",
+      "explainZh": "題幹若出現「Trustor」，應立刻聯想：借款人（設定信託）。補充說明：-OR 給出權利。"
     },
     {
       "id": 138,
@@ -1755,7 +1892,8 @@
       "answerEn": "Neutral third party holding bare legal title for the security instrument",
       "answerZh": "受託人持名義產權",
       "trapEn": "",
-      "trapZh": ""
+      "trapZh": "",
+      "explainZh": "題幹若出現「Trustee」，應立刻聯想：受託人持名義產權。"
     },
     {
       "id": 139,
@@ -1767,7 +1905,8 @@
       "answerEn": "Lender whose loan is secured by the deed of trust",
       "answerZh": "貸款機構",
       "trapEn": "The beneficiary receives the benefit of the security.",
-      "trapZh": "-EE 收受"
+      "trapZh": "-EE 收受",
+      "explainZh": "題幹若出現「Beneficiary」，應立刻聯想：貸款機構。補充說明：-EE 收受。"
     },
     {
       "id": 140,
@@ -1779,7 +1918,8 @@
       "answerEn": "Borrower who gives the mortgage",
       "answerZh": "借款人／抵押人",
       "trapEn": "The mortgagee is the lender.",
-      "trapZh": "Mortgagee＝銀行"
+      "trapZh": "Mortgagee＝銀行",
+      "explainZh": "題幹若出現「Mortgagor」，應立刻聯想：借款人／抵押人。補充說明：Mortgagee＝銀行。"
     },
     {
       "id": 141,
@@ -1791,7 +1931,8 @@
       "answerEn": "Party granting the option, usually the seller",
       "answerZh": "給出選擇權的一方（通常賣方）",
       "trapEn": "The optionee is the prospective buyer.",
-      "trapZh": "Optionee＝買方"
+      "trapZh": "Optionee＝買方",
+      "explainZh": "題幹若出現「Optionor」，應立刻聯想：給出選擇權的一方（通常賣方）。補充說明：Optionee＝買方。"
     },
     {
       "id": 142,
@@ -1803,7 +1944,8 @@
       "answerEn": "Grantor transfers title; grantee receives title",
       "answerZh": "讓與人／受讓人",
       "trapEn": "",
-      "trapZh": ""
+      "trapZh": "",
+      "explainZh": "題幹若出現「Grantor」，應立刻聯想：讓與人／受讓人。"
     },
     {
       "id": 143,
@@ -1815,7 +1957,8 @@
       "answerEn": "Loan amount divided by property value",
       "answerZh": "貸款額÷價值",
       "trapEn": "A high LTV conventional loan may require PMI.",
-      "trapZh": "高 LTV 常需 PMI"
+      "trapZh": "高 LTV 常需 PMI",
+      "explainZh": "題幹若出現「LTV」，應立刻聯想：貸款額÷價值。補充說明：高 LTV 常需 PMI。"
     },
     {
       "id": 144,
@@ -1827,7 +1970,8 @@
       "answerEn": "Insurance protecting a conventional lender on a high-LTV loan",
       "answerZh": "傳統貸款高 LTV 的抵押保險",
       "trapEn": "",
-      "trapZh": ""
+      "trapZh": "",
+      "explainZh": "題幹若出現「PMI」，應立刻聯想：傳統貸款高 LTV 的抵押保險。"
     },
     {
       "id": 145,
@@ -1839,7 +1983,8 @@
       "answerEn": "Housing payment-to-income ratio and total debt-to-income ratio",
       "answerZh": "Payment-to-income ＋ Debt-to-income",
       "trapEn": "LTV is not a borrower qualifying ratio.",
-      "trapZh": "不是 LTV"
+      "trapZh": "不是 LTV",
+      "explainZh": "題幹若出現「Qualifying ratios」，應立刻聯想：Payment-to-income ＋ Debt-to-income。易錯提醒：不是 LTV。"
     },
     {
       "id": 146,
@@ -1851,7 +1996,8 @@
       "answerEn": "Principal multiplied by annual interest rate, divided by twelve",
       "answerZh": "本金×利率÷12",
       "trapEn": "$140,000 × 4.9% ÷ 12 = $571.67.",
-      "trapZh": "$140k×4.9%÷12＝$571.67"
+      "trapZh": "$140k×4.9%÷12＝$571.67",
+      "explainZh": "題幹若出現「Interest-only 月息」，應立刻聯想：本金×利率÷12。補充說明：$140k×4.9%÷12＝$571.67。"
     },
     {
       "id": 147,
@@ -1863,7 +2009,8 @@
       "answerEn": "Calculated on the remaining principal balance",
       "answerZh": "依「剩餘本金」計息",
       "trapEn": "Early payments contain a larger interest portion.",
-      "trapZh": "前期利息多"
+      "trapZh": "前期利息多",
+      "explainZh": "題幹若出現「Amortized loan 月利息」，應立刻聯想：依「剩餘本金」計息。補充說明：前期利息多。"
     },
     {
       "id": 148,
@@ -1875,7 +2022,8 @@
       "answerEn": "Interest rates, points, and loan costs tend to rise",
       "answerZh": "利率↑、點數／開辦費↑",
       "trapEn": "Credit does not become cheaper.",
-      "trapZh": "不是更便宜"
+      "trapZh": "不是更便宜",
+      "explainZh": "題幹若出現「緊縮貨幣市場」，應立刻聯想：利率↑、點數／開辦費↑。易錯提醒：不是更便宜。"
     },
     {
       "id": 149,
@@ -1887,7 +2035,8 @@
       "answerEn": "Interest rates tend to fall",
       "answerZh": "利率↓",
       "trapEn": "",
-      "trapZh": ""
+      "trapZh": "",
+      "explainZh": "題幹若出現「資金供給增加」，應立刻聯想：利率↓。"
     },
     {
       "id": 150,
@@ -1899,7 +2048,8 @@
       "answerEn": "The former owner may deduct rent as a business operating expense",
       "answerZh": "租金可當營業費用抵稅",
       "trapEn": "",
-      "trapZh": ""
+      "trapZh": "",
+      "explainZh": "題幹若出現「Sale-leaseback 優勢」，應立刻聯想：租金可當營業費用抵稅。"
     },
     {
       "id": 151,
@@ -1911,7 +2061,8 @@
       "answerEn": "Paying or receiving a kickback for settlement-service referrals",
       "answerZh": "因轉介付回扣／kickback",
       "trapEn": "Example: a title company pays for referrals.",
-      "trapZh": "如 title 公司付錢轉介"
+      "trapZh": "如 title 公司付錢轉介",
+      "explainZh": "題幹若出現「RESPA 違規」，應立刻聯想：因轉介付回扣／kickback。補充說明：如 title 公司付錢轉介。"
     },
     {
       "id": 152,
@@ -1923,7 +2074,8 @@
       "answerEn": "Requires disclosure of the true cost and terms of consumer credit",
       "answerZh": "揭露真實借貸成本",
       "trapEn": "TILA does not set market interest rates.",
-      "trapZh": "不決定利率升降"
+      "trapZh": "不決定利率升降",
+      "explainZh": "題幹若出現「TILA」，應立刻聯想：揭露真實借貸成本。補充說明：不決定利率升降。"
     },
     {
       "id": 153,
@@ -1935,7 +2087,8 @@
       "answerEn": "Carries implied covenants that title was not previously conveyed and has no undisclosed grantor-created encumbrances",
       "answerZh": "含兩項默示保證（未移轉給他人、未設定未揭露負擔）",
       "trapEn": "",
-      "trapZh": ""
+      "trapZh": "",
+      "explainZh": "題幹若出現「Grant deed（加州常用）」，應立刻聯想：含兩項默示保證（未移轉給他人、未設定未揭露負擔）。"
     },
     {
       "id": 154,
@@ -1947,7 +2100,8 @@
       "answerEn": "Conveys whatever present interest the grantor may have, with no title warranties",
       "answerZh": "轉讓「現有任何權利」，幾乎無保證",
       "trapEn": "Often used to clear a cloud or release a possible claim.",
-      "trapZh": "清雲／放棄權利常用"
+      "trapZh": "清雲／放棄權利常用",
+      "explainZh": "題幹若出現「Quitclaim deed」，應立刻聯想：轉讓「現有任何權利」，幾乎無保證。補充說明：清雲／放棄權利常用。"
     },
     {
       "id": 155,
@@ -1959,7 +2113,8 @@
       "answerEn": "Provides broad title warranties and covenants",
       "answerZh": "保證最多（六大契約）",
       "trapEn": "Its use and covenant details vary by state.",
-      "trapZh": "視州而異"
+      "trapZh": "視州而異",
+      "explainZh": "題幹若出現「Warranty deed」，應立刻聯想：保證最多（六大契約）。補充說明：視州而異。"
     },
     {
       "id": 156,
@@ -1971,7 +2126,8 @@
       "answerEn": "Implies the grantor holds transferable title but provides few warranties",
       "answerZh": "暗示持有可轉讓權，保證少",
       "trapEn": "",
-      "trapZh": ""
+      "trapZh": "",
+      "explainZh": "題幹若出現「Bargain and sale」，應立刻聯想：暗示持有可轉讓權，保證少。"
     },
     {
       "id": 157,
@@ -1983,7 +2139,8 @@
       "answerEn": "The “to have and to hold” clause defining the estate granted",
       "answerZh": "“to have and to hold” 定義權利範圍",
       "trapEn": "",
-      "trapZh": ""
+      "trapZh": "",
+      "explainZh": "題幹若出現「Habendum clause」，應立刻聯想：“to have and to hold” 定義權利範圍。"
     },
     {
       "id": 158,
@@ -1995,7 +2152,8 @@
       "answerEn": "Operative words showing the grantor's intent to transfer title",
       "answerZh": "表明移轉意圖的核心句",
       "trapEn": "",
-      "trapZh": ""
+      "trapZh": "",
+      "explainZh": "題幹若出現「Granting clause」，應立刻聯想：表明移轉意圖的核心句。"
     },
     {
       "id": 159,
@@ -2007,7 +2165,8 @@
       "answerEn": "Both are required for the deed to become effective",
       "answerZh": "契據生效必要：交付＋接受",
       "trapEn": "The grantor's signature alone is insufficient.",
-      "trapZh": "只簽名不夠"
+      "trapZh": "只簽名不夠",
+      "explainZh": "題幹若出現「Delivery and acceptance」，應立刻聯想：契據生效必要：交付＋接受。補充說明：只簽名不夠。"
     },
     {
       "id": 160,
@@ -2019,7 +2178,8 @@
       "answerEn": "Gives constructive notice to the world",
       "answerZh": "產生 Constructive notice",
       "trapEn": "",
-      "trapZh": ""
+      "trapZh": "",
+      "explainZh": "題幹若出現「Recording」，應立刻聯想：產生 Constructive notice。"
     },
     {
       "id": 161,
@@ -2031,7 +2191,8 @@
       "answerEn": "Direct, personal knowledge of a fact",
       "answerZh": "親身／直接知悉",
       "trapEn": "",
-      "trapZh": ""
+      "trapZh": "",
+      "explainZh": "題幹若出現「Actual notice」，應立刻聯想：親身／直接知悉。"
     },
     {
       "id": 162,
@@ -2043,7 +2204,8 @@
       "answerEn": "Knowledge imputed by law because the public record could be examined",
       "answerZh": "推定應查公共紀錄而知",
       "trapEn": "",
-      "trapZh": ""
+      "trapZh": "",
+      "explainZh": "題幹若出現「Constructive notice」，應立刻聯想：推定應查公共紀錄而知。"
     },
     {
       "id": 163,
@@ -2055,7 +2217,8 @@
       "answerEn": "A summarized history of recorded instruments affecting title",
       "answerZh": "產權檢索後的歷史摘要報告",
       "trapEn": "It is a report, not a title plant.",
-      "trapZh": "不是 title plant"
+      "trapZh": "不是 title plant",
+      "explainZh": "題幹若出現「Abstract of title」，應立刻聯想：產權檢索後的歷史摘要報告。易錯提醒：不是 title plant。"
     },
     {
       "id": 164,
@@ -2067,7 +2230,8 @@
       "answerEn": "A title company's organized database of land and title records",
       "answerZh": "產權公司資料庫設施",
       "trapEn": "",
-      "trapZh": ""
+      "trapZh": "",
+      "explainZh": "題幹若出現「Title plant」，應立刻聯想：產權公司資料庫設施。"
     },
     {
       "id": 165,
@@ -2079,7 +2243,8 @@
       "answerEn": "Title reasonably free from significant defects and encumbrances",
       "answerZh": "無重大負擔／瑕疵、可安心轉售",
       "trapEn": "It is title a prudent buyer can accept and later resell.",
-      "trapZh": "清 significant encumbrances"
+      "trapZh": "清 significant encumbrances",
+      "explainZh": "題幹若出現「Marketable title」，應立刻聯想：無重大負擔／瑕疵、可安心轉售。補充說明：清 significant encumbrances。"
     },
     {
       "id": 166,
@@ -2091,7 +2256,8 @@
       "answerEn": "The successive history of ownership transfers",
       "answerZh": "產權移轉連鎖",
       "trapEn": "",
-      "trapZh": ""
+      "trapZh": "",
+      "explainZh": "題幹若出現「Chain of title」，應立刻聯想：產權移轉連鎖。"
     },
     {
       "id": 167,
@@ -2103,7 +2269,8 @@
       "answerEn": "A description sufficient to identify one specific parcel",
       "answerZh": "足以唯一區辨的法定描述",
       "trapEn": "A street address is not a legal description.",
-      "trapZh": "≠街道地址"
+      "trapZh": "≠街道地址",
+      "explainZh": "題幹若出現「Legal description」，應立刻聯想：足以唯一區辨的法定描述。易錯提醒：≠街道地址。"
     },
     {
       "id": 168,
@@ -2115,7 +2282,8 @@
       "answerEn": "Withholds a right or excludes an existing interest from the grant",
       "answerZh": "契據保留權利或載明既有 easement",
       "trapEn": "",
-      "trapZh": ""
+      "trapZh": "",
+      "explainZh": "題幹若出現「Reservation」，應立刻聯想：契據保留權利或載明既有 easement。"
     },
     {
       "id": 169,
@@ -2127,7 +2295,8 @@
       "answerEn": "Court-supervised administration of a decedent's estate",
       "answerZh": "遺產認證／法庭程序",
       "trapEn": "Testate means with a will; intestate means without one.",
-      "trapZh": "Testate＝有遺囑；Intestate＝無"
+      "trapZh": "Testate＝有遺囑；Intestate＝無",
+      "explainZh": "題幹若出現「Probate」，應立刻聯想：遺產認證／法庭程序。補充說明：Testate＝有遺囑；Intestate＝無。"
     },
     {
       "id": 170,
@@ -2139,7 +2308,8 @@
       "answerEn": "Acquisition of title through open, notorious, hostile, continuous possession meeting statutory requirements",
       "answerZh": "公開敵意佔用達年限可取得所有權",
       "trapEn": "",
-      "trapZh": ""
+      "trapZh": "",
+      "explainZh": "題幹若出現「Adverse possession」，應立刻聯想：公開敵意佔用達年限可取得所有權。"
     },
     {
       "id": 171,
@@ -2151,7 +2321,8 @@
       "answerEn": "Dedication transfers private land to public use; a public grant transfers public land to a private party",
       "answerZh": "私人捐地給政府／公地撥給私人",
       "trapEn": "",
-      "trapZh": ""
+      "trapZh": "",
+      "explainZh": "題幹若出現「Dedication」，應立刻聯想：私人捐地給政府／公地撥給私人。"
     },
     {
       "id": 172,
@@ -2163,7 +2334,8 @@
       "answerEn": "Begins at a point of beginning and follows bearings and distances back to the POB",
       "answerZh": "從 POB 沿方位距離繞回；度分秒",
       "trapEn": "Often references monuments or benchmarks and degrees, minutes, and seconds.",
-      "trapZh": "有 landmark／benchmark"
+      "trapZh": "有 landmark／benchmark",
+      "explainZh": "題幹若出現「Metes and bounds」，應立刻聯想：從 POB 沿方位距離繞回；度分秒。補充說明：有 landmark／benchmark。"
     },
     {
       "id": 173,
@@ -2175,7 +2347,8 @@
       "answerEn": "Uses principal meridians, baselines, townships, ranges, and sections",
       "answerZh": "Township、Range、Section、Meridian",
       "trapEn": "A notation such as T2S R2W identifies the grid location.",
-      "trapZh": "T2S R2W"
+      "trapZh": "T2S R2W",
+      "explainZh": "題幹若出現「Government」，應立刻聯想：Township、Range、Section、Meridian。補充說明：T2S R2W。"
     },
     {
       "id": 174,
@@ -2187,7 +2360,8 @@
       "answerEn": "Identifies a parcel by lot, block, and recorded subdivision map",
       "answerZh": "分區圖地號",
       "trapEn": "",
-      "trapZh": ""
+      "trapZh": "",
+      "explainZh": "題幹若出現「Lot and block」，應立刻聯想：分區圖地號。"
     },
     {
       "id": 175,
@@ -2199,7 +2373,8 @@
       "answerEn": "43,560 square feet",
       "answerZh": "43,560 sq ft",
       "trapEn": "Two acres equal 87,120 square feet.",
-      "trapZh": "2 acres＝87,120"
+      "trapZh": "2 acres＝87,120",
+      "explainZh": "題幹若出現「1 acre」，應立刻聯想：43,560 sq ft。補充說明：2 acres＝87,120。"
     },
     {
       "id": 176,
@@ -2211,7 +2386,8 @@
       "answerEn": "Usually 640 acres",
       "answerZh": "通常 640 acres",
       "trapEn": "A standard section is one mile by one mile.",
-      "trapZh": "1 mile×1 mile"
+      "trapZh": "1 mile×1 mile",
+      "explainZh": "題幹若出現「Section」，應立刻聯想：通常 640 acres。補充說明：1 mile×1 mile。"
     },
     {
       "id": 177,
@@ -2223,7 +2399,8 @@
       "answerEn": "Assignee takes the tenant's entire remaining leasehold and commonly pays rent directly to the landlord",
       "answerZh": "受讓人常直接付租金給房東",
       "trapEn": "",
-      "trapZh": ""
+      "trapZh": "",
+      "explainZh": "題幹若出現「Assignment」，應立刻聯想：受讓人常直接付租金給房東。"
     },
     {
       "id": 178,
@@ -2235,7 +2412,8 @@
       "answerEn": "Subtenant pays rent to the original tenant, who retains a reversionary interest",
       "answerZh": "次承租人付租金給原租客",
       "trapEn": "Do not treat the subtenant as a direct replacement tenant under an assignment.",
-      "trapZh": "Blithe→Earnest"
+      "trapZh": "Blithe→Earnest",
+      "explainZh": "題幹若出現「Sublease」，應立刻聯想：次承租人付租金給原租客。補充說明：Blithe→Earnest。"
     },
     {
       "id": 179,
@@ -2247,7 +2425,8 @@
       "answerEn": "Tenant pays fixed rent while the landlord pays most operating expenses",
       "answerZh": "租客付固定租金，房東付多數費用",
       "trapEn": "",
-      "trapZh": ""
+      "trapZh": "",
+      "explainZh": "題幹若出現「Gross lease」，應立刻聯想：租客付固定租金，房東付多數費用。"
     },
     {
       "id": 180,
@@ -2259,7 +2438,8 @@
       "answerEn": "Tenant pays rent plus specified taxes, insurance, maintenance, or other expenses",
       "answerZh": "租客另付稅／保險／維護等",
       "trapEn": "",
-      "trapZh": ""
+      "trapZh": "",
+      "explainZh": "題幹若出現「Net lease」，應立刻聯想：租客另付稅／保險／維護等。"
     },
     {
       "id": 181,
@@ -2271,7 +2451,8 @@
       "answerEn": "Base rent plus a percentage of the tenant's gross sales",
       "answerZh": "底租＋營業額抽成",
       "trapEn": "Common in retail property.",
-      "trapZh": "零售常見"
+      "trapZh": "零售常見",
+      "explainZh": "題幹若出現「Percentage lease」，應立刻聯想：底租＋營業額抽成。補充說明：零售常見。"
     },
     {
       "id": 182,
@@ -2283,7 +2464,8 @@
       "answerEn": "Rent increases at stated intervals",
       "answerZh": "租金按階段調升",
       "trapEn": "",
-      "trapZh": ""
+      "trapZh": "",
+      "explainZh": "題幹若出現「Step-up」，應立刻聯想：租金按階段調升。"
     },
     {
       "id": 183,
@@ -2295,7 +2477,8 @@
       "answerEn": "Court action used by a landlord to regain possession lawfully",
       "answerZh": "房東合法驅離訴訟",
       "trapEn": "A landlord may not use self-help such as changing locks or shutting off utilities.",
-      "trapZh": "禁止私自換鎖斷水電"
+      "trapZh": "禁止私自換鎖斷水電",
+      "explainZh": "題幹若出現「Unlawful detainer」，應立刻聯想：房東合法驅離訴訟。易錯提醒：禁止私自換鎖斷水電。"
     },
     {
       "id": 184,
@@ -2307,7 +2490,8 @@
       "answerEn": "Landlord's wrongful acts or omissions make the premises unusable and force the tenant to leave",
       "answerZh": "房東違法迫使無法居住",
       "trapEn": "It is not a lawful eviction method.",
-      "trapZh": "違法"
+      "trapZh": "違法",
+      "explainZh": "題幹若出現「Constructive eviction」，應立刻聯想：房東違法迫使無法居住。補充說明：違法。"
     },
     {
       "id": 185,
@@ -2319,7 +2503,8 @@
       "answerEn": "Generally one month's rent under current law, subject to statutory exceptions",
       "answerZh": "上限常考「最多約一個月租金」取向",
       "trapEn": "Check the current Civil Code and any stated exception in the question.",
-      "trapZh": "題庫若寫 one month 依最新法複核"
+      "trapZh": "題庫若寫 one month 依最新法複核",
+      "explainZh": "題幹若出現「Security deposit（加州現制常考）」，應立刻聯想：上限常考「最多約一個月租金」取向。補充說明：題庫若寫 one month 依最新法複核。"
     },
     {
       "id": 186,
@@ -2331,7 +2516,8 @@
       "answerEn": "Generally provide the itemized statement and remaining deposit within 21 days after move-out",
       "answerZh": "常見考點：搬出後約 21 天內明細／退還",
       "trapEn": "Apply the current California Civil Code.",
-      "trapZh": "依現行 Civil Code 複核"
+      "trapZh": "依現行 Civil Code 複核",
+      "explainZh": "題幹若出現「押金明細與退還時限」，應立刻聯想：常見考點：搬出後約 21 天內明細／退還。補充說明：依現行 Civil Code 複核。"
     },
     {
       "id": 187,
@@ -2343,7 +2529,8 @@
       "answerEn": "Landlord must give the tenant required notice",
       "answerZh": "房東須通知租客",
       "trapEn": "",
-      "trapZh": ""
+      "trapZh": "",
+      "explainZh": "題幹若出現「農藥定期使用」，應立刻聯想：房東須通知租客。"
     },
     {
       "id": 188,
@@ -2355,7 +2542,8 @@
       "answerEn": "Managing rental property for another for compensation",
       "answerZh": "代管出租換報酬的職業",
       "trapEn": "",
-      "trapZh": ""
+      "trapZh": "",
+      "explainZh": "題幹若出現「Property management」，應立刻聯想：代管出租換報酬的職業。"
     },
     {
       "id": 189,
@@ -2367,7 +2555,8 @@
       "answerEn": "A future purchase option requires a separate lease-option provision",
       "answerZh": "未來買斷選擇權（那是 lease-option）",
       "trapEn": "Term, property description, and signatures are ordinary lease essentials.",
-      "trapZh": "期長、標的描述、簽名才是基本"
+      "trapZh": "期長、標的描述、簽名才是基本",
+      "explainZh": "題幹若出現「Typical lease 不含」，應立刻聯想：未來買斷選擇權（那是 lease-option）。補充說明：期長、標的描述、簽名才是基本。"
     },
     {
       "id": 190,
@@ -2379,7 +2568,8 @@
       "answerEn": "Can be crumbled by hand pressure, allowing fibers to become airborne",
       "answerZh": "石棉易捏碎粉化→纖維飛散",
       "trapEn": "Asbestosis is a disease, not a material condition.",
-      "trapZh": "≠ asbestosis（病名）"
+      "trapZh": "≠ asbestosis（病名）",
+      "explainZh": "題幹若出現「Friable」，應立刻聯想：石棉易捏碎粉化→纖維飛散。易錯提醒：≠ asbestosis（病名）。"
     },
     {
       "id": 191,
@@ -2391,7 +2581,8 @@
       "answerEn": "Naturally occurring mineral fibers formerly used for insulation; inhalation damages lungs",
       "answerZh": "天然礦物纖維絕緣材料，吸入傷肺",
       "trapEn": "Do not confuse it with radon, CFCs, or lead.",
-      "trapZh": "≠ radon／CFCs／lead"
+      "trapZh": "≠ radon／CFCs／lead",
+      "explainZh": "題幹若出現「Asbestos」，應立刻聯想：天然礦物纖維絕緣材料，吸入傷肺。易錯提醒：≠ radon／CFCs／lead。"
     },
     {
       "id": 192,
@@ -2403,7 +2594,8 @@
       "answerEn": "Colorless, odorless radioactive gas that can enter through foundation cracks",
       "answerZh": "無色無味放射性氣體，經地基裂縫進入",
       "trapEn": "It results from uranium decay.",
-      "trapZh": "鈾衰變"
+      "trapZh": "鈾衰變",
+      "explainZh": "題幹若出現「Radon」，應立刻聯想：無色無味放射性氣體，經地基裂縫進入。補充說明：鈾衰變。"
     },
     {
       "id": 193,
@@ -2415,7 +2607,8 @@
       "answerEn": "Commonly associated with older paint and plumbing; pre-1978 housing triggers federal disclosure",
       "answerZh": "舊油漆／水管；Pre-1978",
       "trapEn": "",
-      "trapZh": ""
+      "trapZh": "",
+      "explainZh": "題幹若出現「Lead」，應立刻聯想：舊油漆／水管；Pre-1978。"
     },
     {
       "id": 194,
@@ -2427,7 +2620,8 @@
       "answerEn": "Urea-formaldehyde foam insulation",
       "answerZh": "脲甲醛泡沫絕緣",
       "trapEn": "",
-      "trapZh": ""
+      "trapZh": "",
+      "explainZh": "題幹若出現「UFFI」，應立刻聯想：脲甲醛泡沫絕緣。"
     },
     {
       "id": 195,
@@ -2439,7 +2633,8 @@
       "answerEn": "Chlorofluorocarbons formerly used in refrigerants and air-conditioning equipment",
       "answerZh": "舊冷媒／空調含氯氟碳",
       "trapEn": "",
-      "trapZh": ""
+      "trapZh": "",
+      "explainZh": "題幹若出現「CFCs」，應立刻聯想：舊冷媒／空調含氯氟碳。"
     },
     {
       "id": 196,
@@ -2451,7 +2646,8 @@
       "answerEn": "Heating, ventilation, and air conditioning",
       "answerZh": "Heating, Ventilation, Air Conditioning",
       "trapEn": "The H does not mean home.",
-      "trapZh": "H≠Home"
+      "trapZh": "H≠Home",
+      "explainZh": "題幹若出現「HVAC」，應立刻聯想：Heating, Ventilation, Air Conditioning。易錯提醒：H≠Home。"
     },
     {
       "id": 197,
@@ -2463,7 +2659,8 @@
       "answerEn": "Pipes carrying wastewater away from a dwelling",
       "answerZh": "把水排離住宅的管線",
       "trapEn": "Municipal water lines bring potable water in.",
-      "trapZh": "City water＝進水"
+      "trapZh": "City water＝進水",
+      "explainZh": "題幹若出現「Wastewater lines」，應立刻聯想：把水排離住宅的管線。補充說明：City water＝進水。"
     },
     {
       "id": 198,
@@ -2475,7 +2672,8 @@
       "answerEn": "Built for an identified buyer to that buyer's specifications",
       "answerZh": "買家先確定＋依規格訂製",
       "trapEn": "",
-      "trapZh": ""
+      "trapZh": "",
+      "explainZh": "題幹若出現「Custom home」，應立刻聯想：買家先確定＋依規格訂製。"
     },
     {
       "id": 199,
@@ -2487,7 +2685,8 @@
       "answerEn": "Built without a specific buyer in anticipation of a later sale",
       "answerZh": "無特定買家先建再賣",
       "trapEn": "",
-      "trapZh": ""
+      "trapZh": "",
+      "explainZh": "題幹若出現「Spec」，應立刻聯想：無特定買家先建再賣。"
     },
     {
       "id": 200,
@@ -2499,7 +2698,8 @@
       "answerEn": "One of many standardized model homes in a planned development",
       "answerZh": "標準化模型大量開發",
       "trapEn": "",
-      "trapZh": ""
+      "trapZh": "",
+      "explainZh": "題幹若出現「Tract home」，應立刻聯想：標準化模型大量開發。"
     },
     {
       "id": 201,
@@ -2511,7 +2711,8 @@
       "answerEn": "Industrial real estate",
       "answerZh": "工業地產",
       "trapEn": "It is not agricultural property or ordinary retail space.",
-      "trapZh": "不是 farm／純 commercial 零售"
+      "trapZh": "不是 farm／純 commercial 零售",
+      "explainZh": "題幹若出現「Warehouse」，應立刻聯想：工業地產。易錯提醒：不是 farm／純 commercial 零售。"
     },
     {
       "id": 202,
@@ -2523,7 +2724,8 @@
       "answerEn": "Warehousing, manufacturing, and logistics uses",
       "answerZh": "倉儲、製造、物流",
       "trapEn": "",
-      "trapZh": ""
+      "trapZh": "",
+      "explainZh": "題幹若出現「Industrial」，應立刻聯想：倉儲、製造、物流。"
     },
     {
       "id": 203,
@@ -2535,7 +2737,8 @@
       "answerEn": "Population and housing demand rise; constrained supply tends to increase prices",
       "answerZh": "人口↑需求↑供給相對緊→房價↑",
       "trapEn": "",
-      "trapZh": ""
+      "trapZh": "",
+      "explainZh": "題幹若出現「大型雇主進駐小鎮」，應立刻聯想：人口↑需求↑供給相對緊→房價↑。"
     },
     {
       "id": 204,
@@ -2547,7 +2750,8 @@
       "answerEn": "Prices tend to fall, all else equal",
       "answerZh": "價格傾向下跌",
       "trapEn": "",
-      "trapZh": ""
+      "trapZh": "",
+      "explainZh": "題幹若出現「供給增加」，應立刻聯想：價格傾向下跌。"
     },
     {
       "id": 205,
@@ -2559,7 +2763,8 @@
       "answerEn": "A licensee may specialize by property, client, service, or geographic market",
       "answerZh": "多數人可用多種方式專精",
       "trapEn": "A different real estate license is not necessarily required.",
-      "trapZh": "不一定要換照"
+      "trapZh": "不一定要換照",
+      "explainZh": "題幹若出現「Specialization」，應立刻聯想：多數人可用多種方式專精。補充說明：不一定要換照。"
     },
     {
       "id": 206,
@@ -2571,7 +2776,8 @@
       "answerEn": "Shares are relatively liquid and trade much like stocks",
       "answerZh": "股份流動性高如股票",
       "trapEn": "Returns may differ from and sometimes trail direct property ownership.",
-      "trapZh": "相對直接持房報酬可能較低"
+      "trapZh": "相對直接持房報酬可能較低",
+      "explainZh": "題幹若出現「REIT 優點」，應立刻聯想：股份流動性高如股票。補充說明：相對直接持房報酬可能較低。"
     },
     {
       "id": 207,
@@ -2583,7 +2789,8 @@
       "answerEn": "Usually a Class A building",
       "answerZh": "通常 Class A",
       "trapEn": "",
-      "trapZh": ""
+      "trapZh": "",
+      "explainZh": "題幹若出現「Office building 最高租金」，應立刻聯想：通常 Class A。"
     },
     {
       "id": 208,
@@ -2595,7 +2802,8 @@
       "answerEn": "An appraisal",
       "answerZh": "Appraisal",
       "trapEn": "It is more authoritative than a CMA or BPO.",
-      "trapZh": "高於 CMA／BPO"
+      "trapZh": "高於 CMA／BPO",
+      "explainZh": "題幹若出現「最準估值產品」，應立刻聯想：Appraisal。補充說明：高於 CMA／BPO。"
     },
     {
       "id": 209,
@@ -2607,7 +2815,8 @@
       "answerEn": "Professional ethical guidance for REALTORS®",
       "answerZh": "引導 REALTOR® 日常倫理",
       "trapEn": "NAR is not a government licensing enforcement agency.",
-      "trapZh": "非政府執法機關"
+      "trapZh": "非政府執法機關",
+      "explainZh": "題幹若出現「NAR Code of Ethics」，應立刻聯想：引導 REALTOR® 日常倫理。易錯提醒：非政府執法機關。"
     },
     {
       "id": 210,
@@ -2619,7 +2828,8 @@
       "answerEn": "A qualified person or entity may handle escrow under a statutory licensing exemption",
       "answerZh": "特定人可在無獨立 escrow 執照下任託管（有例外資格）",
       "trapEn": "Select the party that meets the exemption stated in the question.",
-      "trapZh": "依題選合資格者"
+      "trapZh": "依題選合資格者",
+      "explainZh": "題幹若出現「Escrow holder（加州）」，應立刻聯想：特定人可在無獨立 escrow 執照下任託管（有例外資格）。補充說明：依題選合資格者。"
     },
     {
       "id": 211,
@@ -2631,7 +2841,8 @@
       "answerEn": "Completion of the transaction and title transfer",
       "answerZh": "結案過戶完成",
       "trapEn": "Before closing, the purchase contract is generally executory.",
-      "trapZh": "其前合約多為 executory"
+      "trapZh": "其前合約多為 executory",
+      "explainZh": "題幹若出現「Closing」，應立刻聯想：結案過戶完成。補充說明：其前合約多為 executory。"
     },
     {
       "id": 212,
@@ -2643,7 +2854,8 @@
       "answerEn": "Protection against covered title defects and risks",
       "answerZh": "保障產權風險",
       "trapEn": "",
-      "trapZh": ""
+      "trapZh": "",
+      "explainZh": "題幹若出現「Title insurance」，應立刻聯想：保障產權風險。"
     },
     {
       "id": 213,
@@ -2655,7 +2867,8 @@
       "answerEn": "Mineral owner may make reasonable use of the surface to extract minerals",
       "answerZh": "礦權人可合理進入地表開採（非重大惡意破壞）",
       "trapEn": "Surface ownership does not automatically defeat valid mineral rights.",
-      "trapZh": "Surface 不當然優先"
+      "trapZh": "Surface 不當然優先",
+      "explainZh": "題幹若出現「Mineral rights 優先」，應立刻聯想：礦權人可合理進入地表開採（非重大惡意破壞）。補充說明：Surface 不當然優先。"
     },
     {
       "id": 214,
@@ -2667,7 +2880,8 @@
       "answerEn": "Protects lawful possession from interference by a landlord or superior title claimant",
       "answerZh": "不受前權利人騷擾等，非「不能有噪音」",
       "trapEn": "It is not a promise of silence and does not erase valid mineral rights.",
-      "trapZh": "不能用來排除合法礦權"
+      "trapZh": "不能用來排除合法礦權",
+      "explainZh": "題幹若出現「Quiet enjoyment」，應立刻聯想：不受前權利人騷擾等，非「不能有噪音」。易錯提醒：不能用來排除合法礦權。"
     },
     {
       "id": 215,
@@ -2679,7 +2893,8 @@
       "answerEn": "A will whose material provisions are in the testator's handwriting",
       "answerZh": "須親筆書寫；不能只簽 X",
       "trapEn": "Merely signing an X is insufficient; ink color is not the issue.",
-      "trapZh": "墨水顏色非重點"
+      "trapZh": "墨水顏色非重點",
+      "explainZh": "題幹若出現「Holographic will」，應立刻聯想：須親筆書寫；不能只簽 X。易錯提醒：墨水顏色非重點。"
     },
     {
       "id": 216,
@@ -2691,7 +2906,8 @@
       "answerEn": "A cooperative listing database and marketing system",
       "answerZh": "聯賣系統／平台，非法律上的 listing 契約類型",
       "trapEn": "MLS is not a legal listing-agreement type.",
-      "trapZh": "Open／Exclusive 才是契約類型"
+      "trapZh": "Open／Exclusive 才是契約類型",
+      "explainZh": "題幹若出現「MLS」，應立刻聯想：聯賣系統／平台，非法律上的 listing 契約類型。補充說明：Open／Exclusive 才是契約類型。"
     },
     {
       "id": 217,
@@ -2703,7 +2919,8 @@
       "answerEn": "A buyer meeting the seller's terms, often supporting procuring cause and commission entitlement",
       "answerZh": "常構成 procuring cause／賺佣基礎",
       "trapEn": "",
-      "trapZh": ""
+      "trapZh": "",
+      "explainZh": "題幹若出現「Ready, willing and able buyer」，應立刻聯想：常構成 procuring cause／賺佣基礎。"
     },
     {
       "id": 218,
@@ -2715,7 +2932,8 @@
       "answerEn": "Cost-estimating methods used in the cost approach to appraisal",
       "answerZh": "成本法估建造成本的方法→屬 Appraising",
       "trapEn": "",
-      "trapZh": ""
+      "trapZh": "",
+      "explainZh": "題幹若出現「Unit-in-place」，應立刻聯想：成本法估建造成本的方法→屬 Appraising。"
     },
     {
       "id": 219,
@@ -2727,7 +2945,8 @@
       "answerEn": "Allocation of taxes, rents, and similar expenses or income as of closing",
       "answerZh": "結案時稅／租金等按日拆分",
       "trapEn": "",
-      "trapZh": ""
+      "trapZh": "",
+      "explainZh": "題幹若出現「Prorations」，應立刻聯想：結案時稅／租金等按日拆分。"
     },
     {
       "id": 220,
@@ -2739,7 +2958,8 @@
       "answerEn": "Usually the party who gives, grants, or originates the right",
       "answerZh": "給出／發起權利的一方",
       "trapEn": "Examples: grantor, optionor, mortgagor, trustor, lessor, and vendor.",
-      "trapZh": "Grantor, Optionor, Mortgagor, Trustor, Lessor, Vendor"
+      "trapZh": "Grantor, Optionor, Mortgagor, Trustor, Lessor, Vendor",
+      "explainZh": "題幹線索「-OR」→ 應選／記：給出／發起權利的一方。補充說明：Grantor, Optionor, Mortgagor, Trustor, Lessor, Vendor。"
     },
     {
       "id": 221,
@@ -2751,7 +2971,8 @@
       "answerEn": "Usually the party who receives the right or interest",
       "answerZh": "收受權利的一方",
       "trapEn": "Examples: grantee, optionee, mortgagee, lessee, and vendee; deed-of-trust roles depend on context.",
-      "trapZh": "Grantee, Optionee, Mortgagee, Trustee/Beneficiary 視脈絡, Lessee, Vendee"
+      "trapZh": "Grantee, Optionee, Mortgagee, Trustee/Beneficiary 視脈絡, Lessee, Vendee",
+      "explainZh": "題幹線索「-EE」→ 應選／記：收受權利的一方。補充說明：Grantee, Optionee, Mortgagee, Trustee/Beneficiary 視脈絡, Lessee, Vendee。"
     },
     {
       "id": 222,
@@ -2763,7 +2984,8 @@
       "answerEn": "Optionor is the option grantor, usually the seller—not the buyer",
       "answerZh": "Optionor＝買方（錯！應為賣方給權）",
       "trapEn": "Watch for questions asking for the incorrect pairing.",
-      "trapZh": "考 INCORRECT pairing"
+      "trapZh": "考 INCORRECT pairing",
+      "explainZh": "題幹若出現「錯誤配對常見陷阱」，應立刻聯想：Optionor＝買方（錯！應為賣方給權）。補充說明：考 INCORRECT pairing。"
     },
     {
       "id": 223,
@@ -2775,7 +2997,8 @@
       "answerEn": "Lessor is landlord; lessee is tenant",
       "answerZh": "房東／房客",
       "trapEn": "",
-      "trapZh": ""
+      "trapZh": "",
+      "explainZh": "題幹若出現「Lessor」，應立刻聯想：房東／房客。"
     },
     {
       "id": 224,
@@ -2787,7 +3010,8 @@
       "answerEn": "Vendor is seller; vendee is buyer, especially under a land contract",
       "answerZh": "分期契據賣方／買方",
       "trapEn": "",
-      "trapZh": ""
+      "trapZh": "",
+      "explainZh": "題幹若出現「Vendor」，應立刻聯想：分期契據賣方／買方。"
     },
     {
       "id": 225,
@@ -2799,7 +3023,8 @@
       "answerEn": "Exclusive right-to-sell listing",
       "answerZh": "Exclusive right-to-sell",
       "trapEn": "",
-      "trapZh": ""
+      "trapZh": "",
+      "explainZh": "題幹線索「「無論誰帶來買方都有佣」」→ 應選／記：Exclusive right-to-sell。"
     },
     {
       "id": 226,
@@ -2811,7 +3036,8 @@
       "answerEn": "Exclusive agency listing",
       "answerZh": "Exclusive agency",
       "trapEn": "",
-      "trapZh": ""
+      "trapZh": "",
+      "explainZh": "題幹線索「「屋主自己賣可免佣、但仍獨家一家」」→ 應選／記：Exclusive agency。"
     },
     {
       "id": 227,
@@ -2823,7 +3049,8 @@
       "answerEn": "Open listing",
       "answerZh": "Open listing",
       "trapEn": "",
-      "trapZh": ""
+      "trapZh": "",
+      "explainZh": "題幹線索「「多家經紀＋促成者才有佣」」→ 應選／記：Open listing。"
     },
     {
       "id": 228,
@@ -2835,7 +3062,8 @@
       "answerEn": "Net listing",
       "answerZh": "Net listing",
       "trapEn": "",
-      "trapZh": ""
+      "trapZh": "",
+      "explainZh": "題幹線索「「底價以上全歸經紀」」→ 應選／記：Net listing。"
     },
     {
       "id": 229,
@@ -2847,7 +3075,8 @@
       "answerEn": "Fee simple subject to condition subsequent",
       "answerZh": "Condition subsequent",
       "trapEn": "",
-      "trapZh": ""
+      "trapZh": "",
+      "explainZh": "題幹線索「「必須上法院才能拿回房」+違條件」→ 應選／記：Condition subsequent。"
     },
     {
       "id": 230,
@@ -2859,7 +3088,8 @@
       "answerEn": "Fee simple determinable",
       "answerZh": "Determinable",
       "trapEn": "",
-      "trapZh": ""
+      "trapZh": "",
+      "explainZh": "題幹線索「「so long as」→ 應選／記：Determinable。"
     },
     {
       "id": 231,
@@ -2871,7 +3101,8 @@
       "answerEn": "Periodic tenancy",
       "answerZh": "Periodic tenancy",
       "trapEn": "",
-      "trapZh": ""
+      "trapZh": "",
+      "explainZh": "題幹線索「「month-to-month＋須通知」」→ 應選／記：Periodic tenancy。"
     },
     {
       "id": 232,
@@ -2883,7 +3114,8 @@
       "answerEn": "Tenancy at sufferance",
       "answerZh": "Sufferance",
       "trapEn": "",
-      "trapZh": ""
+      "trapZh": "",
+      "explainZh": "題幹線索「「到期賴著不走」」→ 應選／記：Sufferance。"
     },
     {
       "id": 233,
@@ -2895,7 +3127,8 @@
       "answerEn": "License",
       "answerZh": "License",
       "trapEn": "",
-      "trapZh": ""
+      "trapZh": "",
+      "explainZh": "題幹線索「「口頭免費停車可撤」」→ 應選／記：License。"
     },
     {
       "id": 234,
@@ -2907,7 +3140,8 @@
       "answerEn": "Reject it as an excessively distant comparable",
       "answerZh": "太遠＝不良 comp",
       "trapEn": "",
-      "trapZh": ""
+      "trapZh": "",
+      "explainZh": "題幹線索「「25 miles 的 comp」」→ 應選／記：太遠＝不良 comp。"
     },
     {
       "id": 235,
@@ -2919,7 +3153,8 @@
       "answerEn": "Cost approach",
       "answerZh": "Cost approach",
       "trapEn": "",
-      "trapZh": ""
+      "trapZh": "",
+      "explainZh": "題幹線索「「新成屋估價」」→ 應選／記：Cost approach。"
     },
     {
       "id": 236,
@@ -2931,7 +3166,8 @@
       "answerEn": "Income approach",
       "answerZh": "Income approach",
       "trapEn": "",
-      "trapZh": ""
+      "trapZh": "",
+      "explainZh": "題幹線索「「商業收益樓估價」」→ 應選／記：Income approach。"
     },
     {
       "id": 237,
@@ -2943,7 +3179,8 @@
       "answerEn": "Sales comparison approach",
       "answerZh": "Sales comparison",
       "trapEn": "",
-      "trapZh": ""
+      "trapZh": "",
+      "explainZh": "題幹線索「「比較近期成交」」→ 應選／記：Sales comparison。"
     },
     {
       "id": 238,
@@ -2955,7 +3192,8 @@
       "answerEn": "Federal lead-based paint disclosure",
       "answerZh": "Lead disclosure",
       "trapEn": "",
-      "trapZh": ""
+      "trapZh": "",
+      "explainZh": "題幹線索「「Pre-1978」→ 應選／記：Lead disclosure。"
     },
     {
       "id": 239,
@@ -2967,7 +3205,8 @@
       "answerEn": "Foundation cracks are a common radon entry route",
       "answerZh": "Radon 進入途徑",
       "trapEn": "",
-      "trapZh": ""
+      "trapZh": "",
+      "explainZh": "題幹線索「「地基裂縫＋氡」」→ 應選／記：Radon 進入途徑。"
     },
     {
       "id": 240,
@@ -2979,7 +3218,8 @@
       "answerEn": "Friable asbestos-containing material",
       "answerZh": "Friable（石棉特性）",
       "trapEn": "Do not choose asbestosis, which is a disease.",
-      "trapZh": "不是選 asbestosis"
+      "trapZh": "不是選 asbestosis",
+      "explainZh": "題幹線索「「易捏碎粉化」」→ 應選／記：Friable（石棉特性）。易錯提醒：不是選 asbestosis。"
     },
     {
       "id": 241,
@@ -2991,7 +3231,8 @@
       "answerEn": "Unethical contingency compensation; appraisal fee may not depend on value",
       "answerZh": "不道德／不行",
       "trapEn": "",
-      "trapZh": ""
+      "trapZh": "",
+      "explainZh": "題幹線索「「估價費隨估得價值加收」」→ 應選／記：不道德／不行。"
     },
     {
       "id": 242,
@@ -3003,7 +3244,8 @@
       "answerEn": "False—required disclosures, including the TDS when applicable, still apply",
       "answerZh": "錯！仍要 TDS",
       "trapEn": "",
-      "trapZh": ""
+      "trapZh": "",
+      "explainZh": "題幹線索「「現況出售免揭露？」」→ 應選／記：錯！仍要 TDS。"
     },
     {
       "id": 243,
@@ -3015,7 +3257,8 @@
       "answerEn": "False—earnest money shows good faith but is not required consideration",
       "answerZh": "錯！非必要，只是善意",
       "trapEn": "",
-      "trapZh": ""
+      "trapZh": "",
+      "explainZh": "題幹線索「「誠意金是合約必要？」」→ 應選／記：錯！非必要，只是善意。"
     },
     {
       "id": 244,
@@ -3027,7 +3270,8 @@
       "answerEn": "Seller may retain the earnest money as liquidated damages, subject to the agreement and law",
       "answerZh": "賣方扣留 earnest money",
       "trapEn": "",
-      "trapZh": ""
+      "trapZh": "",
+      "explainZh": "題幹線索「「買方違約最常見結果」」→ 應選／記：賣方扣留 earnest money。"
     },
     {
       "id": 245,
@@ -3039,7 +3283,8 @@
       "answerEn": "Withdraw the outstanding counteroffer before accepting the new offer",
       "answerZh": "先撤回再接受",
       "trapEn": "",
-      "trapZh": ""
+      "trapZh": "",
+      "explainZh": "題幹線索「「一屋兩 counter」」→ 應選／記：先撤回再接受。"
     },
     {
       "id": 246,
@@ -3051,7 +3296,8 @@
       "answerEn": "The original tenant / sublessor",
       "answerZh": "原租客（lessee）",
       "trapEn": "",
-      "trapZh": ""
+      "trapZh": "",
+      "explainZh": "題幹線索「「轉租租金付給誰」」→ 應選／記：原租客（lessee）。"
     },
     {
       "id": 247,
@@ -3063,7 +3309,8 @@
       "answerEn": "At least three years",
       "answerZh": "3 年",
       "trapEn": "",
-      "trapZh": ""
+      "trapZh": "",
+      "explainZh": "題幹線索「「文件保存多久」」→ 應選／記：3 年。"
     },
     {
       "id": 248,
@@ -3075,7 +3322,8 @@
       "answerEn": "An oral lease may be enforceable under the Statute of Frauds exception",
       "answerZh": "口頭可能有效",
       "trapEn": "",
-      "trapZh": ""
+      "trapZh": "",
+      "explainZh": "題幹線索「「≤12 個月租約」」→ 應選／記：口頭可能有效。"
     },
     {
       "id": 249,
@@ -3087,7 +3335,8 @@
       "answerEn": "The transfer is commonly exempt from the seller TDS requirement",
       "answerZh": "常豁免",
       "trapEn": "",
-      "trapZh": ""
+      "trapZh": "",
+      "explainZh": "題幹線索「「法拍屋 TDS」」→ 應選／記：常豁免。"
     },
     {
       "id": 250,
@@ -3099,7 +3348,8 @@
       "answerEn": "It is not included in the TDS",
       "answerZh": "不包含",
       "trapEn": "",
-      "trapZh": ""
+      "trapZh": "",
+      "explainZh": "題幹線索「「學區寫在 TDS？」」→ 應選／記：不包含。"
     },
     {
       "id": 251,
@@ -3111,7 +3361,8 @@
       "answerEn": "No independent investigation is generally required; give the statutory Megan's Law notice",
       "answerZh": "不要；標準提示即可",
       "trapEn": "",
-      "trapZh": ""
+      "trapZh": "",
+      "explainZh": "題幹線索「「性罪犯要主動查報？」」→ 應選／記：不要；標準提示即可。"
     },
     {
       "id": 252,
@@ -3123,7 +3374,8 @@
       "answerEn": "Put the agency agreement in writing",
       "answerZh": "In writing",
       "trapEn": "",
-      "trapZh": ""
+      "trapZh": "",
+      "explainZh": "題幹線索「「代理最好怎麼建」」→ 應選／記：In writing。"
     },
     {
       "id": 253,
@@ -3135,7 +3387,8 @@
       "answerEn": "When acceptance is communicated to the offeror",
       "answerZh": "接受已傳達",
       "trapEn": "",
-      "trapZh": ""
+      "trapZh": "",
+      "explainZh": "題幹線索「「要約何時拘束」」→ 應選／記：接受已傳達。"
     },
     {
       "id": 254,
@@ -3147,7 +3400,8 @@
       "answerEn": "It rejects the original offer and creates a new offer",
       "answerZh": "殺舊要約＋新要約",
       "trapEn": "",
-      "trapZh": ""
+      "trapZh": "",
+      "explainZh": "題幹線索「「反要約本質」」→ 應選／記：殺舊要約＋新要約。"
     },
     {
       "id": 255,
@@ -3159,7 +3413,8 @@
       "answerEn": "Assemblage",
       "answerZh": "Assemblage",
       "trapEn": "",
-      "trapZh": ""
+      "trapZh": "",
+      "explainZh": "題幹線索「「合併地塊行為」」→ 應選／記：Assemblage。"
     },
     {
       "id": 256,
@@ -3171,7 +3426,8 @@
       "answerEn": "Plottage",
       "answerZh": "Plottage",
       "trapEn": "",
-      "trapZh": ""
+      "trapZh": "",
+      "explainZh": "題幹線索「「合併後溢價」」→ 應選／記：Plottage。"
     },
     {
       "id": 257,
@@ -3183,7 +3439,8 @@
       "answerEn": "Principle of regression",
       "answerZh": "Regression",
       "trapEn": "",
-      "trapZh": ""
+      "trapZh": "",
+      "explainZh": "題幹線索「「高價屋在低價區」」→ 應選／記：Regression。"
     },
     {
       "id": 258,
@@ -3195,7 +3452,8 @@
       "answerEn": "Transferability is impaired",
       "answerZh": "Transferability",
       "trapEn": "",
-      "trapZh": ""
+      "trapZh": "",
+      "explainZh": "題幹線索「「產權瑕疵難賣」」→ 應選／記：Transferability。"
     },
     {
       "id": 259,
@@ -3207,7 +3465,8 @@
       "answerEn": "Stigmatized property",
       "answerZh": "Stigmatized",
       "trapEn": "",
-      "trapZh": ""
+      "trapZh": "",
+      "explainZh": "題幹線索「「心理污名房」」→ 應選／記：Stigmatized。"
     },
     {
       "id": 260,
@@ -3219,7 +3478,8 @@
       "answerEn": "Potential Gross Income (PGI)",
       "answerZh": "PGI",
       "trapEn": "",
-      "trapZh": ""
+      "trapZh": "",
+      "explainZh": "題幹線索「「滿租理想收入」」→ 應選／記：PGI。"
     },
     {
       "id": 261,
@@ -3231,7 +3491,8 @@
       "answerEn": "Effective Gross Income (EGI)",
       "answerZh": "EGI",
       "trapEn": "",
-      "trapZh": ""
+      "trapZh": "",
+      "explainZh": "題幹線索「「扣空置後、未扣費用」」→ 應選／記：EGI。"
     },
     {
       "id": 262,
@@ -3243,7 +3504,8 @@
       "answerEn": "Net Operating Income (NOI)",
       "answerZh": "NOI",
       "trapEn": "",
-      "trapZh": ""
+      "trapZh": "",
+      "explainZh": "題幹線索「「扣營業費用後」」→ 應選／記：NOI。"
     },
     {
       "id": 263,
@@ -3255,7 +3517,8 @@
       "answerEn": "Income = Rate × Value",
       "answerZh": "Income＝Rate×Value",
       "trapEn": "",
-      "trapZh": ""
+      "trapZh": "",
+      "explainZh": "題幹線索「「I / R / V」」→ 應選／記：Income＝Rate×Value。"
     },
     {
       "id": 264,
@@ -3267,7 +3530,8 @@
       "answerEn": "Multiply by 12, then divide annual NOI by the capitalization rate",
       "answerZh": "先 ×12 再除 cap",
       "trapEn": "",
-      "trapZh": ""
+      "trapZh": "",
+      "explainZh": "題幹線索「「月 NOI 陷阱」」→ 應選／記：先 ×12 再除 cap。"
     },
     {
       "id": 265,
@@ -3279,7 +3543,8 @@
       "answerEn": "A properly licensed or certified appraiser",
       "answerZh": "Licensed appraiser only",
       "trapEn": "",
-      "trapZh": ""
+      "trapZh": "",
+      "explainZh": "題幹線索「「誰做法正 appraisal」」→ 應選／記：Licensed appraiser only。"
     },
     {
       "id": 266,
@@ -3291,7 +3556,8 @@
       "answerEn": "No—real estate licensees may prepare a CMA as a pricing opinion",
       "answerZh": "不需要估價師執照",
       "trapEn": "",
-      "trapZh": ""
+      "trapZh": "",
+      "explainZh": "題幹線索「「CMA 要不要照」」→ 應選／記：不需要估價師執照。"
     },
     {
       "id": 267,
@@ -3303,7 +3569,8 @@
       "answerEn": "Refuse the instruction and make the legally required disclosure",
       "answerZh": "不從＋仍揭露",
       "trapEn": "",
-      "trapZh": ""
+      "trapZh": "",
+      "explainZh": "題幹線索「「客戶叫你隱瞞」」→ 應選／記：不從＋仍揭露。"
     },
     {
       "id": 268,
@@ -3315,7 +3582,8 @@
       "answerEn": "Implicit bias",
       "answerZh": "無意識刻板假設",
       "trapEn": "",
-      "trapZh": ""
+      "trapZh": "",
+      "explainZh": "題幹線索「「隱性偏見」」→ 應選／記：無意識刻板假設。"
     },
     {
       "id": 269,
@@ -3327,7 +3595,8 @@
       "answerEn": "Commingling",
       "answerZh": "Commingling",
       "trapEn": "",
-      "trapZh": ""
+      "trapZh": "",
+      "explainZh": "題幹線索「「資金混帳戶」」→ 應選／記：Commingling。"
     },
     {
       "id": 270,
@@ -3339,7 +3608,8 @@
       "answerEn": "Conversion",
       "answerZh": "Conversion",
       "trapEn": "",
-      "trapZh": ""
+      "trapZh": "",
+      "explainZh": "題幹線索「「花掉客戶錢」」→ 應選／記：Conversion。"
     },
     {
       "id": 271,
@@ -3351,7 +3621,8 @@
       "answerEn": "Disclose the lack of competence before providing the service",
       "answerZh": "服務前揭露",
       "trapEn": "",
-      "trapZh": ""
+      "trapZh": "",
+      "explainZh": "題幹線索「「NAR 缺專長」」→ 應選／記：服務前揭露。"
     },
     {
       "id": 272,
@@ -3363,7 +3634,8 @@
       "answerEn": "Ethics are external professional rules; morals are personal convictions",
       "answerZh": "外規 vs 內心",
       "trapEn": "",
-      "trapZh": ""
+      "trapZh": "",
+      "explainZh": "題幹線索「「Ethic」→ 應選／記：外規 vs 內心。"
     },
     {
       "id": 273,
@@ -3375,7 +3647,8 @@
       "answerEn": "Real Estate Commissioner",
       "answerZh": "Commissioner",
       "trapEn": "",
-      "trapZh": ""
+      "trapZh": "",
+      "explainZh": "題幹線索「「DRE 首長」」→ 應選／記：Commissioner。"
     },
     {
       "id": 274,
@@ -3387,7 +3660,8 @@
       "answerEn": "California Department of Real Estate (DRE), not C.A.R.",
       "answerZh": "DRE（非 C.A.R.）",
       "trapEn": "",
-      "trapZh": ""
+      "trapZh": "",
+      "explainZh": "題幹線索「「監管執照」」→ 應選／記：DRE（非 C.A.R.）。"
     },
     {
       "id": 275,
@@ -3399,7 +3673,8 @@
       "answerEn": "Metes and bounds",
       "answerZh": "Metes and bounds",
       "trapEn": "",
-      "trapZh": ""
+      "trapZh": "",
+      "explainZh": "題幹線索「「POB＋度分秒繞回」」→ 應選／記：Metes and bounds。"
     },
     {
       "id": 276,
@@ -3411,7 +3686,8 @@
       "answerEn": "Government / rectangular survey system",
       "answerZh": "Government survey",
       "trapEn": "",
-      "trapZh": ""
+      "trapZh": "",
+      "explainZh": "題幹線索「「T」→ 應選／記：Government survey。"
     },
     {
       "id": 277,
@@ -3423,7 +3699,8 @@
       "answerEn": "Conveys any present interest without title warranties",
       "answerZh": "放棄／移轉現有權、無保證",
       "trapEn": "",
-      "trapZh": ""
+      "trapZh": "",
+      "explainZh": "題幹線索「「quitclaim」」→ 應選／記：放棄／移轉現有權、無保證。"
     },
     {
       "id": 278,
@@ -3435,7 +3712,8 @@
       "answerEn": "Constructive notice",
       "answerZh": "Constructive notice",
       "trapEn": "",
-      "trapZh": ""
+      "trapZh": "",
+      "explainZh": "題幹線索「「recording」」→ 應選／記：Constructive notice。"
     },
     {
       "id": 279,
@@ -3447,7 +3725,8 @@
       "answerEn": "Abstract of title",
       "answerZh": "Abstract of title",
       "trapEn": "",
-      "trapZh": ""
+      "trapZh": "",
+      "explainZh": "題幹線索「「title search 報告」」→ 應選／記：Abstract of title。"
     },
     {
       "id": 280,
@@ -3459,7 +3738,8 @@
       "answerEn": "Habendum clause",
       "answerZh": "Habendum",
       "trapEn": "",
-      "trapZh": ""
+      "trapZh": "",
+      "explainZh": "題幹線索「「to have and to hold」」→ 應選／記：Habendum。"
     }
   ],
   "quickCards": [

@@ -1,0 +1,1322 @@
+{
+  "P179": {
+    "stemEn": "Sally and Jorge are a married couple who own a house together. The couple has one adult daughter, Emilia. When Jorge dies intestate, who receives the house?",
+    "stemZh": "Sally 與 Jorge 是一對夫妻，兩人共同擁有一棟房屋。這對夫妻有一個成年女兒 Emilia。當 Jorge 未留遺囑過世（dies intestate）時，誰會取得這棟房屋？",
+    "answer": "C",
+    "choices": {
+      "A": {
+        "en": "Sally receives one-third; Emilia receives the rest.",
+        "zh": "Sally 取得三分之一，Emilia 取得其餘部分"
+      },
+      "B": {
+        "en": "Both Sally and Emilia receive one-half.",
+        "zh": "Sally 與 Emilia 各取得二分之一"
+      },
+      "C": {
+        "en": "Sally receives the house.",
+        "zh": "Sally 取得整棟房屋"
+      },
+      "D": {
+        "en": "Emilia receives the house.",
+        "zh": "Emilia 取得整棟房屋"
+      }
+    },
+    "explanationZh": "正確選項 (C)：Sally 取得整棟房屋。當題目敘述為「夫妻共同擁有房屋」時，法律上通常預設為帶有生存者取得權（Right of Survivorship）的共有形式（如 Joint Tenancy 或帶生存權的 Community Property）。配偶一方無遺囑過世時，其份額自動歸屬存活配偶，不進入遺產分配給子女。即使依夫妻共同財產制（Community Property）的無遺囑繼承規則，共同財產也全數歸存活配偶所有。"
+  },
+  "P180": {
+    "stemEn": "Costs that have been incurred but have not been paid for yet are:",
+    "stemZh": "已發生但尚未支付的費用稱為什麼？",
+    "answer": "A",
+    "choices": {
+      "A": {
+        "en": "accrued items",
+        "zh": "應計項目（accrued items）"
+      },
+      "B": {
+        "en": "prepaid items",
+        "zh": "預付項目（prepaid items）"
+      },
+      "C": {
+        "en": "a debit to the buyer",
+        "zh": "買方借方項目"
+      },
+      "D": {
+        "en": "non-realty items",
+        "zh": "非不動產項目"
+      }
+    },
+    "explanationZh": "正確選項 (A)：應計項目（accrued items）。此類費用在過戶結算（closing）時已發生或正在發生，但尚未支付，例如部分定期特別評估費及房貸利息。應計項目通常記為賣方借方、買方貸方。"
+  },
+  "P181": {
+    "stemEn": "What's the difference between the Closing Disclosure and the Loan Estimate?",
+    "stemZh": "Closing Disclosure（過戶揭露書）與 Loan Estimate（貸款估價表）有何不同？",
+    "answer": "A",
+    "choices": {
+      "A": {
+        "en": "The Loan Estimate is a preliminary estimate of loan costs; the Closing Disclosure is a final itemization of all services and fees.",
+        "zh": "Loan Estimate 是貸款成本的初步估計；Closing Disclosure 是所有服務與費用的最終明細"
+      },
+      "B": {
+        "en": "Borrowers are given the Loan Estimate at closing and the Closing Disclosure three days after they apply for the loan.",
+        "zh": "借款人在過戶時收到 Loan Estimate，申請貸款三天後收到 Closing Disclosure"
+      },
+      "C": {
+        "en": "The Loan Estimate is prepared by the seller's broker, while the Closing Disclosure is prepared by the buyer's broker.",
+        "zh": "Loan Estimate 由賣方經紀人準備，Closing Disclosure 由買方經紀人準備"
+      },
+      "D": {
+        "en": "The Closing Disclosure is a abbreviated version of the Loan Estimate.",
+        "zh": "Closing Disclosure 是 Loan Estimate 的精簡版"
+      }
+    },
+    "explanationZh": "正確選項 (A)：Loan Estimate 是貸款成本的初步估計；Closing Disclosure 是所有服務與費用的最終明細。Loan Estimate 在申請初期提供，Closing Disclosure 則在過戶前至少三個工作天提供，列出最終費用明細。"
+  },
+  "P182": {
+    "stemEn": "How will the closing agent determine how to allocate various closing costs between the parties?",
+    "stemZh": "過戶結算代理人（closing agent）如何決定各項過戶費用在買賣雙方之間的分攤方式？",
+    "answer": "A",
+    "choices": {
+      "A": {
+        "en": "They will follow what is in the escrow instructions.",
+        "zh": "依據託管指示（escrow instructions）的內容"
+      },
+      "B": {
+        "en": "They will use RESPA guidelines.",
+        "zh": "依據 RESPA 指引"
+      },
+      "C": {
+        "en": "The attorneys present at closing will allocate all closing costs.",
+        "zh": "由過戶現場的律師分配所有費用"
+      },
+      "D": {
+        "en": "They will check the parties' credit scores and assign closing costs based on creditworthiness.",
+        "zh": "依雙方信用評分分配費用"
+      }
+    },
+    "explanationZh": "正確選項 (A)：依據託管指示（escrow instructions）的內容。託管代理人（escrow agent）在分配過戶費用時，必須遵循買賣雙方提交的託管指示所載明的分攤方式。"
+  },
+  "P183": {
+    "stemEn": "A seller's credits minus the seller's debits would equal the:",
+    "stemZh": "賣方貸方（credits）減去賣方借方（debits）等於什麼？",
+    "answer": "A",
+    "choices": {
+      "A": {
+        "en": "net to seller",
+        "zh": "賣方淨收金額（net to seller）"
+      },
+      "B": {
+        "en": "purchase price",
+        "zh": "購買價格"
+      },
+      "C": {
+        "en": "loan amount",
+        "zh": "貸款金額"
+      },
+      "D": {
+        "en": "closing costs",
+        "zh": "過戶費用"
+      }
+    },
+    "explanationZh": "正確選項 (A)：賣方淨收金額（net to seller）。賣方淨收金額的計算方式為：賣方貸方減去賣方借方，代表賣方在過戶結算後實際收到的淨額。"
+  },
+  "P184": {
+    "stemEn": "The seller pays for the day of closing. The escrow holder will debit the buyer for the prorated amount in fees for which period of time?",
+    "stemZh": "賣方負擔過戶當日費用。賣方已在年初支付當年度特別評估費，買賣雙方於 4 月 20 日過戶。託管人應向買方借記（debit）哪段期間的比例分攤費用？",
+    "answer": "A",
+    "choices": {
+      "A": {
+        "en": "April 21st through December 31st",
+        "zh": "4 月 21 日至 12 月 31 日"
+      },
+      "B": {
+        "en": "January 1st through April 18th",
+        "zh": "1 月 1 日至 4 月 18 日"
+      },
+      "C": {
+        "en": "May 1st through December 31st",
+        "zh": "5 月 1 日至 12 月 31 日"
+      },
+      "D": {
+        "en": "January 1st through April 20th",
+        "zh": "1 月 1 日至 4 月 20 日"
+      }
+    },
+    "explanationZh": "正確選項 (A)：4 月 21 日至 12 月 31 日。賣方已預付全年費用，託管人應貸記（credit）賣方，並向買方借記過戶後至年底（4 月 21 日起）的比例分攤金額。"
+  },
+  "P185": {
+    "stemEn": "Which of these is the act of dividing or allocating expenses between buyers and sellers based on the actual period of usage of the item or service?",
+    "stemZh": "下列哪一項是指依實際使用期間，在買賣雙方之間分攤或分配費用的行為？",
+    "answer": "A",
+    "choices": {
+      "A": {
+        "en": "proration",
+        "zh": "比例分攤（proration）"
+      },
+      "B": {
+        "en": "title allocation",
+        "zh": "產權分配（title allocation）"
+      },
+      "C": {
+        "en": "amoritization",
+        "zh": "攤還（amortization）"
+      },
+      "D": {
+        "en": "reconciliation",
+        "zh": "對帳調節（reconciliation）"
+      }
+    },
+    "explanationZh": "正確選項 (A)：比例分攤（proration）。Proration 是依買賣雙方實際占有或使用期間，將費用（如稅金、HOA 費）在雙方之間公平分配的做法。"
+  },
+  "P186": {
+    "stemEn": "What would be considered the Consumer Finance Protection Bureau's greatest contribution toward the simplification of the mortgage lending process?",
+    "stemZh": "下列哪一項被視為消費者金融保護局（CFPB）對簡化房貸流程的最大貢獻？",
+    "answer": "A",
+    "choices": {
+      "A": {
+        "en": "the creation of the Loan Estimate form and the Closing Disclosure form",
+        "zh": "創立 Loan Estimate 與 Closing Disclosure 表單"
+      },
+      "B": {
+        "en": "the introduction of the Uniform Residential Loan Application",
+        "zh": "引進 Uniform Residential Loan Application（URLA）"
+      },
+      "C": {
+        "en": "mandating the use of a pre-qualification form",
+        "zh": "強制使用預先資格審查表"
+      },
+      "D": {
+        "en": "the regulations surrounding the use of discount points and lender credits",
+        "zh": "規範折扣點（discount points）與貸方點數（lender credits）的使用"
+      }
+    },
+    "explanationZh": "正確選項 (A)：創立 Loan Estimate 與 Closing Disclosure 表單。CFPB 整合 TILA 與 RESPA 原本分散的多份揭露文件，以這兩份表單大幅提升房貸流程的透明度與簡便性。"
+  },
+  "P187": {
+    "stemEn": "An appraisal is:",
+    "stemZh": "鑑價（appraisal）是什麼？",
+    "answer": "A",
+    "choices": {
+      "A": {
+        "en": "an appraiser's opinion of a property's market value as of a specified date",
+        "zh": "鑑價師對特定日期物業市場價值的專業意見"
+      },
+      "B": {
+        "en": "the broker's opinion of what the property will sell for",
+        "zh": "經紀人對物業售價的意見"
+      },
+      "C": {
+        "en": "the lender's opinion of the maximum loan amount",
+        "zh": "貸方對最高貸款額的意見"
+      },
+      "D": {
+        "en": "the tax assessor's opinion of the assessed value",
+        "zh": "稅務評估員對評估價值的意見"
+      }
+    },
+    "explanationZh": "正確選項 (A)：鑑價師對特定日期物業市場價值的專業意見。Appraisal 是由合格鑑價師依標準方法，對不動產在特定時點的市場價值（market value）所提出的專業判斷。"
+  },
+  "P188": {
+    "stemEn": "A tax bill cost $10,092. For proration purposes, what is the monthly tax expense?",
+    "stemZh": "一份房產稅帳單總金額為 $10,092 美元。為了進行過戶比例分攤（proration）計算，每月的稅費支出是多少？",
+    "answer": "C",
+    "choices": {
+      "A": {
+        "en": "$950",
+        "zh": "$950"
+      },
+      "B": {
+        "en": "$27.65",
+        "zh": "$27.65"
+      },
+      "C": {
+        "en": "$841",
+        "zh": "$841"
+      },
+      "D": {
+        "en": "$28",
+        "zh": "$28"
+      }
+    },
+    "explanationZh": "正確選項 (C)：$841。將年度稅單 $10,092 除以 12 個月，得出每月稅費 $841，此數字用於過戶結算時的比例分攤計算。"
+  },
+  "P189": {
+    "stemEn": "A property is transferred from a seller to a buyer on April 4th. At the end of the year, the buyer pays the annual tax amount of $11,160. Using the 360-day calendar, how much should be credited to the buyer for prorated property taxes? In this situation, the buyer owns the property on closing day.",
+    "stemZh": "一處物業於 4 月 4 日由賣方過戶給買方。年底時買方支付年度稅金 $11,160。使用 360 天曆，買方應獲得多少比例分攤房產稅的貸記（credit）？本題中，買方擁有過戶當日。",
+    "answer": "D",
+    "choices": {
+      "A": {
+        "en": "$2,853",
+        "zh": "$2,853"
+      },
+      "B": {
+        "en": "$3,331",
+        "zh": "$3,331"
+      },
+      "C": {
+        "en": "$2,790",
+        "zh": "$2,790"
+      },
+      "D": {
+        "en": "$2,883",
+        "zh": "$2,883"
+      }
+    },
+    "explanationZh": "正確選項 (D)：$2,883。年稅 $11,160 ÷ 360 天 = 每日 $31。買方擁有過戶當日，自 1 月 1 日至 4 月 4 日共 93 天：93 × $31 = $2,883。"
+  },
+  "P190": {
+    "stemEn": "Which of these people can act as an escrow holder without an escrow license?",
+    "stemZh": "下列哪些人可以在沒有託管執照（escrow license）的情況下擔任託管人（escrow holder）？",
+    "answer": "A",
+    "choices": {
+      "A": {
+        "en": "a broker representing one of the parties in a transaction",
+        "zh": "代表交易中其中一方的經紀人（broker）"
+      },
+      "B": {
+        "en": "a salesperson representing one of the parties in a transaction",
+        "zh": "代表交易中其中一方的業務員（salesperson）"
+      },
+      "C": {
+        "en": "a mortgage broker",
+        "zh": "房貸經紀人（mortgage broker）"
+      },
+      "D": {
+        "en": "a buyer",
+        "zh": "買方"
+      }
+    },
+    "explanationZh": "正確選項 (A)：代表交易中其中一方的經紀人（broker）。經紀人在代表交易一方時，可以無需託管執照即擔任託管人。業務員、房貸經紀人及買方則不在此豁免範圍內。"
+  },
+  "P191": {
+    "stemEn": "According to conventional loans' qualifying guidelines, the monthly housing expenses, plus all other monthly obligations, cannot exceed what percent of the borrower's total gross monthly income?",
+    "stemZh": "依循環貸款（conventional loan）的資格審核指引，每月住房費用加上所有其他每月債務，不得超過借款人稅前月總收入的百分之幾？",
+    "answer": "A",
+    "choices": {
+      "A": {
+        "en": "36%",
+        "zh": "36%"
+      },
+      "B": {
+        "en": "28%",
+        "zh": "28%"
+      },
+      "C": {
+        "en": "41%",
+        "zh": "41%"
+      },
+      "D": {
+        "en": "45%",
+        "zh": "45%"
+      }
+    },
+    "explanationZh": "正確選項 (A)：36%。對於人工核貸的循環貸款，Fannie Mae 將總債務收入比（debt-to-income ratio）上限訂為 36%，即 PITI 加上其他債務不得超過月收入的 36%。"
+  },
+  "P192": {
+    "stemEn": "Loan approval consists of two different approvals. What are they?",
+    "stemZh": "貸款核准包含兩種不同的審核，分別是什麼？",
+    "answer": "A",
+    "choices": {
+      "A": {
+        "en": "approval of the buyer and approval of the property",
+        "zh": "買方資格核准與物業核准"
+      },
+      "B": {
+        "en": "approval of the appraisal and approval of the seller",
+        "zh": "鑑價核准與賣方核准"
+      },
+      "C": {
+        "en": "approval of the survey and approval of the buyer",
+        "zh": "測量核准與買方核准"
+      },
+      "D": {
+        "en": "approval of the inspection and approval of the buyer",
+        "zh": "檢查核准與買方核准"
+      }
+    },
+    "explanationZh": "正確選項 (A)：買方資格核准與物業核准。貸款核准需同時完成：(1) 物業核准，及 (2) 買方資產、收入與信用紀錄的核准，兩者皆通過後貸款才算核准。"
+  },
+  "P193": {
+    "stemEn": "Leo is buying a house for $200,000 and is making a 20% down payment. He is paying for 1 discount point, $450 for a new survey, and $900 for an environmental report. Based on this, how much cash will Leo have to bring to the closing?",
+    "stemZh": "Leo 以 $200,000 購屋，頭期款 20%，並支付 1 個折扣點（discount point）、$450 測量費及 $900 環境報告費。他過戶時需帶多少現金？",
+    "answer": "A",
+    "choices": {
+      "A": {
+        "en": "$42,950",
+        "zh": "$42,950"
+      },
+      "B": {
+        "en": "$42,300",
+        "zh": "$42,300"
+      },
+      "C": {
+        "en": "$45,300",
+        "zh": "$45,300"
+      },
+      "D": {
+        "en": "$43,500",
+        "zh": "$43,500"
+      }
+    },
+    "explanationZh": "正確選項 (A)：$42,950。頭期款 $40,000 + 折扣點 1% × $160,000 = $1,600 + 測量 $450 + 環境報告 $900 = $42,950。"
+  },
+  "P194": {
+    "stemEn": "Why would a lender be interested in the loan-to-value ratio of a property?",
+    "stemZh": "貸方為何關注物業的貸款價值比（loan-to-value ratio, LTV）？",
+    "answer": "A",
+    "choices": {
+      "A": {
+        "en": "because it represents the ratio of the value of the property and the amount of the loan financing the property and is an indicator of a loan's risk",
+        "zh": "因為它代表物業價值與貸款金額的比率，是衡量貸款風險的指標"
+      },
+      "B": {
+        "en": "because it is a measure of the total profit on the interest to be paid over the life of the loan",
+        "zh": "因為它是衡量貸款全期利息總利潤的指標"
+      },
+      "C": {
+        "en": "because their interests may shift from loan origination to real estate acquisition if the LTV ratio comes in high enough",
+        "zh": "因為 LTV 夠高時，貸方可能從放貸轉向收購不動產"
+      },
+      "D": {
+        "en": "because they need to make sure they are aligned with RESPA guidelines on LTV ratios",
+        "zh": "因為貸方需確保符合 RESPA 對 LTV 的規定"
+      }
+    },
+    "explanationZh": "正確選項 (A)：因為它代表物業價值與貸款金額的比率，是衡量貸款風險的指標。LTV 越高，表示貸方承擔的風險越大，違約時較難透過出售物業完全回收貸款。"
+  },
+  "P195": {
+    "stemEn": "Which of the following is the MOST LIKELY reason why the seller would prefer Camille's offer?",
+    "stemZh": "Camille 與 Jody 對同一房屋提出條件相同的出價，Camille 的出價附有預先核准函（pre-approval letter）。賣方最可能偏好 Camille 出價的原因是什麼？",
+    "answer": "A",
+    "choices": {
+      "A": {
+        "en": "A pre-approval letter can give the seller greater assurance that the buyer will be able to finance the purchase.",
+        "zh": "預先核准函能讓賣方更有信心買方有能力完成融資"
+      },
+      "B": {
+        "en": "Sellers prefer a personal touch that a letter brings.",
+        "zh": "賣方偏好信件帶來的個人化感受"
+      },
+      "C": {
+        "en": "The pre-approval letter gave a complimentary description of the property.",
+        "zh": "預先核准函對物業給予了讚美描述"
+      },
+      "D": {
+        "en": "The pre-approval letter contained a loan commitment to the buyer.",
+        "zh": "預先核准函包含對買方的貸款承諾"
+      }
+    },
+    "explanationZh": "正確選項 (A)：預先核准函能讓賣方更有信心買方有能力完成融資。附有 pre-approval letter 的出價，比沒有附件的出價更能向賣方證明買方的融資能力，降低交易失敗風險。"
+  },
+  "P196": {
+    "stemEn": "What is the maximum LTV for conventional loans WITH paying PMI?",
+    "stemZh": "循環貸款在支付 PMI（私人房貸保險）的情況下，最高 LTV 是多少？",
+    "answer": "A",
+    "choices": {
+      "A": {
+        "en": "95%",
+        "zh": "95%"
+      },
+      "B": {
+        "en": "80%",
+        "zh": "80%"
+      },
+      "C": {
+        "en": "90%",
+        "zh": "90%"
+      },
+      "D": {
+        "en": "70%",
+        "zh": "70%"
+      }
+    },
+    "explanationZh": "正確選項 (A)：95%。循環貸款若借款人支付 PMI，最高可貸至物業價值的 95%。若頭期款達 20% 以上（LTV 80% 以下），則通常無需 PMI。"
+  },
+  "P197": {
+    "stemEn": "What type of real estate involves both tangible and intangible property?",
+    "stemZh": "哪種類型的不動產同時涉及有形資產與無形資產？",
+    "answer": "A",
+    "choices": {
+      "A": {
+        "en": "business",
+        "zh": "商業不動產（business）"
+      },
+      "B": {
+        "en": "commercial",
+        "zh": "商用不動產（commercial）"
+      },
+      "C": {
+        "en": "residential",
+        "zh": "住宅不動產（residential）"
+      },
+      "D": {
+        "en": "industrial",
+        "zh": "工業不動產（industrial）"
+      }
+    },
+    "explanationZh": "正確選項 (A)：商業不動產（business）。Business real estate 的交易包含有形資產（如停車場、辦公大樓）及無形資產（如商業模式、獲獎食譜等）。"
+  },
+  "P198": {
+    "stemEn": "What is conveyance?",
+    "stemZh": "什麼是讓與（conveyance）？",
+    "answer": "A",
+    "choices": {
+      "A": {
+        "en": "an instrument that transfers a grantor's interest in real property",
+        "zh": "移轉轉讓人（grantor）在不動產中權益的文件"
+      },
+      "B": {
+        "en": "the soil that gets deposited in the process of accretion",
+        "zh": "沖積（accretion）過程中沉積的土壤"
+      },
+      "C": {
+        "en": "the transfer of title to property without the owner's consent",
+        "zh": "未經業主同意移轉產權"
+      },
+      "D": {
+        "en": "a formal declaration that the person signing a document is doing so by choice",
+        "zh": "簽署人自願簽名的正式聲明"
+      }
+    },
+    "explanationZh": "正確選項 (A)：移轉轉讓人（grantor）在不動產中權益的文件。Conveyance 是指用以移轉不動產產權或權益的法律文書，例如契據（deed）。"
+  },
+  "P199": {
+    "stemEn": "In 2015, the CFPB consolidated the Settlement Statement and the Final Truth in Lending disclosure into one form known as the:",
+    "stemZh": "2015 年，CFPB 將 Settlement Statement 與 Final Truth in Lending 揭露文件合併為哪一份表單？",
+    "answer": "A",
+    "choices": {
+      "A": {
+        "en": "Closing Disclosure",
+        "zh": "Closing Disclosure（過戶揭露書）"
+      },
+      "B": {
+        "en": "HUD-1",
+        "zh": "HUD-1"
+      },
+      "C": {
+        "en": "GFE",
+        "zh": "GFE（Good Faith Estimate）"
+      },
+      "D": {
+        "en": "Loan Estimate",
+        "zh": "Loan Estimate（貸款估價表）"
+      }
+    },
+    "explanationZh": "正確選項 (A)：Closing Disclosure（過戶揭露書）。2015 年 CFPB 將 HUD-1、GFE 及 TILA 揭露整合為 Closing Disclosure，作為過戶結算的最終費用明細表。"
+  },
+  "P200": {
+    "stemEn": "Jessica and Sam are getting a divorce. It's an amicable separation, and it's decided that Jessica will keep their apartment while Sam will keep both cars. What kind of deed will Jessica ask Sam to sign to clarify that she has sole title to the apartment?",
+    "stemZh": "Jessica 與 Sam 和平離婚，Jessica 保留公寓，Sam 保留兩輛車。Jessica 會要求 Sam 簽署哪種契據，以確認她對公寓擁有唯一產權？",
+    "answer": "A",
+    "choices": {
+      "A": {
+        "en": "quitclaim deed",
+        "zh": "放棄權利契據（quitclaim deed）"
+      },
+      "B": {
+        "en": "judicial deed",
+        "zh": "司法契據（judicial deed）"
+      },
+      "C": {
+        "en": "bargain and sale deed",
+        "zh": "買賣契據（bargain and sale deed）"
+      },
+      "D": {
+        "en": "deed of trust",
+        "zh": "信託契據（deed of trust）"
+      }
+    },
+    "explanationZh": "正確選項 (A)：放棄權利契據（quitclaim deed）。Quitclaim deed 讓 Sam 放棄對共同公寓的任何權利主張，使 Jessica 取得完整且清晰的單獨產權，常用於離婚財產分割。"
+  },
+  "P201": {
+    "stemEn": "An underwriter's primary objective is to determine:",
+    "stemZh": "核貸人員（underwriter）的主要目標是判定什麼？",
+    "answer": "A",
+    "choices": {
+      "A": {
+        "en": "the level of risk a borrower presents to a lender",
+        "zh": "借款人對貸方所代表的風險程度"
+      },
+      "B": {
+        "en": "the profit potential of a loan",
+        "zh": "貸款的獲利潛力"
+      },
+      "C": {
+        "en": "the desirability of a property in the event of default",
+        "zh": "違約時物業的變現價值"
+      },
+      "D": {
+        "en": "a borrower's credit score",
+        "zh": "借款人的信用評分"
+      }
+    },
+    "explanationZh": "正確選項 (A)：借款人對貸方所代表的風險程度。Underwriting（核貸）是評估借款人信用、收入、資產及物業價值，以判斷貸方承擔的風險是否可接受。"
+  },
+  "P202": {
+    "stemEn": "What is the term for an individual who is licensed as a real estate broker but who works in the capacity of an associate licensee for the employing broker of a brokerage?",
+    "stemZh": "已持有不動產經紀人執照、但以所屬經紀公司 employing broker 之附屬持照人（associate licensee）身分工作者，稱為什麼？",
+    "answer": "A",
+    "choices": {
+      "A": {
+        "en": "broker-associate",
+        "zh": "經紀人-附屬人員（broker-associate）"
+      },
+      "B": {
+        "en": "associate employing broker",
+        "zh": "附屬 employing broker"
+      },
+      "C": {
+        "en": "salesperson",
+        "zh": "業務員（salesperson）"
+      },
+      "D": {
+        "en": "sales broker",
+        "zh": "銷售經紀人（sales broker）"
+      }
+    },
+    "explanationZh": "正確選項 (A)：經紀人-附屬人員（broker-associate）。Broker-associate 雖持有 broker 執照，但在經紀公司內以 associate licensee 身分受 employing broker 督導執業。"
+  },
+  "P203": {
+    "stemEn": "Residential property is used for:",
+    "stemZh": "住宅不動產（residential property）的用途是什麼？",
+    "answer": "A",
+    "choices": {
+      "A": {
+        "en": "some sort of habitation",
+        "zh": "某種形式的居住"
+      },
+      "B": {
+        "en": "producing a profit",
+        "zh": "創造利潤"
+      },
+      "C": {
+        "en": "long-term investments",
+        "zh": "長期投資"
+      },
+      "D": {
+        "en": "crop cultivation",
+        "zh": "農作物種植"
+      }
+    },
+    "explanationZh": "正確選項 (A)：某種形式的居住。所有住宅不動產均供居住使用，無論是獨棟住宅、共管公寓或度假屋。"
+  },
+  "P204": {
+    "stemEn": "In an amortized loan, the monthly interest payment is always based on:",
+    "stemZh": "在攤還貸款（amortized loan）中，每月利息的計算基礎永遠是什麼？",
+    "answer": "A",
+    "choices": {
+      "A": {
+        "en": "the remaining balance",
+        "zh": "剩餘本金餘額"
+      },
+      "B": {
+        "en": "the original principal",
+        "zh": "原始本金"
+      },
+      "C": {
+        "en": "the cost of discount points",
+        "zh": "折扣點成本"
+      },
+      "D": {
+        "en": "the last interest payment",
+        "zh": "上一期利息"
+      }
+    },
+    "explanationZh": "正確選項 (A)：剩餘本金餘額。銀行在每期計算利息時，均以借款人當時的剩餘貸款餘額為基礎，因此隨本金逐漸償還，利息也逐月遞減。"
+  },
+  "P205": {
+    "stemEn": "What is underwriting?",
+    "stemZh": "什麼是核貸（underwriting）？",
+    "answer": "A",
+    "choices": {
+      "A": {
+        "en": "the process of deciding the level of risk a lender would take on by offering a loan to a certain borrower for a specific property",
+        "zh": "評估貸方對特定借款人及物業放貸所承擔風險程度的流程"
+      },
+      "B": {
+        "en": "a credit given by the lender to the borrower that may be used to pay third-party settlement charges or to fund the escrow account",
+        "zh": "貸方給予借款人、可用於支付第三方結算費用或託管帳戶的點數"
+      },
+      "C": {
+        "en": "an agreement between a lender and a borrower that allows the borrower to secure the interest rate on a mortgage for a designated time period",
+        "zh": "允許借款人在指定期間鎖定利率的協議"
+      },
+      "D": {
+        "en": "an extra fee paid upfront when getting a loan that lowers a borrower's interest rate",
+        "zh": "過戶前支付以降低利率的額外費用"
+      }
+    },
+    "explanationZh": "正確選項 (A)：評估貸方對特定借款人及物業放貸所承擔風險程度的流程。Underwriting 是貸方審查借款人財務狀況與物業價值，以決定是否核准貸款及條件的核心程序。"
+  },
+  "P206": {
+    "stemEn": "Which of the following lists reflects the areas of focus for the bank's underwriter when evaluating Trevor?",
+    "stemZh": "銀行核貸人員評估 Trevor 的房貸申請時，會聚焦於下列哪個面向清單？",
+    "answer": "A",
+    "choices": {
+      "A": {
+        "en": "income, credit, assets, debts, and net worth",
+        "zh": "收入、信用、資產、負債及淨值"
+      },
+      "B": {
+        "en": "sex, credit, assets, debts, and net worth",
+        "zh": "性別、信用、資產、負債及淨值"
+      },
+      "C": {
+        "en": "income, credit, assets, sex, and marital status",
+        "zh": "收入、信用、資產、性別及婚姻狀況"
+      },
+      "D": {
+        "en": "credit, assets, debts, marital status, and age",
+        "zh": "信用、資產、負債、婚姻狀況及年齡"
+      }
+    },
+    "explanationZh": "正確選項 (A)：收入、信用、資產、負債及淨值。核貸人員通常審查申請人這五項財務概況，以評估其償還能力。性別、婚姻狀況及年齡並非合法核貸考量因素。"
+  },
+  "P207": {
+    "stemEn": "What is a loan-to-value ratio?",
+    "stemZh": "什麼是貸款價值比（loan-to-value ratio, LTV）？",
+    "answer": "A",
+    "choices": {
+      "A": {
+        "en": "the amount of money being loaned compared to the value of the property",
+        "zh": "貸款金額與物業價值的比較"
+      },
+      "B": {
+        "en": "the difference between the interest rate of an ARM loan and the index value",
+        "zh": "可調利率房貸（ARM）利率與指數值的差額"
+      },
+      "C": {
+        "en": "the process of paying off a debt/mortgage in regular installments based on a fixed payment schedule",
+        "zh": "依固定排程分期償還債務/房貸的過程"
+      },
+      "D": {
+        "en": "a financing method in which an owner sells their property to an investor, who then leases the property back to the original owner",
+        "zh": "業主將物業賣給投資人再租回的融資方式"
+      }
+    },
+    "explanationZh": "正確選項 (A)：貸款金額與物業價值的比較。LTV = 貸款金額 ÷ 物業價值，以百分比表示，是衡量貸款風險的重要指標。"
+  },
+  "P208": {
+    "stemEn": "Lucia has a monthly PITI payment of $650 and other long-term liabilities totaling $250 per month. If she makes $3,300 a month, what is her total debt-to-income ratio?",
+    "stemZh": "Lucia 每月 PITI 為 $650，其他長期負債每月 $250，月收入 $3,300。她的總債務收入比（debt-to-income ratio）是多少？",
+    "answer": "A",
+    "choices": {
+      "A": {
+        "en": "27%",
+        "zh": "27%"
+      },
+      "B": {
+        "en": "12%",
+        "zh": "12%"
+      },
+      "C": {
+        "en": "19%",
+        "zh": "19%"
+      },
+      "D": {
+        "en": "30%",
+        "zh": "30%"
+      }
+    },
+    "explanationZh": "正確選項 (A)：27%。公式：(PITI + 其他債務) ÷ 月收入 = DTI。($650 + $250) ÷ $3,300 = 0.27，即 27%。"
+  },
+  "P209": {
+    "stemEn": "What form do most lenders use to collect mortgage loan applicant information for underwriting purposes?",
+    "stemZh": "多數貸方用哪份表單收集房貸申請人的核貸資訊？",
+    "answer": "A",
+    "choices": {
+      "A": {
+        "en": "Uniform Residential Loan Application (URLA)",
+        "zh": "Uniform Residential Loan Application（URLA，統一住宅貸款申請表）"
+      },
+      "B": {
+        "en": "Standard Mortgage Underwriting Residential Form (SMURF)",
+        "zh": "Standard Mortgage Underwriting Residential Form（SMURF）"
+      },
+      "C": {
+        "en": "Universal Mortgage Loan Application (UMLA)",
+        "zh": "Universal Mortgage Loan Application（UMLA）"
+      },
+      "D": {
+        "en": "Lender Underwriting Mortgage Loan Application (LUMLA)",
+        "zh": "Lender Underwriting Mortgage Loan Application（LUMLA）"
+      }
+    },
+    "explanationZh": "正確選項 (A)：Uniform Residential Loan Application（URLA）。URLA 是 Fannie Mae 制定的標準房貸申請表，多數貸方以此收集核貸所需的借款人財務資訊。"
+  },
+  "P210": {
+    "stemEn": "Jackie took out an amortized loan of $300,000 with a 5% interest rate. Her monthly payment is $1,800. How much of her first payment will go towards the principal?",
+    "stemZh": "Jackie 取得 $300,000 攤還貸款，利率 5%，月付 $1,800。她第一期付款中有多少會用於償還本金（principal）？",
+    "answer": "C",
+    "choices": {
+      "A": {
+        "en": "$550",
+        "zh": "$550"
+      },
+      "B": {
+        "en": "$600",
+        "zh": "$600"
+      },
+      "C": {
+        "en": "$1,250",
+        "zh": "$1,250"
+      },
+      "D": {
+        "en": "$650",
+        "zh": "$650"
+      }
+    },
+    "explanationZh": "正確選項 (C)：$1,250。先計算第一期利息：$300,000 × 5% ÷ 12 = $1,250。月付 $1,800 減去利息 $1,250 後，$550 用於本金。"
+  },
+  "P211": {
+    "stemEn": "With which type of land description does a surveyor indicate direction in degrees, minutes, and seconds?",
+    "stemZh": "測量師以度、分、秒表示方向時，使用的是哪種土地描述方式？",
+    "answer": "A",
+    "choices": {
+      "A": {
+        "en": "metes and bounds",
+        "zh": "界線丈量法（metes and bounds）"
+      },
+      "B": {
+        "en": "rectangular survey system",
+        "zh": "矩形測量系統（rectangular survey system）"
+      },
+      "C": {
+        "en": "lot and block system",
+        "zh": "地號街區系統（lot and block system）"
+      },
+      "D": {
+        "en": "government survey system",
+        "zh": "政府測量系統（government survey system）"
+      }
+    },
+    "explanationZh": "正確選項 (A)：界線丈量法（metes and bounds）。Metes and bounds 以方位角（度、分、秒）及距離描述土地邊界，並回到起點（point of beginning）。"
+  },
+  "P212": {
+    "stemEn": "The NE 1/4 of a section would measure how many acres?",
+    "stemZh": "一個 section 的東北 1/4（NE 1/4）面積是多少英畝（acres）？",
+    "answer": "A",
+    "choices": {
+      "A": {
+        "en": "160",
+        "zh": "160 英畝"
+      },
+      "B": {
+        "en": "640",
+        "zh": "640 英畝"
+      },
+      "C": {
+        "en": "320",
+        "zh": "320 英畝"
+      },
+      "D": {
+        "en": "80",
+        "zh": "80 英畝"
+      }
+    },
+    "explanationZh": "正確選項 (A)：160 英畝。一個 section 為 640 英畝，取其 1/4 即 160 英畝。"
+  },
+  "P213": {
+    "stemEn": "Charlie purchased a lot that measures 800 ft. wide by 500 ft. long. The purchase price was $850,000. What was the price Charlie paid per ACRE?",
+    "stemZh": "Charlie 購買一塊 800 英尺寬、500 英尺長的地，成交價 $850,000。他每英畝（acre）支付多少？",
+    "answer": "A",
+    "choices": {
+      "A": {
+        "en": "$92,592.59",
+        "zh": "$92,592.59"
+      },
+      "B": {
+        "en": "$0.47",
+        "zh": "$0.47"
+      },
+      "C": {
+        "en": "$1,062.50",
+        "zh": "$1,062.50"
+      },
+      "D": {
+        "en": "$1,360",
+        "zh": "$1,360"
+      }
+    },
+    "explanationZh": "正確選項 (A)：$92,592.59。面積 800 × 500 = 400,000 平方英尺，÷ 43,560 = 9.18 英畝。$850,000 ÷ 9.18 = $92,592.59/英畝。"
+  },
+  "P214": {
+    "stemEn": "What is a survey?",
+    "stemZh": "什麼是測量（survey）？",
+    "answer": "A",
+    "choices": {
+      "A": {
+        "en": "the process and physical product of finding and measuring the boundaries of a piece of real estate, including the location of improvements",
+        "zh": "查找並丈量不動產邊界（含改良物位置）的過程及實體成果"
+      },
+      "B": {
+        "en": "the required actions for the proper execution of a deed, involving delivery of the deed by the grantor and acceptance by the grantee",
+        "zh": "契據正式生效所需的交付與接受程序"
+      },
+      "C": {
+        "en": "the involuntary transfer of title from an owner who doesn't use or inspect their land to another person who has some claim and takes possession",
+        "zh": "業主未使用土地而由他人時效取得產權的非自願移轉"
+      },
+      "D": {
+        "en": "a deed without any warranty against encumbrances; only implies that the grantor holds the right to convey title",
+        "zh": "不擔保產權負擔、僅默示轉讓人有權移轉產權的契據"
+      }
+    },
+    "explanationZh": "正確選項 (A)：查找並丈量不動產邊界（含改良物位置）的過程及實體成果。Survey 確定土地邊界、建物位置、越界（encroachment）及地役權等，是產權交易的重要文件。"
+  },
+  "P215": {
+    "stemEn": "Jim buys a 400 sq. yd. lot of land. What is the size of Jim's lot in square feet?",
+    "stemZh": "Jim 購買一塊 400 平方碼（sq. yd.）的土地。換算成平方英尺（sq. ft.）是多少？",
+    "answer": "A",
+    "choices": {
+      "A": {
+        "en": "3,600 sq. ft.",
+        "zh": "3,600 平方英尺"
+      },
+      "B": {
+        "en": "3,200 sq. ft.",
+        "zh": "3,200 平方英尺"
+      },
+      "C": {
+        "en": "1,600 sq. ft.",
+        "zh": "1,600 平方英尺"
+      },
+      "D": {
+        "en": "1,200 sq. ft.",
+        "zh": "1,200 平方英尺"
+      }
+    },
+    "explanationZh": "正確選項 (A)：3,600 平方英尺。1 平方碼 = 9 平方英尺，400 × 9 = 3,600 平方英尺。"
+  },
+  "P216": {
+    "stemEn": "Which survey system uses longitude and latitude lines to map property boundaries?",
+    "stemZh": "哪種測量系統使用經緯線（longitude and latitude）來標定土地邊界？",
+    "answer": "A",
+    "choices": {
+      "A": {
+        "en": "government survey system",
+        "zh": "政府測量系統（government survey system）"
+      },
+      "B": {
+        "en": "metes and bounds system",
+        "zh": "界線丈量系統（metes and bounds system）"
+      },
+      "C": {
+        "en": "lot and block system",
+        "zh": "地號街區系統（lot and block system）"
+      },
+      "D": {
+        "en": "recorded plat system",
+        "zh": "登錄分區圖系統（recorded plat system）"
+      }
+    },
+    "explanationZh": "正確選項 (A)：政府測量系統（government survey system）。政府測量系統以子午線（meridians）及基線（baselines）建立網格，利用經緯概念劃分 township 與 range。"
+  },
+  "P217": {
+    "stemEn": "Range columns run parallel to:",
+    "stemZh": "Range 欄（range columns）與什麼平行？",
+    "answer": "A",
+    "choices": {
+      "A": {
+        "en": "meridians",
+        "zh": "子午線（meridians）"
+      },
+      "B": {
+        "en": "township lines",
+        "zh": "township 線"
+      },
+      "C": {
+        "en": "baselines",
+        "zh": "基線（baselines）"
+      },
+      "D": {
+        "en": "correction lines",
+        "zh": "修正線（correction lines）"
+      }
+    },
+    "explanationZh": "正確選項 (A)：子午線（meridians）。Range 欄與子午線平行，形成六英里寬的 range 區帶，是政府測量系統的基本組成。"
+  },
+  "P218": {
+    "stemEn": "What is the legal description of a property?",
+    "stemZh": "什麼是不動產的法律描述（legal description）？",
+    "answer": "A",
+    "choices": {
+      "A": {
+        "en": "a detailed description of a property that is distinct and precise enough to distinguish it from all other properties",
+        "zh": "足以與所有其他物業區分的詳細精確描述"
+      },
+      "B": {
+        "en": "the U.S. Postal Service's mailing address for the property",
+        "zh": "美國郵政的郵寄地址"
+      },
+      "C": {
+        "en": "the 911 emergency address of the property",
+        "zh": "911 緊急地址"
+      },
+      "D": {
+        "en": "an appraiser's description of the identity of the property",
+        "zh": "鑑價師對物業身分的描述"
+      }
+    },
+    "explanationZh": "正確選項 (A)：足以與所有其他物業區分的詳細精確描述。Legal description 是法律上唯一識別不動產的方式，郵寄地址或 911 地址不能替代。"
+  },
+  "P219": {
+    "stemEn": "Which of the following is a portion of a legal description?",
+    "stemZh": "下列哪一項是法律描述的一部分？",
+    "answer": "A",
+    "choices": {
+      "A": {
+        "en": "lot number",
+        "zh": "地號（lot number）"
+      },
+      "B": {
+        "en": "street address",
+        "zh": "街道地址"
+      },
+      "C": {
+        "en": "apartment number",
+        "zh": "公寓號碼"
+      },
+      "D": {
+        "en": "P.O. box",
+        "zh": "郵政信箱"
+      }
+    },
+    "explanationZh": "正確選項 (A)：地號（lot number）。Lot number 是 lot and block 法律描述系統的組成部分，與 block、subdivision 等共同構成完整描述。"
+  },
+  "P220": {
+    "stemEn": "What is quiet enjoyment?",
+    "stemZh": "什麼是安寧享用權（quiet enjoyment）？",
+    "answer": "A",
+    "choices": {
+      "A": {
+        "en": "a lessee's right to possess a property without interference from the lessor",
+        "zh": "承租人（lessee）不受出租人（lessor）干擾而占有使用物業的權利"
+      },
+      "B": {
+        "en": "the process by which a tenant is expelled from a property",
+        "zh": "將承租人驅逐出物業的程序"
+      },
+      "C": {
+        "en": "a lease in which the tenant pays a base rent rate plus all or part of the operating expenses",
+        "zh": "承租人支付基本租金加部分或全部營運費用的租約"
+      },
+      "D": {
+        "en": "a deposit made to a seller showing the buyer's good faith in regards to the future performance of a sales contract",
+        "zh": "買方為證明履約誠意而付給賣方的訂金"
+      }
+    },
+    "explanationZh": "正確選項 (A)：承租人（lessee）不受出租人（lessor）干擾而占有使用物業的權利。Quiet enjoyment 保障承租人在租期內不受房東、前業主或第三人對產權的干擾。"
+  },
+  "P221": {
+    "stemEn": "A landlord frequently enters one of his tenant's apartments without notice just to see how the tenant is doing. This action:",
+    "stemZh": "房東經常未事先通知就進入承租人公寓「關心」承租人。此行為：",
+    "answer": "A",
+    "choices": {
+      "A": {
+        "en": "violates the tenant's right to quiet enjoyment of the property",
+        "zh": "侵犯承租人的安寧享用權"
+      },
+      "B": {
+        "en": "violates the tenant's right to control how the property is used",
+        "zh": "侵犯承租人控制物業使用的權利"
+      },
+      "C": {
+        "en": "is okay as long as the landlord wrote in the lease that he would retain the right to do this",
+        "zh": "只要租約載明房東保留此權利即可"
+      },
+      "D": {
+        "en": "is okay since the landlord owns the property and has a right to be there",
+        "zh": "因房東擁有物業而有權進入，故可接受"
+      }
+    },
+    "explanationZh": "正確選項 (A)：侵犯承租人的安寧享用權。房東頻繁、非必要的無通知進入，違反 quiet enjoyment，即使租約有相關條款也可能無效。"
+  },
+  "P222": {
+    "stemEn": "What is the difference between a sublease and an assignment?",
+    "stemZh": "轉租（sublease）與轉讓（assignment）有何不同？",
+    "answer": "A",
+    "choices": {
+      "A": {
+        "en": "In a sublease, the original tenant is still responsible for the rent. In an assignment, the new tenant takes over responsibility.",
+        "zh": "轉租時原承租人仍負租金責任；轉讓時新承租人承擔責任"
+      },
+      "B": {
+        "en": "In a sublease, the landlord can terminate the contract at any time. In an assignment, they cannot.",
+        "zh": "轉租時房東可隨時終止合約；轉讓時不可"
+      },
+      "C": {
+        "en": "In a sublease, the new tenant is responsible for all costs. In an assignment, the new tenant pays the old tenant, and they pay the landlord.",
+        "zh": "轉租時新承租人負擔全部費用；轉讓時新承租人付給原承租人，再由原承租人付給房東"
+      },
+      "D": {
+        "en": "In a sublease, the original space is reconfigured to fit two tenants. In an assignment, the tenants share the original space as is.",
+        "zh": "轉租時重新配置空間容納兩位承租人；轉讓時兩人共用原空間"
+      }
+    },
+    "explanationZh": "正確選項 (A)：轉租時原承租人仍負租金責任；轉讓時新承租人承擔責任。Sublease 不解除原承租人對房東的義務；assignment 則讓新承租人直接取代原承租人的責任。"
+  },
+  "P223": {
+    "stemEn": "In California, an automatic renewal clause in a lease must:",
+    "stemZh": "在加州，租約中的自動續約條款（automatic renewal clause）必須：",
+    "answer": "A",
+    "choices": {
+      "A": {
+        "en": "be in bold font",
+        "zh": "以粗體字印出"
+      },
+      "B": {
+        "en": "be in a separate addendum",
+        "zh": "載於獨立附錄中"
+      },
+      "C": {
+        "en": "not be included; automatic renewal clauses are illegal in California",
+        "zh": "不得包含；加州禁止自動續約條款"
+      },
+      "D": {
+        "en": "give the tenant the first right to purchase the property",
+        "zh": "給予承租人優先購買權"
+      }
+    },
+    "explanationZh": "正確選項 (A)：以粗體字印出。加州規定，租約中的自動續約條款必須以粗體字（bold font）標示，以確保承租人清楚知悉。"
+  },
+  "P224": {
+    "stemEn": "Which California law protects tenants and employees from both employment and housing discrimination based on their belonging to select groups?",
+    "stemZh": "哪部加州法律保護承租人及員工，使其免於因所屬特定群體而遭受就業及住房歧視？",
+    "answer": "A",
+    "choices": {
+      "A": {
+        "en": "Fair Employment and Housing Act",
+        "zh": "公平就業及住房法（Fair Employment and Housing Act, FEHA）"
+      },
+      "B": {
+        "en": "Free Establishments and Homes Act",
+        "zh": "Free Establishments and Homes Act"
+      },
+      "C": {
+        "en": "Free and Equal Housing Act",
+        "zh": "Free and Equal Housing Act"
+      },
+      "D": {
+        "en": "Equal Opportunity Employment and Homes Act",
+        "zh": "Equal Opportunity Employment and Homes Act"
+      }
+    },
+    "explanationZh": "正確選項 (A)：公平就業及住房法（FEHA）。FEHA 禁止基於種族、年齡、殘疾、性別、性取向、婚姻狀況、軍人身份等理由的就業及住房歧視。"
+  },
+  "P225": {
+    "stemEn": "Randy is renting his basement apartment to Josh, his son, who is a full-time college student. There is no formal lease involved, no specified termination date or rental period established, and Josh even skips payments now and then. What type of leasehold estate best describes this arrangement?",
+    "stemZh": "Randy 將地下室公寓租給全職大學生的兒子 Josh，沒有正式租約、未訂終止日期或租期，Josh 有時還延遲付租。此安排最符合哪種租賃權（leasehold estate）？",
+    "answer": "A",
+    "choices": {
+      "A": {
+        "en": "estate at will",
+        "zh": "任意租賃（estate at will）"
+      },
+      "B": {
+        "en": "estate for years",
+        "zh": "定期租賃（estate for years）"
+      },
+      "C": {
+        "en": "estate from period to period",
+        "zh": "週期性租賃（estate from period to period）"
+      },
+      "D": {
+        "en": "estate at sufferance",
+        "zh": "默許租賃/逾期占有（estate at sufferance）"
+      }
+    },
+    "explanationZh": "正確選項 (A)：任意租賃（estate at will）。無正式租約、無固定租期或終止日，且租金支付不規律，符合 estate at will 的特徵。"
+  },
+  "P226": {
+    "stemEn": "The landlord of an apartment complex refuses to rent an apartment to a couple because they are not married. The landlord's actions are:",
+    "stemZh": "某公寓大樓房東因一對情侶未結婚而拒絕出租。房東的行為：",
+    "answer": "A",
+    "choices": {
+      "A": {
+        "en": "unacceptable because they are violating the Fair Employment and Housing Act",
+        "zh": "不可接受，因違反公平就業及住房法（FEHA）"
+      },
+      "B": {
+        "en": "acceptable because landlords have the authority to choose suitable tenants for their properties",
+        "zh": "可接受，因房東有權選擇適合的承租人"
+      },
+      "C": {
+        "en": "unacceptable because they are violating the Code of Ethics",
+        "zh": "不可接受，因違反道德準則（Code of Ethics）"
+      },
+      "D": {
+        "en": "acceptable as long as the landlord denies leases to all unmarried couples",
+        "zh": "可接受，只要房東對所有未婚情侶一視同仁"
+      }
+    },
+    "explanationZh": "正確選項 (A)：不可接受，因違反 FEHA。FEHA 禁止基於婚姻狀況（marital status）的住房歧視，房東不得因情侶未結婚而拒絕出租。"
+  },
+  "P227": {
+    "stemEn": "Sally has been leasing a property for the past three years. Sally's landlord has decided to use the property for something else when her lease is up. What type of estate will be created if Sally refuses to leave after her lease is terminated?",
+    "stemZh": "Sally 已承租三年。租約到期後房東欲改作他用，若 Sally 拒絕搬離，將形成哪種租賃權？",
+    "answer": "A",
+    "choices": {
+      "A": {
+        "en": "tenancy at sufferance",
+        "zh": "默許租賃/逾期占有（tenancy at sufferance）"
+      },
+      "B": {
+        "en": "tenant's estate",
+        "zh": "承租人產權（tenant's estate）"
+      },
+      "C": {
+        "en": "estate from period to period",
+        "zh": "週期性租賃（estate from period to period）"
+      },
+      "D": {
+        "en": "tension estate",
+        "zh": "tension estate"
+      }
+    },
+    "explanationZh": "正確選項 (A)：默許租賃/逾期占有（tenancy at sufferance）。租期屆滿後承租人未經房東同意繼續占有，即構成 tenancy at sufferance（又稱 estate at sufferance）。"
+  },
+  "P228": {
+    "stemEn": "Landlord Hubert uses his tenant's security deposit to repair damages to the apartment they rented for a year. Because Landlord Hubert used the security deposit funds, he must give the tenant a detailed document that shows all the charges within:",
+    "stemZh": "房東 Hubert 用承租人押金修繕公寓損壞。因動用了押金，他必須在多久內提供列明所有扣款的詳細文件？",
+    "answer": "A",
+    "choices": {
+      "A": {
+        "en": "21 days after the tenant moves out",
+        "zh": "承租人搬離後 21 天內"
+      },
+      "B": {
+        "en": "51 days after the tenant moves out",
+        "zh": "承租人搬離後 51 天內"
+      },
+      "C": {
+        "en": "seven days after he spends the funds",
+        "zh": "動用資金後 7 天內"
+      },
+      "D": {
+        "en": "one year after he spends the funds",
+        "zh": "動用資金後一年內"
+      }
+    },
+    "explanationZh": "正確選項 (A)：承租人搬離後 21 天內。加州規定，房東動用押金後須在承租人搬離後 21 天內提供扣款明細，並退還餘額押金。"
+  },
+  "P229": {
+    "stemEn": "What is a quitclaim deed?",
+    "stemZh": "什麼是放棄權利契據（quitclaim deed）？",
+    "answer": "A",
+    "choices": {
+      "A": {
+        "en": "a type of deed that conveys any interest, title, or right to a parcel of land the grantor has at the time the deed is executed",
+        "zh": "移轉轉讓人簽署當下對該土地所擁有任何權益、產權或權利的契據"
+      },
+      "B": {
+        "en": "a deed without any warranty against encumbrances; only implies that the grantor holds the right to convey title",
+        "zh": "不擔保產權負擔、僅默示轉讓人有權移轉產權的契據"
+      },
+      "C": {
+        "en": "the voluntary gift of one's land to the government; also known as dedication by deed",
+        "zh": "自願將土地贈與政府，又稱 dedication by deed"
+      },
+      "D": {
+        "en": "the required actions for the proper execution of a deed, involving delivery of the deed by the grantor and acceptance by the grantee",
+        "zh": "契據正式生效所需的交付與接受程序"
+      }
+    },
+    "explanationZh": "正確選項 (A)：移轉轉讓人簽署當下對該土地所擁有任何權益、產權或權利的契據。Quitclaim deed 不提供任何產權擔保，僅移轉轉讓人「當下可能擁有」的權益。"
+  },
+  "P230": {
+    "stemEn": "\"T2S R2W of Meridian 24\" is a way to identify a section of property using which method of land surveying?",
+    "stemZh": "「T2S R2W of Meridian 24」是使用哪種土地測量方法來標定一個 section 的物業？",
+    "answer": "A",
+    "choices": {
+      "A": {
+        "en": "government survey system",
+        "zh": "政府測量系統（government survey system）"
+      },
+      "B": {
+        "en": "metes and bounds",
+        "zh": "界線丈量法（metes and bounds）"
+      },
+      "C": {
+        "en": "recorded plat method",
+        "zh": "登錄分區圖法（recorded plat method）"
+      },
+      "D": {
+        "en": "lot and block",
+        "zh": "地號街區法（lot and block）"
+      }
+    },
+    "explanationZh": "正確選項 (A)：政府測量系統（government survey system）。T2S（Township 2 South）、R2W（Range 2 West）及 Meridian 編號是政府測量系統的標準描述格式。"
+  },
+  "P231": {
+    "stemEn": "Gussie Fink-Nottle is renting Lady Edith's Shoreditch condo month-to-month. What kind of estate does Gussie have?",
+    "stemZh": "Gussie Fink-Nottle 按月租用 Lady Edith 在 Shoreditch 的共管公寓。Gussie 持有哪種租賃權？",
+    "answer": "A",
+    "choices": {
+      "A": {
+        "en": "estate from period to period",
+        "zh": "週期性租賃（estate from period to period）"
+      },
+      "B": {
+        "en": "life estate",
+        "zh": "終身產權（life estate）"
+      },
+      "C": {
+        "en": "estate for years",
+        "zh": "定期租賃（estate for years）"
+      },
+      "D": {
+        "en": "tenancy at sufferance",
+        "zh": "默許租賃/逾期占有（tenancy at sufferance）"
+      }
+    },
+    "explanationZh": "正確選項 (A)：週期性租賃（estate from period to period）。Month-to-month 租約是 estate from period to period 的典型例子，每期自動續約直至任一方依法終止。"
+  },
+  "P232": {
+    "stemEn": "What are those formulas and how are they collectively known?",
+    "stemZh": "Fiona 的貸方將評估她的房貸申請，會考量長期債務、預期月付房貸及收入。貸方使用的兩項公式統稱為什麼？",
+    "answer": "A",
+    "choices": {
+      "A": {
+        "en": "Payment-to-income ratio and debt-to-income ratio are the two formulas or measures collectively known as the qualifying ratios.",
+        "zh": "付息收入比（payment-to-income ratio）與債務收入比（debt-to-income ratio）合稱資格比率（qualifying ratios）"
+      },
+      "B": {
+        "en": "Debt-to-income ratio and asset-to-debt ratio are the two formulas or measures collectively known as the qualifying ratios.",
+        "zh": "債務收入比與資產負債比合稱資格比率"
+      },
+      "C": {
+        "en": "Payment-to-income ratio and debt-to-income ratio are the two formulas or measures collectively known as loan-to-value ratios.",
+        "zh": "付息收入比與債務收入比合稱 LTV 比率"
+      },
+      "D": {
+        "en": "Loan-to-asset ratio and asset-to-debt ratio are the two formulas or measures collectively known as the mortgage ratios.",
+        "zh": "貸款資產比與資產負債比合稱房貸比率"
+      }
+    },
+    "explanationZh": "正確選項 (A)：付息收入比與債務收入比合稱資格比率（qualifying ratios）。這兩項比率幫助貸方評估借款人是否有能力負擔每月房貸及總體債務。"
+  },
+  "P233": {
+    "stemEn": "In California, what is the maximum amount a landlord can charge for a security deposit?",
+    "stemZh": "在加州，房東收取的押金（security deposit）法定上限是多少？",
+    "answer": "A",
+    "choices": {
+      "A": {
+        "en": "the equivalent of one month's rent",
+        "zh": "相當於一個月租金"
+      },
+      "B": {
+        "en": "the equivalent of one-and-a-half months' rent",
+        "zh": "相當於一個半月租金"
+      },
+      "C": {
+        "en": "There is no legal maximum.",
+        "zh": "沒有法定上限"
+      },
+      "D": {
+        "en": "the equivalent of three months' rent",
+        "zh": "相當於三個月租金"
+      }
+    },
+    "explanationZh": "正確選項 (A)：相當於一個月租金。加州現行法規下，無家具住宅的押金上限為一個月租金。"
+  }
+}
