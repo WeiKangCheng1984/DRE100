@@ -166,6 +166,9 @@
                     <button id="btnModuleQuiz2" onclick="switchModule('quiz2')" class="px-2.5 sm:px-3 py-1.5 rounded-lg font-medium transition-all text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white">
                         題庫練習二
                     </button>
+                    <button id="btnModuleQuiz3" onclick="switchModule('quiz3')" class="px-2.5 sm:px-3 py-1.5 rounded-lg font-medium transition-all text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white">
+                        題庫練習三
+                    </button>
                 </div>
                 <!-- Mode Switcher -->
                 <div id="glossaryViewSwitch" class="flex items-center bg-slate-100 dark:bg-slate-800 p-1 rounded-xl border border-slate-200 dark:border-slate-700 text-xs sm:text-sm">
@@ -1390,7 +1393,7 @@
         ];
 
         let state = {
-            appModule: "glossary", // 'glossary' | 'notes' | 'quiz' | 'quiz2'
+            appModule: "glossary", // 'glossary' | 'notes' | 'quiz' | 'quiz2' | 'quiz3'
             currentDomain: "全部領域 (All)",
             searchQuery: "",
             viewMode: "list", // 'list' | 'card'
@@ -1965,7 +1968,7 @@
                 }
                 return;
             }
-            if (state.appModule === "quiz" || state.appModule === "quiz2") {
+            if (state.appModule === "quiz" || state.appModule === "quiz2" || state.appModule === "quiz3") {
                 if (e.key === "ArrowRight") quizNext();
                 if (e.key === "ArrowLeft") quizPrev();
                 if (["1", "2", "3", "4", "a", "b", "c", "d", "A", "B", "C", "D"].includes(e.key)) {
@@ -2413,6 +2416,20 @@
                 loaded: false,
                 failed: false,
                 state: { index: 0, answers: {}, choiceOrders: {} }
+            },
+            quiz3: {
+                key: "quiz3",
+                url: "data/questions3.json",
+                storageKey: "dre-quiz3-progress-v1",
+                label: "題庫練習三",
+                subtitle: "題庫練習三：LV17＋Level 延伸（約 300 題）、中英對照解析",
+                resetToast: "已清除題庫練習三作答紀錄（選項順序已重新打亂）",
+                shuffleChoices: true,
+                questions: [],
+                originalQuestions: [],
+                loaded: false,
+                failed: false,
+                state: { index: 0, answers: {}, choiceOrders: {} }
             }
         };
         let activeQuizKey = "quiz";
@@ -2433,6 +2450,7 @@
             const btnNotes = document.getElementById("btnModuleNotes");
             const btnQuiz = document.getElementById("btnModuleQuiz");
             const btnQuiz2 = document.getElementById("btnModuleQuiz2");
+            const btnQuiz3 = document.getElementById("btnModuleQuiz3");
             const subtitle = document.getElementById("headerSubtitle");
             const active = "px-2.5 sm:px-3 py-1.5 rounded-lg font-medium transition-all shadow-sm bg-white dark:bg-slate-700 text-blue-700 dark:text-blue-300";
             const idle = "px-2.5 sm:px-3 py-1.5 rounded-lg font-medium transition-all text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white";
@@ -2441,6 +2459,7 @@
             btnNotes.className = idle;
             btnQuiz.className = idle;
             btnQuiz2.className = idle;
+            btnQuiz3.className = idle;
             glossaryMain.style.display = "none";
             notesMain.style.display = "none";
             quizMain.style.display = "none";
@@ -2466,7 +2485,8 @@
 
             quizMain.style.display = "flex";
             activeQuizKey = mod;
-            if (mod === "quiz2") btnQuiz2.className = active;
+            if (mod === "quiz3") btnQuiz3.className = active;
+            else if (mod === "quiz2") btnQuiz2.className = active;
             else btnQuiz.className = active;
             subtitle.textContent = currentQuiz().subtitle;
             showQuizBank();
@@ -2564,8 +2584,8 @@
         }
 
         async function loadAllQuizzes() {
-            await Promise.all([loadQuizBank("quiz"), loadQuizBank("quiz2")]);
-            if (state.appModule === "quiz" || state.appModule === "quiz2") showQuizBank();
+            await Promise.all([loadQuizBank("quiz"), loadQuizBank("quiz2"), loadQuizBank("quiz3")]);
+            if (state.appModule === "quiz" || state.appModule === "quiz2" || state.appModule === "quiz3") showQuizBank();
         }
 
         function showQuizBank() {
