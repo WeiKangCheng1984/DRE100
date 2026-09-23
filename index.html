@@ -2044,18 +2044,22 @@
             }, 2400);
         }
 
-        function toggleDarkMode() {
-            const isDark = document.documentElement.classList.toggle('dark');
+        function applyTheme(isDark) {
+            document.documentElement.classList.toggle('dark', isDark);
             document.getElementById('themeIconSun').classList.toggle('hidden', !isDark);
             document.getElementById('themeIconMoon').classList.toggle('hidden', isDark);
         }
 
+        function toggleDarkMode() {
+            const isDark = document.documentElement.classList.toggle('dark');
+            document.getElementById('themeIconSun').classList.toggle('hidden', !isDark);
+            document.getElementById('themeIconMoon').classList.toggle('hidden', isDark);
+            localStorage.setItem('dre-theme', isDark ? 'dark' : 'light');
+        }
+
         function setupTheme() {
-            if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-                document.documentElement.classList.add('dark');
-                document.getElementById('themeIconSun').classList.remove('hidden');
-                document.getElementById('themeIconMoon').classList.add('hidden');
-            }
+            const saved = localStorage.getItem('dre-theme');
+            applyTheme(saved === 'dark');
         }
 
         // Keyboard navigation for flashcards and quiz
