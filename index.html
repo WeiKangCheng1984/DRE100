@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>加州 DRE 不動產複習：名詞手冊、衝刺280、精讀講義與題庫練習</title>
+    <title>加州 DRE 不動產複習：名詞手冊、衝刺280、會話練習、精讀講義與題庫</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -163,13 +163,16 @@
                     <button id="btnModuleCram" onclick="switchModule('cram')" class="px-2.5 sm:px-3 py-1.5 rounded-lg font-medium transition-all text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white">
                         衝刺280
                     </button>
+                    <button id="btnModuleSpeak" onclick="switchModule('speak')" class="px-2.5 sm:px-3 py-1.5 rounded-lg font-medium transition-all text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white">
+                        會話練習
+                    </button>
                     <button id="btnModuleQuiz" onclick="switchModule('quiz')" class="px-2.5 sm:px-3 py-1.5 rounded-lg font-medium transition-all text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white">
                         題庫練習
                     </button>
-                    <button id="btnModuleQuiz2" onclick="switchModule('quiz2')" class="px-2.5 sm:px-3 py-1.5 rounded-lg font-medium transition-all text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white">
+                    <button id="btnModuleQuiz2" onclick="switchModule('quiz3')" class="px-2.5 sm:px-3 py-1.5 rounded-lg font-medium transition-all text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white">
                         題庫練習二
                     </button>
-                    <button id="btnModuleQuiz3" onclick="switchModule('quiz3')" class="px-2.5 sm:px-3 py-1.5 rounded-lg font-medium transition-all text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white">
+                    <button id="btnModuleQuiz3" onclick="switchModule('quiz3')" class="hidden px-2.5 sm:px-3 py-1.5 rounded-lg font-medium transition-all text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white" aria-hidden="true" tabindex="-1">
                         題庫練習三
                     </button>
                 </div>
@@ -196,6 +199,14 @@
                     </button>
                     <button id="btnCramCardMode" onclick="switchCramView('card')" class="px-3 py-1.5 rounded-lg font-medium transition-all text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white">
                         英文字卡
+                    </button>
+                </div>
+                <div id="speakViewSwitch" class="flex items-center bg-slate-100 dark:bg-slate-800 p-1 rounded-xl border border-slate-200 dark:border-slate-700 text-xs sm:text-sm" style="display:none">
+                    <button id="btnSpeakAllRoles" onclick="setSpeakRoleFilter('all')" class="px-3 py-1.5 rounded-lg font-medium transition-all shadow-sm bg-white dark:bg-slate-700 text-blue-700 dark:text-blue-300">
+                        完整對話
+                    </button>
+                    <button id="btnSpeakAgentOnly" onclick="setSpeakRoleFilter('agent')" class="px-3 py-1.5 rounded-lg font-medium transition-all text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white">
+                        只練業務員
                     </button>
                 </div>
 
@@ -505,6 +516,115 @@
                 <div class="text-4xl mb-2">🔍</div>
                 <p class="text-slate-500 dark:text-slate-400 font-medium">No matching cram points. Try another English keyword or section.</p>
                 <button onclick="resetCramFilters()" class="mt-4 px-4 py-2 bg-blue-600 text-white text-sm rounded-xl hover:bg-blue-700 transition">Reset filters</button>
+            </div>
+        </div>
+    </main>
+
+    <main id="speakMain" class="hidden flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-6 flex-col gap-5">
+        <div id="speakLoadError" class="hidden bg-red-50 dark:bg-red-950/40 border border-red-200 dark:border-red-800 rounded-2xl p-6 text-sm text-red-800 dark:text-red-200">
+            無法載入會話教材。請用本機伺服器開啟（例如 <code class="font-mono">python -m http.server 8765</code>）。
+        </div>
+        <div id="speakApp" class="hidden flex flex-col gap-5">
+            <div class="bg-white dark:bg-slate-900 rounded-2xl border border-slate-200 dark:border-slate-800 p-4 sm:p-5 shadow-sm flex flex-col gap-3">
+                <div class="flex flex-col gap-1">
+                    <h2 id="speakTitleZh" class="text-lg sm:text-xl font-bold text-slate-900 dark:text-white">業務員英語會話練習</h2>
+                    <p id="speakSubtitleZh" class="text-sm text-slate-500 dark:text-slate-400">看對話 → 聽發音 → 跟讀／角色扮演 → 抽換名詞舉一反三</p>
+                    <p id="speakDisclaimer" class="text-xs text-slate-400 dark:text-slate-500"></p>
+                </div>
+                <div class="flex flex-col md:flex-row gap-3 items-center justify-between">
+                    <div class="relative w-full md:w-[28rem]">
+                        <svg class="absolute left-3.5 top-1/2 -translate-y-1/2 w-4 h-4 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+                        </svg>
+                        <input
+                            type="text"
+                            id="speakSearchInput"
+                            placeholder="搜尋單元、情境、關鍵句（如：escrow, listing, 看屋）…"
+                            oninput="handleSpeakSearch()"
+                            class="w-full pl-10 pr-10 py-2.5 bg-slate-50 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 dark:focus:ring-blue-400 dark:text-white transition-colors"
+                        >
+                        <button id="speakClearSearchBtn" onclick="clearSpeakSearch()" class="hidden absolute right-3 top-1/2 -translate-y-1/2 text-slate-400 hover:text-slate-600 dark:hover:text-slate-200 text-sm">✕</button>
+                    </div>
+                    <div class="flex flex-wrap items-center gap-2 text-xs sm:text-sm">
+                        <span class="px-3 py-1.5 rounded-xl bg-slate-100 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-slate-600 dark:text-slate-300">
+                            <span id="speakUnitCount" class="font-semibold text-blue-600 dark:text-blue-400">0</span> 單元
+                        </span>
+                        <button type="button" onclick="speakRandomUnit()" class="px-3 py-1.5 rounded-xl bg-teal-600 hover:bg-teal-700 text-white font-medium shadow-sm transition-colors">
+                            隨機一單元
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-5 items-start">
+                <aside class="lg:col-span-4 xl:col-span-3 bg-white dark:bg-slate-900 rounded-2xl border border-slate-200 dark:border-slate-800 shadow-sm max-h-[70vh] overflow-y-auto custom-scroll">
+                    <div class="sticky top-0 z-10 px-3 py-2.5 bg-white/95 dark:bg-slate-900/95 backdrop-blur border-b border-slate-200 dark:border-slate-800 text-xs font-semibold text-slate-500 dark:text-slate-400 uppercase tracking-wider">
+                        單元列表
+                    </div>
+                    <div id="speakUnitList" class="p-2 flex flex-col gap-1"></div>
+                </aside>
+
+                <section class="lg:col-span-8 xl:col-span-9 flex flex-col gap-4" id="speakDetail">
+                    <div class="bg-white dark:bg-slate-900 rounded-2xl border border-slate-200 dark:border-slate-800 p-4 sm:p-6 shadow-sm flex flex-col gap-4">
+                        <div class="flex flex-col sm:flex-row sm:items-start justify-between gap-3">
+                            <div class="min-w-0">
+                                <div class="flex flex-wrap items-center gap-2 mb-1">
+                                    <span id="speakUnitBadge" class="px-2.5 py-1 rounded-lg text-xs font-bold bg-teal-50 dark:bg-teal-950/40 text-teal-700 dark:text-teal-300 border border-teal-200 dark:border-teal-800">Unit 01</span>
+                                    <span id="speakFairBadge" class="hidden px-2.5 py-1 rounded-lg text-xs font-semibold bg-amber-50 dark:bg-amber-950/40 text-amber-700 dark:text-amber-300 border border-amber-200 dark:border-amber-800">⚠ 公平住房</span>
+                                </div>
+                                <h3 id="speakUnitTitleZh" class="text-xl font-bold text-slate-900 dark:text-white"></h3>
+                                <p id="speakUnitTitleEn" class="text-sm text-slate-500 dark:text-slate-400 mt-0.5"></p>
+                            </div>
+                            <div class="flex flex-wrap gap-2 shrink-0">
+                                <button type="button" onclick="speakPrevUnit()" class="px-3 py-1.5 rounded-xl border border-slate-200 dark:border-slate-700 text-sm text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800">← 上一單元</button>
+                                <button type="button" onclick="speakNextUnit()" class="px-3 py-1.5 rounded-xl border border-slate-200 dark:border-slate-700 text-sm text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800">下一單元 →</button>
+                            </div>
+                        </div>
+                        <p id="speakScenario" class="text-sm text-slate-600 dark:text-slate-300 leading-relaxed"></p>
+                        <p id="speakCramRef" class="text-xs text-slate-400 dark:text-slate-500"></p>
+                        <p id="speakFairNote" class="hidden text-sm p-3 rounded-xl bg-amber-50 dark:bg-amber-950/30 border border-amber-200/70 dark:border-amber-800/40 text-amber-900 dark:text-amber-200"></p>
+                    </div>
+
+                    <div id="speakSlotsBox" class="bg-white dark:bg-slate-900 rounded-2xl border border-slate-200 dark:border-slate-800 p-4 sm:p-5 shadow-sm flex flex-col gap-3">
+                        <div class="flex flex-wrap items-center justify-between gap-2">
+                            <div>
+                                <h4 class="text-sm font-bold text-slate-800 dark:text-slate-100">可抽換詞槽 <span class="font-normal text-slate-400">（舉一反三）</span></h4>
+                                <p class="text-xs text-slate-400 mt-0.5">點選選項或按「隨機抽換」更新下方對話與關鍵句</p>
+                            </div>
+                            <button type="button" onclick="speakShuffleSlots()" class="px-3 py-1.5 rounded-xl bg-indigo-600 hover:bg-indigo-700 text-white text-xs sm:text-sm font-medium shadow-sm">隨機抽換</button>
+                        </div>
+                        <div id="speakSlotsControls" class="flex flex-col gap-2.5"></div>
+                    </div>
+
+                    <div class="bg-white dark:bg-slate-900 rounded-2xl border border-slate-200 dark:border-slate-800 p-4 sm:p-5 shadow-sm flex flex-col gap-3">
+                        <div class="flex flex-wrap items-center justify-between gap-2">
+                            <h4 class="text-sm font-bold text-slate-800 dark:text-slate-100">關鍵句</h4>
+                            <button type="button" onclick="speakPlayPhrases()" class="px-3 py-1.5 rounded-xl border border-teal-200 dark:border-teal-800 text-teal-700 dark:text-teal-300 text-xs sm:text-sm hover:bg-teal-50 dark:hover:bg-teal-950/40">依序朗讀關鍵句</button>
+                        </div>
+                        <div id="speakPhrases" class="flex flex-col gap-2"></div>
+                    </div>
+
+                    <div class="bg-white dark:bg-slate-900 rounded-2xl border border-slate-200 dark:border-slate-800 p-4 sm:p-5 shadow-sm flex flex-col gap-3">
+                        <div class="flex flex-wrap items-center justify-between gap-2">
+                            <h4 class="text-sm font-bold text-slate-800 dark:text-slate-100">對話練習</h4>
+                            <div class="flex flex-wrap gap-2">
+                                <button type="button" onclick="speakPlayDialogue()" class="px-3 py-1.5 rounded-xl bg-teal-600 hover:bg-teal-700 text-white text-xs sm:text-sm font-medium shadow-sm">播放整段對話</button>
+                                <button type="button" onclick="stopSpeech()" class="px-3 py-1.5 rounded-xl border border-slate-200 dark:border-slate-700 text-slate-600 dark:text-slate-300 text-xs sm:text-sm">停止</button>
+                            </div>
+                        </div>
+                        <div id="speakDialogue" class="flex flex-col gap-2.5"></div>
+                    </div>
+
+                    <div id="speakRewritesBox" class="hidden bg-white dark:bg-slate-900 rounded-2xl border border-slate-200 dark:border-slate-800 p-4 sm:p-5 shadow-sm flex flex-col gap-3">
+                        <h4 class="text-sm font-bold text-slate-800 dark:text-slate-100">安全改寫練習</h4>
+                        <div id="speakRewrites" class="flex flex-col gap-2"></div>
+                    </div>
+
+                    <div id="speakDrillsBox" class="bg-white dark:bg-slate-900 rounded-2xl border border-slate-200 dark:border-slate-800 p-4 sm:p-5 shadow-sm flex flex-col gap-2">
+                        <h4 class="text-sm font-bold text-slate-800 dark:text-slate-100">口語／抽換練習提示</h4>
+                        <ul id="speakDrills" class="list-disc pl-5 text-sm text-slate-600 dark:text-slate-300 space-y-1.5"></ul>
+                    </div>
+                </section>
             </div>
         </div>
     </main>
@@ -1497,7 +1617,7 @@
         ];
 
         let state = {
-            appModule: "glossary", // 'glossary' | 'notes' | 'cram' | 'quiz' | 'quiz2' | 'quiz3'
+            appModule: "glossary", // 'glossary' | 'notes' | 'cram' | 'speak' | 'quiz' | 'quiz2' | 'quiz3'
             currentDomain: "全部領域 (All)",
             searchQuery: "",
             viewMode: "list", // 'list' | 'card'
@@ -1517,6 +1637,7 @@
             setupSpeech();
             loadNotes();
             loadCram();
+            loadSpeak();
             loadAllQuizzes();
         }
 
@@ -1547,6 +1668,7 @@
         };
 
         let preferredEnglishVoice = null;
+        let speakQueuePlaying = false;
 
         function setupSpeech() {
             if (typeof window.speechSynthesis === "undefined") return;
@@ -1567,6 +1689,7 @@
         }
 
         function stopSpeech() {
+            speakQueuePlaying = false;
             if (typeof window.speechSynthesis !== "undefined") {
                 speechSynthesis.cancel();
             }
@@ -2088,6 +2211,11 @@
                 }
                 return;
             }
+            if (state.appModule === "speak") {
+                if (e.key === "ArrowRight") speakNextUnit();
+                if (e.key === "ArrowLeft") speakPrevUnit();
+                return;
+            }
             if (state.appModule === "quiz" || state.appModule === "quiz2" || state.appModule === "quiz3") {
                 if (e.key === "ArrowRight") quizNext();
                 if (e.key === "ArrowLeft") quizPrev();
@@ -2541,9 +2669,9 @@
                 key: "quiz3",
                 url: "data/questions3.json",
                 storageKey: "dre-quiz3-progress-v2",
-                label: "題庫練習三",
-                subtitle: "題庫練習三：LV17＋Level 延伸、中英對照解析（答案已依原文校正）",
-                resetToast: "已清除題庫練習三作答紀錄（選項順序已重新打亂）",
+                label: "題庫練習二",
+                subtitle: "題庫練習二：LV17＋Level 延伸、中英對照解析（答案已依原文校正）",
+                resetToast: "已清除題庫練習二作答紀錄（選項順序已重新打亂）",
                 shuffleChoices: true,
                 questions: [],
                 originalQuestions: [],
@@ -2597,17 +2725,22 @@
 
         function switchModule(mod) {
             stopSpeech();
+            // 舊「題庫練習二」已下架，導向現改名為題庫練習二的 quiz3
+            if (mod === "quiz2") mod = "quiz3";
             state.appModule = mod;
             const glossaryMain = document.getElementById("glossaryMain");
             const notesMain = document.getElementById("notesMain");
             const cramMain = document.getElementById("cramMain");
+            const speakMain = document.getElementById("speakMain");
             const quizMain = document.getElementById("quizMain");
             const glossarySwitch = document.getElementById("glossaryViewSwitch");
             const notesSwitch = document.getElementById("notesViewSwitch");
             const cramSwitch = document.getElementById("cramViewSwitch");
+            const speakSwitch = document.getElementById("speakViewSwitch");
             const btnGlossary = document.getElementById("btnModuleGlossary");
             const btnNotes = document.getElementById("btnModuleNotes");
             const btnCram = document.getElementById("btnModuleCram");
+            const btnSpeak = document.getElementById("btnModuleSpeak");
             const btnQuiz = document.getElementById("btnModuleQuiz");
             const btnQuiz2 = document.getElementById("btnModuleQuiz2");
             const btnQuiz3 = document.getElementById("btnModuleQuiz3");
@@ -2618,16 +2751,19 @@
             btnGlossary.className = idle;
             btnNotes.className = idle;
             btnCram.className = idle;
+            if (btnSpeak) btnSpeak.className = idle;
             btnQuiz.className = idle;
             btnQuiz2.className = idle;
-            btnQuiz3.className = idle;
+            btnQuiz3.className = "hidden " + idle;
             glossaryMain.style.display = "none";
             notesMain.style.display = "none";
             cramMain.style.display = "none";
+            if (speakMain) speakMain.style.display = "none";
             quizMain.style.display = "none";
             glossarySwitch.style.display = "none";
             notesSwitch.style.display = "none";
             cramSwitch.style.display = "none";
+            if (speakSwitch) speakSwitch.style.display = "none";
 
             if (mod === "glossary") {
                 glossaryMain.style.display = "";
@@ -2655,10 +2791,18 @@
                 return;
             }
 
+            if (mod === "speak") {
+                if (speakMain) speakMain.style.display = "flex";
+                if (speakSwitch) speakSwitch.style.display = "";
+                if (btnSpeak) btnSpeak.className = active;
+                subtitle.textContent = "會話練習：對話、發音與詞槽抽換";
+                renderSpeak();
+                return;
+            }
+
             quizMain.style.display = "flex";
             activeQuizKey = mod;
-            if (mod === "quiz3") btnQuiz3.className = active;
-            else if (mod === "quiz2") btnQuiz2.className = active;
+            if (mod === "quiz3") btnQuiz2.className = active;
             else btnQuiz.className = active;
             subtitle.textContent = currentQuiz().subtitle;
             showQuizBank();
@@ -2756,7 +2900,7 @@
         }
 
         async function loadAllQuizzes() {
-            await Promise.all([loadQuizBank("quiz"), loadQuizBank("quiz2"), loadQuizBank("quiz3")]);
+            await Promise.all([loadQuizBank("quiz"), loadQuizBank("quiz3")]);
             if (state.appModule === "quiz" || state.appModule === "quiz2" || state.appModule === "quiz3") showQuizBank();
         }
 
@@ -3187,6 +3331,414 @@
             cramState.cardFlipped = false;
             renderCram();
             showToast("Random drill #" + items[cramState.cardIndex].id, "info");
+        }
+
+        /* ========== Speak / Conversation module ========== */
+        const SPEAK_UNIT_KEY = "dre-speak-unit-v1";
+        const speakState = {
+            loaded: false,
+            failed: false,
+            titleZh: "",
+            subtitleZh: "",
+            disclaimerZh: "",
+            units: [],
+            searchQuery: "",
+            unitIndex: 0,
+            slotValues: {},
+            roleFilter: "all", // all | agent
+            queuePlaying: false
+        };
+
+        async function loadSpeak() {
+            try {
+                const res = await fetch("data/speak40.json");
+                if (!res.ok) throw new Error("fetch failed");
+                const payload = await res.json();
+                speakState.units = payload.units || [];
+                speakState.titleZh = payload.titleZh || "會話練習";
+                speakState.subtitleZh = payload.subtitleZh || "";
+                speakState.disclaimerZh = payload.disclaimerZh || "";
+                speakState.loaded = true;
+                speakState.failed = false;
+                try {
+                    const saved = parseInt(localStorage.getItem(SPEAK_UNIT_KEY) || "0", 10);
+                    if (!isNaN(saved) && saved >= 0 && saved < speakState.units.length) {
+                        speakState.unitIndex = saved;
+                    }
+                } catch (e) { /* ignore */ }
+                initSpeakSlotsForCurrent();
+            } catch (err) {
+                speakState.loaded = false;
+                speakState.failed = true;
+            }
+            if (state.appModule === "speak") renderSpeak();
+        }
+
+        function currentSpeakUnit() {
+            return speakState.units[speakState.unitIndex] || null;
+        }
+
+        function initSpeakSlotsForCurrent() {
+            const unit = currentSpeakUnit();
+            speakState.slotValues = {};
+            if (!unit || !unit.slots) return;
+            Object.keys(unit.slots).forEach((key) => {
+                const opts = unit.slots[key] || [];
+                speakState.slotValues[key] = opts.length ? opts[0] : "";
+            });
+        }
+
+        function applySpeakSlots(text) {
+            let out = String(text || "");
+            Object.keys(speakState.slotValues).forEach((key) => {
+                const val = speakState.slotValues[key];
+                out = out.split("{{" + key + "}}").join(val);
+            });
+            return out;
+        }
+
+        function getFilteredSpeakUnits() {
+            const q = speakState.searchQuery.trim().toLowerCase();
+            if (!q) return speakState.units.slice();
+            return speakState.units.filter((u) => {
+                const blob = [
+                    u.num, u.titleZh, u.titleEn, u.scenario, u.cramRef,
+                    ...(u.phrases || []).map((p) => p.en + " " + (p.zh || "")),
+                    ...(u.dialogue || []).map((d) => d.en),
+                    ...(u.drills || [])
+                ].join(" ").toLowerCase();
+                return blob.includes(q);
+            });
+        }
+
+        function handleSpeakSearch() {
+            const input = document.getElementById("speakSearchInput");
+            speakState.searchQuery = input ? input.value : "";
+            const clearBtn = document.getElementById("speakClearSearchBtn");
+            if (clearBtn) clearBtn.classList.toggle("hidden", !speakState.searchQuery);
+            renderSpeakUnitList();
+        }
+
+        function clearSpeakSearch() {
+            const input = document.getElementById("speakSearchInput");
+            if (input) input.value = "";
+            speakState.searchQuery = "";
+            const clearBtn = document.getElementById("speakClearSearchBtn");
+            if (clearBtn) clearBtn.classList.add("hidden");
+            renderSpeakUnitList();
+        }
+
+        function selectSpeakUnit(index) {
+            if (index < 0 || index >= speakState.units.length) return;
+            stopSpeech();
+            speakState.unitIndex = index;
+            try { localStorage.setItem(SPEAK_UNIT_KEY, String(index)); } catch (e) { /* ignore */ }
+            initSpeakSlotsForCurrent();
+            renderSpeak();
+        }
+
+        function speakPrevUnit() {
+            if (speakState.unitIndex > 0) selectSpeakUnit(speakState.unitIndex - 1);
+        }
+
+        function speakNextUnit() {
+            if (speakState.unitIndex < speakState.units.length - 1) selectSpeakUnit(speakState.unitIndex + 1);
+        }
+
+        function speakRandomUnit() {
+            const list = getFilteredSpeakUnits();
+            if (!list.length) return;
+            const pick = list[Math.floor(Math.random() * list.length)];
+            const idx = speakState.units.findIndex((u) => u.id === pick.id);
+            if (idx >= 0) selectSpeakUnit(idx);
+        }
+
+        function setSpeakRoleFilter(mode) {
+            speakState.roleFilter = mode === "agent" ? "agent" : "all";
+            const active = "px-3 py-1.5 rounded-lg font-medium transition-all shadow-sm bg-white dark:bg-slate-700 text-blue-700 dark:text-blue-300";
+            const idle = "px-3 py-1.5 rounded-lg font-medium transition-all text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white";
+            const allBtn = document.getElementById("btnSpeakAllRoles");
+            const agentBtn = document.getElementById("btnSpeakAgentOnly");
+            if (allBtn) allBtn.className = speakState.roleFilter === "all" ? active : idle;
+            if (agentBtn) agentBtn.className = speakState.roleFilter === "agent" ? active : idle;
+            renderSpeakDialogue();
+        }
+
+        function speakShuffleSlots() {
+            const unit = currentSpeakUnit();
+            if (!unit || !unit.slots) return;
+            Object.keys(unit.slots).forEach((key) => {
+                const opts = unit.slots[key] || [];
+                if (!opts.length) return;
+                speakState.slotValues[key] = opts[Math.floor(Math.random() * opts.length)];
+            });
+            renderSpeakDetailBody();
+            showToast("已隨機抽換詞槽", "info");
+        }
+
+        function speakSetSlot(key, value) {
+            speakState.slotValues[key] = value;
+            renderSpeakDetailBody();
+        }
+
+        function speakQueueTexts(texts) {
+            const list = (texts || []).map((t) => applySpeakSlots(t)).filter(Boolean);
+            if (!list.length) return;
+            if (!canSpeakEnglish()) {
+                showToast("此裝置或瀏覽器不支援語音朗讀", "error");
+                return;
+            }
+            stopSpeech();
+            speakQueuePlaying = true;
+            let i = 0;
+            const playNext = () => {
+                if (!speakQueuePlaying || i >= list.length) {
+                    speakQueuePlaying = false;
+                    return;
+                }
+                const utter = new SpeechSynthesisUtterance(applySpeakAs(list[i]));
+                utter.lang = "en-US";
+                utter.rate = 0.9;
+                utter.pitch = 1;
+                if (preferredEnglishVoice) utter.voice = preferredEnglishVoice;
+                i += 1;
+                utter.onend = () => setTimeout(playNext, 280);
+                utter.onerror = () => { speakQueuePlaying = false; };
+                speechSynthesis.speak(utter);
+            };
+            playNext();
+        }
+
+        function speakPlayDialogue() {
+            const unit = currentSpeakUnit();
+            if (!unit) return;
+            const lines = (unit.dialogue || []).filter((line) => {
+                if (speakState.roleFilter !== "agent") return true;
+                return line.role === "A";
+            });
+            speakQueueTexts(lines.map((l) => l.en));
+        }
+
+        function speakPlayPhrases() {
+            const unit = currentSpeakUnit();
+            if (!unit) return;
+            speakQueueTexts((unit.phrases || []).map((p) => p.en));
+        }
+
+        function renderSpeak() {
+            const err = document.getElementById("speakLoadError");
+            const app = document.getElementById("speakApp");
+            if (!speakState.loaded) {
+                if (err) err.classList.toggle("hidden", !speakState.failed);
+                if (app) app.classList.add("hidden");
+                return;
+            }
+            if (err) err.classList.add("hidden");
+            if (app) app.classList.remove("hidden");
+
+            const titleEl = document.getElementById("speakTitleZh");
+            const subEl = document.getElementById("speakSubtitleZh");
+            const discEl = document.getElementById("speakDisclaimer");
+            const countEl = document.getElementById("speakUnitCount");
+            if (titleEl) titleEl.textContent = speakState.titleZh;
+            if (subEl) subEl.textContent = speakState.subtitleZh;
+            if (discEl) discEl.textContent = speakState.disclaimerZh;
+            if (countEl) countEl.textContent = String(speakState.units.length);
+
+            setSpeakRoleFilter(speakState.roleFilter);
+            renderSpeakUnitList();
+            renderSpeakDetail();
+        }
+
+        function renderSpeakUnitList() {
+            const box = document.getElementById("speakUnitList");
+            if (!box) return;
+            const filtered = getFilteredSpeakUnits();
+            if (!filtered.length) {
+                box.innerHTML = '<p class="px-3 py-6 text-sm text-slate-400 text-center">沒有符合的單元</p>';
+                return;
+            }
+            box.innerHTML = filtered.map((u) => {
+                const active = u.num === (currentSpeakUnit() && currentSpeakUnit().num);
+                const cls = active
+                    ? "w-full text-left px-3 py-2.5 rounded-xl bg-teal-50 dark:bg-teal-950/40 border border-teal-200 dark:border-teal-800 text-teal-900 dark:text-teal-100"
+                    : "w-full text-left px-3 py-2.5 rounded-xl hover:bg-slate-50 dark:hover:bg-slate-800/80 border border-transparent text-slate-700 dark:text-slate-200";
+                const idx = speakState.units.findIndex((x) => x.id === u.id);
+                return (
+                    '<button type="button" class="' + cls + '" onclick="selectSpeakUnit(' + idx + ')">' +
+                    '<div class="flex items-start gap-2">' +
+                    '<span class="text-xs font-bold text-teal-600 dark:text-teal-400 shrink-0">' + String(u.num).padStart(2, "0") + "</span>" +
+                    '<span class="text-sm font-medium leading-snug">' + escapeHtml(u.titleZh) +
+                    (u.fairHousing ? ' <span class="text-amber-600 text-xs">⚠</span>' : "") +
+                    "</span></div>" +
+                    '<p class="text-xs text-slate-400 mt-0.5 pl-6 truncate">' + escapeHtml(u.titleEn || "") + "</p>" +
+                    "</button>"
+                );
+            }).join("");
+        }
+
+        function renderSpeakDetail() {
+            const unit = currentSpeakUnit();
+            if (!unit) return;
+            document.getElementById("speakUnitBadge").textContent = "Unit " + String(unit.num).padStart(2, "0");
+            document.getElementById("speakUnitTitleZh").textContent = unit.titleZh;
+            document.getElementById("speakUnitTitleEn").textContent = unit.titleEn || "";
+            document.getElementById("speakScenario").textContent = unit.scenario ? ("情境：" + unit.scenario) : "";
+            document.getElementById("speakCramRef").textContent = unit.cramRef ? ("對應知識點：" + unit.cramRef) : "";
+            const fairBadge = document.getElementById("speakFairBadge");
+            const fairNote = document.getElementById("speakFairNote");
+            if (fairBadge) fairBadge.classList.toggle("hidden", !unit.fairHousing);
+            if (fairNote) {
+                if (unit.fairHousingNote) {
+                    fairNote.classList.remove("hidden");
+                    fairNote.textContent = unit.fairHousingNote;
+                } else {
+                    fairNote.classList.add("hidden");
+                    fairNote.textContent = "";
+                }
+            }
+            renderSpeakDetailBody();
+        }
+
+        function renderSpeakDetailBody() {
+            renderSpeakSlots();
+            renderSpeakPhrases();
+            renderSpeakDialogue();
+            renderSpeakRewrites();
+            renderSpeakDrills();
+        }
+
+        function renderSpeakSlots() {
+            const unit = currentSpeakUnit();
+            const box = document.getElementById("speakSlotsControls");
+            const wrap = document.getElementById("speakSlotsBox");
+            if (!box || !wrap || !unit) return;
+            const keys = Object.keys(unit.slots || {});
+            if (!keys.length) {
+                wrap.classList.add("hidden");
+                box.innerHTML = "";
+                return;
+            }
+            wrap.classList.remove("hidden");
+            box.innerHTML = keys.map((key) => {
+                const opts = unit.slots[key] || [];
+                const cur = speakState.slotValues[key] || "";
+                const options = opts.map((o) => {
+                    const sel = o === cur ? " selected" : "";
+                    return "<option value=\"" + escapeHtml(o) + "\"" + sel + ">" + escapeHtml(o) + "</option>";
+                }).join("");
+                return (
+                    '<div class="flex flex-col sm:flex-row sm:items-center gap-1.5 sm:gap-3">' +
+                    '<label class="text-xs font-semibold text-indigo-600 dark:text-indigo-400 sm:w-36 shrink-0 font-mono">{{' + escapeHtml(key) + "}}</label>" +
+                    '<select onchange="speakSetSlot(\'' + key + '\', this.value)" class="flex-1 px-3 py-2 rounded-xl bg-slate-50 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-sm text-slate-800 dark:text-slate-100 focus:outline-none focus:ring-2 focus:ring-indigo-500">' +
+                    options +
+                    "</select></div>"
+                );
+            }).join("");
+        }
+
+        function renderSpeakPhrases() {
+            const unit = currentSpeakUnit();
+            const box = document.getElementById("speakPhrases");
+            if (!box || !unit) return;
+            const phrases = unit.phrases || [];
+            if (!phrases.length) {
+                box.innerHTML = '<p class="text-sm text-slate-400">本單元以對話為主，請見下方對話練習。</p>';
+                return;
+            }
+            box.innerHTML = phrases.map((p) => {
+                const en = applySpeakSlots(p.en);
+                return (
+                    '<div class="flex flex-col gap-1 p-3 rounded-xl bg-slate-50 dark:bg-slate-800/60 border border-slate-200 dark:border-slate-700">' +
+                    '<div class="flex items-start gap-2">' +
+                    '<p class="flex-1 text-sm sm:text-base font-medium text-slate-900 dark:text-white leading-snug">' + escapeHtml(en) + "</p>" +
+                    speakButtonHtml(en, "") +
+                    "</div>" +
+                    (p.ipa ? '<p class="text-xs font-mono text-slate-400">' + escapeHtml(p.ipa) + "</p>" : "") +
+                    (p.zh ? '<p class="text-xs text-slate-500 dark:text-slate-400">' + escapeHtml(p.zh) + "</p>" : "") +
+                    "</div>"
+                );
+            }).join("");
+        }
+
+        function renderSpeakDialogue() {
+            const unit = currentSpeakUnit();
+            const box = document.getElementById("speakDialogue");
+            if (!box || !unit) return;
+            let lines = unit.dialogue || [];
+            if (speakState.roleFilter === "agent") {
+                lines = lines.filter((l) => l.role === "A");
+            }
+            if (!lines.length) {
+                box.innerHTML = '<p class="text-sm text-slate-400">此篩選下沒有對話句。</p>';
+                return;
+            }
+            const roleColor = {
+                A: "bg-teal-50 dark:bg-teal-950/30 border-teal-200 dark:border-teal-800",
+                B: "bg-slate-50 dark:bg-slate-800/50 border-slate-200 dark:border-slate-700",
+                S: "bg-amber-50 dark:bg-amber-950/30 border-amber-200 dark:border-amber-800",
+                C: "bg-indigo-50 dark:bg-indigo-950/30 border-indigo-200 dark:border-indigo-800"
+            };
+            box.innerHTML = lines.map((line) => {
+                const en = applySpeakSlots(line.en);
+                const color = roleColor[line.role] || roleColor.B;
+                const isAgent = line.role === "A";
+                return (
+                    '<div class="p-3 sm:p-4 rounded-xl border ' + color + '">' +
+                    '<div class="flex items-center justify-between gap-2 mb-1.5">' +
+                    '<span class="text-xs font-bold uppercase tracking-wide ' + (isAgent ? "text-teal-700 dark:text-teal-300" : "text-slate-500 dark:text-slate-400") + '">' +
+                    escapeHtml(line.roleLabel || line.role) +
+                    "</span>" +
+                    speakButtonHtml(en, "") +
+                    "</div>" +
+                    '<p class="text-sm sm:text-base text-slate-800 dark:text-slate-100 leading-relaxed">' + escapeHtml(en) + "</p>" +
+                    "</div>"
+                );
+            }).join("");
+        }
+
+        function renderSpeakRewrites() {
+            const unit = currentSpeakUnit();
+            const wrap = document.getElementById("speakRewritesBox");
+            const box = document.getElementById("speakRewrites");
+            if (!wrap || !box || !unit) return;
+            const rows = unit.rewrites || [];
+            if (!rows.length) {
+                wrap.classList.add("hidden");
+                box.innerHTML = "";
+                return;
+            }
+            wrap.classList.remove("hidden");
+            box.innerHTML = rows.map((r) => {
+                return (
+                    '<div class="grid grid-cols-1 md:grid-cols-2 gap-2 p-3 rounded-xl border border-slate-200 dark:border-slate-700">' +
+                    '<div class="p-2.5 rounded-lg bg-red-50 dark:bg-red-950/30">' +
+                    '<p class="text-xs font-semibold text-red-600 dark:text-red-300 mb-1">避免這樣說</p>' +
+                    '<p class="text-sm text-slate-700 dark:text-slate-200">' + escapeHtml(r.unsafe) + "</p>" +
+                    "</div>" +
+                    '<div class="p-2.5 rounded-lg bg-emerald-50 dark:bg-emerald-950/30">' +
+                    '<div class="flex items-start justify-between gap-2">' +
+                    '<div><p class="text-xs font-semibold text-emerald-700 dark:text-emerald-300 mb-1">改說</p>' +
+                    '<p class="text-sm text-slate-800 dark:text-slate-100">' + escapeHtml(r.safe) + "</p></div>" +
+                    speakButtonHtml(r.safe, "") +
+                    "</div></div></div>"
+                );
+            }).join("");
+        }
+
+        function renderSpeakDrills() {
+            const unit = currentSpeakUnit();
+            const wrap = document.getElementById("speakDrillsBox");
+            const box = document.getElementById("speakDrills");
+            if (!box || !unit) return;
+            const drills = unit.drills || [];
+            if (!drills.length) {
+                if (wrap) wrap.classList.add("hidden");
+                box.innerHTML = "";
+                return;
+            }
+            if (wrap) wrap.classList.remove("hidden");
+            box.innerHTML = drills.map((d) => "<li>" + escapeHtml(d) + "</li>").join("");
         }
 
         // Initialize on load

@@ -1,0 +1,2508 @@
+{
+  "titleZh": "業務員英語會話練習",
+  "titleEn": "Real Estate Agent English Conversation — 40 Units",
+  "subtitleZh": "看對話 → 聽發音 → 跟讀／角色扮演 → 抽換名詞舉一反三",
+  "subtitleEn": "Dialogues, pronunciation, role-play, and swappable slots for practice.",
+  "disclaimerZh": "對話僅供溝通練習；正式交易請依現行加州法規、合約與公司政策。",
+  "globalSlots": {
+    "agent_name": [
+      "Alex",
+      "Jordan",
+      "Sam",
+      "Mia",
+      "Chris"
+    ],
+    "client_name": [
+      "Mr. Chen",
+      "Ms. Lopez",
+      "the Lees",
+      "David",
+      "Priya"
+    ],
+    "brokerage": [
+      "Summit Realty",
+      "Harbor Homes",
+      "Pacific Group"
+    ],
+    "city": [
+      "Irvine",
+      "San Jose",
+      "Torrance",
+      "Sacramento",
+      "Fresno"
+    ],
+    "neighborhood": [
+      "Woodbridge",
+      "Downtown",
+      "the Hills",
+      "near the park",
+      "this subdivision"
+    ],
+    "property_type": [
+      "single-family home",
+      "condo",
+      "townhouse",
+      "duplex",
+      "investment property"
+    ],
+    "beds": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "baths": [
+      "1",
+      "1.5",
+      "2",
+      "2.5",
+      "3"
+    ],
+    "sqft": [
+      "1,200",
+      "1,650",
+      "2,100",
+      "2,800"
+    ],
+    "list_price": [
+      "$699,000",
+      "$850,000",
+      "$1.2 million",
+      "$1.45 million"
+    ],
+    "offer_price": [
+      "$680,000",
+      "$825,000",
+      "$1.15 million"
+    ],
+    "loan_type": [
+      "conventional",
+      "FHA",
+      "VA",
+      "cash"
+    ],
+    "time": [
+      "this Saturday at 10 a.m.",
+      "tomorrow at 3 p.m.",
+      "weekday evenings"
+    ],
+    "feature": [
+      "updated kitchen",
+      "private backyard",
+      "two-car garage",
+      "open floor plan",
+      "mountain view"
+    ],
+    "issue": [
+      "roof leak",
+      "foundation crack",
+      "outdated HVAC",
+      "water heater",
+      "mold concern"
+    ],
+    "address": [
+      "123 Oak Street",
+      "88 Maple Ave",
+      "Unit 4B",
+      "450 Palm Court"
+    ],
+    "budget": [
+      "$700K–$800K",
+      "under $1M",
+      "around $1.2M"
+    ],
+    "must_have": [
+      "yard",
+      "home office",
+      "single story",
+      "good light"
+    ],
+    "year_built": [
+      "1985",
+      "2004",
+      "2018"
+    ],
+    "price_range": [
+      "$820K–$860K",
+      "$1.1M–$1.2M",
+      "$690K–$720K"
+    ],
+    "garage_spaces": [
+      "1",
+      "2",
+      "3"
+    ],
+    "parking_note": [
+      "limited",
+      "available",
+      "permit-only"
+    ],
+    "amenity": [
+      "pool",
+      "gym",
+      "clubhouse"
+    ],
+    "rent": [
+      "$2,400/mo",
+      "$3,100/mo"
+    ],
+    "lease_term": [
+      "12 months",
+      "month-to-month"
+    ],
+    "cap_rate": [
+      "4.5%",
+      "5%",
+      "6%"
+    ],
+    "closing_date": [
+      "in 30 days",
+      "April 15"
+    ],
+    "inspector": [
+      "licensed home inspector"
+    ]
+  },
+  "units": [
+    {
+      "id": "speak-01",
+      "num": 1,
+      "titleZh": "自我介紹與首次接觸",
+      "titleEn": "Introducing Yourself",
+      "scenario": "週年會／社區活動／首次見面，建立信任。",
+      "cramRef": "專業形象；Agency 起點（Customer → 之後才可能變 Client）。",
+      "fairHousing": false,
+      "fairHousingNote": "",
+      "slots": {
+        "agent_name": [
+          "Alex",
+          "Jordan",
+          "Sam",
+          "Mia",
+          "Chris"
+        ],
+        "brokerage": [
+          "Summit Realty",
+          "Harbor Homes",
+          "Pacific Group"
+        ],
+        "city": [
+          "Irvine",
+          "San Jose",
+          "Torrance",
+          "Sacramento",
+          "Fresno"
+        ]
+      },
+      "phrases": [
+        {
+          "en": "Hi, I'm {{agent_name}} with {{brokerage}}.",
+          "ipa": "/haɪ aɪm … wɪð …/",
+          "zh": "你好，我是某某經紀人，任職於…"
+        },
+        {
+          "en": "I help buyers and sellers in {{city}}.",
+          "ipa": "/aɪ hɛlp ˈbaɪərz ənd ˈsɛlərz/",
+          "zh": "我在…協助買賣雙方"
+        },
+        {
+          "en": "May I ask what brings you here today?",
+          "ipa": "/meɪ aɪ æsk …/",
+          "zh": "方便問今天什麼事找上門？"
+        }
+      ],
+      "dialogue": [
+        {
+          "role": "A",
+          "roleLabel": "Agent",
+          "en": "Hi, I'm {{agent_name}} with {{brokerage}}. Nice to meet you."
+        },
+        {
+          "role": "B",
+          "roleLabel": "Buyer / Client",
+          "en": "Nice to meet you too. We're thinking about buying in {{city}}."
+        },
+        {
+          "role": "A",
+          "roleLabel": "Agent",
+          "en": "Great. I help buyers and sellers in {{city}}. May I ask what brings you here today?"
+        },
+        {
+          "role": "B",
+          "roleLabel": "Buyer / Client",
+          "en": "We're just starting to look."
+        },
+        {
+          "role": "A",
+          "roleLabel": "Agent",
+          "en": "Perfect. No pressure—happy to answer questions and share what the market looks like."
+        }
+      ],
+      "drills": [
+        "用自己的名字換成 `{{agent_name}}` 說三遍開場。",
+        "對方說 “We're just browsing.” 回一句不施壓的歡迎。",
+        "把 `{{city}}` 換成三個不同城市；把 “buying” 改成 “selling” 再說一次。"
+      ],
+      "rewrites": []
+    },
+    {
+      "id": "speak-02",
+      "num": 2,
+      "titleZh": "電話詢問與預約看屋",
+      "titleEn": "Phone Inquiry & Scheduling a Showing",
+      "scenario": "買家來電問某房源；約看屋時間。",
+      "cramRef": "Showing；Ready, willing and able（之後才談）。",
+      "fairHousing": false,
+      "fairHousingNote": "",
+      "slots": {
+        "address": [
+          "123 Oak Street",
+          "88 Maple Ave",
+          "Unit 4B",
+          "450 Palm Court"
+        ],
+        "time": [
+          "this Saturday at 10 a.m.",
+          "tomorrow at 3 p.m.",
+          "weekday evenings"
+        ],
+        "property_type": [
+          "single-family home",
+          "condo",
+          "townhouse",
+          "duplex",
+          "investment property"
+        ],
+        "agent_name": [
+          "Alex",
+          "Jordan",
+          "Sam",
+          "Mia",
+          "Chris"
+        ]
+      },
+      "phrases": [
+        {
+          "en": "Thanks for calling about {{address}}.",
+          "ipa": "/θæŋks fər ˈkɔːlɪŋ/",
+          "zh": "謝謝來電詢問…"
+        },
+        {
+          "en": "Are you available {{time}}?",
+          "ipa": "/ər juː əˈveɪləbəl/",
+          "zh": "…方便嗎？"
+        },
+        {
+          "en": "I'll text you the gate code and parking tips.",
+          "ipa": "/ɡeɪt koʊd/",
+          "zh": "我會簡訊門禁碼與停車提醒"
+        }
+      ],
+      "dialogue": [
+        {
+          "role": "A",
+          "roleLabel": "Agent",
+          "en": "Thanks for calling about the {{property_type}} at {{address}}. This is {{agent_name}}."
+        },
+        {
+          "role": "B",
+          "roleLabel": "Buyer / Client",
+          "en": "Hi. Can we see it this weekend?"
+        },
+        {
+          "role": "A",
+          "roleLabel": "Agent",
+          "en": "Absolutely. Are you available {{time}}?"
+        },
+        {
+          "role": "B",
+          "roleLabel": "Buyer / Client",
+          "en": "That works."
+        },
+        {
+          "role": "A",
+          "roleLabel": "Agent",
+          "en": "Great. I'll confirm and text you the address, gate code, and parking tips."
+        }
+      ],
+      "drills": [
+        "對方說 “We're free after 2.” → 你提出兩個時段選項。",
+        "換三組 `{{address}}` + `{{time}}`；練習「確認＋簡訊預告」收尾。"
+      ],
+      "rewrites": []
+    },
+    {
+      "id": "speak-03",
+      "num": 3,
+      "titleZh": "釐清買家需求",
+      "titleEn": "Qualifying Buyer Needs",
+      "scenario": "第一次諮詢，釐清預算、區域、房型（不引導歧視條件）。",
+      "cramRef": "Demand／Utility；Situs（地利）；Budget。",
+      "fairHousing": true,
+      "fairHousingNote": "不要問／不要假設種族、宗教、家庭組成「該住哪」；只談客戶**主動提出**的區域與生活需求。",
+      "slots": {
+        "beds": [
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "baths": [
+          "1",
+          "1.5",
+          "2",
+          "2.5",
+          "3"
+        ],
+        "budget": [
+          "$700K–$800K",
+          "under $1M",
+          "around $1.2M"
+        ],
+        "must_have": [
+          "yard",
+          "home office",
+          "single story",
+          "good light"
+        ],
+        "city": [
+          "Irvine",
+          "San Jose",
+          "Torrance",
+          "Sacramento",
+          "Fresno"
+        ],
+        "neighborhood": [
+          "Woodbridge",
+          "Downtown",
+          "the Hills",
+          "near the park",
+          "this subdivision"
+        ]
+      },
+      "phrases": [
+        {
+          "en": "What are your must-haves versus nice-to-haves?",
+          "ipa": "/mʌst hævz/",
+          "zh": "必要條件 vs 加分項？"
+        },
+        {
+          "en": "What's a comfortable monthly payment range?",
+          "ipa": "/ˈkʌmftərbəl/",
+          "zh": "舒服的月付區間？"
+        },
+        {
+          "en": "Which areas are on your short list?",
+          "ipa": "/ʃɔːrt lɪst/",
+          "zh": "候選區域有哪些？"
+        }
+      ],
+      "dialogue": [
+        {
+          "role": "A",
+          "roleLabel": "Agent",
+          "en": "To save you time, what are your must-haves versus nice-to-haves?"
+        },
+        {
+          "role": "B",
+          "roleLabel": "Buyer / Client",
+          "en": "We need {{beds}} bedrooms and a {{must_have}}."
+        },
+        {
+          "role": "A",
+          "roleLabel": "Agent",
+          "en": "Got it. What's a comfortable price range—or monthly payment range—for you?"
+        },
+        {
+          "role": "B",
+          "roleLabel": "Buyer / Client",
+          "en": "Around {{budget}}."
+        },
+        {
+          "role": "A",
+          "roleLabel": "Agent",
+          "en": "And which areas are on your short list in {{city}}?"
+        },
+        {
+          "role": "B",
+          "roleLabel": "Buyer / Client",
+          "en": "Mostly {{neighborhood}}."
+        },
+        {
+          "role": "A",
+          "roleLabel": "Agent",
+          "en": "Perfect. I'll pull options that match those priorities."
+        }
+      ],
+      "drills": [
+        "換 `{{beds}}`、`{{must_have}}`、`{{budget}}` 各兩組，重講一次。"
+      ],
+      "rewrites": []
+    },
+    {
+      "id": "speak-04",
+      "num": 4,
+      "titleZh": "看屋開場與帶看禮儀",
+      "titleEn": "Showing Opening & Etiquette",
+      "scenario": "抵達屋外，開場、戴鞋套、尊重屋主財物。",
+      "cramRef": "Showing 專業度；Fiduciary／注意義務（對委託人）。",
+      "fairHousing": false,
+      "fairHousingNote": "",
+      "slots": {
+        "address": [
+          "123 Oak Street",
+          "88 Maple Ave",
+          "Unit 4B",
+          "450 Palm Court"
+        ]
+      },
+      "phrases": [
+        {
+          "en": "Please feel free to take your time.",
+          "ipa": "/teɪk jʊər taɪm/",
+          "zh": ""
+        },
+        {
+          "en": "Let me know if you'd like me to open any cabinets.",
+          "ipa": "/ˈkæbɪnɪts/",
+          "zh": ""
+        },
+        {
+          "en": "We'll leave everything as we found it.",
+          "ipa": "",
+          "zh": ""
+        }
+      ],
+      "dialogue": [
+        {
+          "role": "A",
+          "roleLabel": "Agent",
+          "en": "Welcome! This is {{address}}. Before we go in—any questions from the photos?"
+        },
+        {
+          "role": "B",
+          "roleLabel": "Buyer / Client",
+          "en": "Not yet. We're excited."
+        },
+        {
+          "role": "A",
+          "roleLabel": "Agent",
+          "en": "Great. Please feel free to take your time. Let me know if you'd like me to open any cabinets or the garage."
+        },
+        {
+          "role": "B",
+          "roleLabel": "Buyer / Client",
+          "en": "Can we see the backyard first?"
+        },
+        {
+          "role": "A",
+          "roleLabel": "Agent",
+          "en": "Of course—right this way."
+        }
+      ],
+      "drills": [
+        "練習：進門前說一句安全／禮儀提醒（鞋套、寵物、請勿飲食）。"
+      ],
+      "rewrites": []
+    },
+    {
+      "id": "speak-05",
+      "num": 5,
+      "titleZh": "描述屋況與空間",
+      "titleEn": "Describing the Property",
+      "scenario": "邊走邊介紹格局與亮點。",
+      "cramRef": "Real property／features；Utility。",
+      "fairHousing": false,
+      "fairHousingNote": "",
+      "slots": {
+        "feature": [
+          "updated kitchen",
+          "private backyard",
+          "two-car garage",
+          "open floor plan",
+          "mountain view"
+        ],
+        "sqft": [
+          "1,200",
+          "1,650",
+          "2,100",
+          "2,800"
+        ],
+        "year_built": [
+          "1985",
+          "2004",
+          "2018"
+        ],
+        "beds": [
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "baths": [
+          "1",
+          "1.5",
+          "2",
+          "2.5",
+          "3"
+        ]
+      },
+      "phrases": [
+        {
+          "en": "This home is about {{sqft}} square feet.",
+          "ipa": "",
+          "zh": "大約…平方英尺"
+        },
+        {
+          "en": "The standout feature is the {{feature}}.",
+          "ipa": "",
+          "zh": "最大亮點是…"
+        },
+        {
+          "en": "Built in {{year_built}}, with updates in the kitchen.",
+          "ipa": "",
+          "zh": "…年建造，廚房有更新"
+        }
+      ],
+      "dialogue": [
+        {
+          "role": "A",
+          "roleLabel": "Agent",
+          "en": "As we walk in, notice the {{feature}}. The home is about {{sqft}} square feet with {{beds}} beds and {{baths}} baths."
+        },
+        {
+          "role": "B",
+          "roleLabel": "Buyer / Client",
+          "en": "Is the flooring new?"
+        },
+        {
+          "role": "A",
+          "roleLabel": "Agent",
+          "en": "The listing notes updated flooring in the main living area. We can confirm details in the disclosures."
+        }
+      ],
+      "drills": [
+        "用同一句型輪換 4 個 `{{feature}}`（kitchen／yard／garage／view）。"
+      ],
+      "rewrites": []
+    },
+    {
+      "id": "speak-06",
+      "num": 6,
+      "titleZh": "區位與社區（安全說法）",
+      "titleEn": "Location & Neighborhood — Fair Housing Safe Talk",
+      "scenario": "談交通、便利、生活機能；**不**談「適合哪種人」。",
+      "cramRef": "Situs；⚠ Steering／Implicit bias。",
+      "fairHousing": true,
+      "fairHousingNote": "",
+      "slots": {
+        "neighborhood": [
+          "Woodbridge",
+          "Downtown",
+          "the Hills",
+          "near the park",
+          "this subdivision"
+        ],
+        "feature": [
+          "updated kitchen",
+          "private backyard",
+          "two-car garage",
+          "open floor plan",
+          "mountain view"
+        ]
+      },
+      "phrases": [
+        {
+          "en": "This area is popular for its parks and commute options.",
+          "ipa": "",
+          "zh": ""
+        },
+        {
+          "en": "I can share school rating websites and public data—you can decide what matters to you.",
+          "ipa": "",
+          "zh": ""
+        },
+        {
+          "en": "What lifestyle features matter most to you—walkability, quiet streets, or shopping?",
+          "ipa": "",
+          "zh": ""
+        }
+      ],
+      "dialogue": [
+        {
+          "role": "B",
+          "roleLabel": "Buyer / Client",
+          "en": "How's the neighborhood?"
+        },
+        {
+          "role": "A",
+          "roleLabel": "Agent",
+          "en": "Location-wise, {{neighborhood}} is known for {{feature}}. What matters most for you day to day?"
+        },
+        {
+          "role": "B",
+          "roleLabel": "Buyer / Client",
+          "en": "A quieter street and easier commute."
+        },
+        {
+          "role": "A",
+          "roleLabel": "Agent",
+          "en": "Then let's focus on homes that match those priorities. I can also point you to public data sources for schools and crime maps if you want to research."
+        }
+      ],
+      "drills": [
+        "把任何「某種人適合」的句子改成「功能／數據／客戶自選」。"
+      ],
+      "rewrites": [
+        {
+          "unsafe": "This is a good area for families like yours.",
+          "safe": "Many buyers like the parks and weekend farmers market."
+        },
+        {
+          "unsafe": "You might prefer that side of town.",
+          "safe": "Which side of town fits your commute better?"
+        }
+      ]
+    },
+    {
+      "id": "speak-07",
+      "num": 7,
+      "titleZh": "車庫、停車、附屬設施",
+      "titleEn": "Garage, Parking & Amenities",
+      "scenario": "",
+      "cramRef": "Appurtenance（附隨設施概念）；Amenities。",
+      "fairHousing": false,
+      "fairHousingNote": "",
+      "slots": {
+        "parking_note": [
+          "limited",
+          "available",
+          "permit-only"
+        ],
+        "amenity": [
+          "pool",
+          "gym",
+          "clubhouse"
+        ],
+        "garage_spaces": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      "phrases": [
+        {
+          "en": "There's a {{garage_spaces}}-car garage. `[1, 2, 3]`",
+          "ipa": "",
+          "zh": ""
+        },
+        {
+          "en": "Street parking is {{parking_note}}",
+          "ipa": "",
+          "zh": ""
+        },
+        {
+          "en": "HOA amenities include {{amenity}}",
+          "ipa": "",
+          "zh": ""
+        }
+      ],
+      "dialogue": [
+        {
+          "role": "B",
+          "roleLabel": "Buyer / Client",
+          "en": "Is parking easy?"
+        },
+        {
+          "role": "A",
+          "roleLabel": "Agent",
+          "en": "There's a {{garage_spaces}}-car garage, and street parking is {{parking_note}}. If this is an HOA community, amenities may include a {{amenity}}—we can verify in the HOA docs."
+        }
+      ],
+      "drills": [],
+      "rewrites": []
+    },
+    {
+      "id": "speak-08",
+      "num": 8,
+      "titleZh": "開價與市價白話",
+      "titleEn": "Asking Price vs Market Value",
+      "scenario": "",
+      "cramRef": "Market value ≠ Market price；Listing price。",
+      "fairHousing": false,
+      "fairHousingNote": "",
+      "slots": {
+        "list_price": [
+          "$699,000",
+          "$850,000",
+          "$1.2 million",
+          "$1.45 million"
+        ]
+      },
+      "phrases": [
+        {
+          "en": "The list price is {{list_price}}—that's the asking price.",
+          "ipa": "",
+          "zh": ""
+        },
+        {
+          "en": "The final sale price is what the parties actually agree on.",
+          "ipa": "",
+          "zh": ""
+        }
+      ],
+      "dialogue": [
+        {
+          "role": "B",
+          "roleLabel": "Buyer / Client",
+          "en": "Is {{list_price}} a fair price?"
+        },
+        {
+          "role": "A",
+          "roleLabel": "Agent",
+          "en": "The list price is the seller's asking price. Market value is an opinion of what a ready, willing, and able buyer would likely pay. We can review recent comps and your goals, then decide a strategy."
+        }
+      ],
+      "drills": [
+        "用三個不同 `{{list_price}}` 解釋 list／value／sale price 差異（各 20 秒）。"
+      ],
+      "rewrites": []
+    },
+    {
+      "id": "speak-09",
+      "num": 9,
+      "titleZh": "CMA 簡報給賣方",
+      "titleEn": "Presenting a CMA",
+      "scenario": "",
+      "cramRef": "CMA（非正式）；Sales comparison；調 Comp 不調 Subject。",
+      "fairHousing": false,
+      "fairHousingNote": "",
+      "slots": {
+        "price_range": [
+          "$820K–$860K",
+          "$1.1M–$1.2M"
+        ],
+        "property_type": [
+          "single-family home",
+          "condo",
+          "townhouse",
+          "duplex",
+          "investment property"
+        ],
+        "neighborhood": [
+          "Woodbridge",
+          "Downtown",
+          "the Hills",
+          "near the park",
+          "this subdivision"
+        ]
+      },
+      "phrases": [
+        {
+          "en": "This is a Comparative Market Analysis—not a formal appraisal.",
+          "ipa": "",
+          "zh": ""
+        },
+        {
+          "en": "I looked at similar homes nearby that sold in the last 6–12 months.",
+          "ipa": "",
+          "zh": ""
+        },
+        {
+          "en": "Based on the comps, a competitive range looks like {{price_range}}",
+          "ipa": "",
+          "zh": ""
+        }
+      ],
+      "dialogue": [
+        {
+          "role": "A",
+          "roleLabel": "Agent",
+          "en": "Thanks for having me. I'll walk you through a CMA—this is not a formal appraisal."
+        },
+        {
+          "role": "S",
+          "roleLabel": "Seller",
+          "en": "Okay."
+        },
+        {
+          "role": "A",
+          "roleLabel": "Agent",
+          "en": "These comps are similar {{property_type}}s in {{neighborhood}}, sold recently. Adjusting for differences, a competitive list range is about {{price_range}}."
+        },
+        {
+          "role": "S",
+          "roleLabel": "Seller",
+          "en": "Why not list higher?"
+        },
+        {
+          "role": "A",
+          "roleLabel": "Agent",
+          "en": "We can, but overpricing can mean fewer showings. A strategic price often brings stronger interest."
+        }
+      ],
+      "drills": [],
+      "rewrites": []
+    },
+    {
+      "id": "speak-10",
+      "num": 10,
+      "titleZh": "Listing 面談開場",
+      "titleEn": "Listing Appointment Opening",
+      "scenario": "",
+      "cramRef": "Listing agreement；Customer→Client。",
+      "fairHousing": false,
+      "fairHousingNote": "",
+      "slots": {
+        "address": [
+          "123 Oak Street",
+          "88 Maple Ave",
+          "Unit 4B",
+          "450 Palm Court"
+        ]
+      },
+      "phrases": [
+        {
+          "en": "Today is about your goals, timeline, and how I work.",
+          "ipa": "",
+          "zh": ""
+        },
+        {
+          "en": "If we move forward, we'll review the listing paperwork carefully.",
+          "ipa": "",
+          "zh": ""
+        },
+        {
+          "en": "What's most important—top dollar, speed, or convenience?",
+          "ipa": "",
+          "zh": ""
+        }
+      ],
+      "dialogue": [
+        {
+          "role": "A",
+          "roleLabel": "Agent",
+          "en": "Thanks for inviting me to {{address}}. Before numbers, what matters most—top dollar, a faster sale, or less hassle?"
+        },
+        {
+          "role": "S",
+          "roleLabel": "Seller",
+          "en": "Mostly top dollar, but we need to move within three months."
+        },
+        {
+          "role": "A",
+          "roleLabel": "Agent",
+          "en": "Got it. I'll show you a pricing and marketing plan that balances both."
+        }
+      ],
+      "drills": [],
+      "rewrites": []
+    },
+    {
+      "id": "speak-11",
+      "num": 11,
+      "titleZh": "解釋 Exclusive Right-to-Sell",
+      "titleEn": "Exclusive Right-to-Sell (Authorization)",
+      "scenario": "",
+      "cramRef": "衝刺 #49 — 誰賣出都付佣（含屋主自售）。",
+      "fairHousing": false,
+      "fairHousingNote": "",
+      "slots": {},
+      "phrases": [
+        {
+          "en": "With an exclusive right-to-sell listing, I'm your exclusive agent for the term.",
+          "ipa": "",
+          "zh": ""
+        },
+        {
+          "en": "If the property sells during the listing period, a commission is typically owed—even if you find the buyer yourself.",
+          "ipa": "",
+          "zh": ""
+        },
+        {
+          "en": "In return, I provide full marketing, showings coordination, and negotiation support.",
+          "ipa": "",
+          "zh": ""
+        }
+      ],
+      "dialogue": [
+        {
+          "role": "S",
+          "roleLabel": "Seller",
+          "en": "What if my cousin wants to buy?"
+        },
+        {
+          "role": "A",
+          "roleLabel": "Agent",
+          "en": "Under an exclusive right-to-sell agreement, a commission is typically still owed if it sells during the listing term—even with a buyer you introduce. That's why this listing type lets me invest fully in marketing. We can review every clause before you sign."
+        }
+      ],
+      "drills": [
+        "用「好處／義務」各兩句說明，避免施壓用語。"
+      ],
+      "rewrites": []
+    },
+    {
+      "id": "speak-12",
+      "num": 12,
+      "titleZh": "Exclusive Agency／Open 對照",
+      "titleEn": "Exclusive Agency vs Open Listing",
+      "scenario": "",
+      "cramRef": "#50 Exclusive agency；#51 Open listing；#53 Procuring cause。",
+      "fairHousing": false,
+      "fairHousingNote": "",
+      "slots": {},
+      "phrases": [
+        {
+          "en": "Exclusive agency",
+          "ipa": "",
+          "zh": "One broker; if **you** sell it yourself, you may owe no commission."
+        },
+        {
+          "en": "Open listing",
+          "ipa": "",
+          "zh": "Multiple brokers; usually only the procuring-cause broker gets paid."
+        }
+      ],
+      "dialogue": [
+        {
+          "role": "S",
+          "roleLabel": "Seller",
+          "en": "Can I still sell it myself?"
+        },
+        {
+          "role": "A",
+          "roleLabel": "Agent",
+          "en": "With exclusive agency, if you sell it yourself, you often owe no commission—but you still work with one brokerage for agent-procured buyers. With an open listing, several brokers may market it, and payment usually depends on who is the procuring cause. I can compare pros and cons for your situation."
+        }
+      ],
+      "drills": [],
+      "rewrites": [
+        {
+          "unsafe": "Exclusive agency",
+          "safe": "One broker; if **you** sell it yourself, you may owe no commission."
+        },
+        {
+          "unsafe": "Open listing",
+          "safe": "Multiple brokers; usually only the procuring-cause broker gets paid."
+        }
+      ]
+    },
+    {
+      "id": "speak-13",
+      "num": 13,
+      "titleZh": "Dual Agency 簡要說明",
+      "titleEn": "Dual Agency — High-Level Talk",
+      "scenario": "",
+      "cramRef": "#57 Dual agency（須同意與揭露）。練習「說明＋取得知情同意」語氣，非法務細節課。",
+      "fairHousing": false,
+      "fairHousingNote": "",
+      "slots": {},
+      "phrases": [
+        {
+          "en": "Dual agency means the same brokerage represents both buyer and seller.",
+          "ipa": "",
+          "zh": ""
+        },
+        {
+          "en": "It requires disclosure and informed consent.",
+          "ipa": "",
+          "zh": ""
+        },
+        {
+          "en": "Some duties change; I'll explain what I can and cannot do for each side.",
+          "ipa": "",
+          "zh": ""
+        }
+      ],
+      "dialogue": [
+        {
+          "role": "B",
+          "roleLabel": "Buyer / Client",
+          "en": "Are you also the listing agent?"
+        },
+        {
+          "role": "A",
+          "roleLabel": "Agent",
+          "en": "In some cases our brokerage may represent both sides—that's dual agency. It requires clear disclosure and your informed consent. I'll explain how confidentiality and negotiation work before anyone proceeds."
+        }
+      ],
+      "drills": [],
+      "rewrites": []
+    },
+    {
+      "id": "speak-14",
+      "num": 14,
+      "titleZh": "Open House 接待",
+      "titleEn": "Open House Welcome",
+      "scenario": "",
+      "cramRef": "",
+      "fairHousing": false,
+      "fairHousingNote": "",
+      "slots": {
+        "beds": [
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "baths": [
+          "1",
+          "1.5",
+          "2",
+          "2.5",
+          "3"
+        ],
+        "sqft": [
+          "1,200",
+          "1,650",
+          "2,100",
+          "2,800"
+        ],
+        "list_price": [
+          "$699,000",
+          "$850,000",
+          "$1.2 million",
+          "$1.45 million"
+        ]
+      },
+      "phrases": [
+        {
+          "en": "Welcome! Please sign in—here's a flyer with the key facts.",
+          "ipa": "",
+          "zh": ""
+        },
+        {
+          "en": "The home is {{beds}}/{{baths}}, about {{sqft}} sq ft, listed at {{list_price}}.",
+          "ipa": "",
+          "zh": ""
+        },
+        {
+          "en": "Are you working with an agent already?",
+          "ipa": "",
+          "zh": ""
+        }
+      ],
+      "dialogue": [
+        {
+          "role": "A",
+          "roleLabel": "Agent",
+          "en": "Welcome! Feel free to look around. Here's a flyer—{{beds}} beds, {{baths}} baths, listed at {{list_price}}."
+        },
+        {
+          "role": "C",
+          "roleLabel": "Client",
+          "en": "Thanks. We're just exploring."
+        },
+        {
+          "role": "A",
+          "roleLabel": "Agent",
+          "en": "No problem. If you have questions about the layout or next steps, I'm happy to help."
+        }
+      ],
+      "drills": [],
+      "rewrites": []
+    },
+    {
+      "id": "speak-15",
+      "num": 15,
+      "titleZh": "看屋後跟進",
+      "titleEn": "Post-Showing Follow-Up",
+      "scenario": "",
+      "cramRef": "",
+      "fairHousing": false,
+      "fairHousingNote": "",
+      "slots": {
+        "time": [
+          "this Saturday at 10 a.m.",
+          "tomorrow at 3 p.m.",
+          "weekday evenings"
+        ],
+        "address": [
+          "123 Oak Street",
+          "88 Maple Ave",
+          "Unit 4B",
+          "450 Palm Court"
+        ]
+      },
+      "phrases": [
+        {
+          "en": "How did the home feel compared with the others?",
+          "ipa": "",
+          "zh": ""
+        },
+        {
+          "en": "What would you change if you could?",
+          "ipa": "",
+          "zh": ""
+        },
+        {
+          "en": "Should I schedule a second visit {{time}}?",
+          "ipa": "",
+          "zh": ""
+        }
+      ],
+      "dialogue": [
+        {
+          "role": "A",
+          "roleLabel": "Agent",
+          "en": "Thanks again for touring {{address}}. How did it feel compared with the others?"
+        },
+        {
+          "role": "B",
+          "roleLabel": "Buyer / Client",
+          "en": "We liked the kitchen, but the backyard felt small."
+        },
+        {
+          "role": "A",
+          "roleLabel": "Agent",
+          "en": "Helpful. I can send two options with larger yards in a similar budget. Want a second look at this one {{time}}, or focus on new options?"
+        }
+      ],
+      "drills": [],
+      "rewrites": []
+    },
+    {
+      "id": "speak-16",
+      "num": 16,
+      "titleZh": "出價談判開場",
+      "titleEn": "Presenting / Writing an Offer",
+      "scenario": "",
+      "cramRef": "Offer；Bilateral contract 概念（雙方承諾）。",
+      "fairHousing": false,
+      "fairHousingNote": "",
+      "slots": {
+        "offer_price": [
+          "$680,000",
+          "$825,000",
+          "$1.15 million"
+        ],
+        "address": [
+          "123 Oak Street",
+          "88 Maple Ave",
+          "Unit 4B",
+          "450 Palm Court"
+        ],
+        "loan_type": [
+          "conventional",
+          "FHA",
+          "VA",
+          "cash"
+        ]
+      },
+      "phrases": [
+        {
+          "en": "Based on the comps and your goals, we could offer {{offer_price}}.",
+          "ipa": "",
+          "zh": ""
+        },
+        {
+          "en": "We'll include earnest money, timelines, and contingencies.",
+          "ipa": "",
+          "zh": ""
+        },
+        {
+          "en": "Once accepted and delivered, we move toward escrow.",
+          "ipa": "",
+          "zh": ""
+        }
+      ],
+      "dialogue": [
+        {
+          "role": "A",
+          "roleLabel": "Agent",
+          "en": "For {{address}}, a competitive offer might be {{offer_price}} with {{loan_type}} financing."
+        },
+        {
+          "role": "B",
+          "roleLabel": "Buyer / Client",
+          "en": "Can we go a little lower?"
+        },
+        {
+          "role": "A",
+          "roleLabel": "Agent",
+          "en": "We can. Let's also decide earnest money and which contingencies you want—so the offer is complete and clear."
+        }
+      ],
+      "drills": [],
+      "rewrites": []
+    },
+    {
+      "id": "speak-17",
+      "num": 17,
+      "titleZh": "Counteroffer 溝通",
+      "titleEn": "Discussing a Counteroffer",
+      "scenario": "",
+      "cramRef": "#72 Counteroffer＝拒絕原要約＋新要約；原要約死亡。",
+      "fairHousing": false,
+      "fairHousingNote": "",
+      "slots": {
+        "list_price": [
+          "$699,000",
+          "$850,000",
+          "$1.2 million",
+          "$1.45 million"
+        ]
+      },
+      "phrases": [
+        {
+          "en": "A counteroffer rejects the previous offer and creates a new one.",
+          "ipa": "",
+          "zh": ""
+        },
+        {
+          "en": "The other side's original offer is no longer on the table.",
+          "ipa": "",
+          "zh": ""
+        },
+        {
+          "en": "We can accept, counter again, or walk away.",
+          "ipa": "",
+          "zh": ""
+        }
+      ],
+      "dialogue": [
+        {
+          "role": "A",
+          "roleLabel": "Agent",
+          "en": "The seller countered at {{list_price}} and asked to shorten the inspection period."
+        },
+        {
+          "role": "B",
+          "roleLabel": "Buyer / Client",
+          "en": "So our first offer is gone?"
+        },
+        {
+          "role": "A",
+          "roleLabel": "Agent",
+          "en": "Right—a counter replaces the prior offer. We can accept this counter, send a new counter, or pause. What matters most—price or timeline?"
+        }
+      ],
+      "drills": [],
+      "rewrites": []
+    },
+    {
+      "id": "speak-18",
+      "num": 18,
+      "titleZh": "Earnest Money 說明",
+      "titleEn": "Earnest Money in Plain English",
+      "scenario": "",
+      "cramRef": "#74 Earnest money＝誠意金；非契約成立唯一要件。",
+      "fairHousing": false,
+      "fairHousingNote": "",
+      "slots": {},
+      "phrases": [
+        {
+          "en": "Earnest money shows good faith; it's usually held in escrow.",
+          "ipa": "",
+          "zh": ""
+        },
+        {
+          "en": "It's not the same thing as your down payment, though it may be credited later.",
+          "ipa": "",
+          "zh": ""
+        },
+        {
+          "en": "What happens to it if a deal cancels depends on the contract and contingencies.",
+          "ipa": "",
+          "zh": ""
+        }
+      ],
+      "dialogue": [
+        {
+          "role": "B",
+          "roleLabel": "Buyer / Client",
+          "en": "How much earnest money do we need?"
+        },
+        {
+          "role": "A",
+          "roleLabel": "Agent",
+          "en": "It varies by market and strategy. Earnest money shows good faith and is typically deposited into escrow. We'll review how it's handled if a contingency allows you to cancel."
+        }
+      ],
+      "drills": [],
+      "rewrites": []
+    },
+    {
+      "id": "speak-19",
+      "num": 19,
+      "titleZh": "Contingency 總覽",
+      "titleEn": "Contingencies Overview",
+      "scenario": "",
+      "cramRef": "#85–88 Inspection／Appraisal／Finance；條件成就前的退出保護。",
+      "fairHousing": false,
+      "fairHousingNote": "",
+      "slots": {},
+      "phrases": [
+        {
+          "en": "inspection contingency",
+          "ipa": "",
+          "zh": "檢查後可依合約談判或退出"
+        },
+        {
+          "en": "appraisal contingency",
+          "ipa": "",
+          "zh": "估價不足時的保護"
+        },
+        {
+          "en": "loan / financing contingency",
+          "ipa": "",
+          "zh": "貸款不成時的保護"
+        }
+      ],
+      "dialogue": [
+        {
+          "role": "A",
+          "roleLabel": "Agent",
+          "en": "Contingencies are conditions that protect you for a period of time."
+        },
+        {
+          "role": "B",
+          "roleLabel": "Buyer / Client",
+          "en": "Do we need all of them?"
+        },
+        {
+          "role": "A",
+          "roleLabel": "Agent",
+          "en": "In a hot market, some buyers shorten or waive items—but that increases risk. I'll explain trade-offs; you decide your comfort level."
+        }
+      ],
+      "drills": [],
+      "rewrites": []
+    },
+    {
+      "id": "speak-20",
+      "num": 20,
+      "titleZh": "Inspection 安排與回報",
+      "titleEn": "Scheduling & Reporting Inspection",
+      "scenario": "",
+      "cramRef": "",
+      "fairHousing": false,
+      "fairHousingNote": "",
+      "slots": {
+        "issue": [
+          "roof leak",
+          "foundation crack",
+          "outdated HVAC",
+          "water heater",
+          "mold concern"
+        ],
+        "inspector": [
+          "licensed home inspector"
+        ],
+        "time": [
+          "this Saturday at 10 a.m.",
+          "tomorrow at 3 p.m.",
+          "weekday evenings"
+        ]
+      },
+      "phrases": [],
+      "dialogue": [
+        {
+          "role": "A",
+          "roleLabel": "Agent",
+          "en": "I recommend a {{inspector}} for {{time}}. After the report, we'll review any {{issue}} items and decide: request repairs, credit, or proceed."
+        },
+        {
+          "role": "B",
+          "roleLabel": "Buyer / Client",
+          "en": "What if it's serious?"
+        },
+        {
+          "role": "A",
+          "roleLabel": "Agent",
+          "en": "Then we use the inspection contingency timeline in your contract and respond in writing."
+        }
+      ],
+      "drills": [
+        "輪換 `{{issue}}`：roof／HVAC／plumbing／electrical，練習回報語氣（中性、不恐嚇）。"
+      ],
+      "rewrites": []
+    },
+    {
+      "id": "speak-21",
+      "num": 21,
+      "titleZh": "屋況瑕疵討論（安全說法）",
+      "titleEn": "Talking About Defects Carefully",
+      "scenario": "",
+      "cramRef": "Material fact；Latent vs Patent；不得協助隱瞞。",
+      "fairHousing": true,
+      "fairHousingNote": "賣方若要求隱瞞重大瑕疵：拒絕配合，並依公司／法規處理（對應衝刺揭露倫理）。",
+      "slots": {},
+      "phrases": [
+        {
+          "en": "Sellers must disclose known material facts; agents shouldn't hide them.",
+          "ipa": "",
+          "zh": ""
+        },
+        {
+          "en": "I'll point you to the disclosure package—please read it carefully.",
+          "ipa": "",
+          "zh": ""
+        },
+        {
+          "en": "For technical opinions, rely on qualified inspectors and specialists.",
+          "ipa": "",
+          "zh": ""
+        }
+      ],
+      "dialogue": [
+        {
+          "role": "B",
+          "roleLabel": "Buyer / Client",
+          "en": "There's a stain on the ceiling. Is that a big problem?"
+        },
+        {
+          "role": "A",
+          "roleLabel": "Agent",
+          "en": "It's worth investigating. Let's note it for the inspector and review what the seller disclosed. I won't guess about hidden conditions—specialists should evaluate."
+        }
+      ],
+      "drills": [],
+      "rewrites": []
+    },
+    {
+      "id": "speak-22",
+      "num": 22,
+      "titleZh": "As-is 溝通",
+      "titleEn": "“As-Is” Without Myths",
+      "scenario": "",
+      "cramRef": "#90 As-is＝未必免揭露；加州仍常須 TDS／已知重大瑕疵。",
+      "fairHousing": false,
+      "fairHousingNote": "",
+      "slots": {},
+      "phrases": [
+        {
+          "en": "“As-is” often means the seller prefers not to make repairs.",
+          "ipa": "",
+          "zh": ""
+        },
+        {
+          "en": "It does not mean “no disclosures.”",
+          "ipa": "",
+          "zh": ""
+        },
+        {
+          "en": "You still review disclosures and may negotiate within your contingency rights.",
+          "ipa": "",
+          "zh": ""
+        }
+      ],
+      "dialogue": [
+        {
+          "role": "S",
+          "roleLabel": "Seller",
+          "en": "We're selling as-is."
+        },
+        {
+          "role": "A",
+          "roleLabel": "Agent",
+          "en": "Understood—you prefer not to complete repairs. We'll still complete required disclosures for known material facts, and buyers will review those documents."
+        }
+      ],
+      "drills": [],
+      "rewrites": []
+    },
+    {
+      "id": "speak-23",
+      "num": 23,
+      "titleZh": "Pre-1978／Lead 提示用語",
+      "titleEn": "Lead-Based Paint Disclosure Talk",
+      "scenario": "",
+      "cramRef": "#95 Lead-based paint；Pre-1978。",
+      "fairHousing": false,
+      "fairHousingNote": "",
+      "slots": {
+        "year_built": [
+          "1985",
+          "2004",
+          "2018"
+        ]
+      },
+      "phrases": [
+        {
+          "en": "Homes built before 1978 may have lead-based paint.",
+          "ipa": "",
+          "zh": ""
+        },
+        {
+          "en": "Federal disclosure rules apply; buyers get the required pamphlets/forms.",
+          "ipa": "",
+          "zh": ""
+        },
+        {
+          "en": "If you have concerns, consider a qualified lead assessment.",
+          "ipa": "",
+          "zh": ""
+        }
+      ],
+      "dialogue": [
+        {
+          "role": "A",
+          "roleLabel": "Agent",
+          "en": "This home was built in {{year_built}}. For pre-1978 homes, lead-based paint disclosures are required. You'll receive the standard information so you can review it."
+        }
+      ],
+      "drills": [],
+      "rewrites": []
+    },
+    {
+      "id": "speak-24",
+      "num": 24,
+      "titleZh": "估價不足怎麼說",
+      "titleEn": "Low Appraisal Conversation",
+      "scenario": "",
+      "cramRef": "Appraisal contingency；Appraisal ≠ CMA。",
+      "fairHousing": false,
+      "fairHousingNote": "",
+      "slots": {},
+      "phrases": [
+        {
+          "en": "An appraisal is a licensed appraiser's opinion for the lender.",
+          "ipa": "",
+          "zh": ""
+        },
+        {
+          "en": "My CMA was a marketing tool—not the same as an appraisal.",
+          "ipa": "",
+          "zh": ""
+        }
+      ],
+      "dialogue": [
+        {
+          "role": "A",
+          "roleLabel": "Agent",
+          "en": "The appraisal came in below the contract price."
+        },
+        {
+          "role": "B",
+          "roleLabel": "Buyer / Client",
+          "en": "What now?"
+        },
+        {
+          "role": "A",
+          "roleLabel": "Agent",
+          "en": "Options often include renegotiating price, covering the gap if you choose and can, or using your appraisal contingency if it still applies. Let's review numbers and your risk tolerance."
+        }
+      ],
+      "drills": [],
+      "rewrites": []
+    },
+    {
+      "id": "speak-25",
+      "num": 25,
+      "titleZh": "貸款進度更新",
+      "titleEn": "Financing Update Call",
+      "scenario": "",
+      "cramRef": "Finance contingency；Loan types。",
+      "fairHousing": false,
+      "fairHousingNote": "",
+      "slots": {
+        "loan_type": [
+          "conventional",
+          "FHA",
+          "VA",
+          "cash"
+        ]
+      },
+      "phrases": [],
+      "dialogue": [
+        {
+          "role": "A",
+          "roleLabel": "Agent",
+          "en": "Quick update—have you sent the lender everything they asked for?"
+        },
+        {
+          "role": "B",
+          "roleLabel": "Buyer / Client",
+          "en": "Almost. They're waiting on one document."
+        },
+        {
+          "role": "A",
+          "roleLabel": "Agent",
+          "en": "Please send it today if you can. Under your loan contingency timeline, staying on schedule protects your position. Want me to loop in the loan officer for a status check?"
+        }
+      ],
+      "drills": [
+        "`{{loan_type}}`＝conventional／FHA／VA／cash（cash：改說 “no lender timeline, but escrow still has deadlines”）。"
+      ],
+      "rewrites": []
+    },
+    {
+      "id": "speak-26",
+      "num": 26,
+      "titleZh": "Escrow／Closing Timeline",
+      "titleEn": "Escrow & Closing Timeline",
+      "scenario": "",
+      "cramRef": "Escrow；Closing；Executory → Executed。",
+      "fairHousing": false,
+      "fairHousingNote": "",
+      "slots": {
+        "closing_date": [
+          "in 30 days",
+          "April 15"
+        ]
+      },
+      "phrases": [
+        {
+          "en": "After acceptance, we open escrow and work the checklist to closing.",
+          "ipa": "",
+          "zh": ""
+        },
+        {
+          "en": "Closing is when ownership transfers and the deal is completed.",
+          "ipa": "",
+          "zh": ""
+        },
+        {
+          "en": "I'll share key dates: deposit, contingencies removal, final walk-through, signing.",
+          "ipa": "",
+          "zh": ""
+        }
+      ],
+      "dialogue": [
+        {
+          "role": "A",
+          "roleLabel": "Agent",
+          "en": "Congratulations—we're in escrow. Target closing is {{closing_date}}：[in 30 days, April 15]."
+        },
+        {
+          "role": "B",
+          "roleLabel": "Buyer / Client",
+          "en": "What should we do this week?"
+        },
+        {
+          "role": "A",
+          "roleLabel": "Agent",
+          "en": "Complete your earnest money deposit, schedule inspections, and stay responsive to escrow and your lender."
+        }
+      ],
+      "drills": [],
+      "rewrites": []
+    },
+    {
+      "id": "speak-27",
+      "num": 27,
+      "titleZh": "Title／文件提醒",
+      "titleEn": "Title & Paperwork Reminders",
+      "scenario": "",
+      "cramRef": "Title insurance；Cloud on title（概念：可轉讓性問題）。",
+      "fairHousing": false,
+      "fairHousingNote": "",
+      "slots": {},
+      "phrases": [],
+      "dialogue": [
+        {
+          "role": "A",
+          "roleLabel": "Agent",
+          "en": "Escrow and title will request IDs and signatures. Title insurance helps protect against certain title risks."
+        },
+        {
+          "role": "B",
+          "roleLabel": "Buyer / Client",
+          "en": "Do we need to be there in person?"
+        },
+        {
+          "role": "A",
+          "roleLabel": "Agent",
+          "en": "Often you can sign electronically if all parties agree—I'll confirm what this escrow requires."
+        }
+      ],
+      "drills": [],
+      "rewrites": []
+    },
+    {
+      "id": "speak-28",
+      "num": 28,
+      "titleZh": "HOA／CC&Rs 簡介",
+      "titleEn": "HOA & CC&Rs in Conversation",
+      "scenario": "",
+      "cramRef": "Deed restriction／CC&Rs；Zoning vs private restriction（口語不深講衝突規則）。",
+      "fairHousing": false,
+      "fairHousingNote": "",
+      "slots": {},
+      "phrases": [
+        {
+          "en": "HOA rules can limit how the property is used—pets, rentals, exterior changes.",
+          "ipa": "",
+          "zh": ""
+        },
+        {
+          "en": "Please read the CC&Rs and budget before removing contingencies.",
+          "ipa": "",
+          "zh": ""
+        }
+      ],
+      "dialogue": [
+        {
+          "role": "B",
+          "roleLabel": "Buyer / Client",
+          "en": "Can I paint the front door any color?"
+        },
+        {
+          "role": "A",
+          "roleLabel": "Agent",
+          "en": "In many HOA communities, exterior changes need approval. Let's check the CC&Rs so you know the rules before you commit."
+        }
+      ],
+      "drills": [],
+      "rewrites": []
+    },
+    {
+      "id": "speak-29",
+      "num": 29,
+      "titleZh": "租賃諮詢開場",
+      "titleEn": "Rental / Lease Inquiry",
+      "scenario": "",
+      "cramRef": "Leasehold 類型概念；Lessor／Lessee；Property management。",
+      "fairHousing": false,
+      "fairHousingNote": "",
+      "slots": {
+        "rent": [
+          "$2,400/mo",
+          "$3,100/mo"
+        ],
+        "lease_term": [
+          "12 months",
+          "month-to-month"
+        ],
+        "property_type": [
+          "single-family home",
+          "condo",
+          "townhouse",
+          "duplex",
+          "investment property"
+        ],
+        "city": [
+          "Irvine",
+          "San Jose",
+          "Torrance",
+          "Sacramento",
+          "Fresno"
+        ],
+        "beds": [
+          "2",
+          "3",
+          "4",
+          "5"
+        ]
+      },
+      "phrases": [],
+      "dialogue": [
+        {
+          "role": "A",
+          "roleLabel": "Agent",
+          "en": "Are you looking to rent a {{property_type}} in {{city}}?"
+        },
+        {
+          "role": "C",
+          "roleLabel": "Client",
+          "en": "Yes—{{beds}} bedrooms, around {{rent}}."
+        },
+        {
+          "role": "A",
+          "roleLabel": "Agent",
+          "en": "I can share available options and application steps. Typical lease term here is {{lease_term}}, but we'll confirm each listing."
+        }
+      ],
+      "drills": [],
+      "rewrites": []
+    },
+    {
+      "id": "speak-30",
+      "num": 30,
+      "titleZh": "租金、押金、入住",
+      "titleEn": "Rent, Deposit & Move-In Talk",
+      "scenario": "",
+      "cramRef": "Security deposit（概念練習；數字以現行法為準，上課勿背死）。",
+      "fairHousing": false,
+      "fairHousingNote": "",
+      "slots": {},
+      "phrases": [
+        {
+          "en": "We'll confirm the security deposit amount under current California rules and the lease.",
+          "ipa": "",
+          "zh": ""
+        },
+        {
+          "en": "Ask for move-in condition photos and a clear inventory.",
+          "ipa": "",
+          "zh": ""
+        }
+      ],
+      "dialogue": [
+        {
+          "role": "C",
+          "roleLabel": "Client",
+          "en": "How much is the deposit?"
+        },
+        {
+          "role": "A",
+          "roleLabel": "Agent",
+          "en": "I'll confirm the exact amount for this property and what the lease requires. Also plan for first month's rent and any HOA move-in fees if applicable."
+        }
+      ],
+      "drills": [],
+      "rewrites": []
+    },
+    {
+      "id": "speak-31",
+      "num": 31,
+      "titleZh": "投資客：Cap Rate 白話",
+      "titleEn": "Talking Cap Rate with Investors",
+      "scenario": "",
+      "cramRef": "#129–136 NOI、Cap rate、IRV（口語版）。",
+      "fairHousing": false,
+      "fairHousingNote": "",
+      "slots": {
+        "cap_rate": [
+          "4.5%",
+          "5%",
+          "6%"
+        ]
+      },
+      "phrases": [
+        {
+          "en": "Cap rate is basically NOI divided by value.",
+          "ipa": "",
+          "zh": ""
+        },
+        {
+          "en": "Higher cap rate often means higher relative risk—or a lower price for the same income.",
+          "ipa": "",
+          "zh": ""
+        },
+        {
+          "en": "This is education, not a guarantee of returns.",
+          "ipa": "",
+          "zh": ""
+        }
+      ],
+      "dialogue": [
+        {
+          "role": "C",
+          "roleLabel": "Client",
+          "en": "What's the cap rate?"
+        },
+        {
+          "role": "A",
+          "roleLabel": "Agent",
+          "en": "Using estimated NOI and the asking price, the indicated cap rate is about {{cap_rate}}：[4.5%, 5%, 6%]. Let's verify income, vacancy, and expenses before you rely on that number."
+        }
+      ],
+      "drills": [
+        "練習口算句： “If NOI is about X and price is Y, cap rate is roughly Z.”"
+      ],
+      "rewrites": []
+    },
+    {
+      "id": "speak-32",
+      "num": 32,
+      "titleZh": "多 Offer／競爭出價",
+      "titleEn": "Multiple-Offer Strategy Talk",
+      "scenario": "",
+      "cramRef": "Counter 撤回再回；競爭力 vs 風險。",
+      "fairHousing": false,
+      "fairHousingNote": "",
+      "slots": {},
+      "phrases": [],
+      "dialogue": [
+        {
+          "role": "A",
+          "roleLabel": "Agent",
+          "en": "There are multiple offers. To be competitive, some buyers strengthen price, earnest money, or timelines."
+        },
+        {
+          "role": "B",
+          "roleLabel": "Buyer / Client",
+          "en": "Should we waive inspections?"
+        },
+        {
+          "role": "A",
+          "roleLabel": "Agent",
+          "en": "Waiving increases risk. Alternatives include shorter inspection periods or pre-inspecting if allowed. I'll outline options; you choose the risk level."
+        }
+      ],
+      "drills": [],
+      "rewrites": []
+    },
+    {
+      "id": "speak-33",
+      "num": 33,
+      "titleZh": "價格異議處理",
+      "titleEn": "Handling Price Objections",
+      "scenario": "",
+      "cramRef": "",
+      "fairHousing": false,
+      "fairHousingNote": "",
+      "slots": {
+        "list_price": [
+          "$699,000",
+          "$850,000",
+          "$1.2 million",
+          "$1.45 million"
+        ],
+        "price_range": [
+          "$820K–$860K",
+          "$1.1M–$1.2M",
+          "$690K–$720K"
+        ]
+      },
+      "phrases": [
+        {
+          "en": "I hear you—price is the biggest decision.",
+          "ipa": "",
+          "zh": ""
+        },
+        {
+          "en": "Let's separate wish price from supportable price using comps.",
+          "ipa": "",
+          "zh": ""
+        },
+        {
+          "en": "If we list too high, we may miss the first wave of buyers.",
+          "ipa": "",
+          "zh": ""
+        }
+      ],
+      "dialogue": [
+        {
+          "role": "S",
+          "roleLabel": "Seller",
+          "en": "I want {{list_price}}."
+        },
+        {
+          "role": "A",
+          "roleLabel": "Agent",
+          "en": "I understand. The comps support closer to {{price_range}}. We can list at your number, or we can price to attract urgency. Which outcome matters more—starting high, or maximizing final price?"
+        }
+      ],
+      "drills": [],
+      "rewrites": []
+    },
+    {
+      "id": "speak-34",
+      "num": 34,
+      "titleZh": "介紹配合專業人士",
+      "titleEn": "Referring Other Professionals",
+      "scenario": "",
+      "cramRef": "Appraisal 須持牌估價師；缺能力須揭露（倫理）。提供「名單」而非保證結果。",
+      "fairHousing": false,
+      "fairHousingNote": "",
+      "slots": {},
+      "phrases": [],
+      "dialogue": [
+        {
+          "role": "B",
+          "roleLabel": "Buyer / Client",
+          "en": "Can you recommend an inspector?"
+        },
+        {
+          "role": "A",
+          "roleLabel": "Agent",
+          "en": "I can share a list of licensed inspectors clients have used. You're free to choose anyone you prefer. I don't guarantee their findings—your contract relies on their professional report."
+        }
+      ],
+      "drills": [],
+      "rewrites": []
+    },
+    {
+      "id": "speak-35",
+      "num": 35,
+      "titleZh": "結案日祝賀與交接",
+      "titleEn": "Closing Day & Keys",
+      "scenario": "",
+      "cramRef": "",
+      "fairHousing": false,
+      "fairHousingNote": "",
+      "slots": {},
+      "phrases": [],
+      "dialogue": [
+        {
+          "role": "A",
+          "roleLabel": "Agent",
+          "en": "Congratulations—you're closing today! After recording, you'll receive keys per the agreement."
+        },
+        {
+          "role": "B",
+          "roleLabel": "Buyer / Client",
+          "en": "Anything we should do tonight?"
+        },
+        {
+          "role": "A",
+          "roleLabel": "Agent",
+          "en": "Confirm utilities transfer, keep closing documents safe, and celebrate. If anything looks off at the final walk-through, call me immediately."
+        }
+      ],
+      "drills": [],
+      "rewrites": []
+    },
+    {
+      "id": "speak-36",
+      "num": 36,
+      "titleZh": "轉介與感謝",
+      "titleEn": "Referrals & Thank-You",
+      "scenario": "",
+      "cramRef": "",
+      "fairHousing": false,
+      "fairHousingNote": "",
+      "slots": {
+        "address": [
+          "123 Oak Street",
+          "88 Maple Ave",
+          "Unit 4B",
+          "450 Palm Court"
+        ],
+        "city": [
+          "Irvine",
+          "San Jose",
+          "Torrance",
+          "Sacramento",
+          "Fresno"
+        ]
+      },
+      "phrases": [],
+      "dialogue": [
+        {
+          "role": "A",
+          "roleLabel": "Agent",
+          "en": "Thank you for trusting me with {{address}}. If friends need help buying or selling in {{city}}, I'd be honored to help—or to refer a great colleague."
+        },
+        {
+          "role": "B",
+          "roleLabel": "Buyer / Client",
+          "en": "We will!"
+        },
+        {
+          "role": "A",
+          "roleLabel": "Agent",
+          "en": "I appreciate it. I'll check in after move-in to see if you need vendor recommendations."
+        }
+      ],
+      "drills": [],
+      "rewrites": []
+    },
+    {
+      "id": "speak-37",
+      "num": 37,
+      "titleZh": "語音留言／簡訊模板",
+      "titleEn": "Voicemail & Text Templates",
+      "scenario": "",
+      "cramRef": "",
+      "fairHousing": false,
+      "fairHousingNote": "",
+      "slots": {
+        "client_name": [
+          "Mr. Chen",
+          "Ms. Lopez",
+          "the Lees",
+          "David",
+          "Priya"
+        ],
+        "agent_name": [
+          "Alex",
+          "Jordan",
+          "Sam",
+          "Mia",
+          "Chris"
+        ],
+        "brokerage": [
+          "Summit Realty",
+          "Harbor Homes",
+          "Pacific Group"
+        ],
+        "address": [
+          "123 Oak Street",
+          "88 Maple Ave",
+          "Unit 4B",
+          "450 Palm Court"
+        ],
+        "beds": [
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "time": [
+          "this Saturday at 10 a.m.",
+          "tomorrow at 3 p.m.",
+          "weekday evenings"
+        ],
+        "parking_note": [
+          "limited",
+          "available",
+          "permit-only"
+        ]
+      },
+      "phrases": [],
+      "dialogue": [
+        {
+          "role": "A",
+          "roleLabel": "Agent",
+          "en": "Hi {{client_name}}, this is {{agent_name}} with {{brokerage}}."
+        },
+        {
+          "role": "A",
+          "roleLabel": "Agent",
+          "en": "I'm following up on {{address}}. I have two similar homes that match your {{beds}}-bedroom search."
+        },
+        {
+          "role": "A",
+          "roleLabel": "Agent",
+          "en": "Please call or text me when you have a moment. Thanks!"
+        },
+        {
+          "role": "A",
+          "roleLabel": "Agent",
+          "en": "Hi {{client_name}} — {{agent_name}} here. Showing confirmed {{time}} at {{address}}."
+        },
+        {
+          "role": "A",
+          "roleLabel": "Agent",
+          "en": "Parking tip: {{parking_note}}. See you!"
+        }
+      ],
+      "drills": [],
+      "rewrites": []
+    },
+    {
+      "id": "speak-38",
+      "num": 38,
+      "titleZh": "公平住房安全用語特訓",
+      "titleEn": "",
+      "scenario": "",
+      "cramRef": "#105–109 Implicit bias、Steering、Blockbusting、Redlining。",
+      "fairHousing": true,
+      "fairHousingNote": "",
+      "slots": {},
+      "phrases": [],
+      "dialogue": [
+        {
+          "role": "C",
+          "roleLabel": "Avoid",
+          "en": "You'll feel more comfortable in that area."
+        },
+        {
+          "role": "A",
+          "roleLabel": "Say instead",
+          "en": "Which area matches your commute and budget best?"
+        },
+        {
+          "role": "C",
+          "roleLabel": "Avoid",
+          "en": "That neighborhood is changing—sell now."
+        },
+        {
+          "role": "A",
+          "roleLabel": "Say instead",
+          "en": "If your goal is timing the market, we can review recent sales data together."
+        },
+        {
+          "role": "C",
+          "roleLabel": "Avoid",
+          "en": "I know a lender who helps “your community.”"
+        },
+        {
+          "role": "A",
+          "roleLabel": "Say instead",
+          "en": "I can share lenders who work with many local buyers; apply with the same process."
+        }
+      ],
+      "drills": [],
+      "rewrites": [
+        {
+          "unsafe": "You'll feel more comfortable in that area.",
+          "safe": "Which area matches your commute and budget best?"
+        },
+        {
+          "unsafe": "That neighborhood is changing—sell now.",
+          "safe": "If your goal is timing the market, we can review recent sales data together."
+        },
+        {
+          "unsafe": "I know a lender who helps “your community.”",
+          "safe": "I can share lenders who work with many local buyers; apply with the same process."
+        }
+      ]
+    },
+    {
+      "id": "speak-39",
+      "num": 39,
+      "titleZh": "綜合角色扮演：買方路線",
+      "titleEn": "Buyer Path Capstone",
+      "scenario": "",
+      "cramRef": "",
+      "fairHousing": false,
+      "fairHousingNote": "",
+      "slots": {
+        "client_name": [
+          "Mr. Chen",
+          "Ms. Lopez",
+          "the Lees",
+          "David",
+          "Priya"
+        ],
+        "budget": [
+          "$700K–$800K",
+          "under $1M",
+          "around $1.2M"
+        ],
+        "must_have": [
+          "yard",
+          "home office",
+          "single story",
+          "good light"
+        ],
+        "property_type": [
+          "single-family home",
+          "condo",
+          "townhouse",
+          "duplex",
+          "investment property"
+        ],
+        "address": [
+          "123 Oak Street",
+          "88 Maple Ave",
+          "Unit 4B",
+          "450 Palm Court"
+        ],
+        "list_price": [
+          "$699,000",
+          "$850,000",
+          "$1.2 million",
+          "$1.45 million"
+        ],
+        "offer_price": [
+          "$680,000",
+          "$825,000",
+          "$1.15 million"
+        ]
+      },
+      "phrases": [],
+      "dialogue": [
+        {
+          "role": "A",
+          "roleLabel": "Coach",
+          "en": "Use this task card for a 12–15 minute role-play. Swap the slots, then practice the full path."
+        },
+        {
+          "role": "C",
+          "roleLabel": "Task",
+          "en": "yaml"
+        },
+        {
+          "role": "C",
+          "roleLabel": "Task",
+          "en": "Buyer: {{client_name}}"
+        },
+        {
+          "role": "C",
+          "roleLabel": "Task",
+          "en": "Budget: {{budget}}"
+        },
+        {
+          "role": "C",
+          "roleLabel": "Task",
+          "en": "Must-have: {{must_have}}"
+        },
+        {
+          "role": "C",
+          "roleLabel": "Task",
+          "en": "Property: {{property_type}} at {{address}}"
+        },
+        {
+          "role": "C",
+          "roleLabel": "Task",
+          "en": "List: {{list_price}}"
+        },
+        {
+          "role": "C",
+          "roleLabel": "Task",
+          "en": "Strategy: offer {{offer_price}} with inspection + loan contingencies"
+        }
+      ],
+      "drills": [],
+      "rewrites": []
+    },
+    {
+      "id": "speak-40",
+      "num": 40,
+      "titleZh": "綜合角色扮演：賣方路線",
+      "titleEn": "Seller Path Capstone",
+      "scenario": "",
+      "cramRef": "",
+      "fairHousing": false,
+      "fairHousingNote": "",
+      "slots": {
+        "client_name": [
+          "Mr. Chen",
+          "Ms. Lopez",
+          "the Lees",
+          "David",
+          "Priya"
+        ],
+        "beds": [
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "baths": [
+          "1",
+          "1.5",
+          "2",
+          "2.5",
+          "3"
+        ],
+        "sqft": [
+          "1,200",
+          "1,650",
+          "2,100",
+          "2,800"
+        ],
+        "neighborhood": [
+          "Woodbridge",
+          "Downtown",
+          "the Hills",
+          "near the park",
+          "this subdivision"
+        ],
+        "list_price": [
+          "$699,000",
+          "$850,000",
+          "$1.2 million",
+          "$1.45 million"
+        ],
+        "price_range": [
+          "$820K–$860K",
+          "$1.1M–$1.2M",
+          "$690K–$720K"
+        ],
+        "agent_name": [
+          "Alex",
+          "Jordan",
+          "Sam",
+          "Mia",
+          "Chris"
+        ],
+        "brokerage": [
+          "Summit Realty",
+          "Harbor Homes",
+          "Pacific Group"
+        ],
+        "city": [
+          "Irvine",
+          "San Jose",
+          "Torrance",
+          "Sacramento",
+          "Fresno"
+        ]
+      },
+      "phrases": [
+        {
+          "en": "週",
+          "ipa": "單元",
+          "zh": "重點"
+        },
+        {
+          "en": "---:",
+          "ipa": ":---",
+          "zh": ":---"
+        },
+        {
+          "en": "1",
+          "ipa": "01–10",
+          "zh": "開場、需求、看屋、CMA、Listing"
+        },
+        {
+          "en": "2",
+          "ipa": "11–20",
+          "zh": "契約類型、出價、Contingency、Inspection"
+        },
+        {
+          "en": "3",
+          "ipa": "21–30",
+          "zh": "揭露、貸款、Escrow、HOA、租賃"
+        },
+        {
+          "en": "4",
+          "ipa": "31–40",
+          "zh": "投資白話、異議、公平住房、綜合演練"
+        },
+        {
+          "en": "詞",
+          "ipa": "IPA",
+          "zh": "提醒"
+        },
+        {
+          "en": "escrow",
+          "ipa": "/ˈɛskoʊ/",
+          "zh": "不是 ex-crow"
+        },
+        {
+          "en": "appraisal",
+          "ipa": "/əˈpreɪzəl/",
+          "zh": "重音在 -prai-"
+        },
+        {
+          "en": "contingency",
+          "ipa": "/kənˈtɪndʒənsi/",
+          "zh": "多音節，慢讀"
+        },
+        {
+          "en": "disclosure",
+          "ipa": "/dɪsˈkloʊʒər/",
+          "zh": ""
+        },
+        {
+          "en": "commission",
+          "ipa": "/kəˈmɪʃən/",
+          "zh": ""
+        }
+      ],
+      "dialogue": [
+        {
+          "role": "A",
+          "roleLabel": "Coach",
+          "en": "Use this task card for a 12–15 minute role-play. Swap the slots, then practice the full path."
+        },
+        {
+          "role": "C",
+          "roleLabel": "Task",
+          "en": "yaml"
+        },
+        {
+          "role": "C",
+          "roleLabel": "Task",
+          "en": "Seller: {{client_name}}"
+        },
+        {
+          "role": "C",
+          "roleLabel": "Task",
+          "en": "Home: {{beds}}/{{baths}}, {{sqft}} sq ft, {{neighborhood}}"
+        },
+        {
+          "role": "C",
+          "roleLabel": "Task",
+          "en": "Wish list price: {{list_price}}"
+        },
+        {
+          "role": "C",
+          "roleLabel": "Task",
+          "en": "CMA range: {{price_range}}"
+        },
+        {
+          "role": "C",
+          "roleLabel": "Task",
+          "en": "Listing type to explain: exclusive right-to-sell"
+        },
+        {
+          "role": "C",
+          "roleLabel": "Task",
+          "en": "Objection: “I want to list higher.”"
+        }
+      ],
+      "drills": [],
+      "rewrites": []
+    }
+  ]
+}
