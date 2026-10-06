@@ -1,0 +1,4276 @@
+{
+  "titleEn": "CA Residential Field Practice Handbook",
+  "titleZh": "加州住宅成交實務手冊",
+  "subtitleEn": "Contracts → Closing: bilingual lessons, A+B form guides with fictional samples, checklists, and C-layer scenario playbooks.",
+  "subtitleZh": "從合約到交屋：雙語課文、A+B 表單導覽與虛構成交範例、檢查清單、C 層情境表單手冊。",
+  "disclaimerEn": "Study aid only—not legal advice and not official C.A.R. form replicas. Verify current forms, MLS rules, and local ordinances.",
+  "disclaimerZh": "僅供學習複習，不構成法律意見，亦非 C.A.R. 官方表單複本。請以現行表單、MLS 規則與地方法規為準。",
+  "chapters": [
+    {
+      "id": "overview",
+      "title": "總覽與表單速查",
+      "titleEn": "Overview & Form Codes"
+    },
+    {
+      "id": "contracts",
+      "title": "標準合約與表單",
+      "titleEn": "Contracts & Forms"
+    },
+    {
+      "id": "disclosures",
+      "title": "法定揭露與風險",
+      "titleEn": "Disclosures & Compliance"
+    },
+    {
+      "id": "escrow",
+      "title": "產權與託管",
+      "titleEn": "Title & Escrow"
+    },
+    {
+      "id": "finance",
+      "title": "房貸與估價",
+      "titleEn": "Financing & Appraisal"
+    },
+    {
+      "id": "inspections",
+      "title": "檢查與修繕談判",
+      "titleEn": "Inspections & Repairs"
+    },
+    {
+      "id": "listing",
+      "title": "上市與行銷",
+      "titleEn": "Listing & Marketing"
+    },
+    {
+      "id": "offers",
+      "title": "CMA 與出價策略",
+      "titleEn": "CMA & Offer Strategies"
+    },
+    {
+      "id": "agency",
+      "title": "代表權與倫理",
+      "titleEn": "Representation & Ethics"
+    },
+    {
+      "id": "closing",
+      "title": "交屋與 Closing",
+      "titleEn": "Walk-through & Closing"
+    },
+    {
+      "id": "local",
+      "title": "地方法規與特殊物業",
+      "titleEn": "Local Rules & Property Types"
+    }
+  ],
+  "forms": [
+    {
+      "code": "AD",
+      "en": "Disclosure Regarding Real Estate Agency Relationships",
+      "zh": "代理關係揭露",
+      "whenEn": "Before listing, touring, or writing an offer",
+      "whenZh": "簽 listing／帶看／出價前",
+      "purposeEn": "Statutory agency-relationship disclosure so the client understands seller agent / buyer agent / dual agency roles before substantive work.",
+      "purposeZh": "法定代理關係揭露，讓客戶在實質服務前理解賣方代理／買方代理／雙重代理角色。",
+      "category": "agency",
+      "sections": [
+        {
+          "nameEn": "Agency definitions",
+          "nameZh": "代理定義",
+          "tipEn": "Explain seller's agent, buyer's agent, and dual agent in plain language.",
+          "tipZh": "用白話說明賣方代理、買方代理與雙重代理。"
+        },
+        {
+          "nameEn": "Acknowledgment / signatures",
+          "nameZh": "確認與簽名",
+          "tipEn": "Client must sign/acknowledge before or at first substantive contact.",
+          "tipZh": "客戶須在首次實質接觸前或當時簽名確認。"
+        },
+        {
+          "nameEn": "Broker/associate names",
+          "nameZh": "經紀人／業務員姓名",
+          "tipEn": "Print correct brokerage and licensee names matching license records.",
+          "tipZh": "姓名須與執照紀錄一致。"
+        }
+      ],
+      "fillTips": [
+        {
+          "en": "Deliver AD before showing homes or taking listing details that reveal confidential strategy.",
+          "zh": "帶看或談論機密出價策略前就要交付 AD。"
+        },
+        {
+          "en": "Keep a signed copy in the transaction file; do not rely on 'they signed last year at another office.'",
+          "zh": "簽名副本入檔；不要假設「去年在別家簽過」仍有效。"
+        }
+      ],
+      "commonMistakes": [
+        {
+          "en": "Skipping AD until after offer writing — too late for compliance culture and coaching.",
+          "zh": "等到寫出價才補 AD——時點過晚。"
+        },
+        {
+          "en": "Confusing AD (disclosure) with BRBC/RLA (representation contract).",
+          "zh": "把 AD（揭露）當成 BRBC／RLA（代表合約）。"
+        }
+      ],
+      "relatedForms": [
+        "BRBC",
+        "PSRA",
+        "RLA",
+        "RPA"
+      ],
+      "sample": {
+        "id": "AD-S1",
+        "titleEn": "Buyer tour — first meeting",
+        "titleZh": "買方首次帶看",
+        "scenarioEn": "First buyer consultation before touring Maple Ave. AD signed; dual agency possible later.",
+        "scenarioZh": "帶看 Maple Ave 前首次諮詢。已簽 AD；之後可能出現雙重代理。",
+        "fields": [
+          {
+            "labelEn": "Property / context",
+            "labelZh": "標的／情境",
+            "valueEn": "1284 Maple Ave, San Jose, CA 95126",
+            "valueZh": "首看此屋前交付"
+          },
+          {
+            "labelEn": "Client",
+            "labelZh": "客戶",
+            "valueEn": "Alex Chen and Jordan Lee",
+            "valueZh": "Alex Chen and Jordan Lee"
+          },
+          {
+            "labelEn": "Licensee",
+            "labelZh": "業務員",
+            "valueEn": "Kim Park, Bay Peak Realty",
+            "valueZh": "Kim Park, Bay Peak Realty"
+          },
+          {
+            "labelEn": "Delivery date",
+            "labelZh": "交付日",
+            "valueEn": "March 3, 2026",
+            "valueZh": "2026-03-03"
+          }
+        ],
+        "checkMarks": [
+          {
+            "en": "Buyer acknowledged receipt of AD",
+            "zh": "買方已簽收 AD"
+          },
+          {
+            "en": "Explained dual agency possibility if listing side is same firm",
+            "zh": "已說明若同公司上架可能雙重代理"
+          }
+        ]
+      }
+    },
+    {
+      "code": "RLA",
+      "en": "Residential Listing Agreement – Exclusive",
+      "zh": "獨家賣方委託協議",
+      "whenEn": "Exclusive seller representation",
+      "whenZh": "獨家賣方委託",
+      "purposeEn": "Creates exclusive right-to-sell listing: term, price, compensation, MLS authority, and seller duties.",
+      "purposeZh": "建立獨家銷售委託：期限、售價、佣金、MLS 授權與賣方義務。",
+      "category": "listing",
+      "sections": [
+        {
+          "nameEn": "Exclusive term & price",
+          "nameZh": "獨家期限與售價",
+          "tipEn": "Start/end dates and list price must be specific.",
+          "tipZh": "起迄日與掛牌價必須明確。"
+        },
+        {
+          "nameEn": "Compensation",
+          "nameZh": "佣金",
+          "tipEn": "Post-NAR practice: seller-broker compensation is contractual—state clearly; buyer-broker pay is separate.",
+          "tipZh": "NAR 後：賣方端佣金寫清；買方端另約。"
+        },
+        {
+          "nameEn": "MLS / marketing authority",
+          "nameZh": "MLS／行銷授權",
+          "tipEn": "Include photo, internet, and lockbox permissions.",
+          "tipZh": "含照片、網路與密碼盒權限。"
+        },
+        {
+          "nameEn": "Seller obligations",
+          "nameZh": "賣方義務",
+          "tipEn": "Access, disclosures, and honesty about known material facts.",
+          "tipZh": "配合看屋、揭露、已知重大事實誠實陳述。"
+        }
+      ],
+      "fillTips": [
+        {
+          "en": "Align list price with CMA discussion in writing (email summary OK).",
+          "zh": "掛牌價與 CMA 討論書面對齊（電郵摘要亦可）。"
+        },
+        {
+          "en": "Confirm who pays what if buyer requests compensation via offer.",
+          "zh": "若出價要求補償買方經紀，先談清由誰出。"
+        }
+      ],
+      "commonMistakes": [
+        {
+          "en": "Open-ended listing term without clear end date.",
+          "zh": "委託期限沒有明確結束日。"
+        },
+        {
+          "en": "Oral promise of commission split not reflected in writing.",
+          "zh": "口頭承諾佣金拆分但未入紙本。"
+        }
+      ],
+      "relatedForms": [
+        "AD",
+        "TDS",
+        "SPQ",
+        "AVID",
+        "MCA"
+      ],
+      "sample": {
+        "id": "RLA-S1",
+        "titleEn": "Exclusive listing — Maple Ave",
+        "titleZh": "Maple Ave 獨家委託",
+        "scenarioEn": "Seller lists at $1,299,000 for 90 days with Oakridge Homes.",
+        "scenarioZh": "賣方以 $1,299,000 委託 Oakridge Homes 90 天。",
+        "fields": [
+          {
+            "labelEn": "Seller",
+            "labelZh": "賣方",
+            "valueEn": "Maria Santos",
+            "valueZh": "Maria Santos"
+          },
+          {
+            "labelEn": "Property",
+            "labelZh": "標的",
+            "valueEn": "1284 Maple Ave, San Jose, CA 95126",
+            "valueZh": "1284 Maple Ave, San Jose, CA 95126"
+          },
+          {
+            "labelEn": "List price",
+            "labelZh": "掛牌價",
+            "valueEn": "$1,299,000",
+            "valueZh": "$1,299,000"
+          },
+          {
+            "labelEn": "Term",
+            "labelZh": "期限",
+            "valueEn": "March 1 – May 29, 2026",
+            "valueZh": "2026-03-01 至 05-29"
+          },
+          {
+            "labelEn": "Listing broker",
+            "labelZh": "賣方經紀",
+            "valueEn": "Oakridge Homes — Licensee Diego Ruiz",
+            "valueZh": "Oakridge Homes — Licensee Diego Ruiz"
+          },
+          {
+            "labelEn": "MLS",
+            "labelZh": "MLS",
+            "valueEn": "Yes — enter within 1 business day of marketing start",
+            "valueZh": "是，行銷開始 1 營業日內上架"
+          }
+        ],
+        "checkMarks": [
+          {
+            "en": "Exclusive right to sell selected",
+            "zh": "勾選獨家銷售權"
+          },
+          {
+            "en": "Internet / photo marketing authorized",
+            "zh": "授權網路／照片行銷"
+          },
+          {
+            "en": "Seller received AD before signing RLA",
+            "zh": "簽 RLA 前已收 AD"
+          }
+        ]
+      }
+    },
+    {
+      "code": "BRBC",
+      "en": "Buyer Representation and Broker Compensation Agreement",
+      "zh": "買方代表與佣金協議",
+      "whenEn": "Buyer representation + compensation terms",
+      "whenZh": "買方代表＋佣金約定",
+      "purposeEn": "Defines buyer-broker representation scope and how the buyer broker is paid (buyer, seller concession, or combination).",
+      "purposeZh": "界定買方經紀代表範圍與佣金來源（買方自付／賣方折讓／混合）。",
+      "category": "agency",
+      "sections": [
+        {
+          "nameEn": "Representation period",
+          "nameZh": "代表期間",
+          "tipEn": "Start/end and property types covered.",
+          "tipZh": "起迄與涵蓋物業類型。"
+        },
+        {
+          "nameEn": "Compensation amount / source",
+          "nameZh": "佣金金額／來源",
+          "tipEn": "Percent or flat fee; who pays; what happens if seller offers compensation.",
+          "tipZh": "比例或固定費；由誰付；賣方若願付如何處理。"
+        },
+        {
+          "nameEn": "Exclusive vs non-exclusive",
+          "nameZh": "獨家／非獨家",
+          "tipEn": "Clarity prevents later commission disputes.",
+          "tipZh": "寫清可避免日後佣金爭議。"
+        },
+        {
+          "nameEn": "Buyer duties",
+          "nameZh": "買方義務",
+          "tipEn": "Good-faith touring, financing readiness, timely decisions.",
+          "tipZh": "善意看屋、備妥融資、及時決策。"
+        }
+      ],
+      "fillTips": [
+        {
+          "en": "Discuss compensation before writing offers; never surprise the client at acceptance.",
+          "zh": "出價前談妥佣金；不要等到成交才讓客戶嚇一跳。"
+        },
+        {
+          "en": "If expecting seller-paid compensation, still document buyer obligation if seller pays $0.",
+          "zh": "即使期望賣方付，也要寫清賣方付 $0 時買方義務。"
+        }
+      ],
+      "commonMistakes": [
+        {
+          "en": "No BRBC but writing offers — representation and pay terms unclear.",
+          "zh": "沒簽 BRBC 就寫出價——代表與付費不清。"
+        },
+        {
+          "en": "Vague 'industry standard' compensation with no number.",
+          "zh": "只寫「業界標準」卻沒有數字。"
+        }
+      ],
+      "relatedForms": [
+        "AD",
+        "PSRA",
+        "RPA",
+        "MCA"
+      ],
+      "sample": {
+        "id": "BRBC-S1",
+        "titleEn": "Buyer exclusive — 2.5% or seller-funded",
+        "titleZh": "買方獨家 — 2.5% 或賣方出資",
+        "scenarioEn": "Buyers hire Bay Peak for 90 days; compensation 2.5% of purchase price, first from any seller/broker offer, remainder by buyers.",
+        "scenarioZh": "買方委託 Bay Peak 90 天；佣金為成交價 2.5%，優先由賣方／經紀報價支付，不足由買方補。",
+        "fields": [
+          {
+            "labelEn": "Buyers",
+            "labelZh": "買方",
+            "valueEn": "Alex Chen and Jordan Lee",
+            "valueZh": "Alex Chen and Jordan Lee"
+          },
+          {
+            "labelEn": "Broker",
+            "labelZh": "經紀",
+            "valueEn": "Bay Peak Realty — Licensee Kim Park",
+            "valueZh": "Bay Peak Realty — Licensee Kim Park"
+          },
+          {
+            "labelEn": "Term",
+            "labelZh": "期限",
+            "valueEn": "March 3 – June 1, 2026",
+            "valueZh": "March 3 – June 1, 2026"
+          },
+          {
+            "labelEn": "Compensation",
+            "labelZh": "佣金",
+            "valueEn": "2.5% of purchase price",
+            "valueZh": "成交價 2.5%"
+          },
+          {
+            "labelEn": "Source waterfall",
+            "labelZh": "來源順序",
+            "valueEn": "Seller/listing offer first, then buyer",
+            "valueZh": "先賣方／上架方，再買方"
+          }
+        ],
+        "checkMarks": [
+          {
+            "en": "Exclusive buyer representation",
+            "zh": "獨家買方代表"
+          },
+          {
+            "en": "Compensation numeric amount filled",
+            "zh": "佣金數字已填"
+          },
+          {
+            "en": "AD already signed",
+            "zh": "AD 已簽"
+          }
+        ]
+      }
+    },
+    {
+      "code": "PSRA",
+      "en": "Property Showing and Representation Agreement",
+      "zh": "帶看／較輕量代表協議",
+      "whenEn": "Shorter showing/representation before full BRBC",
+      "whenZh": "先帶看、較短／較輕量代表",
+      "purposeEn": "Lighter/shorter agreement for showings when a full BRBC is not yet signed.",
+      "purposeZh": "尚未簽完整 BRBC 時，用較短協議涵蓋帶看代表。",
+      "category": "agency",
+      "sections": [
+        {
+          "nameEn": "Showing scope",
+          "nameZh": "帶看範圍",
+          "tipEn": "Which properties / MLS areas / dates.",
+          "tipZh": "哪些標的／區域／日期。"
+        },
+        {
+          "nameEn": "Limited representation",
+          "nameZh": "有限代表",
+          "tipEn": "Clarify what advice is included vs deferred to BRBC.",
+          "tipZh": "哪些諮詢包含、哪些留待 BRBC。"
+        },
+        {
+          "nameEn": "Compensation if offer written",
+          "nameZh": "若寫出價之佣金",
+          "tipEn": "Bridge to BRBC terms if an offer follows.",
+          "tipZh": "若接續出價，如何銜接 BRBC。"
+        }
+      ],
+      "fillTips": [
+        {
+          "en": "Use when client wants to tour today but needs time before exclusive BRBC.",
+          "zh": "客戶今天就要看屋、但還需時間才簽獨家 BRBC 時使用。"
+        },
+        {
+          "en": "Upgrade to BRBC before submitting a competitive offer.",
+          "zh": "提交競爭出價前升級為 BRBC。"
+        }
+      ],
+      "commonMistakes": [
+        {
+          "en": "Treating PSRA as enough for a full negotiation file.",
+          "zh": "把 PSRA 當完整談判檔案的唯一依據。"
+        },
+        {
+          "en": "Never converting to BRBC after serious offer intent.",
+          "zh": "已有認真出價意圖卻從不轉簽 BRBC。"
+        }
+      ],
+      "relatedForms": [
+        "AD",
+        "BRBC",
+        "RPA"
+      ],
+      "sample": {
+        "id": "PSRA-S1",
+        "titleEn": "Weekend tour bridge",
+        "titleZh": "週末帶看過渡",
+        "scenarioEn": "Two-day showing agreement before Monday BRBC signing.",
+        "scenarioZh": "週一簽 BRBC 前的兩日帶看協議。",
+        "fields": [
+          {
+            "labelEn": "Clients",
+            "labelZh": "客戶",
+            "valueEn": "Alex Chen and Jordan Lee",
+            "valueZh": "Alex Chen and Jordan Lee"
+          },
+          {
+            "labelEn": "Dates",
+            "labelZh": "日期",
+            "valueEn": "March 1–2, 2026",
+            "valueZh": "March 1–2, 2026"
+          },
+          {
+            "labelEn": "Area",
+            "labelZh": "區域",
+            "valueEn": "San Jose / Santa Clara ZIP 95126–95128",
+            "valueZh": "San Jose / Santa Clara ZIP 95126–95128"
+          },
+          {
+            "labelEn": "Next step",
+            "labelZh": "下一步",
+            "valueEn": "Sign BRBC before any offer",
+            "valueZh": "出價前改簽 BRBC"
+          }
+        ],
+        "checkMarks": [
+          {
+            "en": "AD delivered same day",
+            "zh": "當日已交 AD"
+          },
+          {
+            "en": "No offer under PSRA alone",
+            "zh": "不在僅有 PSRA 下出價"
+          }
+        ]
+      }
+    },
+    {
+      "code": "RPA",
+      "en": "Residential Purchase Agreement and Joint Escrow Instructions",
+      "zh": "住宅買賣合約與聯合託管指示",
+      "whenEn": "Primary 1–4 unit purchase contract",
+      "whenZh": "住宅買賣主合約",
+      "purposeEn": "Core purchase contract and joint escrow instructions for 1–4 unit residential resales.",
+      "purposeZh": "1–4 戶住宅轉售的主合約與聯合 Escrow 指示。",
+      "category": "contracts",
+      "sections": [
+        {
+          "nameEn": "Parties & property",
+          "nameZh": "當事人與標的",
+          "tipEn": "Full legal names, address, APN, included/excluded items.",
+          "tipZh": "全名、地址、APN、納入／排除項目。"
+        },
+        {
+          "nameEn": "Price, deposit, financing",
+          "nameZh": "價金、訂金、融資",
+          "tipEn": "Purchase price, initial/increased deposit, loan type, down payment.",
+          "tipZh": "成交價、初始／增加訂金、貸款類型、自備款。"
+        },
+        {
+          "nameEn": "Close of escrow date",
+          "nameZh": "過戶日",
+          "tipEn": "Specific calendar date preferred over vague timing.",
+          "tipZh": "明確日曆日優於含糊時程。"
+        },
+        {
+          "nameEn": "Contingencies",
+          "nameZh": "條件",
+          "tipEn": "Investigation, loan, appraisal, etc., with day counts.",
+          "tipZh": "調查、貸款、估價等與天數。"
+        },
+        {
+          "nameEn": "Liquidated damages / arbitration",
+          "nameZh": "違約金／仲裁",
+          "tipEn": "Elections require proper initials/signatures.",
+          "tipZh": "勾選須正確簽章。"
+        },
+        {
+          "nameEn": "Agency confirmation",
+          "nameZh": "代理確認",
+          "tipEn": "Confirm who represents whom.",
+          "tipZh": "確認誰代表誰。"
+        },
+        {
+          "nameEn": "Escrow / title",
+          "nameZh": "託管／產權",
+          "tipEn": "Escrow holder and title company selections.",
+          "tipZh": "選定 Escrow 與 Title。"
+        }
+      ],
+      "fillTips": [
+        {
+          "en": "Every blank that affects money or time must be intentional—no 'TBD' on closing date.",
+          "zh": "影響金錢或時間的欄位不可留 TBD。"
+        },
+        {
+          "en": "Attach pre-approval / POF covering the offer price.",
+          "zh": "附上覆蓋報價的 Pre-approval／POF。"
+        },
+        {
+          "en": "Spell contingency lengths the client actually agreed to in counseling.",
+          "zh": "條件天數須與諮詢時客戶同意的一致。"
+        }
+      ],
+      "commonMistakes": [
+        {
+          "en": "Missing liquidated-damages initials when parties intended LD.",
+          "zh": "雙方有意用違約金卻漏簽指定段落。"
+        },
+        {
+          "en": "Waiving contingencies in the offer without written risk disclosure to buyer.",
+          "zh": "出價即放棄條件卻未書面風險告知買方。"
+        },
+        {
+          "en": "Wrong escrow company or no delivery of accepted contract to escrow within required window.",
+          "zh": "Escrow 填錯，或成交後未在期限內送件。"
+        }
+      ],
+      "relatedForms": [
+        "AD",
+        "BRBC",
+        "CR",
+        "COP",
+        "BIA",
+        "MCA",
+        "WFA"
+      ],
+      "sample": {
+        "id": "RPA-S1",
+        "titleEn": "Financed offer — full contingencies",
+        "titleZh": "貸款出價 — 完整條件",
+        "scenarioEn": "Buyers offer list-near price with 17-day investigation, 21-day loan, appraisal contingency intact.",
+        "scenarioZh": "買方接近掛牌價出價；調查 17 天、貸款 21 天、保留估價條件。",
+        "fields": [
+          {
+            "labelEn": "Buyers",
+            "labelZh": "買方",
+            "valueEn": "Alex Chen and Jordan Lee",
+            "valueZh": "Alex Chen and Jordan Lee"
+          },
+          {
+            "labelEn": "Seller",
+            "labelZh": "賣方",
+            "valueEn": "Maria Santos",
+            "valueZh": "Maria Santos"
+          },
+          {
+            "labelEn": "Property",
+            "labelZh": "標的",
+            "valueEn": "1284 Maple Ave, San Jose, CA 95126 (APN 261-42-118)",
+            "valueZh": "1284 Maple Ave, San Jose, CA 95126 (APN 261-42-118)"
+          },
+          {
+            "labelEn": "Purchase price",
+            "labelZh": "成交價",
+            "valueEn": "$1,285,000",
+            "valueZh": "$1,285,000"
+          },
+          {
+            "labelEn": "Initial deposit",
+            "labelZh": "初始訂金",
+            "valueEn": "$38,550 (3%)",
+            "valueZh": "$38,550 (3%)"
+          },
+          {
+            "labelEn": "Financing",
+            "labelZh": "融資",
+            "valueEn": "Conventional 30-yr fixed, 80% LTV, pre-approval $1,100,000",
+            "valueZh": "Conventional 30-yr fixed, 80% LTV, pre-approval $1,100,000"
+          },
+          {
+            "labelEn": "Close of escrow",
+            "labelZh": "過戶日",
+            "valueEn": "April 30, 2026",
+            "valueZh": "April 30, 2026"
+          },
+          {
+            "labelEn": "Investigation contingency",
+            "labelZh": "調查條件",
+            "valueEn": "17 days",
+            "valueZh": "17 天"
+          },
+          {
+            "labelEn": "Loan contingency",
+            "labelZh": "貸款條件",
+            "valueEn": "21 days",
+            "valueZh": "21 天"
+          },
+          {
+            "labelEn": "Appraisal contingency",
+            "labelZh": "估價條件",
+            "valueEn": "Yes — retained",
+            "valueZh": "是 — 保留"
+          },
+          {
+            "labelEn": "Escrow / Title",
+            "labelZh": "託管／產權",
+            "valueEn": "Pacific Coast Escrow #PC-2026-4481; Bay Title Company — CLTA owner's + ALTA lender",
+            "valueZh": "Pacific Coast Escrow #PC-2026-4481; Bay Title Company — CLTA owner's + ALTA lender"
+          },
+          {
+            "labelEn": "Agency",
+            "labelZh": "代理",
+            "valueEn": "Buyer: Bay Peak Realty — Licensee Kim Park / Seller: Oakridge Homes — Licensee Diego Ruiz",
+            "valueZh": "Buyer: Bay Peak Realty — Licensee Kim Park / Seller: Oakridge Homes — Licensee Diego Ruiz"
+          }
+        ],
+        "checkMarks": [
+          {
+            "en": "Liquidated damages paragraph initialed by both sides (after acceptance)",
+            "zh": "違約金段雙方簽章（成交後）"
+          },
+          {
+            "en": "Arbitration NOT elected (example choice)",
+            "zh": "本範例未選仲裁"
+          },
+          {
+            "en": "BIA / MCA / WFA delivered with offer package",
+            "zh": "出價包附 BIA／MCA／WFA"
+          },
+          {
+            "en": "Pre-approval attached",
+            "zh": "已附 Pre-approval"
+          }
+        ]
+      }
+    },
+    {
+      "code": "COP",
+      "en": "Counter Offer",
+      "zh": "還價書",
+      "whenEn": "Countering price or terms",
+      "whenZh": "還價",
+      "purposeEn": "Changes specific terms of an offer/prior counter while leaving the rest intact.",
+      "purposeZh": "修改出價／先前還價的特定條款，其餘維持。",
+      "category": "contracts",
+      "sections": [
+        {
+          "nameEn": "Reference to prior offer",
+          "nameZh": "引用原出價",
+          "tipEn": "Date/time and which party is countering.",
+          "tipZh": "日期時間與何方還價。"
+        },
+        {
+          "nameEn": "Changed terms only",
+          "nameZh": "僅列變更條款",
+          "tipEn": "Price, deposit, closing, contingencies, inclusions.",
+          "tipZh": "價、訂金、過戶、條件、附屬物。"
+        },
+        {
+          "nameEn": "Expiration of counter",
+          "nameZh": "還價有效期限",
+          "tipEn": "Give a clear expiration to avoid open-ended risk.",
+          "tipZh": "明確失效時間，避免無限期風險。"
+        }
+      ],
+      "fillTips": [
+        {
+          "en": "Number counters (COP #1, #2). Attach to the RPA chain.",
+          "zh": "編號還價（COP #1、#2），並接到 RPA 鏈。"
+        },
+        {
+          "en": "Do not restate unchanged paragraphs—only deltas.",
+          "zh": "不要重抄未改段落——只寫差異。"
+        }
+      ],
+      "commonMistakes": [
+        {
+          "en": "Ambiguous 'seller accepts except price' without stating the new price.",
+          "zh": "只寫「除價格外接受」卻沒寫新價格。"
+        },
+        {
+          "en": "Forgetting expiration time on a hot multiple-offer weekend.",
+          "zh": "熱門週末多方出價卻忘了還價失效時間。"
+        }
+      ],
+      "relatedForms": [
+        "RPA",
+        "SMCO",
+        "AEA"
+      ],
+      "sample": {
+        "id": "COP-S1",
+        "titleEn": "Seller COP #1 — price & closing",
+        "titleZh": "賣方 COP #1 — 價格與過戶",
+        "scenarioEn": "Seller counters price to list and pushes closing one week later.",
+        "scenarioZh": "賣方還價至掛牌價，並將過戶延後一週。",
+        "fields": [
+          {
+            "labelEn": "References",
+            "labelZh": "引用",
+            "valueEn": "Buyer's RPA dated March 10, 2026",
+            "valueZh": "買方 RPA 日期 2026-03-10"
+          },
+          {
+            "labelEn": "New price",
+            "labelZh": "新價格",
+            "valueEn": "$1,299,000",
+            "valueZh": "$1,299,000"
+          },
+          {
+            "labelEn": "New closing",
+            "labelZh": "新過戶日",
+            "valueEn": "May 7, 2026",
+            "valueZh": "May 7, 2026"
+          },
+          {
+            "labelEn": "All other terms",
+            "labelZh": "其餘條款",
+            "valueEn": "Remain as in buyer's offer",
+            "valueZh": "維持買方出價其餘內容"
+          },
+          {
+            "labelEn": "COP expires",
+            "labelZh": "還價失效",
+            "valueEn": "March 11, 2026 at 5:00 p.m.",
+            "valueZh": "2026-03-11 下午 5:00"
+          }
+        ],
+        "checkMarks": [
+          {
+            "en": "Seller signed COP #1",
+            "zh": "賣方已簽 COP #1"
+          },
+          {
+            "en": "Buyer must accept in writing before expiration",
+            "zh": "買方須在失效前書面接受"
+          }
+        ]
+      }
+    },
+    {
+      "code": "SMCO",
+      "en": "Seller Multiple Counter Offer",
+      "zh": "賣方多方還價",
+      "whenEn": "Seller counters multiple buyers",
+      "whenZh": "多方交易還價",
+      "purposeEn": "Lets seller issue non-binding counters to multiple buyers; acceptance by a buyer does not bind seller until seller selects.",
+      "purposeZh": "賣方可向多方發出非約束性還價；買方接受後，賣方選定前不生完整拘束力。",
+      "category": "contracts",
+      "sections": [
+        {
+          "nameEn": "Multiple-buyer notice",
+          "nameZh": "多方告知",
+          "tipEn": "Explain SMCO is not a simple one-to-one COP.",
+          "tipZh": "說明 SMCO 不是一對一簡單 COP。"
+        },
+        {
+          "nameEn": "Counter terms",
+          "nameZh": "還價條款",
+          "tipEn": "Price/terms seller wants from each buyer.",
+          "tipZh": "賣方希望各方達到的價款／條款。"
+        },
+        {
+          "nameEn": "Seller's final selection",
+          "nameZh": "賣方最終選定",
+          "tipEn": "Seller later selects which accepting buyer wins.",
+          "tipZh": "賣方之後選定接受方。"
+        }
+      ],
+      "fillTips": [
+        {
+          "en": "Counsel buyers that 'accepting' an SMCO is not yet a locked contract.",
+          "zh": "告知買方：接受 SMCO 尚非鎖定合約。"
+        },
+        {
+          "en": "Track each buyer's response deadline carefully.",
+          "zh": "仔細追蹤每位買方回覆期限。"
+        }
+      ],
+      "commonMistakes": [
+        {
+          "en": "Treating SMCO like a regular COP that binds upon buyer signature alone.",
+          "zh": "把 SMCO 當成買方簽名即拘束的普通 COP。"
+        },
+        {
+          "en": "Failing to notify non-selected buyers promptly.",
+          "zh": "未及時通知落選買方。"
+        }
+      ],
+      "relatedForms": [
+        "RPA",
+        "COP",
+        "MCA"
+      ],
+      "sample": {
+        "id": "SMCO-S1",
+        "titleEn": "Three-buyer weekend",
+        "titleZh": "三方週末出價",
+        "scenarioEn": "Seller issues SMCO asking $1,310,000, shorter inspection, and proof of funds refresh.",
+        "scenarioZh": "賣方 SMCO 要求 $1,310,000、縮短檢查、更新資金證明。",
+        "fields": [
+          {
+            "labelEn": "Buyers in play",
+            "labelZh": "參與買方",
+            "valueEn": "Buyer A (Chen/Lee), Buyer B, Buyer C",
+            "valueZh": "Buyer A (Chen/Lee), Buyer B, Buyer C"
+          },
+          {
+            "labelEn": "Asked price",
+            "labelZh": "要求價格",
+            "valueEn": "$1,310,000",
+            "valueZh": "$1,310,000"
+          },
+          {
+            "labelEn": "Inspection",
+            "labelZh": "檢查",
+            "valueEn": "7 days (shortened)",
+            "valueZh": "縮短為 7 天"
+          },
+          {
+            "labelEn": "Seller selection window",
+            "labelZh": "選定窗口",
+            "valueEn": "March 12, 2026 8:00 p.m.",
+            "valueZh": "2026-03-12 晚 8:00"
+          }
+        ],
+        "checkMarks": [
+          {
+            "en": "Buyers advised SMCO is not final acceptance",
+            "zh": "已告知買方 SMCO 非最終成交"
+          },
+          {
+            "en": "Seller later selects Buyer A in writing",
+            "zh": "賣方之後書面選定 Buyer A"
+          }
+        ]
+      }
+    },
+    {
+      "code": "CR",
+      "en": "Contingency Removal",
+      "zh": "條件移除書",
+      "whenEn": "Written removal of contingencies",
+      "whenZh": "書面移除條件",
+      "purposeEn": "Buyer removes listed contingencies in writing so they no longer justify cancellation.",
+      "purposeZh": "買方書面移除所列條件，之後不得再以該條件為由取消。",
+      "category": "contracts",
+      "sections": [
+        {
+          "nameEn": "Which contingencies",
+          "nameZh": "移除哪些條件",
+          "tipEn": "Investigation, loan, appraisal, HOA, etc.—check only what is truly removed.",
+          "tipZh": "調查、貸款、估價、HOA 等——只勾真正移除的。"
+        },
+        {
+          "nameEn": "Partial vs all",
+          "nameZh": "部分／全部",
+          "tipEn": "You can remove some now and leave others alive.",
+          "tipZh": "可先移除部分、保留其餘。"
+        },
+        {
+          "nameEn": "Delivery",
+          "nameZh": "送達",
+          "tipEn": "Deliver to seller/listing side per contract; calendar the moment.",
+          "tipZh": "依合約送達賣方／上架方；記下時點。"
+        }
+      ],
+      "fillTips": [
+        {
+          "en": "Never oral removal—'we're good to go' is not CR.",
+          "zh": "不可口頭移除——「沒問題了」不算 CR。"
+        },
+        {
+          "en": "If removing loan contingency, confirm underwriting reality with lender first.",
+          "zh": "移除貸款條件前先向貸方確認核貸現況。"
+        }
+      ],
+      "commonMistakes": [
+        {
+          "en": "Checking 'all contingencies' by habit while appraisal is still open.",
+          "zh": "習慣性勾「全部條件」但估價仍未完成。"
+        },
+        {
+          "en": "Buyer signs CR under pressure without reading which boxes are checked.",
+          "zh": "買方未看勾選內容就在壓力下簽名。"
+        }
+      ],
+      "relatedForms": [
+        "RPA",
+        "NBP",
+        "RR",
+        "DCE"
+      ],
+      "sample": {
+        "id": "CR-S1",
+        "titleEn": "Remove investigation only",
+        "titleZh": "僅移除調查條件",
+        "scenarioEn": "After inspections and RR credit agreement, buyer removes investigation but keeps loan/appraisal.",
+        "scenarioZh": "檢查與 RR 折讓談妥後，買方只移除調查條件，保留貸款／估價。",
+        "fields": [
+          {
+            "labelEn": "Contract",
+            "labelZh": "合約",
+            "valueEn": "RPA accepted March 12, 2026 — 1284 Maple Ave, San Jose, CA 95126",
+            "valueZh": "RPA accepted March 12, 2026 — 1284 Maple Ave, San Jose, CA 95126"
+          },
+          {
+            "labelEn": "Removed",
+            "labelZh": "已移除",
+            "valueEn": "Investigation / inspection contingency",
+            "valueZh": "調查／檢查條件"
+          },
+          {
+            "labelEn": "Still active",
+            "labelZh": "仍有效",
+            "valueEn": "Loan + appraisal contingencies",
+            "valueZh": "貸款＋估價條件"
+          },
+          {
+            "labelEn": "Delivery",
+            "labelZh": "送達",
+            "valueEn": "Email + DocuSign to listing agent March 28, 2026 2:14 p.m.",
+            "valueZh": "2026-03-28 下午 2:14 電郵＋電子簽"
+          }
+        ],
+        "checkMarks": [
+          {
+            "en": "Only investigation box checked",
+            "zh": "只勾調查條件"
+          },
+          {
+            "en": "Buyer initials confirm understanding of risk",
+            "zh": "買方簽章確認理解風險"
+          }
+        ]
+      }
+    },
+    {
+      "code": "NBP",
+      "en": "Notice to Buyer to Perform",
+      "zh": "催買方履約通知",
+      "whenEn": "Seller demands buyer performance",
+      "whenZh": "賣方催買方履約",
+      "purposeEn": "Seller demands buyer perform a listed contractual duty (often remove contingencies) within the notice period.",
+      "purposeZh": "賣方要求買方在通知期限內履行合約義務（常見為移除條件）。",
+      "category": "contracts",
+      "sections": [
+        {
+          "nameEn": "Which buyer duties",
+          "nameZh": "哪些買方義務",
+          "tipEn": "Be specific: remove contingencies, deposit increase, etc.",
+          "tipZh": "寫明：移除條件、補訂金等。"
+        },
+        {
+          "nameEn": "Notice period",
+          "nameZh": "通知期限",
+          "tipEn": "Follow RPA timing (commonly 2 days unless otherwise stated).",
+          "tipZh": "依 RPA 時程（常見 2 日，除非另有約定）。"
+        },
+        {
+          "nameEn": "Consequence path",
+          "nameZh": "後續路徑",
+          "tipEn": "If buyer fails, seller may cancel under contract rules; deposit handling follows RPA.",
+          "tipZh": "買方未履行，賣方可依約取消；訂金處理依 RPA。"
+        }
+      ],
+      "fillTips": [
+        {
+          "en": "Serve NBP only after the buyer's deadline has actually passed.",
+          "zh": "買方期限真正過後才發 NBP。"
+        },
+        {
+          "en": "Deliver with proof; start the clock from proper delivery.",
+          "zh": "附送達證明；自有效送達起算。"
+        }
+      ],
+      "commonMistakes": [
+        {
+          "en": "Using NBP when buyer already removed all contingencies but won't close — use DCE path instead.",
+          "zh": "買方已移除全部條件卻不 Closing 時仍用 NBP——應走 DCE。"
+        },
+        {
+          "en": "Vague NBP that doesn't identify the missed performance.",
+          "zh": "NBP 含糊、未指明未履行事項。"
+        }
+      ],
+      "relatedForms": [
+        "CR",
+        "CC",
+        "RPA",
+        "DCE"
+      ],
+      "sample": {
+        "id": "NBP-S1",
+        "titleEn": "Demand contingency removal",
+        "titleZh": "催移除條件",
+        "scenarioEn": "Investigation period expired; buyer silent. Seller serves NBP demanding CR.",
+        "scenarioZh": "調查期已過、買方無回應。賣方發 NBP 要求出具 CR。",
+        "fields": [
+          {
+            "labelEn": "Demand",
+            "labelZh": "要求",
+            "valueEn": "Remove investigation contingency via Form CR",
+            "valueZh": "以 CR 移除調查條件"
+          },
+          {
+            "labelEn": "Served",
+            "labelZh": "送達",
+            "valueEn": "April 1, 2026 10:00 a.m. to buyer broker",
+            "valueZh": "2026-04-01 上午 10:00 送達買方經紀"
+          },
+          {
+            "labelEn": "Performance window",
+            "labelZh": "履約窗口",
+            "valueEn": "Per RPA NBP period",
+            "valueZh": "依 RPA 之 NBP 期間"
+          }
+        ],
+        "checkMarks": [
+          {
+            "en": "Seller confirms buyer's contingency deadline already passed",
+            "zh": "賣方確認買方條件期限已過"
+          },
+          {
+            "en": "Delivery receipt saved to file",
+            "zh": "送達證明入檔"
+          }
+        ]
+      }
+    },
+    {
+      "code": "NSP",
+      "en": "Notice to Seller to Perform",
+      "zh": "催賣方履約通知",
+      "whenEn": "Buyer demands seller deliveries",
+      "whenZh": "買方催賣方交付文件",
+      "purposeEn": "Buyer demands seller perform (often deliver disclosures, reports, HOA package, or other seller deliveries).",
+      "purposeZh": "買方要求賣方履約（常見為交付揭露、報告、HOA 文件等）。",
+      "category": "contracts",
+      "sections": [
+        {
+          "nameEn": "Seller duties demanded",
+          "nameZh": "要求之賣方義務",
+          "tipEn": "List exact missing items.",
+          "tipZh": "列出確實缺件。"
+        },
+        {
+          "nameEn": "Notice timing",
+          "nameZh": "通知時程",
+          "tipEn": "Follow RPA NSP mechanics.",
+          "tipZh": "依 RPA 的 NSP 機制。"
+        },
+        {
+          "nameEn": "Buyer remedies",
+          "nameZh": "買方救濟",
+          "tipEn": "If seller fails after NSP, cancellation/extension paths per contract.",
+          "tipZh": "賣方未履約時依約取消／延期。"
+        }
+      ],
+      "fillTips": [
+        {
+          "en": "Itemize missing disclosures (TDS, SPQ, NHD, HOA) rather than 'all docs.'",
+          "zh": "列明缺件（TDS、SPQ、NHD、HOA），不要只寫「全部文件」。"
+        },
+        {
+          "en": "Coordinate with escrow on what is still outstanding.",
+          "zh": "與 Escrow 核對仍缺什麼。"
+        }
+      ],
+      "commonMistakes": [
+        {
+          "en": "Serving NSP before seller's delivery deadline expires.",
+          "zh": "賣方交付期限未到就發 NSP。"
+        },
+        {
+          "en": "Not updating buyer's contingency calendar after late seller deliveries.",
+          "zh": "賣方晚交件後未更新買方條件日曆。"
+        }
+      ],
+      "relatedForms": [
+        "TDS",
+        "SPQ",
+        "RPA",
+        "CC"
+      ],
+      "sample": {
+        "id": "NSP-S1",
+        "titleEn": "Missing HOA + SPQ",
+        "titleZh": "缺 HOA＋SPQ",
+        "scenarioEn": "Seller delivery deadline passed; HOA package and SPQ still missing.",
+        "scenarioZh": "賣方交付期限已過；仍缺 HOA 與 SPQ。",
+        "fields": [
+          {
+            "labelEn": "Demanded items",
+            "labelZh": "要求項目",
+            "valueEn": "Complete HOA docs + signed SPQ",
+            "valueZh": "完整 HOA 文件＋已簽 SPQ"
+          },
+          {
+            "labelEn": "Served",
+            "labelZh": "送達",
+            "valueEn": "March 22, 2026 to listing broker",
+            "valueZh": "2026-03-22 送達上架經紀"
+          }
+        ],
+        "checkMarks": [
+          {
+            "en": "Buyer calendar extended upon eventual delivery",
+            "zh": "實際交付後更新買方日曆"
+          },
+          {
+            "en": "NSP proof of delivery filed",
+            "zh": "NSP 送達證明入檔"
+          }
+        ]
+      }
+    },
+    {
+      "code": "CC",
+      "en": "Cancellation of Contract",
+      "zh": "合約取消書",
+      "whenEn": "Cancel the agreement in writing",
+      "whenZh": "取消合約",
+      "purposeEn": "Mutual or unilateral cancellation paperwork instructing escrow on release of funds and mutual release language as applicable.",
+      "purposeZh": "雙方或單方取消書面，指示 Escrow 釋放款項及（如適用）相互免責。",
+      "category": "contracts",
+      "sections": [
+        {
+          "nameEn": "Reason / authority",
+          "nameZh": "原因／依據",
+          "tipEn": "Contingency cancellation, mutual cancel, or default path.",
+          "tipZh": "依條件取消、合意取消或違約路徑。"
+        },
+        {
+          "nameEn": "Deposit disposition",
+          "nameZh": "訂金處置",
+          "tipEn": "Return to buyer, release to seller, or hold—must match legal basis.",
+          "tipZh": "退買方、給賣方或暫留——須有法律依據。"
+        },
+        {
+          "nameEn": "Mutual release",
+          "nameZh": "相互免責",
+          "tipEn": "Often requested so parties walk away cleanly.",
+          "tipZh": "常一併簽署以便乾淨分手。"
+        }
+      ],
+      "fillTips": [
+        {
+          "en": "Match the cancellation theory to the facts (open contingency vs mutual vs default).",
+          "zh": "取消理論須符合事實（條件仍在／合意／違約）。"
+        },
+        {
+          "en": "Get both signatures when seeking mutual cancel and deposit return.",
+          "zh": "合意取消並退訂金時爭取雙方簽名。"
+        }
+      ],
+      "commonMistakes": [
+        {
+          "en": "Buyer 'cancels' by text without CC — escrow cannot release.",
+          "zh": "買方用簡訊「取消」卻無 CC——Escrow 無法放款。"
+        },
+        {
+          "en": "Fighting over deposit on CC without documenting contingency status.",
+          "zh": "在 CC 上爭訂金卻未紀錄條件狀態。"
+        }
+      ],
+      "relatedForms": [
+        "CR",
+        "NBP",
+        "RPA"
+      ],
+      "sample": {
+        "id": "CC-S1",
+        "titleEn": "Mutual cancel — loan denial",
+        "titleZh": "合意取消 — 貸款被拒",
+        "scenarioEn": "Loan contingency still active; lender denies. Parties mutually cancel; deposit to buyer.",
+        "scenarioZh": "貸款條件仍在；貸方拒絕。雙方合意取消，訂金退買方。",
+        "fields": [
+          {
+            "labelEn": "Basis",
+            "labelZh": "依據",
+            "valueEn": "Loan contingency — mutual cancellation",
+            "valueZh": "貸款條件 — 合意取消"
+          },
+          {
+            "labelEn": "Deposit",
+            "labelZh": "訂金",
+            "valueEn": "Return $38,550 to buyers",
+            "valueZh": "退還 $38,550 予買方"
+          },
+          {
+            "labelEn": "Escrow instruction",
+            "labelZh": "Escrow 指示",
+            "valueEn": "Cancel file PC-2026-4481",
+            "valueZh": "取消檔案 PC-2026-4481"
+          }
+        ],
+        "checkMarks": [
+          {
+            "en": "Both parties signed CC",
+            "zh": "雙方已簽 CC"
+          },
+          {
+            "en": "Lender denial letter attached",
+            "zh": "附貸方拒絕信"
+          }
+        ]
+      }
+    },
+    {
+      "code": "RR",
+      "en": "Request for Repair",
+      "zh": "修繕／折讓請求",
+      "whenEn": "Buyer repair/credit/price requests after inspection",
+      "whenZh": "檢查後修繕談判",
+      "purposeEn": "Buyer requests repairs, credits, price reduction, or other remedies after investigations.",
+      "purposeZh": "檢查後買方請求修繕、折讓、降價或其他救濟。",
+      "category": "inspections",
+      "sections": [
+        {
+          "nameEn": "Requested items",
+          "nameZh": "請求項目",
+          "tipEn": "Number each request; attach report pages.",
+          "tipZh": "逐項編號；附報告頁。"
+        },
+        {
+          "nameEn": "Repair vs credit vs price",
+          "nameZh": "修繕／折讓／降價",
+          "tipEn": "State preferred remedy clearly.",
+          "tipZh": "清楚寫偏好救濟方式。"
+        },
+        {
+          "nameEn": "Response deadline",
+          "nameZh": "回覆期限",
+          "tipEn": "Give seller a practical deadline inside contingency.",
+          "tipZh": "在條件期內給賣方務實期限。"
+        }
+      ],
+      "fillTips": [
+        {
+          "en": "Prefer credits for old systems when buyer wants control of contractor quality.",
+          "zh": "老舊系統若買方要自控工班品質，偏好折讓。"
+        },
+        {
+          "en": "Do not request cosmetic wish-list items that kill goodwill in a tight market.",
+          "zh": "熱市勿提大量外觀願望清單損善意。"
+        }
+      ],
+      "commonMistakes": [
+        {
+          "en": "RR so late that seller cannot respond before contingency expires.",
+          "zh": "RR 太晚，賣方無法在條件到期前回應。"
+        },
+        {
+          "en": "Vague 'fix all inspection items' with no list.",
+          "zh": "含糊要求「修報告全部項目」卻無清單。"
+        }
+      ],
+      "relatedForms": [
+        "RRRR",
+        "AEA",
+        "CR",
+        "BIA"
+      ],
+      "sample": {
+        "id": "RR-S1",
+        "titleEn": "Credit for roof + electrical",
+        "titleZh": "屋頂＋電路折讓",
+        "scenarioEn": "Buyer requests $12,000 credit in lieu of roof repair and panel upgrade.",
+        "scenarioZh": "買方請求 $12,000 折讓，代替屋頂修繕與電箱升級。",
+        "fields": [
+          {
+            "labelEn": "Item 1",
+            "labelZh": "項目 1",
+            "valueEn": "$8,000 credit — roof (report p.4–6)",
+            "valueZh": "$8,000 折讓 — 屋頂（報告 p.4–6）"
+          },
+          {
+            "labelEn": "Item 2",
+            "labelZh": "項目 2",
+            "valueEn": "$4,000 credit — electrical panel (report p.11)",
+            "valueZh": "$4,000 折讓 — 電箱（報告 p.11）"
+          },
+          {
+            "labelEn": "Total asked",
+            "labelZh": "合計",
+            "valueEn": "$12,000 seller credit at close",
+            "valueZh": "結案時賣方折讓 $12,000"
+          },
+          {
+            "labelEn": "Seller respond by",
+            "labelZh": "賣方回覆期限",
+            "valueEn": "March 25, 2026 5:00 p.m.",
+            "valueZh": "March 25, 2026 5:00 p.m."
+          }
+        ],
+        "checkMarks": [
+          {
+            "en": "Inspection excerpts attached",
+            "zh": "已附檢查報告摘錄"
+          },
+          {
+            "en": "Buyer still within investigation contingency",
+            "zh": "買方仍在調查條件內"
+          }
+        ]
+      }
+    },
+    {
+      "code": "RRRR",
+      "en": "Seller Response and Buyer Reply to Request for Repair",
+      "zh": "賣方回應與買方再回覆",
+      "whenEn": "Negotiate RR responses",
+      "whenZh": "修繕談判來回",
+      "purposeEn": "Seller responds to RR; buyer replies—creates a written negotiation trail.",
+      "purposeZh": "賣方回應 RR、買方再回覆——形成書面談判軌跡。",
+      "category": "inspections",
+      "sections": [
+        {
+          "nameEn": "Seller response options",
+          "nameZh": "賣方回應選項",
+          "tipEn": "Agree, agree in part, refuse, or propose alternate credit.",
+          "tipZh": "同意、部分同意、拒絕或改提折讓。"
+        },
+        {
+          "nameEn": "Buyer reply",
+          "nameZh": "買方再回覆",
+          "tipEn": "Accept seller position or continue negotiating / cancel path.",
+          "tipZh": "接受賣方立場，或續談／走取消。"
+        },
+        {
+          "nameEn": "Final agreed set",
+          "nameZh": "最終合意項目",
+          "tipEn": "Only agreed items survive into performance.",
+          "tipZh": "只有合意項目進入履約。"
+        }
+      ],
+      "fillTips": [
+        {
+          "en": "When agreeing to a credit, state escrow credit amount exactly.",
+          "zh": "同意折讓時寫明 Escrow 折讓金額。"
+        },
+        {
+          "en": "If seller will repair, define licensed contractor and re-inspection right.",
+          "zh": "若賣方修繕，寫明持照工班與複檢權。"
+        }
+      ],
+      "commonMistakes": [
+        {
+          "en": "Oral 'seller will fix it' with no RRRR — unenforceable fog.",
+          "zh": "口頭「賣方會修」卻無 RRRR——無法執行的模糊。"
+        },
+        {
+          "en": "Buyer removes inspection contingency before RRRR is fully signed.",
+          "zh": "RRRR 未簽完就移除檢查條件。"
+        }
+      ],
+      "relatedForms": [
+        "RR",
+        "AEA",
+        "CR"
+      ],
+      "sample": {
+        "id": "RRRR-S1",
+        "titleEn": "Seller offers $9,000 credit",
+        "titleZh": "賣方提 $9,000 折讓",
+        "scenarioEn": "Seller rejects repairs, offers $9,000 credit; buyer accepts.",
+        "scenarioZh": "賣方拒絕實修，提出 $9,000 折讓；買方接受。",
+        "fields": [
+          {
+            "labelEn": "Seller response",
+            "labelZh": "賣方回應",
+            "valueEn": "No repairs; $9,000 closing credit",
+            "valueZh": "不實修；結案折讓 $9,000"
+          },
+          {
+            "labelEn": "Buyer reply",
+            "labelZh": "買方回覆",
+            "valueEn": "Accept $9,000 credit",
+            "valueZh": "接受 $9,000 折讓"
+          },
+          {
+            "labelEn": "Escrow note",
+            "labelZh": "Escrow 註記",
+            "valueEn": "Credit line on Closing Disclosure",
+            "valueZh": "於 Closing Disclosure 列折讓"
+          }
+        ],
+        "checkMarks": [
+          {
+            "en": "Both sides signed final RRRR",
+            "zh": "雙方簽妥最終 RRRR"
+          },
+          {
+            "en": "Buyer then signs CR for investigation",
+            "zh": "買方隨後簽 CR 移除調查條件"
+          }
+        ]
+      }
+    },
+    {
+      "code": "AEA",
+      "en": "Amendment of Existing Agreement Terms",
+      "zh": "合約條款修正",
+      "whenEn": "Amend price/terms without RR package",
+      "whenZh": "改價、改條款",
+      "purposeEn": "Amend contract terms (price, closing date, credits, inclusions) outside a repair request package.",
+      "purposeZh": "在修繕請求套件之外修正合約條款（價、過戶日、折讓、附屬物）。",
+      "category": "contracts",
+      "sections": [
+        {
+          "nameEn": "What changes",
+          "nameZh": "修改內容",
+          "tipEn": "List each amended paragraph/term.",
+          "tipZh": "逐項列出修正條款。"
+        },
+        {
+          "nameEn": "What stays",
+          "nameZh": "維持內容",
+          "tipEn": "State all other terms remain.",
+          "tipZh": "註明其餘條款不變。"
+        },
+        {
+          "nameEn": "Effective upon signatures",
+          "nameZh": "簽名後生效",
+          "tipEn": "Both parties must sign.",
+          "tipZh": "須雙方簽名。"
+        }
+      ],
+      "fillTips": [
+        {
+          "en": "Use AEA for appraisal gap cash addendum-style price/credit changes.",
+          "zh": "估價缺口的加價／折讓可用 AEA。"
+        },
+        {
+          "en": "Send amended terms to escrow immediately after signing.",
+          "zh": "簽名後立刻送 Escrow。"
+        }
+      ],
+      "commonMistakes": [
+        {
+          "en": "Changing closing date by email only — escrow needs signed AEA.",
+          "zh": "只用電郵改過戶日——Escrow 需要簽名 AEA。"
+        },
+        {
+          "en": "Multiple contradictory AEAs without numbering.",
+          "zh": "多份互相矛盾的 AEA 卻未編號。"
+        }
+      ],
+      "relatedForms": [
+        "RPA",
+        "RR",
+        "COP"
+      ],
+      "sample": {
+        "id": "AEA-S1",
+        "titleEn": "Price drop after low appraisal",
+        "titleZh": "低估價後降價",
+        "scenarioEn": "Appraisal $1,245,000. Parties amend price to appraised value; buyer keeps loan contingency.",
+        "scenarioZh": "估價 $1,245,000。雙方修正成交價為估價值；買方保留貸款條件。",
+        "fields": [
+          {
+            "labelEn": "Old price",
+            "labelZh": "原價",
+            "valueEn": "$1,285,000",
+            "valueZh": "$1,285,000"
+          },
+          {
+            "labelEn": "New price",
+            "labelZh": "新價",
+            "valueEn": "$1,245,000",
+            "valueZh": "$1,245,000"
+          },
+          {
+            "labelEn": "Other terms",
+            "labelZh": "其餘",
+            "valueEn": "Unchanged",
+            "valueZh": "不變"
+          }
+        ],
+        "checkMarks": [
+          {
+            "en": "AEA #1 signed by both",
+            "zh": "AEA #1 雙方已簽"
+          },
+          {
+            "en": "Lender and escrow notified",
+            "zh": "已通知貸方與 Escrow"
+          }
+        ]
+      }
+    },
+    {
+      "code": "TDS",
+      "en": "Transfer Disclosure Statement",
+      "zh": "轉讓揭露書",
+      "whenEn": "Statutory seller disclosure (CC 1102)",
+      "whenZh": "法定賣方揭露",
+      "purposeEn": "Statutory seller disclosure of known material defects and property conditions under Civil Code 1102 et seq.",
+      "purposeZh": "依民法 1102 等，賣方對已知重大瑕疵與現況的法定揭露。",
+      "category": "disclosures",
+      "sections": [
+        {
+          "nameEn": "Seller knowledge questions",
+          "nameZh": "賣方知情問項",
+          "tipEn": "Answer Yes/No honestly; explain Yes answers.",
+          "tipZh": "誠實勾選；Yes 須說明。"
+        },
+        {
+          "nameEn": "Room/system checklists",
+          "nameZh": "空間／系統清單",
+          "tipEn": "Note defects in roof, plumbing, electrical, etc.",
+          "tipZh": "註明屋頂、水電等瑕疵。"
+        },
+        {
+          "nameEn": "Agent visual sections",
+          "nameZh": "經紀人目視段",
+          "tipEn": "Listing agent completes applicable visual parts; AVID often accompanies.",
+          "tipZh": "上架經紀填目視相關段；常搭配 AVID。"
+        },
+        {
+          "nameEn": "Amendments",
+          "nameZh": "修正",
+          "tipEn": "Material new info requires amended disclosure + new timing risk.",
+          "tipZh": "重大新資訊須修正揭露並重開時程風險。"
+        }
+      ],
+      "fillTips": [
+        {
+          "en": "Seller fills from actual knowledge—not 'I don't live there so N/A' for known history.",
+          "zh": "依實際知情填寫——已知歷史不可因不住而填 N/A。"
+        },
+        {
+          "en": "Deliver early; late TDS can extend buyer rights.",
+          "zh": "盡早交付；晚交可能延長買方權利。"
+        }
+      ],
+      "commonMistakes": [
+        {
+          "en": "Checking No on water intrusion when seller knows of past leaks.",
+          "zh": "明知曾滲水卻勾 No。"
+        },
+        {
+          "en": "Amending TDS after CR without alerting buyer to new rescission timing.",
+          "zh": "CR 後修正 TDS 卻未警示買方新撤銷時程。"
+        }
+      ],
+      "relatedForms": [
+        "SPQ",
+        "AVID",
+        "NSP",
+        "RPA"
+      ],
+      "sample": {
+        "id": "TDS-S1",
+        "titleEn": "Yes — prior roof leak repaired",
+        "titleZh": "Yes — 屋頂曾漏已修",
+        "scenarioEn": "Seller discloses 2022 roof leak repaired with permit; no current leaks known.",
+        "scenarioZh": "賣方揭露 2022 屋頂漏水已許可修繕；目前未知再漏。",
+        "fields": [
+          {
+            "labelEn": "Seller",
+            "labelZh": "賣方",
+            "valueEn": "Maria Santos",
+            "valueZh": "Maria Santos"
+          },
+          {
+            "labelEn": "Property",
+            "labelZh": "標的",
+            "valueEn": "1284 Maple Ave, San Jose, CA 95126",
+            "valueZh": "1284 Maple Ave, San Jose, CA 95126"
+          },
+          {
+            "labelEn": "Material Yes",
+            "labelZh": "重大 Yes",
+            "valueEn": "Roof leak 2022 — repaired with city permit #BLD-22-881",
+            "valueZh": "2022 漏水 — 市府許可 #BLD-22-881 已修"
+          },
+          {
+            "labelEn": "Delivery",
+            "labelZh": "交付",
+            "valueEn": "March 14, 2026 via listing broker",
+            "valueZh": "2026-03-14 經上架經紀交付"
+          }
+        ],
+        "checkMarks": [
+          {
+            "en": "Seller signed TDS",
+            "zh": "賣方已簽 TDS"
+          },
+          {
+            "en": "Listing agent completed agent visual portion",
+            "zh": "上架經紀已填目視部分"
+          },
+          {
+            "en": "Buyer receipt acknowledged",
+            "zh": "買方已簽收"
+          }
+        ]
+      }
+    },
+    {
+      "code": "SPQ",
+      "en": "Seller Property Questionnaire",
+      "zh": "賣方產權問卷",
+      "whenEn": "Contractual seller questionnaire",
+      "whenZh": "合約性賣方問卷",
+      "purposeEn": "Contractual deep-dive questionnaire on claims, lawsuits, HOA, alterations, neighborhood, insurance, etc.",
+      "purposeZh": "合約性深度問卷：理賠、訴訟、HOA、改建、鄰里、保險等。",
+      "category": "disclosures",
+      "sections": [
+        {
+          "nameEn": "Claims / insurance / lawsuits",
+          "nameZh": "理賠／保險／訴訟",
+          "tipEn": "Prior claims often matter to buyers and insurers.",
+          "tipZh": "過往理賠常影響買方與保險。"
+        },
+        {
+          "nameEn": "Alterations / permits",
+          "nameZh": "改建／許可",
+          "tipEn": "Unpermitted work is a classic exam and deal killer.",
+          "tipZh": "無許可工程是考題與成交殺手。"
+        },
+        {
+          "nameEn": "Neighborhood / disputes",
+          "nameZh": "鄰里／糾紛",
+          "tipEn": "Noise, boundary, HOA fights.",
+          "tipZh": "噪音、邊界、HOA 爭議。"
+        }
+      ],
+      "fillTips": [
+        {
+          "en": "Cross-check SPQ vs TDS—conflicts must be reconciled in writing.",
+          "zh": "SPQ 與 TDS 交叉核對——矛盾須書面釐清。"
+        },
+        {
+          "en": "Ask seller about ADU, solar leases, and EV charger agreements.",
+          "zh": "詢問 ADU、太陽能租約、充電樁協議。"
+        }
+      ],
+      "commonMistakes": [
+        {
+          "en": "Leaving SPQ blank because 'TDS is enough.'",
+          "zh": "以為有 TDS 就留空 SPQ。"
+        },
+        {
+          "en": "Hiding insurance claim that later appears on CLUE report.",
+          "zh": "隱瞞之後會出現在 CLUE 的保險理賠。"
+        }
+      ],
+      "relatedForms": [
+        "TDS",
+        "AVID",
+        "RPA"
+      ],
+      "sample": {
+        "id": "SPQ-S1",
+        "titleEn": "Permitted kitchen remodel + HOA note",
+        "titleZh": "許可廚房改建＋HOA 註記",
+        "scenarioEn": "Seller notes 2021 kitchen remodel with permits; HOA special assessment rumor denied—no notice received.",
+        "scenarioZh": "賣方註記 2021 廚房許可改建；否認收到 HOA 特別徵收通知。",
+        "fields": [
+          {
+            "labelEn": "Remodel",
+            "labelZh": "改建",
+            "valueEn": "Kitchen 2021 — permits finaled",
+            "valueZh": "2021 廚房 — 許可已結案"
+          },
+          {
+            "labelEn": "Insurance claims",
+            "labelZh": "保險理賠",
+            "valueEn": "None in last 5 years",
+            "valueZh": "近 5 年無"
+          },
+          {
+            "labelEn": "HOA litigation",
+            "labelZh": "HOA 訴訟",
+            "valueEn": "None known",
+            "valueZh": "未知有"
+          },
+          {
+            "labelEn": "Solar",
+            "labelZh": "太陽能",
+            "valueEn": "Owned panels, no lease",
+            "valueZh": "自有板，無租約"
+          }
+        ],
+        "checkMarks": [
+          {
+            "en": "SPQ signed and delivered with TDS package",
+            "zh": "SPQ 隨 TDS 包交付並簽名"
+          },
+          {
+            "en": "Buyer agent flagged remodel for permit pull",
+            "zh": "買方經紀標記改建需調許可"
+          }
+        ]
+      }
+    },
+    {
+      "code": "AVID",
+      "en": "Agent Visual Inspection Disclosure",
+      "zh": "經紀人目視檢查揭露",
+      "whenEn": "Agent visual inspection record (CC 2079)",
+      "whenZh": "經紀人目視檢查",
+      "purposeEn": "Records what the agent actually saw on reasonably accessible areas—not a home inspection.",
+      "purposeZh": "紀錄經紀人在合理可及範圍實際看到的情況——不是房屋檢查報告。",
+      "category": "disclosures",
+      "sections": [
+        {
+          "nameEn": "Areas observed",
+          "nameZh": "觀察區域",
+          "tipEn": "Rooms, exterior, garage—note inaccessible areas.",
+          "tipZh": "室內、外觀、車庫——註明無法進入處。"
+        },
+        {
+          "nameEn": "Red flags noted",
+          "nameZh": "標記紅旗",
+          "tipEn": "Stains, uneven floors, safety issues visible.",
+          "tipZh": "污漬、不平地板、可見安全問題。"
+        },
+        {
+          "nameEn": "Limits of duty",
+          "nameZh": "義務界線",
+          "tipEn": "No obligation to inspect inaccessible areas or hire specialists.",
+          "tipZh": "無義務檢查無法進入處或雇專業者。"
+        }
+      ],
+      "fillTips": [
+        {
+          "en": "Walk the property with a notepad; do not copy seller TDS language blindly.",
+          "zh": "實地走看並筆記；不要盲目抄賣方 TDS 用詞。"
+        },
+        {
+          "en": "If you see something, say something—even if seller says it's fixed.",
+          "zh": "看到就寫——即使賣方說已修好。"
+        }
+      ],
+      "commonMistakes": [
+        {
+          "en": "Writing 'nothing to note' without walking the property.",
+          "zh": "沒走看就寫「無須註記」。"
+        },
+        {
+          "en": "Treating AVID as a substitute for buyer's professional inspections.",
+          "zh": "把 AVID 當成買方專業檢查的替代。"
+        }
+      ],
+      "relatedForms": [
+        "TDS",
+        "SPQ",
+        "BIA"
+      ],
+      "sample": {
+        "id": "AVID-S1",
+        "titleEn": "Listing agent visual notes",
+        "titleZh": "上架經紀目視筆記",
+        "scenarioEn": "Agent notes ceiling stain in hall and weathered rear fence; attic not accessed.",
+        "scenarioZh": "經紀註記走廊天花板污漬與後院圍籬老化；未進入閣樓。",
+        "fields": [
+          {
+            "labelEn": "Observed",
+            "labelZh": "觀察",
+            "valueEn": "Hall ceiling stain (~1 ft); rear fence leaning",
+            "valueZh": "走廊天花污漬（約 1 呎）；後圍籬傾斜"
+          },
+          {
+            "labelEn": "Not accessed",
+            "labelZh": "未進入",
+            "valueEn": "Attic, crawlspace, roof surface",
+            "valueZh": "閣樓、底層、屋面"
+          },
+          {
+            "labelEn": "Date of walk",
+            "labelZh": "走看日",
+            "valueEn": "March 2, 2026",
+            "valueZh": "March 2, 2026"
+          }
+        ],
+        "checkMarks": [
+          {
+            "en": "AVID delivered to buyer with disclosure package",
+            "zh": "AVID 隨揭露包交付買方"
+          },
+          {
+            "en": "Buyer advised to hire licensed inspectors",
+            "zh": "已建議買方雇持照檢查員"
+          }
+        ]
+      }
+    },
+    {
+      "code": "BIA",
+      "en": "Buyer's Inspection Advisory",
+      "zh": "買方檢查告知",
+      "whenEn": "Advise buyer of inspection duty",
+      "whenZh": "檢查風險告知",
+      "purposeEn": "Advises buyer that investigations are buyer's job and lists inspection types to consider.",
+      "purposeZh": "告知買方調查是買方責任，並列出可考慮的檢查類型。",
+      "category": "disclosures",
+      "sections": [
+        {
+          "nameEn": "Buyer responsibility",
+          "nameZh": "買方責任",
+          "tipEn": "Broker does not guarantee property condition.",
+          "tipZh": "經紀不保證房屋狀況。"
+        },
+        {
+          "nameEn": "Recommended inspections",
+          "nameZh": "建議檢查",
+          "tipEn": "General home, pest, chimney, sewer, pool, roof, etc.",
+          "tipZh": "綜合、蟲害、煙囪、下水道、泳池、屋頂等。"
+        },
+        {
+          "nameEn": "Waiver risk",
+          "nameZh": "放棄風險",
+          "tipEn": "If buyer shortens/waives, document informed consent.",
+          "tipZh": "若縮短／放棄，須知情同意紀錄。"
+        }
+      ],
+      "fillTips": [
+        {
+          "en": "Deliver BIA with the offer package as standard practice.",
+          "zh": "出價包標配交付 BIA。"
+        },
+        {
+          "en": "Use BIA talk-track when client wants to waive inspection to 'win.'",
+          "zh": "客戶為搶房想放棄檢查時，用 BIA 話術說明風險。"
+        }
+      ],
+      "commonMistakes": [
+        {
+          "en": "Never discussing specialty inspections on older homes.",
+          "zh": "老屋從不討論專項檢查。"
+        },
+        {
+          "en": "Implying broker inspection replaces specialists.",
+          "zh": "暗示經紀檢查可取代專家。"
+        }
+      ],
+      "relatedForms": [
+        "RPA",
+        "RR",
+        "MCA",
+        "AVID"
+      ],
+      "sample": {
+        "id": "BIA-S1",
+        "titleEn": "Delivered with offer",
+        "titleZh": "隨出價交付",
+        "scenarioEn": "Buyers receive BIA; plan general + pest + sewer scope.",
+        "scenarioZh": "買方收 BIA；規劃綜合＋蟲害＋下水道。",
+        "fields": [
+          {
+            "labelEn": "Delivery",
+            "labelZh": "交付",
+            "valueEn": "Attached to RPA March 10, 2026",
+            "valueZh": "2026-03-10 附於 RPA"
+          },
+          {
+            "labelEn": "Planned scopes",
+            "labelZh": "規劃項目",
+            "valueEn": "General home, Section 1 pest, sewer lateral",
+            "valueZh": "綜合、Section 1 蟲害、下水道支管"
+          }
+        ],
+        "checkMarks": [
+          {
+            "en": "Buyer signed acknowledgment",
+            "zh": "買方已簽收確認"
+          },
+          {
+            "en": "Waiver not elected in this sample",
+            "zh": "本範例未放棄檢查"
+          }
+        ]
+      }
+    },
+    {
+      "code": "MCA",
+      "en": "Market Condition Advisory",
+      "zh": "市場狀況告知",
+      "whenEn": "Market risk advisory",
+      "whenZh": "市場風險告知",
+      "purposeEn": "Advises clients about market dynamics: multiple offers, appraisal risk, waived contingencies, etc.",
+      "purposeZh": "告知客戶市場動態：多方出價、估價風險、放棄條件等。",
+      "category": "disclosures",
+      "sections": [
+        {
+          "nameEn": "Competitive market risks",
+          "nameZh": "競爭市場風險",
+          "tipEn": "Overasking, escalation, emotional bidding.",
+          "tipZh": "超價、自動加價、情緒出價。"
+        },
+        {
+          "nameEn": "Contingency waiver risks",
+          "nameZh": "放棄條件風險",
+          "tipEn": "Limited exit after waiver.",
+          "tipZh": "放棄後退出空間有限。"
+        },
+        {
+          "nameEn": "Appraisal / financing gaps",
+          "nameZh": "估價／融資缺口",
+          "tipEn": "Cash-to-close surprises.",
+          "tipZh": "結案現金突增。"
+        }
+      ],
+      "fillTips": [
+        {
+          "en": "Use before aggressive offer strategy conversations.",
+          "zh": "在激進出價策略談話前使用。"
+        },
+        {
+          "en": "Pair with written strategy email summarizing client's choices.",
+          "zh": "搭配書面策略電郵摘要客戶選擇。"
+        }
+      ],
+      "commonMistakes": [
+        {
+          "en": "Skipping MCA then blaming broker when appraisal comes in low after waiver.",
+          "zh": "未交 MCA，放棄估價後低估價卻怪經紀。"
+        },
+        {
+          "en": "Generic MCA without counseling on this client's numbers.",
+          "zh": "只丟制式 MCA、未針對客戶數字諮詢。"
+        }
+      ],
+      "relatedForms": [
+        "RPA",
+        "BIA",
+        "BRBC",
+        "SMCO"
+      ],
+      "sample": {
+        "id": "MCA-S1",
+        "titleEn": "Before escalation strategy",
+        "titleZh": "自動加價策略前",
+        "scenarioEn": "Buyers considering escalation + appraisal gap; MCA signed same day as strategy meeting.",
+        "scenarioZh": "買方考慮自動加價＋估價缺口；策略會議當日簽 MCA。",
+        "fields": [
+          {
+            "labelEn": "Date",
+            "labelZh": "日期",
+            "valueEn": "March 9, 2026",
+            "valueZh": "March 9, 2026"
+          },
+          {
+            "labelEn": "Risks discussed",
+            "labelZh": "已討論風險",
+            "valueEn": "Pay above comps; gap cash; thin inspection",
+            "valueZh": "高於可比價；缺口現金；檢查偏短"
+          }
+        ],
+        "checkMarks": [
+          {
+            "en": "MCA acknowledged before writing RPA",
+            "zh": "寫 RPA 前已簽收 MCA"
+          },
+          {
+            "en": "Client chose NOT to waive loan contingency",
+            "zh": "客戶選擇不放棄貸款條件"
+          }
+        ]
+      }
+    },
+    {
+      "code": "VP",
+      "en": "Verification of Property Condition",
+      "zh": "交屋前狀況確認",
+      "whenEn": "Final walk-through confirmation",
+      "whenZh": "交屋前最終驗房",
+      "purposeEn": "Confirms condition at final walk-through relative to contract (often vacant, repairs done, no new damage).",
+      "purposeZh": "最終驗房確認現況符合合約（常為騰空、修繕完成、無新損害）。",
+      "category": "closing",
+      "sections": [
+        {
+          "nameEn": "Walk-through findings",
+          "nameZh": "驗房發現",
+          "tipEn": "Note any new damage or incomplete agreed repairs.",
+          "tipZh": "註記新損害或未完成之合意修繕。"
+        },
+        {
+          "nameEn": "Seller remaining items",
+          "nameZh": "賣方殘留物",
+          "tipEn": "Personal property left behind; debris.",
+          "tipZh": "遺留動產、雜物。"
+        },
+        {
+          "nameEn": "Proceed / hold options",
+          "nameZh": "續行／暫緩",
+          "tipEn": "Credit, repair holdback, or delay close if severe.",
+          "tipZh": "嚴重時可折讓、保留款或延期。"
+        }
+      ],
+      "fillTips": [
+        {
+          "en": "Schedule walk-through within 5 days before close (per common RPA practice) with utilities on.",
+          "zh": "常見於過戶前 5 日內驗房，並確認水電開通。"
+        },
+        {
+          "en": "Photograph issues; notify listing side same day in writing.",
+          "zh": "問題拍照；當日書面通知上架方。"
+        }
+      ],
+      "commonMistakes": [
+        {
+          "en": "Skipping walk-through then discovering move-out damage after recording.",
+          "zh": "跳過驗房，過戶後才發現搬空損害。"
+        },
+        {
+          "en": "Relying on verbal 'we'll fix after close.'",
+          "zh": "依賴口頭「過戶後再修」。"
+        }
+      ],
+      "relatedForms": [
+        "RPA",
+        "RRRR",
+        "SIP"
+      ],
+      "sample": {
+        "id": "VP-S1",
+        "titleEn": "Clean walk-through",
+        "titleZh": "驗房通過",
+        "scenarioEn": "Property vacant, agreed credit already on CD, no new damage. Buyer signs VP.",
+        "scenarioZh": "房屋已騰空，合意折讓已上 CD，無新損害。買方簽 VP。",
+        "fields": [
+          {
+            "labelEn": "Walk date",
+            "labelZh": "驗房日",
+            "valueEn": "April 28, 2026",
+            "valueZh": "April 28, 2026"
+          },
+          {
+            "labelEn": "Condition",
+            "labelZh": "狀況",
+            "valueEn": "As expected; vacant; keys/remotes present",
+            "valueZh": "符合預期；騰空；鑰匙／遙控齊"
+          },
+          {
+            "labelEn": "Issues",
+            "labelZh": "問題",
+            "valueEn": "None",
+            "valueZh": "無"
+          }
+        ],
+        "checkMarks": [
+          {
+            "en": "Buyer verifies condition satisfactory to proceed",
+            "zh": "買方確認可續行過戶"
+          },
+          {
+            "en": "Utilities on for testing",
+            "zh": "水電已開可測試"
+          }
+        ]
+      }
+    },
+    {
+      "code": "SIP",
+      "en": "Seller In Possession Addendum",
+      "zh": "賣方過戶後短期占用",
+      "whenEn": "Short post-closing seller occupancy",
+      "whenZh": "過戶後賣方短住",
+      "purposeEn": "Allows seller to remain briefly after close under license/holdover terms, insurance, and daily holdover fees.",
+      "purposeZh": "允許賣方過戶後短期留住，約定授權／占用、保險與逾期日費。",
+      "category": "closing",
+      "sections": [
+        {
+          "nameEn": "Occupancy end date",
+          "nameZh": "占用結束日",
+          "tipEn": "Hard date and time for seller exit.",
+          "tipZh": "賣方搬離的明確日期時間。"
+        },
+        {
+          "nameEn": "Consideration / deposit",
+          "nameZh": "對價／保證金",
+          "tipEn": "Often a holdback or occupancy fee structure.",
+          "tipZh": "常見保留款或占用費結構。"
+        },
+        {
+          "nameEn": "Insurance / risk",
+          "nameZh": "保險／風險",
+          "tipEn": "Who covers damage during seller stay.",
+          "tipZh": "賣方留住期間損害由誰承擔。"
+        },
+        {
+          "nameEn": "Holdover damages",
+          "nameZh": "逾期損害賠償",
+          "tipEn": "Per-day amounts if seller stays late.",
+          "tipZh": "逾期每日金額。"
+        }
+      ],
+      "fillTips": [
+        {
+          "en": "Prefer SIP for a few days; use RLAS if it looks like a real lease period.",
+          "zh": "僅數日用 SIP；像真租期則用 RLAS。"
+        },
+        {
+          "en": "Coordinate with lender—some loans restrict post-close seller occupancy.",
+          "zh": "與貸方協調——部分貸款限制過戶後賣方占用。"
+        }
+      ],
+      "commonMistakes": [
+        {
+          "en": "No hard exit date — seller 'still packing' for weeks.",
+          "zh": "無明確搬離日——賣方「還在打包」數週。"
+        },
+        {
+          "en": "Forgetting access for buyer's movers / contractors.",
+          "zh": "忘記買方搬家／工班進出權。"
+        }
+      ],
+      "relatedForms": [
+        "RLAS",
+        "VP",
+        "RPA"
+      ],
+      "sample": {
+        "id": "SIP-S1",
+        "titleEn": "Seller stays 3 days",
+        "titleZh": "賣方多住 3 天",
+        "scenarioEn": "Close April 30; seller vacates by May 3, 5:00 p.m.; $500/day holdover.",
+        "scenarioZh": "4/30 過戶；賣方最晚 5/3 下午 5 點搬離；逾期 $500／日。",
+        "fields": [
+          {
+            "labelEn": "Possession end",
+            "labelZh": "占用結束",
+            "valueEn": "May 3, 2026 5:00 p.m.",
+            "valueZh": "May 3, 2026 5:00 p.m."
+          },
+          {
+            "labelEn": "Holdover",
+            "labelZh": "逾期",
+            "valueEn": "$500 per day",
+            "valueZh": "每日 $500"
+          },
+          {
+            "labelEn": "Security",
+            "labelZh": "保證",
+            "valueEn": "$2,000 holdback in escrow",
+            "valueZh": "Escrow 保留 $2,000"
+          }
+        ],
+        "checkMarks": [
+          {
+            "en": "Lender approved brief seller occupancy",
+            "zh": "貸方同意短期賣方占用"
+          },
+          {
+            "en": "Buyer insurance starts at close; seller maintains liability cover",
+            "zh": "買方保險自過戶起；賣方維持責任險"
+          }
+        ]
+      }
+    },
+    {
+      "code": "RLAS",
+      "en": "Residential Lease After Sale",
+      "zh": "售後租賃協議",
+      "whenEn": "Post-sale lease if seller remains",
+      "whenZh": "售後租約",
+      "purposeEn": "True landlord-tenant relationship after close when seller (or buyer) will occupy as tenant for a lease term.",
+      "purposeZh": "過戶後形成真正租賃關係（賣方或買方以房客身份占用一段租期）。",
+      "category": "closing",
+      "sections": [
+        {
+          "nameEn": "Lease term & rent",
+          "nameZh": "租期與租金",
+          "tipEn": "Monthly rent, security deposit, term length.",
+          "tipZh": "月租、押金、租期。"
+        },
+        {
+          "nameEn": "Landlord/tenant duties",
+          "nameZh": "房東／房客義務",
+          "tipEn": "Repairs, utilities, entry, habitability.",
+          "tipZh": "修繕、水電、進入權、適居。"
+        },
+        {
+          "nameEn": "Early termination",
+          "nameZh": "提前終止",
+          "tipEn": "Sale-related early exit clauses if any.",
+          "tipZh": "若有與買賣相關的提前終止條款。"
+        }
+      ],
+      "fillTips": [
+        {
+          "en": "Use when occupancy exceeds a short SIP window (weeks/months).",
+          "zh": "占用超過 SIP 短窗（數週／數月）時使用。"
+        },
+        {
+          "en": "Confirm local rent control / just-cause rules if applicable.",
+          "zh": "確認地方租金管制／正當事由退租規則。"
+        }
+      ],
+      "commonMistakes": [
+        {
+          "en": "Calling a 60-day stay 'SIP' without lease protections.",
+          "zh": "把 60 天占用叫 SIP 卻無租約保護。"
+        },
+        {
+          "en": "Ignoring lender owner-occupancy certifications.",
+          "zh": "忽略貸方自住證明要求。"
+        }
+      ],
+      "relatedForms": [
+        "SIP",
+        "RPA",
+        "VP"
+      ],
+      "sample": {
+        "id": "RLAS-S1",
+        "titleEn": "Seller rents back 60 days",
+        "titleZh": "賣方回租 60 天",
+        "scenarioEn": "After close, seller becomes tenant for 60 days at $4,200/month.",
+        "scenarioZh": "過戶後賣方成房客 60 天，月租 $4,200。",
+        "fields": [
+          {
+            "labelEn": "Term",
+            "labelZh": "租期",
+            "valueEn": "May 1 – June 29, 2026",
+            "valueZh": "May 1 – June 29, 2026"
+          },
+          {
+            "labelEn": "Rent",
+            "labelZh": "租金",
+            "valueEn": "$4,200 / month",
+            "valueZh": "每月 $4,200"
+          },
+          {
+            "labelEn": "Deposit",
+            "labelZh": "押金",
+            "valueEn": "$4,200 security",
+            "valueZh": "押金 $4,200"
+          },
+          {
+            "labelEn": "Landlord",
+            "labelZh": "房東",
+            "valueEn": "Alex Chen and Jordan Lee",
+            "valueZh": "Alex Chen and Jordan Lee"
+          }
+        ],
+        "checkMarks": [
+          {
+            "en": "Separate from SIP — full lease terms used",
+            "zh": "非 SIP — 使用完整租約條款"
+          },
+          {
+            "en": "Buyer lender confirmed rent-back allowed",
+            "zh": "買方貸方確認允許回租"
+          }
+        ]
+      }
+    },
+    {
+      "code": "WFA",
+      "en": "Wire Fraud Advisory",
+      "zh": "電匯防詐告知",
+      "whenEn": "Warn clients about wire fraud",
+      "whenZh": "電匯防詐",
+      "purposeEn": "Warns parties never to trust emailed wire changes; verify by known phone numbers.",
+      "purposeZh": "警告當事人勿相信電郵更改匯款指示；須用已知電話核實。",
+      "category": "escrow",
+      "sections": [
+        {
+          "nameEn": "Fraud patterns",
+          "nameZh": "詐騙手法",
+          "tipEn": "Spoofed escrow emails, last-minute account changes.",
+          "tipZh": "偽造 Escrow 電郵、臨時改帳號。"
+        },
+        {
+          "nameEn": "Verification SOP",
+          "nameZh": "核實 SOP",
+          "tipEn": "Call back using independently known number; verify every digit.",
+          "tipZh": "用獨立已知電話回撥；逐位核對。"
+        },
+        {
+          "nameEn": "Client acknowledgment",
+          "nameZh": "客戶確認",
+          "tipEn": "Signed receipt that they understand the risk.",
+          "tipZh": "簽名確認理解風險。"
+        }
+      ],
+      "fillTips": [
+        {
+          "en": "Deliver at offer and again before any wire.",
+          "zh": "出價時交付，匯款前再交付一次。"
+        },
+        {
+          "en": "Practice the callback script with clients in the first meeting.",
+          "zh": "首次會面就與客戶演練回撥話術。"
+        }
+      ],
+      "commonMistakes": [
+        {
+          "en": "Client wires using numbers inside a suspicious email.",
+          "zh": "客戶用可疑電郵內的電話／帳號匯款。"
+        },
+        {
+          "en": "Agent forwards wire instructions without verbal verification.",
+          "zh": "經紀轉發電匯指示卻未經口頭核實。"
+        }
+      ],
+      "relatedForms": [
+        "RPA",
+        "DCE"
+      ],
+      "sample": {
+        "id": "WFA-S1",
+        "titleEn": "Pre-wire reinforcement",
+        "titleZh": "匯款前再強化",
+        "scenarioEn": "Day before closing funds wire, buyer re-signs WFA and calls escrow from card on file.",
+        "scenarioZh": "結案資金匯出前一日，買方再簽 WFA 並用建檔電話打給 Escrow。",
+        "fields": [
+          {
+            "labelEn": "Escrow phone on file",
+            "labelZh": "建檔電話",
+            "valueEn": "(408) 555-0199 — from first-day business card",
+            "valueZh": "來自首日名片"
+          },
+          {
+            "labelEn": "Wire amount",
+            "labelZh": "匯款金額",
+            "valueEn": "Down payment + closing costs per CD",
+            "valueZh": "依 CD 之自備款＋結案費"
+          },
+          {
+            "labelEn": "Verification",
+            "labelZh": "核實",
+            "valueEn": "Account digits confirmed verbally",
+            "valueZh": "口頭確認帳號每一位"
+          }
+        ],
+        "checkMarks": [
+          {
+            "en": "Ignored email that tried to change account",
+            "zh": "忽略試圖改帳號的電郵"
+          },
+          {
+            "en": "WFA acknowledged twice (offer + pre-wire)",
+            "zh": "WFA 簽收兩次（出價＋匯前）"
+          }
+        ]
+      }
+    },
+    {
+      "code": "DCE",
+      "en": "Demand to Close Escrow",
+      "zh": "要求結案過戶通知",
+      "whenEn": "Demand closing after contingencies removed",
+      "whenZh": "條件移除後催 Closing",
+      "purposeEn": "After buyer has removed contingencies, seller demands buyer close within the DCE period or face seller remedies.",
+      "purposeZh": "買方已移除條件後，賣方要求買方在 DCE 期限內 Closing，否則面臨賣方救濟。",
+      "category": "closing",
+      "sections": [
+        {
+          "nameEn": "Prerequisite",
+          "nameZh": "前提",
+          "tipEn": "Buyer contingencies removed (or never applicable).",
+          "tipZh": "買方條件已移除（或不適用）。"
+        },
+        {
+          "nameEn": "Demand to close",
+          "nameZh": "要求結案",
+          "tipEn": "Close by stated deadline.",
+          "tipZh": "於載明期限前結案。"
+        },
+        {
+          "nameEn": "Seller remedies if failure",
+          "nameZh": "未結案之賣方救濟",
+          "tipEn": "Cancel and/or pursue deposit per contract—follow exact RPA path.",
+          "tipZh": "依約取消及／或追訂金——嚴格依 RPA。"
+        }
+      ],
+      "fillTips": [
+        {
+          "en": "Do not use DCE if loan/appraisal contingencies are still alive—use NBP/CR path instead.",
+          "zh": "貸款／估價條件仍在時不要用 DCE——應走 NBP／CR。"
+        },
+        {
+          "en": "Confirm CTC status with lender before nuclear options.",
+          "zh": "採取激烈手段前先向貸方確認 CTC。"
+        }
+      ],
+      "commonMistakes": [
+        {
+          "en": "Serving DCE while buyer still has open contingencies.",
+          "zh": "買方條件仍開著就發 DCE。"
+        },
+        {
+          "en": "Confusing DCE timeline with NBP timeline.",
+          "zh": "混淆 DCE 與 NBP 時程。"
+        }
+      ],
+      "relatedForms": [
+        "CR",
+        "NBP",
+        "CC",
+        "RPA"
+      ],
+      "sample": {
+        "id": "DCE-S1",
+        "titleEn": "Buyer removed all — won't fund",
+        "titleZh": "條件已全除 — 卻不撥款",
+        "scenarioEn": "CR removed all contingencies; closing date passed; buyer not funding. Seller serves DCE.",
+        "scenarioZh": "CR 已移除全部條件；過戶日已過；買方未撥款。賣方發 DCE。",
+        "fields": [
+          {
+            "labelEn": "CR status",
+            "labelZh": "CR 狀態",
+            "valueEn": "All contingencies removed April 20, 2026",
+            "valueZh": "2026-04-20 已移除全部條件"
+          },
+          {
+            "labelEn": "Original close",
+            "labelZh": "原過戶日",
+            "valueEn": "April 30, 2026",
+            "valueZh": "April 30, 2026"
+          },
+          {
+            "labelEn": "DCE served",
+            "labelZh": "DCE 送達",
+            "valueEn": "May 1, 2026 to buyer broker",
+            "valueZh": "2026-05-01 送達買方經紀"
+          }
+        ],
+        "checkMarks": [
+          {
+            "en": "Verified no open buyer contingencies",
+            "zh": "已確認無未移除買方條件"
+          },
+          {
+            "en": "Escrow and broker counsel aligned on next step",
+            "zh": "Escrow 與經紀律師下一步已對齊"
+          }
+        ]
+      }
+    }
+  ],
+  "lessons": [
+    {
+      "id": "P001",
+      "chapterId": "overview",
+      "titleEn": "Transaction Lifecycle Map",
+      "titleZh": "一筆交易的生命週期",
+      "summaryEn": "Map the deal from representation → listing/touring → offer → acceptance → disclosures → investigations/loan/appraisal → repairs → contingency removal → CD/CTC → walk-through → recording/possession.",
+      "summaryZh": "從代表協議、上市／找屋、出價、成交、揭露、調查／貸款／估價、修繕、移除條件、CD／CTC、最終驗房到過戶交屋。",
+      "points": [
+        {
+          "en": "California residential resales usually run on C.A.R. forms, especially the RPA as both purchase contract and joint escrow instructions.",
+          "zh": "加州住宅轉售多以 C.A.R. 表單運行，RPA 同時是買賣合約與聯合 Escrow 指示。"
+        },
+        {
+          "en": "The three most common blow-ups: late/amended disclosures, contingencies not removed in writing, and late-stage wire/insurance/appraisal surprises.",
+          "zh": "最易翻車三點：揭露晚到或修正、條件沒有書面移除、尾段電匯／保險／估價爆雷。"
+        },
+        {
+          "en": "Oral side deals have almost no force—Delivery of signed writings controls deadlines and cancellation rights.",
+          "zh": "口頭附帶協議幾乎無效；簽名文件的 Delivery 才控制期限與取消權。"
+        }
+      ],
+      "judgments": [
+        {
+          "en": "If it is not in writing and delivered under the contract, treat it as not done.",
+          "zh": "沒有依合約書面 Delivery，就當沒做過。"
+        },
+        {
+          "en": "Track calendar days vs business days carefully (disclosures often use business-day rescission windows).",
+          "zh": "分清日曆日與營業日（揭露撤銷常以營業日計算）。"
+        }
+      ],
+      "englishPhrases": [
+        {
+          "en": "Time is of the essence.",
+          "zh": "期限具重要性／應嚴格遵守時程。"
+        },
+        {
+          "en": "Close of escrow / recording / possession",
+          "zh": "結案過戶／縣府錄音／占有交屋"
+        },
+        {
+          "en": "Clear to Close (CTC)",
+          "zh": "貸方核准可結案"
+        }
+      ],
+      "tags": [
+        "timeline",
+        "RPA",
+        "escrow"
+      ],
+      "chapter": "總覽與表單速查",
+      "chapterEn": "Overview & Form Codes",
+      "title": "Transaction Lifecycle Map｜一筆交易的生命週期"
+    },
+    {
+      "id": "P002",
+      "chapterId": "contracts",
+      "titleEn": "RPA Skeleton: What Must Be Crystal Clear",
+      "titleZh": "RPA 骨架：必須寫清楚的條款",
+      "summaryEn": "An enforceable offer needs parties/property, price/deposit structure, financing, closing date, contingencies, liquidated damages/arbitration elections, and agency confirmation.",
+      "summaryZh": "有效出價需寫清當事人與標的、價金／訂金、融資、過戶日、條件、違約金／仲裁勾選，以及代理確認。",
+      "points": [
+        {
+          "en": "Prefer a specific closing date over vague language like “ASAP” or “30 days if possible.”",
+          "zh": "Closing Date 應用明確日期，避免 ASAP 或含糊「約 30 天」。"
+        },
+        {
+          "en": "Identify fixtures included and personal property excluded; attach inventories when needed.",
+          "zh": "註明納入的 fixtures 與排除的動產；必要時附清單。"
+        },
+        {
+          "en": "Deliver a copy of the accepted agreement to escrow, commonly within 3 business days after acceptance.",
+          "zh": "成交後通常須在 3 個營業日內把合約副本交給 Escrow。"
+        },
+        {
+          "en": "Liquidated damages generally require the parties to initial/sign the designated paragraph to be effective.",
+          "zh": "違約預定損害賠償通常需雙方在指定段落簽名勾選才生效。"
+        },
+        {
+          "en": "Mediation is typically required; arbitration is optional and usually waives jury trial if elected.",
+          "zh": "調解多屬強制；仲裁需另行同意，同意後通常放棄陪審團審判。"
+        }
+      ],
+      "judgments": [
+        {
+          "en": "Deposit size and liquidated-damages enforceability are related but not identical issues.",
+          "zh": "「訂金多少」與「違約時能否留訂金」是相關但不同的問題。"
+        },
+        {
+          "en": "Explain arbitration in plain English before asking a client to elect it.",
+          "zh": "請客戶勾選仲裁前，先用白話說明利弊。"
+        }
+      ],
+      "englishPhrases": [
+        {
+          "en": "Initial Deposit / Increased Deposit",
+          "zh": "初始訂金／增加訂金"
+        },
+        {
+          "en": "Joint Escrow Instructions",
+          "zh": "聯合託管指示"
+        },
+        {
+          "en": "Liquidated Damages",
+          "zh": "違約預定損害賠償／違約金"
+        },
+        {
+          "en": "Dispute Resolution: mediation / arbitration",
+          "zh": "爭議解決：調解／仲裁"
+        }
+      ],
+      "tags": [
+        "RPA",
+        "deposit",
+        "arbitration"
+      ],
+      "chapter": "標準合約與表單",
+      "chapterEn": "Contracts & Forms",
+      "title": "RPA Skeleton: What Must Be Crystal Clear｜RPA 骨架：必須寫清楚的條款"
+    },
+    {
+      "id": "P003",
+      "chapterId": "contracts",
+      "titleEn": "Contingency Clocks & CR/NBP Mechanics",
+      "titleZh": "條件時鐘與 CR／NBP 機制",
+      "summaryEn": "Default investigation is often 17 days; loan contingency often 21 days; seller disclosure delivery often 7 days. Contingencies do not auto-expire—use Form CR. After deadlines, seller may serve NBP.",
+      "summaryZh": "調查期常見 17 天、貸款條件常見 21 天、賣方揭露常見 7 天。條件不會自動消失，須用 CR；逾期後賣方可發 NBP。",
+      "points": [
+        {
+          "en": "No signed CR means the contingency is still alive.",
+          "zh": "沒簽 CR＝條件還在。"
+        },
+        {
+          "en": "Seller cancellation after a proper NBP typically requires releasing the deposit back to buyer under standard RPA logic.",
+          "zh": "NBP 後賣方取消，依標準 RPA 邏輯通常須把訂金退回買方。"
+        },
+        {
+          "en": "If buyer removed all contingencies but fails to close, seller’s path is usually Demand to Close Escrow (DCE), not NBP.",
+          "zh": "買方已移除全部條件卻不 Closing，賣方通常走 DCE 而非 NBP。"
+        },
+        {
+          "en": "Late seller disclosures can extend buyer’s removal/cancellation timing.",
+          "zh": "賣方晚交揭露，可能延長買方移除／取消時程。"
+        }
+      ],
+      "judgments": [
+        {
+          "en": "Never tell a client contingencies “automatically die” after day 17.",
+          "zh": "絕不要跟客戶說條件在第 17 天會自動消失。"
+        },
+        {
+          "en": "Calendar every CR, NBP, NSP, and deposit deadline the day of acceptance.",
+          "zh": "成交當天就把 CR／NBP／NSP／訂金截止日期全部入曆。"
+        }
+      ],
+      "englishPhrases": [
+        {
+          "en": "Investigation / appraisal / loan contingency",
+          "zh": "調查／估價／貸款條件"
+        },
+        {
+          "en": "Contingency Removal (CR)",
+          "zh": "條件移除書"
+        },
+        {
+          "en": "Notice to Buyer to Perform (NBP)",
+          "zh": "催買方履約通知"
+        },
+        {
+          "en": "Demand to Close Escrow (DCE)",
+          "zh": "要求結案過戶"
+        }
+      ],
+      "tags": [
+        "CR",
+        "NBP",
+        "timeline"
+      ],
+      "chapter": "標準合約與表單",
+      "chapterEn": "Contracts & Forms",
+      "title": "Contingency Clocks & CR/NBP Mechanics｜條件時鐘與 CR／NBP 機制"
+    },
+    {
+      "id": "P004",
+      "chapterId": "disclosures",
+      "titleEn": "Statutory vs Contractual Disclosure Stack",
+      "titleZh": "法定 vs 合約揭露雙層結構",
+      "summaryEn": "Statutory floor (TDS, NHD, Megan’s Law notice, lead paint, Mello-Roos, death-on-property, HOA package) plus contractual forms (SPQ, AVID, ESD) used in almost every C.A.R. deal.",
+      "summaryZh": "法定底線（TDS、NHD、Megan’s Law、Lead、Mello-Roos、死亡揭露、HOA 文件）加上合約表單（SPQ、AVID、ESD）。",
+      "points": [
+        {
+          "en": "TDS (CC 1102) is knowledge-based disclosure of material defects for most 1–4 unit transfers—not a warranty and not a substitute for inspections.",
+          "zh": "TDS 是賣方「已知」重大瑕疵揭露，不是保固，也不能取代檢查。"
+        },
+        {
+          "en": "NHD (CC 1103) covers six mapped hazard zones; use a current third-party NHD report rather than seller guesses.",
+          "zh": "NHD 涵蓋六大災害區；應用即時第三方報告，不要靠賣方猜測。"
+        },
+        {
+          "en": "Megan’s Law compliance is primarily the statutory notice text; sellers are not required to research specific nearby registrants.",
+          "zh": "Megan’s Law 主要靠合約法定通知文字；賣方不必幫查附近具體人名。"
+        },
+        {
+          "en": "Pre-1978 housing triggers federal lead-based paint disclosure + EPA pamphlet; buyers commonly get a 10-day inspection opportunity unless waived.",
+          "zh": "1978 年前住宅觸發聯邦含鉛漆揭露與 EPA 手冊；買方通常有 10 天檢測機會（可書面放棄）。"
+        },
+        {
+          "en": "SPQ is contractual and catches items TDS often misses (unpermitted work, claims, neighborhood issues).",
+          "zh": "SPQ 屬合約揭露，補 TDS 常漏的項目（無許可工程、理賠、鄰里問題）。"
+        }
+      ],
+      "judgments": [
+        {
+          "en": "“As-Is” never waives the duty to disclose known material facts.",
+          "zh": "As-Is 絕對不能免除已知重大事實的揭露義務。"
+        },
+        {
+          "en": "REO/probate TDS exemptions do not automatically wipe out NHD, lead, or Megan’s Law duties.",
+          "zh": "REO／probate 的 TDS 豁免，不代表 NHD／Lead／Megan’s Law 也可免。"
+        }
+      ],
+      "englishPhrases": [
+        {
+          "en": "Transfer Disclosure Statement (TDS)",
+          "zh": "轉讓揭露書"
+        },
+        {
+          "en": "Natural Hazard Disclosure (NHD)",
+          "zh": "自然災害揭露"
+        },
+        {
+          "en": "Seller Property Questionnaire (SPQ)",
+          "zh": "賣方產權問卷"
+        },
+        {
+          "en": "Agent Visual Inspection Disclosure (AVID)",
+          "zh": "經紀人目視檢查揭露"
+        }
+      ],
+      "tags": [
+        "TDS",
+        "NHD",
+        "SPQ",
+        "AVID"
+      ],
+      "chapter": "法定揭露與風險",
+      "chapterEn": "Disclosures & Compliance",
+      "title": "Statutory vs Contractual Disclosure Stack｜法定 vs 合約揭露雙層結構"
+    },
+    {
+      "id": "P005",
+      "chapterId": "disclosures",
+      "titleEn": "Delivery Timing & Buyer Rescission Rights",
+      "titleZh": "交付時程與買方撤銷權",
+      "summaryEn": "Seller disclosures are commonly due within 7 days after acceptance. Late or amended material disclosures can reopen a buyer termination window (often 3 business days personal / 5 days mail).",
+      "summaryZh": "賣方揭露常見 Acceptance 後 7 天內交付；晚交或重大修正可能重開買方終止權（親送常見 3 營業日／郵寄 5 日）。",
+      "points": [
+        {
+          "en": "Even after inspection contingency removal, a material TDS amendment can revive cancellation rights.",
+          "zh": "即使已移除檢查條件，重大 TDS 修正仍可能恢復取消權。"
+        },
+        {
+          "en": "Best practice: complete TDS/SPQ/NHD/Lead at listing to avoid mid-escrow amendments.",
+          "zh": "最佳實務：上市階段就完成 TDS／SPQ／NHD／Lead，避免 Escrow 中修正。"
+        },
+        {
+          "en": "If a new material fact appears in escrow, disclose immediately in writing—do not wait for closing.",
+          "zh": "Escrow 中出現新重大事實，立刻書面補充，不要拖到過戶。"
+        }
+      ],
+      "judgments": [
+        {
+          "en": "Conflicts between AVID and TDS are red flags—investigate before removing contingencies.",
+          "zh": "AVID 與 TDS 互相矛盾是紅旗，移除條件前先查清。"
+        },
+        {
+          "en": "Write disclosures as if you may be deposed on them later.",
+          "zh": "寫揭露時想像之後可能被宣誓作證追問。"
+        }
+      ],
+      "englishPhrases": [
+        {
+          "en": "as soon as practicable before transfer of title",
+          "zh": "於產權移轉前儘速"
+        },
+        {
+          "en": "material amendment of disclosure",
+          "zh": "揭露之重大修正"
+        },
+        {
+          "en": "right to terminate / rescind the offer",
+          "zh": "終止／撤銷要約之權利"
+        }
+      ],
+      "tags": [
+        "timeline",
+        "rescission",
+        "TDS"
+      ],
+      "chapter": "法定揭露與風險",
+      "chapterEn": "Disclosures & Compliance",
+      "title": "Delivery Timing & Buyer Rescission Rights｜交付時程與買方撤銷權"
+    },
+    {
+      "id": "P006",
+      "chapterId": "disclosures",
+      "titleEn": "How to Write an Objective AVID",
+      "titleZh": "AVID：客觀目視紀錄寫法",
+      "summaryEn": "Record observable conditions only. Do not diagnose causes, guarantee safety, or advocate for the seller.",
+      "summaryZh": "只記錄看得見的現象；不要診斷因果、保證安全或幫賣方辯護。",
+      "points": [
+        {
+          "en": "Good: “North roof slope shows displaced tiles and staining visible from ground; recommend roofing specialist.”",
+          "zh": "佳：「北面屋頂從地面可見瓦片位移與污漬；建議請屋頂專家檢查。」"
+        },
+        {
+          "en": "Bad: “Roof is fine / just old paint / seller says it was fixed so OK.”",
+          "zh": "差：「屋頂沒問題／只是舊油漆／賣方說修過所以 OK。」"
+        },
+        {
+          "en": "Listing agents should generally complete AVID after the seller completes the TDS inquiry sections.",
+          "zh": "Listing Agent 宜在賣方完成 TDS 相關詢問後再完成 AVID。"
+        }
+      ],
+      "judgments": [
+        {
+          "en": "If you cannot see it, do not invent it; if you saw it, do not omit it.",
+          "zh": "看不見的別捏造；看見的別省略。"
+        }
+      ],
+      "englishPhrases": [
+        {
+          "en": "reasonably competent and diligent visual inspection",
+          "zh": "合理勝任且盡職的目視檢查"
+        },
+        {
+          "en": "accessible areas of the property",
+          "zh": "可進入／可接近之區域"
+        },
+        {
+          "en": "recommend further professional inspection",
+          "zh": "建議進一步由專業人士檢查"
+        }
+      ],
+      "tags": [
+        "AVID",
+        "risk"
+      ],
+      "chapter": "法定揭露與風險",
+      "chapterEn": "Disclosures & Compliance",
+      "title": "How to Write an Objective AVID｜AVID：客觀目視紀錄寫法"
+    },
+    {
+      "id": "P007",
+      "chapterId": "escrow",
+      "titleEn": "Escrow vs Title & Reading the Prelim",
+      "titleZh": "Escrow vs Title 與初步產權報告",
+      "summaryEn": "Escrow is the neutral stakeholder; Title examines chain of title and issues insurance. Buyers must read Preliminary Title Report exceptions before removing contingencies.",
+      "summaryZh": "Escrow 是中立保管方；Title 查產權並出保險。買方移除條件前必須讀 Prelim 的除外事項。",
+      "points": [
+        {
+          "en": "Key prelim sections: legal description/APN, vesting, Schedule B exceptions, requirements, taxes/assessments.",
+          "zh": "Prelim 關鍵：法定描述／APN、持有方式、Schedule B 例外、過戶條件、稅賦。"
+        },
+        {
+          "en": "Utility easements are common; easements that block parking, expansion, or access need client counseling.",
+          "zh": "公用事業地役權常見；影響停車／擴建／進出者要跟客戶說明。"
+        },
+        {
+          "en": "Liens (judgment, mechanic’s, HOA) should be cleared or credited through escrow before closing.",
+          "zh": "判決／技工／HOA 等留置權應在 Closing 前清償或經 Escrow 扣款處理。"
+        }
+      ],
+      "judgments": [
+        {
+          "en": "Schedule B exceptions are not decorations—they define what the buyer takes subject to.",
+          "zh": "Schedule B 例外不是裝飾，而是買方承受的產權限制。"
+        }
+      ],
+      "englishPhrases": [
+        {
+          "en": "Preliminary Title Report (Prelim)",
+          "zh": "初步產權報告"
+        },
+        {
+          "en": "vesting / chain of title",
+          "zh": "產權持有方式／產權鏈"
+        },
+        {
+          "en": "exceptions / encumbrances / easements / liens",
+          "zh": "除外事項／負擔／地役權／留置權"
+        },
+        {
+          "en": "Owner’s Policy vs Lender’s Policy",
+          "zh": "所有權人保單 vs 貸方保單"
+        }
+      ],
+      "tags": [
+        "title",
+        "prelim",
+        "easement"
+      ],
+      "chapter": "產權與託管",
+      "chapterEn": "Title & Escrow",
+      "title": "Escrow vs Title & Reading the Prelim｜Escrow vs Title 與初步產權報告"
+    },
+    {
+      "id": "P008",
+      "chapterId": "escrow",
+      "titleEn": "Closing Disclosure, Prorations & Wire Fraud SOP",
+      "titleZh": "CD、按日分攤與電匯防詐 SOP",
+      "summaryEn": "Financed buyers must receive the Closing Disclosure at least three business days before closing. Always verify wire instructions by calling a number you independently sourced.",
+      "summaryZh": "有貸款買方 Closing 前至少 3 個完整營業日要收到 CD。電匯指示一律用獨立查到的電話回撥驗證。",
+      "points": [
+        {
+          "en": "Compare Loan Estimate → Closing Disclosure for APR, points, cash to close, and fee changes.",
+          "zh": "對照 LE→CD：APR、點數、現金結案額、費用變更。"
+        },
+        {
+          "en": "Significant CD changes can restart the three-business-day clock and delay recording.",
+          "zh": "重大 CD 變更可能重開 3 營業日時鐘並拖延過戶。"
+        },
+        {
+          "en": "Escrow almost never changes wiring instructions by last-minute email—treat that as fraud until proven otherwise.",
+          "zh": "Escrow 幾乎不會用最後一刻郵件改帳號；一律先當詐騙處理。"
+        },
+        {
+          "en": "Give Wire Fraud Advisory at opening, again mid-escrow, and again before funds move.",
+          "zh": "開案、中段、匯款前都要再做電匯防詐教育。"
+        }
+      ],
+      "judgments": [
+        {
+          "en": "Never use a phone number that arrived inside the suspicious email itself.",
+          "zh": "絕不要用可疑郵件裡提供的電話去「驗證」。"
+        }
+      ],
+      "englishPhrases": [
+        {
+          "en": "Closing Disclosure (CD) / Settlement Statement",
+          "zh": "結案揭露／結算清單"
+        },
+        {
+          "en": "proration of taxes and HOA dues",
+          "zh": "稅費與 HOA 費按日分攤"
+        },
+        {
+          "en": "independently verify wiring instructions",
+          "zh": "以獨立來源驗證電匯指示"
+        },
+        {
+          "en": "business email compromise (BEC)",
+          "zh": "商務郵件入侵詐騙"
+        }
+      ],
+      "tags": [
+        "CD",
+        "wire fraud",
+        "escrow"
+      ],
+      "chapter": "產權與託管",
+      "chapterEn": "Title & Escrow",
+      "title": "Closing Disclosure, Prorations & Wire Fraud SOP｜CD、按日分攤與電匯防詐 SOP"
+    },
+    {
+      "id": "P009",
+      "chapterId": "finance",
+      "titleEn": "Pre-Approval Quality & Loan Types",
+      "titleZh": "預核含金量與貸款類型",
+      "summaryEn": "Judge lender letters by documentation depth (credit pulled, DU/LP findings, conditions). Know Conventional vs FHA vs VA vs cash workflow impacts.",
+      "summaryZh": "用文件深度判斷預核含金量（是否拉信用、DU／LP、條件清單）。理解 Conventional／FHA／VA／現金對成交流程的影響。",
+      "points": [
+        {
+          "en": "Verbal estimates < pre-qual < documented pre-approval < DU/LP findings < property-specific conditional approval.",
+          "zh": "口頭估 < 預審 < 書面預核 < DU／LP < 針對該屋條件核准。"
+        },
+        {
+          "en": "FHA/VA appraisals can impose repair conditions that Conventional may not.",
+          "zh": "FHA／VA 估價可能要求修繕，Conventional 不一定有。"
+        },
+        {
+          "en": "Cash still needs proof of funds and usually still benefits from inspections and title review.",
+          "zh": "現金單仍要資金證明，且通常仍應做檢查與產權審閱。"
+        }
+      ],
+      "judgments": [
+        {
+          "en": "A weak pre-approval is a liability in multiple-offer combat.",
+          "zh": "含金量弱的預核信在多方競標中是負擔。"
+        }
+      ],
+      "englishPhrases": [
+        {
+          "en": "pre-qualification vs pre-approval",
+          "zh": "預審 vs 預核"
+        },
+        {
+          "en": "Desktop Underwriter (DU) / Loan Product Advisor (LP)",
+          "zh": "自動承保系統"
+        },
+        {
+          "en": "debt-to-income ratio (DTI) / loan-to-value (LTV)",
+          "zh": "負債收入比／貸款價值比"
+        },
+        {
+          "en": "private mortgage insurance (PMI)",
+          "zh": "私人抵押貸款保險"
+        }
+      ],
+      "tags": [
+        "loan",
+        "pre-approval",
+        "FHA",
+        "VA"
+      ],
+      "chapter": "房貸與估價",
+      "chapterEn": "Financing & Appraisal",
+      "title": "Pre-Approval Quality & Loan Types｜預核含金量與貸款類型"
+    },
+    {
+      "id": "P010",
+      "chapterId": "finance",
+      "titleEn": "Appraisal Gap Playbook",
+      "titleZh": "估價不足應對菜單",
+      "summaryEn": "Plan gap responses before the report: seller price cut, buyer cash, split difference, ROV appeal, cancel under appraisal contingency, or honor a waived contingency with cash.",
+      "summaryZh": "估價報告前先談缺口策略：降價、買方補現金、各讓一步、重新比價申訴、依條件取消，或放棄條件後自行補足。",
+      "points": [
+        {
+          "en": "If appraisal contingency was waived, buyer generally must cover the shortfall to keep financing alive.",
+          "zh": "若已放棄估價條件，買方通常必須自補缺口才能維持貸款。"
+        },
+        {
+          "en": "Reconsideration of Value needs better comps/error analysis; success is uncertain.",
+          "zh": "重新比價申訴需要更好 comps／錯誤分析，成功率不一定。"
+        },
+        {
+          "en": "Write any agreed gap amount into the contract before emotions escalate.",
+          "zh": "在情緒升高前就把同意的 gap 金額寫進合約。"
+        }
+      ],
+      "judgments": [
+        {
+          "en": "Ask every buyer: “What is your maximum cash gap if the appraisal comes in low?”",
+          "zh": "每個買方都要問：「估不足時，你最多能現金補多少？」"
+        }
+      ],
+      "englishPhrases": [
+        {
+          "en": "appraisal gap / shortfall",
+          "zh": "估價缺口"
+        },
+        {
+          "en": "Reconsideration of Value (ROV)",
+          "zh": "重新評估價值申請"
+        },
+        {
+          "en": "waive the appraisal contingency",
+          "zh": "放棄估價條件"
+        },
+        {
+          "en": "rate lock expiration",
+          "zh": "利率鎖定期到期"
+        }
+      ],
+      "tags": [
+        "appraisal",
+        "negotiation"
+      ],
+      "chapter": "房貸與估價",
+      "chapterEn": "Financing & Appraisal",
+      "title": "Appraisal Gap Playbook｜估價不足應對菜單"
+    },
+    {
+      "id": "P011",
+      "chapterId": "inspections",
+      "titleEn": "Inspection Menu & RR/RRRR Negotiation",
+      "titleZh": "檢查組合與 RR／RRRR 談判",
+      "summaryEn": "Use general, termite/WDO, roof, sewer, foundation and specialty inspections as needed. Negotiate with RR/RRRR or amend price via AEA. Seller has no duty to agree.",
+      "summaryZh": "依需要安排通用、白蟻、屋頂、排污、地基等檢查；用 RR／RRRR 談判或 AEA 改價。賣方沒有義務同意修繕。",
+      "points": [
+        {
+          "en": "Prioritize safety, lender kill-items, and near-term high-cost failures over cosmetic preferences.",
+          "zh": "優先談安全、貸方卡關項、近期高額維修；別用美容問題破局。"
+        },
+        {
+          "en": "Credits in lieu of repairs close faster but may hit lender credit caps and leave quality control to buyer.",
+          "zh": "Credit 代替施工較快，但可能撞上貸方 credit 上限，品質也改由買方自控。"
+        },
+        {
+          "en": "Seller responses often condition agreement on buyer removing the physical inspection contingency and signing a release.",
+          "zh": "賣方同意修繕／折讓時，常要求買方移除實體檢查條件並簽署釋放條款。"
+        }
+      ],
+      "judgments": [
+        {
+          "en": "In multiple offers, keep RR extremely disciplined or seller will pivot to backup.",
+          "zh": "多方競標下 RR 要極克制，否則賣方轉 Backup。"
+        }
+      ],
+      "englishPhrases": [
+        {
+          "en": "Request for Repair (RR)",
+          "zh": "修繕請求"
+        },
+        {
+          "en": "credit in lieu of repairs",
+          "zh": "以折讓代替修繕"
+        },
+        {
+          "en": "Wood-Destroying Organism (WDO) / termite report",
+          "zh": "白蟻／木蛀蟲報告"
+        },
+        {
+          "en": "sewer scope inspection",
+          "zh": "排污管內視鏡檢查"
+        }
+      ],
+      "tags": [
+        "RR",
+        "inspection",
+        "negotiation"
+      ],
+      "chapter": "檢查與修繕談判",
+      "chapterEn": "Inspections & Repairs",
+      "title": "Inspection Menu & RR/RRRR Negotiation｜檢查組合與 RR／RRRR 談判"
+    },
+    {
+      "id": "P012",
+      "chapterId": "listing",
+      "titleEn": "Listing Launch, RLA & MLS Compliance",
+      "titleZh": "上市啟動、RLA 與 MLS 合規",
+      "summaryEn": "AD → RLA, gather docs, order NHD/HOA/photos, complete disclosures, then MLS. Post-NAR rules changed how buyer-broker compensation is offered; follow current MLS and C.A.R. guidance.",
+      "summaryZh": "AD→RLA，收齊文件，下單 NHD／HOA／攝影，完成揭露後上 MLS。NAR 後買方經紀人報酬機制已變，依現行 MLS／C.A.R. 指引。",
+      "points": [
+        {
+          "en": "Negotiate term, protection period, marketing authorizations, and cancellation terms in the listing agreement.",
+          "zh": "在委託書中談妥期限、保護期、行銷授權與解約條款。"
+        },
+        {
+          "en": "MLS remarks must avoid fair-housing steering language and misleading photos/amenities.",
+          "zh": "MLS 備註避免公平住房引導用語與誤導照片／設施。"
+        },
+        {
+          "en": "Pre-listing inspection can reduce later RR shocks but must be disclosed honestly.",
+          "zh": "上市前檢查可減少後續 RR 衝擊，但必須誠實揭露。"
+        }
+      ],
+      "judgments": [
+        {
+          "en": "Pricing strategy is a client decision; your job is evidence-based counseling via CMA.",
+          "zh": "定價是客戶決策；你的工作是用 CMA 做有證據的諮詢。"
+        }
+      ],
+      "englishPhrases": [
+        {
+          "en": "Residential Listing Agreement (RLA)",
+          "zh": "住宅委託銷售協議"
+        },
+        {
+          "en": "Days on Market (DOM)",
+          "zh": "上市天數"
+        },
+        {
+          "en": "Coming Soon / Active / Pending / Sold",
+          "zh": "即將上市／在售／成交中／已售"
+        },
+        {
+          "en": "procuring cause",
+          "zh": "促成交易主因"
+        }
+      ],
+      "tags": [
+        "listing",
+        "MLS",
+        "RLA"
+      ],
+      "chapter": "上市與行銷",
+      "chapterEn": "Listing & Marketing",
+      "title": "Listing Launch, RLA & MLS Compliance｜上市啟動、RLA 與 MLS 合規"
+    },
+    {
+      "id": "P013",
+      "chapterId": "offers",
+      "titleEn": "CMA Discipline & Multiple-Offer Tools",
+      "titleZh": "CMA 紀律與多方出價工具",
+      "summaryEn": "Build CMAs from recent nearby similar solds, plus actives/pendings/expireds. Competitive tools include escalation, deposits, shorter timelines, and contingency waivers—with explicit risk counseling.",
+      "summaryZh": "CMA 用近期、近距、相似成交，並看在售／成交中／流案。競標工具含自動加價、訂金、縮短時程、放棄條件——必須明確風險告知。",
+      "points": [
+        {
+          "en": "Adjust comps for condition, upgrades, ADU legality, and owned vs leased solar.",
+          "zh": "依屋況、升級、ADU 合法性、太陽能自有／租賃調整 comps。"
+        },
+        {
+          "en": "Escalation clauses need crisp definitions of what counts as a bona fide competing offer and the maximum cap.",
+          "zh": "Escalation 必須清楚定義什麼算有效競爭出價與最高上限。"
+        },
+        {
+          "en": "Love letters can create fair-housing risk; many brokerages discourage them.",
+          "zh": "情感信可能引發公平住房風險；許多公司不建議。"
+        }
+      ],
+      "judgments": [
+        {
+          "en": "Waiving contingencies can win the house and lose the client’s safety net—document informed consent.",
+          "zh": "放棄條件可能贏下房子也丟掉安全網——務必書面告知並取得知情同意。"
+        }
+      ],
+      "englishPhrases": [
+        {
+          "en": "Comparative Market Analysis (CMA)",
+          "zh": "比較市場分析"
+        },
+        {
+          "en": "escalation clause",
+          "zh": "自動加價條款"
+        },
+        {
+          "en": "waive contingencies",
+          "zh": "放棄條件"
+        },
+        {
+          "en": "Seller Multiple Counter Offer",
+          "zh": "賣方多方還價"
+        }
+      ],
+      "tags": [
+        "CMA",
+        "offers",
+        "escalation"
+      ],
+      "chapter": "CMA 與出價策略",
+      "chapterEn": "CMA & Offer Strategies",
+      "title": "CMA Discipline & Multiple-Offer Tools｜CMA 紀律與多方出價工具"
+    },
+    {
+      "id": "P014",
+      "chapterId": "agency",
+      "titleEn": "Dual Agency, BRBC & AB 2992",
+      "titleZh": "雙方代理、BRBC 與 AB 2992",
+      "summaryEn": "Dual agency requires written disclosure/consent and careful confidentiality. Buyer-broker written agreements are now mandatory practice/law territory: MLS often before touring; CA law no later than offer; generally max 3 months; no auto-renewal.",
+      "summaryZh": "雙方代理須書面揭露同意並嚴守機密。買方書面代表協議已成實務／法律重點：MLS 常要求帶看前；加州法律至遲出價時；一般最長 3 個月；不可自動續約。",
+      "points": [
+        {
+          "en": "Compensation in the buyer agreement is a ceiling from any source; seller concessions may contribute but cannot exceed the agreed amount.",
+          "zh": "買方協議中的報酬是任何來源的上限；賣方 concession 可貢獻但不可超過約定。"
+        },
+        {
+          "en": "Discuss services, value, payment source, and what happens if seller will not pay.",
+          "zh": "談清楚服務內容、價值、付款來源，以及賣方不付時怎麼辦。"
+        },
+        {
+          "en": "Put buyer walk-away limits and contingency-waiver instructions in writing.",
+          "zh": "把買方底線與放棄條件指示寫下來。"
+        }
+      ],
+      "judgments": [
+        {
+          "en": "In dual agency, never share one party’s confidential negotiation ceiling with the other.",
+          "zh": "雙方代理下，絕不可把一方機密談判底線泄露給另一方。"
+        }
+      ],
+      "englishPhrases": [
+        {
+          "en": "dual agency / single agency",
+          "zh": "雙方代理／單一代理"
+        },
+        {
+          "en": "Buyer Representation and Broker Compensation Agreement (BRBC)",
+          "zh": "買方代表與佣金協議"
+        },
+        {
+          "en": "seller concession toward buyer broker compensation",
+          "zh": "賣方折讓用於支付買方經紀人報酬"
+        },
+        {
+          "en": "fiduciary duties: loyalty, confidentiality, disclosure, obedience, accounting, care",
+          "zh": "受託義務：忠誠、保密、揭露、服從、財務交代、注意"
+        }
+      ],
+      "tags": [
+        "BRBC",
+        "dual agency",
+        "ethics"
+      ],
+      "chapter": "代表權與倫理",
+      "chapterEn": "Representation & Ethics",
+      "title": "Dual Agency, BRBC & AB 2992｜雙方代理、BRBC 與 AB 2992"
+    },
+    {
+      "id": "P015",
+      "chapterId": "closing",
+      "titleEn": "Final Walk-through, SIP/RLAS & Possession",
+      "titleZh": "最終驗房、SIP／RLAS 與交屋",
+      "summaryEn": "Walk-through verifies agreed condition and repairs—not a brand-new full inspection. Use SIP/RLAS if seller remains after closing. Transfer keys, codes, utilities, and HOA access methodically.",
+      "summaryZh": "最終驗房確認約定狀況與修繕，不是重新完整檢查。賣方續住用 SIP／RLAS。系統性交接鑰匙、密碼、水電與 HOA 權限。",
+      "points": [
+        {
+          "en": "If walk-through finds problems: delay closing, escrow holdback, repair proof, credit, or cancel if contract rights allow.",
+          "zh": "驗房有問題：延後 Closing、代管扣留、修繕證明、折讓，或依合約權利取消。"
+        },
+        {
+          "en": "SIP/RLAS must specify days, rent/deposit, utilities, maintenance, insurance, and default remedies.",
+          "zh": "SIP／RLAS 必須寫清天數、租金／押金、水電、維修、保險與違約救濟。"
+        },
+        {
+          "en": "Common closing blockers: funds delay, CD restart, insurance denial, stale payoff, missing HOA demand, incomplete signatures.",
+          "zh": "常見卡關：資金延誤、CD 重開、保險拒保、payoff 過期、HOA demand 未出、簽名不全。"
+        }
+      ],
+      "judgments": [
+        {
+          "en": "Change gate/alarm codes after possession whenever feasible.",
+          "zh": "交屋後盡可能立刻更改門禁／警報密碼。"
+        }
+      ],
+      "englishPhrases": [
+        {
+          "en": "final walk-through / Verification of Property Condition (VP)",
+          "zh": "交屋前最終驗房"
+        },
+        {
+          "en": "Seller In Possession (SIP)",
+          "zh": "賣方過戶後占用"
+        },
+        {
+          "en": "Residential Lease After Sale (RLAS)",
+          "zh": "售後租賃"
+        },
+        {
+          "en": "recording and disbursement",
+          "zh": "產權錄音與資金撥付"
+        }
+      ],
+      "tags": [
+        "closing",
+        "VP",
+        "SIP"
+      ],
+      "chapter": "交屋與 Closing",
+      "chapterEn": "Walk-through & Closing",
+      "title": "Final Walk-through, SIP/RLAS & Possession｜最終驗房、SIP／RLAS 與交屋"
+    },
+    {
+      "id": "P016",
+      "chapterId": "local",
+      "titleEn": "HOA Packages, Local Ordinances & ADUs",
+      "titleZh": "HOA 文件、地方法規與 ADU",
+      "summaryEn": "Order CC 4525 packages early. Screen for reserve risk, litigation, rental caps, and assessments. Check city-specific retrofit/sewer/rent rules. Verify ADU permits and financeability.",
+      "summaryZh": "及早下單 CC 4525 文件包；審查儲備金、訴訟、出租限制與特別徵收。查城市加固／排污／租金規則。核對 ADU 許可與可貸性。",
+      "points": [
+        {
+          "en": "Association generally has about 10 days after written request to provide requested §4525 documents.",
+          "zh": "協會接書面請求後通常約 10 天內交付所請求的 §4525 文件。"
+        },
+        {
+          "en": "Red flags: underfunded reserves, high rental ratio, active litigation, strict short-term rental bans, unpaid assessments that can lien.",
+          "zh": "紅旗：儲備不足、高出租比、訴訟中、嚴格短租禁令、可成留置權的欠費。"
+        },
+        {
+          "en": "Ask whether an ADU has final permits, lawful rental use, separate metering, parking impacts, and HOA limits.",
+          "zh": "ADU 必問：最終許可、合法出租、獨立計量、停車影響、HOA 限制。"
+        },
+        {
+          "en": "Tenant-occupied, solar lease/PACE, trust/probate, and manufactured homes each add specialized paperwork.",
+          "zh": "租客在住、太陽能租約／PACE、信託／遺產、組合屋各有特殊文件。"
+        }
+      ],
+      "judgments": [
+        {
+          "en": "Local ordinances vary by city—never assume statewide uniformity.",
+          "zh": "地方法規因市而異，絕不要假設全州一致。"
+        }
+      ],
+      "englishPhrases": [
+        {
+          "en": "CC&Rs / bylaws / operating rules",
+          "zh": "公約限制／章程／營運規則"
+        },
+        {
+          "en": "reserve study / special assessment",
+          "zh": "儲備金研究／特別徵收"
+        },
+        {
+          "en": "Accessory Dwelling Unit (ADU) / Junior ADU (JADU)",
+          "zh": "附屬住宅單元／小型附屬單元"
+        },
+        {
+          "en": "soft-story retrofit / sewer lateral ordinance",
+          "zh": "軟層加固／污水側管條例"
+        }
+      ],
+      "tags": [
+        "HOA",
+        "ADU",
+        "local"
+      ],
+      "chapter": "地方法規與特殊物業",
+      "chapterEn": "Local Rules & Property Types",
+      "title": "HOA Packages, Local Ordinances & ADUs｜HOA 文件、地方法規與 ADU"
+    }
+  ],
+  "checklists": [
+    {
+      "id": "CL01",
+      "chapterId": "contracts",
+      "titleEn": "Offer Intake Checklist",
+      "titleZh": "出價前檢查清單",
+      "items": [
+        {
+          "en": "AD signed",
+          "zh": "已簽署 AD（Agency Disclosure）"
+        },
+        {
+          "en": "BRBC/PSRA signed; compensation source discussed",
+          "zh": "已簽署買方代表協議並談妥佣金來源"
+        },
+        {
+          "en": "Pre-approval or Proof of Funds attached (covers offer price)",
+          "zh": "Pre-approval／Proof of Funds 已附（金額覆蓋報價）"
+        },
+        {
+          "en": "Price, deposit, closing date, escrow/title filled",
+          "zh": "報價、訂金、Closing Date、Escrow／Title 已填"
+        },
+        {
+          "en": "Contingency periods matched to risk tolerance",
+          "zh": "Contingency 天數已與風險承受度對齊"
+        },
+        {
+          "en": "Any waiver/shortening of contingencies documented with risk disclosure",
+          "zh": "放棄／縮短條件已書面風險告知"
+        },
+        {
+          "en": "Liquidated damages / arbitration elections explained",
+          "zh": "違約金／仲裁勾選已向客戶解釋"
+        },
+        {
+          "en": "Escalation/appraisal gap addenda reviewed if used",
+          "zh": "若有 Escalation／Gap 附件已審閱"
+        },
+        {
+          "en": "HOA/ADU/tenant/solar issues asked",
+          "zh": "HOA／ADU／租客／太陽能等特殊情況已問過"
+        },
+        {
+          "en": "Client understands the clock starts at Acceptance",
+          "zh": "客戶理解 Acceptance 後才開始正式時鐘"
+        }
+      ],
+      "chapter": "標準合約與表單",
+      "chapterEn": "Contracts & Forms"
+    },
+    {
+      "id": "CL02",
+      "chapterId": "disclosures",
+      "titleEn": "Buyer Disclosure Review Notes",
+      "titleZh": "買方揭露審閱筆記",
+      "items": [
+        {
+          "en": "TDS Yes answers listed and investigated",
+          "zh": "TDS 勾選 Yes 的項目已列出並追查"
+        },
+        {
+          "en": "SPQ claims / unpermitted work / neighborhood issues reviewed",
+          "zh": "SPQ 理賠／無許可工程／鄰里問題已審"
+        },
+        {
+          "en": "NHD zones checked; insurance feasibility quoted",
+          "zh": "NHD 區域已確認；保險可否承保已詢價"
+        },
+        {
+          "en": "AVID vs TDS conflicts flagged",
+          "zh": "AVID 與 TDS 不一致處已標記"
+        },
+        {
+          "en": "Lead / Megan’s Law / Mello-Roos / HOA package received",
+          "zh": "Lead／Megan’s Law／Mello-Roos／HOA 已收齊"
+        },
+        {
+          "en": "Additional specialty inspections selected",
+          "zh": "需要的專項檢查已選定"
+        },
+        {
+          "en": "3/5-day termination analysis completed if late/amended disclosures",
+          "zh": "若晚交／修正揭露，已分析 3／5 日終止權"
+        },
+        {
+          "en": "RR negotiation priorities drafted",
+          "zh": "RR 談判重點已起草"
+        }
+      ],
+      "chapter": "法定揭露與風險",
+      "chapterEn": "Disclosures & Compliance"
+    },
+    {
+      "id": "CL03",
+      "chapterId": "escrow",
+      "titleEn": "Wire Verification Call Log",
+      "titleZh": "電匯驗證通話紀錄",
+      "items": [
+        {
+          "en": "Called escrow using independently sourced phone number",
+          "zh": "使用獨立來源電話回撥 Escrow"
+        },
+        {
+          "en": "Verified bank name, routing, account, beneficiary",
+          "zh": "已核對銀行名、Routing、帳號、收款人"
+        },
+        {
+          "en": "Verified amount and cutoff time",
+          "zh": "已核對金額與匯款截止時間"
+        },
+        {
+          "en": "Confirmed no last-minute email change is valid",
+          "zh": "已確認最後一刻郵件改帳無效／需重驗"
+        },
+        {
+          "en": "Requested written confirmation after wire sent",
+          "zh": "匯出後已要求書面入帳確認"
+        }
+      ],
+      "chapter": "產權與託管",
+      "chapterEn": "Title & Escrow"
+    },
+    {
+      "id": "CL04",
+      "chapterId": "escrow",
+      "titleEn": "Escrow Coordination Checkpoint",
+      "titleZh": "Escrow 時程協調檢查",
+      "items": [
+        {
+          "en": "Contingency removals tracked",
+          "zh": "條件移除狀態已追蹤"
+        },
+        {
+          "en": "Lender conditional approval / CTC status known",
+          "zh": "貸方 Cond／CTC 狀態已知"
+        },
+        {
+          "en": "CD expected issue date checked vs weekends/holidays",
+          "zh": "CD 預計發出日已避開週末／假日問題"
+        },
+        {
+          "en": "Homeowner insurance binder confirmed",
+          "zh": "屋主保險 Bind 已確認"
+        },
+        {
+          "en": "Seller loan payoff figures current",
+          "zh": "賣方貸款 payoff 數字為最新"
+        },
+        {
+          "en": "HOA demand / transfer fees ordered",
+          "zh": "HOA demand／移轉費已下單"
+        },
+        {
+          "en": "Signing appointments set",
+          "zh": "雙方 Signing 已预约"
+        },
+        {
+          "en": "County recording cutoff considered",
+          "zh": "已考慮縣府 Recording 截止時間"
+        }
+      ],
+      "chapter": "產權與託管",
+      "chapterEn": "Title & Escrow"
+    },
+    {
+      "id": "CL05",
+      "chapterId": "inspections",
+      "titleEn": "Repair Priority Matrix",
+      "titleZh": "修繕談判優先級",
+      "items": [
+        {
+          "en": "A: Safety / code / lender kill-items identified",
+          "zh": "A：安全／法規／貸方卡關項已列出"
+        },
+        {
+          "en": "B: Near-term high-cost systems identified",
+          "zh": "B：近 1–2 年高額支出項已列出"
+        },
+        {
+          "en": "C: Maintenance items separated",
+          "zh": "C：維護型項目已分開"
+        },
+        {
+          "en": "D: Cosmetic preferences deprioritized",
+          "zh": "D：偏好／美容項不作為破局理由"
+        },
+        {
+          "en": "Ask credit vs price reduction vs seller repairs",
+          "zh": "已決定要 Credit／降價／賣方施工哪一種"
+        },
+        {
+          "en": "Seller response deadline set",
+          "zh": "賣方回覆截止日期已設定"
+        }
+      ],
+      "chapter": "檢查與修繕談判",
+      "chapterEn": "Inspections & Repairs"
+    },
+    {
+      "id": "CL06",
+      "chapterId": "closing",
+      "titleEn": "Possession & Keys Handoff",
+      "titleZh": "交屋交接清單",
+      "items": [
+        {
+          "en": "Door/mailbox/garage/pool/community keys counted",
+          "zh": "各類鑰匙數量已清點"
+        },
+        {
+          "en": "Remotes, fobs, codes transferred; password change planned",
+          "zh": "遙控／門禁／密碼已交接；改密已規劃"
+        },
+        {
+          "en": "Solar app/lease contacts provided",
+          "zh": "太陽能 App／租約聯絡人已提供"
+        },
+        {
+          "en": "Utilities transfer confirmed (power/gas/water/trash/internet)",
+          "zh": "水電瓦斯垃圾網路移轉已確認"
+        },
+        {
+          "en": "HOA portal / gate access requested",
+          "zh": "HOA portal／門禁申請已送"
+        },
+        {
+          "en": "Settlement statement and title policy copies retained",
+          "zh": "結算單與產權保險副本已存檔"
+        }
+      ],
+      "chapter": "交屋與 Closing",
+      "chapterEn": "Walk-through & Closing"
+    },
+    {
+      "id": "CL07",
+      "chapterId": "overview",
+      "titleEn": "First 48 Hours After Opening Escrow",
+      "titleZh": "開案後 48 小時行動",
+      "items": [
+        {
+          "en": "Listing: deliver contract + seller contacts to escrow/title",
+          "zh": "賣方端：合約與賣方聯絡資訊送 Escrow／Title"
+        },
+        {
+          "en": "Listing: confirm disclosure status; order missing NHD/HOA",
+          "zh": "賣方端：確認揭露；缺的 NHD／HOA 立刻下單"
+        },
+        {
+          "en": "Listing: schedule inspection access windows",
+          "zh": "賣方端：協調檢查看屋時段"
+        },
+        {
+          "en": "Buyer: deposit funds; sign supplemental escrow instructions",
+          "zh": "買方端：交訂金；簽 Escrow 補充指示"
+        },
+        {
+          "en": "Buyer: book general + specialty inspections",
+          "zh": "買方端：預約通用＋專項檢查"
+        },
+        {
+          "en": "Buyer: send contract package to lender; start insurance quotes",
+          "zh": "買方端：送貸方；開始保險詢價"
+        },
+        {
+          "en": "Buyer: review prelim; educate on wire fraud",
+          "zh": "買方端：讀 Prelim；做電匯防詐教育"
+        }
+      ],
+      "chapter": "總覽與表單速查",
+      "chapterEn": "Overview & Form Codes"
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "S01",
+      "chapterId": "finance",
+      "titleEn": "Appraisal $40,000 short after waiver",
+      "titleZh": "已放棄估價條件，估價少了 $40,000",
+      "promptEn": "Buyer waived appraisal contingency but still has a loan contingency. Appraisal is $40k below contract price. What options exist and what should the agent document?",
+      "promptZh": "客戶已放棄 appraisal contingency，但還有 loan contingency。估價低於合約價 $40,000。客戶有哪些選項？經紀人應如何書面紀錄？",
+      "answerEn": "Options: bring cash to cover the gap; renegotiate price/credit with seller; attempt ROV with better comps; if financing fails under remaining loan contingency, evaluate cancellation rights carefully; or walk if parties cannot bridge the gap. Document that appraisal contingency was waived, the cash-gap discussion, lender conditions, and any written amendment. Do not invent an appraisal exit that was already waived.",
+      "answerZh": "選項：買方現金補缺口；與賣方重談降價／折讓；用更好 comps 做 ROV；若仍因貸款條件無法取得融資，再審慎評估貸款條件下的取消權；雙方無法銜接則破局。書面紀錄：已放棄估價條件、現金缺口討論、貸方條件、任何書面修正。不可假裝還有估價退出權。",
+      "focusTags": [
+        "appraisal",
+        "loan contingency",
+        "documentation"
+      ],
+      "formPlaybook": [
+        {
+          "code": "AEA",
+          "actionEn": "If parties renegotiate price/credit, amend in writing.",
+          "actionZh": "若重談價格／折讓，以書面修正。",
+          "checkMarks": [
+            {
+              "en": "New price or credit amount exact",
+              "zh": "新價格或折讓金額精確"
+            },
+            {
+              "en": "Notify lender + escrow same day",
+              "zh": "當日通知貸方＋Escrow"
+            }
+          ]
+        },
+        {
+          "code": "CR",
+          "actionEn": "Review what was already removed—do not pretend appraisal contingency still exists.",
+          "actionZh": "核對已移除項目——不可假裝估價條件還在。",
+          "checkMarks": [
+            {
+              "en": "Confirm appraisal was waived/removed earlier",
+              "zh": "確認估價條件先前已放棄／移除"
+            }
+          ]
+        },
+        {
+          "code": "CC",
+          "actionEn": "If canceling under remaining loan contingency, use written cancellation + lender denial support.",
+          "actionZh": "若依剩餘貸款條件取消，用書面取消＋貸方拒絕佐證。",
+          "checkMarks": [
+            {
+              "en": "Loan contingency still active on file",
+              "zh": "檔案上貸款條件仍有效"
+            },
+            {
+              "en": "Deposit disposition stated",
+              "zh": "訂金處置已載明"
+            }
+          ]
+        },
+        {
+          "code": "MCA",
+          "actionEn": "Point back to market advisory counseling already given on appraisal-gap risk.",
+          "actionZh": "回指先前 MCA 對估價缺口風險的諮詢紀錄。",
+          "checkMarks": [
+            {
+              "en": "File contains signed MCA / strategy email",
+              "zh": "檔案有已簽 MCA／策略電郵"
+            }
+          ]
+        }
+      ],
+      "chapter": "房貸與估價",
+      "chapterEn": "Financing & Appraisal"
+    },
+    {
+      "id": "S02",
+      "chapterId": "disclosures",
+      "titleEn": "Late TDS leak disclosure after contingency removal",
+      "titleZh": "移除檢查條件後才補上滲水史",
+      "promptEn": "Buyer already removed inspection contingency. Seller then amends TDS to disclose prior water intrusion. Does buyer regain a termination right? What do you send next?",
+      "promptZh": "買方已移除檢查條件後，賣方才修正 TDS 補上曾經滲水。買方是否可能重新取得終止權？下一步送哪些文件？",
+      "answerEn": "A material amended disclosure can reopen statutory termination timing (commonly 3 business days personal / 5 days mail). Advise buyer immediately, calendar the deadline, consider additional inspection, and decide cancel vs proceed/negotiate. Deliver the amended disclosure package with receipt tracking; consult broker/counsel on exact statute/form timing.",
+      "answerZh": "重大揭露修正可能重開法定終止時程（親送常見 3 營業日／郵寄 5 日）。立刻告知買方、記入截止日期、考慮加做檢查，並決定取消或續談。交付修正揭露並保留送達證明；確切時程與表單請示經紀人／律師。",
+      "focusTags": [
+        "TDS",
+        "rescission",
+        "delivery"
+      ],
+      "formPlaybook": [
+        {
+          "code": "TDS",
+          "actionEn": "Deliver amended TDS with proof of delivery; calendar statutory window.",
+          "actionZh": "交付修正 TDS 並保留送達證明；記入法定窗口。",
+          "checkMarks": [
+            {
+              "en": "Mark as amended / material update",
+              "zh": "標明為修正／重大更新"
+            },
+            {
+              "en": "Buyer receipt time stamped",
+              "zh": "買方簽收時間戳記"
+            }
+          ]
+        },
+        {
+          "code": "SPQ",
+          "actionEn": "Align SPQ answers with the new leak history if needed.",
+          "actionZh": "必要時讓 SPQ 與新滲水史一致。",
+          "checkMarks": [
+            {
+              "en": "No remaining TDS/SPQ conflict",
+              "zh": "TDS／SPQ 不再矛盾"
+            }
+          ]
+        },
+        {
+          "code": "RR",
+          "actionEn": "If buyer proceeds, may request credit/repair based on new info (while rights allow).",
+          "actionZh": "若續談，可在權利允許下依新資訊請求折讓／修繕。",
+          "checkMarks": [
+            {
+              "en": "Cite amended disclosure + any new inspection",
+              "zh": "引用修正揭露＋任何新檢查"
+            }
+          ]
+        },
+        {
+          "code": "CC",
+          "actionEn": "If buyer elects statutory termination within the window, cancel in writing.",
+          "actionZh": "若買方在窗口內行使法定終止，書面取消。",
+          "checkMarks": [
+            {
+              "en": "Deadline not missed",
+              "zh": "未錯過截止日"
+            },
+            {
+              "en": "Deposit instruction clear",
+              "zh": "訂金指示清楚"
+            }
+          ]
+        }
+      ],
+      "chapter": "法定揭露與風險",
+      "chapterEn": "Disclosures & Compliance"
+    },
+    {
+      "id": "S03",
+      "chapterId": "escrow",
+      "titleEn": "Escrow email changes wire account",
+      "titleZh": "Escrow 郵件要求匯到新帳號",
+      "promptEn": "An email claiming to be escrow says the old account is invalid and provides new wiring instructions. What is the correct SOP?",
+      "promptZh": "一封聲稱來自 Escrow 的郵件說舊帳戶失效並提供新電匯指示。正確 SOP 是什麼？",
+      "answerEn": "Stop. Do not click links or wire. Call escrow using a phone number from the official website or previously verified card—not from the email. Verify every digit. Report the attempt. Resend Wire Fraud Advisory to the client. Correct SOP prevents irreversible loss; wrong SOP can permanently divert closing funds.",
+      "answerZh": "立刻停止，不要點連結、不要匯。用官網或先前核實名片上的電話回撥，不要用郵件裡的電話。逐位核對帳號並通報。再次發送電匯防詐告知。正確 SOP 可避免不可逆損失；錯誤 SOP 可能讓結案資金永久被轉走。",
+      "focusTags": [
+        "wire fraud",
+        "escrow"
+      ],
+      "formPlaybook": [
+        {
+          "code": "WFA",
+          "actionEn": "Re-deliver WFA; walk client through callback verification before any wire.",
+          "actionZh": "再次交付 WFA；匯款前帶客戶走回撥核實。",
+          "checkMarks": [
+            {
+              "en": "Do not use phone/account from the suspicious email",
+              "zh": "不用可疑電郵內的電話／帳號"
+            },
+            {
+              "en": "Verify every digit verbally with known escrow number",
+              "zh": "用已知 Escrow 電話口頭逐位核對"
+            },
+            {
+              "en": "Report fraud attempt to escrow/broker",
+              "zh": "向 Escrow／經紀通報詐騙嘗試"
+            }
+          ]
+        },
+        {
+          "code": "RPA",
+          "actionEn": "Closing still follows contract—funding only to verified escrow instructions.",
+          "actionZh": "結案仍依合約——只匯至已核實的 Escrow 指示。",
+          "checkMarks": [
+            {
+              "en": "No oral change to wire path",
+              "zh": "不以口頭更改匯款路徑"
+            }
+          ]
+        }
+      ],
+      "chapter": "產權與託管",
+      "chapterEn": "Title & Escrow"
+    },
+    {
+      "id": "S04",
+      "chapterId": "offers",
+      "titleEn": "Escalation + waived inspection in multiple offers",
+      "titleZh": "多方出價：自動加價＋放棄檢查",
+      "promptEn": "Client wants an escalation clause and to waive inspection to win. What risks must you disclose and what definitions are missing?",
+      "promptZh": "客戶想寫 escalation 並放棄檢查來搶房。你要揭露哪些風險？合約還缺哪些定義？",
+      "answerEn": "Disclose: may overpay vs appraisal, limited exit for defects, deposit risk if later default, insurance/repair unknowns. Define competing offer criteria, escalation increment, cap, proof of competing offer, and whether appraisal gap applies. Get written informed consent; consider shorter inspection instead of full waiver if client can accept.",
+      "answerZh": "需揭露：可能高於估價、發現瑕疵難退出、日後違約訂金風險、保險／修繕未知。需定義：何謂有效競爭出價、加價幅度、上限、競爭出價證明、是否搭配 appraisal gap。取得書面知情同意；若可接受，可考慮縮短檢查而非完全放棄。",
+      "focusTags": [
+        "escalation",
+        "contingency waiver",
+        "fair counseling"
+      ],
+      "formPlaybook": [
+        {
+          "code": "MCA",
+          "actionEn": "Deliver MCA and document counseling on multiple-offer / waiver risks.",
+          "actionZh": "交付 MCA，並紀錄多方出價／放棄條件風險諮詢。",
+          "checkMarks": [
+            {
+              "en": "Client acknowledges appraisal & defect exit risks",
+              "zh": "客戶知悉估價與瑕疵退出風險"
+            }
+          ]
+        },
+        {
+          "code": "BIA",
+          "actionEn": "Reiterate inspection duty; if shortening/waiving, get informed consent in writing.",
+          "actionZh": "重申檢查責任；若縮短／放棄，取得書面知情同意。",
+          "checkMarks": [
+            {
+              "en": "Prefer shorter period over full waiver when possible",
+              "zh": "可能時優先縮短天數而非完全放棄"
+            }
+          ]
+        },
+        {
+          "code": "BRBC",
+          "actionEn": "Confirm representation/compensation before writing the aggressive offer.",
+          "actionZh": "寫激進出價前確認代表／佣金。",
+          "checkMarks": [
+            {
+              "en": "BRBC signed with numeric compensation",
+              "zh": "BRBC 已簽且佣金為數字"
+            }
+          ]
+        },
+        {
+          "code": "RPA",
+          "actionEn": "If escalation used, attach clear escalation terms; map contingency boxes carefully.",
+          "actionZh": "若用自動加價，附清楚條款；仔細核對條件勾選。",
+          "checkMarks": [
+            {
+              "en": "Cap / increment / competing-offer definition filled",
+              "zh": "上限／加幅／競爭出價定義已填"
+            },
+            {
+              "en": "Inspection waiver or shortened days match counseling",
+              "zh": "放棄或縮短天數與諮詢一致"
+            }
+          ]
+        },
+        {
+          "code": "SMCO",
+          "actionEn": "If seller uses SMCO, warn buyer acceptance is not yet final selection.",
+          "actionZh": "若賣方用 SMCO，告知買方接受尚非最終選定。",
+          "checkMarks": [
+            {
+              "en": "Explain SMCO vs ordinary COP",
+              "zh": "說明 SMCO 與普通 COP 差異"
+            }
+          ]
+        }
+      ],
+      "chapter": "CMA 與出價策略",
+      "chapterEn": "CMA & Offer Strategies"
+    },
+    {
+      "id": "S05",
+      "chapterId": "local",
+      "titleEn": "HOA reserve crisis and coming special assessment",
+      "titleZh": "Condo 儲備金不足且將特別徵收",
+      "promptEn": "HOA docs show critically underfunded reserves and a planned special assessment. How should this affect offer strategy and contingency timing?",
+      "promptZh": "HOA 文件顯示儲備金嚴重不足且將有特別徵收。這如何影響出價策略與條件時程？",
+      "answerEn": "Price in the assessment, confirm buyer/seller responsibility through close, verify lender project eligibility, and keep HOA/document contingency alive until reviewed. Possibly renegotiate credit or cancel if assessment/litigation risk exceeds client tolerance. Do not remove HOA contingencies blindly.",
+      "answerZh": "把特別徵收計入成本，確認過戶前後由誰負擔，核對貸方對該社區是否可貸，並在審完前保留 HOA／文件條件。必要時重談折讓，或若風險超過客戶承受則取消。絕不要盲目移除 HOA 條件。",
+      "focusTags": [
+        "HOA",
+        "special assessment",
+        "contingency"
+      ],
+      "formPlaybook": [
+        {
+          "code": "NSP",
+          "actionEn": "If HOA package late, demand seller delivery via NSP.",
+          "actionZh": "若 HOA 文件遲到，以 NSP 催賣方交付。",
+          "checkMarks": [
+            {
+              "en": "Itemize missing HOA docs",
+              "zh": "列明缺的 HOA 文件"
+            }
+          ]
+        },
+        {
+          "code": "RR",
+          "actionEn": "Request credit/price adjustment for known special assessment if negotiating.",
+          "actionZh": "若談判，就已知特別徵收請求折讓／調價。",
+          "checkMarks": [
+            {
+              "en": "State assessment amount and who pays through close",
+              "zh": "載明徵收金額與過戶前後由誰負擔"
+            }
+          ]
+        },
+        {
+          "code": "AEA",
+          "actionEn": "Lock any agreed credit/price change in an amendment.",
+          "actionZh": "合意之折讓／調價以修正書鎖定。",
+          "checkMarks": [
+            {
+              "en": "Escrow notified of assessment allocation",
+              "zh": "已通知 Escrow 徵收分擔"
+            }
+          ]
+        },
+        {
+          "code": "CR",
+          "actionEn": "Do not remove HOA/document contingencies until review complete.",
+          "actionZh": "審完前勿移除 HOA／文件條件。",
+          "checkMarks": [
+            {
+              "en": "Lender project eligibility checked",
+              "zh": "已核貸方社區可貸性"
+            },
+            {
+              "en": "Client accepts residual assessment risk in writing if proceeding",
+              "zh": "若續行，客戶書面接受剩餘徵收風險"
+            }
+          ]
+        }
+      ],
+      "chapter": "地方法規與特殊物業",
+      "chapterEn": "Local Rules & Property Types"
+    },
+    {
+      "id": "S06",
+      "chapterId": "contracts",
+      "titleEn": "Buyer silent after investigation deadline",
+      "titleZh": "調查期過後買方無聲",
+      "promptEn": "Investigation contingency expired yesterday. Buyer has not sent CR or cancellation. What does the listing side serve, and what should buyer side do in the next 24 hours?",
+      "promptZh": "調查條件昨天到期。買方未送 CR 也未取消。賣方應發什麼？買方端未來 24 小時該做什麼？",
+      "answerEn": "Listing side: confirm deadline passed, then serve NBP demanding contingency removal (or performance). Buyer side: decide immediately—sign CR (accept risk), send RR/cancel under any still-valid theory, or respond to NBP within its period. Do not rely on silence.",
+      "answerZh": "賣方端：確認期限已過後發 NBP 要求移除條件（或履約）。買方端：立刻決定——簽 CR（承擔風險）、在仍有效依據下送 RR／取消，或在 NBP 期限內回應。不可靠沈默。",
+      "focusTags": [
+        "NBP",
+        "CR",
+        "deadline"
+      ],
+      "formPlaybook": [
+        {
+          "code": "NBP",
+          "actionEn": "Seller serves NBP demanding Form CR for investigation contingency.",
+          "actionZh": "賣方發 NBP，要求以 CR 移除調查條件。",
+          "checkMarks": [
+            {
+              "en": "Confirm investigation deadline truly passed",
+              "zh": "確認調查期限確實已過"
+            },
+            {
+              "en": "Identify the exact duty: remove investigation contingency",
+              "zh": "寫明義務：移除調查條件"
+            },
+            {
+              "en": "Save delivery receipt",
+              "zh": "保存送達證明"
+            }
+          ]
+        },
+        {
+          "code": "CR",
+          "actionEn": "Buyer either signs CR or pursues cancel/RR before/within NBP window.",
+          "actionZh": "買方在 NBP 窗口前／內簽 CR，或走取消／RR。",
+          "checkMarks": [
+            {
+              "en": "If removing: check only investigation (unless intending more)",
+              "zh": "若移除：只勾調查（除非有意更多）"
+            },
+            {
+              "en": "Counsel risk before signing CR",
+              "zh": "簽 CR 前做風險諮詢"
+            }
+          ]
+        }
+      ],
+      "chapter": "標準合約與表單",
+      "chapterEn": "Contracts & Forms"
+    },
+    {
+      "id": "S07",
+      "chapterId": "inspections",
+      "titleEn": "Roof credit negotiation trail",
+      "titleZh": "屋頂折讓談判軌跡",
+      "promptEn": "Buyer wants a roof credit, not a seller-hired repair. Which forms create the paper trail from request to acceptance to contingency removal?",
+      "promptZh": "買方要屋頂折讓、不要賣方找工班修。從請求到接受再到移除條件，應走哪些表單？",
+      "answerEn": "RR requests the credit with report cites → RRRR records seller offer and buyer acceptance → escrow gets the credit amount → buyer signs CR for investigation when ready. AEA optional if also changing price.",
+      "answerZh": "RR 附報告引用請求折讓 → RRRR 紀錄賣方提議與買方接受 → Escrow 記入折讓金額 → 買方就緒後簽 CR 移除調查。若同時改價可用 AEA。",
+      "focusTags": [
+        "RR",
+        "RRRR",
+        "CR"
+      ],
+      "formPlaybook": [
+        {
+          "code": "RR",
+          "actionEn": "Itemize roof credit with report page cites and a seller response deadline.",
+          "actionZh": "逐項寫屋頂折讓、報告頁碼與賣方回覆期限。",
+          "checkMarks": [
+            {
+              "en": "Credit (not repair) clearly stated",
+              "zh": "明確寫折讓（非實修）"
+            },
+            {
+              "en": "Still inside investigation contingency",
+              "zh": "仍在調查條件內"
+            }
+          ]
+        },
+        {
+          "code": "RRRR",
+          "actionEn": "Seller proposes amount; buyer accepts in writing on RRRR.",
+          "actionZh": "賣方提金額；買方在 RRRR 書面接受。",
+          "checkMarks": [
+            {
+              "en": "Final dollar amount exact",
+              "zh": "最終金額精確"
+            },
+            {
+              "en": "Both signatures complete before CR",
+              "zh": "簽 CR 前雙方簽章完成"
+            }
+          ]
+        },
+        {
+          "code": "CR",
+          "actionEn": "Remove investigation after RRRR is fully signed.",
+          "actionZh": "RRRR 簽妥後再移除調查條件。",
+          "checkMarks": [
+            {
+              "en": "Do not remove before credit is locked in writing",
+              "zh": "書面鎖定折讓前勿移除"
+            }
+          ]
+        }
+      ],
+      "chapter": "檢查與修繕談判",
+      "chapterEn": "Inspections & Repairs"
+    },
+    {
+      "id": "S08",
+      "chapterId": "agency",
+      "titleEn": "Same-day tour without BRBC",
+      "titleZh": "當天帶看尚未簽 BRBC",
+      "promptEn": "Buyer wants to tour three homes today but is not ready to sign exclusive BRBC. What sequence of forms protects the agent and client?",
+      "promptZh": "買方今天要看三間，但還不願簽獨家 BRBC。怎樣的表單順序保護經紀與客戶？",
+      "answerEn": "AD first → PSRA for the short showing window → upgrade to BRBC before writing any offer → RPA package with BIA/MCA/WFA. Never write a competitive offer on PSRA alone.",
+      "answerZh": "先 AD → 短窗用 PSRA → 出價前升級 BRBC → RPA 包附 BIA／MCA／WFA。切勿僅憑 PSRA 寫競爭出價。",
+      "focusTags": [
+        "AD",
+        "PSRA",
+        "BRBC"
+      ],
+      "formPlaybook": [
+        {
+          "code": "AD",
+          "actionEn": "Deliver and get acknowledgment before first tour.",
+          "actionZh": "首看前交付並取得簽收。",
+          "checkMarks": [
+            {
+              "en": "Signed AD in file same day",
+              "zh": "當日 AD 入檔"
+            }
+          ]
+        },
+        {
+          "code": "PSRA",
+          "actionEn": "Limit scope to today's showings; note BRBC is next step.",
+          "actionZh": "範圍限今日帶看；註明下一步為 BRBC。",
+          "checkMarks": [
+            {
+              "en": "No offer under PSRA alone",
+              "zh": "不在僅有 PSRA 下出價"
+            }
+          ]
+        },
+        {
+          "code": "BRBC",
+          "actionEn": "Sign before submitting RPA; fill compensation number.",
+          "actionZh": "送 RPA 前簽署；填妥佣金數字。",
+          "checkMarks": [
+            {
+              "en": "Compensation source waterfall completed",
+              "zh": "佣金來源順序已填"
+            }
+          ]
+        }
+      ],
+      "chapter": "代表權與倫理",
+      "chapterEn": "Representation & Ethics"
+    },
+    {
+      "id": "S09",
+      "chapterId": "closing",
+      "titleEn": "Seller needs five more days after recording",
+      "titleZh": "過戶錄音後賣方還要住五天",
+      "promptEn": "Seller's new home is delayed five days. Buyer will allow a short stay after close. SIP or RLAS? What else must be checked?",
+      "promptZh": "賣方新居延誤五天。買方同意過戶後短住。用 SIP 還是 RLAS？還要核什麼？",
+      "answerEn": "Five days → SIP with hard end date, holdover fee, and holdback. Confirm lender allows post-close seller occupancy. Pair with VP walk-through expectations and insurance talk. If it stretches to weeks, switch mindset to RLAS.",
+      "answerZh": "五天 → 用 SIP，寫死結束日、逾期費與保留款。確認貸方允許過戶後賣方占用。搭配 VP 驗房期待與保險說明。若拉長到數週，改以 RLAS 思維。",
+      "focusTags": [
+        "SIP",
+        "VP",
+        "lender"
+      ],
+      "formPlaybook": [
+        {
+          "code": "SIP",
+          "actionEn": "Set end date/time, holdover $/day, and escrow holdback.",
+          "actionZh": "設定結束日／時、逾期日費、Escrow 保留款。",
+          "checkMarks": [
+            {
+              "en": "Hard vacate deadline",
+              "zh": "明確搬離期限"
+            },
+            {
+              "en": "Lender approval noted",
+              "zh": "註記貸方同意"
+            }
+          ]
+        },
+        {
+          "code": "VP",
+          "actionEn": "Walk-through notes condition at possession transition planning.",
+          "actionZh": "驗房紀錄交接占用時的狀況規劃。",
+          "checkMarks": [
+            {
+              "en": "Document condition before seller holdover period",
+              "zh": "賣方留住前紀錄狀況"
+            }
+          ]
+        }
+      ],
+      "chapter": "交屋與 Closing",
+      "chapterEn": "Walk-through & Closing"
+    },
+    {
+      "id": "S10",
+      "chapterId": "disclosures",
+      "titleEn": "TDS vs SPQ conflict on unpermitted bath",
+      "titleZh": "TDS 與 SPQ 對無許可浴室說法衝突",
+      "promptEn": "TDS says no unpermitted work; SPQ mentions a bath remodel 'years ago' without permit details. What do you do before CR?",
+      "promptZh": "TDS 寫無無許可工程；SPQ 提到多年前浴室改建但無許可細節。簽 CR 前怎麼做？",
+      "answerEn": "Flag the conflict in writing. Ask seller for amendment/clarification and permit research. Buyer may order specialty inspection. Do not remove investigation contingency until conflict is resolved or client accepts risk in writing. NSP if seller deliveries/clarifications are late.",
+      "answerZh": "書面標記矛盾。要求賣方修正／澄清並調許可。買方可做專項檢查。矛盾未解或客戶未書面接受風險前，勿移除調查條件。賣方澄清過慢可發 NSP。",
+      "focusTags": [
+        "TDS",
+        "SPQ",
+        "permits"
+      ],
+      "formPlaybook": [
+        {
+          "code": "TDS",
+          "actionEn": "Request amended TDS if seller confirms unpermitted work.",
+          "actionZh": "若賣方確認無許可工程，要求修正 TDS。",
+          "checkMarks": [
+            {
+              "en": "Track new statutory timing if material amendment",
+              "zh": "重大修正則追蹤新法定時程"
+            }
+          ]
+        },
+        {
+          "code": "SPQ",
+          "actionEn": "Require written clarification on remodel year/permits.",
+          "actionZh": "要求書面澄清改建年份／許可。",
+          "checkMarks": [
+            {
+              "en": "Reconcile SPQ vs TDS in writing",
+              "zh": "書面調和 SPQ 與 TDS"
+            }
+          ]
+        },
+        {
+          "code": "NSP",
+          "actionEn": "If clarification/docs are past seller deadline, serve NSP.",
+          "actionZh": "若澄清／文件已過賣方期限，發 NSP。",
+          "checkMarks": [
+            {
+              "en": "Itemize missing clarification/permit docs",
+              "zh": "列明缺的澄清／許可文件"
+            }
+          ]
+        },
+        {
+          "code": "CR",
+          "actionEn": "Only after buyer accepts residual risk or conflict cleared.",
+          "actionZh": "僅在買方接受剩餘風險或矛盾釐清後。",
+          "checkMarks": [
+            {
+              "en": "Do not CR investigation while conflict open",
+              "zh": "矛盾未解勿 CR 調查條件"
+            }
+          ]
+        }
+      ],
+      "chapter": "法定揭露與風險",
+      "chapterEn": "Disclosures & Compliance"
+    }
+  ]
+}

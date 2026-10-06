@@ -160,6 +160,9 @@
                     <button id="btnModuleNotes" onclick="switchModule('notes')" class="px-2.5 sm:px-3 py-1.5 rounded-lg font-medium transition-all text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white">
                         精讀講義
                     </button>
+                    <button id="btnModuleField" onclick="switchModule('field')" class="px-2.5 sm:px-3 py-1.5 rounded-lg font-medium transition-all text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white">
+                        成交實務
+                    </button>
                     <button id="btnModuleCram" onclick="switchModule('cram')" class="px-2.5 sm:px-3 py-1.5 rounded-lg font-medium transition-all text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white">
                         衝刺280
                     </button>
@@ -191,6 +194,20 @@
                     </button>
                     <button id="btnNotesTrainerMode" onclick="switchNotesView('trainer')" class="px-3 py-1.5 rounded-lg font-medium transition-all text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white">
                         長句練習
+                    </button>
+                </div>
+                <div id="fieldViewSwitch" class="flex items-center bg-slate-100 dark:bg-slate-800 p-1 rounded-xl border border-slate-200 dark:border-slate-700 text-xs sm:text-sm" style="display:none">
+                    <button id="btnFieldLessons" onclick="switchFieldView('lessons')" class="px-2.5 sm:px-3 py-1.5 rounded-lg font-medium transition-all shadow-sm bg-white dark:bg-slate-700 text-blue-700 dark:text-blue-300">
+                        課文
+                    </button>
+                    <button id="btnFieldForms" onclick="switchFieldView('forms')" class="px-2.5 sm:px-3 py-1.5 rounded-lg font-medium transition-all text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white">
+                        表單
+                    </button>
+                    <button id="btnFieldChecklists" onclick="switchFieldView('checklists')" class="px-2.5 sm:px-3 py-1.5 rounded-lg font-medium transition-all text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white">
+                        清單
+                    </button>
+                    <button id="btnFieldScenarios" onclick="switchFieldView('scenarios')" class="px-2.5 sm:px-3 py-1.5 rounded-lg font-medium transition-all text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white">
+                        情境
                     </button>
                 </div>
                 <div id="cramViewSwitch" class="flex items-center bg-slate-100 dark:bg-slate-800 p-1 rounded-xl border border-slate-200 dark:border-slate-700 text-xs sm:text-sm" style="display:none">
@@ -625,6 +642,61 @@
                         <ul id="speakDrills" class="list-disc pl-5 text-sm text-slate-600 dark:text-slate-300 space-y-1.5"></ul>
                     </div>
                 </section>
+            </div>
+        </div>
+    </main>
+
+    <!-- FIELD PRACTICE -->
+    <main id="fieldMain" class="hidden flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-6 flex-col gap-5">
+        <div id="fieldLoadError" class="hidden bg-red-50 dark:bg-red-950/40 border border-red-200 dark:border-red-800 rounded-2xl p-6 text-sm text-red-800 dark:text-red-200">
+            無法載入成交實務資料。請用本機伺服器開啟（例如 <code class="font-mono">python -m http.server 8765</code>）。
+        </div>
+        <div id="fieldApp" class="hidden flex flex-col gap-5">
+            <div class="bg-white dark:bg-slate-900 rounded-2xl border border-slate-200 dark:border-slate-800 p-4 sm:p-5 shadow-sm flex flex-col gap-4">
+                <div class="flex flex-col gap-1">
+                    <h2 id="fieldTitleZh" class="text-lg sm:text-xl font-bold text-slate-900 dark:text-white">加州住宅成交實務手冊</h2>
+                    <p id="fieldSubtitleZh" class="text-sm text-slate-500 dark:text-slate-400">從合約到交屋：雙語表單、時程、判斷口訣、檢查清單與情境演練。</p>
+                    <p id="fieldDisclaimer" class="text-xs text-amber-700 dark:text-amber-300/90 leading-relaxed">僅供學習複習，不構成法律意見。</p>
+                </div>
+                <div class="flex flex-col md:flex-row gap-3 items-center justify-between">
+                    <div class="relative w-full md:w-[28rem]">
+                        <svg class="absolute left-3.5 top-1/2 -translate-y-1/2 w-4 h-4 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+                        </svg>
+                        <input
+                            type="text"
+                            id="fieldSearchInput"
+                            placeholder="搜尋課文、表單代碼、清單、情境（如：RPA, TDS, contingency）…"
+                            oninput="handleFieldSearch()"
+                            class="w-full pl-10 pr-10 py-2.5 bg-slate-50 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 dark:focus:ring-blue-400 dark:text-white transition-colors"
+                        >
+                        <button id="fieldClearSearchBtn" onclick="clearFieldSearch()" class="hidden absolute right-3 top-1/2 -translate-y-1/2 text-slate-400 hover:text-slate-600 dark:hover:text-slate-200 text-sm">✕</button>
+                    </div>
+                    <div class="flex flex-wrap items-center gap-2 sm:gap-3 w-full md:w-auto justify-end text-xs sm:text-sm">
+                        <div class="flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-slate-100 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-slate-600 dark:text-slate-300">
+                            <span class="font-semibold text-blue-600 dark:text-blue-400" id="fieldCountDisplay">0</span>
+                            <span id="fieldCountLabel">則課文</span>
+                        </div>
+                        <button type="button" id="fieldPrimaryActionBtn" onclick="fieldPrimaryAction()" class="px-3 py-1.5 rounded-xl bg-indigo-600 hover:bg-indigo-700 text-white font-medium shadow-sm transition-colors">
+                            🎲 抽一則複習
+                        </button>
+                    </div>
+                </div>
+                <div class="flex flex-col gap-1.5" id="fieldChapterFilterWrap">
+                    <span class="text-xs font-semibold text-slate-400 uppercase tracking-wider">章節切換</span>
+                    <div class="flex flex-wrap gap-1.5" id="fieldChapterFilter"></div>
+                </div>
+            </div>
+
+            <div id="fieldLessonsView" class="grid grid-cols-1 gap-4"></div>
+            <div id="fieldFormsView" class="hidden grid grid-cols-1 gap-4"></div>
+            <div id="fieldChecklistsView" class="hidden grid grid-cols-1 gap-4"></div>
+            <div id="fieldScenariosView" class="hidden grid grid-cols-1 gap-4"></div>
+
+            <div id="fieldEmptyState" class="hidden text-center py-16">
+                <div class="text-4xl mb-2">🔍</div>
+                <p class="text-slate-500 dark:text-slate-400 font-medium">查無符合條件的內容，請放寬關鍵字或章節篩選。</p>
+                <button onclick="resetFieldFilters()" class="mt-4 px-4 py-2 bg-blue-600 text-white text-sm rounded-xl hover:bg-blue-700 transition">重設篩選</button>
             </div>
         </div>
     </main>
@@ -1617,7 +1689,7 @@
         ];
 
         let state = {
-            appModule: "glossary", // 'glossary' | 'notes' | 'cram' | 'speak' | 'quiz' | 'quiz2' | 'quiz3'
+            appModule: "glossary", // 'glossary' | 'notes' | 'field' | 'cram' | 'speak' | 'quiz' | 'quiz2' | 'quiz3'
             currentDomain: "全部領域 (All)",
             searchQuery: "",
             viewMode: "list", // 'list' | 'card'
@@ -1636,6 +1708,7 @@
             setupTheme();
             setupSpeech();
             loadNotes();
+            loadFieldPractice();
             loadCram();
             loadSpeak();
             loadAllQuizzes();
@@ -2730,15 +2803,18 @@
             state.appModule = mod;
             const glossaryMain = document.getElementById("glossaryMain");
             const notesMain = document.getElementById("notesMain");
+            const fieldMain = document.getElementById("fieldMain");
             const cramMain = document.getElementById("cramMain");
             const speakMain = document.getElementById("speakMain");
             const quizMain = document.getElementById("quizMain");
             const glossarySwitch = document.getElementById("glossaryViewSwitch");
             const notesSwitch = document.getElementById("notesViewSwitch");
+            const fieldSwitch = document.getElementById("fieldViewSwitch");
             const cramSwitch = document.getElementById("cramViewSwitch");
             const speakSwitch = document.getElementById("speakViewSwitch");
             const btnGlossary = document.getElementById("btnModuleGlossary");
             const btnNotes = document.getElementById("btnModuleNotes");
+            const btnField = document.getElementById("btnModuleField");
             const btnCram = document.getElementById("btnModuleCram");
             const btnSpeak = document.getElementById("btnModuleSpeak");
             const btnQuiz = document.getElementById("btnModuleQuiz");
@@ -2750,6 +2826,7 @@
 
             btnGlossary.className = idle;
             btnNotes.className = idle;
+            if (btnField) btnField.className = idle;
             btnCram.className = idle;
             if (btnSpeak) btnSpeak.className = idle;
             btnQuiz.className = idle;
@@ -2757,11 +2834,13 @@
             btnQuiz3.className = "hidden " + idle;
             glossaryMain.style.display = "none";
             notesMain.style.display = "none";
+            if (fieldMain) fieldMain.style.display = "none";
             cramMain.style.display = "none";
             if (speakMain) speakMain.style.display = "none";
             quizMain.style.display = "none";
             glossarySwitch.style.display = "none";
             notesSwitch.style.display = "none";
+            if (fieldSwitch) fieldSwitch.style.display = "none";
             cramSwitch.style.display = "none";
             if (speakSwitch) speakSwitch.style.display = "none";
 
@@ -2779,6 +2858,15 @@
                 btnNotes.className = active;
                 subtitle.textContent = "精讀講義：章節知識點與考試長難句";
                 renderNotes();
+                return;
+            }
+
+            if (mod === "field") {
+                if (fieldMain) fieldMain.style.display = "flex";
+                if (fieldSwitch) fieldSwitch.style.display = "";
+                if (btnField) btnField.className = active;
+                subtitle.textContent = "成交實務：雙語課文、表單、清單與情境";
+                renderFieldPractice();
                 return;
             }
 
@@ -3739,6 +3827,684 @@
             }
             if (wrap) wrap.classList.remove("hidden");
             box.innerHTML = drills.map((d) => "<li>" + escapeHtml(d) + "</li>").join("");
+        }
+
+        /* ========== Field Practice / 成交實務 ========== */
+        const FIELD_PROGRESS_KEY = "dre-field-practice-v1";
+        const fieldState = {
+            loaded: false,
+            failed: false,
+            titleZh: "",
+            titleEn: "",
+            subtitleZh: "",
+            disclaimerZh: "",
+            chapters: [],
+            forms: [],
+            lessons: [],
+            checklists: [],
+            scenarios: [],
+            viewMode: "lessons", // lessons | forms | checklists | scenarios
+            chapterId: "all",
+            searchQuery: "",
+            checked: {}, // { checklistId: { itemIndex: true } }
+            revealedScenarios: {}
+        };
+
+        function loadFieldProgress() {
+            try {
+                const raw = localStorage.getItem(FIELD_PROGRESS_KEY);
+                if (!raw) return;
+                const saved = JSON.parse(raw);
+                if (saved.viewMode) fieldState.viewMode = saved.viewMode;
+                if (saved.chapterId) fieldState.chapterId = saved.chapterId;
+                if (saved.checked && typeof saved.checked === "object") fieldState.checked = saved.checked;
+                if (saved.revealedScenarios && typeof saved.revealedScenarios === "object") {
+                    fieldState.revealedScenarios = saved.revealedScenarios;
+                }
+            } catch (err) {
+                fieldState.checked = {};
+                fieldState.revealedScenarios = {};
+            }
+        }
+
+        function saveFieldProgress() {
+            localStorage.setItem(FIELD_PROGRESS_KEY, JSON.stringify({
+                viewMode: fieldState.viewMode,
+                chapterId: fieldState.chapterId,
+                checked: fieldState.checked,
+                revealedScenarios: fieldState.revealedScenarios
+            }));
+        }
+
+        async function loadFieldPractice() {
+            loadFieldProgress();
+            try {
+                const res = await fetch("data/field_practice.json");
+                if (!res.ok) throw new Error("fetch failed");
+                const payload = await res.json();
+                fieldState.titleZh = payload.titleZh || "加州住宅成交實務手冊";
+                fieldState.titleEn = payload.titleEn || "";
+                fieldState.subtitleZh = payload.subtitleZh || "";
+                fieldState.disclaimerZh = payload.disclaimerZh || "";
+                fieldState.chapters = payload.chapters || [];
+                fieldState.forms = payload.forms || [];
+                fieldState.lessons = payload.lessons || [];
+                fieldState.checklists = payload.checklists || [];
+                fieldState.scenarios = payload.scenarios || [];
+                fieldState.loaded = true;
+                fieldState.failed = false;
+            } catch (err) {
+                fieldState.loaded = false;
+                fieldState.failed = true;
+            }
+            if (state.appModule === "field") renderFieldPractice();
+        }
+
+        function fieldHighlight(text) {
+            return highlightSearch(escapeHtml(text || ""), fieldState.searchQuery);
+        }
+
+        function fieldTextBlob(parts) {
+            return parts.filter(Boolean).join(" ").toLowerCase();
+        }
+
+        function switchFieldView(mode) {
+            fieldState.viewMode = mode;
+            saveFieldProgress();
+            renderFieldPractice();
+        }
+
+        function setFieldChapter(chapterId) {
+            fieldState.chapterId = chapterId;
+            saveFieldProgress();
+            renderFieldPractice();
+        }
+
+        function handleFieldSearch() {
+            const input = document.getElementById("fieldSearchInput");
+            fieldState.searchQuery = input ? input.value : "";
+            document.getElementById("fieldClearSearchBtn").classList.toggle("hidden", !fieldState.searchQuery);
+            renderFieldPractice();
+        }
+
+        function clearFieldSearch() {
+            fieldState.searchQuery = "";
+            const input = document.getElementById("fieldSearchInput");
+            if (input) input.value = "";
+            document.getElementById("fieldClearSearchBtn").classList.add("hidden");
+            renderFieldPractice();
+        }
+
+        function resetFieldFilters() {
+            fieldState.chapterId = "all";
+            fieldState.searchQuery = "";
+            const input = document.getElementById("fieldSearchInput");
+            if (input) input.value = "";
+            document.getElementById("fieldClearSearchBtn").classList.add("hidden");
+            saveFieldProgress();
+            renderFieldPractice();
+            showToast("已重設成交實務篩選", "info");
+        }
+
+        function getFilteredFieldLessons() {
+            const q = fieldState.searchQuery.trim().toLowerCase();
+            return fieldState.lessons.filter((lesson) => {
+                if (fieldState.chapterId !== "all" && lesson.chapterId !== fieldState.chapterId) return false;
+                if (!q) return true;
+                const chunks = [
+                    lesson.id, lesson.chapter, lesson.chapterEn, lesson.titleEn, lesson.titleZh,
+                    lesson.summaryEn, lesson.summaryZh
+                ];
+                (lesson.points || []).forEach((p) => chunks.push(p.en, p.zh));
+                (lesson.judgments || []).forEach((j) => chunks.push(j.en, j.zh));
+                (lesson.englishPhrases || []).forEach((p) => chunks.push(p.en, p.zh));
+                (lesson.tags || []).forEach((t) => chunks.push(t));
+                return fieldTextBlob(chunks).includes(q);
+            });
+        }
+
+        function getFilteredFieldForms() {
+            const q = fieldState.searchQuery.trim().toLowerCase();
+            return fieldState.forms.filter((form) => {
+                if (!q) return true;
+                const chunks = [
+                    form.code, form.en, form.zh, form.whenEn, form.whenZh,
+                    form.purposeEn, form.purposeZh, form.category
+                ];
+                (form.sections || []).forEach((s) => chunks.push(s.nameEn, s.nameZh, s.tipEn, s.tipZh));
+                (form.fillTips || []).forEach((t) => chunks.push(t.en, t.zh));
+                (form.commonMistakes || []).forEach((t) => chunks.push(t.en, t.zh));
+                (form.relatedForms || []).forEach((c) => chunks.push(c));
+                const sample = form.sample || {};
+                chunks.push(sample.titleEn, sample.titleZh, sample.scenarioEn, sample.scenarioZh);
+                (sample.fields || []).forEach((f) => chunks.push(f.labelEn, f.labelZh, f.valueEn, f.valueZh));
+                (sample.checkMarks || []).forEach((m) => chunks.push(m.en, m.zh));
+                return fieldTextBlob(chunks).includes(q);
+            });
+        }
+
+        function getFilteredFieldChecklists() {
+            const q = fieldState.searchQuery.trim().toLowerCase();
+            return fieldState.checklists.filter((cl) => {
+                if (fieldState.chapterId !== "all" && cl.chapterId !== fieldState.chapterId) return false;
+                if (!q) return true;
+                const chunks = [cl.id, cl.chapter, cl.chapterEn, cl.titleEn, cl.titleZh];
+                (cl.items || []).forEach((item) => chunks.push(item.en, item.zh));
+                return fieldTextBlob(chunks).includes(q);
+            });
+        }
+
+        function renderFieldChapterButtons() {
+            const container = document.getElementById("fieldChapterFilter");
+            if (!container) return;
+            const showChapters = fieldState.viewMode !== "forms";
+            document.getElementById("fieldChapterFilterWrap").style.display = showChapters ? "" : "none";
+            if (!showChapters) return;
+            const items = [{ id: "all", title: "全部章節", titleEn: "All" }].concat(fieldState.chapters);
+            container.innerHTML = items.map((ch) => {
+                const isActive = fieldState.chapterId === ch.id;
+                const activeClass = isActive
+                    ? "bg-blue-600 text-white font-semibold shadow-sm"
+                    : "bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-700";
+                const label = ch.id === "all" ? ch.title : (ch.title + " · " + ch.titleEn);
+                return '<button type="button" onclick="setFieldChapter(\'' + ch.id + '\')" class="px-2.5 py-1 text-xs rounded-lg transition-colors badge-domain whitespace-nowrap ' + activeClass + '">' + escapeHtml(label) + "</button>";
+            }).join("");
+        }
+
+        function updateFieldViewSwitchButtons() {
+            const map = {
+                lessons: "btnFieldLessons",
+                forms: "btnFieldForms",
+                checklists: "btnFieldChecklists",
+                scenarios: "btnFieldScenarios"
+            };
+            const active = "px-2.5 sm:px-3 py-1.5 rounded-lg font-medium transition-all shadow-sm bg-white dark:bg-slate-700 text-blue-700 dark:text-blue-300";
+            const idle = "px-2.5 sm:px-3 py-1.5 rounded-lg font-medium transition-all text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white";
+            Object.keys(map).forEach((mode) => {
+                const btn = document.getElementById(map[mode]);
+                if (btn) btn.className = fieldState.viewMode === mode ? active : idle;
+            });
+        }
+
+        function renderFieldBilingualBlock(en, zh, enLabel, zhLabel) {
+            if (!en && !zh) return "";
+            const enBtn = en ? speakButtonHtml(en, "") : "";
+            return (
+                '<div class="rounded-xl border border-slate-200 dark:border-slate-700/60 overflow-hidden">' +
+                    (en ? '<div class="p-3 bg-slate-50 dark:bg-slate-800/70 text-sm leading-relaxed text-slate-800 dark:text-slate-200"><span class="font-bold text-indigo-600 dark:text-indigo-400">' + enLabel + " </span>" + enBtn + '<span class="align-middle"> ' + fieldHighlight(en) + "</span></div>" : "") +
+                    (zh ? '<div class="p-3 bg-white dark:bg-slate-900 text-sm leading-relaxed text-slate-700 dark:text-slate-300"><span class="font-bold text-emerald-600 dark:text-emerald-400">' + zhLabel + " </span>" + fieldHighlight(zh) + "</div>" : "") +
+                "</div>"
+            );
+        }
+
+        function renderFieldLessonsView() {
+            const filtered = getFilteredFieldLessons();
+            const container = document.getElementById("fieldLessonsView");
+            document.getElementById("fieldCountDisplay").innerText = String(filtered.length);
+            document.getElementById("fieldCountLabel").innerText = "則課文";
+            document.getElementById("fieldPrimaryActionBtn").textContent = "🎲 抽一則複習";
+
+            if (!filtered.length) {
+                container.innerHTML = "";
+                return false;
+            }
+
+            container.innerHTML = filtered.map((lesson) => {
+                const pointsHtml = (lesson.points || []).map((p) => renderFieldBilingualBlock(p.en, p.zh, "EN", "ZH")).join("");
+                const judgmentsHtml = (lesson.judgments || []).length
+                    ? '<div class="space-y-2"><p class="text-xs font-bold uppercase tracking-wider text-amber-700 dark:text-amber-300">判斷口訣 · Field Judgment</p>' +
+                      (lesson.judgments || []).map((j) => renderFieldBilingualBlock(j.en, j.zh, "EN", "ZH")).join("") +
+                      "</div>"
+                    : "";
+                const phrasesHtml = (lesson.englishPhrases || []).length
+                    ? '<div class="space-y-2"><p class="text-xs font-bold uppercase tracking-wider text-teal-700 dark:text-teal-300">實務英語 · Say This</p>' +
+                      (lesson.englishPhrases || []).map((p) => renderFieldBilingualBlock(p.en, p.zh, "EN", "ZH")).join("") +
+                      "</div>"
+                    : "";
+                const tagsHtml = (lesson.tags || []).length
+                    ? '<div class="flex flex-wrap gap-1.5">' + (lesson.tags || []).map((t) =>
+                        '<span class="text-[11px] px-2 py-0.5 rounded-md bg-slate-100 dark:bg-slate-800 text-slate-500 dark:text-slate-400">' + escapeHtml(t) + "</span>"
+                      ).join("") + "</div>"
+                    : "";
+                return (
+                    '<article id="field-lesson-' + lesson.id + '" class="bg-white dark:bg-slate-900 rounded-2xl border border-slate-200 dark:border-slate-800 p-5 sm:p-6 shadow-sm hover:shadow-md transition-all flex flex-col gap-4">' +
+                        '<div class="flex flex-wrap items-center gap-2">' +
+                            '<span class="text-xs font-mono font-bold px-2 py-0.5 rounded-md bg-blue-50 dark:bg-blue-950/80 text-blue-700 dark:text-blue-300 border border-blue-200 dark:border-blue-900">' + lesson.id + "</span>" +
+                            '<span class="text-xs font-medium px-2 py-0.5 rounded-md bg-slate-100 dark:bg-slate-800 text-slate-500 dark:text-slate-400">' + escapeHtml(lesson.chapter || "") + "</span>" +
+                        "</div>" +
+                        '<div>' +
+                            '<h2 class="text-lg sm:text-xl font-extrabold text-slate-900 dark:text-white leading-snug">' + fieldHighlight(lesson.titleEn) + speakButtonHtml(lesson.titleEn || "", "") + "</h2>" +
+                            '<p class="mt-1 text-sm font-semibold text-slate-500 dark:text-slate-400">' + fieldHighlight(lesson.titleZh) + "</p>" +
+                        "</div>" +
+                        renderFieldBilingualBlock(lesson.summaryEn, lesson.summaryZh, "Summary", "摘要") +
+                        (pointsHtml ? '<div class="space-y-2"><p class="text-xs font-bold uppercase tracking-wider text-indigo-700 dark:text-indigo-300">重點 · Key Points</p>' + pointsHtml + "</div>" : "") +
+                        judgmentsHtml +
+                        phrasesHtml +
+                        tagsHtml +
+                    "</article>"
+                );
+            }).join("");
+            return true;
+        }
+
+        function getFilteredFieldScenarios() {
+            const q = fieldState.searchQuery.trim().toLowerCase();
+            return fieldState.scenarios.filter((sc) => {
+                if (fieldState.chapterId !== "all" && sc.chapterId !== fieldState.chapterId) return false;
+                if (!q) return true;
+                const chunks = [
+                    sc.id, sc.chapter, sc.chapterEn, sc.titleEn, sc.titleZh,
+                    sc.promptEn, sc.promptZh, sc.answerEn, sc.answerZh
+                ];
+                (sc.focusTags || []).forEach((t) => chunks.push(t));
+                (sc.formPlaybook || []).forEach((step) => {
+                    chunks.push(step.code, step.actionEn, step.actionZh);
+                    (step.checkMarks || []).forEach((m) => chunks.push(m.en, m.zh));
+                });
+                return fieldTextBlob(chunks).includes(q);
+            });
+        }
+
+        function renderFieldFormDetail(form) {
+            const sections = form.sections || [];
+            const tips = form.fillTips || [];
+            const mistakes = form.commonMistakes || [];
+            const sample = form.sample || null;
+            const related = form.relatedForms || [];
+
+            const sectionsHtml = sections.length
+                ? '<div class="space-y-2"><p class="text-xs font-bold uppercase tracking-wider text-indigo-700 dark:text-indigo-300">A · 關鍵欄位區 · Key Sections</p>' +
+                  sections.map((s) => (
+                      '<div class="rounded-xl border border-slate-200 dark:border-slate-700/60 p-3">' +
+                          '<p class="text-sm font-bold text-slate-800 dark:text-slate-100">' + fieldHighlight(s.nameEn) +
+                          ' <span class="text-slate-400 font-medium">／</span> ' + fieldHighlight(s.nameZh) + "</p>" +
+                          '<p class="mt-1 text-xs text-slate-600 dark:text-slate-300"><span class="font-semibold text-indigo-500">EN </span>' + fieldHighlight(s.tipEn) + "</p>" +
+                          '<p class="text-xs text-slate-500 dark:text-slate-400"><span class="font-semibold text-emerald-500">ZH </span>' + fieldHighlight(s.tipZh) + "</p>" +
+                      "</div>"
+                  )).join("") + "</div>"
+                : "";
+
+            const tipsHtml = tips.length
+                ? '<div class="space-y-1.5"><p class="text-xs font-bold uppercase tracking-wider text-teal-700 dark:text-teal-300">A · 填寫要點 · Fill Tips</p><ul class="space-y-1.5">' +
+                  tips.map((t) => (
+                      '<li class="text-sm text-slate-700 dark:text-slate-200 leading-snug pl-3 border-l-2 border-teal-400">' +
+                          '<span class="block">' + fieldHighlight(t.en) + "</span>" +
+                          '<span class="block text-xs text-slate-500 dark:text-slate-400 mt-0.5">' + fieldHighlight(t.zh) + "</span>" +
+                      "</li>"
+                  )).join("") + "</ul></div>"
+                : "";
+
+            const mistakesHtml = mistakes.length
+                ? '<div class="space-y-1.5"><p class="text-xs font-bold uppercase tracking-wider text-amber-700 dark:text-amber-300">A · 常見錯誤 · Mistakes</p><ul class="space-y-1.5">' +
+                  mistakes.map((t) => (
+                      '<li class="text-sm text-slate-700 dark:text-slate-200 leading-snug pl-3 border-l-2 border-amber-400">' +
+                          '<span class="block">' + fieldHighlight(t.en) + "</span>" +
+                          '<span class="block text-xs text-slate-500 dark:text-slate-400 mt-0.5">' + fieldHighlight(t.zh) + "</span>" +
+                      "</li>"
+                  )).join("") + "</ul></div>"
+                : "";
+
+            let sampleHtml = "";
+            if (sample) {
+                const fieldsHtml = (sample.fields || []).map((fld) => (
+                    '<tr class="border-t border-slate-100 dark:border-slate-800">' +
+                        '<td class="py-2 pr-3 text-xs font-semibold text-slate-600 dark:text-slate-300 align-top whitespace-nowrap">' +
+                            fieldHighlight(fld.labelEn) + '<br><span class="font-normal text-slate-400">' + fieldHighlight(fld.labelZh) + "</span></td>" +
+                        '<td class="py-2 text-sm text-slate-800 dark:text-slate-100">' + fieldHighlight(fld.valueEn) +
+                            (fld.valueZh && fld.valueZh !== fld.valueEn
+                                ? '<div class="text-xs text-slate-500 dark:text-slate-400 mt-0.5">' + fieldHighlight(fld.valueZh) + "</div>"
+                                : "") +
+                        "</td></tr>"
+                )).join("");
+                const marksHtml = (sample.checkMarks || []).map((m) => (
+                    '<li class="flex items-start gap-2 text-sm">' +
+                        '<span class="text-emerald-500 font-bold mt-0.5">✓</span>' +
+                        '<span><span class="text-slate-800 dark:text-slate-100">' + fieldHighlight(m.en) + "</span>" +
+                        '<span class="block text-xs text-slate-500">' + fieldHighlight(m.zh) + "</span></span></li>"
+                )).join("");
+                sampleHtml =
+                    '<div class="rounded-xl border border-indigo-200 dark:border-indigo-900/50 bg-indigo-50/40 dark:bg-indigo-950/20 p-4 space-y-3">' +
+                        '<p class="text-xs font-bold uppercase tracking-wider text-indigo-700 dark:text-indigo-300">B · 虛構成交範例 · Sample Fill</p>' +
+                        '<div>' +
+                            '<p class="text-sm font-bold text-slate-900 dark:text-white">' + fieldHighlight(sample.titleEn || "") + "</p>" +
+                            '<p class="text-xs text-slate-500">' + fieldHighlight(sample.titleZh || "") + "</p>" +
+                        "</div>" +
+                        (sample.scenarioEn
+                            ? '<div class="text-sm leading-relaxed">' +
+                                  '<p><span class="font-semibold text-indigo-600">EN </span>' + fieldHighlight(sample.scenarioEn) + "</p>" +
+                                  '<p class="mt-1 text-slate-600 dark:text-slate-300"><span class="font-semibold text-emerald-600">ZH </span>' + fieldHighlight(sample.scenarioZh || "") + "</p>" +
+                              "</div>"
+                            : "") +
+                        (fieldsHtml
+                            ? '<div class="overflow-x-auto"><table class="w-full text-left">' + fieldsHtml + "</table></div>"
+                            : "") +
+                        (marksHtml ? '<ul class="space-y-1.5">' + marksHtml + "</ul>" : "") +
+                    "</div>";
+            }
+
+            const relatedHtml = related.length
+                ? '<p class="text-xs text-slate-500 dark:text-slate-400">相關表單 · Related: ' +
+                  related.map((c) => '<span class="inline-block mx-0.5 px-1.5 py-0.5 rounded bg-slate-100 dark:bg-slate-800 font-mono font-semibold text-indigo-600 dark:text-indigo-300">' + escapeHtml(c) + "</span>").join("") +
+                  "</p>"
+                : "";
+
+            return (
+                '<details class="mt-2 group">' +
+                    '<summary class="cursor-pointer list-none flex items-center justify-between gap-2 text-sm font-semibold text-indigo-700 dark:text-indigo-300 hover:underline">' +
+                        '<span>展開 A+B：欄位導覽＋虛構成交範例</span>' +
+                        '<span class="text-xs text-slate-400 group-open:hidden">▼</span><span class="text-xs text-slate-400 hidden group-open:inline">▲</span>' +
+                    "</summary>" +
+                    '<div class="mt-3 flex flex-col gap-4">' +
+                        (form.purposeEn
+                            ? renderFieldBilingualBlock(form.purposeEn, form.purposeZh, "Purpose", "用途")
+                            : "") +
+                        sectionsHtml + tipsHtml + mistakesHtml + sampleHtml + relatedHtml +
+                        '<p class="text-[11px] text-amber-700 dark:text-amber-300/90">學習用結構示範，非 C.A.R. 官方表單複本。請以公司／現行版本為準。</p>' +
+                    "</div>" +
+                "</details>"
+            );
+        }
+
+        function renderFieldFormsView() {
+            const filtered = getFilteredFieldForms();
+            const container = document.getElementById("fieldFormsView");
+            document.getElementById("fieldCountDisplay").innerText = String(filtered.length);
+            document.getElementById("fieldCountLabel").innerText = "個表單";
+            document.getElementById("fieldPrimaryActionBtn").textContent = "🎲 抽一張表單";
+
+            if (!filtered.length) {
+                container.innerHTML = "";
+                return false;
+            }
+
+            container.innerHTML = filtered.map((form) => {
+                return (
+                    '<article id="field-form-' + form.code + '" class="bg-white dark:bg-slate-900 rounded-2xl border border-slate-200 dark:border-slate-800 p-4 sm:p-5 shadow-sm flex flex-col gap-2">' +
+                        '<div class="flex items-center justify-between gap-2">' +
+                            '<span class="text-sm font-mono font-extrabold px-2.5 py-1 rounded-lg bg-indigo-50 dark:bg-indigo-950/60 text-indigo-700 dark:text-indigo-300 border border-indigo-200 dark:border-indigo-900">' + fieldHighlight(form.code) + "</span>" +
+                            speakButtonHtml(form.en || form.code, "") +
+                        "</div>" +
+                        '<h3 class="text-base font-bold text-slate-900 dark:text-white leading-snug">' + fieldHighlight(form.en) + "</h3>" +
+                        '<p class="text-sm text-slate-600 dark:text-slate-300">' + fieldHighlight(form.zh) + "</p>" +
+                        '<div class="pt-2 border-t border-slate-100 dark:border-slate-800">' +
+                            '<p class="text-xs text-slate-500 dark:text-slate-400"><span class="font-semibold text-teal-600 dark:text-teal-400">When · </span>' + fieldHighlight(form.whenEn) + "</p>" +
+                            '<p class="text-xs text-slate-500 dark:text-slate-400 mt-0.5"><span class="font-semibold text-emerald-600 dark:text-emerald-400">時機 · </span>' + fieldHighlight(form.whenZh) + "</p>" +
+                        "</div>" +
+                        renderFieldFormDetail(form) +
+                    "</article>"
+                );
+            }).join("");
+            return true;
+        }
+
+        function renderFieldPlaybook(sc) {
+            const steps = sc.formPlaybook || [];
+            if (!steps.length) return "";
+            const stepsHtml = steps.map((step, idx) => {
+                const marks = (step.checkMarks || []).map((m) => (
+                    '<li class="flex items-start gap-2 text-sm">' +
+                        '<span class="mt-0.5 text-indigo-500 font-mono text-xs">□</span>' +
+                        '<span><span class="text-slate-800 dark:text-slate-100">' + fieldHighlight(m.en) + "</span>" +
+                        '<span class="block text-xs text-slate-500">' + fieldHighlight(m.zh) + "</span></span></li>"
+                )).join("");
+                return (
+                    '<div class="rounded-xl border border-slate-200 dark:border-slate-700/60 overflow-hidden">' +
+                        '<div class="px-3 py-2 bg-slate-50 dark:bg-slate-800/70 flex items-center gap-2">' +
+                            '<span class="text-xs font-bold text-slate-400">' + (idx + 1) + "</span>" +
+                            '<span class="text-sm font-mono font-extrabold text-indigo-700 dark:text-indigo-300">' + escapeHtml(step.code) + "</span>" +
+                        "</div>" +
+                        '<div class="p-3 space-y-2">' +
+                            '<p class="text-sm text-slate-800 dark:text-slate-100"><span class="font-semibold text-indigo-600">EN </span>' + fieldHighlight(step.actionEn) + "</p>" +
+                            '<p class="text-sm text-slate-600 dark:text-slate-300"><span class="font-semibold text-emerald-600">ZH </span>' + fieldHighlight(step.actionZh) + "</p>" +
+                            (marks ? '<ul class="space-y-1.5 mt-2">' + marks + "</ul>" : "") +
+                        "</div>" +
+                    "</div>"
+                );
+            }).join("");
+            return (
+                '<div class="space-y-2">' +
+                    '<p class="text-xs font-bold uppercase tracking-wider text-violet-700 dark:text-violet-300">C · 表單操作手冊 · Form Playbook</p>' +
+                    '<div class="flex flex-col gap-2">' + stepsHtml + "</div>" +
+                "</div>"
+            );
+        }
+
+        function fieldChecklistProgress(cl) {
+            const map = fieldState.checked[cl.id] || {};
+            const total = (cl.items || []).length;
+            let done = 0;
+            for (let i = 0; i < total; i++) {
+                if (map[i]) done += 1;
+            }
+            return { done: done, total: total };
+        }
+
+        function toggleFieldChecklistItem(checklistId, itemIndex) {
+            if (!fieldState.checked[checklistId]) fieldState.checked[checklistId] = {};
+            const cur = !!fieldState.checked[checklistId][itemIndex];
+            if (cur) delete fieldState.checked[checklistId][itemIndex];
+            else fieldState.checked[checklistId][itemIndex] = true;
+            saveFieldProgress();
+            renderFieldPractice();
+        }
+
+        function resetFieldChecklist(checklistId) {
+            delete fieldState.checked[checklistId];
+            saveFieldProgress();
+            renderFieldPractice();
+            showToast("已清空此清單勾選", "info");
+        }
+
+        function renderFieldChecklistsView() {
+            const filtered = getFilteredFieldChecklists();
+            const container = document.getElementById("fieldChecklistsView");
+            document.getElementById("fieldCountDisplay").innerText = String(filtered.length);
+            document.getElementById("fieldCountLabel").innerText = "份清單";
+            document.getElementById("fieldPrimaryActionBtn").textContent = "🎲 抽一份清單";
+
+            if (!filtered.length) {
+                container.innerHTML = "";
+                return false;
+            }
+
+            container.innerHTML = filtered.map((cl) => {
+                const prog = fieldChecklistProgress(cl);
+                const pct = prog.total ? Math.round((prog.done / prog.total) * 100) : 0;
+                const itemsHtml = (cl.items || []).map((item, idx) => {
+                    const checked = !!(fieldState.checked[cl.id] && fieldState.checked[cl.id][idx]);
+                    const checkCls = checked
+                        ? "border-emerald-500 bg-emerald-50 dark:bg-emerald-950/30"
+                        : "border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-900";
+                    return (
+                        '<label class="flex items-start gap-3 p-3 rounded-xl border ' + checkCls + ' cursor-pointer transition-colors">' +
+                            '<input type="checkbox" class="mt-1 w-4 h-4 rounded border-slate-300 text-emerald-600 focus:ring-emerald-500" ' +
+                            (checked ? "checked " : "") +
+                            'onchange="toggleFieldChecklistItem(\'' + cl.id + "', " + idx + ')">' +
+                            '<span class="min-w-0 flex-1">' +
+                                '<span class="block text-sm text-slate-800 dark:text-slate-100 leading-snug">' + fieldHighlight(item.en) + "</span>" +
+                                '<span class="block text-xs text-slate-500 dark:text-slate-400 mt-0.5">' + fieldHighlight(item.zh) + "</span>" +
+                            "</span>" +
+                        "</label>"
+                    );
+                }).join("");
+                return (
+                    '<article id="field-cl-' + cl.id + '" class="bg-white dark:bg-slate-900 rounded-2xl border border-slate-200 dark:border-slate-800 p-5 sm:p-6 shadow-sm flex flex-col gap-4">' +
+                        '<div class="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-3">' +
+                            '<div>' +
+                                '<div class="flex flex-wrap items-center gap-2 mb-2">' +
+                                    '<span class="text-xs font-mono font-bold px-2 py-0.5 rounded-md bg-emerald-50 dark:bg-emerald-950/80 text-emerald-700 dark:text-emerald-300 border border-emerald-200 dark:border-emerald-900">' + cl.id + "</span>" +
+                                    '<span class="text-xs font-medium px-2 py-0.5 rounded-md bg-slate-100 dark:bg-slate-800 text-slate-500 dark:text-slate-400">' + escapeHtml(cl.chapter || "") + "</span>" +
+                                "</div>" +
+                                '<h2 class="text-lg font-extrabold text-slate-900 dark:text-white">' + fieldHighlight(cl.titleEn) + "</h2>" +
+                                '<p class="text-sm font-semibold text-slate-500 dark:text-slate-400">' + fieldHighlight(cl.titleZh) + "</p>" +
+                            "</div>" +
+                            '<div class="flex items-center gap-2 shrink-0">' +
+                                '<span class="text-xs font-semibold px-2.5 py-1 rounded-lg bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300">' + prog.done + " / " + prog.total + " · " + pct + "%</span>" +
+                                '<button type="button" onclick="resetFieldChecklist(\'' + cl.id + '\')" class="text-xs px-2.5 py-1 rounded-lg border border-slate-200 dark:border-slate-700 text-slate-500 hover:bg-slate-50 dark:hover:bg-slate-800">清空</button>' +
+                            "</div>" +
+                        "</div>" +
+                        '<div class="h-1.5 rounded-full bg-slate-100 dark:bg-slate-800 overflow-hidden">' +
+                            '<div class="h-full bg-emerald-500 transition-all" style="width:' + pct + '%"></div>' +
+                        "</div>" +
+                        '<div class="flex flex-col gap-2">' + itemsHtml + "</div>" +
+                    "</article>"
+                );
+            }).join("");
+            return true;
+        }
+
+        function revealFieldScenario(id) {
+            fieldState.revealedScenarios[id] = true;
+            saveFieldProgress();
+            renderFieldPractice();
+        }
+
+        function hideFieldScenario(id) {
+            delete fieldState.revealedScenarios[id];
+            saveFieldProgress();
+            renderFieldPractice();
+        }
+
+        function renderFieldScenariosView() {
+            const filtered = getFilteredFieldScenarios();
+            const container = document.getElementById("fieldScenariosView");
+            document.getElementById("fieldCountDisplay").innerText = String(filtered.length);
+            document.getElementById("fieldCountLabel").innerText = "則情境";
+            document.getElementById("fieldPrimaryActionBtn").textContent = "🎲 抽一則情境";
+
+            if (!filtered.length) {
+                container.innerHTML = "";
+                return false;
+            }
+
+            container.innerHTML = filtered.map((sc) => {
+                const revealed = !!fieldState.revealedScenarios[sc.id];
+                const tagsHtml = (sc.focusTags || []).map((t) =>
+                    '<span class="text-[11px] px-2 py-0.5 rounded-md bg-amber-50 dark:bg-amber-950/40 text-amber-700 dark:text-amber-300">' + escapeHtml(t) + "</span>"
+                ).join("");
+                const answerHtml = revealed
+                    ? (
+                        '<div class="space-y-4">' +
+                            '<div class="space-y-2">' +
+                                '<div class="flex items-center justify-between">' +
+                                    '<p class="text-xs font-bold uppercase tracking-wider text-emerald-700 dark:text-emerald-300">建議作法 · Model Answer</p>' +
+                                    '<button type="button" onclick="hideFieldScenario(\'' + sc.id + '\')" class="text-xs text-slate-500 hover:underline">收起答案</button>' +
+                                "</div>" +
+                                renderFieldBilingualBlock(sc.answerEn, sc.answerZh, "EN", "ZH") +
+                            "</div>" +
+                            renderFieldPlaybook(sc) +
+                        "</div>"
+                    )
+                    : (
+                        '<button type="button" onclick="revealFieldScenario(\'' + sc.id + '\')" class="w-full sm:w-auto px-4 py-2.5 rounded-xl bg-indigo-600 hover:bg-indigo-700 text-white text-sm font-medium shadow-sm">' +
+                            "先自己想，再揭曉答案＋表單手冊 →" +
+                        "</button>"
+                    );
+                return (
+                    '<article id="field-sc-' + sc.id + '" class="bg-white dark:bg-slate-900 rounded-2xl border border-slate-200 dark:border-slate-800 p-5 sm:p-6 shadow-sm flex flex-col gap-4">' +
+                        '<div class="flex flex-wrap items-center gap-2">' +
+                            '<span class="text-xs font-mono font-bold px-2 py-0.5 rounded-md bg-amber-50 dark:bg-amber-950/80 text-amber-700 dark:text-amber-300 border border-amber-200 dark:border-amber-900">' + sc.id + "</span>" +
+                            '<span class="text-xs font-medium px-2 py-0.5 rounded-md bg-slate-100 dark:bg-slate-800 text-slate-500 dark:text-slate-400">' + escapeHtml(sc.chapter || "") + "</span>" +
+                        "</div>" +
+                        '<div>' +
+                            '<h2 class="text-lg font-extrabold text-slate-900 dark:text-white leading-snug">' + fieldHighlight(sc.titleEn) + "</h2>" +
+                            '<p class="mt-1 text-sm font-semibold text-slate-500 dark:text-slate-400">' + fieldHighlight(sc.titleZh) + "</p>" +
+                        "</div>" +
+                        '<div class="space-y-2">' +
+                            '<p class="text-xs font-bold uppercase tracking-wider text-indigo-700 dark:text-indigo-300">情境題 · Prompt</p>' +
+                            renderFieldBilingualBlock(sc.promptEn, sc.promptZh, "EN", "ZH") +
+                        "</div>" +
+                        (tagsHtml ? '<div class="flex flex-wrap gap-1.5">' + tagsHtml + "</div>" : "") +
+                        answerHtml +
+                    "</article>"
+                );
+            }).join("");
+            return true;
+        }
+
+        function fieldPrimaryAction() {
+            const mode = fieldState.viewMode;
+            let items = [];
+            let prefix = "field-lesson-";
+            if (mode === "lessons") {
+                items = getFilteredFieldLessons();
+                prefix = "field-lesson-";
+            } else if (mode === "forms") {
+                items = getFilteredFieldForms();
+                if (!items.length) return;
+                const pick = items[Math.floor(Math.random() * items.length)];
+                const el = document.getElementById("field-form-" + pick.code);
+                if (el) {
+                    el.scrollIntoView({ behavior: "smooth", block: "start" });
+                    el.classList.add("ring-2", "ring-indigo-400");
+                    setTimeout(() => el.classList.remove("ring-2", "ring-indigo-400"), 1600);
+                }
+                showToast("複習表單：" + pick.code + " · " + pick.zh, "info");
+                return;
+            } else if (mode === "checklists") {
+                items = getFilteredFieldChecklists();
+                prefix = "field-cl-";
+            } else {
+                items = getFilteredFieldScenarios();
+                prefix = "field-sc-";
+            }
+            if (!items.length) return;
+            const pick = items[Math.floor(Math.random() * items.length)];
+            const el = document.getElementById(prefix + pick.id);
+            if (el) {
+                el.scrollIntoView({ behavior: "smooth", block: "start" });
+                el.classList.add("ring-2", "ring-indigo-400");
+                setTimeout(() => el.classList.remove("ring-2", "ring-indigo-400"), 1600);
+            }
+            showToast("複習：" + (pick.id || pick.code) + " · " + (pick.titleZh || pick.zh || ""), "info");
+        }
+
+        function renderFieldPractice() {
+            const err = document.getElementById("fieldLoadError");
+            const app = document.getElementById("fieldApp");
+            if (!fieldState.loaded) {
+                if (err) err.classList.toggle("hidden", !fieldState.failed);
+                if (app) app.classList.add("hidden");
+                return;
+            }
+            if (err) err.classList.add("hidden");
+            if (app) app.classList.remove("hidden");
+
+            const titleEl = document.getElementById("fieldTitleZh");
+            const subEl = document.getElementById("fieldSubtitleZh");
+            const discEl = document.getElementById("fieldDisclaimer");
+            if (titleEl) titleEl.textContent = fieldState.titleZh;
+            if (subEl) subEl.textContent = fieldState.subtitleZh;
+            if (discEl) discEl.textContent = fieldState.disclaimerZh;
+
+            updateFieldViewSwitchButtons();
+            renderFieldChapterButtons();
+
+            const views = {
+                lessons: "fieldLessonsView",
+                forms: "fieldFormsView",
+                checklists: "fieldChecklistsView",
+                scenarios: "fieldScenariosView"
+            };
+            Object.keys(views).forEach((mode) => {
+                const el = document.getElementById(views[mode]);
+                if (!el) return;
+                if (mode === fieldState.viewMode) {
+                    el.classList.remove("hidden");
+                    if (mode === "forms") el.classList.add("grid");
+                } else {
+                    el.classList.add("hidden");
+                }
+            });
+
+            let hasItems = false;
+            if (fieldState.viewMode === "lessons") hasItems = renderFieldLessonsView();
+            else if (fieldState.viewMode === "forms") hasItems = renderFieldFormsView();
+            else if (fieldState.viewMode === "checklists") hasItems = renderFieldChecklistsView();
+            else hasItems = renderFieldScenariosView();
+
+            const empty = document.getElementById("fieldEmptyState");
+            if (empty) empty.classList.toggle("hidden", hasItems);
         }
 
         // Initialize on load
