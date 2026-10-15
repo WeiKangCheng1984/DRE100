@@ -1,6 +1,8 @@
-﻿# 加州 DRE 不動產複習網
+﻿# 加州 DRE 不動產複習網（Study & Field Ops）
 
-靜態網站，包含七大模組：
+靜態網站，雙軌定位：**DRE 學習庫** + **個人跨國地產實戰工作站（Field Ops Hub）**。
+
+## 學習庫（既有）
 
 - **名詞手冊**：100 組易混淆名詞（條列檢視、字卡翻閱、領域篩選、收藏／已掌握）
 - **精讀講義**：從 `plus.txt` 整理的章節知識點（中英對照、考點、文法拆解）。內含子功能 **長句練習**：76 句考試長難句，先看英文再揭曉解析。
@@ -9,6 +11,19 @@
 - **題庫練習**：約 225 題選擇題，可上一題／下一題、跳到指定題號，作答後立刻顯示對錯與解析。進度存在瀏覽器 `localStorage`。
 - **題庫練習二**：約 210 題艱難考題（`exam bank 2.txt`），同樣可順序刷題、跳題與看解析；進度與第一套題庫分開保存。
 - **題庫練習三**：LV17 評量約 100 題，並接續 `exam bank 3-2.txt` 的 Level 延伸題（合計約 300 題）；中英對照與解析，進度獨立保存。
+
+## Field Ops（升級中）
+
+大規模南加區域調查採「靜態 JSON 可擴展」路線，**Wave 1 優先東聖蓋博／60 廊道 + 西內陸帝國**：
+
+鑽石吧、沃爾納特、羅蘭崗、哈仙達崗、奇諾崗、安大略、波莫納（往西／往北為 Wave 2–3 預留）。
+
+| 文件 | 用途 |
+|---|---|
+| `docs/ARCHITECTURE.md` | 雙軌架構與階段邊界（P0 規格） |
+| `docs/region-research-playbook.md` | 每城四宮格調查手冊 |
+| `docs/P0_P1_PLAN.md` | P0／P1 執行與验收清單 |
+| `data/regions.json` | 區域總覽資料（Wave 1 七城骨架） |
 
 ## 本機預覽
 
@@ -42,6 +57,10 @@ python -m http.server 8765
 | `data/notes.json` | 精讀講義與考試長難句 |
 | `data/field_practice.json` | 成交實務雙語課文、表單、清單、情境 |
 | `data/cram280.json` | 考前衝刺 280 關鍵聯想（中英雙語） |
+| `data/regions.json` | 南加區域速查（Field Ops；Wave 1 七城骨架） |
+| `docs/ARCHITECTURE.md` | Field Ops Hub 適配架構規格 |
+| `docs/region-research-playbook.md` | 區域四宮格調查手冊 |
+| `docs/P0_P1_PLAN.md` | P0／P1 執行計畫 |
 | `new function.md` | 成交實務手冊 Markdown（由 build 腳本產生） |
 | `考前衝刺_280關鍵知識點.md` | 衝刺清單 Markdown 版 |
 | `plus.txt` | 精讀講義原文（含 OCR 雜訊，勿直接貼進網站） |

@@ -1,0 +1,304 @@
+{
+  "version": 1,
+  "titleZh": "南加區域速查",
+  "titleEn": "SoCal Region Field Cards",
+  "subtitleZh": "東聖蓋博／60 廊道優先，可往西往北擴充",
+  "subtitleEn": "East SGV / 60 Corridor first — expandable west & north",
+  "disclaimerZh": "本站內容為加州地產法規研究與市場資訊整理，非公開房產仲介招攬。實體交易合約由南加州持牌經紀團隊（Responsible Brokerage）依法辦理。區域與價格資訊僅供個人實戰備忘，非估價或投資建議。",
+  "disclaimerEn": "For personal field reference and CA real-estate study only — not a public brokerage solicitation. Transactions are handled by a responsible licensed brokerage. Price and school notes are memos, not appraisals or investment advice.",
+  "clusters": [
+    {
+      "id": "east-sgv-60",
+      "nameZh": "東聖蓋博 · 60 廊道",
+      "nameEn": "East SGV · 60 Corridor",
+      "wave": 1,
+      "sort": 10,
+      "blurbZh": "鑽石吧、沃爾納特、羅蘭崗、哈仙達崗 — 台客／華人家庭自住核心帶"
+    },
+    {
+      "id": "west-ie",
+      "nameZh": "西內陸帝國入口",
+      "nameEn": "West Inland Empire Gateway",
+      "wave": 1,
+      "sort": 20,
+      "blurbZh": "奇諾崗、安大略、波莫納 — 空間、物流就業與相對親民價位"
+    },
+    {
+      "id": "core-sgv-north",
+      "nameZh": "核心聖蓋博／往北",
+      "nameEn": "Core SGV / North",
+      "wave": 2,
+      "sort": 30,
+      "blurbZh": "阿卡迪亞、聖瑪利諾、天普市、帕薩迪納等 — Wave 2 擴充預留"
+    },
+    {
+      "id": "west-southbay-oc",
+      "nameZh": "西區／南灣／橙縣",
+      "nameEn": "Westside / South Bay / OC",
+      "wave": 3,
+      "sort": 40,
+      "blurbZh": "Westchester 90045、爾灣、托倫斯等 — Wave 3 往西擴充預留"
+    }
+  ],
+  "regions": [
+    {
+      "id": "diamond-bar",
+      "slug": "diamond-bar",
+      "nameZh": "鑽石吧",
+      "nameEn": "Diamond Bar",
+      "clusterId": "east-sgv-60",
+      "wave": 1,
+      "status": "draft",
+      "zips": ["91765"],
+      "compareTags": ["學區", "山城", "60廊道", "台客聚落"],
+      "basics": {
+        "chineseBelt": "",
+        "schoolBand": "",
+        "commuteAxes": ["CA-60", "CA-57"]
+      },
+      "priceBand": {
+        "sfhRange": "",
+        "condoRange": "",
+        "ageProfile": "",
+        "hoaMello": "",
+        "asOf": ""
+      },
+      "highlights": {
+        "jobs": "",
+        "amenities": "",
+        "safetyNote": "",
+        "buyerFit": ""
+      },
+      "caveats": {
+        "propertyCaveats": "",
+        "taxCaveats": "",
+        "schoolReality": "",
+        "pitchLine": ""
+      },
+      "lastReviewed": "",
+      "sources": []
+    },
+    {
+      "id": "walnut",
+      "slug": "walnut",
+      "nameZh": "沃爾納特",
+      "nameEn": "Walnut",
+      "clusterId": "east-sgv-60",
+      "wave": 1,
+      "status": "draft",
+      "zips": ["91789"],
+      "compareTags": ["學區", "山城", "60廊道", "台客聚落"],
+      "basics": {
+        "chineseBelt": "",
+        "schoolBand": "",
+        "commuteAxes": ["CA-60", "CA-57"]
+      },
+      "priceBand": {
+        "sfhRange": "",
+        "condoRange": "",
+        "ageProfile": "",
+        "hoaMello": "",
+        "asOf": ""
+      },
+      "highlights": {
+        "jobs": "",
+        "amenities": "",
+        "safetyNote": "",
+        "buyerFit": ""
+      },
+      "caveats": {
+        "propertyCaveats": "",
+        "taxCaveats": "",
+        "schoolReality": "",
+        "pitchLine": ""
+      },
+      "lastReviewed": "",
+      "sources": []
+    },
+    {
+      "id": "rowland-heights",
+      "slug": "rowland-heights",
+      "nameZh": "羅蘭崗",
+      "nameEn": "Rowland Heights",
+      "clusterId": "east-sgv-60",
+      "wave": 1,
+      "status": "draft",
+      "zips": ["91748"],
+      "compareTags": ["60廊道", "多元租盤", "首購友善"],
+      "basics": {
+        "chineseBelt": "",
+        "schoolBand": "",
+        "commuteAxes": ["CA-60"]
+      },
+      "priceBand": {
+        "sfhRange": "",
+        "condoRange": "",
+        "ageProfile": "",
+        "hoaMello": "",
+        "asOf": ""
+      },
+      "highlights": {
+        "jobs": "",
+        "amenities": "",
+        "safetyNote": "",
+        "buyerFit": ""
+      },
+      "caveats": {
+        "propertyCaveats": "",
+        "taxCaveats": "",
+        "schoolReality": "",
+        "pitchLine": ""
+      },
+      "lastReviewed": "",
+      "sources": []
+    },
+    {
+      "id": "hacienda-heights",
+      "slug": "hacienda-heights",
+      "nameZh": "哈仙達崗",
+      "nameEn": "Hacienda Heights",
+      "clusterId": "east-sgv-60",
+      "wave": 1,
+      "status": "draft",
+      "zips": ["91745"],
+      "compareTags": ["60廊道", "老屋翻新", "首購友善"],
+      "basics": {
+        "chineseBelt": "",
+        "schoolBand": "",
+        "commuteAxes": ["CA-60"]
+      },
+      "priceBand": {
+        "sfhRange": "",
+        "condoRange": "",
+        "ageProfile": "",
+        "hoaMello": "",
+        "asOf": ""
+      },
+      "highlights": {
+        "jobs": "",
+        "amenities": "",
+        "safetyNote": "",
+        "buyerFit": ""
+      },
+      "caveats": {
+        "propertyCaveats": "",
+        "taxCaveats": "",
+        "schoolReality": "",
+        "pitchLine": ""
+      },
+      "lastReviewed": "",
+      "sources": []
+    },
+    {
+      "id": "chino-hills",
+      "slug": "chino-hills",
+      "nameZh": "奇諾崗",
+      "nameEn": "Chino Hills",
+      "clusterId": "west-ie",
+      "wave": 1,
+      "status": "draft",
+      "zips": ["91709"],
+      "compareTags": ["規劃社區", "學區", "71廊道"],
+      "basics": {
+        "chineseBelt": "",
+        "schoolBand": "",
+        "commuteAxes": ["CA-71", "CA-60", "CA-91"]
+      },
+      "priceBand": {
+        "sfhRange": "",
+        "condoRange": "",
+        "ageProfile": "",
+        "hoaMello": "",
+        "asOf": ""
+      },
+      "highlights": {
+        "jobs": "",
+        "amenities": "",
+        "safetyNote": "",
+        "buyerFit": ""
+      },
+      "caveats": {
+        "propertyCaveats": "",
+        "taxCaveats": "",
+        "schoolReality": "",
+        "pitchLine": ""
+      },
+      "lastReviewed": "",
+      "sources": []
+    },
+    {
+      "id": "ontario",
+      "slug": "ontario",
+      "nameZh": "安大略",
+      "nameEn": "Ontario",
+      "clusterId": "west-ie",
+      "wave": 1,
+      "status": "draft",
+      "zips": ["91761", "91764", "91762"],
+      "compareTags": ["物流就業", "10號公路", "首購友善"],
+      "basics": {
+        "chineseBelt": "",
+        "schoolBand": "",
+        "commuteAxes": ["I-10", "I-15", "CA-60"]
+      },
+      "priceBand": {
+        "sfhRange": "",
+        "condoRange": "",
+        "ageProfile": "",
+        "hoaMello": "",
+        "asOf": ""
+      },
+      "highlights": {
+        "jobs": "",
+        "amenities": "",
+        "safetyNote": "",
+        "buyerFit": ""
+      },
+      "caveats": {
+        "propertyCaveats": "",
+        "taxCaveats": "",
+        "schoolReality": "",
+        "pitchLine": ""
+      },
+      "lastReviewed": "",
+      "sources": []
+    },
+    {
+      "id": "pomona",
+      "slug": "pomona",
+      "nameZh": "波莫納",
+      "nameEn": "Pomona",
+      "clusterId": "west-ie",
+      "wave": 1,
+      "status": "draft",
+      "zips": ["91766", "91767", "91768"],
+      "compareTags": ["首購友善", "10號公路", "老屋翻新"],
+      "basics": {
+        "chineseBelt": "",
+        "schoolBand": "",
+        "commuteAxes": ["I-10", "CA-57", "CA-71"]
+      },
+      "priceBand": {
+        "sfhRange": "",
+        "condoRange": "",
+        "ageProfile": "",
+        "hoaMello": "",
+        "asOf": ""
+      },
+      "highlights": {
+        "jobs": "",
+        "amenities": "",
+        "safetyNote": "",
+        "buyerFit": ""
+      },
+      "caveats": {
+        "propertyCaveats": "",
+        "taxCaveats": "",
+        "schoolReality": "",
+        "pitchLine": ""
+      },
+      "lastReviewed": "",
+      "sources": []
+    }
+  ]
+}
