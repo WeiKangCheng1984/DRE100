@@ -75,3 +75,20 @@
   （housing-market 近 3 月約 $664K／至 Aug 2026，口径接近）
 - 亞裔：Census QuickFacts 10.7%；Hispanic/Latino 71.8%
 - 地標：Cal Poly Pomona、Fairplex（Redfin Living-in／市府公開資訊）
+
+## Wave 2 展示擴充（2026-10-15 建檔，`status: draft`）
+
+人口／產業／趨勢以 ACS 5-year 烘焙為準（`scripts/fetch_region_snapshot.py`），未跑腳本前 **不填假數字**。價格未核對 Redfin Living-in 前對照條留空。
+
+| 單元 | 地理單位 | 已核對 |
+|---|---|---|
+| Culver City | place `0617568` | Gazetteer；CCUSD https://www.ccusd.org/ |
+| San Marino | place `0668224` | Gazetteer；SMUSD https://www.smusd.us/ |
+| South Pasadena | place `0673220` | Gazetteer；SPUSD https://www.spusd.net/ |
+| Arcadia | place `0602462` | Gazetteer；AUSD https://www.ausd.net/ |
+| Temple City | place `0678148` | Gazetteer；TCUSD https://www.tcusd.net/ |
+| Rosemead | place `0662896` | Gazetteer；**學區拼圖未核對** |
+| Westchester | **ZCTA 90045** | 非市界；含 LAX 周邊 |
+| Playa Vista | **ZCTA 90094** | 非市界；小區 ACS 誤差可能大 |
+
+完整展示規則：`docs/present-mode-ac-plan.md`。

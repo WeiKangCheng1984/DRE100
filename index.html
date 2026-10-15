@@ -343,7 +343,96 @@
         }
         body.present-mode .theater-stage-wrap {
             min-height: calc(100vh - 5.5rem);
+            display: flex;
+            flex-direction: column;
+            grid-template-columns: none;
         }
+        body.present-mode .theater-rail {
+            order: 2;
+            flex-direction: row;
+            flex-wrap: wrap;
+            max-height: none;
+            overflow-y: visible;
+            padding: 0.35rem 0 0.75rem;
+            gap: 0.65rem 1rem;
+        }
+        body.present-mode .theater-stage {
+            order: 1;
+            flex: 1;
+        }
+        body.present-mode .theater-pin {
+            min-width: auto;
+            padding: 0.4rem 0.7rem;
+            border-radius: 9999px;
+        }
+        body.present-mode .theater-pin .theater-pin-meta { display: none; }
+        .theater-map {
+            width: 100%;
+            border-radius: 1.1rem;
+            overflow: hidden;
+            border: 1px solid rgba(36,52,71,0.1);
+            background: #f3efe8;
+            margin-bottom: 1rem;
+        }
+        .theater-map svg {
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+        .theater-map .region-shape { cursor: pointer; transition: fill-opacity .2s ease, stroke-width .2s ease; }
+        .theater-map .region-shape.is-dim { fill-opacity: 0.18; }
+        .theater-map .region-shape.is-peer { fill-opacity: 0.72; }
+        .theater-map .region-shape.is-active { fill-opacity: 0.95; stroke-width: 2.6px; }
+        .theater-compare {
+            display: flex;
+            flex-direction: column;
+            gap: 0.85rem;
+            margin-bottom: 1rem;
+        }
+        .theater-metric { }
+        .theater-metric-label {
+            font-size: 11px;
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+            color: var(--theater-fog);
+            margin-bottom: 0.35rem;
+        }
+        .theater-bar-row {
+            display: grid;
+            grid-template-columns: 6.5rem 1fr 4.8rem;
+            gap: 0.45rem;
+            align-items: center;
+            font-size: 12px;
+        }
+        .theater-bar-track {
+            height: 0.55rem;
+            border-radius: 999px;
+            background: rgba(28,25,23,0.08);
+            overflow: hidden;
+        }
+        .theater-bar-fill {
+            height: 100%;
+            border-radius: inherit;
+            min-width: 0;
+        }
+        .cluster-dot {
+            width: 0.55rem; height: 0.55rem; border-radius: 9999px;
+            display: inline-block; margin-right: 0.35rem; vertical-align: middle;
+        }
+        .theater-rail-group {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.4rem;
+            align-items: center;
+        }
+        .theater-rail-group-label {
+            font-size: 10px;
+            letter-spacing: 0.14em;
+            text-transform: uppercase;
+            color: var(--theater-fog);
+            width: 100%;
+        }
+        body.present-mode .theater-rail-group-label { width: auto; margin-right: 0.25rem; }
     </style>
 </head>
 <body class="bg-slate-50 dark:bg-slate-950 text-slate-800 dark:text-slate-100 min-h-screen flex flex-col font-sans antialiased transition-colors duration-200">
@@ -1055,6 +1144,8 @@
             <div class="theater-stage-wrap">
                 <aside id="regionsCityRail" class="theater-rail" aria-label="城市清單"></aside>
                 <section class="theater-stage">
+                    <div id="regionsMapHost" class="theater-map" aria-label="大洛杉磯區域定位圖"></div>
+                    <div id="regionsCompareHost"></div>
                     <div id="regionsOverview" class="flex flex-col gap-6"></div>
                     <div id="regionsDetail" class="hidden flex flex-col gap-4"></div>
                 </section>
@@ -2659,6 +2750,16 @@
             if (state.appModule === "speak") {
                 if (e.key === "ArrowRight") speakNextUnit();
                 if (e.key === "ArrowLeft") speakPrevUnit();
+                return;
+            }
+            if (state.appModule === "regions") {
+                if (e.key === "Escape") {
+                    if (regionsState.selectedId) regionsShowOverview();
+                    else if (regionsState.present) setPresentMode(false);
+                    return;
+                }
+                if (e.key === "ArrowRight") regionsStepCity(1);
+                if (e.key === "ArrowLeft") regionsStepCity(-1);
                 return;
             }
             if (state.appModule === "quiz" || state.appModule === "quiz2" || state.appModule === "quiz3") {
@@ -4951,7 +5052,11 @@
             failed: false,
             payload: null,
             selectedId: null,
-            present: false
+            present: false,
+            showAllCompare: false,
+            showDetailQuad: false,
+            mapSvg: null,
+            mapBound: false
         };
 
         function enterRegionTheater() {
@@ -4967,9 +5072,16 @@
         }
 
         function setPresentMode(on) {
+            const turningOn = !!on && !regionsState.present;
             regionsState.present = !!on;
             document.body.classList.toggle("present-mode", regionsState.present);
+            if (turningOn) {
+                regionsState.selectedId = null;
+                regionsState.showDetailQuad = false;
+                regionsState.showAllCompare = false;
+            }
             setPresentModeControls(state.appModule === "regions");
+            if (state.appModule === "regions") renderRegions();
         }
 
         function togglePresentMode() {
@@ -4984,6 +5096,12 @@
                 regionsState.loaded = true;
                 regionsState.failed = false;
                 applyRegionsDisclaimer();
+                try {
+                    const mapRes = await fetch("assets/regions/la-locator.svg");
+                    if (mapRes.ok) regionsState.mapSvg = await mapRes.text();
+                } catch (mapErr) {
+                    regionsState.mapSvg = null;
+                }
                 if (state.appModule === "regions") renderRegions();
             } catch (err) {
                 regionsState.failed = true;
@@ -5020,13 +5138,85 @@
                 .replace(/"/g, "&quot;");
         }
 
-        function wave1Cities() {
+        function theaterCities() {
             const regions = (regionsState.payload && regionsState.payload.regions) || [];
-            return regions.filter((r) => (r.wave || 1) === 1);
+            return regions.filter((r) => r.clusterId !== "west-southbay-oc");
+        }
+
+        function readyCities() {
+            return theaterCities().filter((r) => r.status === "ready");
+        }
+
+        function clusterColor(clusterId) {
+            const clusters = (regionsState.payload && regionsState.payload.clusters) || [];
+            const found = clusters.find((c) => c.id === clusterId);
+            return (found && found.color) || "#6f8f9e";
+        }
+
+        function geoKindLabel(region) {
+            const kind = region.geo && region.geo.kind;
+            if (kind === "zcta") return "ZCTA 郵區 · 非市界";
+            if (kind === "cdp") return "CDP 未建制";
+            return "建制市";
+        }
+
+        function snapOf(region) {
+            return region.snapshot || {};
+        }
+
+        function fmtInt(n) {
+            if (n == null || n === "") return null;
+            const v = Number(n);
+            return Number.isFinite(v) ? Math.round(v).toLocaleString("en-US") : null;
+        }
+        function fmtPct(n) {
+            if (n == null || n === "") return null;
+            const v = Number(n);
+            return Number.isFinite(v) ? v.toFixed(1) + "%" : null;
+        }
+        function fmtUsd(n) {
+            if (n == null || n === "") return null;
+            const v = Number(n);
+            return Number.isFinite(v) ? "$" + Math.round(v).toLocaleString("en-US") : null;
+        }
+        function industryLine(region) {
+            const list = (snapOf(region).residentIndustry || []);
+            if (!list.length) return null;
+            return list.slice(0, 3).map((x) => (x.labelZh || x.key) + " " + (x.pct != null ? x.pct + "%" : "")).join(" · ");
+        }
+
+        function mountRegionMap(selected) {
+            const host = document.getElementById("regionsMapHost");
+            if (!host) return;
+            if (!regionsState.mapSvg) {
+                host.innerHTML = `<p class="p-4 text-sm text-stone-500">定位圖尚未載入。請用本機伺服器開啟（python -m http.server 8765）。</p>`;
+                return;
+            }
+            if (!regionsState.mapBound) {
+                host.innerHTML = regionsState.mapSvg.replace(/<\?xml[^>]*>/, "");
+                host.addEventListener("click", (ev) => {
+                    const path = ev.target.closest(".region-shape");
+                    if (!path) return;
+                    const id = path.getAttribute("data-id");
+                    if (id) regionsOpenCity(id);
+                });
+                regionsState.mapBound = true;
+            }
+            const clusterId = selected ? selected.clusterId : null;
+            host.querySelectorAll(".region-shape").forEach((el) => {
+                const id = el.getAttribute("data-id");
+                const cl = el.getAttribute("data-cluster");
+                el.classList.remove("is-active", "is-peer", "is-dim");
+                if (!selected) return;
+                if (id === selected.id) el.classList.add("is-active");
+                else if (cl === clusterId) el.classList.add("is-peer");
+                else el.classList.add("is-dim");
+            });
         }
 
         function regionsShowOverview() {
             regionsState.selectedId = null;
+            regionsState.showDetailQuad = false;
             updateUrlForModule("regions");
             renderRegions();
         }
@@ -5036,13 +5226,14 @@
             const found = regions.find((r) => r.id === idOrSlug || r.slug === idOrSlug);
             if (!found) return;
             regionsState.selectedId = found.id;
+            regionsState.showDetailQuad = false;
             updateUrlForModule("regions", found.id);
             renderRegions();
             window.scrollTo({ top: 0, behavior: "smooth" });
         }
 
         function regionsStepCity(delta) {
-            const list = wave1Cities();
+            const list = theaterCities();
             if (!list.length) return;
             let idx = list.findIndex((r) => r.id === regionsState.selectedId);
             if (idx < 0) idx = 0;
@@ -5050,22 +5241,39 @@
             regionsOpenCity(list[idx].id);
         }
 
+        function toggleAllCompare() {
+            regionsState.showAllCompare = !regionsState.showAllCompare;
+            renderRegions();
+        }
+
+        function toggleRegionDetailQuad() {
+            regionsState.showDetailQuad = !regionsState.showDetailQuad;
+            renderRegions();
+        }
+
         function renderCityRail(p, selectedId) {
             const rail = document.getElementById("regionsCityRail");
             if (!rail) return;
-            const cities = (p.regions || []).filter((r) => (r.wave || 1) === 1);
-            rail.innerHTML = cities.map((region) => {
-                const active = region.id === selectedId ? " is-active" : "";
-                const st = regionStatusLabel(region.status);
-                const zips = (region.zips || []).join(", ");
-                return (
-                    `<button type="button" class="theater-pin${active}" onclick="regionsOpenCity('${escapeHtml(region.id)}')">` +
-                    `<span class="theater-pin-dot" aria-hidden="true"></span>` +
-                    `<span class="font-display font-semibold text-stone-900 dark:text-stone-100">${escapeHtml(region.nameZh)}</span>` +
-                    `<span class="block text-[11px] text-stone-500 dark:text-stone-400 mt-0.5">${escapeHtml(region.nameEn)} · ${escapeHtml(zips)}</span>` +
-                    `<span class="block text-[10px] mt-1 ${st.cls}">${st.text}</span>` +
-                    `</button>`
-                );
+            const clusters = (p.clusters || []).slice().sort((a, b) => (a.sort || 0) - (b.sort || 0))
+                .filter((c) => c.id !== "west-southbay-oc");
+            const regions = p.regions || [];
+            rail.innerHTML = clusters.map((cluster) => {
+                const cities = regions.filter((r) => r.clusterId === cluster.id);
+                if (!cities.length) return "";
+                const pins = cities.map((region) => {
+                    const active = region.id === selectedId ? " is-active" : "";
+                    const st = regionStatusLabel(region.status);
+                    const zips = (region.zips || []).join(", ");
+                    return (
+                        `<button type="button" class="theater-pin${active}" onclick="regionsOpenCity('${escapeHtml(region.id)}')">` +
+                        `<span class="theater-pin-dot" aria-hidden="true" style="background:${escapeHtml(cluster.color || "#6f8f9e")}"></span>` +
+                        `<span class="font-display font-semibold text-stone-900 dark:text-stone-100">${escapeHtml(region.nameZh)}</span>` +
+                        `<span class="theater-pin-meta block text-[11px] text-stone-500 dark:text-stone-400 mt-0.5">${escapeHtml(region.nameEn)} · ${escapeHtml(zips)}</span>` +
+                        `<span class="theater-pin-meta block text-[10px] mt-1 ${st.cls}">${st.text}</span>` +
+                        `</button>`
+                    );
+                }).join("");
+                return `<div class="theater-rail-group"><span class="theater-rail-group-label">${escapeHtml(cluster.nameZh)}</span>${pins}</div>`;
             }).join("");
         }
 
@@ -5097,6 +5305,8 @@
                 : null;
 
             renderCityRail(p, selected ? selected.id : null);
+            mountRegionMap(selected);
+            renderRegionCompare(p, selected);
 
             if (selected) {
                 if (titleEl) titleEl.textContent = selected.nameZh;
@@ -5134,12 +5344,18 @@
         }
 
         function renderRegionsOverviewHtml(p) {
+            if (regionsState.present) {
+                return (
+                    `<p class="text-sm text-stone-600 dark:text-stone-300">點地圖或底欄選城。西區請看左下小圖。淡影是 LA 市界，不用全市數字。條形圖只列已核對城。</p>` +
+                    `<p class="text-[11px] text-stone-400 mt-2">Boundaries: U.S. Census Bureau TIGER／ACS 五年估計非今年行情 · 價格 Redfin</p>`
+                );
+            }
             const clusters = (p.clusters || []).slice().sort((a, b) => (a.sort || 0) - (b.sort || 0));
             const regions = p.regions || [];
             return (
                 `<div class="mb-2">` +
-                `<p class="text-[11px] uppercase tracking-[0.18em] text-theater-fog font-semibold">選擇一座城，開始對客講述</p>` +
-                `<p class="text-sm text-stone-600 dark:text-stone-300 mt-1">左側／上方城市針腳可快速切換 · 資料皆附來源</p>` +
+                `<p class="text-[11px] uppercase tracking-[0.18em] text-theater-fog font-semibold">點地圖或城市卡，開始對客講述</p>` +
+                `<p class="text-sm text-stone-600 dark:text-stone-300 mt-1">西區三格見左下小圖 · 數字對照只含已核對城 · 資料皆附來源</p>` +
                 `</div>` +
                 clusters.map((cluster) => {
                     const cities = regions.filter((r) => r.clusterId === cluster.id);
@@ -5150,6 +5366,7 @@
                     return (
                         `<section class="pb-5 border-b border-stone-300/40 dark:border-white/10 last:border-0 last:pb-0">` +
                         `<div class="flex flex-wrap items-baseline gap-2">` +
+                        `<span class="cluster-dot" style="background:${escapeHtml(cluster.color || "#6f8f9e")}"></span>` +
                         `<h3 class="font-display text-xl text-stone-900 dark:text-stone-100">${escapeHtml(cluster.nameZh)}</h3>` +
                         `<span class="text-[11px] tracking-wide text-theater-fog">Wave ${cluster.wave || "?"}</span>` +
                         `</div>` +
@@ -5157,6 +5374,69 @@
                         `${cards}</section>`
                     );
                 }).join("")
+            );
+        }
+
+        function metricValue(region, key) {
+            const s = snapOf(region);
+            if (key === "population") return { n: s.population, label: fmtInt(s.population) };
+            if (key === "asian") return { n: s.asianAlonePct, label: fmtPct(s.asianAlonePct) };
+            if (key === "hispanic") return { n: s.hispanicPct, label: fmtPct(s.hispanicPct) };
+            if (key === "income") return { n: s.medianIncome, label: fmtUsd(s.medianIncome) };
+            if (key === "sfh") return { n: s.priceSfh, label: fmtUsd(s.priceSfh) };
+            if (key === "industry") return { n: (s.residentIndustry && s.residentIndustry[0] && s.residentIndustry[0].pct) || null, label: industryLine(region) };
+            return { n: null, label: null };
+        }
+
+        function renderCompareMetric(title, key, cities) {
+            const vals = cities.map((r) => metricValue(r, key));
+            const max = Math.max(0, ...vals.map((v) => (v.n == null ? 0 : Number(v.n))));
+            const rows = cities.map((r, i) => {
+                const v = vals[i];
+                const pct = max && v.n != null ? Math.max(4, (Number(v.n) / max) * 100) : 0;
+                const color = clusterColor(r.clusterId);
+                return (
+                    `<div class="theater-bar-row">` +
+                    `<span class="truncate" title="${escapeHtml(r.nameEn)}">${escapeHtml(r.nameZh)}</span>` +
+                    `<div class="theater-bar-track"><div class="theater-bar-fill" style="width:${v.n == null ? 0 : pct}%;background:${color}"></div></div>` +
+                    `<span class="text-right ${v.label ? "" : "text-stone-400 italic"}">${v.label ? escapeHtml(v.label) : "未核對"}</span>` +
+                    `</div>`
+                );
+            }).join("");
+            return `<div class="theater-metric"><div class="theater-metric-label">${escapeHtml(title)}</div>${rows}</div>`;
+        }
+
+        function renderRegionCompare(p, selected) {
+            const host = document.getElementById("regionsCompareHost");
+            if (!host) return;
+            const ready = readyCities();
+            const set = regionsState.showAllCompare
+                ? ready
+                : (selected ? ready.filter((r) => r.clusterId === selected.clusterId) : []);
+            const toggleLabel = regionsState.showAllCompare ? "只看本廊道" : "全區對照（已核對）";
+            const heading = regionsState.showAllCompare
+                ? "全區對照 · 僅 status=ready"
+                : (selected ? "同廊道對照 · 僅已核對城" : "對照條");
+            if (!set.length) {
+                host.innerHTML = selected
+                    ? `<p class="text-xs text-stone-500 mb-3">此廊道尚無已核對城，數字對照待補（輪廓仍可點）。</p><button type="button" class="theater-present-btn" onclick="toggleAllCompare()">${toggleLabel}</button>`
+                    : `<p class="text-xs text-stone-500 mb-2">選一座城後，顯示同廊道已核對對照。新八城先有輪廓、數字空白。</p>`;
+                return;
+            }
+            const metrics = [
+                ["總人口（ACS）", "population"],
+                ["Asian alone %（普查分類）", "asian"],
+                ["Hispanic or Latino %", "hispanic"],
+                ["家戶所得中位（ACS）", "income"],
+                ["SFH 中位（Redfin Living-in）", "sfh"],
+                ["居民產業前三大", "industry"]
+            ];
+            host.innerHTML = (
+                `<div class="flex flex-wrap items-center justify-between gap-2 mb-3">` +
+                `<p class="text-[11px] uppercase tracking-[0.14em] text-theater-fog font-semibold">${heading}</p>` +
+                `<button type="button" class="theater-present-btn" onclick="toggleAllCompare()">${toggleLabel}</button>` +
+                `</div>` +
+                `<div class="theater-compare">${metrics.map(([t, k]) => renderCompareMetric(t, k, set)).join("")}</div>`
             );
         }
 
@@ -5219,21 +5499,29 @@
                 }).join("")}</ul>`
                 : `<p class="text-xs italic text-stone-400 mt-2">尚無來源清單</p>`;
 
-            return (
-                `<article class="flex flex-col gap-5">` +
-                `<div>` +
-                `<div class="flex flex-wrap items-center gap-2 mb-3">` +
-                `<span class="text-[11px] uppercase tracking-[0.16em] text-theater-fog">${escapeHtml(cluster ? cluster.nameZh : "")}</span>` +
-                `<span class="text-[11px] ${st.cls}">${st.text}</span>` +
-                (reviewed ? `<span class="text-[11px] text-stone-400">盤點 ${escapeHtml(reviewed)}</span>` : "") +
-                `</div>` +
-                `<h3 class="sr-only">${escapeHtml(region.nameZh)}</h3>` +
-                (tags ? `<div class="flex flex-wrap gap-1.5 mb-4">${tags}</div>` : "") +
-                (pitch
-                    ? `<p class="font-display text-xl sm:text-2xl leading-snug text-stone-900 dark:text-stone-100 max-w-3xl">${escapeHtml(pitch)}</p>`
-                    : `<p class="italic text-stone-400">對外一句話尚未填寫</p>`) +
-                `</div>` +
-                `<div class="flex flex-col">` +
+            const snap = snapOf(region);
+            const kpis = [
+                ["人口", fmtInt(snap.population)],
+                ["Asian alone", fmtPct(snap.asianAlonePct)],
+                ["Hispanic", fmtPct(snap.hispanicPct)],
+                ["家戶所得", fmtUsd(snap.medianIncome)],
+                ["SFH", fmtUsd(snap.priceSfh)]
+            ].map(([lab, val]) => (
+                `<div class="px-3 py-2 rounded-xl bg-white/50 dark:bg-white/5 border border-stone-200/60 dark:border-white/10">` +
+                `<p class="text-[10px] uppercase tracking-[0.12em] text-theater-fog">${lab}</p>` +
+                `<p class="font-display text-lg ${val ? "text-stone-900 dark:text-stone-100" : "text-stone-400 italic"}">${val ? escapeHtml(val) : "未核對"}</p>` +
+                `</div>`
+            )).join("");
+            const ind = industryLine(region);
+            const compareLine = regionText(region.compareLine);
+            const trendLine = regionText(region.trendLine);
+            const trendBits = [
+                snap.populationDeltaPct != null ? "人口 " + (snap.populationDeltaPct > 0 ? "+" : "") + snap.populationDeltaPct + "%" : null,
+                snap.medianIncomeDeltaPct != null ? "所得 " + (snap.medianIncomeDeltaPct > 0 ? "+" : "") + snap.medianIncomeDeltaPct + "%" : null,
+                snap.bachelorsPlusPct != null ? "學士+ " + snap.bachelorsPlusPct + "%" : null,
+                snap.ownerOccupiedPct != null ? "自住 " + snap.ownerOccupiedPct + "%" : null
+            ].filter(Boolean).join(" · ");
+            const quad = (
                 renderQuadrant("基本盤", [
                     ["華人生活圈", b.chineseBelt],
                     ["學區帶", b.schoolBand],
@@ -5257,10 +5545,38 @@
                     ["稅負注意", c.taxCaveats],
                     ["入學現實", c.schoolReality]
                 ]) +
-                `</div>` +
                 `<details class="theater-quad">` +
                 `<summary><span>資料來源</span><span class="text-xs font-sans font-medium text-stone-400">可點連結核對</span></summary>` +
-                `<div class="pt-1">${sourcesHtml}</div></details>` +
+                `<div class="pt-1">${sourcesHtml}</div></details>`
+            );
+
+            return (
+                `<article class="flex flex-col gap-5">` +
+                `<div>` +
+                `<div class="flex flex-wrap items-center gap-2 mb-3">` +
+                `<span class="cluster-dot" style="background:${escapeHtml(cluster && cluster.color ? cluster.color : "#6f8f9e")}"></span>` +
+                `<span class="text-[11px] uppercase tracking-[0.16em] text-theater-fog">${escapeHtml(cluster ? cluster.nameZh : "")}</span>` +
+                `<span class="text-[11px] ${st.cls}">${st.text}</span>` +
+                `<span class="text-[11px] text-stone-500">${escapeHtml(geoKindLabel(region))}</span>` +
+                (reviewed ? `<span class="text-[11px] text-stone-400">盤點 ${escapeHtml(reviewed)}</span>` : "") +
+                `</div>` +
+                (tags ? `<div class="flex flex-wrap gap-1.5 mb-4">${tags}</div>` : "") +
+                (pitch
+                    ? `<p class="font-display text-xl sm:text-2xl leading-snug text-stone-900 dark:text-stone-100 max-w-3xl">${escapeHtml(pitch)}</p>`
+                    : `<p class="italic text-stone-400">對外一句話尚未填寫</p>`) +
+                (compareLine ? `<p class="mt-3 text-sm sm:text-base leading-relaxed text-stone-700 dark:text-stone-200 max-w-3xl">${escapeHtml(compareLine)}</p>` : "") +
+                (trendLine ? `<p class="mt-2 text-sm leading-relaxed text-stone-600 dark:text-stone-300 max-w-3xl">${escapeHtml(trendLine)}</p>` : "") +
+                `</div>` +
+                `<div class="grid grid-cols-2 sm:grid-cols-5 gap-2">${kpis}</div>` +
+                `<div class="text-sm text-stone-700 dark:text-stone-200">` +
+                `<p class="text-[11px] uppercase tracking-[0.12em] text-theater-fog mb-1">居民從事的產業</p>` +
+                `<p class="${ind ? "" : "italic text-stone-400"}">${ind ? escapeHtml(ind) : "未核對（待 ACS 烘焙）"}</p>` +
+                (trendBits ? `<p class="text-xs text-stone-500 mt-2">趨勢（ACS 五年估計，非今年行情）：${escapeHtml(trendBits)}</p>` : `<p class="text-xs text-stone-400 mt-2">趨勢列待 ACS 烘焙</p>`) +
+                `</div>` +
+                `<div>` +
+                `<button type="button" class="theater-present-btn" onclick="toggleRegionDetailQuad()">${regionsState.showDetailQuad ? "收起細節" : "細節"}</button>` +
+                `</div>` +
+                (regionsState.showDetailQuad ? `<div class="flex flex-col">${quad}</div>` : "") +
                 `</article>`
             );
         }

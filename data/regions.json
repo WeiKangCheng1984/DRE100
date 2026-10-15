@@ -1,19 +1,38 @@
 {
-  "version": 2,
+  "version": 3,
   "titleZh": "南加區域速查",
   "titleEn": "SoCal Region Field Cards",
-  "subtitleZh": "東聖蓋博／60 廊道優先 · 資料均附來源 · 無來源不填",
-  "subtitleEn": "East SGV / 60 Corridor first — sourced fields only",
+  "subtitleZh": "大洛杉磯四廊道速查 · 資料均附來源 · 無來源不填",
+  "subtitleEn": "Greater LA four-corridor field cards — sourced fields only",
   "disclaimerZh": "本站內容為加州地產法規研究與市場資訊整理，非公開房產仲介招攬。實體交易合約由南加州持牌經紀團隊（Responsible Brokerage）依法辦理。區域與價格資訊僅供個人實戰備忘，非估價或投資建議。成交中位價取自 Redfin 公開市場頁（MLS／公部門紀錄彙整），會隨時間變動；學區邊界請以學區／市府官方查詢為準。",
   "disclaimerEn": "For personal field reference and CA real-estate study only — not a public brokerage solicitation. Transactions are handled by a responsible licensed brokerage. Price medians are Redfin public snapshots (MLS/public records) and change over time. Confirm school boundaries with the district/city.",
-  "dataNotesZh": "盤點日 2026-10-15。詳見 docs/region-data-sources.md。Asian alone ≠ 台／陸籍；未核對之治安分數、Mello-Roos 金額、通勤分鐘數不記入。",
+  "dataNotesZh": "盤點日 2026-10-15。詳見 docs/region-data-sources.md 與 docs/present-mode-ac-plan.md。Asian alone ≠ 台／陸籍。Westchester／Playa Vista 用 ZCTA，不是市界。Walnut GEOID 為 0683332（非北加州 Walnut Creek）。未核對之治安分數、Mello-Roos 金額、通勤分鐘數不記入。",
   "clusters": [
+    {
+      "id": "westside-lax",
+      "nameZh": "西區 · LAX／海霧帶",
+      "nameEn": "Westside · LAX / Coastal Mist",
+      "wave": 2,
+      "sort": 10,
+      "color": "#3D7A7A",
+      "blurbZh": "Westchester（ZCTA 90045）、Playa Vista（ZCTA 90094）、Culver City — 機場與西區媒體帶"
+    },
+    {
+      "id": "core-sgv-north",
+      "nameZh": "核心聖蓋博 · 110／210",
+      "nameEn": "Core SGV · 110 / 210",
+      "wave": 2,
+      "sort": 20,
+      "color": "#6B3A3A",
+      "blurbZh": "南帕薩迪納、聖馬利諾、亞凱迪亞、天普市、羅斯密 — 老聖蓋博名校與自住帶"
+    },
     {
       "id": "east-sgv-60",
       "nameZh": "東聖蓋博 · 60 廊道",
       "nameEn": "East SGV · 60 Corridor",
       "wave": 1,
-      "sort": 10,
+      "sort": 30,
+      "color": "#C4A06A",
       "blurbZh": "鑽石吧、沃爾納特、羅蘭崗、哈仙達崗 — LA 縣東緣／60 號公路一帶"
     },
     {
@@ -21,24 +40,18 @@
       "nameZh": "西內陸帝國入口",
       "nameEn": "West Inland Empire Gateway",
       "wave": 1,
-      "sort": 20,
+      "sort": 40,
+      "color": "#4A6280",
       "blurbZh": "奇諾崗、安大略、波莫納 — San Bernardino／LA 交界與物流就業帶"
     },
     {
-      "id": "core-sgv-north",
-      "nameZh": "核心聖蓋博／往北",
-      "nameEn": "Core SGV / North",
-      "wave": 2,
-      "sort": 30,
-      "blurbZh": "阿卡迪亞、聖瑪利諾、天普市、帕薩迪納等 — Wave 2 擴充預留"
-    },
-    {
       "id": "west-southbay-oc",
-      "nameZh": "西區／南灣／橙縣",
-      "nameEn": "Westside / South Bay / OC",
+      "nameZh": "南灣／橙縣（預留）",
+      "nameEn": "South Bay / OC (reserved)",
       "wave": 3,
-      "sort": 40,
-      "blurbZh": "Westchester 90045、爾灣、托倫斯等 — Wave 3 往西擴充預留"
+      "sort": 90,
+      "color": "#8A8680",
+      "blurbZh": "托倫斯、爾灣等 — 本期不進大洛杉磯展示圖"
     }
   ],
   "regions": [
@@ -50,12 +63,22 @@
       "clusterId": "east-sgv-60",
       "wave": 1,
       "status": "ready",
-      "zips": ["91765"],
-      "compareTags": ["學區須對址", "LA縣市", "60廊道", "亞裔多數"],
+      "zips": [
+        "91765"
+      ],
+      "compareTags": [
+        "學區須對址",
+        "LA縣市",
+        "60廊道",
+        "亞裔多數"
+      ],
       "basics": {
         "chineseBelt": "LA 縣建制市。Census QuickFacts：Asian alone 約 62.7%（非台／陸籍細分）。",
         "schoolBand": "雙學區：Walnut Valley Unified（WVUSD）與 Pomona Unified（PUSD）。市府 FAQ：Grand Avenue 大致分界（北側偏 PUSD、南側偏 WVUSD）— 務必用地址向學區確認。",
-        "commuteAxes": ["CA-60", "CA-57"]
+        "commuteAxes": [
+          "CA-60",
+          "CA-57"
+        ]
       },
       "priceBand": {
         "sfhRange": "SFH 中位約 $1,234,028（Redfin Living-in）",
@@ -78,11 +101,58 @@
       },
       "lastReviewed": "2026-10-15",
       "sources": [
-        {"label": "City of Diamond Bar — school district FAQ", "url": "https://www.diamondbarca.gov/FAQ.aspx?QID=318", "date": "2026-10-15", "note": "WVUSD vs PUSD; Grand Ave rough split"},
-        {"label": "Redfin Diamond Bar housing market", "url": "https://www.redfin.com/city/4957/CA/Diamond-Bar/housing-market", "date": "2026-09", "note": "All-types median $1,095,478; 3 months ending Sep 2026"},
-        {"label": "Redfin Diamond Bar living-in", "url": "https://www.redfin.com/living-in/CA/Diamond-Bar/6/4957", "date": "2026-10-15", "note": "SFH/Condo/TH medians"},
-        {"label": "Census QuickFacts Diamond Bar", "url": "https://www.census.gov/quickfacts/diamondbarcitycalifornia", "date": "2026-10-15", "note": "Asian alone 62.7%"}
-      ]
+        {
+          "label": "City of Diamond Bar — school district FAQ",
+          "url": "https://www.diamondbarca.gov/FAQ.aspx?QID=318",
+          "date": "2026-10-15",
+          "note": "WVUSD vs PUSD; Grand Ave rough split"
+        },
+        {
+          "label": "Redfin Diamond Bar housing market",
+          "url": "https://www.redfin.com/city/4957/CA/Diamond-Bar/housing-market",
+          "date": "2026-09",
+          "note": "All-types median $1,095,478; 3 months ending Sep 2026"
+        },
+        {
+          "label": "Redfin Diamond Bar living-in",
+          "url": "https://www.redfin.com/living-in/CA/Diamond-Bar/6/4957",
+          "date": "2026-10-15",
+          "note": "SFH/Condo/TH medians"
+        },
+        {
+          "label": "Census QuickFacts Diamond Bar",
+          "url": "https://www.census.gov/quickfacts/diamondbarcitycalifornia",
+          "date": "2026-10-15",
+          "note": "Asian alone 62.7%"
+        }
+      ],
+      "geo": {
+        "geoid": "0619192",
+        "lat": 34.001573,
+        "lng": -117.817601,
+        "kind": "city"
+      },
+      "snapshot": {
+        "vintage": null,
+        "priorVintage": null,
+        "population": null,
+        "populationDeltaPct": null,
+        "asianAlonePct": null,
+        "hispanicPct": null,
+        "medianIncome": null,
+        "medianIncomeDeltaPct": null,
+        "bachelorsPlusPct": null,
+        "ownerOccupiedPct": null,
+        "residentIndustry": [],
+        "priceSfh": 1234028,
+        "priceAsOf": "2026-09",
+        "unit": "place"
+      },
+      "media": {
+        "locator": "assets/regions/la-locator.svg#diamond-bar"
+      },
+      "compareLine": "若你熟 Walnut 的 WVUSD 山市節奏，鑽石吧是同一條 60 廊道、但學區可能是 WVUSD 或 PUSD 的對址功課城。",
+      "trendLine": "東緣山市、亞裔比例高（Census Asian alone）；趨勢數字等 ACS 烘焙，不在這裡編即時漲幅。"
     },
     {
       "id": "walnut",
@@ -92,12 +162,22 @@
       "clusterId": "east-sgv-60",
       "wave": 1,
       "status": "ready",
-      "zips": ["91789"],
-      "compareTags": ["WVUSD", "LA縣市", "60廊道", "亞裔多數"],
+      "zips": [
+        "91789"
+      ],
+      "compareTags": [
+        "WVUSD",
+        "LA縣市",
+        "60廊道",
+        "亞裔多數"
+      ],
       "basics": {
         "chineseBelt": "LA 縣建制市。Census QuickFacts：Asian alone 約 69.4%。",
         "schoolBand": "主要屬 Walnut Valley Unified School District（WVUSD；學區總部／多校位於 Walnut）。鄰近地址仍可能跨 Rowland Unified 等 — 須對址確認。",
-        "commuteAxes": ["CA-60", "CA-57"]
+        "commuteAxes": [
+          "CA-60",
+          "CA-57"
+        ]
       },
       "priceBand": {
         "sfhRange": "SFH 中位約 $1,299,482（Redfin Living-in）",
@@ -120,11 +200,58 @@
       },
       "lastReviewed": "2026-10-15",
       "sources": [
-        {"label": "Walnut Valley Unified School District", "url": "https://www.wvusd.org/", "date": "2026-10-15", "note": "District serves Walnut / Diamond Bar schools"},
-        {"label": "Redfin Walnut housing market", "url": "https://www.redfin.com/city/20628/CA/Walnut/housing-market", "date": "2026-09", "note": "All-types median $1,284,388"},
-        {"label": "Redfin Walnut living-in", "url": "https://www.redfin.com/living-in/CA/Walnut/6/20628", "date": "2026-10-15", "note": "SFH/Condo/TH medians"},
-        {"label": "Census QuickFacts Walnut / comparison table", "url": "https://www.census.gov/quickfacts/fact/table/rowlandheightscdpcalifornia,walnutcitycalifornia,diamondbarcitycalifornia/RHI425221", "date": "2026-10-15", "note": "Asian alone 69.4%"}
-      ]
+        {
+          "label": "Walnut Valley Unified School District",
+          "url": "https://www.wvusd.org/",
+          "date": "2026-10-15",
+          "note": "District serves Walnut / Diamond Bar schools"
+        },
+        {
+          "label": "Redfin Walnut housing market",
+          "url": "https://www.redfin.com/city/20628/CA/Walnut/housing-market",
+          "date": "2026-09",
+          "note": "All-types median $1,284,388"
+        },
+        {
+          "label": "Redfin Walnut living-in",
+          "url": "https://www.redfin.com/living-in/CA/Walnut/6/20628",
+          "date": "2026-10-15",
+          "note": "SFH/Condo/TH medians"
+        },
+        {
+          "label": "Census QuickFacts Walnut / comparison table",
+          "url": "https://www.census.gov/quickfacts/fact/table/rowlandheightscdpcalifornia,walnutcitycalifornia,diamondbarcitycalifornia/RHI425221",
+          "date": "2026-10-15",
+          "note": "Asian alone 69.4%"
+        }
+      ],
+      "geo": {
+        "geoid": "0683332",
+        "lat": 34.037195,
+        "lng": -117.855606,
+        "kind": "city"
+      },
+      "snapshot": {
+        "vintage": null,
+        "priorVintage": null,
+        "population": null,
+        "populationDeltaPct": null,
+        "asianAlonePct": null,
+        "hispanicPct": null,
+        "medianIncome": null,
+        "medianIncomeDeltaPct": null,
+        "bachelorsPlusPct": null,
+        "ownerOccupiedPct": null,
+        "residentIndustry": [],
+        "priceSfh": 1299482,
+        "priceAsOf": "2026-09",
+        "unit": "place"
+      },
+      "media": {
+        "locator": "assets/regions/la-locator.svg#walnut"
+      },
+      "compareLine": "Wave 1 裡 SFH 中位與亞裔比例都偏高的標尺城；先用它當東 SGV 天花板，再往鑽石吧／羅蘭崗比預算。",
+      "trendLine": "自住向郊區市，就業多靠區域通勤；ACS 人口／所得變化待烘焙。"
     },
     {
       "id": "rowland-heights",
@@ -134,12 +261,21 @@
       "clusterId": "east-sgv-60",
       "wave": 1,
       "status": "ready",
-      "zips": ["91748"],
-      "compareTags": ["CDP未建制", "Rowland Unified", "60廊道", "華人商圈"],
+      "zips": [
+        "91748"
+      ],
+      "compareTags": [
+        "CDP未建制",
+        "Rowland Unified",
+        "60廊道",
+        "華人商圈"
+      ],
       "basics": {
         "chineseBelt": "LA County 未建制 CDP（非獨立市）。Census：Asian alone 約 61.3%。Redfin Living-in 稱其為區域華人文化／商業活動中心之一。",
         "schoolBand": "Rowland Unified School District（學區地址在 Rowland Heights；CDE／學區官網）。",
-        "commuteAxes": ["CA-60"]
+        "commuteAxes": [
+          "CA-60"
+        ]
       },
       "priceBand": {
         "sfhRange": "SFH 中位約 $938,626（Redfin Living-in）",
@@ -162,12 +298,64 @@
       },
       "lastReviewed": "2026-10-15",
       "sources": [
-        {"label": "Rowland Unified School District", "url": "https://www.rowlandschools.org/", "date": "2026-10-15", "note": "District HQ Rowland Heights"},
-        {"label": "CDE Rowland Unified directory", "url": "https://sd.cde.ca.gov/schooldirectory/details?cdscode=19734520000000", "date": "2026-10-15", "note": "Official district record"},
-        {"label": "Redfin Rowland Heights housing market", "url": "https://www.redfin.com/city/25415/CA/Rowland-Heights/housing-market", "date": "2026-09", "note": "All-types median $937,554"},
-        {"label": "Redfin Rowland Heights living-in", "url": "https://www.redfin.com/living-in/CA/Rowland-Heights/6/25415", "date": "2026-10-15", "note": "Chinese cultural/commercial center wording; SFH/Condo medians"},
-        {"label": "Census QuickFacts Rowland Heights CDP", "url": "https://www.census.gov/quickfacts/fact/table/rowlandheightscdpcalifornia,walnutcitycalifornia,diamondbarcitycalifornia/RHI425221", "date": "2026-10-15", "note": "Asian alone 61.3%"}
-      ]
+        {
+          "label": "Rowland Unified School District",
+          "url": "https://www.rowlandschools.org/",
+          "date": "2026-10-15",
+          "note": "District HQ Rowland Heights"
+        },
+        {
+          "label": "CDE Rowland Unified directory",
+          "url": "https://sd.cde.ca.gov/schooldirectory/details?cdscode=19734520000000",
+          "date": "2026-10-15",
+          "note": "Official district record"
+        },
+        {
+          "label": "Redfin Rowland Heights housing market",
+          "url": "https://www.redfin.com/city/25415/CA/Rowland-Heights/housing-market",
+          "date": "2026-09",
+          "note": "All-types median $937,554"
+        },
+        {
+          "label": "Redfin Rowland Heights living-in",
+          "url": "https://www.redfin.com/living-in/CA/Rowland-Heights/6/25415",
+          "date": "2026-10-15",
+          "note": "Chinese cultural/commercial center wording; SFH/Condo medians"
+        },
+        {
+          "label": "Census QuickFacts Rowland Heights CDP",
+          "url": "https://www.census.gov/quickfacts/fact/table/rowlandheightscdpcalifornia,walnutcitycalifornia,diamondbarcitycalifornia/RHI425221",
+          "date": "2026-10-15",
+          "note": "Asian alone 61.3%"
+        }
+      ],
+      "geo": {
+        "geoid": "0663218",
+        "lat": 33.970313,
+        "lng": -117.890568,
+        "kind": "cdp"
+      },
+      "snapshot": {
+        "vintage": null,
+        "priorVintage": null,
+        "population": null,
+        "populationDeltaPct": null,
+        "asianAlonePct": null,
+        "hispanicPct": null,
+        "medianIncome": null,
+        "medianIncomeDeltaPct": null,
+        "bachelorsPlusPct": null,
+        "ownerOccupiedPct": null,
+        "residentIndustry": [],
+        "priceSfh": 938626,
+        "priceAsOf": "2026-09",
+        "unit": "cdp"
+      },
+      "media": {
+        "locator": "assets/regions/la-locator.svg#rowland-heights"
+      },
+      "compareLine": "不是市、是 CDP；華人商業機能強、SFH 中位低於 Walnut／部分鑽石吧，學區主軸 Rowland Unified。",
+      "trendLine": "未建制社區的服務與「市」不同；結構趨勢看 ACS，不把商圈熱鬧寫成保證升值。"
     },
     {
       "id": "hacienda-heights",
@@ -177,12 +365,20 @@
       "clusterId": "east-sgv-60",
       "wave": 1,
       "status": "ready",
-      "zips": ["91745"],
-      "compareTags": ["CDP未建制", "HLPUSD", "60廊道"],
+      "zips": [
+        "91745"
+      ],
+      "compareTags": [
+        "CDP未建制",
+        "HLPUSD",
+        "60廊道"
+      ],
       "basics": {
         "chineseBelt": "LA County 未建制 CDP。Census：Asian alone 約 42.4%；Hispanic or Latino 約 43.7%（多元社區，非單一族群標籤）。",
         "schoolBand": "Hacienda La Puente Unified School District（HLPUSD；學區說明涵蓋 Hacienda Heights 等未建制區）。",
-        "commuteAxes": ["CA-60"]
+        "commuteAxes": [
+          "CA-60"
+        ]
       },
       "priceBand": {
         "sfhRange": "全類型中位約 $970,500（Redfin ZIP 91745｜近 3 個月至 2026-08）。未取得與他城同頁口徑的 SFH 單獨中位。",
@@ -205,10 +401,52 @@
       },
       "lastReviewed": "2026-10-15",
       "sources": [
-        {"label": "HLPUSD About", "url": "https://www.hlpschools.org/district/about-hlpusd", "date": "2026-10-15", "note": "Serves Hacienda Heights unincorporated areas"},
-        {"label": "Redfin ZIP 91745 housing market", "url": "https://www.redfin.com/zipcode/91745/housing-market", "date": "2026-08", "note": "All-types median $970,500"},
-        {"label": "Census QuickFacts Hacienda Heights CDP", "url": "https://www.census.gov/quickfacts/fact/table/haciendaheightscdpcalifornia,chinohillscitycalifornia,ontariocitycalifornia,pomonacitycalifornia/PST045224", "date": "2026-10-15", "note": "Asian alone 42.4%; Hispanic 43.7%"}
-      ]
+        {
+          "label": "HLPUSD About",
+          "url": "https://www.hlpschools.org/district/about-hlpusd",
+          "date": "2026-10-15",
+          "note": "Serves Hacienda Heights unincorporated areas"
+        },
+        {
+          "label": "Redfin ZIP 91745 housing market",
+          "url": "https://www.redfin.com/zipcode/91745/housing-market",
+          "date": "2026-08",
+          "note": "All-types median $970,500"
+        },
+        {
+          "label": "Census QuickFacts Hacienda Heights CDP",
+          "url": "https://www.census.gov/quickfacts/fact/table/haciendaheightscdpcalifornia,chinohillscitycalifornia,ontariocitycalifornia,pomonacitycalifornia/PST045224",
+          "date": "2026-10-15",
+          "note": "Asian alone 42.4%; Hispanic 43.7%"
+        }
+      ],
+      "geo": {
+        "geoid": "0631596",
+        "lat": 33.995853,
+        "lng": -117.973023,
+        "kind": "cdp"
+      },
+      "snapshot": {
+        "vintage": null,
+        "priorVintage": null,
+        "population": null,
+        "populationDeltaPct": null,
+        "asianAlonePct": null,
+        "hispanicPct": null,
+        "medianIncome": null,
+        "medianIncomeDeltaPct": null,
+        "bachelorsPlusPct": null,
+        "ownerOccupiedPct": null,
+        "residentIndustry": [],
+        "priceSfh": null,
+        "priceAsOf": "2026-08",
+        "unit": "cdp"
+      },
+      "media": {
+        "locator": "assets/regions/la-locator.svg#hacienda-heights"
+      },
+      "compareLine": "不要和羅蘭崗混成同一個華人崗：Census 亞裔與西語裔比例接近，學區 HLPUSD；SFH 單獨中位尚未與他城對齊，對照條先空白。",
+      "trendLine": "多元社區，不是單一客群標籤；人口／所得趨勢等 ACS。"
     },
     {
       "id": "chino-hills",
@@ -218,12 +456,23 @@
       "clusterId": "west-ie",
       "wave": 1,
       "status": "ready",
-      "zips": ["91709"],
-      "compareTags": ["聖伯納丁諾縣市", "CVUSD", "71廊道", "規劃社區"],
+      "zips": [
+        "91709"
+      ],
+      "compareTags": [
+        "聖伯納丁諾縣市",
+        "CVUSD",
+        "71廊道",
+        "規劃社區"
+      ],
       "basics": {
         "chineseBelt": "San Bernardino County 建制市（1991-12-01 建市，市府 Demographics）。Census：Asian alone 約 41.0%。",
         "schoolBand": "Chino Valley Unified School District（市府 Schools 頁列校並連至學區）。",
-        "commuteAxes": ["CA-71", "CA-60", "CA-91"]
+        "commuteAxes": [
+          "CA-71",
+          "CA-60",
+          "CA-91"
+        ]
       },
       "priceBand": {
         "sfhRange": "SFH 中位約 $1,064,576（Redfin Living-in）",
@@ -246,13 +495,70 @@
       },
       "lastReviewed": "2026-10-15",
       "sources": [
-        {"label": "City of Chino Hills Demographics", "url": "https://www.chinohills.org/94/Demographics", "date": "2026-10-15", "note": "Incorporated Dec 1, 1991"},
-        {"label": "City of Chino Hills History / Specific Plan", "url": "https://www.chinohills.org/95/History", "date": "2026-10-15", "note": "1982 Specific Plan planning history"},
-        {"label": "City of Chino Hills Schools", "url": "https://www.chinohills.org/434/Schools", "date": "2026-10-15", "note": "CVUSD schools list"},
-        {"label": "Redfin Chino Hills housing market", "url": "https://www.redfin.com/city/3447/CA/Chino-Hills/housing-market", "date": "2026-08", "note": "All-types median ~$985K"},
-        {"label": "Redfin Chino Hills living-in", "url": "https://www.redfin.com/living-in/CA/Chino-Hills/6/3447", "date": "2026-10-15", "note": "SFH/Condo/TH medians"},
-        {"label": "Census QuickFacts Chino Hills", "url": "https://www.census.gov/quickfacts/fact/table/haciendaheightscdpcalifornia,chinohillscitycalifornia,ontariocitycalifornia,pomonacitycalifornia/PST045224", "date": "2026-10-15", "note": "Asian alone 41.0%"}
-      ]
+        {
+          "label": "City of Chino Hills Demographics",
+          "url": "https://www.chinohills.org/94/Demographics",
+          "date": "2026-10-15",
+          "note": "Incorporated Dec 1, 1991"
+        },
+        {
+          "label": "City of Chino Hills History / Specific Plan",
+          "url": "https://www.chinohills.org/95/History",
+          "date": "2026-10-15",
+          "note": "1982 Specific Plan planning history"
+        },
+        {
+          "label": "City of Chino Hills Schools",
+          "url": "https://www.chinohills.org/434/Schools",
+          "date": "2026-10-15",
+          "note": "CVUSD schools list"
+        },
+        {
+          "label": "Redfin Chino Hills housing market",
+          "url": "https://www.redfin.com/city/3447/CA/Chino-Hills/housing-market",
+          "date": "2026-08",
+          "note": "All-types median ~$985K"
+        },
+        {
+          "label": "Redfin Chino Hills living-in",
+          "url": "https://www.redfin.com/living-in/CA/Chino-Hills/6/3447",
+          "date": "2026-10-15",
+          "note": "SFH/Condo/TH medians"
+        },
+        {
+          "label": "Census QuickFacts Chino Hills",
+          "url": "https://www.census.gov/quickfacts/fact/table/haciendaheightscdpcalifornia,chinohillscitycalifornia,ontariocitycalifornia,pomonacitycalifornia/PST045224",
+          "date": "2026-10-15",
+          "note": "Asian alone 41.0%"
+        }
+      ],
+      "geo": {
+        "geoid": "0613214",
+        "lat": 33.942969,
+        "lng": -117.725648,
+        "kind": "city"
+      },
+      "snapshot": {
+        "vintage": null,
+        "priorVintage": null,
+        "population": null,
+        "populationDeltaPct": null,
+        "asianAlonePct": null,
+        "hispanicPct": null,
+        "medianIncome": null,
+        "medianIncomeDeltaPct": null,
+        "bachelorsPlusPct": null,
+        "ownerOccupiedPct": null,
+        "residentIndustry": [],
+        "priceSfh": 1064576,
+        "priceAsOf": "2026-08",
+        "unit": "place"
+      },
+      "media": {
+        "locator": "assets/regions/la-locator.svg#chino-hills"
+      },
+      "compareLine": "跨出 LA 縣、進聖伯納丁諾的規劃山城；價位接近東 SGV 中段，學區換成 CVUSD，通勤軸變 71／60／91。",
+      "trendLine": "1991 建市、規劃社區色彩強；HOA／特別稅須逐案，不把規劃感寫成無風險。"
     },
     {
       "id": "ontario",
@@ -262,12 +568,25 @@
       "clusterId": "west-ie",
       "wave": 1,
       "status": "ready",
-      "zips": ["91761", "91764", "91762"],
-      "compareTags": ["聖伯納丁諾縣市", "學區複雜", "物流就業", "10號公路"],
+      "zips": [
+        "91761",
+        "91764",
+        "91762"
+      ],
+      "compareTags": [
+        "聖伯納丁諾縣市",
+        "學區複雜",
+        "物流就業",
+        "10號公路"
+      ],
       "basics": {
         "chineseBelt": "San Bernardino County 大城。Census：Asian alone 約 9.8%；Hispanic or Latino 約 68.6%。非華人多數城 — 勿用東 SGV 標籤套用。",
         "schoolBand": "市府 Education 頁列多學區：Ontario-Montclair（K-8 為主）、Mountain View、Chaffey Joint Union High、另有區域涉及 Chino Valley Unified／Cucamonga 等 — **必須用地址查**。",
-        "commuteAxes": ["I-10", "I-15", "CA-60"]
+        "commuteAxes": [
+          "I-10",
+          "I-15",
+          "CA-60"
+        ]
       },
       "priceBand": {
         "sfhRange": "SFH 中位約 $723,268（Redfin Living-in）",
@@ -290,12 +609,64 @@
       },
       "lastReviewed": "2026-10-15",
       "sources": [
-        {"label": "City of Ontario Education", "url": "https://www.ontarioca.gov/residents/residential-services/education", "date": "2026-10-15", "note": "Lists OMSD, Mountain View, Chaffey JHSD, CVUSD, Cucamonga"},
-        {"label": "Ontario-Montclair SD about", "url": "https://www.omsd.net/about-us/we-are-omsd", "date": "2026-10-15", "note": "Covers most of Ontario for elementary"},
-        {"label": "Redfin Ontario housing market", "url": "https://www.redfin.com/city/13934/CA/Ontario/housing-market", "date": "2026-09", "note": "All-types median $657,687"},
-        {"label": "Redfin Ontario living-in", "url": "https://www.redfin.com/living-in/CA/Ontario/6/13934", "date": "2026-10-15", "note": "SFH/Condo/TH medians"},
-        {"label": "Census QuickFacts Ontario", "url": "https://www.census.gov/quickfacts/fact/table/haciendaheightscdpcalifornia,chinohillscitycalifornia,ontariocitycalifornia,pomonacitycalifornia/PST045224", "date": "2026-10-15", "note": "Asian 9.8%; Hispanic 68.6%; transportation receipts"}
-      ]
+        {
+          "label": "City of Ontario Education",
+          "url": "https://www.ontarioca.gov/residents/residential-services/education",
+          "date": "2026-10-15",
+          "note": "Lists OMSD, Mountain View, Chaffey JHSD, CVUSD, Cucamonga"
+        },
+        {
+          "label": "Ontario-Montclair SD about",
+          "url": "https://www.omsd.net/about-us/we-are-omsd",
+          "date": "2026-10-15",
+          "note": "Covers most of Ontario for elementary"
+        },
+        {
+          "label": "Redfin Ontario housing market",
+          "url": "https://www.redfin.com/city/13934/CA/Ontario/housing-market",
+          "date": "2026-09",
+          "note": "All-types median $657,687"
+        },
+        {
+          "label": "Redfin Ontario living-in",
+          "url": "https://www.redfin.com/living-in/CA/Ontario/6/13934",
+          "date": "2026-10-15",
+          "note": "SFH/Condo/TH medians"
+        },
+        {
+          "label": "Census QuickFacts Ontario",
+          "url": "https://www.census.gov/quickfacts/fact/table/haciendaheightscdpcalifornia,chinohillscitycalifornia,ontariocitycalifornia,pomonacitycalifornia/PST045224",
+          "date": "2026-10-15",
+          "note": "Asian 9.8%; Hispanic 68.6%; transportation receipts"
+        }
+      ],
+      "geo": {
+        "geoid": "0653896",
+        "lat": 34.037042,
+        "lng": -117.605956,
+        "kind": "city"
+      },
+      "snapshot": {
+        "vintage": null,
+        "priorVintage": null,
+        "population": null,
+        "populationDeltaPct": null,
+        "asianAlonePct": null,
+        "hispanicPct": null,
+        "medianIncome": null,
+        "medianIncomeDeltaPct": null,
+        "bachelorsPlusPct": null,
+        "ownerOccupiedPct": null,
+        "residentIndustry": [],
+        "priceSfh": 723268,
+        "priceAsOf": "2026-09",
+        "unit": "place"
+      },
+      "media": {
+        "locator": "assets/regions/la-locator.svg#ontario"
+      },
+      "compareLine": "若客人熟鑽石吧的山市節奏，安大略是更低總價、物流與機場就業、學區必須對址的入口城——不是東 SGV 的延伸社區。",
+      "trendLine": "運輸倉儲有 Economic Census 支撐；居民產業與本地崗位不是同一件事，本卡只講居民就業。"
     },
     {
       "id": "pomona",
@@ -305,12 +676,25 @@
       "clusterId": "west-ie",
       "wave": 1,
       "status": "ready",
-      "zips": ["91766", "91767", "91768"],
-      "compareTags": ["LA縣市", "PUSD", "10號公路", "首購友善價位"],
+      "zips": [
+        "91766",
+        "91767",
+        "91768"
+      ],
+      "compareTags": [
+        "LA縣市",
+        "PUSD",
+        "10號公路",
+        "首購友善價位"
+      ],
       "basics": {
         "chineseBelt": "LA 縣建制市。Census：Asian alone 約 10.7%；Hispanic or Latino 約 71.8%。",
         "schoolBand": "Pomona Unified School District（PUSD；官網載明服務 Pomona 與 Diamond Bar 部分社區）。",
-        "commuteAxes": ["I-10", "CA-57", "CA-71"]
+        "commuteAxes": [
+          "I-10",
+          "CA-57",
+          "CA-71"
+        ]
       },
       "priceBand": {
         "sfhRange": "SFH 中位約 $689,725（Redfin Living-in）",
@@ -333,11 +717,752 @@
       },
       "lastReviewed": "2026-10-15",
       "sources": [
-        {"label": "Pomona Unified School District", "url": "https://proudtobe.pusd.org/", "date": "2026-10-15", "note": "Serves Pomona and part of Diamond Bar"},
-        {"label": "City of Pomona Education", "url": "https://www.pomonaca.gov/our-city/education", "date": "2026-10-15", "note": "PUSD address listing"},
-        {"label": "Redfin Pomona housing market", "url": "https://www.redfin.com/city/15047/CA/Pomona/housing-market", "date": "2026-08", "note": "All-types median ~$664K"},
-        {"label": "Redfin Pomona living-in", "url": "https://www.redfin.com/living-in/CA/Pomona/6/15047", "date": "2026-10-15", "note": "SFH/Condo/TH medians"},
-        {"label": "Census QuickFacts Pomona", "url": "https://www.census.gov/quickfacts/fact/table/haciendaheightscdpcalifornia,chinohillscitycalifornia,ontariocitycalifornia,pomonacitycalifornia/PST045224", "date": "2026-10-15", "note": "Asian 10.7%; Hispanic 71.8%"}
+        {
+          "label": "Pomona Unified School District",
+          "url": "https://proudtobe.pusd.org/",
+          "date": "2026-10-15",
+          "note": "Serves Pomona and part of Diamond Bar"
+        },
+        {
+          "label": "City of Pomona Education",
+          "url": "https://www.pomonaca.gov/our-city/education",
+          "date": "2026-10-15",
+          "note": "PUSD address listing"
+        },
+        {
+          "label": "Redfin Pomona housing market",
+          "url": "https://www.redfin.com/city/15047/CA/Pomona/housing-market",
+          "date": "2026-08",
+          "note": "All-types median ~$664K"
+        },
+        {
+          "label": "Redfin Pomona living-in",
+          "url": "https://www.redfin.com/living-in/CA/Pomona/6/15047",
+          "date": "2026-10-15",
+          "note": "SFH/Condo/TH medians"
+        },
+        {
+          "label": "Census QuickFacts Pomona",
+          "url": "https://www.census.gov/quickfacts/fact/table/haciendaheightscdpcalifornia,chinohillscitycalifornia,ontariocitycalifornia,pomonacitycalifornia/PST045224",
+          "date": "2026-10-15",
+          "note": "Asian 10.7%; Hispanic 71.8%"
+        }
+      ],
+      "geo": {
+        "geoid": "0658072",
+        "lat": 34.058494,
+        "lng": -117.761091,
+        "kind": "city"
+      },
+      "snapshot": {
+        "vintage": null,
+        "priorVintage": null,
+        "population": null,
+        "populationDeltaPct": null,
+        "asianAlonePct": null,
+        "hispanicPct": null,
+        "medianIncome": null,
+        "medianIncomeDeltaPct": null,
+        "bachelorsPlusPct": null,
+        "ownerOccupiedPct": null,
+        "residentIndustry": [],
+        "priceSfh": 689725,
+        "priceAsOf": "2026-08",
+        "unit": "place"
+      },
+      "media": {
+        "locator": "assets/regions/la-locator.svg#pomona"
+      },
+      "compareLine": "價位帶接近安大略，但是 LA 縣市、學區 PUSD；也可當鑽石吧學區對照（部分鑽石吧地址也是 PUSD）。",
+      "trendLine": "舊城與各 ZIP 差異大；Census 亞裔約一成，不要套東 SGV 山市標籤。ACS 趨勢待烘焙。"
+    },
+    {
+      "id": "westchester",
+      "slug": "westchester",
+      "nameZh": "西徹斯特",
+      "nameEn": "Westchester",
+      "clusterId": "westside-lax",
+      "wave": 2,
+      "status": "draft",
+      "zips": [
+        "90045"
+      ],
+      "compareTags": [
+        "ZCTA非市界",
+        "LA市社區",
+        "LAX",
+        "LAUSD"
+      ],
+      "geo": {
+        "geoid": "90045",
+        "lat": 33.95489,
+        "lng": -118.39885,
+        "kind": "zcta"
+      },
+      "snapshot": {
+        "vintage": null,
+        "priorVintage": null,
+        "population": null,
+        "populationDeltaPct": null,
+        "asianAlonePct": null,
+        "hispanicPct": null,
+        "medianIncome": null,
+        "medianIncomeDeltaPct": null,
+        "bachelorsPlusPct": null,
+        "ownerOccupiedPct": null,
+        "residentIndustry": [],
+        "priceSfh": null,
+        "priceAsOf": null,
+        "unit": "zcta"
+      },
+      "media": {
+        "locator": "assets/regions/la-locator.svg#westchester"
+      },
+      "basics": {
+        "chineseBelt": "Los Angeles 市內社區，不是獨立市。展示與 ACS 用 ZCTA 90045（含 LAX 周邊），不等於口語「西徹斯特」邊界。",
+        "schoolBand": "主要討論指向 LAUSD；地址仍須向學區確認。待核對官方校區工具後再寫細。",
+        "commuteAxes": [
+          "I-405",
+          "I-105",
+          "CA-90",
+          "LAX"
+        ]
+      },
+      "priceBand": {
+        "sfhRange": "調查中（尚未核對與 Wave 1 同口徑的 Redfin Living-in SFH 中位）",
+        "condoRange": "未核對",
+        "ageProfile": "屋齡差異大；以 Listing／縣府建造年為準。",
+        "hoaMello": "逐案查 Title、稅單與 CC&Rs；本卡不做未核對金額。",
+        "asOf": ""
+      },
+      "highlights": {
+        "jobs": "鄰 LAX；ZCTA 居民產業會被機場帶影響，數字不能直接當成「純住宅區職業結構」。",
+        "amenities": "待帶看標點；不寫未核對必吃清單。",
+        "safetyNote": "不引用未核對治安排行。",
+        "buyerFit": "要靠近機場／西區、能接受 LA 市社區（非獨立市）與 LAUSD 對址的客人。"
+      },
+      "caveats": {
+        "propertyCaveats": "90045 含住宅與機場相關用地；帶看先分清住商與航道／噪音議題，勿把 ZCTA 當市界。",
+        "taxCaveats": "以縣稅單為準；特別稅／評估區逐案。",
+        "schoolReality": "LA 市內：學區不是「全市一區保證」。用地址查 LAUSD。",
+        "pitchLine": "西徹斯特是 LA 市社區（不是市），對客 ZIP 90045；普查用 ZCTA，範圍比口語社區大、含 LAX 周邊。"
+      },
+      "compareLine": "和 Culver City 比：那邊是獨立市、有自己的市府與 Culver City USD；西徹斯特仍在 LA 市／LAUSD 框架裡。",
+      "trendLine": "趨勢只比較 ZCTA 90045 的 ACS，不和 Culver City 全市混成同一「西區市」故事。",
+      "lastReviewed": "2026-10-15",
+      "sources": [
+        {
+          "label": "Census 2025 Gazetteer / ACS ZCTA 90045（待腳本核）",
+          "url": "https://www.census.gov/programs-surveys/geography/guidance/geo-areas/zctas.html",
+          "date": "2026-10-15",
+          "note": "ZCTA ≠ city; includes LAX-adjacent land"
+        }
+      ]
+    },
+    {
+      "id": "playa-vista",
+      "slug": "playa-vista",
+      "nameZh": "普拉亞維斯塔",
+      "nameEn": "Playa Vista",
+      "clusterId": "westside-lax",
+      "wave": 2,
+      "status": "draft",
+      "zips": [
+        "90094"
+      ],
+      "compareTags": [
+        "ZCTA非市界",
+        "LA市社區",
+        "規劃社區",
+        "西區配對"
+      ],
+      "geo": {
+        "geoid": "90094",
+        "lat": 33.97372,
+        "lng": -118.4234,
+        "kind": "zcta"
+      },
+      "snapshot": {
+        "vintage": null,
+        "priorVintage": null,
+        "population": null,
+        "populationDeltaPct": null,
+        "asianAlonePct": null,
+        "hispanicPct": null,
+        "medianIncome": null,
+        "medianIncomeDeltaPct": null,
+        "bachelorsPlusPct": null,
+        "ownerOccupiedPct": null,
+        "residentIndustry": [],
+        "priceSfh": null,
+        "priceAsOf": null,
+        "unit": "zcta"
+      },
+      "media": {
+        "locator": "assets/regions/la-locator.svg#playa-vista"
+      },
+      "basics": {
+        "chineseBelt": "Los Angeles 市內較新規劃社區，不是獨立市。ACS／地圖用 ZCTA 90094。常與 Culver City 被同一批西區客人一起問。",
+        "schoolBand": "討論多指向 LAUSD；待核對官方校區後再寫細。",
+        "commuteAxes": [
+          "I-405",
+          "CA-90",
+          "Lincoln Blvd"
+        ]
+      },
+      "priceBand": {
+        "sfhRange": "調查中（尚未核對與 Wave 1 同口徑的 Redfin Living-in SFH 中位）",
+        "condoRange": "未核對",
+        "ageProfile": "屋齡差異大；以 Listing／縣府建造年為準。",
+        "hoaMello": "逐案查 Title、稅單與 CC&Rs；本卡不做未核對金額。",
+        "asOf": ""
+      },
+      "highlights": {
+        "jobs": "西區媒體／科技通勤敘事常見於公開介紹；本卡暫不寫未核對的雇主名單。",
+        "amenities": "待帶看標點；不寫未核對必吃清單。",
+        "safetyNote": "不引用未核對治安排行。",
+        "buyerFit": "要較新規劃社區、能接受 LA 市／HOA 常見、並拿來和 Culver City 比總價的客人。"
+      },
+      "caveats": {
+        "propertyCaveats": "規劃社區 HOA 常見；90094 很小，listing 仍可能跨相鄰 ZIP。",
+        "taxCaveats": "以縣稅單為準；特別稅／評估區逐案。",
+        "schoolReality": "LA 市內對址；不要用 Culver City USD 套到 Playa Vista。",
+        "pitchLine": "Playa Vista（90094）是 LA 市規劃社區，不是市；對客時常和 Culver City 一起比較，但行政與學區是兩套。"
+      },
+      "compareLine": "Culver City 是獨立市（place）；Playa Vista 是 ZCTA／LA 市社區。總價、HOA、學區都要分開講。",
+      "trendLine": "ZCTA 90094 人口基數小，ACS 百分比會跳；趨勢只作方向、不當精確預測。",
+      "lastReviewed": "2026-10-15",
+      "sources": [
+        {
+          "label": "Census ZCTA 90094（待腳本核）",
+          "url": "https://www.census.gov/programs-surveys/geography/guidance/geo-areas/zctas.html",
+          "date": "2026-10-15",
+          "note": "Small ZCTA; ACS margins may be wide"
+        }
+      ]
+    },
+    {
+      "id": "culver-city",
+      "slug": "culver-city",
+      "nameZh": "卡爾弗城",
+      "nameEn": "Culver City",
+      "clusterId": "westside-lax",
+      "wave": 2,
+      "status": "draft",
+      "zips": [
+        "90230",
+        "90232"
+      ],
+      "compareTags": [
+        "LA縣市",
+        "Culver City USD",
+        "西區配對",
+        "媒體就業"
+      ],
+      "geo": {
+        "geoid": "0617568",
+        "lat": 34.00582,
+        "lng": -118.396781,
+        "kind": "city"
+      },
+      "snapshot": {
+        "vintage": null,
+        "priorVintage": null,
+        "population": null,
+        "populationDeltaPct": null,
+        "asianAlonePct": null,
+        "hispanicPct": null,
+        "medianIncome": null,
+        "medianIncomeDeltaPct": null,
+        "bachelorsPlusPct": null,
+        "ownerOccupiedPct": null,
+        "residentIndustry": [],
+        "priceSfh": null,
+        "priceAsOf": null,
+        "unit": "place"
+      },
+      "media": {
+        "locator": "assets/regions/la-locator.svg#culver-city"
+      },
+      "basics": {
+        "chineseBelt": "LA 縣建制市（非 LA 市）。客戶常說的 90230 只是 ZIP 之一；人口／產業對照用全市 place，不用 90230 冒充全市。",
+        "schoolBand": "Culver City Unified School District（CCUSD）。地址仍須向學區確認。",
+        "commuteAxes": [
+          "I-405",
+          "I-10",
+          "CA-90"
+        ]
+      },
+      "priceBand": {
+        "sfhRange": "調查中（尚未核對與 Wave 1 同口徑的 Redfin Living-in SFH 中位）",
+        "condoRange": "未核對",
+        "ageProfile": "屋齡差異大；以 Listing／縣府建造年為準。",
+        "hoaMello": "逐案查 Title、稅單與 CC&Rs；本卡不做未核對金額。",
+        "asOf": ""
+      },
+      "highlights": {
+        "jobs": "公開地標含媒體／製片廠走廊；居民產業以 ACS 為準，不把「Sony 在這」寫成全市人人在媒體業。",
+        "amenities": "待帶看標點；不寫未核對必吃清單。",
+        "safetyNote": "不引用未核對治安排行。",
+        "buyerFit": "要西區獨立市、CCUSD、並和 Playa Vista／Westchester 比較治理與學區差異的客人。"
+      },
+      "caveats": {
+        "propertyCaveats": "全市 ZIP 不只 90230；帶看分區，勿用單一郵遞區號概括。",
+        "taxCaveats": "以縣稅單為準；特別稅／評估區逐案。",
+        "schoolReality": "以 CCUSD 為主軸，仍用地址確認。",
+        "pitchLine": "Culver City 是西區獨立市，不是 LA 市；學區 CCUSD。90230 是對客常用 ZIP，普查用全市。"
+      },
+      "compareLine": "和 Westchester／Playa Vista 最大差別是「有自己的市府與學區」；和聖蓋博山市比，則是西區就業與總價結構不同。",
+      "trendLine": "ACS 用 place 0617568；不要把 90230 ZCTA 數字接在全市軸上。",
+      "lastReviewed": "2026-10-15",
+      "sources": [
+        {
+          "label": "Census 2025 Gazetteer Culver City city GEOID 0617568",
+          "url": "https://www.census.gov/programs-surveys/geography/technical-documentation/records-layout/gaz-record-layouts.html",
+          "date": "2026-10-15",
+          "note": "INTPT 34.00582, -118.396781"
+        },
+        {
+          "label": "Culver City Unified School District",
+          "url": "https://www.ccusd.org/",
+          "date": "2026-10-15",
+          "note": "District serving Culver City"
+        }
+      ]
+    },
+    {
+      "id": "san-marino",
+      "slug": "san-marino",
+      "nameZh": "聖馬利諾",
+      "nameEn": "San Marino",
+      "clusterId": "core-sgv-north",
+      "wave": 2,
+      "status": "draft",
+      "zips": [
+        "91108"
+      ],
+      "compareTags": [
+        "LA縣市",
+        "SMUSD",
+        "110廊道",
+        "高總價帶"
+      ],
+      "geo": {
+        "geoid": "0668224",
+        "lat": 34.122671,
+        "lng": -118.112911,
+        "kind": "city"
+      },
+      "snapshot": {
+        "vintage": null,
+        "priorVintage": null,
+        "population": null,
+        "populationDeltaPct": null,
+        "asianAlonePct": null,
+        "hispanicPct": null,
+        "medianIncome": null,
+        "medianIncomeDeltaPct": null,
+        "bachelorsPlusPct": null,
+        "ownerOccupiedPct": null,
+        "residentIndustry": [],
+        "priceSfh": null,
+        "priceAsOf": null,
+        "unit": "place"
+      },
+      "media": {
+        "locator": "assets/regions/la-locator.svg#san-marino"
+      },
+      "basics": {
+        "chineseBelt": "LA 縣建制小城。聖蓋博谷高總價／學區敘事極強的對照錨點之一；仍須地址確認學區，不寫未核對排名。",
+        "schoolBand": "San Marino Unified School District（SMUSD）。",
+        "commuteAxes": [
+          "I-210",
+          "CA-110",
+          "I-10"
+        ]
+      },
+      "priceBand": {
+        "sfhRange": "調查中（尚未核對與 Wave 1 同口徑的 Redfin Living-in SFH 中位）",
+        "condoRange": "未核對",
+        "ageProfile": "屋齡差異大；以 Listing／縣府建造年為準。",
+        "hoaMello": "逐案查 Title、稅單與 CC&Rs；本卡不做未核對金額。",
+        "asOf": ""
+      },
+      "highlights": {
+        "jobs": "待核對公開就業敘事。",
+        "amenities": "待帶看標點；不寫未核對必吃清單。",
+        "safetyNote": "不引用未核對治安排行。",
+        "buyerFit": "預算能對上聖蓋博高總價帶、鎖定 SMUSD 的自住家庭；常拿來和南帕、亞凱迪亞比。"
+      },
+      "caveats": {
+        "propertyCaveats": "小城、庫存少；屋況與改建規範須實地與市府確認。",
+        "taxCaveats": "以縣稅單為準；特別稅／評估區逐案。",
+        "schoolReality": "以 SMUSD 為主；不要用帕薩迪納或亞凱迪亞學區名套過來。",
+        "pitchLine": "聖馬利諾（91108）是獨立小城，不是帕薩迪納的一區；開場先講 SMUSD 與總價帶，再比南帕／亞凱迪亞。"
+      },
+      "compareLine": "若客人只聽過亞凱迪亞，聖馬利諾更小、學區獨立（SMUSD）；和南帕比則是另一套 USD，不能混界。",
+      "trendLine": "基數小，ACS 百分比波動大；趨勢只作方向。價格待 Redfin Living-in 核對。",
+      "lastReviewed": "2026-10-15",
+      "sources": [
+        {
+          "label": "Census 2025 Gazetteer San Marino city GEOID 0668224",
+          "url": "https://www.census.gov/programs-surveys/geography/technical-documentation/records-layout/gaz-record-layouts.html",
+          "date": "2026-10-15",
+          "note": "INTPT 34.122671, -118.112911"
+        },
+        {
+          "label": "San Marino Unified School District",
+          "url": "https://www.smusd.us/",
+          "date": "2026-10-15",
+          "note": "District serving San Marino"
+        }
+      ]
+    },
+    {
+      "id": "south-pasadena",
+      "slug": "south-pasadena",
+      "nameZh": "南帕薩迪納",
+      "nameEn": "South Pasadena",
+      "clusterId": "core-sgv-north",
+      "wave": 2,
+      "status": "draft",
+      "zips": [
+        "91030"
+      ],
+      "compareTags": [
+        "LA縣市",
+        "SPUSD",
+        "110廊道",
+        "老街區"
+      ],
+      "geo": {
+        "geoid": "0673220",
+        "lat": 34.108967,
+        "lng": -118.156618,
+        "kind": "city"
+      },
+      "snapshot": {
+        "vintage": null,
+        "priorVintage": null,
+        "population": null,
+        "populationDeltaPct": null,
+        "asianAlonePct": null,
+        "hispanicPct": null,
+        "medianIncome": null,
+        "medianIncomeDeltaPct": null,
+        "bachelorsPlusPct": null,
+        "ownerOccupiedPct": null,
+        "residentIndustry": [],
+        "priceSfh": null,
+        "priceAsOf": null,
+        "unit": "place"
+      },
+      "media": {
+        "locator": "assets/regions/la-locator.svg#south-pasadena"
+      },
+      "basics": {
+        "chineseBelt": "LA 縣建制小城，夾在帕薩迪納與 LA 市之間。開場三件事：獨立市、110 廊道、SPUSD。",
+        "schoolBand": "South Pasadena Unified School District（SPUSD）。",
+        "commuteAxes": [
+          "CA-110",
+          "I-10",
+          "I-210"
+        ]
+      },
+      "priceBand": {
+        "sfhRange": "調查中（尚未核對與 Wave 1 同口徑的 Redfin Living-in SFH 中位）",
+        "condoRange": "未核對",
+        "ageProfile": "屋齡差異大；以 Listing／縣府建造年為準。",
+        "hoaMello": "逐案查 Title、稅單與 CC&Rs；本卡不做未核對金額。",
+        "asOf": ""
+      },
+      "highlights": {
+        "jobs": "待核對公開就業敘事。",
+        "amenities": "待帶看標點；不寫未核對必吃清單。",
+        "safetyNote": "不引用未核對治安排行。",
+        "buyerFit": "要老街區尺度、能接受小城庫存、學區走 SPUSD 的自住比較者。"
+      },
+      "caveats": {
+        "propertyCaveats": "老屋與歷史街區常見；改建／停車規範須問市府，勿假設可任意加蓋。",
+        "taxCaveats": "以縣稅單為準；特別稅／評估區逐案。",
+        "schoolReality": "SPUSD 與帕薩迪納、LAUSD 都不同；地址決定一切。",
+        "pitchLine": "南帕薩迪納（91030）是獨立市，不是「帕薩迪納南邊某區」；學區 SPUSD，通勤軸 110。"
+      },
+      "compareLine": "和聖馬利諾比：都是小城名校敘事，但是兩套 USD、兩種街廓；和亞凱迪亞比則南帕更靠近 110／LA 市邊界。",
+      "trendLine": "小城 ACS 基數有限；趨勢待烘焙。價格未核對前不進對照條。",
+      "lastReviewed": "2026-10-15",
+      "sources": [
+        {
+          "label": "Census 2025 Gazetteer South Pasadena city GEOID 0673220",
+          "url": "https://www.census.gov/programs-surveys/geography/technical-documentation/records-layout/gaz-record-layouts.html",
+          "date": "2026-10-15",
+          "note": "INTPT 34.108967, -118.156618"
+        },
+        {
+          "label": "South Pasadena Unified School District",
+          "url": "https://www.spusd.net/",
+          "date": "2026-10-15",
+          "note": "District serving South Pasadena"
+        }
+      ]
+    },
+    {
+      "id": "arcadia",
+      "slug": "arcadia",
+      "nameZh": "亞凱迪亞",
+      "nameEn": "Arcadia",
+      "clusterId": "core-sgv-north",
+      "wave": 2,
+      "status": "draft",
+      "zips": [
+        "91006",
+        "91007"
+      ],
+      "compareTags": [
+        "LA縣市",
+        "AUSD",
+        "210廊道",
+        "聖蓋博名校帶"
+      ],
+      "geo": {
+        "geoid": "0602462",
+        "lat": 34.132689,
+        "lng": -118.036347,
+        "kind": "city"
+      },
+      "snapshot": {
+        "vintage": null,
+        "priorVintage": null,
+        "population": null,
+        "populationDeltaPct": null,
+        "asianAlonePct": null,
+        "hispanicPct": null,
+        "medianIncome": null,
+        "medianIncomeDeltaPct": null,
+        "bachelorsPlusPct": null,
+        "ownerOccupiedPct": null,
+        "residentIndustry": [],
+        "priceSfh": null,
+        "priceAsOf": null,
+        "unit": "place"
+      },
+      "media": {
+        "locator": "assets/regions/la-locator.svg#arcadia"
+      },
+      "basics": {
+        "chineseBelt": "LA 縣建制市。聖蓋博谷「名校＋大宅」被提及最多的市之一；先對址 AUSD 再比聖馬利諾／天普市總價。",
+        "schoolBand": "Arcadia Unified School District（AUSD）。鄰近地址仍可能跨區 — 須對址。",
+        "commuteAxes": [
+          "I-210",
+          "I-605",
+          "I-10"
+        ]
+      },
+      "priceBand": {
+        "sfhRange": "調查中（尚未核對與 Wave 1 同口徑的 Redfin Living-in SFH 中位）",
+        "condoRange": "未核對",
+        "ageProfile": "屋齡差異大；以 Listing／縣府建造年為準。",
+        "hoaMello": "逐案查 Title、稅單與 CC&Rs；本卡不做未核對金額。",
+        "asOf": ""
+      },
+      "highlights": {
+        "jobs": "待核對公開就業敘事。",
+        "amenities": "待帶看標點；不寫未核對必吃清單。",
+        "safetyNote": "不引用未核對治安排行。",
+        "buyerFit": "鎖定 AUSD、需要比聖馬利諾更大盤面選擇的自住家庭。"
+      },
+      "caveats": {
+        "propertyCaveats": "ZIP 91006／91007 與鄰里差異大；山坡與平地屋況不同。",
+        "taxCaveats": "以縣稅單為準；特別稅／評估區逐案。",
+        "schoolReality": "多數討論指向 AUSD，仍不是「全市單一保證」。",
+        "pitchLine": "亞凱迪亞是獨立市（91006／91007），學區主軸 AUSD；把它當北聖蓋博標尺，再往聖馬利諾（更小更貴敘事）或天普市（相對可接近）比。"
+      },
+      "compareLine": "若客人熟鑽石吧／Walnut：亞凱迪亞是 210 廊道、另一套名校市，不是 60 廊道的延伸。",
+      "trendLine": "全市 ACS 待烘焙；價格未核對前對照條留空。",
+      "lastReviewed": "2026-10-15",
+      "sources": [
+        {
+          "label": "Census 2025 Gazetteer Arcadia city GEOID 0602462",
+          "url": "https://www.census.gov/programs-surveys/geography/technical-documentation/records-layout/gaz-record-layouts.html",
+          "date": "2026-10-15",
+          "note": "INTPT 34.132689, -118.036347"
+        },
+        {
+          "label": "Arcadia Unified School District",
+          "url": "https://www.ausd.net/",
+          "date": "2026-10-15",
+          "note": "District serving Arcadia"
+        }
+      ]
+    },
+    {
+      "id": "temple-city",
+      "slug": "temple-city",
+      "nameZh": "天普市",
+      "nameEn": "Temple City",
+      "clusterId": "core-sgv-north",
+      "wave": 2,
+      "status": "draft",
+      "zips": [
+        "91780"
+      ],
+      "compareTags": [
+        "LA縣市",
+        "TCUSD",
+        "聖蓋博自住",
+        "天普羅斯密配對"
+      ],
+      "geo": {
+        "geoid": "0678148",
+        "lat": 34.102156,
+        "lng": -118.057971,
+        "kind": "city"
+      },
+      "snapshot": {
+        "vintage": null,
+        "priorVintage": null,
+        "population": null,
+        "populationDeltaPct": null,
+        "asianAlonePct": null,
+        "hispanicPct": null,
+        "medianIncome": null,
+        "medianIncomeDeltaPct": null,
+        "bachelorsPlusPct": null,
+        "ownerOccupiedPct": null,
+        "residentIndustry": [],
+        "priceSfh": null,
+        "priceAsOf": null,
+        "unit": "place"
+      },
+      "media": {
+        "locator": "assets/regions/la-locator.svg#temple-city"
+      },
+      "basics": {
+        "chineseBelt": "LA 縣建制市。相對亞凱迪亞／聖馬利諾，常被當成同廊道較可接近的自住市。",
+        "schoolBand": "Temple City Unified School District（TCUSD）。",
+        "commuteAxes": [
+          "I-10",
+          "I-210",
+          "CA-60"
+        ]
+      },
+      "priceBand": {
+        "sfhRange": "調查中（尚未核對與 Wave 1 同口徑的 Redfin Living-in SFH 中位）",
+        "condoRange": "未核對",
+        "ageProfile": "屋齡差異大；以 Listing／縣府建造年為準。",
+        "hoaMello": "逐案查 Title、稅單與 CC&Rs；本卡不做未核對金額。",
+        "asOf": ""
+      },
+      "highlights": {
+        "jobs": "待核對公開就業敘事。",
+        "amenities": "待帶看標點；不寫未核對必吃清單。",
+        "safetyNote": "不引用未核對治安排行。",
+        "buyerFit": "要北聖蓋博自住、預算低於亞凱迪亞／聖馬利諾敘事、學區走 TCUSD 的比較者。"
+      },
+      "caveats": {
+        "propertyCaveats": "小城；與羅斯密／亞凱迪亞交界地址要看清門牌所在市。",
+        "taxCaveats": "以縣稅單為準；特別稅／評估區逐案。",
+        "schoolReality": "以 TCUSD 為主；交界地址可能被客人誤以為亞凱迪亞 — 必須對址。",
+        "pitchLine": "天普市（91780）是獨立市、學區 TCUSD；常和羅斯密一起問，但市政與學區不同。"
+      },
+      "compareLine": "和亞凱迪亞比：同屬北聖蓋博，但學區是 TCUSD 不是 AUSD；和羅斯密比：天普市更常被當成純自住市。",
+      "trendLine": "ACS／Redfin 待補；未 ready 前不進數字對照。",
+      "lastReviewed": "2026-10-15",
+      "sources": [
+        {
+          "label": "Census 2025 Gazetteer Temple City city GEOID 0678148",
+          "url": "https://www.census.gov/programs-surveys/geography/technical-documentation/records-layout/gaz-record-layouts.html",
+          "date": "2026-10-15",
+          "note": "INTPT 34.102156, -118.057971"
+        },
+        {
+          "label": "Temple City Unified School District",
+          "url": "https://www.tcusd.net/",
+          "date": "2026-10-15",
+          "note": "District serving Temple City"
+        }
+      ]
+    },
+    {
+      "id": "rosemead",
+      "slug": "rosemead",
+      "nameZh": "羅斯密",
+      "nameEn": "Rosemead",
+      "clusterId": "core-sgv-north",
+      "wave": 2,
+      "status": "draft",
+      "zips": [
+        "91770"
+      ],
+      "compareTags": [
+        "LA縣市",
+        "學區複雜",
+        "Valley Blvd",
+        "天普羅斯密配對"
+      ],
+      "geo": {
+        "geoid": "0662896",
+        "lat": 34.06888,
+        "lng": -118.08268,
+        "kind": "city"
+      },
+      "snapshot": {
+        "vintage": null,
+        "priorVintage": null,
+        "population": null,
+        "populationDeltaPct": null,
+        "asianAlonePct": null,
+        "hispanicPct": null,
+        "medianIncome": null,
+        "medianIncomeDeltaPct": null,
+        "bachelorsPlusPct": null,
+        "ownerOccupiedPct": null,
+        "residentIndustry": [],
+        "priceSfh": null,
+        "priceAsOf": null,
+        "unit": "place"
+      },
+      "media": {
+        "locator": "assets/regions/la-locator.svg#rosemead"
+      },
+      "basics": {
+        "chineseBelt": "LA 縣建制市。與天普市緊鄰，Valley Blvd 商業帶強；不要用聖馬利諾的客群標籤套過來。",
+        "schoolBand": "學區拼圖待核對（可能跨小學區／高中區）— 本卡暫不寫死單一 USD 名稱。",
+        "commuteAxes": [
+          "I-10",
+          "I-605",
+          "CA-60"
+        ]
+      },
+      "priceBand": {
+        "sfhRange": "調查中（尚未核對與 Wave 1 同口徑的 Redfin Living-in SFH 中位）",
+        "condoRange": "未核對",
+        "ageProfile": "屋齡差異大；以 Listing／縣府建造年為準。",
+        "hoaMello": "逐案查 Title、稅單與 CC&Rs；本卡不做未核對金額。",
+        "asOf": ""
+      },
+      "highlights": {
+        "jobs": "待核對公開就業敘事。",
+        "amenities": "待帶看標點；不寫未核對必吃清單。",
+        "safetyNote": "不引用未核對治安排行。",
+        "buyerFit": "要聖蓋博生活圈機能、總價敘事低於聖馬利諾／亞凱迪亞、能接受學區對址功課的客人。"
+      },
+      "caveats": {
+        "propertyCaveats": "商業走廊與住宅混雜；帶看分清主幹道與巷內。",
+        "taxCaveats": "以縣稅單為準；特別稅／評估區逐案。",
+        "schoolReality": "尚未核對完整學區拼圖；成交條件應寫明用地址查官方，禁止口頭保證。",
+        "pitchLine": "羅斯密（91770）是獨立市，常和天普市一起被問；商業帶強，學區比天普市複雜，先對地址。"
+      },
+      "compareLine": "和天普市比：隔壁、客群重疊，但羅斯密更像「生活圈＋對址學區」而不是單一 USD 故事；和聖馬利諾比則完全不同總價與街廓。",
+      "trendLine": "ACS 待烘焙。學區未核對完成前，情報卡學區欄維持「待核對」。",
+      "lastReviewed": "2026-10-15",
+      "sources": [
+        {
+          "label": "Census 2025 Gazetteer Rosemead city GEOID 0662896",
+          "url": "https://www.census.gov/programs-surveys/geography/technical-documentation/records-layout/gaz-record-layouts.html",
+          "date": "2026-10-15",
+          "note": "INTPT 34.06888, -118.08268"
+        }
       ]
     }
   ]

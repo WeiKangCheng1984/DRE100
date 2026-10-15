@@ -11,11 +11,13 @@
 | Assisted user | 準客戶：低摩擦需求梳理（P4 再上） |
 | Public visitor | 法規／考試知識庫，建立專業可信度 |
 
-**本輪地理戰略（優先於專家原稿的 90045／Irvine）：**
+**本輪地理戰略：**
 
-1. **Wave 1（立刻）**：東聖蓋博谷／60 號公路華人帶 + 西內陸帝國入口  
-2. **Wave 2（往北／核心 SGV）**：阿卡迪亞、聖瑪利諾、天普市、帕薩迪納等  
-3. **Wave 3（往西／南灣／橙縣）**：Westchester 90045、爾灣、托倫斯等  
+1. **Wave 1**：東聖蓋博谷／60 號公路華人帶 + 西內陸帝國入口（七城 `ready`）  
+2. **Wave 2（展示擴充）**：西區 LAX 帶（Westchester ZCTA 90045、Playa Vista ZCTA 90094、Culver City）+ 核心聖蓋博 110／210（南帕、聖馬利諾、亞凱迪亞、天普市、羅斯密）  
+3. **Wave 3（預留，不進本期總圖）**：托倫斯、爾灣等 → `west-southbay-oc`  
+
+展示模式鎖定規格：`docs/present-mode-ac-plan.md`。  
 
 ## 2. Technical Constraints (Do Not Ignore)
 
@@ -72,10 +74,11 @@ Mobile-first：導覽可折疊；區域與指引頁以 Accordion、Badge、Check
 
 | id | nameZh | wave 預設 |
 |---|---|---|
+| `westside-lax` | 西區 · LAX／海霧帶 | 2 |
+| `core-sgv-north` | 核心聖蓋博 · 110／210 | 2 |
 | `east-sgv-60` | 東聖蓋博 · 60 廊道 | 1 |
 | `west-ie` | 西內陸帝國入口 | 1 |
-| `core-sgv-north` | 核心聖蓋博／往北 | 2 |
-| `west-southbay-oc` | 西區／南灣／橙縣 | 3 |
+| `west-southbay-oc` | 南灣／橙縣（預留） | 3 |
 
 新增城市＝新增 `regions[]` 一筆並掛上既有或新 `clusterId`；**不必改 UI 架構**。
 

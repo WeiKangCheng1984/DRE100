@@ -21,6 +21,8 @@
 
 **西內陸帝國入口：** 奇諾崗、安大略、波莫納  
 
+**Wave 2 展示擴充（`draft`）：** 西區 Westchester / Playa Vista / Culver City；北聖蓋博 南帕 / 聖馬利諾 / 亞凱迪亞 / 天普市 / 羅斯密。規格見 `docs/present-mode-ac-plan.md`。  
+
 ### P0 验收
 
 - [x] Schema 支援任意加城（只改 JSON）  

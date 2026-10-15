@@ -24,13 +24,19 @@
 | `ontario` | 安大略 | Ontario | 91761, 91764, 91762 | `west-ie` |
 | `pomona` | 波莫納 | Pomona | 91766, 91767, 91768 | `west-ie` |
 
-### Wave 2（往北／核心 SGV — 僅預留）
+### Wave 2（展示擴充 — 已建檔 `draft`）
 
-示例 id（未建檔）：`arcadia`, `san-marino`, `temple-city`, `pasadena`, `monterey-park`, `alhambra` → `core-sgv-north`
+西區 · LAX／海霧帶 → `westside-lax`  
+`westchester`（ZCTA 90045）、`playa-vista`（ZCTA 90094）、`culver-city`
 
-### Wave 3（往西／南灣／橙縣 — 僅預留）
+核心聖蓋博 · 110／210 → `core-sgv-north`  
+`south-pasadena`, `san-marino`, `arcadia`, `temple-city`, `rosemead`
 
-示例 id：`westchester-90045`, `torrance`, `irvine` → `west-southbay-oc`
+GEOID、ZCTA 例外與展示配色見 `docs/present-mode-ac-plan.md`。
+
+### Wave 3（往南灣／橙縣 — 僅預留，不進本期總圖）
+
+示例 id：`torrance`, `irvine` → `west-southbay-oc`
 
 ## 3. 每城固定四宮格
 
@@ -70,6 +76,8 @@
 | `taxCaveats` | 稅／特殊費：Mello-Roos、高保險區 |
 | `schoolReality` | 入學現實：住址、開放登記、私校備選 |
 | `pitchLine` | **對外一句話**（必填才可標 `ready`） |
+| `compareLine`（城頂層） | 對照金句：若你熟 A，這座城差在哪 |
+| `trendLine`（城頂層） | 趨勢句：ACS 結構／變化，禁止保證升值 |
 
 ## 4. 建議資料來源層級
 
@@ -103,7 +111,7 @@ UI 規則：`draft` 不顯示假數字；`ready` 才進「可對比」預設集�
 - [ ] basics 四欄  
 - [ ] priceBand + `asOf`  
 - [ ] highlights 四欄  
-- [ ] caveats 四欄（含 pitchLine）  
+- [ ] caveats 四欄（含 pitchLine）+ compareLine + trendLine  
 - [ ] compareTags（至少 2 個，如 `學區`, `山城`, `60廊道`, `首購`, `物流就業`）  
 - [ ] sources ≥ 2  
 - [ ] lastReviewed 當天  
