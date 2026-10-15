@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>加州 DRE 不動產複習：名詞手冊、衝刺280、會話練習、精讀講義與題庫</title>
+    <title>DRE-100｜Study & Field Ops — 加州地產學習庫與南加實戰工作站</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -138,49 +138,72 @@
 <body class="bg-slate-50 dark:bg-slate-950 text-slate-800 dark:text-slate-100 min-h-screen flex flex-col font-sans antialiased transition-colors duration-200">
 
     <header class="sticky top-0 z-40 backdrop-blur-md bg-white/90 dark:bg-slate-900/90 border-b border-slate-200 dark:border-slate-800 shadow-sm transition-colors">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 min-h-16 py-2 flex flex-wrap items-center justify-between gap-3">
-            <div class="flex items-center gap-3">
-                <div class="h-10 w-10 rounded-xl bg-gradient-to-tr from-blue-700 to-indigo-600 flex items-center justify-center text-white font-bold shadow-md shadow-blue-500/20 text-lg">
-                    DRE
-                </div>
-                <div>
-                    <h1 class="text-base sm:text-lg font-bold text-slate-900 dark:text-white leading-tight">
-                        加州經紀人執照考試
-                    </h1>
-                    <p id="headerSubtitle" class="text-xs text-slate-500 dark:text-slate-400 font-medium">核心 100 組易混淆名詞速成手冊</p>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 min-h-16 py-2 flex flex-col gap-2">
+            <div class="flex flex-wrap items-center justify-between gap-3">
+                <button type="button" onclick="switchModule('hub')" class="flex items-center gap-3 text-left group">
+                    <div class="h-10 w-10 rounded-xl bg-gradient-to-tr from-blue-700 to-indigo-600 flex items-center justify-center text-white font-bold shadow-md shadow-blue-500/20 text-lg">
+                        DRE
+                    </div>
+                    <div>
+                        <h1 class="text-base sm:text-lg font-bold text-slate-900 dark:text-white leading-tight group-hover:text-blue-700 dark:group-hover:text-blue-300 transition-colors">
+                            DRE-100
+                        </h1>
+                        <p id="headerSubtitle" class="text-xs text-slate-500 dark:text-slate-400 font-medium">Study &amp; Field Ops</p>
+                    </div>
+                </button>
+
+                <div class="flex items-center gap-2 flex-wrap justify-end">
+                    <!-- Dual track -->
+                    <div class="flex items-center bg-slate-100 dark:bg-slate-800 p-1 rounded-xl border border-slate-200 dark:border-slate-700 text-xs sm:text-sm">
+                        <button id="btnTrackStudy" type="button" onclick="openStudyTrack()" class="px-2.5 sm:px-3 py-1.5 rounded-lg font-medium transition-all shadow-sm bg-white dark:bg-slate-700 text-blue-700 dark:text-blue-300">
+                            學習庫
+                        </button>
+                        <button id="btnTrackRegions" type="button" onclick="switchModule('regions')" class="px-2.5 sm:px-3 py-1.5 rounded-lg font-medium transition-all text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white">
+                            區域分析
+                        </button>
+                        <button id="btnTrackGuides" type="button" onclick="switchModule('guides')" class="px-2.5 sm:px-3 py-1.5 rounded-lg font-medium transition-all text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white">
+                            實戰手冊
+                        </button>
+                    </div>
+                    <button id="btnTrackIntake" type="button" onclick="switchModule('intake')" class="px-3 py-1.5 rounded-lg text-xs sm:text-sm font-semibold bg-blue-700 hover:bg-blue-800 text-white transition-colors">
+                        需求評估
+                    </button>
+                    <button onclick="toggleDarkMode()" title="切換深淺模式" class="p-2 rounded-xl text-slate-500 hover:bg-slate-100 dark:text-slate-400 dark:hover:bg-slate-800 border border-slate-200 dark:border-slate-700 transition-colors">
+                        <svg id="themeIconSun" class="w-5 h-5 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"></path></svg>
+                        <svg id="themeIconMoon" class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"></path></svg>
+                    </button>
                 </div>
             </div>
 
-            <!-- View toggles & Quick stats -->
-            <div class="flex items-center gap-2 sm:gap-4 flex-wrap justify-end">
-                <div class="flex items-center bg-slate-100 dark:bg-slate-800 p-1 rounded-xl border border-slate-200 dark:border-slate-700 text-xs sm:text-sm">
-                    <button id="btnModuleGlossary" onclick="switchModule('glossary')" class="px-2.5 sm:px-3 py-1.5 rounded-lg font-medium transition-all shadow-sm bg-white dark:bg-slate-700 text-blue-700 dark:text-blue-300">
+            <!-- Study module row + view switches (shown only in Study track) -->
+            <div id="studyNavRow" class="flex items-center gap-2 sm:gap-3 flex-wrap" style="display:none">
+                <div class="flex items-center bg-slate-100 dark:bg-slate-800 p-1 rounded-xl border border-slate-200 dark:border-slate-700 text-xs sm:text-sm overflow-x-auto max-w-full">
+                    <button id="btnModuleGlossary" onclick="switchModule('glossary')" class="px-2.5 sm:px-3 py-1.5 rounded-lg font-medium transition-all shadow-sm bg-white dark:bg-slate-700 text-blue-700 dark:text-blue-300 whitespace-nowrap">
                         名詞手冊
                     </button>
-                    <button id="btnModuleNotes" onclick="switchModule('notes')" class="px-2.5 sm:px-3 py-1.5 rounded-lg font-medium transition-all text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white">
+                    <button id="btnModuleNotes" onclick="switchModule('notes')" class="px-2.5 sm:px-3 py-1.5 rounded-lg font-medium transition-all text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white whitespace-nowrap">
                         精讀講義
                     </button>
-                    <button id="btnModuleField" onclick="switchModule('field')" class="px-2.5 sm:px-3 py-1.5 rounded-lg font-medium transition-all text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white">
+                    <button id="btnModuleField" onclick="switchModule('field')" class="px-2.5 sm:px-3 py-1.5 rounded-lg font-medium transition-all text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white whitespace-nowrap">
                         成交實務
                     </button>
-                    <button id="btnModuleCram" onclick="switchModule('cram')" class="px-2.5 sm:px-3 py-1.5 rounded-lg font-medium transition-all text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white">
+                    <button id="btnModuleCram" onclick="switchModule('cram')" class="px-2.5 sm:px-3 py-1.5 rounded-lg font-medium transition-all text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white whitespace-nowrap">
                         衝刺280
                     </button>
-                    <button id="btnModuleSpeak" onclick="switchModule('speak')" class="px-2.5 sm:px-3 py-1.5 rounded-lg font-medium transition-all text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white">
+                    <button id="btnModuleSpeak" onclick="switchModule('speak')" class="px-2.5 sm:px-3 py-1.5 rounded-lg font-medium transition-all text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white whitespace-nowrap">
                         會話練習
                     </button>
-                    <button id="btnModuleQuiz" onclick="switchModule('quiz')" class="px-2.5 sm:px-3 py-1.5 rounded-lg font-medium transition-all text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white">
+                    <button id="btnModuleQuiz" onclick="switchModule('quiz')" class="px-2.5 sm:px-3 py-1.5 rounded-lg font-medium transition-all text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white whitespace-nowrap">
                         題庫練習
                     </button>
-                    <button id="btnModuleQuiz2" onclick="switchModule('quiz3')" class="px-2.5 sm:px-3 py-1.5 rounded-lg font-medium transition-all text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white">
+                    <button id="btnModuleQuiz2" onclick="switchModule('quiz3')" class="px-2.5 sm:px-3 py-1.5 rounded-lg font-medium transition-all text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white whitespace-nowrap">
                         題庫練習二
                     </button>
                     <button id="btnModuleQuiz3" onclick="switchModule('quiz3')" class="hidden px-2.5 sm:px-3 py-1.5 rounded-lg font-medium transition-all text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white" aria-hidden="true" tabindex="-1">
                         題庫練習三
                     </button>
                 </div>
-                <!-- Mode Switcher -->
-                <div id="glossaryViewSwitch" class="flex items-center bg-slate-100 dark:bg-slate-800 p-1 rounded-xl border border-slate-200 dark:border-slate-700 text-xs sm:text-sm">
+                <div id="glossaryViewSwitch" class="flex items-center bg-slate-100 dark:bg-slate-800 p-1 rounded-xl border border-slate-200 dark:border-slate-700 text-xs sm:text-sm" style="display:none">
                     <button id="btnListMode" onclick="switchView('list')" class="px-3 py-1.5 rounded-lg font-medium transition-all shadow-sm bg-white dark:bg-slate-700 text-blue-700 dark:text-blue-300">
                         條列檢視
                     </button>
@@ -226,17 +249,40 @@
                         只練業務員
                     </button>
                 </div>
-
-                <!-- Theme Toggle -->
-                <button onclick="toggleDarkMode()" title="切換深淺模式" class="p-2 rounded-xl text-slate-500 hover:bg-slate-100 dark:text-slate-400 dark:hover:bg-slate-800 border border-slate-200 dark:border-slate-700 transition-colors">
-                    <svg id="themeIconSun" class="w-5 h-5 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"></path></svg>
-                    <svg id="themeIconMoon" class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"></path></svg>
-                </button>
             </div>
         </div>
     </header>
 
-    <main id="glossaryMain" class="flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-6 flex flex-col gap-6">
+    <!-- Hub Landing -->
+    <main id="hubMain" class="flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12 flex flex-col gap-8">
+        <div class="max-w-2xl">
+            <p class="text-xs font-semibold uppercase tracking-wider text-blue-700 dark:text-blue-300 mb-2">Personal Field Operations Hub</p>
+            <h2 class="text-2xl sm:text-3xl font-bold text-slate-900 dark:text-white leading-tight">DRE-100</h2>
+            <p class="mt-3 text-sm sm:text-base text-slate-600 dark:text-slate-300 leading-relaxed">
+                對外是扎實的加州法規與考試知識庫；對內是南加區域速查與客戶初梳工作站。打開平板就能對談、比對生活圈、引導下一步。
+            </p>
+        </div>
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-5">
+            <button type="button" onclick="openStudyTrack()" class="text-left p-5 sm:p-6 rounded-2xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 hover:border-blue-400 dark:hover:border-blue-500 transition-colors">
+                <p class="text-xs font-semibold uppercase tracking-wider text-slate-500 dark:text-slate-400">Study</p>
+                <h3 class="mt-2 text-lg font-bold text-slate-900 dark:text-white">學習庫</h3>
+                <p class="mt-2 text-sm text-slate-600 dark:text-slate-300 leading-relaxed">名詞手冊、精讀講義、成交實務、衝刺 280、會話與題庫練習。</p>
+                <span class="mt-4 inline-block text-sm font-semibold text-blue-700 dark:text-blue-300">進入學習庫 →</span>
+            </button>
+            <button type="button" onclick="switchModule('regions')" class="text-left p-5 sm:p-6 rounded-2xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 hover:border-blue-400 dark:hover:border-blue-500 transition-colors">
+                <p class="text-xs font-semibold uppercase tracking-wider text-slate-500 dark:text-slate-400">Field Ops</p>
+                <h3 class="mt-2 text-lg font-bold text-slate-900 dark:text-white">區域分析</h3>
+                <p class="mt-2 text-sm text-slate-600 dark:text-slate-300 leading-relaxed">東聖蓋博／60 廊道與西內陸帝國七城速查，可往西往北擴充。</p>
+                <span class="mt-4 inline-block text-sm font-semibold text-blue-700 dark:text-blue-300">打開區域總覽 →</span>
+            </button>
+        </div>
+        <div class="flex flex-wrap gap-3">
+            <button type="button" onclick="switchModule('guides')" class="px-4 py-2 rounded-xl text-sm border border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-800">實戰手冊（即將推出）</button>
+            <button type="button" onclick="switchModule('intake')" class="px-4 py-2 rounded-xl text-sm font-semibold bg-blue-700 hover:bg-blue-800 text-white">需求評估 CTA</button>
+        </div>
+    </main>
+
+    <main id="glossaryMain" class="hidden flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-6 flex-col gap-6">
         
         <!-- Controls panel -->
         <div class="bg-white dark:bg-slate-900 rounded-2xl border border-slate-200 dark:border-slate-800 p-4 sm:p-5 shadow-sm flex flex-col gap-4">
@@ -765,6 +811,62 @@
     </main>
 <!-- QUIZ_MAIN_END -->
 
+    <!-- REGIONS_MAIN -->
+    <main id="regionsMain" class="hidden flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-6 flex-col gap-5">
+        <div id="regionsLoading" class="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl p-6 text-sm text-slate-500 dark:text-slate-400">
+            載入南加區域資料中…
+        </div>
+        <div id="regionsLoadError" class="hidden bg-red-50 dark:bg-red-950/40 border border-red-200 dark:border-red-800 rounded-2xl p-6 text-sm text-red-800 dark:text-red-200">
+            無法載入區域資料。請用本機伺服器開啟（例如 <code class="font-mono">python -m http.server 8765</code>）。
+        </div>
+        <div id="regionsApp" class="hidden flex flex-col gap-5">
+            <div class="flex flex-col gap-2">
+                <div class="flex flex-wrap items-start justify-between gap-3">
+                    <div>
+                        <h2 id="regionsTitleZh" class="text-lg sm:text-xl font-bold text-slate-900 dark:text-white">南加區域速查</h2>
+                        <p id="regionsSubtitleZh" class="text-sm text-slate-500 dark:text-slate-400">東聖蓋博／60 廊道優先，可往西往北擴充</p>
+                    </div>
+                    <button type="button" id="regionsBackBtn" onclick="regionsShowOverview()" class="hidden px-3 py-1.5 rounded-xl text-sm border border-slate-200 dark:border-slate-700 text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800">
+                        ← 返回總覽
+                    </button>
+                </div>
+            </div>
+
+            <div id="regionsOverview" class="flex flex-col gap-6"></div>
+
+            <div id="regionsDetail" class="hidden flex flex-col gap-4"></div>
+        </div>
+    </main>
+
+    <!-- GUIDES_PLACEHOLDER (P3) -->
+    <main id="guidesMain" class="hidden flex-1 max-w-3xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-10 flex-col gap-4">
+        <p class="text-xs font-semibold uppercase tracking-wider text-slate-500 dark:text-slate-400">Field Ops · Guides</p>
+        <h2 class="text-xl font-bold text-slate-900 dark:text-white">實戰手冊</h2>
+        <p class="text-sm text-slate-600 dark:text-slate-300 leading-relaxed">
+            P3 將上線：Escrow 30 天節奏、持有成本速算、外國人貸款／資金出海速查，並連結既有「成交實務」表單手冊。
+        </p>
+        <button type="button" onclick="switchModule('field')" class="self-start px-4 py-2 rounded-xl text-sm font-medium bg-blue-700 hover:bg-blue-800 text-white">先看成交實務 →</button>
+    </main>
+
+    <!-- INTAKE_PLACEHOLDER (P4) -->
+    <main id="intakeMain" class="hidden flex-1 max-w-3xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-10 flex-col gap-4">
+        <p class="text-xs font-semibold uppercase tracking-wider text-slate-500 dark:text-slate-400">Field Ops · Intake</p>
+        <h2 class="text-xl font-bold text-slate-900 dark:text-white">需求評估</h2>
+        <p class="text-sm text-slate-600 dark:text-slate-300 leading-relaxed">
+            P4 將提供多步驟客戶初梳表單，並在本機生成可截圖轉發的需求摘要卡。目前入口已定位，內容建置中。
+        </p>
+        <button type="button" onclick="switchModule('regions')" class="self-start px-4 py-2 rounded-xl text-sm font-medium border border-slate-200 dark:border-slate-700 hover:bg-slate-100 dark:hover:bg-slate-800">先看區域分析 →</button>
+    </main>
+
+    <footer class="mt-auto border-t border-slate-200 dark:border-slate-800 bg-white/80 dark:bg-slate-900/80">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-5 text-xs sm:text-sm text-slate-500 dark:text-slate-400 leading-relaxed">
+            <p id="siteDisclaimerZh">本站內容為加州地產法規研究與市場資訊整理，非公開房產仲介招攬。實體交易合約由南加州持牌經紀團隊（Responsible Brokerage）依法辦理。區域與價格資訊僅供個人實戰備忘，非估價或投資建議。</p>
+            <details class="mt-2">
+                <summary class="cursor-pointer text-slate-600 dark:text-slate-300 font-medium">English disclaimer</summary>
+                <p id="siteDisclaimerEn" class="mt-2">For personal field reference and CA real-estate study only — not a public brokerage solicitation. Transactions are handled by a responsible licensed brokerage. Price and school notes are memos, not appraisals or investment advice.</p>
+            </details>
+        </div>
+    </footer>
 
     <div id="toastMessage" class="fixed bottom-6 right-6 px-4 py-2.5 rounded-xl shadow-lg bg-slate-900 text-white dark:bg-white dark:text-slate-900 text-sm font-medium z-50 transform transition-all duration-300 translate-y-20 opacity-0 pointer-events-none flex items-center gap-2">
         <span id="toastIcon">✨</span>
@@ -1689,7 +1791,7 @@
         ];
 
         let state = {
-            appModule: "glossary", // 'glossary' | 'notes' | 'field' | 'cram' | 'speak' | 'quiz' | 'quiz2' | 'quiz3'
+            appModule: "hub", // hub | glossary | notes | field | cram | speak | quiz | quiz3 | regions | guides | intake
             currentDomain: "全部領域 (All)",
             searchQuery: "",
             viewMode: "list", // 'list' | 'card'
@@ -1699,6 +1801,8 @@
             currentCardFilteredIndex: 0,
             isCardFlipped: false
         };
+
+        const STUDY_MODULES = new Set(["glossary", "notes", "field", "cram", "speak", "quiz", "quiz2", "quiz3"]);
 
         // Initialize state from memory / cookies
         function initApp() {
@@ -1712,6 +1816,50 @@
             loadCram();
             loadSpeak();
             loadAllQuizzes();
+            loadRegions();
+            applyRouteFromUrl();
+        }
+
+        function openStudyTrack() {
+            switchModule("glossary");
+        }
+
+        function updateUrlForModule(mod, cityId) {
+            try {
+                const url = new URL(window.location.href);
+                if (!mod || mod === "hub") {
+                    url.searchParams.delete("module");
+                    url.searchParams.delete("city");
+                } else {
+                    url.searchParams.set("module", mod);
+                    if (mod === "regions" && cityId) url.searchParams.set("city", cityId);
+                    else url.searchParams.delete("city");
+                }
+                history.replaceState(null, "", url.pathname + url.search + url.hash);
+            } catch (e) { /* ignore */ }
+        }
+
+        function applyRouteFromUrl() {
+            try {
+                const params = new URLSearchParams(window.location.search);
+                let mod = params.get("module") || "hub";
+                if (mod === "quiz2") mod = "quiz3";
+                const city = params.get("city");
+                if (mod === "regions") {
+                    switchModule("regions");
+                    if (city) {
+                        const open = () => {
+                            if (regionsState.loaded) regionsOpenCity(city);
+                            else setTimeout(open, 80);
+                        };
+                        open();
+                    }
+                    return;
+                }
+                switchModule(mod);
+            } catch (e) {
+                switchModule("hub");
+            }
         }
 
         const SPEAK_AS = {
@@ -2801,17 +2949,22 @@
             // 舊「題庫練習二」已下架，導向現改名為題庫練習二的 quiz3
             if (mod === "quiz2") mod = "quiz3";
             state.appModule = mod;
+            const hubMain = document.getElementById("hubMain");
             const glossaryMain = document.getElementById("glossaryMain");
             const notesMain = document.getElementById("notesMain");
             const fieldMain = document.getElementById("fieldMain");
             const cramMain = document.getElementById("cramMain");
             const speakMain = document.getElementById("speakMain");
             const quizMain = document.getElementById("quizMain");
+            const regionsMain = document.getElementById("regionsMain");
+            const guidesMain = document.getElementById("guidesMain");
+            const intakeMain = document.getElementById("intakeMain");
             const glossarySwitch = document.getElementById("glossaryViewSwitch");
             const notesSwitch = document.getElementById("notesViewSwitch");
             const fieldSwitch = document.getElementById("fieldViewSwitch");
             const cramSwitch = document.getElementById("cramViewSwitch");
             const speakSwitch = document.getElementById("speakViewSwitch");
+            const studyNavRow = document.getElementById("studyNavRow");
             const btnGlossary = document.getElementById("btnModuleGlossary");
             const btnNotes = document.getElementById("btnModuleNotes");
             const btnField = document.getElementById("btnModuleField");
@@ -2820,9 +2973,14 @@
             const btnQuiz = document.getElementById("btnModuleQuiz");
             const btnQuiz2 = document.getElementById("btnModuleQuiz2");
             const btnQuiz3 = document.getElementById("btnModuleQuiz3");
+            const btnTrackStudy = document.getElementById("btnTrackStudy");
+            const btnTrackRegions = document.getElementById("btnTrackRegions");
+            const btnTrackGuides = document.getElementById("btnTrackGuides");
             const subtitle = document.getElementById("headerSubtitle");
-            const active = "px-2.5 sm:px-3 py-1.5 rounded-lg font-medium transition-all shadow-sm bg-white dark:bg-slate-700 text-blue-700 dark:text-blue-300";
-            const idle = "px-2.5 sm:px-3 py-1.5 rounded-lg font-medium transition-all text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white";
+            const active = "px-2.5 sm:px-3 py-1.5 rounded-lg font-medium transition-all shadow-sm bg-white dark:bg-slate-700 text-blue-700 dark:text-blue-300 whitespace-nowrap";
+            const idle = "px-2.5 sm:px-3 py-1.5 rounded-lg font-medium transition-all text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white whitespace-nowrap";
+            const trackActive = "px-2.5 sm:px-3 py-1.5 rounded-lg font-medium transition-all shadow-sm bg-white dark:bg-slate-700 text-blue-700 dark:text-blue-300";
+            const trackIdle = "px-2.5 sm:px-3 py-1.5 rounded-lg font-medium transition-all text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white";
 
             btnGlossary.className = idle;
             btnNotes.className = idle;
@@ -2832,23 +2990,68 @@
             btnQuiz.className = idle;
             btnQuiz2.className = idle;
             btnQuiz3.className = "hidden " + idle;
+            if (btnTrackStudy) btnTrackStudy.className = trackIdle;
+            if (btnTrackRegions) btnTrackRegions.className = trackIdle;
+            if (btnTrackGuides) btnTrackGuides.className = trackIdle;
+
+            if (hubMain) hubMain.style.display = "none";
             glossaryMain.style.display = "none";
             notesMain.style.display = "none";
             if (fieldMain) fieldMain.style.display = "none";
             cramMain.style.display = "none";
             if (speakMain) speakMain.style.display = "none";
             quizMain.style.display = "none";
+            if (regionsMain) regionsMain.style.display = "none";
+            if (guidesMain) guidesMain.style.display = "none";
+            if (intakeMain) intakeMain.style.display = "none";
             glossarySwitch.style.display = "none";
             notesSwitch.style.display = "none";
             if (fieldSwitch) fieldSwitch.style.display = "none";
             cramSwitch.style.display = "none";
             if (speakSwitch) speakSwitch.style.display = "none";
 
+            const isStudy = STUDY_MODULES.has(mod);
+            if (studyNavRow) studyNavRow.style.display = isStudy ? "flex" : "none";
+
+            if (mod === "hub") {
+                if (hubMain) hubMain.style.display = "flex";
+                subtitle.textContent = "Study & Field Ops";
+                updateUrlForModule("hub");
+                return;
+            }
+
+            if (mod === "regions") {
+                if (regionsMain) regionsMain.style.display = "flex";
+                if (btnTrackRegions) btnTrackRegions.className = trackActive;
+                subtitle.textContent = "區域分析：南加生活圈速查";
+                renderRegions();
+                updateUrlForModule("regions", regionsState.selectedId || null);
+                return;
+            }
+
+            if (mod === "guides") {
+                if (guidesMain) guidesMain.style.display = "flex";
+                if (btnTrackGuides) btnTrackGuides.className = trackActive;
+                subtitle.textContent = "實戰手冊（P3 建置中）";
+                updateUrlForModule("guides");
+                return;
+            }
+
+            if (mod === "intake") {
+                if (intakeMain) intakeMain.style.display = "flex";
+                subtitle.textContent = "需求評估（P4 建置中）";
+                updateUrlForModule("intake");
+                return;
+            }
+
+            if (btnTrackStudy) btnTrackStudy.className = trackActive;
+
             if (mod === "glossary") {
-                glossaryMain.style.display = "";
+                glossaryMain.style.display = "flex";
                 glossarySwitch.style.display = "";
                 btnGlossary.className = active;
                 subtitle.textContent = "核心 100 組易混淆名詞速成手冊";
+                updateUrlForModule("glossary");
                 return;
             }
 
@@ -2858,6 +3061,7 @@
                 btnNotes.className = active;
                 subtitle.textContent = "精讀講義：章節知識點與考試長難句";
                 renderNotes();
+                updateUrlForModule("notes");
                 return;
             }
 
@@ -2867,6 +3071,7 @@
                 if (btnField) btnField.className = active;
                 subtitle.textContent = "成交實務：雙語課文、表單、清單與情境";
                 renderFieldPractice();
+                updateUrlForModule("field");
                 return;
             }
 
@@ -2876,6 +3081,7 @@
                 btnCram.className = active;
                 subtitle.textContent = "衝刺 280：See English cue → Choose answer";
                 renderCram();
+                updateUrlForModule("cram");
                 return;
             }
 
@@ -2885,6 +3091,7 @@
                 if (btnSpeak) btnSpeak.className = active;
                 subtitle.textContent = "會話練習：對話、發音與詞槽抽換";
                 renderSpeak();
+                updateUrlForModule("speak");
                 return;
             }
 
@@ -2894,6 +3101,7 @@
             else btnQuiz.className = active;
             subtitle.textContent = currentQuiz().subtitle;
             showQuizBank();
+            updateUrlForModule(mod);
         }
 
         function loadQuizProgress(bank) {
@@ -4505,6 +4713,241 @@
 
             const empty = document.getElementById("fieldEmptyState");
             if (empty) empty.classList.toggle("hidden", hasItems);
+        }
+
+        /* ========== Regions / 南加區域速查 ========== */
+        const regionsState = {
+            loaded: false,
+            failed: false,
+            payload: null,
+            selectedId: null
+        };
+
+        async function loadRegions() {
+            try {
+                const res = await fetch("data/regions.json");
+                if (!res.ok) throw new Error("HTTP " + res.status);
+                regionsState.payload = await res.json();
+                regionsState.loaded = true;
+                regionsState.failed = false;
+                applyRegionsDisclaimer();
+                if (state.appModule === "regions") renderRegions();
+            } catch (err) {
+                regionsState.failed = true;
+                regionsState.loaded = false;
+                if (state.appModule === "regions") renderRegions();
+            }
+        }
+
+        function applyRegionsDisclaimer() {
+            const p = regionsState.payload;
+            if (!p) return;
+            const zh = document.getElementById("siteDisclaimerZh");
+            const en = document.getElementById("siteDisclaimerEn");
+            if (zh && p.disclaimerZh) zh.textContent = p.disclaimerZh;
+            if (en && p.disclaimerEn) en.textContent = p.disclaimerEn;
+        }
+
+        function regionText(val) {
+            const s = String(val || "").trim();
+            return s ? s : null;
+        }
+
+        function regionStatusLabel(status) {
+            if (status === "ready") return { text: "可對談", cls: "bg-emerald-50 dark:bg-emerald-950/40 border-emerald-200 dark:border-emerald-800 text-emerald-700 dark:text-emerald-300" };
+            if (status === "review") return { text: "審核中", cls: "bg-amber-50 dark:bg-amber-950/40 border-amber-200 dark:border-amber-800 text-amber-700 dark:text-amber-300" };
+            return { text: "調查中", cls: "bg-slate-100 dark:bg-slate-800 border-slate-200 dark:border-slate-700 text-slate-600 dark:text-slate-300" };
+        }
+
+        function escapeHtml(str) {
+            return String(str || "")
+                .replace(/&/g, "&amp;")
+                .replace(/</g, "&lt;")
+                .replace(/>/g, "&gt;")
+                .replace(/"/g, "&quot;");
+        }
+
+        function regionsShowOverview() {
+            regionsState.selectedId = null;
+            updateUrlForModule("regions");
+            renderRegions();
+        }
+
+        function regionsOpenCity(idOrSlug) {
+            const regions = (regionsState.payload && regionsState.payload.regions) || [];
+            const found = regions.find((r) => r.id === idOrSlug || r.slug === idOrSlug);
+            if (!found) return;
+            regionsState.selectedId = found.id;
+            updateUrlForModule("regions", found.id);
+            renderRegions();
+            window.scrollTo({ top: 0, behavior: "smooth" });
+        }
+
+        function renderRegions() {
+            const err = document.getElementById("regionsLoadError");
+            const app = document.getElementById("regionsApp");
+            const loading = document.getElementById("regionsLoading");
+            if (!regionsState.loaded) {
+                if (loading) loading.classList.toggle("hidden", !!regionsState.failed);
+                if (err) err.classList.toggle("hidden", !regionsState.failed);
+                if (app) app.classList.add("hidden");
+                return;
+            }
+            if (loading) loading.classList.add("hidden");
+            if (err) err.classList.add("hidden");
+            if (app) app.classList.remove("hidden");
+
+            const p = regionsState.payload;
+            const titleEl = document.getElementById("regionsTitleZh");
+            const subEl = document.getElementById("regionsSubtitleZh");
+            const backBtn = document.getElementById("regionsBackBtn");
+            const overview = document.getElementById("regionsOverview");
+            const detail = document.getElementById("regionsDetail");
+            if (titleEl) titleEl.textContent = p.titleZh || "南加區域速查";
+            if (subEl) subEl.textContent = p.subtitleZh || "";
+
+            const selected = regionsState.selectedId
+                ? (p.regions || []).find((r) => r.id === regionsState.selectedId)
+                : null;
+
+            if (selected) {
+                if (backBtn) backBtn.classList.remove("hidden");
+                if (overview) overview.classList.add("hidden");
+                if (detail) {
+                    detail.classList.remove("hidden");
+                    detail.innerHTML = renderRegionDetailHtml(selected, p);
+                }
+                return;
+            }
+
+            if (backBtn) backBtn.classList.add("hidden");
+            if (detail) {
+                detail.classList.add("hidden");
+                detail.innerHTML = "";
+            }
+            if (overview) {
+                overview.classList.remove("hidden");
+                overview.innerHTML = renderRegionsOverviewHtml(p);
+            }
+        }
+
+        function renderRegionsOverviewHtml(p) {
+            const clusters = (p.clusters || []).slice().sort((a, b) => (a.sort || 0) - (b.sort || 0));
+            const regions = p.regions || [];
+            return clusters.map((cluster) => {
+                const cities = regions.filter((r) => r.clusterId === cluster.id);
+                const isFuture = (cluster.wave || 99) > 1 && cities.length === 0;
+                const cards = cities.length
+                    ? `<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">${cities.map(renderRegionCardHtml).join("")}</div>`
+                    : `<p class="text-sm text-slate-500 dark:text-slate-400">${escapeHtml(cluster.blurbZh || "Wave 擴充預留")}${isFuture ? " — 尚未建檔" : ""}</p>`;
+                return (
+                    `<section class="flex flex-col gap-3">` +
+                    `<div>` +
+                    `<div class="flex flex-wrap items-center gap-2">` +
+                    `<h3 class="text-base font-bold text-slate-900 dark:text-white">${escapeHtml(cluster.nameZh)}</h3>` +
+                    `<span class="px-2 py-0.5 rounded-lg text-[11px] border border-slate-200 dark:border-slate-700 text-slate-500">Wave ${cluster.wave || "?"}</span>` +
+                    `</div>` +
+                    `<p class="text-xs text-slate-500 dark:text-slate-400 mt-1">${escapeHtml(cluster.blurbZh || "")}</p>` +
+                    `</div>${cards}</section>`
+                );
+            }).join("");
+        }
+
+        function renderRegionCardHtml(region) {
+            const st = regionStatusLabel(region.status);
+            const school = regionText(region.basics && region.basics.schoolBand);
+            const price = regionText(region.priceBand && region.priceBand.sfhRange);
+            const zips = (region.zips || []).join(", ");
+            const tags = (region.compareTags || []).slice(0, 4).map((t) =>
+                `<span class="px-2 py-0.5 rounded-lg text-[11px] bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300">${escapeHtml(t)}</span>`
+            ).join("");
+            return (
+                `<button type="button" onclick="regionsOpenCity('${escapeHtml(region.id)}')" class="text-left p-4 rounded-2xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 hover:border-blue-400 dark:hover:border-blue-500 transition-colors flex flex-col gap-2">` +
+                `<div class="flex items-start justify-between gap-2">` +
+                `<div><p class="font-bold text-slate-900 dark:text-white">${escapeHtml(region.nameZh)}</p>` +
+                `<p class="text-xs text-slate-500">${escapeHtml(region.nameEn)} · ${escapeHtml(zips)}</p></div>` +
+                `<span class="px-2 py-0.5 rounded-lg text-[11px] border whitespace-nowrap ${st.cls}">${st.text}</span>` +
+                `</div>` +
+                `<p class="text-xs text-slate-600 dark:text-slate-300">學區：${school ? escapeHtml(school) : "調查中"}</p>` +
+                `<p class="text-xs text-slate-600 dark:text-slate-300">SFH：${price ? escapeHtml(price) : "調查中"}</p>` +
+                (tags ? `<div class="flex flex-wrap gap-1 mt-1">${tags}</div>` : "") +
+                `</button>`
+            );
+        }
+
+        function renderQuadrant(title, rows) {
+            const body = rows.map(([label, val]) => {
+                const filled = regionText(val);
+                return (
+                    `<div class="flex flex-col gap-0.5 py-2 border-b border-slate-100 dark:border-slate-800 last:border-0">` +
+                    `<dt class="text-[11px] font-semibold uppercase tracking-wider text-slate-400">${escapeHtml(label)}</dt>` +
+                    `<dd class="text-sm ${filled ? "text-slate-800 dark:text-slate-100" : "text-slate-400 dark:text-slate-500 italic"}">${filled ? escapeHtml(filled) : "調查中"}</dd>` +
+                    `</div>`
+                );
+            }).join("");
+            return (
+                `<details class="rounded-2xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 open:shadow-sm" open>` +
+                `<summary class="cursor-pointer px-4 py-3 text-sm font-bold text-slate-900 dark:text-white list-none flex items-center justify-between">` +
+                `<span>${escapeHtml(title)}</span><span class="text-slate-400 text-xs font-normal">展開／收合</span></summary>` +
+                `<dl class="px-4 pb-3">${body}</dl></details>`
+            );
+        }
+
+        function renderRegionDetailHtml(region, payload) {
+            const st = regionStatusLabel(region.status);
+            const cluster = (payload.clusters || []).find((c) => c.id === region.clusterId);
+            const b = region.basics || {};
+            const p = region.priceBand || {};
+            const h = region.highlights || {};
+            const c = region.caveats || {};
+            const axes = Array.isArray(b.commuteAxes) ? b.commuteAxes.join(" · ") : "";
+            const tags = (region.compareTags || []).map((t) =>
+                `<span class="px-2 py-0.5 rounded-lg text-[11px] bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300">${escapeHtml(t)}</span>`
+            ).join("");
+            const pitch = regionText(c.pitchLine);
+
+            return (
+                `<article class="flex flex-col gap-4">` +
+                `<div class="rounded-2xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 p-4 sm:p-5">` +
+                `<div class="flex flex-wrap items-start justify-between gap-2">` +
+                `<div>` +
+                `<h3 class="text-xl font-bold text-slate-900 dark:text-white">${escapeHtml(region.nameZh)} <span class="text-base font-medium text-slate-500">${escapeHtml(region.nameEn)}</span></h3>` +
+                `<p class="text-xs text-slate-500 mt-1">${escapeHtml(cluster ? cluster.nameZh : "")} · ZIP ${(region.zips || []).map(escapeHtml).join(", ")}</p>` +
+                `</div>` +
+                `<span class="px-2.5 py-1 rounded-lg text-xs border ${st.cls}">${st.text}</span>` +
+                `</div>` +
+                (tags ? `<div class="flex flex-wrap gap-1 mt-3">${tags}</div>` : "") +
+                (pitch
+                    ? `<p class="mt-3 text-sm text-slate-700 dark:text-slate-200 leading-relaxed"><span class="font-semibold text-blue-700 dark:text-blue-300">對外一句話：</span>${escapeHtml(pitch)}</p>`
+                    : `<p class="mt-3 text-sm italic text-slate-400">對外一句話尚未填寫（調查中）</p>`) +
+                `</div>` +
+                `<div class="grid grid-cols-1 md:grid-cols-2 gap-3">` +
+                renderQuadrant("基本盤", [
+                    ["華人生活圈", b.chineseBelt],
+                    ["學區帶", b.schoolBand],
+                    ["通勤軸", axes]
+                ]) +
+                renderQuadrant("價格帶", [
+                    ["SFH 區間", p.sfhRange],
+                    ["Condo 區間", p.condoRange],
+                    ["屋齡結構", p.ageProfile],
+                    ["HOA / Mello-Roos", p.hoaMello],
+                    ["參考月份", p.asOf]
+                ]) +
+                renderQuadrant("核心亮點", [
+                    ["就業圈", h.jobs],
+                    ["生活機能", h.amenities],
+                    ["治安敘事", h.safetyNote],
+                    ["適配客群", h.buyerFit]
+                ]) +
+                renderQuadrant("實務注意", [
+                    ["屋況注意", c.propertyCaveats],
+                    ["稅負注意", c.taxCaveats],
+                    ["入學現實", c.schoolReality],
+                    ["對外一句話", c.pitchLine]
+                ]) +
+                `</div></article>`
+            );
         }
 
         // Initialize on load
