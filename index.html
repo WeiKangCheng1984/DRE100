@@ -4754,7 +4754,7 @@
         }
 
         function regionStatusLabel(status) {
-            if (status === "ready") return { text: "可對談", cls: "bg-emerald-50 dark:bg-emerald-950/40 border-emerald-200 dark:border-emerald-800 text-emerald-700 dark:text-emerald-300" };
+            if (status === "ready") return { text: "已核對", cls: "bg-emerald-50 dark:bg-emerald-950/40 border-emerald-200 dark:border-emerald-800 text-emerald-700 dark:text-emerald-300" };
             if (status === "review") return { text: "審核中", cls: "bg-amber-50 dark:bg-amber-950/40 border-amber-200 dark:border-amber-800 text-amber-700 dark:text-amber-300" };
             return { text: "調查中", cls: "bg-slate-100 dark:bg-slate-800 border-slate-200 dark:border-slate-700 text-slate-600 dark:text-slate-300" };
         }
@@ -4868,8 +4868,8 @@
                 `<p class="text-xs text-slate-500">${escapeHtml(region.nameEn)} · ${escapeHtml(zips)}</p></div>` +
                 `<span class="px-2 py-0.5 rounded-lg text-[11px] border whitespace-nowrap ${st.cls}">${st.text}</span>` +
                 `</div>` +
-                `<p class="text-xs text-slate-600 dark:text-slate-300">學區：${school ? escapeHtml(school) : "調查中"}</p>` +
-                `<p class="text-xs text-slate-600 dark:text-slate-300">SFH：${price ? escapeHtml(price) : "調查中"}</p>` +
+                `<p class="text-xs text-slate-600 dark:text-slate-300 line-clamp-2">學區：${school ? escapeHtml(school) : "調查中"}</p>` +
+                `<p class="text-xs text-slate-600 dark:text-slate-300 line-clamp-2">價格：${price ? escapeHtml(price) : "調查中"}</p>` +
                 (tags ? `<div class="flex flex-wrap gap-1 mt-1">${tags}</div>` : "") +
                 `</button>`
             );
@@ -4905,6 +4905,19 @@
                 `<span class="px-2 py-0.5 rounded-lg text-[11px] bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300">${escapeHtml(t)}</span>`
             ).join("");
             const pitch = regionText(c.pitchLine);
+            const reviewed = regionText(region.lastReviewed);
+            const sources = Array.isArray(region.sources) ? region.sources : [];
+            const sourcesHtml = sources.length
+                ? `<ul class="mt-2 flex flex-col gap-2">${sources.map((s) => {
+                    const label = escapeHtml(s.label || "來源");
+                    const note = s.note ? ` — ${escapeHtml(s.note)}` : "";
+                    const date = s.date ? ` <span class="text-slate-400">(${escapeHtml(s.date)})</span>` : "";
+                    const link = s.url
+                        ? `<a class="text-blue-700 dark:text-blue-300 underline break-all" href="${escapeHtml(s.url)}" target="_blank" rel="noopener noreferrer">${label}</a>`
+                        : label;
+                    return `<li class="text-xs text-slate-600 dark:text-slate-300 leading-relaxed">${link}${date}${note}</li>`;
+                }).join("")}</ul>`
+                : `<p class="text-xs italic text-slate-400 mt-2">尚無來源清單</p>`;
 
             return (
                 `<article class="flex flex-col gap-4">` +
@@ -4913,6 +4926,7 @@
                 `<div>` +
                 `<h3 class="text-xl font-bold text-slate-900 dark:text-white">${escapeHtml(region.nameZh)} <span class="text-base font-medium text-slate-500">${escapeHtml(region.nameEn)}</span></h3>` +
                 `<p class="text-xs text-slate-500 mt-1">${escapeHtml(cluster ? cluster.nameZh : "")} · ZIP ${(region.zips || []).map(escapeHtml).join(", ")}</p>` +
+                (reviewed ? `<p class="text-xs text-slate-400 mt-1">資料盤點日：${escapeHtml(reviewed)} · 無來源欄位不填</p>` : "") +
                 `</div>` +
                 `<span class="px-2.5 py-1 rounded-lg text-xs border ${st.cls}">${st.text}</span>` +
                 `</div>` +
@@ -4946,7 +4960,11 @@
                     ["入學現實", c.schoolReality],
                     ["對外一句話", c.pitchLine]
                 ]) +
-                `</div></article>`
+                `</div>` +
+                `<details class="rounded-2xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900" open>` +
+                `<summary class="cursor-pointer px-4 py-3 text-sm font-bold text-slate-900 dark:text-white list-none">資料來源（可點連結核對）</summary>` +
+                `<div class="px-4 pb-4">${sourcesHtml}</div></details>` +
+                `</article>`
             );
         }
 

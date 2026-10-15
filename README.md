@@ -57,9 +57,10 @@ python -m http.server 8765
 | `data/notes.json` | 精讀講義與考試長難句 |
 | `data/field_practice.json` | 成交實務雙語課文、表單、清單、情境 |
 | `data/cram280.json` | 考前衝刺 280 關鍵聯想（中英雙語） |
-| `data/regions.json` | 南加區域速查（Field Ops；Wave 1 七城骨架） |
+| `data/regions.json` | 南加區域速查（Wave 1 七城；僅寫入有來源欄位） |
 | `docs/ARCHITECTURE.md` | Field Ops Hub 適配架構規格 |
 | `docs/region-research-playbook.md` | 區域四宮格調查手冊 |
+| `docs/region-data-sources.md` | Wave 1 來源盤點（Redfin／Census／市府／學區） |
 | `docs/P0_P1_PLAN.md` | P0／P1 執行計畫 |
 | `new function.md` | 成交實務手冊 Markdown（由 build 腳本產生） |
 | `考前衝刺_280關鍵知識點.md` | 衝刺清單 Markdown 版 |
