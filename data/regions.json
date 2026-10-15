@@ -2,11 +2,11 @@
   "version": 3,
   "titleZh": "南加區域速查",
   "titleEn": "SoCal Region Field Cards",
-  "subtitleZh": "大洛杉磯四廊道速查 · 資料均附來源 · 無來源不填",
+  "subtitleZh": "帶看用的南加生活圈對照 · 數字都有出處",
   "subtitleEn": "Greater LA four-corridor field cards — sourced fields only",
   "disclaimerZh": "本站內容為加州地產法規研究與市場資訊整理，非公開房產仲介招攬。實體交易合約由南加州持牌經紀團隊（Responsible Brokerage）依法辦理。區域與價格資訊僅供個人實戰備忘，非估價或投資建議。成交中位價取自 Redfin 公開市場頁（MLS／公部門紀錄彙整），會隨時間變動；學區邊界請以學區／市府官方查詢為準。",
   "disclaimerEn": "For personal field reference and CA real-estate study only — not a public brokerage solicitation. Transactions are handled by a responsible licensed brokerage. Price medians are Redfin public snapshots (MLS/public records) and change over time. Confirm school boundaries with the district/city.",
-  "dataNotesZh": "盤點日 2026-10-15。詳見 docs/region-data-sources.md 與 docs/present-mode-ac-plan.md。Asian alone ≠ 台／陸籍。Westchester／Playa Vista 用 ZCTA，不是市界。Walnut GEOID 為 0683332（非北加州 Walnut Creek）。未核對之治安分數、Mello-Roos 金額、通勤分鐘數不記入。",
+  "dataNotesZh": "盤點日 2026-10-15。人口、所得是普查五年估計，不是今年行情。普查亞裔不是台籍、陸籍。西徹斯特、Playa Vista 用郵區。獨立屋對照只放 Redfin 同一頁的獨立屋中位。",
   "clusters": [
     {
       "id": "westside-lax",
@@ -15,7 +15,7 @@
       "wave": 2,
       "sort": 10,
       "color": "#3D7A7A",
-      "blurbZh": "Westchester（ZCTA 90045）、Playa Vista（ZCTA 90094）、Culver City — 機場與西區媒體帶"
+      "blurbZh": "西徹斯特、Playa Vista 還在洛杉磯市；Culver 才是獨立市。前兩格獨立屋先不並排。"
     },
     {
       "id": "core-sgv-north",
@@ -24,7 +24,7 @@
       "wave": 2,
       "sort": 20,
       "color": "#6B3A3A",
-      "blurbZh": "南帕薩迪納、聖馬利諾、亞凱迪亞、天普市、羅斯密 — 老聖蓋博名校與自住帶"
+      "blurbZh": "南帕、聖馬、亞凱、天普市、羅斯密。學區各做各的，羅斯密還是拼圖。"
     },
     {
       "id": "east-sgv-60",
@@ -33,7 +33,7 @@
       "wave": 1,
       "sort": 30,
       "color": "#C4A06A",
-      "blurbZh": "鑽石吧、沃爾納特、羅蘭崗、哈仙達崗 — LA 縣東緣／60 號公路一帶"
+      "blurbZh": "鑽石吧、Walnut、羅蘭崗、哈仙達崗。哈仙達崗獨立屋先不並排，口徑還沒對齊。"
     },
     {
       "id": "west-ie",
@@ -42,7 +42,7 @@
       "wave": 1,
       "sort": 40,
       "color": "#4A6280",
-      "blurbZh": "奇諾崗、安大略、波莫納 — San Bernardino／LA 交界與物流就業帶"
+      "blurbZh": "奇諾崗、安大略、波莫納。跨縣、物流、舊城，別當東聖蓋博延伸。"
     },
     {
       "id": "west-southbay-oc",
@@ -51,7 +51,7 @@
       "wave": 3,
       "sort": 90,
       "color": "#8A8680",
-      "blurbZh": "托倫斯、爾灣等 — 本期不進大洛杉磯展示圖"
+      "blurbZh": "南灣、橙縣以後再補，這張大圖先不放。"
     }
   ],
   "regions": [
@@ -73,31 +73,31 @@
         "亞裔多數"
       ],
       "basics": {
-        "chineseBelt": "LA 縣建制市。Census QuickFacts：Asian alone 約 62.7%（非台／陸籍細分）。",
-        "schoolBand": "雙學區：Walnut Valley Unified（WVUSD）與 Pomona Unified（PUSD）。市府 FAQ：Grand Avenue 大致分界（北側偏 PUSD、南側偏 WVUSD）— 務必用地址向學區確認。",
+        "chineseBelt": "60、57 交會的山城。華語家庭不少，可是普查寫的亞裔不是台籍比例。日常買菜、補習，很多人還是往羅蘭崗那一帶跑。",
+        "schoolBand": "同一座城可能是 Walnut Valley 或 Pomona Unified。市府說 Grand Ave 大致分界，北側偏 Pomona、南側偏 Walnut Valley——我帶看一定先對地址。",
         "commuteAxes": [
           "CA-60",
           "CA-57"
         ]
       },
       "priceBand": {
-        "sfhRange": "SFH 中位約 $1,234,028（Redfin Living-in）",
-        "condoRange": "Condo/Co-op 中位約 $534,945；Townhouse 中位約 $700,008（Redfin Living-in）。全類型近 3 月中位約 $1,095,478（至 2026-09）",
-        "ageProfile": "屋齡差異大；請以 Listing／縣府建造年為準（本卡無全市屋齡普查來源）。",
-        "hoaMello": "是否有 HOA／Mello-Roos 須逐案查 Title、稅單與 CC&Rs；本卡不做未核對金額。",
+        "sfhRange": "獨立屋中位大約 123 萬（Redfin，近幾個月）。",
+        "condoRange": "Condo 大約 53 萬、聯排大約 70 萬。全類型會低一點，因為混進較小單位，大約 110 萬（至 2026-09）。",
+        "ageProfile": "屋齡差很大，以 listing 跟縣府建造年為準。",
+        "hoaMello": "有沒有 HOA、特別稅，看 title 跟稅單，我這張卡不寫沒核過的金額。",
         "asOf": "2026-09"
       },
       "highlights": {
-        "jobs": "東聖蓋博／60–57 交會帶自住向社區；就業多依賴通勤（本卡無單一產業主導數據）。",
-        "amenities": "Redfin Living-in 列舉在地餐飲與公園（如 Sycamore Canyon Park、Ronald Reagan Park、Diamond Bar Golf Course）；Golden Springs／Diamond Bar Blvd 一帶商業。",
-        "safetyNote": "不引用未核對治安排行。Redfin／First Street：約 93% 房產具某種野火風險敘事 — 保險報價請逐案確認。",
-        "buyerFit": "重視 WVUSD／PUSD 分界的自住家庭；先確認地址學區再談價。"
+        "jobs": "住這裡的人，工作多半在教育醫療、專業服務跟零售，多數還是開車去區域上班，不是鑽石吧自己有大園區。",
+        "amenities": "公園、高爾夫、Golden Springs 那條是日常。週末要熱鬧，很多人會下山。",
+        "safetyNote": "治安分數我沒核過就不講。保險那邊常看到野火風險敘事，報價要逐案問。",
+        "buyerFit": "在意學區、也接受山市節奏的自住家庭。學區沒對完，我不會先談價。"
       },
       "caveats": {
-        "propertyCaveats": "山城／坡地屋常見；屋況、排水與保險（含野火）須實地與保單確認。",
-        "taxCaveats": "Prop 13 基價＋可能之特別稅／評估區 — 以縣稅單為準，勿假設全市一致。",
-        "schoolReality": "同城可能分屬 WVUSD 或 PUSD；成交前用地址查學區官方工具／致電學區。",
-        "pitchLine": "鑽石吧是 LA 縣東緣山市（ZIP 91765）；亞裔比例高（Census Asian alone ~63%），但學區可能是 Walnut Valley 或 Pomona Unified — 先對地址再談。"
+        "propertyCaveats": "坡地屋多，排水、擋土、保險（含野火）現場跟保單一起看。",
+        "taxCaveats": "地稅看縣稅單，特別稅別假設全市一樣。",
+        "schoolReality": "可能是 WVUSD 或 PUSD，成交條件寫明用地址查官方。",
+        "pitchLine": "鑽石吧是 60、57 交會的山城。客人常問學區，可是同一座城可能是 Walnut Valley 或 Pomona Unified，地址沒對完我不會報校名。"
       },
       "lastReviewed": "2026-10-15",
       "sources": [
@@ -124,6 +124,12 @@
           "url": "https://www.census.gov/quickfacts/diamondbarcitycalifornia",
           "date": "2026-10-15",
           "note": "Asian alone 62.7%"
+        },
+        {
+          "label": "Census Reporter ACS 2024 5-year",
+          "url": "https://censusreporter.org/profiles/16000US0619192",
+          "date": "2026-10-15",
+          "note": "ACS 2020–2024 via Census Reporter API; industry C24050 resident employment"
         }
       ],
       "geo": {
@@ -133,17 +139,33 @@
         "kind": "city"
       },
       "snapshot": {
-        "vintage": null,
+        "vintage": "ACS 2020–2024",
         "priorVintage": null,
-        "population": null,
+        "population": 53355,
         "populationDeltaPct": null,
-        "asianAlonePct": null,
-        "hispanicPct": null,
-        "medianIncome": null,
+        "asianAlonePct": 62.7,
+        "hispanicPct": 17.4,
+        "medianIncome": 108281,
         "medianIncomeDeltaPct": null,
-        "bachelorsPlusPct": null,
-        "ownerOccupiedPct": null,
-        "residentIndustry": [],
+        "bachelorsPlusPct": 52.8,
+        "ownerOccupiedPct": 77.3,
+        "residentIndustry": [
+          {
+            "key": "C24050011",
+            "labelZh": "教育醫療",
+            "pct": 22.6
+          },
+          {
+            "key": "C24050010",
+            "labelZh": "專業科學管理",
+            "pct": 13.4
+          },
+          {
+            "key": "C24050006",
+            "labelZh": "零售",
+            "pct": 10.2
+          }
+        ],
         "priceSfh": 1234028,
         "priceAsOf": "2026-09",
         "unit": "place"
@@ -151,8 +173,27 @@
       "media": {
         "locator": "assets/regions/la-locator.svg#diamond-bar"
       },
-      "compareLine": "若你熟 Walnut 的 WVUSD 山市節奏，鑽石吧是同一條 60 廊道、但學區可能是 WVUSD 或 PUSD 的對址功課城。",
-      "trendLine": "東緣山市、亞裔比例高（Census Asian alone）；趨勢數字等 ACS 烘焙，不在這裡編即時漲幅。"
+      "compareLine": "若你熟 Walnut：總價帶接近，大約一百二十萬級的獨立屋。差在鑽石吧學區可能是兩套，Walnut 多數討論指向 Walnut Valley。",
+      "trendLine": "人口五萬出頭，家戶所得中位大概十萬八，自住比例高。這是普查五年估計，拿來看結構，不是今年漲跌。",
+      "explainZh": "我會先講山城，再講雙學區。亞裔比例高可以提，別說成台客比例。",
+      "feelAxes": {
+        "weekend": {
+          "tag": "山城安靜",
+          "line": "平常晚上很靜，週末要熱鬧多半開車下山。"
+        },
+        "school": {
+          "tag": "雙學區對址",
+          "line": "Grand Ave 兩邊可能是 Walnut Valley 或 Pomona Unified，地址沒對完別報校。"
+        },
+        "street": {
+          "tag": "坡地巷弄",
+          "line": "坡地屋多，帶看排水、停車跟保險。"
+        },
+        "chineseLife": {
+          "tag": "商圈要開車",
+          "line": "華語家庭不少，買菜補習很多人往羅蘭崗一帶跑。"
+        }
+      }
     },
     {
       "id": "walnut",
@@ -172,31 +213,31 @@
         "亞裔多數"
       ],
       "basics": {
-        "chineseBelt": "LA 縣建制市。Census QuickFacts：Asian alone 約 69.4%。",
-        "schoolBand": "主要屬 Walnut Valley Unified School District（WVUSD；學區總部／多校位於 Walnut）。鄰近地址仍可能跨 Rowland Unified 等 — 須對址確認。",
+        "chineseBelt": "東聖蓋博山市裡，很多人拿它當標尺。華語家庭比例高，可是普查亞裔不是台籍。超市密度不如羅蘭崗，生活偏自住。",
+        "schoolBand": "多數討論指向 Walnut Valley Unified。學區總部在 Walnut，交界仍可能跨 Rowland Unified，要對址。",
         "commuteAxes": [
           "CA-60",
           "CA-57"
         ]
       },
       "priceBand": {
-        "sfhRange": "SFH 中位約 $1,299,482（Redfin Living-in）",
-        "condoRange": "Condo/Co-op 中位約 $844,913；Townhouse 中位約 $952,000。全類型近 3 月中位約 $1,284,388（至 2026-09）",
-        "ageProfile": "屋齡差異大；以 Listing／縣府建造年為準。",
-        "hoaMello": "逐案查 Title／稅單／CC&Rs；本卡無全市統一 HOA／Mello-Roos 金額來源。",
+        "sfhRange": "獨立屋中位大約 130 萬（Redfin）。",
+        "condoRange": "Condo 大約 84 萬、聯排大約 95 萬。全類型大約 128 萬（至 2026-09）。",
+        "ageProfile": "山市、丘陵，屋齡以建造年為準。",
+        "hoaMello": "逐案看 CC&Rs 跟稅單。",
         "asOf": "2026-09"
       },
       "highlights": {
-        "jobs": "自住向郊區市；就業多依賴區域通勤（無單一產業官方主導數字寫入）。",
-        "amenities": "Redfin Living-in 提及 Valley Blvd／Amar Rd 一帶餐飲與 Suzanne Park、市內步道等。",
-        "safetyNote": "不引用未核對治安排行；保險與實際帶看為準。",
-        "buyerFit": "鎖定 WVUSD、願付較高中位價的自住家庭（相對同廊道其他城）。"
+        "jobs": "居民工作前三是教育醫療、專業服務、零售，多數通勤出去。",
+        "amenities": "Valley Blvd、Amar Rd 一帶有吃飯的地方，還有 Suzanne Park、步道。不是逛街城。",
+        "safetyNote": "治安分數沒核過就不講。保險跟現場帶看為準。",
+        "buyerFit": "想鎖定 Walnut Valley、也接受山市總價的自住家庭。"
       },
       "caveats": {
-        "propertyCaveats": "山坡／丘陵地段常見；屋況與排水需實地檢查。",
-        "taxCaveats": "以 LA County 稅單為準；特別稅逐案確認。",
-        "schoolReality": "多數討論指向 WVUSD，但邊界非「全市單一保證」— 用地址查官方。",
-        "pitchLine": "Walnut（91789）Census 亞裔比例約七成，房價中位在 Wave 1 七城中偏高；先確認是否 WVUSD 再比較鑽石吧／羅蘭崗。"
+        "propertyCaveats": "丘陵地段常見，排水跟屋況要現場看。",
+        "taxCaveats": "以 LA 縣稅單為準，特別稅逐案。",
+        "schoolReality": "多數指向 WVUSD，不是全市保證。用地址查官方。",
+        "pitchLine": "Walnut 是東聖蓋博山市裡常被拿來當標尺的一座。獨立屋大約 130 萬。我先問是不是 Walnut Valley，再拿鑽石吧、羅蘭崗比預算。"
       },
       "lastReviewed": "2026-10-15",
       "sources": [
@@ -223,6 +264,12 @@
           "url": "https://www.census.gov/quickfacts/fact/table/rowlandheightscdpcalifornia,walnutcitycalifornia,diamondbarcitycalifornia/RHI425221",
           "date": "2026-10-15",
           "note": "Asian alone 69.4%"
+        },
+        {
+          "label": "Census Reporter ACS 2024 5-year",
+          "url": "https://censusreporter.org/profiles/16000US0683332",
+          "date": "2026-10-15",
+          "note": "ACS 2020–2024 via Census Reporter API; industry C24050 resident employment"
         }
       ],
       "geo": {
@@ -232,17 +279,33 @@
         "kind": "city"
       },
       "snapshot": {
-        "vintage": null,
+        "vintage": "ACS 2020–2024",
         "priorVintage": null,
-        "population": null,
+        "population": 27611,
         "populationDeltaPct": null,
-        "asianAlonePct": null,
-        "hispanicPct": null,
-        "medianIncome": null,
+        "asianAlonePct": 69.4,
+        "hispanicPct": 17.2,
+        "medianIncome": 129449,
         "medianIncomeDeltaPct": null,
-        "bachelorsPlusPct": null,
-        "ownerOccupiedPct": null,
-        "residentIndustry": [],
+        "bachelorsPlusPct": 57.3,
+        "ownerOccupiedPct": 83.8,
+        "residentIndustry": [
+          {
+            "key": "C24050011",
+            "labelZh": "教育醫療",
+            "pct": 27.5
+          },
+          {
+            "key": "C24050010",
+            "labelZh": "專業科學管理",
+            "pct": 13.4
+          },
+          {
+            "key": "C24050006",
+            "labelZh": "零售",
+            "pct": 9.5
+          }
+        ],
         "priceSfh": 1299482,
         "priceAsOf": "2026-09",
         "unit": "place"
@@ -250,8 +313,27 @@
       "media": {
         "locator": "assets/regions/la-locator.svg#walnut"
       },
-      "compareLine": "Wave 1 裡 SFH 中位與亞裔比例都偏高的標尺城；先用它當東 SGV 天花板，再往鑽石吧／羅蘭崗比預算。",
-      "trendLine": "自住向郊區市，就業多靠區域通勤；ACS 人口／所得變化待烘焙。"
+      "compareLine": "同廊道裡所得跟亞裔比例都偏高。要比機能往羅蘭崗，要比學區單純度先確認 WVUSD，鑽石吧則多一道雙學區功課。",
+      "trendLine": "人口大約兩萬八，家戶所得中位大約十三萬。自住、教育醫療通勤族偏多。普查五年估計，不是今年行情。",
+      "explainZh": "先問學區是不是 Walnut Valley，再比鑽石吧預算。別把亞裔比例講成台籍。",
+      "feelAxes": {
+        "weekend": {
+          "tag": "山城安靜",
+          "line": "自住節奏，不是逛街城。"
+        },
+        "school": {
+          "tag": "多數單一學區",
+          "line": "多數討論指向 Walnut Valley，交界還是要對址。"
+        },
+        "street": {
+          "tag": "坡地巷弄",
+          "line": "丘陵地段常見，屋況跟排水要現場看。"
+        },
+        "chineseLife": {
+          "tag": "商圈要開車",
+          "line": "生活圈在東聖蓋博，超市密度不如羅蘭崗。"
+        }
+      }
     },
     {
       "id": "rowland-heights",
@@ -271,30 +353,30 @@
         "華人商圈"
       ],
       "basics": {
-        "chineseBelt": "LA County 未建制 CDP（非獨立市）。Census：Asian alone 約 61.3%。Redfin Living-in 稱其為區域華人文化／商業活動中心之一。",
-        "schoolBand": "Rowland Unified School District（學區地址在 Rowland Heights；CDE／學區官網）。",
+        "chineseBelt": "這不是市，是縣裡的未建制社區。華語圈很熟這裡的超市、餐廳，週末 Colima 一帶常常滿的。市政服務走縣府，不是自己有市府。",
+        "schoolBand": "主軸 Rowland Unified，還是用地址確認。",
         "commuteAxes": [
           "CA-60"
         ]
       },
       "priceBand": {
-        "sfhRange": "SFH 中位約 $938,626（Redfin Living-in）",
-        "condoRange": "Condo/Co-op 中位約 $457,953；Townhouse 中位約 $840,000。全類型近 3 月中位約 $937,554（至 2026-09）",
-        "ageProfile": "屋齡差異大；以 Listing／縣府建造年為準。",
-        "hoaMello": "逐案查稅單／CC&Rs；本卡無統一金額。",
+        "sfhRange": "獨立屋中位大約 94 萬（Redfin）。",
+        "condoRange": "Condo 大約 46 萬、聯排大約 84 萬。全類型大約 94 萬（至 2026-09）。",
+        "ageProfile": "住商混雜，屋齡以建造年為準。",
+        "hoaMello": "Condo 較常見 HOA；獨立屋逐案。",
         "asOf": "2026-09"
       },
       "highlights": {
-        "jobs": "自住＋區域商業（Colima／Fullerton Rd 一帶餐飲零售常見於公開指南）。",
-        "amenities": "Redfin Living-in 提及 Colima Rd 餐飲與 Peter F. Schabarum Regional Park 等。",
-        "safetyNote": "不引用未核對治安排行。Redfin：Fire Factor 敘事顯示多數房產具某種野火風險 — 保險逐案確認。",
-        "buyerFit": "要華人生活圈機能、預算低於 Walnut／部分 Diamond Bar SFH 中位的自住或首購比較者。"
+        "jobs": "住這裡的人，工作前三是教育醫療、餐旅、零售。商圈熱鬧，不代表人人在當地上班。",
+        "amenities": "華語超市、餐廳密。幹道熱鬧，巷內才比較像住家。",
+        "safetyNote": "治安分數沒核過就不講。保險頁常看到野火風險敘事，逐案問。",
+        "buyerFit": "要華語生活圈機能、總價低於 Walnut 一帶的自住或首購比較。"
       },
       "caveats": {
-        "propertyCaveats": "CDP 服務由縣府／特別區提供，與「市」治理不同；查清水電、垃圾、執法管轄。",
-        "taxCaveats": "LA County 稅單為準；特別評估逐案。",
-        "schoolReality": "以 Rowland Unified 為主軸，仍須地址確認校區。",
-        "pitchLine": "羅蘭崗是未建制 CDP（91748），不是市；華人商業氛圍強（Redfin 指南用語），學區看 Rowland Unified，全類型中位約 $94 萬級（2026-09 Redfin）。"
+        "propertyCaveats": "幹道跟巷內差很多，帶看分清。",
+        "taxCaveats": "未建制社區，稅跟特別區以稅單為準。",
+        "schoolReality": "主軸 Rowland Unified，交界仍要對址。",
+        "pitchLine": "羅蘭崗不是市，是縣裡的社區。華語圈很熟這裡的超市餐廳，獨立屋大約 94 萬。學區看 Rowland Unified，地址還是要對。"
       },
       "lastReviewed": "2026-10-15",
       "sources": [
@@ -327,6 +409,12 @@
           "url": "https://www.census.gov/quickfacts/fact/table/rowlandheightscdpcalifornia,walnutcitycalifornia,diamondbarcitycalifornia/RHI425221",
           "date": "2026-10-15",
           "note": "Asian alone 61.3%"
+        },
+        {
+          "label": "Census Reporter ACS 2024 5-year",
+          "url": "https://censusreporter.org/profiles/16000US0663218",
+          "date": "2026-10-15",
+          "note": "ACS 2020–2024 via Census Reporter API; industry C24050 resident employment"
         }
       ],
       "geo": {
@@ -336,26 +424,61 @@
         "kind": "cdp"
       },
       "snapshot": {
-        "vintage": null,
+        "vintage": "ACS 2020–2024",
         "priorVintage": null,
-        "population": null,
+        "population": 45911,
         "populationDeltaPct": null,
-        "asianAlonePct": null,
-        "hispanicPct": null,
-        "medianIncome": null,
+        "asianAlonePct": 61.3,
+        "hispanicPct": 29.5,
+        "medianIncome": 85617,
         "medianIncomeDeltaPct": null,
-        "bachelorsPlusPct": null,
-        "ownerOccupiedPct": null,
-        "residentIndustry": [],
+        "bachelorsPlusPct": 36.1,
+        "ownerOccupiedPct": 68.0,
+        "residentIndustry": [
+          {
+            "key": "C24050011",
+            "labelZh": "教育醫療",
+            "pct": 17.6
+          },
+          {
+            "key": "C24050012",
+            "labelZh": "餐旅娛樂",
+            "pct": 13.1
+          },
+          {
+            "key": "C24050006",
+            "labelZh": "零售",
+            "pct": 11.1
+          }
+        ],
         "priceSfh": 938626,
         "priceAsOf": "2026-09",
-        "unit": "cdp"
+        "unit": "place"
       },
       "media": {
         "locator": "assets/regions/la-locator.svg#rowland-heights"
       },
-      "compareLine": "不是市、是 CDP；華人商業機能強、SFH 中位低於 Walnut／部分鑽石吧，學區主軸 Rowland Unified。",
-      "trendLine": "未建制社區的服務與「市」不同；結構趨勢看 ACS，不把商圈熱鬧寫成保證升值。"
+      "compareLine": "比 Walnut、鑽石吧便宜一截，機能卻更滿。差在它不是市，市政跟服務跟建制市不一樣。",
+      "trendLine": "人口四萬六左右，家戶所得中位大約八萬六。餐旅比重比旁邊山市高一點，跟商圈性格合。普查五年估計。",
+      "explainZh": "開場先講：這不是市。商圈可以誇，市政別講得跟 Culver、Walnut 一樣。",
+      "feelAxes": {
+        "weekend": {
+          "tag": "商圈滿位",
+          "line": "週末 Colima、超市、餐廳是滿的，這就是客人要的機能。"
+        },
+        "school": {
+          "tag": "多數單一學區",
+          "line": "主軸 Rowland Unified，還是用地址確認。"
+        },
+        "street": {
+          "tag": "主幹道混住商",
+          "line": "幹道熱鬧，巷內才比較像住家。"
+        },
+        "chineseLife": {
+          "tag": "超市補習密集",
+          "line": "華語圈常把這裡當東邊買菜、吃飯的一站。"
+        }
+      }
     },
     {
       "id": "hacienda-heights",
@@ -374,30 +497,30 @@
         "60廊道"
       ],
       "basics": {
-        "chineseBelt": "LA County 未建制 CDP。Census：Asian alone 約 42.4%；Hispanic or Latino 約 43.7%（多元社區，非單一族群標籤）。",
-        "schoolBand": "Hacienda La Puente Unified School District（HLPUSD；學區說明涵蓋 Hacienda Heights 等未建制區）。",
+        "chineseBelt": "一樣是未建制社區，可是別跟羅蘭崗混成同一個崗。亞裔跟西語裔都高，進來的客人不是單一客群。",
+        "schoolBand": "Hacienda La Puente Unified。",
         "commuteAxes": [
           "CA-60"
         ]
       },
       "priceBand": {
-        "sfhRange": "全類型中位約 $970,500（Redfin ZIP 91745｜近 3 個月至 2026-08）。未取得與他城同頁口徑的 SFH 單獨中位。",
-        "condoRange": "未核對到與 Diamond Bar／Walnut 同口徑的 Condo 分拆中位 — 請逐案查 MLS。",
-        "ageProfile": "屋齡差異大；以 Listing／縣府建造年為準。",
-        "hoaMello": "逐案查稅單／CC&Rs。",
+        "sfhRange": "獨立屋單獨中位我還沒跟他城對上同一口徑，對照條先空著。",
+        "condoRange": "ZIP 91745 全類型大約 97 萬（至 2026-08）。這是全類型，不是獨立屋軸。",
+        "ageProfile": "住商都有，屋齡以建造年為準。",
+        "hoaMello": "逐案看稅單、CC&Rs。",
         "asOf": "2026-08"
       },
       "highlights": {
-        "jobs": "自住向未建制社區；就業多依賴區域通勤。",
-        "amenities": "公開資料未在本卡寫入未核對的「必吃清單」；帶看時依客戶需求標點。",
-        "safetyNote": "不引用未核對治安排行。",
-        "buyerFit": "預算接近 Rowland Heights 全類型中位、學區走 HLPUSD 的自住比較者。"
+        "jobs": "居民工作前三是教育醫療、專業服務、零售，多數通勤。",
+        "amenities": "比山市方便一點，比羅蘭崗安靜一點，看你停在哪一條。",
+        "safetyNote": "治安分數沒核過就不講。",
+        "buyerFit": "學區走 HLPUSD、想跟羅蘭崗比機能可是不要同一套標籤的自住比較。"
       },
       "caveats": {
-        "propertyCaveats": "CDP：市政服務與建制市不同，確認管轄與公用事業。",
-        "taxCaveats": "LA County 稅單為準。",
-        "schoolReality": "HLPUSD 範圍跨多城／未建制區；地址決定學校。",
-        "pitchLine": "哈仙達崗是 CDP（91745），學區 HLPUSD；Redfin ZIP 全類型中位約 $97 萬（至 2026-08）。亞裔與西語裔比例接近（Census），不要預設單一客群。"
+        "propertyCaveats": "幹道跟住宅巷差很多。",
+        "taxCaveats": "未建制，稅單為準。",
+        "schoolReality": "HLPUSD，不要講成 Rowland Unified。",
+        "pitchLine": "哈仙達崗也是未建制社區，學區是 Hacienda La Puente。全類型大約 97 萬，獨立屋我還沒跟他城對上同一口徑，所以對照條先空著，不是沒有市場。"
       },
       "lastReviewed": "2026-10-15",
       "sources": [
@@ -418,6 +541,12 @@
           "url": "https://www.census.gov/quickfacts/fact/table/haciendaheightscdpcalifornia,chinohillscitycalifornia,ontariocitycalifornia,pomonacitycalifornia/PST045224",
           "date": "2026-10-15",
           "note": "Asian alone 42.4%; Hispanic 43.7%"
+        },
+        {
+          "label": "Census Reporter ACS 2024 5-year",
+          "url": "https://censusreporter.org/profiles/16000US0631596",
+          "date": "2026-10-15",
+          "note": "ACS 2020–2024 via Census Reporter API; industry C24050 resident employment"
         }
       ],
       "geo": {
@@ -427,26 +556,61 @@
         "kind": "cdp"
       },
       "snapshot": {
-        "vintage": null,
+        "vintage": "ACS 2020–2024",
         "priorVintage": null,
-        "population": null,
+        "population": 54291,
         "populationDeltaPct": null,
-        "asianAlonePct": null,
-        "hispanicPct": null,
-        "medianIncome": null,
+        "asianAlonePct": 42.4,
+        "hispanicPct": 43.7,
+        "medianIncome": 109193,
         "medianIncomeDeltaPct": null,
-        "bachelorsPlusPct": null,
-        "ownerOccupiedPct": null,
-        "residentIndustry": [],
+        "bachelorsPlusPct": 35.1,
+        "ownerOccupiedPct": 75.5,
+        "residentIndustry": [
+          {
+            "key": "C24050011",
+            "labelZh": "教育醫療",
+            "pct": 20.6
+          },
+          {
+            "key": "C24050010",
+            "labelZh": "專業科學管理",
+            "pct": 12.0
+          },
+          {
+            "key": "C24050006",
+            "labelZh": "零售",
+            "pct": 10.6
+          }
+        ],
         "priceSfh": null,
         "priceAsOf": "2026-08",
-        "unit": "cdp"
+        "unit": "place"
       },
       "media": {
         "locator": "assets/regions/la-locator.svg#hacienda-heights"
       },
-      "compareLine": "不要和羅蘭崗混成同一個華人崗：Census 亞裔與西語裔比例接近，學區 HLPUSD；SFH 單獨中位尚未與他城對齊，對照條先空白。",
-      "trendLine": "多元社區，不是單一客群標籤；人口／所得趨勢等 ACS。"
+      "compareLine": "別跟羅蘭崗混。客群更混、學區不同。獨立屋中位我沒對上同一頁，比價先用文字講全類型，不要硬並排。",
+      "trendLine": "人口五萬四左右，亞裔、西語裔都四成出頭。家戶所得中位大約十一萬。普查五年估計。",
+      "explainZh": "獨立屋格子空著是因為口徑還沒對齊，我會改口講全類型。客群別預設都是華語。",
+      "feelAxes": {
+        "weekend": {
+          "tag": "住商都有",
+          "line": "比山市方便一點，比羅蘭崗安靜一點，看你停在哪一條。"
+        },
+        "school": {
+          "tag": "多數單一學區",
+          "line": "走 Hacienda La Puente Unified。"
+        },
+        "street": {
+          "tag": "主幹道混住商",
+          "line": "別跟羅蘭崗混成同一個崗，學區跟客群都不一樣。"
+        },
+        "chineseLife": {
+          "tag": "華語圈在、不是單一客群",
+          "line": "亞裔跟西語裔都高，別預設進來的都是華語客人。"
+        }
+      }
     },
     {
       "id": "chino-hills",
@@ -466,8 +630,8 @@
         "規劃社區"
       ],
       "basics": {
-        "chineseBelt": "San Bernardino County 建制市（1991-12-01 建市，市府 Demographics）。Census：Asian alone 約 41.0%。",
-        "schoolBand": "Chino Valley Unified School District（市府 Schools 頁列校並連至學區）。",
+        "chineseBelt": "已經是聖伯納丁諾縣的市，1991 年建市。規劃社區味道濃，華語家庭有，生活圈密度還是不如羅蘭崗。",
+        "schoolBand": "Chino Valley Unified。",
         "commuteAxes": [
           "CA-71",
           "CA-60",
@@ -475,23 +639,23 @@
         ]
       },
       "priceBand": {
-        "sfhRange": "SFH 中位約 $1,064,576（Redfin Living-in）",
-        "condoRange": "Condo/Co-op 中位約 $537,945；Townhouse 中位約 $595,007。全類型近 3 月中位約 $985,000（housing-market 至 2026-08）／Living-in 顯示約 $984,531",
-        "ageProfile": "市府歷史：1982 年 Chino Hills Specific Plan 後規劃發展色彩強；1991 建市。個別屋齡仍以建造年為準。",
-        "hoaMello": "規劃社區常見 HOA；是否含 Mello-Roos／特別稅須逐案查稅單與 CC&Rs（本卡無統一金額）。",
+        "sfhRange": "獨立屋中位大約 106 萬（Redfin）。",
+        "condoRange": "Condo 大約 54 萬、聯排大約 60 萬。全類型大約 98 到 99 萬級。",
+        "ageProfile": "1990 年代後規劃為主，各村不同。",
+        "hoaMello": "規劃村常見 HOA；特別稅看稅單。",
         "asOf": "2026-08"
       },
       "highlights": {
-        "jobs": "市府／Redfin 強調開闊空間與通勤區位（鄰 LA／OC 邊界）；非單一產業城。",
-        "amenities": "市府與 Redfin 提及大量公園／步道與 Chino Hills State Park；Chino Hills Pkwy／City Center 商業。",
-        "safetyNote": "不引用未核對治安排行。",
-        "buyerFit": "要規劃社區、CVUSD、可接受往 IE／71 廊道的自住家庭。"
+        "jobs": "居民前三是教育醫療、專業服務、製造，多數還是區域通勤。",
+        "amenities": "公園、商場在規劃裡轉。通勤軸換成 71、60、91。",
+        "safetyNote": "治安分數沒核過就不講。",
+        "buyerFit": "接受跨出 LA 縣、要規劃社區跟 CVUSD 的自住家庭。"
       },
       "caveats": {
-        "propertyCaveats": "丘陵／規劃村；HOA 規則與景觀維護費常見 — 讀 CC&Rs。",
-        "taxCaveats": "San Bernardino County 稅單；特別稅／評估區逐案。",
-        "schoolReality": "以 CVUSD 為主；仍用地址確認。",
-        "pitchLine": "奇諾崗是聖伯納丁諾縣市（91709，1991 建市），學區 Chino Valley Unified；SFH 中位約 $106 萬、全類型約 $98–99 萬級（Redfin 2026 夏／秋）。"
+        "propertyCaveats": "規劃村常見 HOA，逐案讀。",
+        "taxCaveats": "聖伯納丁諾縣稅單；特別稅別略過。",
+        "schoolReality": "CVUSD，不要講成 Walnut Valley。",
+        "pitchLine": "奇諾崗是聖伯納丁諾縣的市，不是東聖蓋博延伸。學區 Chino Valley Unified，獨立屋大約 106 萬。規劃整齊，HOA 跟特別稅要逐案。"
       },
       "lastReviewed": "2026-10-15",
       "sources": [
@@ -530,6 +694,12 @@
           "url": "https://www.census.gov/quickfacts/fact/table/haciendaheightscdpcalifornia,chinohillscitycalifornia,ontariocitycalifornia,pomonacitycalifornia/PST045224",
           "date": "2026-10-15",
           "note": "Asian alone 41.0%"
+        },
+        {
+          "label": "Census Reporter ACS 2024 5-year",
+          "url": "https://censusreporter.org/profiles/16000US0613214",
+          "date": "2026-10-15",
+          "note": "ACS 2020–2024 via Census Reporter API; industry C24050 resident employment"
         }
       ],
       "geo": {
@@ -539,17 +709,33 @@
         "kind": "city"
       },
       "snapshot": {
-        "vintage": null,
+        "vintage": "ACS 2020–2024",
         "priorVintage": null,
-        "population": null,
+        "population": 77927,
         "populationDeltaPct": null,
-        "asianAlonePct": null,
-        "hispanicPct": null,
-        "medianIncome": null,
+        "asianAlonePct": 41.0,
+        "hispanicPct": 27.3,
+        "medianIncome": 126334,
         "medianIncomeDeltaPct": null,
-        "bachelorsPlusPct": null,
-        "ownerOccupiedPct": null,
-        "residentIndustry": [],
+        "bachelorsPlusPct": 48.1,
+        "ownerOccupiedPct": 69.2,
+        "residentIndustry": [
+          {
+            "key": "C24050011",
+            "labelZh": "教育醫療",
+            "pct": 24.8
+          },
+          {
+            "key": "C24050010",
+            "labelZh": "專業科學管理",
+            "pct": 11.4
+          },
+          {
+            "key": "C24050004",
+            "labelZh": "製造",
+            "pct": 10.2
+          }
+        ],
         "priceSfh": 1064576,
         "priceAsOf": "2026-08",
         "unit": "place"
@@ -557,8 +743,27 @@
       "media": {
         "locator": "assets/regions/la-locator.svg#chino-hills"
       },
-      "compareLine": "跨出 LA 縣、進聖伯納丁諾的規劃山城；價位接近東 SGV 中段，學區換成 CVUSD，通勤軸變 71／60／91。",
-      "trendLine": "1991 建市、規劃社區色彩強；HOA／特別稅須逐案，不把規劃感寫成無風險。"
+      "compareLine": "價位接近東聖蓋博中段，可是縣、學區、通勤軸都換了。拿鑽石吧來比總價可以，拿學區來套不行。",
+      "trendLine": "人口將近八萬，家戶所得中位大約十三萬。規劃社區、自住偏多。普查五年估計。",
+      "explainZh": "先講跨縣。規劃社區可以誇，別講成沒有 HOA、沒有特別稅。",
+      "feelAxes": {
+        "weekend": {
+          "tag": "規劃社區內轉",
+          "line": "公園、商場在規劃裡轉，比較不像聖蓋博逛街。"
+        },
+        "school": {
+          "tag": "多數單一學區",
+          "line": "Chino Valley Unified，已經跨出 LA 縣。"
+        },
+        "street": {
+          "tag": "規劃社區",
+          "line": "1991 建市，HOA、特別稅要逐案查。"
+        },
+        "chineseLife": {
+          "tag": "要開車回東 SGV",
+          "line": "華語機能有，密度還是不如羅蘭崗。"
+        }
+      }
     },
     {
       "id": "ontario",
@@ -580,8 +785,8 @@
         "10號公路"
       ],
       "basics": {
-        "chineseBelt": "San Bernardino County 大城。Census：Asian alone 約 9.8%；Hispanic or Latino 約 68.6%。非華人多數城 — 勿用東 SGV 標籤套用。",
-        "schoolBand": "市府 Education 頁列多學區：Ontario-Montclair（K-8 為主）、Mountain View、Chaffey Joint Union High、另有區域涉及 Chino Valley Unified／Cucamonga 等 — **必須用地址查**。",
+        "chineseBelt": "機場、物流城，不是東聖蓋博延伸社區。華語圈討論少，別拿山市那套生活圈期待套過來。",
+        "schoolBand": "市府列出 Ontario-Montclair、Mountain View、Chaffey 高中，還可能碰到 Chino Valley、Cucamonga。地址沒對完，我不會報校名。",
         "commuteAxes": [
           "I-10",
           "I-15",
@@ -589,23 +794,23 @@
         ]
       },
       "priceBand": {
-        "sfhRange": "SFH 中位約 $723,268（Redfin Living-in）",
-        "condoRange": "Condo/Co-op 中位約 $549,943；Townhouse 中位約 $563,997。全類型近 3 月中位約 $657,687（至 2026-09）",
-        "ageProfile": "涵蓋舊城與新開發（如 Ontario Ranch／Mountain View 學區一帶）；屋齡必須逐案。",
-        "hoaMello": "新規劃區較常見 HOA／特別稅 — 逐案查稅單與 CC&Rs。",
+        "sfhRange": "獨立屋中位大約 72 萬（Redfin）。",
+        "condoRange": "Condo 大約 55 萬、聯排大約 56 萬。全類型大約 66 萬（至 2026-09）。",
+        "ageProfile": "舊城跟各區差很大。",
+        "hoaMello": "逐案查稅單、CC&Rs。",
         "asOf": "2026-09"
       },
       "highlights": {
-        "jobs": "Census Economic Census：運輸倉儲營收規模顯著（物流／倉儲就業敘事有數據支撐）；另有 Ontario International Airport、Ontario Mills 等公開地標。",
-        "amenities": "Ontario Mills、機場走廊商業；華人生活圈密度低於東 SGV（對照 Census 亞裔比例）。",
-        "safetyNote": "不引用未核對治安排行；分區差異大，帶看為準。",
-        "buyerFit": "預算明顯低於東 SGV 山市、可接受多學區與物流城特質的買家。"
+        "jobs": "本地確實有機場、倉儲的故事。住在這裡的人，工作前三是教育醫療、零售、運輸倉儲——居民就業跟本地崗位不是同一件事。",
+        "amenities": "機能看區。別用東聖蓋博週末商圈來想像。",
+        "safetyNote": "治安分數沒核過就不講。分區差異大，帶看為準。",
+        "buyerFit": "預算明顯低於東聖蓋博山市、能接受多學區跟物流城特質的買家。"
       },
       "caveats": {
-        "propertyCaveats": "ZIP／社區差異大（91761／91762／91764）；舊屋與新屋混雜。",
-        "taxCaveats": "San Bernardino County；新區特別稅風險需讀稅單。",
-        "schoolReality": "多學區拼圖 — 成交條件應寫明學區確認步驟。",
-        "pitchLine": "安大略是物流與機場城（非華人多數）；全類型中位約 $66 萬、SFH 約 $72 萬（Redfin 至 2026-09），但學區可能跨 OMSD／Mountain View／Chaffey 等 — 先對地址。"
+        "propertyCaveats": "各區差很多，一定要分區帶看。",
+        "taxCaveats": "聖伯納丁諾縣稅單為準。",
+        "schoolReality": "拼圖學區，成交條件寫明對址。",
+        "pitchLine": "安大略是機場、物流城，獨立屋大約 72 萬。學區可能跨好幾套，地址沒對完我不會報校名。別把它當成東聖蓋博比較便宜的延伸。"
       },
       "lastReviewed": "2026-10-15",
       "sources": [
@@ -638,6 +843,12 @@
           "url": "https://www.census.gov/quickfacts/fact/table/haciendaheightscdpcalifornia,chinohillscitycalifornia,ontariocitycalifornia,pomonacitycalifornia/PST045224",
           "date": "2026-10-15",
           "note": "Asian 9.8%; Hispanic 68.6%; transportation receipts"
+        },
+        {
+          "label": "Census Reporter ACS 2024 5-year",
+          "url": "https://censusreporter.org/profiles/16000US0653896",
+          "date": "2026-10-15",
+          "note": "ACS 2020–2024 via Census Reporter API; industry C24050 resident employment"
         }
       ],
       "geo": {
@@ -647,17 +858,33 @@
         "kind": "city"
       },
       "snapshot": {
-        "vintage": null,
+        "vintage": "ACS 2020–2024",
         "priorVintage": null,
-        "population": null,
+        "population": 180547,
         "populationDeltaPct": null,
-        "asianAlonePct": null,
-        "hispanicPct": null,
-        "medianIncome": null,
+        "asianAlonePct": 9.8,
+        "hispanicPct": 68.6,
+        "medianIncome": 88941,
         "medianIncomeDeltaPct": null,
-        "bachelorsPlusPct": null,
-        "ownerOccupiedPct": null,
-        "residentIndustry": [],
+        "bachelorsPlusPct": 22.5,
+        "ownerOccupiedPct": 58.0,
+        "residentIndustry": [
+          {
+            "key": "C24050011",
+            "labelZh": "教育醫療",
+            "pct": 19.0
+          },
+          {
+            "key": "C24050006",
+            "labelZh": "零售",
+            "pct": 13.2
+          },
+          {
+            "key": "C24050007",
+            "labelZh": "運輸倉儲公用",
+            "pct": 13.1
+          }
+        ],
         "priceSfh": 723268,
         "priceAsOf": "2026-09",
         "unit": "place"
@@ -665,8 +892,27 @@
       "media": {
         "locator": "assets/regions/la-locator.svg#ontario"
       },
-      "compareLine": "若客人熟鑽石吧的山市節奏，安大略是更低總價、物流與機場就業、學區必須對址的入口城——不是東 SGV 的延伸社區。",
-      "trendLine": "運輸倉儲有 Economic Census 支撐；居民產業與本地崗位不是同一件事，本卡只講居民就業。"
+      "compareLine": "鑽石吧獨立屋大約 123 萬，安大大約 72 萬。總價可以比，客群、學區、生活圈不是同一件事。",
+      "trendLine": "人口十八萬級，西語裔約七成，亞裔約一成。家戶所得中位大約九萬。普查五年估計。",
+      "explainZh": "先講物流城，再講學區拼圖。華語客人若用山市標準來問，我會直接拆開。",
+      "feelAxes": {
+        "weekend": {
+          "tag": "機場物流節奏",
+          "line": "不是週末逛街城，比較是機場、倉儲、上班的節奏。"
+        },
+        "school": {
+          "tag": "學區拼圖",
+          "line": "可能跨好幾個學區，地址沒對完我不會報校名。"
+        },
+        "street": {
+          "tag": "舊城分區差大",
+          "line": "各區差很多，一定要分區帶看。"
+        },
+        "chineseLife": {
+          "tag": "華語圈討論少",
+          "line": "別拿東聖蓋博的生活圈期待套過來。"
+        }
+      }
     },
     {
       "id": "pomona",
@@ -688,8 +934,8 @@
         "首購友善價位"
       ],
       "basics": {
-        "chineseBelt": "LA 縣建制市。Census：Asian alone 約 10.7%；Hispanic or Latino 約 71.8%。",
-        "schoolBand": "Pomona Unified School District（PUSD；官網載明服務 Pomona 與 Diamond Bar 部分社區）。",
+        "chineseBelt": "LA 縣的市，可是別套鑽石吧、Walnut 的山市標籤。舊城跟各郵遞區號差很大。",
+        "schoolBand": "Pomona Unified。官網寫服務 Pomona 跟鑽石吧部分社區，所以可以拿來當鑽石吧學區對照。",
         "commuteAxes": [
           "I-10",
           "CA-57",
@@ -697,23 +943,23 @@
         ]
       },
       "priceBand": {
-        "sfhRange": "SFH 中位約 $689,725（Redfin Living-in）",
-        "condoRange": "Condo/Co-op 中位約 $417,957；Townhouse 中位約 $599,997。全類型 Living-in 中位約 $659,686（與 housing-market 近 3 月約 $66 萬級一致）",
-        "ageProfile": "舊城與各鄰里差異大；以建造年為準。",
-        "hoaMello": "逐案查稅單／CC&Rs。",
+        "sfhRange": "獨立屋中位大約 69 萬（Redfin）。",
+        "condoRange": "Condo 大約 42 萬、聯排大約 60 萬。全類型大約 66 萬。",
+        "ageProfile": "舊城跟各鄰里差很大。",
+        "hoaMello": "逐案查稅單、CC&Rs。",
         "asOf": "2026-08"
       },
       "highlights": {
-        "jobs": "區域就業＋高等教育／展會（Cal Poly Pomona、Fairplex 為公開地標）。",
-        "amenities": "Downtown／Fairplex 一帶；華人生活圈密度低於東 SGV。",
-        "safetyNote": "不引用未核對治安排行；鄰里差異大。",
-        "buyerFit": "Wave 1 中價位帶偏低的自住／首購比較；需接受 PUSD 與社區差異。"
+        "jobs": "附近有 Cal Poly Pomona、Fairplex。居民工作前三是教育醫療、零售、專業服務。",
+        "amenities": "Downtown、Fairplex 一帶。華語生活圈密度低於東聖蓋博。",
+        "safetyNote": "治安分數沒核過就不講。鄰里差很大。",
+        "buyerFit": "總價帶偏低的自住或首購比較，要接受社區差異跟 PUSD。"
       },
       "caveats": {
-        "propertyCaveats": "ZIP 91766／91767／91768 特質不同；務必分區帶看。",
-        "taxCaveats": "LA County 稅單為準。",
-        "schoolReality": "PUSD；Diamond Bar 部分地址也可能是 PUSD（與 WVUSD 對照）。",
-        "pitchLine": "波莫納（LA 縣市）全類型／SFH 中位約 $66–69 萬級（Redfin）；學區 PUSD。不要把它和鑽石吧／Walnut 的亞裔山市標籤混為一談（Census 亞裔約 11%）。"
+        "propertyCaveats": "91766、67、68 特質不同，分開帶看。",
+        "taxCaveats": "LA 縣稅單為準。",
+        "schoolReality": "PUSD；鑽石吧部分地址也可能是 PUSD。",
+        "pitchLine": "波莫納是 LA 縣市，獨立屋大約 66 到 69 萬。學區 Pomona Unified。別跟鑽石吧、Walnut 的山市混為一談。"
       },
       "lastReviewed": "2026-10-15",
       "sources": [
@@ -746,6 +992,12 @@
           "url": "https://www.census.gov/quickfacts/fact/table/haciendaheightscdpcalifornia,chinohillscitycalifornia,ontariocitycalifornia,pomonacitycalifornia/PST045224",
           "date": "2026-10-15",
           "note": "Asian 10.7%; Hispanic 71.8%"
+        },
+        {
+          "label": "Census Reporter ACS 2024 5-year",
+          "url": "https://censusreporter.org/profiles/16000US0658072",
+          "date": "2026-10-15",
+          "note": "ACS 2020–2024 via Census Reporter API; industry C24050 resident employment"
         }
       ],
       "geo": {
@@ -755,17 +1007,33 @@
         "kind": "city"
       },
       "snapshot": {
-        "vintage": null,
+        "vintage": "ACS 2020–2024",
         "priorVintage": null,
-        "population": null,
+        "population": 147943,
         "populationDeltaPct": null,
-        "asianAlonePct": null,
-        "hispanicPct": null,
-        "medianIncome": null,
+        "asianAlonePct": 10.7,
+        "hispanicPct": 71.8,
+        "medianIncome": 79479,
         "medianIncomeDeltaPct": null,
-        "bachelorsPlusPct": null,
-        "ownerOccupiedPct": null,
-        "residentIndustry": [],
+        "bachelorsPlusPct": 20.3,
+        "ownerOccupiedPct": 54.0,
+        "residentIndustry": [
+          {
+            "key": "C24050011",
+            "labelZh": "教育醫療",
+            "pct": 20.5
+          },
+          {
+            "key": "C24050006",
+            "labelZh": "零售",
+            "pct": 12.7
+          },
+          {
+            "key": "C24050010",
+            "labelZh": "專業科學管理",
+            "pct": 10.8
+          }
+        ],
         "priceSfh": 689725,
         "priceAsOf": "2026-08",
         "unit": "place"
@@ -773,8 +1041,27 @@
       "media": {
         "locator": "assets/regions/la-locator.svg#pomona"
       },
-      "compareLine": "價位帶接近安大略，但是 LA 縣市、學區 PUSD；也可當鑽石吧學區對照（部分鑽石吧地址也是 PUSD）。",
-      "trendLine": "舊城與各 ZIP 差異大；Census 亞裔約一成，不要套東 SGV 山市標籤。ACS 趨勢待烘焙。"
+      "compareLine": "價位接近安大略，可是縣不一樣、學區是 PUSD。鑽石吧有些地址也是 PUSD，客人糾結學區時可以拿來對照。",
+      "trendLine": "人口十五萬級，西語裔約七成，亞裔約一成。家戶所得中位大約八萬。普查五年估計。",
+      "explainZh": "先拆山市標籤，再講 PUSD 跟分區。總價可以跟安大略放一起比。",
+      "feelAxes": {
+        "weekend": {
+          "tag": "舊城分區差大",
+          "line": "Downtown、Fairplex 附近跟各郵遞區號感覺不一樣。"
+        },
+        "school": {
+          "tag": "多數單一學區",
+          "line": "Pomona Unified；鑽石吧有些地址也是這套，可以當對照。"
+        },
+        "street": {
+          "tag": "舊城分區差大",
+          "line": "91766、67、68 要分開看，不要整城一句話帶過。"
+        },
+        "chineseLife": {
+          "tag": "華語圈討論少",
+          "line": "別跟鑽石吧、Walnut 的山市標籤混在一起。"
+        }
+      }
     },
     {
       "id": "westchester",
@@ -783,7 +1070,7 @@
       "nameEn": "Westchester",
       "clusterId": "westside-lax",
       "wave": 2,
-      "status": "draft",
+      "status": "review",
       "zips": [
         "90045"
       ],
@@ -800,17 +1087,33 @@
         "kind": "zcta"
       },
       "snapshot": {
-        "vintage": null,
+        "vintage": "ACS 2020–2024",
         "priorVintage": null,
-        "population": null,
+        "population": 41786,
         "populationDeltaPct": null,
-        "asianAlonePct": null,
-        "hispanicPct": null,
-        "medianIncome": null,
+        "asianAlonePct": 15.9,
+        "hispanicPct": 20.1,
+        "medianIncome": 135032,
         "medianIncomeDeltaPct": null,
-        "bachelorsPlusPct": null,
-        "ownerOccupiedPct": null,
-        "residentIndustry": [],
+        "bachelorsPlusPct": 63.4,
+        "ownerOccupiedPct": 47.2,
+        "residentIndustry": [
+          {
+            "key": "C24050010",
+            "labelZh": "專業科學管理",
+            "pct": 22.9
+          },
+          {
+            "key": "C24050011",
+            "labelZh": "教育醫療",
+            "pct": 22.4
+          },
+          {
+            "key": "C24050008",
+            "labelZh": "資訊",
+            "pct": 8.8
+          }
+        ],
         "priceSfh": null,
         "priceAsOf": null,
         "unit": "zcta"
@@ -819,8 +1122,8 @@
         "locator": "assets/regions/la-locator.svg#westchester"
       },
       "basics": {
-        "chineseBelt": "Los Angeles 市內社區，不是獨立市。展示與 ACS 用 ZCTA 90045（含 LAX 周邊），不等於口語「西徹斯特」邊界。",
-        "schoolBand": "主要討論指向 LAUSD；地址仍須向學區確認。待核對官方校區工具後再寫細。",
+        "chineseBelt": "洛杉磯市裡面的社區，不是獨立市。地圖跟普查用 90045 郵區，範圍比口語「西徹斯特」大，含機場周邊。",
+        "schoolBand": "LAUSD，用官方住址工具查。網頁上常見的校名只當線索，不當保證。",
         "commuteAxes": [
           "I-405",
           "I-105",
@@ -829,26 +1132,26 @@
         ]
       },
       "priceBand": {
-        "sfhRange": "調查中（尚未核對與 Wave 1 同口徑的 Redfin Living-in SFH 中位）",
-        "condoRange": "未核對",
-        "ageProfile": "屋齡差異大；以 Listing／縣府建造年為準。",
-        "hoaMello": "逐案查 Title、稅單與 CC&Rs；本卡不做未核對金額。",
-        "asOf": ""
+        "sfhRange": "獨立屋還沒跟他城對上同一口徑，對照條先空著。",
+        "condoRange": "社區全類型大約 168 萬（至 2026-06）。這是社區、全類型，不是獨立屋軸。",
+        "ageProfile": "戰後郊區屋跟更新案混在一起。",
+        "hoaMello": "部分規劃村有 HOA；機場噪音、航道要現場看。",
+        "asOf": "2026-06"
       },
       "highlights": {
-        "jobs": "鄰 LAX；ZCTA 居民產業會被機場帶影響，數字不能直接當成「純住宅區職業結構」。",
-        "amenities": "待帶看標點；不寫未核對必吃清單。",
-        "safetyNote": "不引用未核對治安排行。",
-        "buyerFit": "要靠近機場／西區、能接受 LA 市社區（非獨立市）與 LAUSD 對址的客人。"
+        "jobs": "靠近機場跟 LMU。住這裡的人，工作前三是專業服務、教育醫療、資訊，不是「人人在機場上班」。",
+        "amenities": "機場、西區、LMU。常跟 Playa Vista、Culver 一起被問。",
+        "safetyNote": "治安分數沒核過就不講。鄰機場，噪音、航道現場確認。",
+        "buyerFit": "要近機場、西區，能接受還在洛杉磯市、學區走 LAUSD 的自住或派駐。"
       },
       "caveats": {
-        "propertyCaveats": "90045 含住宅與機場相關用地；帶看先分清住商與航道／噪音議題，勿把 ZCTA 當市界。",
-        "taxCaveats": "以縣稅單為準；特別稅／評估區逐案。",
-        "schoolReality": "LA 市內：學區不是「全市一區保證」。用地址查 LAUSD。",
-        "pitchLine": "西徹斯特是 LA 市社區（不是市），對客 ZIP 90045；普查用 ZCTA，範圍比口語社區大、含 LAX 周邊。"
+        "propertyCaveats": "郵區含住宅跟機場相關用地，帶看分清住商、航道。",
+        "taxCaveats": "縣稅單；特別稅逐案。",
+        "schoolReality": "LAUSD，不要套 Culver City Unified。",
+        "pitchLine": "西徹斯特不是市，是洛杉磯市社區。客人說 90045，普查也用這個郵區，範圍含機場周邊。全類型大約 168 萬級，獨立屋我還沒跟他城對上同一口徑，所以那一格先空著。"
       },
-      "compareLine": "和 Culver City 比：那邊是獨立市、有自己的市府與 Culver City USD；西徹斯特仍在 LA 市／LAUSD 框架裡。",
-      "trendLine": "趨勢只比較 ZCTA 90045 的 ACS，不和 Culver City 全市混成同一「西區市」故事。",
+      "compareLine": "Culver 是獨立市、自己的學區。這裡還在洛杉磯市、LAUSD。Playa Vista 更新、更規劃，但是同一個市的框架。",
+      "trendLine": "郵區人口四萬二左右，家戶所得中位大約十三萬五。這是郵區不是口語社區，百分比別講太滿。",
       "lastReviewed": "2026-10-15",
       "sources": [
         {
@@ -856,8 +1159,45 @@
           "url": "https://www.census.gov/programs-surveys/geography/guidance/geo-areas/zctas.html",
           "date": "2026-10-15",
           "note": "ZCTA ≠ city; includes LAX-adjacent land"
+        },
+        {
+          "label": "Census Reporter ACS 2024 5-year",
+          "url": "https://censusreporter.org/profiles/86000US90045",
+          "date": "2026-10-15",
+          "note": "ACS 2020–2024 via Census Reporter API; industry C24050 resident employment"
+        },
+        {
+          "label": "LAUSD Resident School Identifier",
+          "url": "https://rsi.lausd.net/ResidentSchoolIdentifier/",
+          "date": "2026-10-15",
+          "note": "Address-level LAUSD lookup"
+        },
+        {
+          "label": "Redfin Westchester LA housing market",
+          "url": "https://www.redfin.com/neighborhood/290650/CA/Los-Angeles/Westchester/housing-market",
+          "date": "2026-06",
+          "note": "Neighborhood all-types median $1,683,414; not SFH axis"
         }
-      ]
+      ],
+      "explainZh": "先講不是市。地圖看左下角小圖。別把機場地標說成人人在機場上班。",
+      "feelAxes": {
+        "weekend": {
+          "tag": "機場帶節奏",
+          "line": "靠近 LAX，有派駐、有自住，週末不是聖蓋博那種商圈。"
+        },
+        "school": {
+          "tag": "LAUSD 對址",
+          "line": "還在洛杉磯市，用官方工具查，別套 Culver City。"
+        },
+        "street": {
+          "tag": "戰後郊區混新案",
+          "line": "90045 比口語「西徹斯特」大，含機場周邊。"
+        },
+        "chineseLife": {
+          "tag": "西區要另找",
+          "line": "華語超市補習不是這裡的主軸，客人多半為了機場跟西區。"
+        }
+      }
     },
     {
       "id": "playa-vista",
@@ -866,7 +1206,7 @@
       "nameEn": "Playa Vista",
       "clusterId": "westside-lax",
       "wave": 2,
-      "status": "draft",
+      "status": "review",
       "zips": [
         "90094"
       ],
@@ -883,17 +1223,33 @@
         "kind": "zcta"
       },
       "snapshot": {
-        "vintage": null,
+        "vintage": "ACS 2020–2024",
         "priorVintage": null,
-        "population": null,
+        "population": 11764,
         "populationDeltaPct": null,
-        "asianAlonePct": null,
-        "hispanicPct": null,
-        "medianIncome": null,
+        "asianAlonePct": 17.9,
+        "hispanicPct": 13.0,
+        "medianIncome": 145744,
         "medianIncomeDeltaPct": null,
-        "bachelorsPlusPct": null,
-        "ownerOccupiedPct": null,
-        "residentIndustry": [],
+        "bachelorsPlusPct": 83.0,
+        "ownerOccupiedPct": 30.5,
+        "residentIndustry": [
+          {
+            "key": "C24050010",
+            "labelZh": "專業科學管理",
+            "pct": 23.4
+          },
+          {
+            "key": "C24050011",
+            "labelZh": "教育醫療",
+            "pct": 23.1
+          },
+          {
+            "key": "C24050008",
+            "labelZh": "資訊",
+            "pct": 12.7
+          }
+        ],
         "priceSfh": null,
         "priceAsOf": null,
         "unit": "zcta"
@@ -902,8 +1258,8 @@
         "locator": "assets/regions/la-locator.svg#playa-vista"
       },
       "basics": {
-        "chineseBelt": "Los Angeles 市內較新規劃社區，不是獨立市。ACS／地圖用 ZCTA 90094。常與 Culver City 被同一批西區客人一起問。",
-        "schoolBand": "討論多指向 LAUSD；待核對官方校區後再寫細。",
+        "chineseBelt": "洛杉磯市裡比較新的規劃社區，不是市。普查用很小的 90094，人口基數小，百分比會跳。",
+        "schoolBand": "LAUSD。附近常聽到 Playa Vista Elementary，仍不是整區保證。",
         "commuteAxes": [
           "I-405",
           "CA-90",
@@ -911,26 +1267,26 @@
         ]
       },
       "priceBand": {
-        "sfhRange": "調查中（尚未核對與 Wave 1 同口徑的 Redfin Living-in SFH 中位）",
-        "condoRange": "未核對",
-        "ageProfile": "屋齡差異大；以 Listing／縣府建造年為準。",
-        "hoaMello": "逐案查 Title、稅單與 CC&Rs；本卡不做未核對金額。",
-        "asOf": ""
+        "sfhRange": "獨立屋沒有跟他城同口徑的分拆，對照條先空著。",
+        "condoRange": "社區全類型大約 128 萬（資料較舊，至 2026-03）。Condo 比重高。",
+        "ageProfile": "2000 年代後規劃為主。",
+        "hoaMello": "HOA 幾乎必讀，費用跟租賃限制逐案。",
+        "asOf": "2026-03"
       },
       "highlights": {
-        "jobs": "西區媒體／科技通勤敘事常見於公開介紹；本卡暫不寫未核對的雇主名單。",
-        "amenities": "待帶看標點；不寫未核對必吃清單。",
-        "safetyNote": "不引用未核對治安排行。",
-        "buyerFit": "要較新規劃社區、能接受 LA 市／HOA 常見、並拿來和 Culver City 比總價的客人。"
+        "jobs": "西區通勤敘事常見。基數小，數字只作方向：專業服務、教育醫療、資訊。",
+        "amenities": "常跟 Culver、Westchester 放在同一張西區比較表。",
+        "safetyNote": "治安分數沒核過就不講。規劃社區夜間節奏跟市區不同。",
+        "buyerFit": "要較新規劃、接受 HOA 跟 Condo 比重，並拿來跟 Culver 比總價的客人。"
       },
       "caveats": {
-        "propertyCaveats": "規劃社區 HOA 常見；90094 很小，listing 仍可能跨相鄰 ZIP。",
-        "taxCaveats": "以縣稅單為準；特別稅／評估區逐案。",
-        "schoolReality": "LA 市內對址；不要用 Culver City USD 套到 Playa Vista。",
-        "pitchLine": "Playa Vista（90094）是 LA 市規劃社區，不是市；對客時常和 Culver City 一起比較，但行政與學區是兩套。"
+        "propertyCaveats": "郵區很小，listing 可能跨相鄰 ZIP；HOA 跟出租規則先讀。",
+        "taxCaveats": "縣稅單；特別稅逐案。",
+        "schoolReality": "LAUSD，不是 Culver City Unified。",
+        "pitchLine": "Playa Vista 是洛杉磯市的規劃社區，不是市。常跟 Culver 一起比，可是市府跟學區是兩套。全類型大約 128 萬級，獨立屋格子空著是因為產品偏 Condo，我沒辦法跟山市獨立屋並排。"
       },
-      "compareLine": "Culver City 是獨立市（place）；Playa Vista 是 ZCTA／LA 市社區。總價、HOA、學區都要分開講。",
-      "trendLine": "ZCTA 90094 人口基數小，ACS 百分比會跳；趨勢只作方向、不當精確預測。",
+      "compareLine": "Culver 有自己的市府跟學區。這裡更新、HOA 更密，但仍是洛杉磯市。別把兩格人口加總成一座西區市。",
+      "trendLine": "郵區人口只有一萬出頭，百分比不穩。拿來看方向就好。",
       "lastReviewed": "2026-10-15",
       "sources": [
         {
@@ -938,8 +1294,45 @@
           "url": "https://www.census.gov/programs-surveys/geography/guidance/geo-areas/zctas.html",
           "date": "2026-10-15",
           "note": "Small ZCTA; ACS margins may be wide"
+        },
+        {
+          "label": "Census Reporter ACS 2024 5-year",
+          "url": "https://censusreporter.org/profiles/86000US90094",
+          "date": "2026-10-15",
+          "note": "ACS 2020–2024 via Census Reporter API; industry C24050 resident employment"
+        },
+        {
+          "label": "Redfin Playa Vista housing market",
+          "url": "https://www.redfin.com/neighborhood/496706/CA/Los-Angeles/Playa-Vista/housing-market",
+          "date": "2026-03",
+          "note": "Neighborhood all-types median $1,280,000"
+        },
+        {
+          "label": "Redfin Culver City living-in neighborhood table",
+          "url": "https://www.redfin.com/living-in/CA/Culver-City/6/4557",
+          "date": "2026-10-15",
+          "note": "Lists Playa Vista neighborhood median $1,280,000"
         }
-      ]
+      ],
+      "explainZh": "小郵區、數字別講太滿。重點是規劃社區加洛杉磯市，不是再造一個市名。",
+      "feelAxes": {
+        "weekend": {
+          "tag": "規劃社區內轉",
+          "line": "比較新、比較規劃，週末在社區裡轉的人多。"
+        },
+        "school": {
+          "tag": "LAUSD 對址",
+          "line": "不是 Culver City 學區。"
+        },
+        "street": {
+          "tag": "規劃社區",
+          "line": "HOA 幾乎必讀，Condo 比重高。"
+        },
+        "chineseLife": {
+          "tag": "西區要另找",
+          "line": "常跟 Culver 一起被問，但這是洛杉磯市的規劃村。"
+        }
+      }
     },
     {
       "id": "culver-city",
@@ -948,7 +1341,7 @@
       "nameEn": "Culver City",
       "clusterId": "westside-lax",
       "wave": 2,
-      "status": "draft",
+      "status": "ready",
       "zips": [
         "90230",
         "90232"
@@ -966,27 +1359,43 @@
         "kind": "city"
       },
       "snapshot": {
-        "vintage": null,
+        "vintage": "ACS 2020–2024",
         "priorVintage": null,
-        "population": null,
+        "population": 39931,
         "populationDeltaPct": null,
-        "asianAlonePct": null,
-        "hispanicPct": null,
-        "medianIncome": null,
+        "asianAlonePct": 19.8,
+        "hispanicPct": 20.0,
+        "medianIncome": 117389,
         "medianIncomeDeltaPct": null,
-        "bachelorsPlusPct": null,
-        "ownerOccupiedPct": null,
-        "residentIndustry": [],
-        "priceSfh": null,
-        "priceAsOf": null,
+        "bachelorsPlusPct": 62.4,
+        "ownerOccupiedPct": 54.6,
+        "residentIndustry": [
+          {
+            "key": "C24050010",
+            "labelZh": "專業科學管理",
+            "pct": 26.1
+          },
+          {
+            "key": "C24050011",
+            "labelZh": "教育醫療",
+            "pct": 24.2
+          },
+          {
+            "key": "C24050008",
+            "labelZh": "資訊",
+            "pct": 9.9
+          }
+        ],
+        "priceSfh": 1799283,
+        "priceAsOf": "2026-10",
         "unit": "place"
       },
       "media": {
         "locator": "assets/regions/la-locator.svg#culver-city"
       },
       "basics": {
-        "chineseBelt": "LA 縣建制市（非 LA 市）。客戶常說的 90230 只是 ZIP 之一；人口／產業對照用全市 place，不用 90230 冒充全市。",
-        "schoolBand": "Culver City Unified School District（CCUSD）。地址仍須向學區確認。",
+        "chineseBelt": "西區獨立市，不是洛杉磯市。90230 只是客人常講的郵遞區號之一，講全市數字不要只用這個郵區。",
+        "schoolBand": "Culver City Unified，地址還是要向學區確認。",
         "commuteAxes": [
           "I-405",
           "I-10",
@@ -994,26 +1403,26 @@
         ]
       },
       "priceBand": {
-        "sfhRange": "調查中（尚未核對與 Wave 1 同口徑的 Redfin Living-in SFH 中位）",
-        "condoRange": "未核對",
-        "ageProfile": "屋齡差異大；以 Listing／縣府建造年為準。",
-        "hoaMello": "逐案查 Title、稅單與 CC&Rs；本卡不做未核對金額。",
-        "asOf": ""
+        "sfhRange": "獨立屋中位大約 180 萬（Redfin）。",
+        "condoRange": "Condo 大約 60 萬、聯排大約 120 萬。全類型大約 140 萬。",
+        "ageProfile": "舊城、Fox Hills、媒體園區周邊差很大。",
+        "hoaMello": "Condo、部分規劃區有 HOA。",
+        "asOf": "2026-10"
       },
       "highlights": {
-        "jobs": "公開地標含媒體／製片廠走廊；居民產業以 ACS 為準，不把「Sony 在這」寫成全市人人在媒體業。",
-        "amenities": "待帶看標點；不寫未核對必吃清單。",
-        "safetyNote": "不引用未核對治安排行。",
-        "buyerFit": "要西區獨立市、CCUSD、並和 Playa Vista／Westchester 比較治理與學區差異的客人。"
+        "jobs": "電影、電視製作很有名，Sony Pictures 是公開地標。住這裡的人，工作前三是專業服務、教育醫療、資訊，不是人人在片場。",
+        "amenities": "公園不少，Downtown、Washington 可以吃飯逛街。",
+        "safetyNote": "治安分數沒核過就不講。舊城跟 Fox Hills 差很多。",
+        "buyerFit": "要西區獨立市、Culver City 學區，也接受獨立屋總價明顯高於東聖蓋博中段的客人。"
       },
       "caveats": {
-        "propertyCaveats": "全市 ZIP 不只 90230；帶看分區，勿用單一郵遞區號概括。",
-        "taxCaveats": "以縣稅單為準；特別稅／評估區逐案。",
-        "schoolReality": "以 CCUSD 為主軸，仍用地址確認。",
-        "pitchLine": "Culver City 是西區獨立市，不是 LA 市；學區 CCUSD。90230 是對客常用 ZIP，普查用全市。"
+        "propertyCaveats": "90230、90232 要分區看，別用一個郵遞區號概括。",
+        "taxCaveats": "縣稅單；特別稅逐案。",
+        "schoolReality": "主軸 CCUSD，仍用地址確認。",
+        "pitchLine": "Culver City 是西區獨立市，不是洛杉磯市。學區 Culver City Unified。獨立屋大約 180 萬，Condo 大約 60 萬。跟西徹斯特最大的差別，就是這裡有自己的市府跟學區。"
       },
-      "compareLine": "和 Westchester／Playa Vista 最大差別是「有自己的市府與學區」；和聖蓋博山市比，則是西區就業與總價結構不同。",
-      "trendLine": "ACS 用 place 0617568；不要把 90230 ZCTA 數字接在全市軸上。",
+      "compareLine": "從聖蓋博過來：這是西區就業跟總價，不是 210 名校故事。隔壁西徹斯特還在洛杉磯市。",
+      "trendLine": "人口大約四萬，家戶所得中位大約十二萬。學士比例高。普查五年估計。",
       "lastReviewed": "2026-10-15",
       "sources": [
         {
@@ -1027,8 +1436,45 @@
           "url": "https://www.ccusd.org/",
           "date": "2026-10-15",
           "note": "District serving Culver City"
+        },
+        {
+          "label": "Census Reporter ACS 2024 5-year",
+          "url": "https://censusreporter.org/profiles/16000US0617568",
+          "date": "2026-10-15",
+          "note": "ACS 2020–2024 via Census Reporter API; industry C24050 resident employment"
+        },
+        {
+          "label": "Redfin Culver City living-in",
+          "url": "https://www.redfin.com/living-in/CA/Culver-City/6/4557",
+          "date": "2026-10-15",
+          "note": "SFH $1,799,283; Condo $599,938; TH $1,199,014; all-types $1,399,334"
+        },
+        {
+          "label": "Redfin Culver City housing market",
+          "url": "https://www.redfin.com/city/4557/CA/Culver-City/housing-market",
+          "date": "2026-09",
+          "note": "All-types ~$1.3M on market page; Living-in used for type split"
         }
-      ]
+      ],
+      "explainZh": "先報獨立市跟學區，再講獨立屋跟 Condo 價差。隔壁兩塊是郵區，不要加總。",
+      "feelAxes": {
+        "weekend": {
+          "tag": "城中可走",
+          "line": "Downtown、Washington 一帶可以吃飯逛街。"
+        },
+        "school": {
+          "tag": "多數單一學區",
+          "line": "Culver City Unified，這是跟隔壁最大的差別。"
+        },
+        "street": {
+          "tag": "舊城混媒體園區",
+          "line": "舊城、Fox Hills、片廠附近屋況差很大。"
+        },
+        "chineseLife": {
+          "tag": "西區要另找",
+          "line": "從聖蓋博過來，這是西區總價跟就業，不是 210 名校故事。"
+        }
+      }
     },
     {
       "id": "san-marino",
@@ -1037,7 +1483,7 @@
       "nameEn": "San Marino",
       "clusterId": "core-sgv-north",
       "wave": 2,
-      "status": "draft",
+      "status": "ready",
       "zips": [
         "91108"
       ],
@@ -1054,27 +1500,43 @@
         "kind": "city"
       },
       "snapshot": {
-        "vintage": null,
+        "vintage": "ACS 2020–2024",
         "priorVintage": null,
-        "population": null,
+        "population": 12216,
         "populationDeltaPct": null,
-        "asianAlonePct": null,
-        "hispanicPct": null,
-        "medianIncome": null,
+        "asianAlonePct": 68.1,
+        "hispanicPct": 5.3,
+        "medianIncome": 214167,
         "medianIncomeDeltaPct": null,
-        "bachelorsPlusPct": null,
-        "ownerOccupiedPct": null,
-        "residentIndustry": [],
-        "priceSfh": null,
-        "priceAsOf": null,
+        "bachelorsPlusPct": 82.6,
+        "ownerOccupiedPct": 82.8,
+        "residentIndustry": [
+          {
+            "key": "C24050011",
+            "labelZh": "教育醫療",
+            "pct": 28.7
+          },
+          {
+            "key": "C24050010",
+            "labelZh": "專業科學管理",
+            "pct": 13.2
+          },
+          {
+            "key": "C24050009",
+            "labelZh": "金融保險地產",
+            "pct": 12.6
+          }
+        ],
+        "priceSfh": 3448625,
+        "priceAsOf": "2026-10",
         "unit": "place"
       },
       "media": {
         "locator": "assets/regions/la-locator.svg#san-marino"
       },
       "basics": {
-        "chineseBelt": "LA 縣建制小城。聖蓋博谷高總價／學區敘事極強的對照錨點之一；仍須地址確認學區，不寫未核對排名。",
-        "schoolBand": "San Marino Unified School District（SMUSD）。",
+        "chineseBelt": "北聖蓋博很小、很貴的獨立市。華語家庭在，客人衝的是學區跟總價，不是逛街。盤面小，百分比會跳。",
+        "schoolBand": "San Marino Unified。只報學區名，不報排名。",
         "commuteAxes": [
           "I-210",
           "CA-110",
@@ -1082,26 +1544,26 @@
         ]
       },
       "priceBand": {
-        "sfhRange": "調查中（尚未核對與 Wave 1 同口徑的 Redfin Living-in SFH 中位）",
-        "condoRange": "未核對",
-        "ageProfile": "屋齡差異大；以 Listing／縣府建造年為準。",
-        "hoaMello": "逐案查 Title、稅單與 CC&Rs；本卡不做未核對金額。",
-        "asOf": ""
+        "sfhRange": "獨立屋中位大約 345 萬（Redfin）。庫存幾乎都是獨立屋，所以跟全類型幾乎同一量級。",
+        "condoRange": "Condo 分拆不穩，小城庫存少，逐案看 MLS。",
+        "ageProfile": "經典住宅街區跟改建並存，規範問市府。",
+        "hoaMello": "多數是獨立屋地稅，HOA 不是全市預設。",
+        "asOf": "2026-10"
       },
       "highlights": {
-        "jobs": "待核對公開就業敘事。",
-        "amenities": "待帶看標點；不寫未核對必吃清單。",
-        "safetyNote": "不引用未核對治安排行。",
-        "buyerFit": "預算能對上聖蓋博高總價帶、鎖定 SMUSD 的自住家庭；常拿來和南帕、亞凱迪亞比。"
+        "jobs": "自住小城，就業多半通勤。居民前三是教育醫療、專業服務、金融地產。",
+        "amenities": "亨廷頓圖書館、Lacy Park。開場用地標，不包裝成保證學區分數。",
+        "safetyNote": "治安分數沒核過就不講。成交筆數少，別把低筆數講成低風險。",
+        "buyerFit": "預算對得上北聖蓋博最高總價帶、鎖定 SMUSD 的自住家庭。"
       },
       "caveats": {
-        "propertyCaveats": "小城、庫存少；屋況與改建規範須實地與市府確認。",
-        "taxCaveats": "以縣稅單為準；特別稅／評估區逐案。",
-        "schoolReality": "以 SMUSD 為主；不要用帕薩迪納或亞凱迪亞學區名套過來。",
-        "pitchLine": "聖馬利諾（91108）是獨立小城，不是帕薩迪納的一區；開場先講 SMUSD 與總價帶，再比南帕／亞凱迪亞。"
+        "propertyCaveats": "近月成交大約三十筆量級，中位容易被單筆豪宅拉動。",
+        "taxCaveats": "縣稅單；特別評估逐案。",
+        "schoolReality": "SMUSD，不要用帕薩迪納或亞凱迪亞學區名套過來。",
+        "pitchLine": "聖馬利諾是獨立小城，不是帕薩迪納一區。獨立屋大約 345 萬。我先講 San Marino Unified 跟總價，再拿南帕、亞凱迪亞比。"
       },
-      "compareLine": "若客人只聽過亞凱迪亞，聖馬利諾更小、學區獨立（SMUSD）；和南帕比則是另一套 USD，不能混界。",
-      "trendLine": "基數小，ACS 百分比波動大；趨勢只作方向。價格待 Redfin Living-in 核對。",
+      "compareLine": "亞凱獨立屋大約 195 萬、南帕大約 184 萬。聖馬更小、更貴、另一套學區。",
+      "trendLine": "人口只有一萬二，家戶所得中位二十萬出頭，學士比例很高。小城數字波動大。",
       "lastReviewed": "2026-10-15",
       "sources": [
         {
@@ -1115,8 +1577,45 @@
           "url": "https://www.smusd.us/",
           "date": "2026-10-15",
           "note": "District serving San Marino"
+        },
+        {
+          "label": "Census Reporter ACS 2024 5-year",
+          "url": "https://censusreporter.org/profiles/16000US0668224",
+          "date": "2026-10-15",
+          "note": "ACS 2020–2024 via Census Reporter API; industry C24050 resident employment"
+        },
+        {
+          "label": "Redfin San Marino living-in",
+          "url": "https://www.redfin.com/living-in/CA/San-Marino/6/17481",
+          "date": "2026-10-15",
+          "note": "SFH $3,448,625; all-types $3,448,358"
+        },
+        {
+          "label": "Redfin San Marino housing market",
+          "url": "https://www.redfin.com/city/17481/CA/San-Marino/housing-market",
+          "date": "2026-08",
+          "note": "All-types $3,448,718; 3 months ending Aug 2026"
         }
-      ]
+      ],
+      "explainZh": "這是總價錨點。筆數少，中位敏感。學區只報 SMUSD，排名我沒核過就不講。",
+      "feelAxes": {
+        "weekend": {
+          "tag": "豪宅街區",
+          "line": "亨廷頓、Lacy Park，節奏慢、盤面小。"
+        },
+        "school": {
+          "tag": "多數單一學區",
+          "line": "只報 San Marino Unified，不報排名。"
+        },
+        "street": {
+          "tag": "豪宅街區",
+          "line": "成交筆數少，中位容易被單筆拉動。"
+        },
+        "chineseLife": {
+          "tag": "衝學區不是衝逛街",
+          "line": "華語家庭在，客人衝的是學區跟總價，不是 Valley Blvd。"
+        }
+      }
     },
     {
       "id": "south-pasadena",
@@ -1125,7 +1624,7 @@
       "nameEn": "South Pasadena",
       "clusterId": "core-sgv-north",
       "wave": 2,
-      "status": "draft",
+      "status": "ready",
       "zips": [
         "91030"
       ],
@@ -1142,27 +1641,43 @@
         "kind": "city"
       },
       "snapshot": {
-        "vintage": null,
+        "vintage": "ACS 2020–2024",
         "priorVintage": null,
-        "population": null,
+        "population": 26068,
         "populationDeltaPct": null,
-        "asianAlonePct": null,
-        "hispanicPct": null,
-        "medianIncome": null,
+        "asianAlonePct": 35.5,
+        "hispanicPct": 19.7,
+        "medianIncome": 127175,
         "medianIncomeDeltaPct": null,
-        "bachelorsPlusPct": null,
-        "ownerOccupiedPct": null,
-        "residentIndustry": [],
-        "priceSfh": null,
-        "priceAsOf": null,
+        "bachelorsPlusPct": 73.5,
+        "ownerOccupiedPct": 44.0,
+        "residentIndustry": [
+          {
+            "key": "C24050011",
+            "labelZh": "教育醫療",
+            "pct": 24.5
+          },
+          {
+            "key": "C24050010",
+            "labelZh": "專業科學管理",
+            "pct": 20.6
+          },
+          {
+            "key": "C24050009",
+            "labelZh": "金融保險地產",
+            "pct": 10.2
+          }
+        ],
+        "priceSfh": 1844265,
+        "priceAsOf": "2026-10",
         "unit": "place"
       },
       "media": {
         "locator": "assets/regions/la-locator.svg#south-pasadena"
       },
       "basics": {
-        "chineseBelt": "LA 縣建制小城，夾在帕薩迪納與 LA 市之間。開場三件事：獨立市、110 廊道、SPUSD。",
-        "schoolBand": "South Pasadena Unified School District（SPUSD）。",
+        "chineseBelt": "夾在帕薩迪納跟洛杉磯市中間的獨立小城。生活尺度像老街區，華語密集商圈多半還是往東。",
+        "schoolBand": "South Pasadena Unified，不是帕薩迪納那套。",
         "commuteAxes": [
           "CA-110",
           "I-10",
@@ -1170,26 +1685,26 @@
         ]
       },
       "priceBand": {
-        "sfhRange": "調查中（尚未核對與 Wave 1 同口徑的 Redfin Living-in SFH 中位）",
-        "condoRange": "未核對",
-        "ageProfile": "屋齡差異大；以 Listing／縣府建造年為準。",
-        "hoaMello": "逐案查 Title、稅單與 CC&Rs；本卡不做未核對金額。",
-        "asOf": ""
+        "sfhRange": "獨立屋中位大約 184 萬（Redfin）。",
+        "condoRange": "Condo 大約 91 萬、聯排大約 137 萬。全類型大約 165 萬。",
+        "ageProfile": "老街區、歷史建築常見。",
+        "hoaMello": "Condo、少數規劃案有 HOA。",
+        "asOf": "2026-10"
       },
       "highlights": {
-        "jobs": "待核對公開就業敘事。",
-        "amenities": "待帶看標點；不寫未核對必吃清單。",
-        "safetyNote": "不引用未核對治安排行。",
-        "buyerFit": "要老街區尺度、能接受小城庫存、學區走 SPUSD 的自住比較者。"
+        "jobs": "近市區、靠 110。居民前三是教育醫療、專業服務、金融地產。",
+        "amenities": "Mission、Fair Oaks 可以走路吃飯，還有 Garfield Park、Arroyo 綠帶。",
+        "safetyNote": "治安分數沒核過就不講。老街區夜間跟主幹道不一樣。",
+        "buyerFit": "要老街區尺度、SPUSD、能接受小城庫存的自住比較。"
       },
       "caveats": {
-        "propertyCaveats": "老屋與歷史街區常見；改建／停車規範須問市府，勿假設可任意加蓋。",
-        "taxCaveats": "以縣稅單為準；特別稅／評估區逐案。",
-        "schoolReality": "SPUSD 與帕薩迪納、LAUSD 都不同；地址決定一切。",
-        "pitchLine": "南帕薩迪納（91030）是獨立市，不是「帕薩迪納南邊某區」；學區 SPUSD，通勤軸 110。"
+        "propertyCaveats": "歷史街區改建、停車規範問市府，別承諾能加蓋。",
+        "taxCaveats": "縣稅單；特別稅逐案。",
+        "schoolReality": "SPUSD，跟帕薩迪納、LAUSD 都不同。",
+        "pitchLine": "南帕是獨立市，不是「帕薩迪納南邊某區」。學區 South Pasadena Unified，通勤走 110。獨立屋大約 184 萬。"
       },
-      "compareLine": "和聖馬利諾比：都是小城名校敘事，但是兩套 USD、兩種街廓；和亞凱迪亞比則南帕更靠近 110／LA 市邊界。",
-      "trendLine": "小城 ACS 基數有限；趨勢待烘焙。價格未核對前不進對照條。",
+      "compareLine": "跟聖馬都是小城，學區不同、總價差一截。跟亞凱比，南帕更靠 110 跟洛杉磯市邊界。",
+      "trendLine": "人口兩萬六左右，學士比例高。小城，普查數字當結構看。",
       "lastReviewed": "2026-10-15",
       "sources": [
         {
@@ -1203,8 +1718,45 @@
           "url": "https://www.spusd.net/",
           "date": "2026-10-15",
           "note": "District serving South Pasadena"
+        },
+        {
+          "label": "Census Reporter ACS 2024 5-year",
+          "url": "https://censusreporter.org/profiles/16000US0673220",
+          "date": "2026-10-15",
+          "note": "ACS 2020–2024 via Census Reporter API; industry C24050 resident employment"
+        },
+        {
+          "label": "Redfin South Pasadena living-in",
+          "url": "https://www.redfin.com/living-in/CA/South-Pasadena/6/18661",
+          "date": "2026-10-15",
+          "note": "SFH $1,844,265; Condo $910,906; TH $1,374,516; all-types $1,649,215"
+        },
+        {
+          "label": "Redfin South Pasadena housing market",
+          "url": "https://www.redfin.com/city/18661/CA/South-Pasadena/housing-market",
+          "date": "2026-09",
+          "note": "All-types $1,649,215; 3 months ending Sep 2026"
         }
-      ]
+      ],
+      "explainZh": "三句話：獨立市、110、SPUSD。老屋改建別承諾。",
+      "feelAxes": {
+        "weekend": {
+          "tag": "老街可走",
+          "line": "Mission、Fair Oaks 可以走路吃飯，靠 110。"
+        },
+        "school": {
+          "tag": "多數單一學區",
+          "line": "South Pasadena Unified，不是帕薩迪納那套。"
+        },
+        "street": {
+          "tag": "老屋尺度",
+          "line": "歷史街區改建，別隨便承諾能加蓋。"
+        },
+        "chineseLife": {
+          "tag": "商圈要開車",
+          "line": "生活尺度像小城，華語密集商圈多半還是往東。"
+        }
+      }
     },
     {
       "id": "arcadia",
@@ -1213,7 +1765,7 @@
       "nameEn": "Arcadia",
       "clusterId": "core-sgv-north",
       "wave": 2,
-      "status": "draft",
+      "status": "ready",
       "zips": [
         "91006",
         "91007"
@@ -1231,27 +1783,43 @@
         "kind": "city"
       },
       "snapshot": {
-        "vintage": null,
+        "vintage": "ACS 2020–2024",
         "priorVintage": null,
-        "population": null,
+        "population": 55170,
         "populationDeltaPct": null,
-        "asianAlonePct": null,
-        "hispanicPct": null,
-        "medianIncome": null,
+        "asianAlonePct": 59.0,
+        "hispanicPct": 17.5,
+        "medianIncome": 113516,
         "medianIncomeDeltaPct": null,
-        "bachelorsPlusPct": null,
-        "ownerOccupiedPct": null,
-        "residentIndustry": [],
-        "priceSfh": null,
-        "priceAsOf": null,
+        "bachelorsPlusPct": 57.4,
+        "ownerOccupiedPct": 58.1,
+        "residentIndustry": [
+          {
+            "key": "C24050011",
+            "labelZh": "教育醫療",
+            "pct": 27.3
+          },
+          {
+            "key": "C24050010",
+            "labelZh": "專業科學管理",
+            "pct": 16.3
+          },
+          {
+            "key": "C24050009",
+            "labelZh": "金融保險地產",
+            "pct": 10.0
+          }
+        ],
+        "priceSfh": 1949223,
+        "priceAsOf": "2026-10",
         "unit": "place"
       },
       "media": {
         "locator": "assets/regions/la-locator.svg#arcadia"
       },
       "basics": {
-        "chineseBelt": "LA 縣建制市。聖蓋博谷「名校＋大宅」被提及最多的市之一；先對址 AUSD 再比聖馬利諾／天普市總價。",
-        "schoolBand": "Arcadia Unified School District（AUSD）。鄰近地址仍可能跨區 — 須對址。",
+        "chineseBelt": "北聖蓋博華語客人很熟的一座市。超市、補習、住家都有，盤面比聖馬大。",
+        "schoolBand": "主軸 Arcadia Unified，交界仍要對址。",
         "commuteAxes": [
           "I-210",
           "I-605",
@@ -1259,26 +1827,26 @@
         ]
       },
       "priceBand": {
-        "sfhRange": "調查中（尚未核對與 Wave 1 同口徑的 Redfin Living-in SFH 中位）",
-        "condoRange": "未核對",
-        "ageProfile": "屋齡差異大；以 Listing／縣府建造年為準。",
-        "hoaMello": "逐案查 Title、稅單與 CC&Rs；本卡不做未核對金額。",
-        "asOf": ""
+        "sfhRange": "獨立屋中位大約 195 萬（Redfin）。",
+        "condoRange": "Condo 大約 83 萬、聯排大約 92 萬。全類型大約 174 萬。",
+        "ageProfile": "平地跟山麓差很大。",
+        "hoaMello": "Condo、部分社區有 HOA。",
+        "asOf": "2026-10"
       },
       "highlights": {
-        "jobs": "待核對公開就業敘事。",
-        "amenities": "待帶看標點；不寫未核對必吃清單。",
-        "safetyNote": "不引用未核對治安排行。",
-        "buyerFit": "鎖定 AUSD、需要比聖馬利諾更大盤面選擇的自住家庭。"
+        "jobs": "自住郊區市。居民前三是教育醫療、專業服務、金融地產。",
+        "amenities": "Santa Anita、植物園、Baldwin 一帶商業。",
+        "safetyNote": "治安分數沒核過就不講。平地跟山麓差很多。",
+        "buyerFit": "鎖定 AUSD、需要比聖馬更大盤面的自住家庭。"
       },
       "caveats": {
-        "propertyCaveats": "ZIP 91006／91007 與鄰里差異大；山坡與平地屋況不同。",
-        "taxCaveats": "以縣稅單為準；特別稅／評估區逐案。",
-        "schoolReality": "多數討論指向 AUSD，仍不是「全市單一保證」。",
-        "pitchLine": "亞凱迪亞是獨立市（91006／91007），學區主軸 AUSD；把它當北聖蓋博標尺，再往聖馬利諾（更小更貴敘事）或天普市（相對可接近）比。"
+        "propertyCaveats": "91006、91007，山邊跟平地屋況不同。",
+        "taxCaveats": "縣稅單；特別稅逐案。",
+        "schoolReality": "多數指向 AUSD，不是全市單一保證。",
+        "pitchLine": "亞凱迪亞獨立屋大約 195 萬，學區主軸 Arcadia Unified。往上比聖馬、往下比天普市，我把它當北聖蓋博的標尺。"
       },
-      "compareLine": "若客人熟鑽石吧／Walnut：亞凱迪亞是 210 廊道、另一套名校市，不是 60 廊道的延伸。",
-      "trendLine": "全市 ACS 待烘焙；價格未核對前對照條留空。",
+      "compareLine": "若你熟鑽石吧、Walnut：亞凱是 210 那一套，不是 60 廊道延伸，總價帶也更高。",
+      "trendLine": "人口五萬五左右，家戶所得中位大約十一萬。普查五年估計。",
       "lastReviewed": "2026-10-15",
       "sources": [
         {
@@ -1292,8 +1860,45 @@
           "url": "https://www.ausd.net/",
           "date": "2026-10-15",
           "note": "District serving Arcadia"
+        },
+        {
+          "label": "Census Reporter ACS 2024 5-year",
+          "url": "https://censusreporter.org/profiles/16000US0602462",
+          "date": "2026-10-15",
+          "note": "ACS 2020–2024 via Census Reporter API; industry C24050 resident employment"
+        },
+        {
+          "label": "Redfin Arcadia living-in",
+          "url": "https://www.redfin.com/living-in/CA/Arcadia/6/645",
+          "date": "2026-10-15",
+          "note": "SFH $1,949,223; Condo $828,915; TH $918,011; all-types $1,739,172"
+        },
+        {
+          "label": "Redfin Arcadia housing market",
+          "url": "https://www.redfin.com/city/645/CA/Arcadia/housing-market",
+          "date": "2026-08",
+          "note": "All-types $1,645,000 on market page (Aug 2026); Living-in used for type split"
         }
-      ]
+      ],
+      "explainZh": "先對 Arcadia Unified，再把聖馬（更貴更小）跟天普市（比較好接近）放到同一句。",
+      "feelAxes": {
+        "weekend": {
+          "tag": "住商都有",
+          "line": "賽馬場、植物園、Baldwin 一帶，盤面比聖馬大。"
+        },
+        "school": {
+          "tag": "多數單一學區",
+          "line": "主軸 Arcadia Unified，交界仍要對址。"
+        },
+        "street": {
+          "tag": "平地混山麓",
+          "line": "91006、91007 跟山邊平地差很多。"
+        },
+        "chineseLife": {
+          "tag": "超市補習密集",
+          "line": "北聖蓋博華語客人很熟這座城。"
+        }
+      }
     },
     {
       "id": "temple-city",
@@ -1302,7 +1907,7 @@
       "nameEn": "Temple City",
       "clusterId": "core-sgv-north",
       "wave": 2,
-      "status": "draft",
+      "status": "ready",
       "zips": [
         "91780"
       ],
@@ -1319,27 +1924,43 @@
         "kind": "city"
       },
       "snapshot": {
-        "vintage": null,
+        "vintage": "ACS 2020–2024",
         "priorVintage": null,
-        "population": null,
+        "population": 35430,
         "populationDeltaPct": null,
-        "asianAlonePct": null,
-        "hispanicPct": null,
-        "medianIncome": null,
+        "asianAlonePct": 63.7,
+        "hispanicPct": 20.9,
+        "medianIncome": 104425,
         "medianIncomeDeltaPct": null,
-        "bachelorsPlusPct": null,
-        "ownerOccupiedPct": null,
-        "residentIndustry": [],
-        "priceSfh": null,
-        "priceAsOf": null,
+        "bachelorsPlusPct": 42.7,
+        "ownerOccupiedPct": 62.9,
+        "residentIndustry": [
+          {
+            "key": "C24050011",
+            "labelZh": "教育醫療",
+            "pct": 21.4
+          },
+          {
+            "key": "C24050009",
+            "labelZh": "金融保險地產",
+            "pct": 12.5
+          },
+          {
+            "key": "C24050010",
+            "labelZh": "專業科學管理",
+            "pct": 12.1
+          }
+        ],
+        "priceSfh": 1191525,
+        "priceAsOf": "2026-10",
         "unit": "place"
       },
       "media": {
         "locator": "assets/regions/la-locator.svg#temple-city"
       },
       "basics": {
-        "chineseBelt": "LA 縣建制市。相對亞凱迪亞／聖馬利諾，常被當成同廊道較可接近的自住市。",
-        "schoolBand": "Temple City Unified School District（TCUSD）。",
+        "chineseBelt": "同廊道裡比較好接近的自住市。華語客人常拿來跟亞凱、聖馬比預算，也常跟羅斯密一起問。",
+        "schoolBand": "Temple City Unified。交界別誤以為亞凱迪亞。",
         "commuteAxes": [
           "I-10",
           "I-210",
@@ -1347,26 +1968,26 @@
         ]
       },
       "priceBand": {
-        "sfhRange": "調查中（尚未核對與 Wave 1 同口徑的 Redfin Living-in SFH 中位）",
-        "condoRange": "未核對",
-        "ageProfile": "屋齡差異大；以 Listing／縣府建造年為準。",
-        "hoaMello": "逐案查 Title、稅單與 CC&Rs；本卡不做未核對金額。",
-        "asOf": ""
+        "sfhRange": "獨立屋中位大約 119 萬（Redfin）。",
+        "condoRange": "Condo 大約 75 萬、聯排大約 99 萬。全類型大約 117 萬（至 2026-09）。",
+        "ageProfile": "戰後郊區屋為主，屋況差大。",
+        "hoaMello": "Condo 較常見 HOA。",
+        "asOf": "2026-09"
       },
       "highlights": {
-        "jobs": "待核對公開就業敘事。",
-        "amenities": "待帶看標點；不寫未核對必吃清單。",
-        "safetyNote": "不引用未核對治安排行。",
-        "buyerFit": "要北聖蓋博自住、預算低於亞凱迪亞／聖馬利諾敘事、學區走 TCUSD 的比較者。"
+        "jobs": "自住加區域通勤。居民前三是教育醫療、金融地產、專業服務。",
+        "amenities": "山茶花節、Las Tunas、Rosemead Blvd 一帶吃飯，還有公園。",
+        "safetyNote": "治安分數沒核過就不講。交界帶看分清門牌所在市。",
+        "buyerFit": "要北聖蓋博自住、預算低於亞凱跟聖馬、學區走 TCUSD 的比較。"
       },
       "caveats": {
-        "propertyCaveats": "小城；與羅斯密／亞凱迪亞交界地址要看清門牌所在市。",
-        "taxCaveats": "以縣稅單為準；特別稅／評估區逐案。",
-        "schoolReality": "以 TCUSD 為主；交界地址可能被客人誤以為亞凱迪亞 — 必須對址。",
-        "pitchLine": "天普市（91780）是獨立市、學區 TCUSD；常和羅斯密一起問，但市政與學區不同。"
+        "propertyCaveats": "跟羅斯密、亞凱迪亞交界，門牌所在市要看清。",
+        "taxCaveats": "縣稅單；特別稅逐案。",
+        "schoolReality": "主軸 TCUSD，交界可能被誤以為亞凱，必須對址。",
+        "pitchLine": "天普市獨立屋大約 119 萬，學區 Temple City Unified。常跟羅斯密一起被問，可是市政跟學區不是同一套。"
       },
-      "compareLine": "和亞凱迪亞比：同屬北聖蓋博，但學區是 TCUSD 不是 AUSD；和羅斯密比：天普市更常被當成純自住市。",
-      "trendLine": "ACS／Redfin 待補；未 ready 前不進數字對照。",
+      "compareLine": "亞凱大約 195 萬、聖馬大約 345 萬；天普市是同廊道比較好接近的自住市。羅斯密更偏商業帶，學區更複雜。",
+      "trendLine": "人口三萬五左右，家戶所得中位大約十萬四。普查五年估計。",
       "lastReviewed": "2026-10-15",
       "sources": [
         {
@@ -1380,8 +2001,45 @@
           "url": "https://www.tcusd.net/",
           "date": "2026-10-15",
           "note": "District serving Temple City"
+        },
+        {
+          "label": "Census Reporter ACS 2024 5-year",
+          "url": "https://censusreporter.org/profiles/16000US0678148",
+          "date": "2026-10-15",
+          "note": "ACS 2020–2024 via Census Reporter API; industry C24050 resident employment"
+        },
+        {
+          "label": "Redfin Temple City living-in",
+          "url": "https://www.redfin.com/living-in/CA/Temple-City/6/19707",
+          "date": "2026-10-15",
+          "note": "SFH $1,191,525; Condo $749,923; TH $988,012; all-types $1,174,441"
+        },
+        {
+          "label": "Redfin Temple City housing market",
+          "url": "https://www.redfin.com/city/19707/CA/Temple-City/housing-market",
+          "date": "2026-09",
+          "note": "All-types $1,174,441; 3 months ending Sep 2026"
         }
-      ]
+      ],
+      "explainZh": "先講 TCUSD，再把羅斯密當隔壁對照，不是同一座城。",
+      "feelAxes": {
+        "weekend": {
+          "tag": "住商都有",
+          "line": "山茶花節、Las Tunas 一帶，比亞凱、聖馬好接近。"
+        },
+        "school": {
+          "tag": "多數單一學區",
+          "line": "Temple City Unified；交界別誤以為亞凱迪亞。"
+        },
+        "street": {
+          "tag": "戰後郊區屋",
+          "line": "屋況差大，門牌所在市要看清。"
+        },
+        "chineseLife": {
+          "tag": "華語自住圈",
+          "line": "常跟羅斯密一起被問，學區跟市政不是同一套。"
+        }
+      }
     },
     {
       "id": "rosemead",
@@ -1390,7 +2048,7 @@
       "nameEn": "Rosemead",
       "clusterId": "core-sgv-north",
       "wave": 2,
-      "status": "draft",
+      "status": "ready",
       "zips": [
         "91770"
       ],
@@ -1407,27 +2065,43 @@
         "kind": "city"
       },
       "snapshot": {
-        "vintage": null,
+        "vintage": "ACS 2020–2024",
         "priorVintage": null,
-        "population": null,
+        "population": 50013,
         "populationDeltaPct": null,
-        "asianAlonePct": null,
-        "hispanicPct": null,
-        "medianIncome": null,
+        "asianAlonePct": 66.0,
+        "hispanicPct": 29.1,
+        "medianIncome": 73566,
         "medianIncomeDeltaPct": null,
-        "bachelorsPlusPct": null,
-        "ownerOccupiedPct": null,
-        "residentIndustry": [],
-        "priceSfh": null,
-        "priceAsOf": null,
+        "bachelorsPlusPct": 21.6,
+        "ownerOccupiedPct": 47.3,
+        "residentIndustry": [
+          {
+            "key": "C24050011",
+            "labelZh": "教育醫療",
+            "pct": 15.7
+          },
+          {
+            "key": "C24050012",
+            "labelZh": "餐旅娛樂",
+            "pct": 12.1
+          },
+          {
+            "key": "C24050004",
+            "labelZh": "製造",
+            "pct": 11.9
+          }
+        ],
+        "priceSfh": 924631,
+        "priceAsOf": "2026-10",
         "unit": "place"
       },
       "media": {
         "locator": "assets/regions/la-locator.svg#rosemead"
       },
       "basics": {
-        "chineseBelt": "LA 縣建制市。與天普市緊鄰，Valley Blvd 商業帶強；不要用聖馬利諾的客群標籤套過來。",
-        "schoolBand": "學區拼圖待核對（可能跨小學區／高中區）— 本卡暫不寫死單一 USD 名稱。",
+        "chineseBelt": "Valley、Garvey 商業帶很滿。華語機能強，可是別用聖馬那套客群來套。",
+        "schoolBand": "小學可能是 Garvey 或 Rosemead School District，高中常走 El Monte Union（Rosemead High）。一定要用地址查，我不會報單一學區。",
         "commuteAxes": [
           "I-10",
           "I-605",
@@ -1435,26 +2109,26 @@
         ]
       },
       "priceBand": {
-        "sfhRange": "調查中（尚未核對與 Wave 1 同口徑的 Redfin Living-in SFH 中位）",
-        "condoRange": "未核對",
-        "ageProfile": "屋齡差異大；以 Listing／縣府建造年為準。",
-        "hoaMello": "逐案查 Title、稅單與 CC&Rs；本卡不做未核對金額。",
-        "asOf": ""
+        "sfhRange": "獨立屋中位大約 92 萬（Redfin）。",
+        "condoRange": "Condo 大約 66 萬、聯排大約 75 萬。全類型大約 92 萬（至 2026-09），跟獨立屋很接近。",
+        "ageProfile": "主幹道商業、巷內住宅混在一起。",
+        "hoaMello": "Condo、少數新案有 HOA。",
+        "asOf": "2026-09"
       },
       "highlights": {
-        "jobs": "待核對公開就業敘事。",
-        "amenities": "待帶看標點；不寫未核對必吃清單。",
-        "safetyNote": "不引用未核對治安排行。",
-        "buyerFit": "要聖蓋博生活圈機能、總價敘事低於聖馬利諾／亞凱迪亞、能接受學區對址功課的客人。"
+        "jobs": "Edison 總部在本市，那是地標，不是全市職業結構。居民前三是教育醫療、餐旅、製造。",
+        "amenities": "週末吃飯買菜很滿。Rosemead Park 那些是日常。",
+        "safetyNote": "治安分數沒核過就不講。主幹道商業跟巷內住宅感受不同。",
+        "buyerFit": "要聖蓋博生活圈機能、總價低於聖馬跟亞凱、能接受學區對址功課的客人。"
       },
       "caveats": {
-        "propertyCaveats": "商業走廊與住宅混雜；帶看分清主幹道與巷內。",
-        "taxCaveats": "以縣稅單為準；特別稅／評估區逐案。",
-        "schoolReality": "尚未核對完整學區拼圖；成交條件應寫明用地址查官方，禁止口頭保證。",
-        "pitchLine": "羅斯密（91770）是獨立市，常和天普市一起被問；商業帶強，學區比天普市複雜，先對地址。"
+        "propertyCaveats": "商業走廊跟住宅混，帶看分清幹道跟巷內。",
+        "taxCaveats": "縣稅單；特別稅逐案。",
+        "schoolReality": "K-8 可能是兩套，高中多為 EMUHSD，成交條件寫明對址。",
+        "pitchLine": "羅斯密獨立屋大約 92 萬，商業帶很滿，學區是拼圖。小學可能是 Garvey 或 Rosemead，高中常走 El Monte Union。先對地址，再拿天普市比。"
       },
-      "compareLine": "和天普市比：隔壁、客群重疊，但羅斯密更像「生活圈＋對址學區」而不是單一 USD 故事；和聖馬利諾比則完全不同總價與街廓。",
-      "trendLine": "ACS 待烘焙。學區未核對完成前，情報卡學區欄維持「待核對」。",
+      "compareLine": "隔壁天普市、客群重疊，可是羅斯密不是單一學區故事，總價也較低。拿聖馬來比，街廓跟總價完全不是同一檔。",
+      "trendLine": "人口五萬左右，家戶所得中位大約七萬四。餐旅、製造比重比旁邊自住市高一點。普查五年估計。",
       "lastReviewed": "2026-10-15",
       "sources": [
         {
@@ -1462,8 +2136,57 @@
           "url": "https://www.census.gov/programs-surveys/geography/technical-documentation/records-layout/gaz-record-layouts.html",
           "date": "2026-10-15",
           "note": "INTPT 34.06888, -118.08268"
+        },
+        {
+          "label": "Census Reporter ACS 2024 5-year",
+          "url": "https://censusreporter.org/profiles/16000US0662896",
+          "date": "2026-10-15",
+          "note": "ACS 2020–2024 via Census Reporter API; industry C24050 resident employment"
+        },
+        {
+          "label": "City of Rosemead — school districts",
+          "url": "https://rosemeadca.hosted.civiclive.com/contacts/resources/local_resources/school_districts",
+          "date": "2026-10-15",
+          "note": "Garvey SD, Rosemead SD, EMUHSD / Rosemead High"
+        },
+        {
+          "label": "Rosemead School District About",
+          "url": "https://www.rosemead.k12.ca.us/our-district",
+          "date": "2026-10-15",
+          "note": "K-8 serves Rosemead and portions of El Monte, San Gabriel, Temple City"
+        },
+        {
+          "label": "Redfin Rosemead living-in",
+          "url": "https://www.redfin.com/living-in/CA/Rosemead/6/16137",
+          "date": "2026-10-15",
+          "note": "SFH $924,631; Condo $659,932; TH $745,009; all-types $923,060"
+        },
+        {
+          "label": "Redfin Rosemead housing market",
+          "url": "https://www.redfin.com/city/16137/CA/Rosemead/housing-market",
+          "date": "2026-09",
+          "note": "All-types $923,060; 3 months ending Sep 2026"
         }
-      ]
+      ],
+      "explainZh": "先講學區拼圖，再講 Valley Blvd 機能。聖馬那套標籤這裡套不上。",
+      "feelAxes": {
+        "weekend": {
+          "tag": "商圈滿位",
+          "line": "Valley、Garvey 週末吃飯買菜很滿。"
+        },
+        "school": {
+          "tag": "學區拼圖",
+          "line": "小學可能是 Garvey 或 Rosemead，高中常走 El Monte Union，一定要對址。"
+        },
+        "street": {
+          "tag": "主幹道混住商",
+          "line": "幹道是商業，巷內才是住家。"
+        },
+        "chineseLife": {
+          "tag": "超市補習密集",
+          "line": "機能強，但別用聖馬那套客群來套。"
+        }
+      }
     }
   ]
 }

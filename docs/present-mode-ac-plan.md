@@ -193,6 +193,7 @@
 | `pitchLine` | 開場：這是哪、為什麼客人會問 |
 | `compareLine` | 對照：若你熟 A，這座城差在哪 |
 | `trendLine` | 趨勢：用 ACS 變化＋結構一句話，不寫保證升值 |
+| `feelAxes` | 感性四軸（不是分數）：週末怎麼過／學區壓力／街上感覺／華語生活圈。每軸一個 tag + 一句人話 |
 
 ### 4.8 地圖美學
 
@@ -332,10 +333,10 @@
 | 1 | `scripts/fetch_region_snapshot.py` → ACS snapshot | 有 key 就能灌人口／產業／趨勢 |
 | 2 | TIGER → 簡化 → 手繪感大洛杉磯 SVG | C 首屏可點 15 塊 |
 | 3 | 簡報化 UI：對照牆 + 情報卡 +「細節」+ 底欄切城 | 可對客翻頁 |
-| 4 | 補新八城四宮格與三句話（你改字） | draft → review → ready |
+| 4 | 補新八城四宮格與三句話 | 已補：6 城 `ready`；Westchester／Playa Vista `review`（SFH 軸空白） |
 | 5 | LEHD | **取消** |
 
-新八城不擋第 2～3 步：輪廓可先上，數字空白。
+2026-10-15 資料補完：15 城 ACS snapshot 已烘焙；每城有 pitch／compare／trend／explainZh。新八城不擋地圖。
 
 ---
 
@@ -360,7 +361,7 @@
 ## 10. 開工依據
 
 - [x] 依本檔開始實作第 0～3 步  
-- [ ] 新八城四宮格等你提供帶看備忘再填（不擋地圖）
+- [x] 第 4 步資料補完（ACS + Living-in SFH + 三句話／對客提示）；西區兩格 ZCTA 維持 review
 
 日期：2026-10-15  
 確認人：使用者口頭／聊天鎖定

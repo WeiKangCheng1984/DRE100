@@ -6,10 +6,10 @@
 
 | 類型 | 來源 | 用法 |
 |---|---|---|
-| 成交中位價 | Redfin Housing Market / Living-in（MLS＋公部門紀錄彙整） | 標明「近 3 個月中位」與截至月 |
-| 人口／亞裔比例 | U.S. Census Bureau QuickFacts | 寫「Asian alone %」，**不**自行等同「台／陸籍」 |
+| 成交中位價 | Redfin Housing Market / Living-in（MLS＋公部門紀錄彙整） | **SFH 對照軸**只放 Living-in 獨立屋中位。全類型寫在價格帶文字，不混軸 |
+| 人口／所得／教育／自住／產業 | Census Reporter ACS 2024 5-year（`acs2024_5yr`，2020–2024） | 寫「Asian alone %」，**不**自行等同「台／陸籍」。產業用 C24050 居民就業前三。無 2019 對照 → 人口／所得 delta 留空 |
 | 學區 | 市政府 FAQ／學區官網／CDE | 寫學區全名；邊界以官方為準 |
-| 行政地位 | Census / 市府官網 | City vs CDP（未建制） |
+| 行政地位 | Census / 市府官網 | City vs CDP（未建制）vs ZCTA |
 
 **刻意不寫入（避免瞎掰）：** 無來源的治安分數、保證學區排名、未查稅單的 Mello-Roos 金額、虛構通勤分鐘數、未核對的「台客比例」。
 
@@ -76,19 +76,21 @@
 - 亞裔：Census QuickFacts 10.7%；Hispanic/Latino 71.8%
 - 地標：Cal Poly Pomona、Fairplex（Redfin Living-in／市府公開資訊）
 
-## Wave 2 展示擴充（2026-10-15 建檔，`status: draft`）
+## Wave 2（2026-10-15 內容補完）
 
-人口／產業／趨勢以 ACS 5-year 烘焙為準（`scripts/fetch_region_snapshot.py`），未跑腳本前 **不填假數字**。價格未核對 Redfin Living-in 前對照條留空。
+ACS 全 15 格已烘焙。`scripts/enrich_region_batches.py` 讀 `scripts/_acs_raw.json`（Census Reporter）。
 
-| 單元 | 地理單位 | 已核對 |
-|---|---|---|
-| Culver City | place `0617568` | Gazetteer；CCUSD https://www.ccusd.org/ |
-| San Marino | place `0668224` | Gazetteer；SMUSD https://www.smusd.us/ |
-| South Pasadena | place `0673220` | Gazetteer；SPUSD https://www.spusd.net/ |
-| Arcadia | place `0602462` | Gazetteer；AUSD https://www.ausd.net/ |
-| Temple City | place `0678148` | Gazetteer；TCUSD https://www.tcusd.net/ |
-| Rosemead | place `0662896` | Gazetteer；**學區拼圖未核對** |
-| Westchester | **ZCTA 90045** | 非市界；含 LAX 周邊 |
-| Playa Vista | **ZCTA 90094** | 非市界；小區 ACS 誤差可能大 |
+| 單元 | 單位 | 狀態 | Living-in SFH | 學區／注意 |
+|---|---|---|---|---|
+| Culver City | place `0617568` | ready | $1,799,283（2026-10） | CCUSD |
+| San Marino | place `0668224` | ready | $3,448,625 | SMUSD；小城筆數少 |
+| South Pasadena | place `0673220` | ready | $1,844,265 | SPUSD |
+| Arcadia | place `0602462` | ready | $1,949,223 | AUSD |
+| Temple City | place `0678148` | ready | $1,191,525 | TCUSD |
+| Rosemead | place `0662896` | ready | $924,631 | Garvey SD + Rosemead SD（K-8）+ EMUHSD（Rosemead High） |
+| Westchester | **ZCTA 90045** | review | **不進 SFH 軸** | LAUSD。社區全類型約 $1,683,414（至 2026-06）只寫價格帶 |
+| Playa Vista | **ZCTA 90094** | review | **不進 SFH 軸** | LAUSD。社區全類型約 $1,280,000（至 2026-03）；Condo 權重高、基數小 |
+
+哈仙達崗維持 ready，但 ZIP 91745 全類型 $970,500 **不**寫進 `priceSfh`。
 
 完整展示規則：`docs/present-mode-ac-plan.md`。

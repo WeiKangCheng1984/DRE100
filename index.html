@@ -310,6 +310,19 @@
             font-weight: 600;
         }
         .theater-quad summary::-webkit-details-marker { display: none; }
+        .theater-explain {
+            border-left: 3px solid var(--theater-sand);
+            padding: 0.7rem 0.9rem;
+            background: rgba(196, 160, 106, 0.12);
+            border-radius: 0 0.85rem 0.85rem 0;
+            font-size: 0.92rem;
+            line-height: 1.55;
+            color: #3f3a33;
+        }
+        .dark .theater-explain {
+            background: rgba(255,255,255,0.06);
+            color: #e7e0d4;
+        }
         .theater-present-btn {
             border: 1px solid rgba(36,52,71,0.18);
             background: rgba(255,255,255,0.7);
@@ -415,6 +428,45 @@
             border-radius: inherit;
             min-width: 0;
         }
+        .theater-feel-row {
+            display: grid;
+            grid-template-columns: 6.5rem 8.2rem 1fr;
+            gap: 0.45rem;
+            align-items: start;
+            font-size: 12px;
+            padding: 0.38rem 0;
+            border-bottom: 1px solid rgba(28,25,23,0.06);
+        }
+        .theater-feel-compact .theater-feel-row {
+            grid-template-columns: 6.5rem 1fr;
+        }
+        .dark .theater-feel-row { border-bottom-color: rgba(255,255,255,0.08); }
+        .theater-feel-tag {
+            display: inline-block;
+            padding: 0.12rem 0.5rem;
+            border-radius: 999px;
+            border: 1px solid rgba(36,52,71,0.16);
+            font-size: 11px;
+            line-height: 1.4;
+            color: #3f3a33;
+        }
+        .dark .theater-feel-tag {
+            border-color: rgba(255,255,255,0.18);
+            color: #e7e0d4;
+        }
+        .theater-feel-line {
+            color: #57534e;
+            line-height: 1.45;
+        }
+        .dark .theater-feel-line { color: #d6d3d1; }
+        .theater-feel-card {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 0.55rem;
+        }
+        @media (min-width: 640px) {
+            .theater-feel-card { grid-template-columns: 1fr 1fr; }
+        }
         .cluster-dot {
             width: 0.55rem; height: 0.55rem; border-radius: 9999px;
             display: inline-block; margin-right: 0.35rem; vertical-align: middle;
@@ -468,8 +520,8 @@
                     <button id="btnTrackIntake" type="button" onclick="switchModule('intake')" class="present-hide px-3 py-1.5 rounded-lg text-xs sm:text-sm font-semibold bg-blue-700 hover:bg-blue-800 text-white transition-colors">
                         需求評估
                     </button>
-                    <button id="btnPresentMode" type="button" onclick="togglePresentMode()" class="theater-present-btn" title="平板對客展示模式" style="display:none">
-                        展示模式
+                    <button id="btnPresentMode" type="button" onclick="togglePresentMode()" class="theater-present-btn" title="對客簡報" style="display:none">
+                        對客簡報
                     </button>
                     <button onclick="toggleDarkMode()" title="切換深淺模式" class="present-hide p-2 rounded-xl text-slate-500 hover:bg-slate-100 dark:text-slate-400 dark:hover:bg-slate-800 border border-slate-200 dark:border-slate-700 transition-colors">
                         <svg id="themeIconSun" class="w-5 h-5 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"></path></svg>
@@ -575,7 +627,7 @@
             <button type="button" onclick="enterRegionTheater()" class="text-left p-5 sm:p-6 rounded-2xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 hover:border-stone-400 dark:hover:border-stone-500 transition-colors">
                 <p class="text-xs font-semibold uppercase tracking-wider text-stone-500 dark:text-stone-400">Field Ops · Theater</p>
                 <h3 class="mt-2 text-lg font-display font-bold text-slate-900 dark:text-white">區域舞台</h3>
-                <p class="mt-2 text-sm text-slate-600 dark:text-slate-300 leading-relaxed">平板對客展示模式：沉浸式七城舞台、大字 pitch、已核對來源。</p>
+                <p class="mt-2 text-sm text-slate-600 dark:text-slate-300 leading-relaxed">地圖對照、單城怎麼跟客人講。空著的格子代表這項還沒對上口徑，不是沒有市場。</p>
                 <span class="mt-4 inline-block text-sm font-semibold text-stone-700 dark:text-stone-200">進入 Region Theater →</span>
             </button>
         </div>
@@ -1129,7 +1181,7 @@
                     <div class="max-w-3xl">
                         <p class="text-[11px] font-semibold uppercase tracking-[0.22em] text-theater-fog mb-2">Field Ops · Region Theater</p>
                         <h2 id="regionsTitleZh" class="theater-city-title">南加區域速查</h2>
-                        <p id="regionsSubtitleZh" class="mt-2 text-sm sm:text-base text-stone-600 dark:text-stone-300 max-w-xl leading-relaxed">東聖蓋博／60 廊道優先 · 已核對資料可對客展示</p>
+                        <p id="regionsSubtitleZh" class="mt-2 text-sm sm:text-base text-stone-600 dark:text-stone-300 max-w-xl leading-relaxed">帶看用的南加生活圈對照 · 數字都有出處</p>
                     </div>
                     <div class="flex flex-wrap gap-2 relative">
                         <button type="button" id="regionsBackBtn" onclick="regionsShowOverview()" class="hidden px-3 py-1.5 rounded-full text-sm border border-stone-300/80 dark:border-white/20 text-stone-700 dark:text-stone-200 hover:bg-white/50 dark:hover:bg-white/10">
@@ -5068,7 +5120,7 @@
             const btn = document.getElementById("btnPresentMode");
             if (!btn) return;
             btn.style.display = show ? "" : "none";
-            btn.textContent = regionsState.present ? "退出展示" : "展示模式";
+            btn.textContent = regionsState.present ? "退出簡報" : "對客簡報";
         }
 
         function setPresentMode(on) {
@@ -5125,9 +5177,9 @@
         }
 
         function regionStatusLabel(status) {
-            if (status === "ready") return { text: "已核對", cls: "text-emerald-800 dark:text-emerald-300" };
-            if (status === "review") return { text: "審核中", cls: "text-amber-800 dark:text-amber-300" };
-            return { text: "調查中", cls: "text-stone-500" };
+            if (status === "ready") return { text: "可以講", cls: "text-emerald-800 dark:text-emerald-300" };
+            if (status === "review") return { text: "先講感覺", cls: "text-amber-800 dark:text-amber-300" };
+            return { text: "還在補", cls: "text-stone-500" };
         }
 
         function escapeHtml(str) {
@@ -5155,10 +5207,21 @@
 
         function geoKindLabel(region) {
             const kind = region.geo && region.geo.kind;
-            if (kind === "zcta") return "ZCTA 郵區 · 非市界";
-            if (kind === "cdp") return "CDP 未建制";
-            return "建制市";
+            if (kind === "zcta") return "郵區，不是市";
+            if (kind === "cdp") return "未建制社區";
+            return "獨立市";
         }
+
+        function feelAxesOf(region) {
+            return (region && region.feelAxes) || {};
+        }
+
+        const FEEL_AXIS_META = [
+            ["weekend", "週末怎麼過"],
+            ["school", "學區壓力"],
+            ["street", "街上感覺"],
+            ["chineseLife", "華語生活圈"]
+        ];
 
         function snapOf(region) {
             return region.snapshot || {};
@@ -5346,29 +5409,28 @@
         function renderRegionsOverviewHtml(p) {
             if (regionsState.present) {
                 return (
-                    `<p class="text-sm text-stone-600 dark:text-stone-300">點地圖或底欄選城。西區請看左下小圖。淡影是 LA 市界，不用全市數字。條形圖只列已核對城。</p>` +
-                    `<p class="text-[11px] text-stone-400 mt-2">Boundaries: U.S. Census Bureau TIGER／ACS 五年估計非今年行情 · 價格 Redfin</p>`
+                    `<p class="text-sm text-stone-600 dark:text-stone-300">點地圖或下面城名。西區看左下角小圖。淡線是洛杉磯市界，別拿全市數字來講西徹斯特。</p>` +
+                    `<p class="text-[11px] text-stone-400 mt-2">邊界：人口普查局 TIGER · 人口所得是五年估計 · 價格 Redfin</p>`
                 );
             }
             const clusters = (p.clusters || []).slice().sort((a, b) => (a.sort || 0) - (b.sort || 0));
             const regions = p.regions || [];
             return (
                 `<div class="mb-2">` +
-                `<p class="text-[11px] uppercase tracking-[0.18em] text-theater-fog font-semibold">點地圖或城市卡，開始對客講述</p>` +
-                `<p class="text-sm text-stone-600 dark:text-stone-300 mt-1">西區三格見左下小圖 · 數字對照只含已核對城 · 資料皆附來源</p>` +
+                `<p class="text-[11px] uppercase tracking-[0.18em] text-theater-fog font-semibold">點地圖或城市卡</p>` +
+                `<p class="text-sm text-stone-600 dark:text-stone-300 mt-1">西區三格看左下角 · 數字只並排口徑對齊的城</p>` +
                 `</div>` +
                 clusters.map((cluster) => {
                     const cities = regions.filter((r) => r.clusterId === cluster.id);
                     const isFuture = (cluster.wave || 99) > 1 && cities.length === 0;
                     const cards = cities.length
                         ? `<div class="grid grid-cols-1 sm:grid-cols-2 gap-3 mt-3">${cities.map(renderRegionCardHtml).join("")}</div>`
-                        : `<p class="text-sm text-stone-500 dark:text-stone-400 mt-2">${escapeHtml(cluster.blurbZh || "Wave 擴充預留")}${isFuture ? " — 尚未建檔" : ""}</p>`;
+                        : `<p class="text-sm text-stone-500 dark:text-stone-400 mt-2">${escapeHtml(cluster.blurbZh || "這一帶以後再補")}${isFuture ? " · 大圖先不放" : ""}</p>`;
                     return (
                         `<section class="pb-5 border-b border-stone-300/40 dark:border-white/10 last:border-0 last:pb-0">` +
                         `<div class="flex flex-wrap items-baseline gap-2">` +
                         `<span class="cluster-dot" style="background:${escapeHtml(cluster.color || "#6f8f9e")}"></span>` +
                         `<h3 class="font-display text-xl text-stone-900 dark:text-stone-100">${escapeHtml(cluster.nameZh)}</h3>` +
-                        `<span class="text-[11px] tracking-wide text-theater-fog">Wave ${cluster.wave || "?"}</span>` +
                         `</div>` +
                         `<p class="text-xs text-stone-500 dark:text-stone-400 mt-1">${escapeHtml(cluster.blurbZh || "")}</p>` +
                         `${cards}</section>`
@@ -5399,11 +5461,34 @@
                     `<div class="theater-bar-row">` +
                     `<span class="truncate" title="${escapeHtml(r.nameEn)}">${escapeHtml(r.nameZh)}</span>` +
                     `<div class="theater-bar-track"><div class="theater-bar-fill" style="width:${v.n == null ? 0 : pct}%;background:${color}"></div></div>` +
-                    `<span class="text-right ${v.label ? "" : "text-stone-400 italic"}">${v.label ? escapeHtml(v.label) : "未核對"}</span>` +
+                    `<span class="text-right ${v.label ? "" : "text-stone-400 italic"}">${v.label ? escapeHtml(v.label) : "口徑未對齊"}</span>` +
                     `</div>`
                 );
             }).join("");
             return `<div class="theater-metric"><div class="theater-metric-label">${escapeHtml(title)}</div>${rows}</div>`;
+        }
+
+        function renderFeelCompare(cities, compact) {
+            if (!cities.length) return "";
+            const blocks = FEEL_AXIS_META.map(([key, title]) => {
+                const rows = cities.map((r) => {
+                    const ax = feelAxesOf(r)[key] || {};
+                    const tag = regionText(ax.tag) || "—";
+                    const line = compact ? "" : regionText(ax.line);
+                    return (
+                        `<div class="theater-feel-row">` +
+                        `<span class="truncate" title="${escapeHtml(r.nameEn)}">${escapeHtml(r.nameZh)}</span>` +
+                        `<span class="theater-feel-tag">${escapeHtml(tag)}</span>` +
+                        (line ? `<span class="theater-feel-line">${escapeHtml(line)}</span>` : "") +
+                        `</div>`
+                    );
+                }).join("");
+                return `<div class="theater-metric"><div class="theater-metric-label">${escapeHtml(title)}</div>${rows}</div>`;
+            }).join("");
+            return (
+                `<p class="text-[11px] uppercase tracking-[0.14em] text-theater-fog font-semibold mt-4 mb-2">帶看感覺 · 不是分數</p>` +
+                `<div class="theater-compare ${compact ? "theater-feel-compact" : ""}">${blocks}</div>`
+            );
         }
 
         function renderRegionCompare(p, selected) {
@@ -5413,30 +5498,35 @@
             const set = regionsState.showAllCompare
                 ? ready
                 : (selected ? ready.filter((r) => r.clusterId === selected.clusterId) : []);
-            const toggleLabel = regionsState.showAllCompare ? "只看本廊道" : "全區對照（已核對）";
+            const feelSet = regionsState.showAllCompare
+                ? theaterCities().filter((r) => r.feelAxes)
+                : (selected ? theaterCities().filter((r) => r.clusterId === selected.clusterId && r.feelAxes) : []);
+            const toggleLabel = regionsState.showAllCompare ? "只看這一帶" : "十五城一起看";
             const heading = regionsState.showAllCompare
-                ? "全區對照 · 僅 status=ready"
-                : (selected ? "同廊道對照 · 僅已核對城" : "對照條");
+                ? "十五城數字 · 口徑對齊的才進條"
+                : (selected ? "這一帶數字" : "先選一座城");
+            const feelHtml = feelSet.length ? renderFeelCompare(feelSet, !!regionsState.showAllCompare) : "";
             if (!set.length) {
                 host.innerHTML = selected
-                    ? `<p class="text-xs text-stone-500 mb-3">此廊道尚無已核對城，數字對照待補（輪廓仍可點）。</p><button type="button" class="theater-present-btn" onclick="toggleAllCompare()">${toggleLabel}</button>`
-                    : `<p class="text-xs text-stone-500 mb-2">選一座城後，顯示同廊道已核對對照。新八城先有輪廓、數字空白。</p>`;
+                    ? `<p class="text-xs text-stone-500 mb-3">這一帶還沒有能並排的獨立屋數字。格子空著是口徑，不是沒有市場。</p><button type="button" class="theater-present-btn" onclick="toggleAllCompare()">${toggleLabel}</button>${feelHtml}`
+                    : `<p class="text-xs text-stone-500 mb-2">點一座城，我用同一帶的城跟你比。人口所得是普查五年估計；獨立屋只放同一口徑的中位。</p>`;
                 return;
             }
             const metrics = [
-                ["總人口（ACS）", "population"],
-                ["Asian alone %（普查分類）", "asian"],
-                ["Hispanic or Latino %", "hispanic"],
-                ["家戶所得中位（ACS）", "income"],
-                ["SFH 中位（Redfin Living-in）", "sfh"],
-                ["居民產業前三大", "industry"]
+                ["人口", "population"],
+                ["亞裔（普查分類，不是台籍）", "asian"],
+                ["西語裔", "hispanic"],
+                ["家戶所得", "income"],
+                ["獨立屋中位", "sfh"],
+                ["居民在做什麼", "industry"]
             ];
             host.innerHTML = (
                 `<div class="flex flex-wrap items-center justify-between gap-2 mb-3">` +
                 `<p class="text-[11px] uppercase tracking-[0.14em] text-theater-fog font-semibold">${heading}</p>` +
                 `<button type="button" class="theater-present-btn" onclick="toggleAllCompare()">${toggleLabel}</button>` +
                 `</div>` +
-                `<div class="theater-compare">${metrics.map(([t, k]) => renderCompareMetric(t, k, set)).join("")}</div>`
+                `<div class="theater-compare">${metrics.map(([t, k]) => renderCompareMetric(t, k, set)).join("")}</div>` +
+                feelHtml
             );
         }
 
@@ -5451,7 +5541,7 @@
                 `<p class="text-xs text-stone-500">${escapeHtml(region.nameEn)} · ${escapeHtml(zips)}</p></div>` +
                 `<span class="text-[11px] ${st.cls}">${st.text}</span>` +
                 `</div>` +
-                `<p class="text-xs text-stone-600 dark:text-stone-300 mt-3 line-clamp-2">${price ? escapeHtml(price) : "價格調查中"}</p>` +
+                `<p class="text-xs text-stone-600 dark:text-stone-300 mt-3 line-clamp-2">${price ? escapeHtml(price) : "價位還在對口徑"}</p>` +
                 `</button>`
             );
         }
@@ -5462,13 +5552,13 @@
                 return (
                     `<div class="py-3 border-b border-stone-200/70 dark:border-white/10 last:border-0">` +
                     `<dt class="text-[11px] tracking-[0.14em] uppercase text-theater-fog">${escapeHtml(label)}</dt>` +
-                    `<dd class="mt-1 text-sm sm:text-[0.95rem] leading-relaxed ${filled ? "text-stone-800 dark:text-stone-100" : "text-stone-400 italic"}">${filled ? escapeHtml(filled) : "調查中／未核對不填"}</dd>` +
+                    `<dd class="mt-1 text-sm sm:text-[0.95rem] leading-relaxed ${filled ? "text-stone-800 dark:text-stone-100" : "text-stone-400 italic"}">${filled ? escapeHtml(filled) : "這項還沒核過，先不講"}</dd>` +
                     `</div>`
                 );
             }).join("");
             return (
                 `<details class="theater-quad" open>` +
-                `<summary><span>${escapeHtml(title)}</span><span class="text-xs font-sans font-medium text-stone-400">展開／收合</span></summary>` +
+                `<summary><span>${escapeHtml(title)}</span><span class="text-xs font-sans font-medium text-stone-400">打開／收起</span></summary>` +
                 `<dl class="mt-1">${body}</dl></details>`
             );
         }
@@ -5502,51 +5592,64 @@
             const snap = snapOf(region);
             const kpis = [
                 ["人口", fmtInt(snap.population)],
-                ["Asian alone", fmtPct(snap.asianAlonePct)],
-                ["Hispanic", fmtPct(snap.hispanicPct)],
+                ["亞裔", fmtPct(snap.asianAlonePct)],
+                ["西語裔", fmtPct(snap.hispanicPct)],
                 ["家戶所得", fmtUsd(snap.medianIncome)],
-                ["SFH", fmtUsd(snap.priceSfh)]
+                ["獨立屋", fmtUsd(snap.priceSfh)]
             ].map(([lab, val]) => (
                 `<div class="px-3 py-2 rounded-xl bg-white/50 dark:bg-white/5 border border-stone-200/60 dark:border-white/10">` +
                 `<p class="text-[10px] uppercase tracking-[0.12em] text-theater-fog">${lab}</p>` +
-                `<p class="font-display text-lg ${val ? "text-stone-900 dark:text-stone-100" : "text-stone-400 italic"}">${val ? escapeHtml(val) : "未核對"}</p>` +
+                `<p class="font-display text-lg ${val ? "text-stone-900 dark:text-stone-100" : "text-stone-400 italic"}">${val ? escapeHtml(val) : "口徑未對齊"}</p>` +
                 `</div>`
             )).join("");
             const ind = industryLine(region);
             const compareLine = regionText(region.compareLine);
             const trendLine = regionText(region.trendLine);
+            const explainZh = regionText(region.explainZh);
+            const feel = feelAxesOf(region);
+            const feelCard = FEEL_AXIS_META.map(([key, title]) => {
+                const ax = feel[key] || {};
+                const tag = regionText(ax.tag);
+                const line = regionText(ax.line);
+                if (!tag && !line) return "";
+                return (
+                    `<div class="px-3 py-2 rounded-xl bg-white/50 dark:bg-white/5 border border-stone-200/60 dark:border-white/10">` +
+                    `<p class="text-[10px] tracking-[0.12em] text-theater-fog">${escapeHtml(title)}</p>` +
+                    (tag ? `<p class="mt-1 text-sm font-semibold text-stone-800 dark:text-stone-100">${escapeHtml(tag)}</p>` : "") +
+                    (line ? `<p class="mt-1 text-sm leading-relaxed text-stone-600 dark:text-stone-300">${escapeHtml(line)}</p>` : "") +
+                    `</div>`
+                );
+            }).join("");
             const trendBits = [
-                snap.populationDeltaPct != null ? "人口 " + (snap.populationDeltaPct > 0 ? "+" : "") + snap.populationDeltaPct + "%" : null,
-                snap.medianIncomeDeltaPct != null ? "所得 " + (snap.medianIncomeDeltaPct > 0 ? "+" : "") + snap.medianIncomeDeltaPct + "%" : null,
-                snap.bachelorsPlusPct != null ? "學士+ " + snap.bachelorsPlusPct + "%" : null,
+                snap.bachelorsPlusPct != null ? "學士以上 " + snap.bachelorsPlusPct + "%" : null,
                 snap.ownerOccupiedPct != null ? "自住 " + snap.ownerOccupiedPct + "%" : null
             ].filter(Boolean).join(" · ");
             const quad = (
-                renderQuadrant("基本盤", [
-                    ["華人生活圈", b.chineseBelt],
-                    ["學區帶", b.schoolBand],
-                    ["通勤軸", axes]
+                renderQuadrant("這座城是什麼", [
+                    ["生活圈", b.chineseBelt],
+                    ["學區", b.schoolBand],
+                    ["通勤", axes]
                 ]) +
-                renderQuadrant("價格帶", [
-                    ["SFH 區間", p.sfhRange],
-                    ["Condo 區間", p.condoRange],
-                    ["屋齡結構", p.ageProfile],
-                    ["HOA / Mello-Roos", p.hoaMello],
+                renderQuadrant("價位", [
+                    ["獨立屋", p.sfhRange],
+                    ["Condo／聯排", p.condoRange],
+                    ["屋齡", p.ageProfile],
+                    ["HOA／特別稅", p.hoaMello],
                     ["參考月份", p.asOf]
                 ]) +
-                renderQuadrant("核心亮點", [
-                    ["就業圈", h.jobs],
-                    ["生活機能", h.amenities],
-                    ["治安敘事", h.safetyNote],
-                    ["適配客群", h.buyerFit]
+                renderQuadrant("為什麼客人會問", [
+                    ["工作", h.jobs],
+                    ["日常", h.amenities],
+                    ["治安", h.safetyNote],
+                    ["什麼客人比較合適", h.buyerFit]
                 ]) +
-                renderQuadrant("實務注意", [
-                    ["屋況注意", c.propertyCaveats],
-                    ["稅負注意", c.taxCaveats],
-                    ["入學現實", c.schoolReality]
+                renderQuadrant("成交前別漏", [
+                    ["屋況", c.propertyCaveats],
+                    ["稅", c.taxCaveats],
+                    ["入學", c.schoolReality]
                 ]) +
                 `<details class="theater-quad">` +
-                `<summary><span>資料來源</span><span class="text-xs font-sans font-medium text-stone-400">可點連結核對</span></summary>` +
+                `<summary><span>數字從哪來</span><span class="text-xs font-sans font-medium text-stone-400">可點連結</span></summary>` +
                 `<div class="pt-1">${sourcesHtml}</div></details>`
             );
 
@@ -5558,23 +5661,25 @@
                 `<span class="text-[11px] uppercase tracking-[0.16em] text-theater-fog">${escapeHtml(cluster ? cluster.nameZh : "")}</span>` +
                 `<span class="text-[11px] ${st.cls}">${st.text}</span>` +
                 `<span class="text-[11px] text-stone-500">${escapeHtml(geoKindLabel(region))}</span>` +
-                (reviewed ? `<span class="text-[11px] text-stone-400">盤點 ${escapeHtml(reviewed)}</span>` : "") +
+                (reviewed ? `<span class="text-[11px] text-stone-400">看過 ${escapeHtml(reviewed)}</span>` : "") +
                 `</div>` +
                 (tags ? `<div class="flex flex-wrap gap-1.5 mb-4">${tags}</div>` : "") +
                 (pitch
                     ? `<p class="font-display text-xl sm:text-2xl leading-snug text-stone-900 dark:text-stone-100 max-w-3xl">${escapeHtml(pitch)}</p>`
-                    : `<p class="italic text-stone-400">對外一句話尚未填寫</p>`) +
+                    : `<p class="italic text-stone-400">開場一句話還沒寫</p>`) +
                 (compareLine ? `<p class="mt-3 text-sm sm:text-base leading-relaxed text-stone-700 dark:text-stone-200 max-w-3xl">${escapeHtml(compareLine)}</p>` : "") +
                 (trendLine ? `<p class="mt-2 text-sm leading-relaxed text-stone-600 dark:text-stone-300 max-w-3xl">${escapeHtml(trendLine)}</p>` : "") +
+                (explainZh ? `<p class="theater-explain mt-4 max-w-3xl"><span class="text-[10px] tracking-[0.14em] text-theater-fog block mb-1">帶看時我會先講</span>${escapeHtml(explainZh)}</p>` : "") +
                 `</div>` +
+                (feelCard ? `<div><p class="text-[11px] tracking-[0.12em] text-theater-fog mb-2">帶看感覺 · 不是分數</p><div class="theater-feel-card">${feelCard}</div></div>` : "") +
                 `<div class="grid grid-cols-2 sm:grid-cols-5 gap-2">${kpis}</div>` +
                 `<div class="text-sm text-stone-700 dark:text-stone-200">` +
-                `<p class="text-[11px] uppercase tracking-[0.12em] text-theater-fog mb-1">居民從事的產業</p>` +
-                `<p class="${ind ? "" : "italic text-stone-400"}">${ind ? escapeHtml(ind) : "未核對（待 ACS 烘焙）"}</p>` +
-                (trendBits ? `<p class="text-xs text-stone-500 mt-2">趨勢（ACS 五年估計，非今年行情）：${escapeHtml(trendBits)}</p>` : `<p class="text-xs text-stone-400 mt-2">趨勢列待 ACS 烘焙</p>`) +
+                `<p class="text-[11px] tracking-[0.12em] text-theater-fog mb-1">住這裡的人在做什麼</p>` +
+                `<p class="${ind ? "" : "italic text-stone-400"}">${ind ? escapeHtml(ind) : "這項還沒核過"}</p>` +
+                (trendBits ? `<p class="text-xs text-stone-500 mt-2">${escapeHtml(trendBits)} · 普查五年估計，不是今年行情</p>` : "") +
                 `</div>` +
                 `<div>` +
-                `<button type="button" class="theater-present-btn" onclick="toggleRegionDetailQuad()">${regionsState.showDetailQuad ? "收起細節" : "細節"}</button>` +
+                `<button type="button" class="theater-present-btn" onclick="toggleRegionDetailQuad()">${regionsState.showDetailQuad ? "收起來" : "再講細一點"}</button>` +
                 `</div>` +
                 (regionsState.showDetailQuad ? `<div class="flex flex-col">${quad}</div>` : "") +
                 `</article>`
