@@ -117,11 +117,19 @@ Mobile-first：導覽可折疊；區域與指引頁以 Accordion、Badge、Check
 
 | 階段 | 內容 |
 |---|---|
-| P2 | 填滿 Wave 1 七城調查；總覽對比（學區／價格／通勤） |
+| P2 | 填滿 Wave 1 七城調查；Immersive Theater；總覽對比 |
+| P2.5 | **Deck 簡報模式**：一鍵全螢幕投影片（東 SGV 四城 → 雙城對照 → 來源末頁） |
 | P3 | Escrow 30 天、持有成本、外國人貸款；連回成交實務 |
 | P4 | Intake 多步驟 → 需求摘要卡 |
 | P5 | （可選）Supabase／通知；或再評估框架升級 |
 | Wave 2/3 | 往北、往西加城，只追加 JSON |
+
+### Deck Mode（簡報）
+
+- 入口：Hub「簡報模式」或區域頁「簡報模式」按鈕；`body.deck-mode` 全螢幕殼。
+- 預設劇本：封面 → 廊道 → 鑽石吧／沃爾納特／羅蘭崗／哈仙達崗 → 雙城對照 → 下一步 → **來源集中末頁**。
+- 操作：← →／空白鍵／平板滑動；對照頁點城市輪流指定 A／B。
+- 與 Theater「展示模式」並存：展示＝沉浸閱讀；簡報＝投影片節奏。資料仍只讀 `data/regions.json`。
 
 ## 7. Compliance Footer (Canonical)
 
